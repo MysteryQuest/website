@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mystery Quest - Explore a map of mysterious events, historical oddities, and UAP sightings. Filter events by country, type, and date range.">
+    <meta name="keywords" content="Mystery Quest, MystiQst, UAP sightings, UFO events, historical mysteries, strange occurrences">
+    <meta name="author" content="Mystery Quest Team">
+    <title>Mystery Quest Map - Explore Mysterious Events</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
+            const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
+            const SHEET_NAME = 'Sheet1';
+    
+            async function fetchEvents() {
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const response = await fetch(url);
+                const data = await response.json();
+    
+                if (data.values && data.values.length > 1) {
+                    const headers = data.values[0];
+                    const rows = data.values.slice(1);
+    
+                    const events = rows.map(row => {
+                        const event = {};
+                        headers.forEach((header, index) => {
+                            event[header] = row[index] || '';
+                        });
+                        return event;
+                    });
+    
+                    updateMap(events);
+                    updateTable(events);
+                }
+            }
+    
+            function updateMap(events) {
+                const map = L.map("map").setView([20, 0], 2);
+                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+                }).addTo(map);
+    
+                events.forEach(event => {
+                    const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
+                    marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.description}`);
+                });
+            }
+    
+            function updateTable(events) {
+                const tableBody = document.getElementById("eventsTable").querySelector("tbody");
+                tableBody.innerHTML = "";
+    
+                events.forEach(event => {
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${event.date}</td>
+                        <td>${event.location}</td>
+                        <td>${event.event_type}</td>
+                        <td>${event.description}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            }
+    
+            async function submitEvent() {
+                const password = document.getElementById("password").value;
+                if (password !== "admin123") {
+                    alert("Invalid password.");
+                    return;
+                }
+    
+                const newEvent = {
+                    event_type: document.getElementById("newEventType").value,
+                    name: document.getElementById("newName").value,
+                    location: document.getElementById("newLocation").value,
+                    latitude: parseFloat(document.getElementById("newLatitude").value),
+                    longitude: parseFloat(document.getElementById("newLongitude").value),
+                    date: document.getElementById("newDate").value,
+                    description: document.getElementById("newDescription").value,
+                    url: document.getElementById("newUrl").value,
+                    image_url: document.getElementById("newImageUrl").value
+                };
+    
+                const body = {
+                    values: [[
+                        newEvent.event_type,
+                        newEvent.name,
+                        newEvent.location,
+                        newEvent.latitude,
+                        newEvent.longitude,
+                        newEvent.date,
+                        newEvent.description,
+                        newEvent.url,
+                        newEvent.image_url
+                    ]]
+                };
+    
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}:append?valueInputOption=RAW&key=${API_KEY}`;
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(body)
+                });
+    
+                if (response.ok) {
+                    alert("Event submitted successfully!");
+                    fetchEvents();
+                } else {
+                    alert("Failed to submit event.");
+                }
+            }
+    
+            fetchEvents();
+        </script>
+        <style>
+            #map {
+                height: 600px;
+                margin: 20px 0;
+                border-radius: 8px;
+            }
+            .filters {
+                margin: 20px 0;
+                background: #1f1f1f;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            .filters label {
+                margin-right: 10px;
+            }
+            .table-container {
+                margin: 20px 0;
+                overflow-x: auto;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                background: #1f1f1f;
+                color: #ffffff;
+            }
+            th, td {
+                border: 1px solid #333;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background: #333;
+            }
+            .form-container {
+                margin: 20px 0;
+                background: #1f1f1f;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+        </style>
+    </head>
+    <body>
+        <header class="bg-dark p-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="logo.png" alt="MystiQst Logo" height="90">
+                <ul class="nav nav-tabs ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Livestream</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    
+        <div class="container">
+            <h1>Mystery Quest Map</h1>
+            <div class="filters">
+                <form id="filtersForm">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="">All</option>
+                    </select>
+    
+                    <label for="eventType">Event Type:</label>
+                    <select id="eventType" name="eventType">
+                        <option value="">All</option>
+                    </select>
+    
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate" name="startDate">
+    
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate" name="endDate">
+    
+                    <button type="button" onclick="applyFilters()">Apply Filters</button>
+                </form>
+            </div>
+    
+            <div id="map"></div>
+    
+            <div class="table-container">
+                <table id="eventsTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Country</th>
+                            <th>Event Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Events will be dynamically loaded here -->
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="form-container">
+                <h2>Submit a New Event</h2>
+                <form id="eventForm">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+    
+                    <label for="eventType">Event Type:</label>
+                    <input type="text" id="newEventType" name="eventType" required>
+    
+                    <label for="name">Event Name:</label>
+                    <input type="text" id="newName" name="name" required>
+    
+                    <label for="location">Location:</label>
+                    <input type="text" id="newLocation" name="location" required>
+    
+                    <label for="latitude">Latitude:</label>
+                    <input type="number" step="any" id="newLatitude" name="latitude" required>
+    
+                    <label for="longitude">Longitude:</label>
+                    <input type="number" step="any" id="newLongitude" name="longitude" required>
+    
+                    <label for="date">Date:</label>
+                    <input type="date" id="newDate" name="date" required>
+    
+                    <label for="description">Description:</label>
+                    <textarea id="newDescription" name="description"></textarea>
+    
+                    <label for="url">Source URL:</label>
+                    <input type="url" id="newUrl" name="url" required>
+    
+                    <label for="imageUrl">Image URL:</label>
+                    <input type="url" id="newImageUrl" name="imageUrl">
+    
+                    <button type="button" onclick="submitEvent()">Submit Event</button>
+                </form>
+            </div>
+        </div>
+    </body>
+    </html>
+    

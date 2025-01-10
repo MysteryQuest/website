@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: "Orbitron", serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+.nav-tabs {
+    background-color: rgb(109, 81, 112);
+    border: none;
+}
+.nav-tabs .nav-link {
+    color: #ffffff;
+}
+.nav-tabs .nav-link.active {
+    background-color: rgb(63, 176, 170);
+    color: #ffffff;
+}
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 3em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+.form-container {
+    margin: 20px auto;
+    max-width: 500px;
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #ffffff;
+    font-size: 1em;
+}
+.form-container button {
+    background: #007BFF;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background: #0056b3;
+}
+.links {
+    margin: 20px;
+    text-align: center;
+}
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.captcha-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.captcha-container input {
+    flex: 1;
+    margin-right: 10px;
+}
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
