@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MystiQst - Mystery Quest</title>
+    <meta name="description" content="Mystery Quest - Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.">
+    <meta name="keywords" content="Mystery Quest, MystiQst, ancient myths, modern mysteries, paranormal, unexplained phenomena, debunk myths, explore unknown">
+    <meta name="author" content="Mystery Quest Team">
+    <title>Mystery Quest - Explore Mysteries and the Unexplained | MystiQst</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,14 +19,14 @@
             color: #ffffff;
         }
         .nav-tabs {
-            background-color:rgb(109, 81, 112); /* Dark green color from the logo */
+            background-color: rgb(109, 81, 112);
             border: none;
         }
         .nav-tabs .nav-link {
             color: #ffffff;
         }
         .nav-tabs .nav-link.active {
-            background-color:rgb(63, 176, 170);
+            background-color: rgb(63, 176, 170);
             color: #ffffff;
         }
         .hero {
@@ -84,7 +87,16 @@
         .links a:hover {
             text-decoration: underline;
         }
-        h2{
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .captcha-container input {
+            flex: 1;
+            margin-right: 10px;
+        }
+        h2 {
             text-align: center;
             margin: 20px 0;
         }
@@ -116,11 +128,14 @@
     <div id="submit-mystery" class="container">
         <h2>Submit a Mystery</h2>
         <div class="form-container">
-            <form action="/submit-mystery" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="mystery" rows="5" placeholder="Describe the mystery you want us to investigate..." required></textarea>
-                <button type="submit">Submit</button>
+            <form id="mysteryForm">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="mystery" name="mystery" rows="5" placeholder="Describe the mystery you want us to investigate..." required></textarea>
+                <div class="captcha-container">
+                    <input type="text" id="captcha" placeholder="What is 3 + 4?" required>
+                    <button type="button" onclick="validateCaptcha()">Submit</button>
+                </div>
             </form>
         </div>
     </div>
@@ -132,6 +147,72 @@
         <a href="#">Watch Our Livestream (Coming Soon!)</a>
     </div>
 
+    <div id="spanish-version">
+        <header class="bg-dark p-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="logo.png" alt="MystiQst Logo" height="90">
+                <ul class="nav nav-tabs ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#submit-mystery">Enviar un Misterio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transmisión en Vivo</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="hero">
+            <img src="splash.webp" alt="Mystery Quest Splash">
+            <h1>Bienvenidos a Mystery Quest <br/>www.mystiqst.com</h1>
+        </div>
+
+        <div id="submit-mystery" class="container">
+            <h2>Enviar un Misterio</h2>
+            <div class="form-container">
+                <form id="mysteryForm">
+                    <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Tu Correo Electrónico" required>
+                    <textarea id="mystery" name="mystery" rows="5" placeholder="Describe el misterio que quieres que investiguemos..." required></textarea>
+                    <div class="captcha-container">
+                        <input type="text" id="captcha" placeholder="¿Cuánto es 3 + 4?" required>
+                        <button type="button" onclick="validateCaptcha()">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="links">
+            <h2>Síguenos</h2>
+            <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">YouTube</a>
+            <a href="https://www.tiktok.com/@mysteryquest01" target="_blank">TikTok</a>
+            <a href="#">Mira Nuestra Transmisión en Vivo (Próximamente)</a>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function validateCaptcha() {
+            const captcha = document.getElementById('captcha').value;
+            if (captcha.trim() === '7') {
+                sendEmail();
+            } else {
+                alert('Respuesta incorrecta en el captcha. Por favor, inténtalo de nuevo.');
+            }
+        }
+
+        function sendEmail() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const mystery = document.getElementById('mystery').value;
+
+            const mailtoLink = `mailto:mystiqst@gmail.com?subject=Mystery%20Submission%20from%20${encodeURIComponent(name)}&body=Email:%20${encodeURIComponent(email)}%0A%0AMystery:%0A${encodeURIComponent(mystery)}`;
+
+            window.location.href = mailtoLink;
+        }
+    </script>
 </body>
 </html>
