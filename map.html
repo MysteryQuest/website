@@ -23,7 +23,7 @@
             const SHEET_NAME = 'Sheet1';
     
             async function fetchEvents() {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
                 const response = await fetch(url);
                 const data = await response.json();
     
@@ -233,7 +233,7 @@
                     <label for="endDate">End Date:</label>
                     <input type="date" id="endDate" name="endDate">
     
-                    <button type="button" onclick="applyFilters()">Apply Filters</button>
+                    <button type="button" onclick="fetchEvents()">Apply Filters</button>
                 </form>
             </div>
     
