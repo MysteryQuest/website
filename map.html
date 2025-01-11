@@ -21,7 +21,8 @@
             const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
             const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
             const SHEET_NAME = 'Sheet1';
-    
+            let map;
+
             async function fetchEvents() {
                 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
                 const response = await fetch(url);
@@ -63,10 +64,18 @@
             }
     
             function updateMap(events) {
-                const map = L.map("map").setView([20, 0], 2);
-                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-                    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
-                }).addTo(map);
+                if (!map) {
+                    map = L.map("map").setView([20, 0], 2);
+                    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                        attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+                    }).addTo(map);
+                } else {
+                    map.eachLayer(layer => {
+                        if (layer instanceof L.Marker) {
+                            map.removeLayer(layer);
+                        }
+                    });
+                }
     
                 events.forEach((event) => {
                     const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
@@ -107,7 +116,7 @@
             }
     
             async function voteForEvent(eventId) {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
                 const response = await fetch(url);
                 const data = await response.json();
     
@@ -127,7 +136,7 @@
                             values: [eventRow]
                         };
     
-                        const updateUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${updateBody.range}?valueInputOption=RAW&key=${API_KEY}`;
+                        const updateUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${updateBody.range}?valueInputOption=RAW&key=${BLANKETY}`;
                         const updateResponse = await fetch(updateUrl, {
                             method: 'PUT',
                             headers: {
@@ -187,7 +196,7 @@
                     ]]
                 };
     
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}:append?valueInputOption=RAW&key=${API_KEY}`;
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}:append?valueInputOption=RAW&key=${BLANKETY}`;
                 const response = await fetch(url, {
                     method: 'POST',
                     headers: {
@@ -231,4 +240,124 @@
                 border-collapse: collapse;
                 background: #1f1f1f;
                 color: #ffffff;
+            }
+            th, td {
+                border: 1px solid #333;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background: #333;
+            }
+            .form-container {
+                margin: 20px 0;
+                background: #1f1f1f;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+            .highlight {
+                background-color: #444;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="bg-dark p-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="logo.png" alt="MystiQst Logo" height="90">
+                <ul class="nav nav-tabs ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="map.html">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Livestream</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    
+        <div class="container">
+            <h1>Mystery Quest Map</h1>
+            <div class="filters">
+                <form id="filtersForm">
+                    <label for="eventType">Event Type:</label>
+                    <select id="eventType" name="eventType">
+                        <option value="">All</option>
+                    </select>
+    
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate" name="startDate">
+    
+                    <label for="endDate">End Date:</label>
+                    <input type="date" id="endDate" name="endDate">
+    
+                    <button type="button" onclick="fetchEvents()">Apply Filters</button>
+                </form>
+            </div>
+    
+            <div id="map"></div>
+    
+            <div class="table-container">
+                <table id="eventsTable">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Event Type</th>
+                            <th>Description</th>
+                            <th>Votes</th>
+                            <th>Investigation Status</th>
+                            <th>Verdict</th>
+                            <th>Details</th>
+                            <th>Vote</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Events will be dynamically loaded here -->
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="form-container">
+                <h2>Submit a New Event</h2>
+                <form id="eventForm">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+    
+                    <label for="eventType">Event Type:</label>
+                    <input type="text" id="newEventType" name="eventType" required>
+    
+                    <label for="name">Event Name:</label>
+                    <input type="text" id="newName" name="name" required>
+    
+                    <label for="location">Location:</label>
+                    <input type="text" id="newLocation" name="location" required>
+    
+                    <label for="latitude">Latitude:</label>
+                    <input type="number" step="any" id="newLatitude" name="latitude" required>
+    
+                    <label for="longitude">Longitude:</label>
+                    <input type="number" step="any" id="newLongitude" name="longitude" required>
+    
+                    <label for="date">Date:</label>
+                    <input type="date" id="newDate" name="date" required>
+    
+                    <label for="description">Description:</label>
+                    <textarea id="newDescription" name="description"></textarea>
+    
+                    <label for="url">Source URL:</label>
+                    <input type="url" id="newUrl" name="url" required>
+    
+                    <label for="imageUrl">Image URL:</label>
+                    <input type="url" id="newImageUrl" name="imageUrl">
+    
+                    <button type="button" onclick="submitEvent()">Submit Event</button>
+                </form>
+            </div>
+        </div>
+    </body>
+    </html>
+    
     
