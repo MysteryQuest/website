@@ -23,7 +23,7 @@
             const SHEET_NAME = 'Sheet1';
     
             async function fetchEvents() {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
                 const response = await fetch(url);
                 const data = await response.json();
     
@@ -47,28 +47,18 @@
     
             function populateFilters(events) {
                 const eventTypes = new Set();
-                const countries = new Set();
     
                 events.forEach(event => {
                     eventTypes.add(event.event_type);
-                    countries.add(event.location);
                 });
     
                 const eventTypeSelect = document.getElementById("eventType");
-                const countrySelect = document.getElementById("country");
     
                 eventTypes.forEach(type => {
                     const option = document.createElement("option");
                     option.value = type;
                     option.textContent = type;
                     eventTypeSelect.appendChild(option);
-                });
-    
-                countries.forEach(country => {
-                    const option = document.createElement("option");
-                    option.value = country;
-                    option.textContent = country;
-                    countrySelect.appendChild(option);
                 });
             }
     
@@ -104,7 +94,6 @@
                     const row = document.createElement("tr");
                     row.innerHTML = `
                         <td>${event.date}</td>
-                        <td>${event.location}</td>
                         <td>${event.event_type}</td>
                         <td>${event.description}</td>
                         <td><a href='${event.url}' target='_blank'>Source</a></td>
@@ -233,11 +222,6 @@
             <h1>Mystery Quest Map</h1>
             <div class="filters">
                 <form id="filtersForm">
-                    <label for="country">Country:</label>
-                    <select id="country" name="country">
-                        <option value="">All</option>
-                    </select>
-    
                     <label for="eventType">Event Type:</label>
                     <select id="eventType" name="eventType">
                         <option value="">All</option>
@@ -260,7 +244,6 @@
                     <thead>
                         <tr>
                             <th>Date</th>
-                            <th>Country</th>
                             <th>Event Type</th>
                             <th>Description</th>
                             <th>Source URL</th>
