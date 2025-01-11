@@ -96,10 +96,18 @@
                         <td>${event.date}</td>
                         <td>${event.event_type}</td>
                         <td>${event.description}</td>
-                        <td><a href='${event.url}' target='_blank'>Source</a></td>
+                        <td>${event.votes || 0}</td>
+                        <td>${event.investigation_status || "Open"}</td>
+                        <td>${event.verdict || "Unknown"}</td>
+                        <td><a href='${event.research_link || "#"}' target='_blank'>Details</a></td>
+                        <td><button onclick="voteForEvent(${event.id})">👍</button></td>
                     `;
                     tableBody.appendChild(row);
                 });
+            }
+    
+            function voteForEvent(eventId) {
+                console.log(`Vote registered for event ID: ${eventId}`);
             }
     
             async function submitEvent() {
@@ -118,7 +126,11 @@
                     date: document.getElementById("newDate").value,
                     description: document.getElementById("newDescription").value,
                     url: document.getElementById("newUrl").value,
-                    image_url: document.getElementById("newImageUrl").value
+                    image_url: document.getElementById("newImageUrl").value,
+                    votes: 0,
+                    investigation_status: "Open",
+                    verdict: "Unknown",
+                    research_link: ""
                 };
     
                 const body = {
@@ -131,7 +143,11 @@
                         newEvent.date,
                         newEvent.description,
                         newEvent.url,
-                        newEvent.image_url
+                        newEvent.image_url,
+                        newEvent.votes,
+                        newEvent.investigation_status,
+                        newEvent.verdict,
+                        newEvent.research_link
                     ]]
                 };
     
@@ -246,7 +262,10 @@
                             <th>Date</th>
                             <th>Event Type</th>
                             <th>Description</th>
-                            <th>Source URL</th>
+                            <th>Votes</th>
+                            <th>Investigation Status</th>
+                            <th>Verdict</th>
+                            <th>Details</th>
                         </tr>
                     </thead>
                     <tbody>
