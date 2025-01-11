@@ -123,6 +123,7 @@
                 try {
                   const response = await fetch(url, {
                     method: "POST",
+                    mode: 'no-cors', // Disable CORS checks
                     headers: {
                       "Content-Type": "application/json",
                     },
