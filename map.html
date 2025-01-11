@@ -23,7 +23,7 @@
             const SHEET_NAME = 'Sheet1';
     
             async function fetchEvents() {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
                 const response = await fetch(url);
                 const data = await response.json();
     
@@ -39,9 +39,37 @@
                         return event;
                     });
     
+                    populateFilters(events);
                     updateMap(events);
                     updateTable(events);
                 }
+            }
+    
+            function populateFilters(events) {
+                const eventTypes = new Set();
+                const countries = new Set();
+    
+                events.forEach(event => {
+                    eventTypes.add(event.event_type);
+                    countries.add(event.location);
+                });
+    
+                const eventTypeSelect = document.getElementById("eventType");
+                const countrySelect = document.getElementById("country");
+    
+                eventTypes.forEach(type => {
+                    const option = document.createElement("option");
+                    option.value = type;
+                    option.textContent = type;
+                    eventTypeSelect.appendChild(option);
+                });
+    
+                countries.forEach(country => {
+                    const option = document.createElement("option");
+                    option.value = country;
+                    option.textContent = country;
+                    countrySelect.appendChild(option);
+                });
             }
     
             function updateMap(events) {
@@ -50,9 +78,21 @@
                     attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
                 }).addTo(map);
     
-                events.forEach(event => {
+                events.forEach((event, index) => {
                     const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
-                    marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.description}`);
+                    marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.description}<br><a href='${event.url}' target='_blank'>Source</a>`);
+                    marker.on("click", () => highlightRow(index));
+                });
+            }
+    
+            function highlightRow(index) {
+                const rows = document.querySelectorAll("#eventsTable tbody tr");
+                rows.forEach((row, i) => {
+                    if (i === index) {
+                        row.classList.add("highlight");
+                    } else {
+                        row.classList.remove("highlight");
+                    }
                 });
             }
     
@@ -67,6 +107,7 @@
                         <td>${event.location}</td>
                         <td>${event.event_type}</td>
                         <td>${event.description}</td>
+                        <td><a href='${event.url}' target='_blank'>Source</a></td>
                     `;
                     tableBody.appendChild(row);
                 });
@@ -165,6 +206,9 @@
                 border-radius: 8px;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             }
+            .highlight {
+                background-color: #444;
+            }
         </style>
     </head>
     <body>
@@ -219,6 +263,7 @@
                             <th>Country</th>
                             <th>Event Type</th>
                             <th>Description</th>
+                            <th>Source URL</th>
                         </tr>
                     </thead>
                     <tbody>
