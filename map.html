@@ -114,46 +114,28 @@
                     tableBody.appendChild(row);
                 });
             }
-    
+            // Deployment ID AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g
             async function voteForEvent(eventId) {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
-                const response = await fetch(url);
-                const data = await response.json();
-    
-                if (data.values && data.values.length > 1) {
-                    const headers = data.values[0];
-                    const rows = data.values.slice(1);
-    
-                    const eventRow = rows[eventId];
-                    const votesIndex = headers.indexOf("votes");
-    
-                    if (votesIndex !== -1) {
-                        const currentVotes = parseInt(eventRow[votesIndex] || "0", 10);
-                        eventRow[votesIndex] = currentVotes + 1;
-    
-                        const updateBody = {
-                            range: `${SHEET_NAME}!A${eventId + 2}:Z${eventId + 2}`,
-                            values: [eventRow]
-                        };
-    
-                        const updateUrl = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${updateBody.range}?valueInputOption=RAW&key=${BLANKETY}`;
-                        const updateResponse = await fetch(updateUrl, {
-                            method: 'PUT',
-                            headers: {
-                                'Content-Type': 'application/json'
-                            },
-                            body: JSON.stringify(updateBody)
-                        });
-    
-                        if (updateResponse.ok) {
-                            alert("Vote registered successfully!");
-                            fetchEvents();
-                        } else {
-                            alert("Failed to register vote.");
-                        }
-                    }
+                const rowIndex = eventId + 2; // Adjust for 1-based indexing and header row
+                const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec"; // Replace with the Apps Script Web App URL
+            
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ rowIndex }),
+                });
+            
+                const result = await response.json();
+                if (result.success) {
+                    alert("Vote recorded successfully!");
+                    fetchEvents(); // Refresh data
+                } else {
+                    alert(`Failed to record vote: ${result.error}`);
                 }
             }
+            
     
             async function submitEvent() {
                 const password = document.getElementById("password").value;
