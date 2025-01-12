@@ -115,35 +115,29 @@
                 });
             }
 
-            // Deployment ID AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g
             async function voteForEvent(eventId) {
-                const rowIndex = eventId + 2; // Adjust for 1-based indexing and header row
-                const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec"; // Replace with the Apps Script Web App URL
-              
-                try {
-                  const response = await fetch(url, {
-                    method: "POST",
-                    headers: {
-                      "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({ rowIndex }),
-                  });
-              
-                  const result = await response.json();
-                  if (result.success) {
-                    alert("Vote recorded successfully!");
-                    fetchEvents(); // Refresh the data
-                  } else {
-                    alert(`Error: ${result.error}`);
-                  }
-                } catch (error) {
-                  console.error("Error:", error);
-                  alert("An error occurred while voting.");
-                }
-              }
-              
+            const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
+            const payload = JSON.stringify({ rowIndex: eventId + 2 });
             
-    
+            try {
+                const response = await fetch(url, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "text/plain", // Avoid preflight
+                },
+                body: payload,
+                mode: "no-cors", // Bypass CORS restrictions
+                });
+            
+                // With no-cors mode, the response is opaque and cannot be processed.
+                console.log("Request sent. Response cannot be inspected due to no-cors mode.");
+                alert("Vote submitted successfully! (Assumed)");
+            } catch (error) {
+                console.error("Error submitting vote:", error);
+                alert("An error occurred while submitting your vote.");
+            }
+            }
+                
             async function submitEvent() {
                 const password = document.getElementById("password").value;
                 if (password !== "admin123") {
