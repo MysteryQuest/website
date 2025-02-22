@@ -398,5 +398,239 @@
             </form>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
+        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
+        const SHEET_NAME = 'Sheet1';
+        let map;
+
+        async function fetchEvents(filters = {}) {
+            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+            const response = await fetch(url);
+            const data = await response.json();
+
+            if (data.values && data.values.length > 1) {
+                const headers = data.values[0];
+                const rows = data.values.slice(1);
+
+                let events = rows.map((row, index) => {
+                    const event = { id: index };
+                    headers.forEach((header, i) => {
+                        event[header] = row[i] || '';
+                    });
+                    return event;
+                });
+
+                // Apply filters
+                if (filters.eventType) {
+                    events = events.filter(event => event.event_type === filters.eventType);
+                }
+                if (filters.startDate) {
+                    events = events.filter(event => new Date(event.date) >= new Date(filters.startDate));
+                }
+                if (filters.endDate) {
+                    events = events.filter(event => new Date(event.date) <= new Date(filters.endDate));
+                }
+
+                populateFilters(events);
+                updateMap(events);
+                updateTable(events);
+            }
+        }
+
+        function populateFilters(events) {
+            const eventTypes = new Set();
+
+            events.forEach(event => {
+                eventTypes.add(event.event_type);
+            });
+
+            const eventTypeSelect = document.getElementById("eventType");
+            eventTypeSelect.innerHTML = '<option value="">All</option>';
+
+            eventTypes.forEach(type => {
+                const option = document.createElement("option");
+                option.value = type;
+                option.textContent = type;
+                eventTypeSelect.appendChild(option);
+            });
+        }
+
+        function updateMap(events) {
+            if (!map) {
+                map = L.map("map").setView([20, 0], 2);
+                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+                }).addTo(map);
+            } else {
+                map.eachLayer(layer => {
+                    if (layer instanceof L.Marker) {
+                        map.removeLayer(layer);
+                    }
+                });
+            }
+
+            events.forEach((event) => {
+                const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
+                marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.name}<br><a href='${event.url}' target='_blank'>Source</a>`);
+                marker.on("click", () => highlightRow(event.id));
+            });
+        }
+
+        function highlightRow(index) {
+            const rows = document.querySelectorAll("#eventsTable tbody tr");
+            rows.forEach((row, i) => {
+                if (i === index) {
+                    row.classList.add("highlight");
+                } else {
+                    row.classList.remove("highlight");
+                }
+            });
+        }
+
+        function updateTable(events) {
+            const tableBody = document.getElementById("eventsTable").querySelector("tbody");
+            tableBody.innerHTML = "";
+
+            events.forEach(event => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${event.date}</td>
+                    <td>${event.event_type}</td>
+                    <td>${event.name}</td>
+                    <td>${event.votes || 0}</td>
+                    <td>${event.investigation_status || "Open"}</td>
+                    <td>${event.verdict || "Unknown"}</td>
+                    <td><a href='detail.html?name=${encodeURIComponent(event.name)}' target='_blank'>Details</a></td>
+                    <td><button onclick="voteForEvent(${event.id})">👍</button></td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+
+        async function voteForEvent(eventId) {
+            const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
+            const payload = JSON.stringify({ rowIndex: eventId + 2 });
+
+            try {
+                const response = await fetch(url, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "text/plain", // Avoid preflight
+                    },
+                    body: payload,
+                    mode: "no-cors", // Bypass CORS restrictions
+                });
+
+                // With no-cors mode, the response is opaque and cannot be processed.
+                console.log("Request sent. Response cannot be inspected due to no-cors mode.");
+                alert("Vote submitted successfully!");
+            } catch (error) {
+                console.error("Error submitting vote:", error);
+                alert("An error occurred while submitting your vote.");
+            }
+        }
+
+        async function submitEvent() {
+            const password = document.getElementById("password").value;
+            if (password !== "admin123") {
+                alert("Invalid password.");
+                return;
+            }
+
+            const newEvent = {
+                event_type: document.getElementById("newEventType").value,
+                name: document.getElementById("newName").value,
+                location: document.getElementById("newLocation").value,
+                latitude: parseFloat(document.getElementById("newLatitude").value),
+                longitude: parseFloat(document.getElementById("newLongitude").value),
+                date: document.getElementById("newDate").value,
+                description: document.getElementById("newDescription").value,
+                url: document.getElementById("newUrl").value,
+                image_url: document.getElementById("newImageUrl").value,
+                votes: 0,
+                investigation_status: "Open",
+                verdict: "Unknown",
+                research_link: "detail.html?name=" + encodeURIComponent(document.getElementById("newName").value)
+            };
+
+            const body = {
+                values: [[
+                    newEvent.event_type,
+                    newEvent.name,
+                    newEvent.location,
+                    newEvent.latitude,
+                    newEvent.longitude,
+                    newEvent.date,
+                    newEvent.description,
+                    newEvent.url,
+                    newEvent.image_url,
+                    newEvent.votes,
+                    newEvent.investigation_status,
+                    newEvent.verdict,
+                    newEvent.research_link
+                ]]
+            };
+
+            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}:append?valueInputOption=RAW&key=${BLANKETY}`;
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(body)
+            });
+
+            if (response.ok) {
+                alert("Event submitted successfully!");
+                fetchEvents();
+            } else {
+                alert("Failed to submit event.");
+            }
+        }
+
+        document.getElementById("filtersForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const filters = {
+                eventType: document.getElementById("eventType").value,
+                startDate: document.getElementById("startDate").value,
+                endDate: document.getElementById("endDate").value
+            };
+            fetchEvents(filters);
+        });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            fetchEvents();
+        });
+
+        function sortTable(columnIndex, ascending) {
+            const table = document.getElementById("eventsTable");
+            const tbody = table.querySelector("tbody");
+            const rows = Array.from(tbody.querySelectorAll("tr"));
+
+            rows.sort((a, b) => {
+                const aText = a.cells[columnIndex].textContent.trim();
+                const bText = b.cells[columnIndex].textContent.trim();
+
+                if (!isNaN(aText) && !isNaN(bText)) {
+                    return ascending ? aText - bText : bText - aText;
+                }
+
+                return ascending ? aText.localeCompare(bText) : bText.localeCompare(aText);
+            });
+
+            rows.forEach(row => tbody.appendChild(row));
+        }
+
+        document.querySelectorAll("#eventsTable th").forEach((header, index) => {
+            header.addEventListener("click", () => {
+                const ascending = !header.classList.contains("ascending");
+                document.querySelectorAll("#eventsTable th").forEach(th => th.classList.remove("ascending", "descending"));
+                header.classList.add(ascending ? "ascending" : "descending");
+                sortTable(index, ascending);
+            });
+        });
+    </script>
 </body>
 </html>
