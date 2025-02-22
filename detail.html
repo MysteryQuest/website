@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mystery Quest - Explore a map of mysterious events, historical oddities, and UAP sightings.">
+    <meta name="keywords" content="Mystery Quest, MystiQst, UAP sightings, UFO events, historical mysteries, strange occurrences">
+    <meta name="author" content="Mystery Quest Team">
+    <title>Mystery Quest Event Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
+        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
+        const SHEET_NAME = 'Sheet1';
+        let map;
+
+        async function fetchEventDetails(eventName) {
+            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+            const response = await fetch(url);
+            const data = await response.json();
+
+            if (data.values && data.values.length > 1) {
+            const headers = data.values[0];
+            const rows = data.values.slice(1);
+
+            const event = rows.find(row => row[headers.indexOf('name')] === eventName);
+            if (event) {
+                const eventDetails = {};
+                headers.forEach((header, i) => {
+                eventDetails[header] = event[i] || '';
+                });
+
+                displayEventDetails(eventDetails);
+                updateMap(eventDetails);
+            } else {
+                alert('Event not found.');
+            }
+            }
+        }
+
+        function displayEventDetails(event) {
+            document.getElementById('eventDetails').innerHTML = `
+                <h2>${event.name}</h2>
+                <p><strong>Type:</strong> ${event.event_type}</p>
+                <p><strong>Date:</strong> ${event.date}</p>
+                <p><strong>Location:</strong> ${event.location}</p>
+                <p><strong>Description:</strong> ${event.description}</p>
+                <p><strong>Votes:</strong> ${event.votes || 0}</p>
+                <p><strong>Investigation Status:</strong> ${event.investigation_status || "Open"}</p>
+                <p><strong>Verdict:</strong> ${event.verdict || "Unknown"}</p>
+                <p><strong>Source:</strong> <a href='${event.url}' target='_blank'>Link</a></p>
+                <p><strong>Research Link:</strong> <a href='${event.research_link}' target='_blank'>Details</a></p>
+                <button onclick="voteForEvent(${event.id})">👍 Vote</button>
+            `;
+        }
+
+        function updateMap(event) {
+            if (!map) {
+                map = L.map("map").setView([parseFloat(event.latitude), parseFloat(event.longitude)], 10);
+                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+                }).addTo(map);
+            } else {
+                map.setView([parseFloat(event.latitude), parseFloat(event.longitude)], 10);
+            }
+
+            const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
+            marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.name}<br><a href='${event.url}' target='_blank'>Source</a>`);
+        }
+
+        async function voteForEvent(eventId) {
+            const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
+            const payload = JSON.stringify({ rowIndex: eventId + 2 });
+
+            try {
+                const response = await fetch(url, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "text/plain", // Avoid preflight
+                    },
+                    body: payload,
+                    mode: "no-cors", // Bypass CORS restrictions
+                });
+
+                // With no-cors mode, the response is opaque and cannot be processed.
+                console.log("Request sent. Response cannot be inspected due to no-cors mode.");
+                alert("Vote submitted successfully!");
+            } catch (error) {
+                console.error("Error submitting vote:", error);
+                alert("An error occurred while submitting your vote.");
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const eventName = urlParams.get('name');
+            if (eventName) {
+                fetchEventDetails(eventName);
+            } else {
+                alert('No event name provided.');
+            }
+        });
+    </script>
+    <style>
+        #map {
+            height: 600px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .details-container {
+            margin: 20px 0;
+            background: #1f1f1f;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="logo.png" alt="MystiQst Logo" height="90">
+            <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="map.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Livestream</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Mystery Quest Event Details</h1>
+        <div id="map"></div>
+        <div id="eventDetails" class="details-container">
+            <!-- Event details will be dynamically loaded here -->
+        </div>
+    </div>
+</body>
+</html>
