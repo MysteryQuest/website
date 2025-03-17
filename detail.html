@@ -48,7 +48,7 @@
         function displayEventDetails(event) {
             document.getElementById('eventDetails').innerHTML = `
                 <h2>${event.name}</h2>
-                <p><img src=${event.img_url} class="image"></p>
+                <p><img src="${event.img_url ? event.img_url : 'images/' + event.event_type + '.png'}" class="image"></p>
                 <p><strong>Type:</strong> ${event.event_type}</p>
                 <p><strong>Date:</strong> ${event.date}</p>
                 <p><strong>Location:</strong> ${event.location}</p>
