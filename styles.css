@@ -86,3 +86,17 @@ h2 {
     text-align: center;
     margin: 20px 0;
 }
+
+image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: #1f1f1f;
+    padding: 10px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
