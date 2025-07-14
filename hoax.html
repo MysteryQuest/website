@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mystery Quest - Explore a map of mysterious events, historical oddities, and UAP sightings. Filter events by country, type, and date range.">
+    <meta name="description" content="Mystery Quest - Is is a Hoax? Check out events new and old and vote if you think they are real or a hoax.">
     <meta name="keywords" content="Mystery Quest, MystiQst, UAP sightings, UFO events, historical mysteries, strange occurrences">
     <meta name="author" content="Mystery Quest Team">
     <title>Mystery Quest Is it a Hoax? - Explore Mysterious Events</title>
@@ -84,6 +84,8 @@
                     mystery[header] = row[i] || '';
                 });
                 mystery.id = index;
+                // Store the actual spreadsheet row index (offset by 2 for header and 1-based index)
+                mystery.spreadsheetRowIndex = rows.indexOf(row) + 2;
                 // Map spreadsheet columns to JS property names
                 mystery.realVotes = parseInt(mystery.votes || '0');
                 mystery.hoaxVotes = parseInt(mystery.hoax || '0');
@@ -146,21 +148,20 @@
             setTimeout(() => {
                 moveToNextSlide(index);
             }, 800);
-        }
-
         async function submitVote(index, type) {
             const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
-            // Determine which column to update
+            // Use the actual spreadsheet row index and correct column name
             let column;
             if (type === 'realVotes') {
-                column = 'votes'; // Make sure this matches the exact header in your sheet
+                column = 'votes'; // Use the exact header name from your sheet
             } else if (type === 'hoaxVotes') {
-                column = 'hoax'; // Make sure this matches the exact header in your sheet
+                column = 'hoax'; // Use the exact header name from your sheet
             } else {
                 return;
             }
+            // Use the original row index from the spreadsheet (store it when mapping)
             const payload = JSON.stringify({
-                rowIndex: mysteries[index].id + 2,
+                rowIndex: mysteries[index].spreadsheetRowIndex,
                 column: column
             });
 
@@ -176,6 +177,8 @@
                 console.log("Vote submitted.");
             } catch (error) {
                 console.error("Error submitting vote:", error);
+            }
+        }
             }
         }
 
