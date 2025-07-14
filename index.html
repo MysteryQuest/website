@@ -67,11 +67,11 @@
             border: 1px solid #555 !important;
             padding: 5px 8px !important;
             border-radius: 4px !important;
-            color: #fff !important;
+            color: #fffff !important;
         }
         
         .goog-te-gadget-simple .goog-te-menu-value {
-            color: #fff !important;
+            color: #fffff !important;
         }
         
         .goog-te-gadget-simple .goog-te-menu-value:hover {
@@ -93,6 +93,96 @@
         
         body {
             top: 0 !important;
+        }
+        
+        /* Video container styling */
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        
+        .video-container iframe {
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+        
+        /* Mobile responsive styles for index page */
+        @media (max-width: 768px) {
+            /* Google Translate element mobile positioning */
+            #google_translate_element {
+                margin-right: 0;
+                margin-top: 5px !important;
+            }
+            
+            /* Mystery sections mobile layout */
+            .mystery-list {
+                padding: 12px;
+            }
+            
+            .mystery-item {
+                padding: 8px;
+                margin: 8px 0;
+            }
+            
+            .mystery-item h4 {
+                font-size: 1em;
+                margin-bottom: 8px;
+            }
+            
+            .mystery-item p {
+                font-size: 0.85em;
+                margin: 3px 0;
+            }
+            
+            /* Top mysteries section responsive */
+            .col-md-6 {
+                margin-bottom: 20px;
+            }
+            
+            /* Video responsive */
+            .video-container {
+                padding: 0 10px;
+            }
+            
+            .video-container iframe {
+                width: 100%;
+                height: 250px;
+                max-width: 450px;
+            }
+            
+            /* Hero text improvements */
+            .hero p {
+                background: rgba(0, 0, 0, 0.6);
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin: 15px auto;
+                max-width: 90%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .video-container iframe {
+                height: 200px;
+            }
+            
+            .mystery-item h4 {
+                font-size: 0.95em;
+            }
+            
+            .mystery-item p {
+                font-size: 0.8em;
+            }
+            
+            .hero h1 {
+                font-size: 1.6em;
+            }
+            
+            .hero p {
+                font-size: 0.85em;
+                padding: 8px 12px;
+            }
         }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942"

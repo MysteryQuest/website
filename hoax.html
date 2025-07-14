@@ -57,6 +57,139 @@
         body {
             top: 0 !important;
         }
+        
+        /* Carousel and voting styling */
+        .carousel-item {
+            padding: 20px;
+        }
+        
+        .mystery-img {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .btn-vote {
+            min-width: 100px;
+            padding: 10px 20px;
+        }
+        
+        .result {
+            background: #1f1f1f;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        
+        /* Mobile responsive styles for hoax page */
+        @media (max-width: 768px) {
+            /* Header responsive */
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            header img {
+                margin-bottom: 15px;
+                height: 50px !important;
+            }
+            
+            .nav-tabs {
+                justify-content: center;
+                margin: 0;
+                flex-wrap: wrap;
+            }
+            
+            .nav-tabs .nav-item {
+                margin-bottom: 5px;
+            }
+            
+            .nav-tabs .nav-link {
+                padding: 8px 12px;
+                font-size: 0.9em;
+            }
+            
+            /* Google Translate element mobile positioning */
+            #google_translate_element {
+                margin-right: 0;
+                margin-top: 5px !important;
+            }
+            
+            /* Carousel responsive */
+            .carousel-item {
+                padding: 15px 10px;
+                min-height: 350px !important;
+            }
+            
+            .carousel-item h2 {
+                font-size: 1.5em;
+                margin-bottom: 15px;
+            }
+            
+            .carousel-item p {
+                font-size: 0.9em;
+                margin-bottom: 10px;
+            }
+            
+            .mystery-img {
+                max-height: 200px;
+                margin-bottom: 15px !important;
+            }
+            
+            .btn-vote {
+                display: block;
+                width: 100%;
+                margin: 5px 0 !important;
+                padding: 12px;
+                font-size: 1.1em;
+            }
+            
+            .result {
+                font-size: 0.9em;
+                margin-top: 20px;
+            }
+            
+            /* Container adjustments */
+            .container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            header img {
+                height: 40px !important;
+            }
+            
+            .nav-tabs .nav-link {
+                padding: 6px 8px;
+                font-size: 0.8em;
+            }
+            
+            .carousel-item {
+                padding: 10px 5px;
+                min-height: 320px !important;
+            }
+            
+            .carousel-item h2 {
+                font-size: 1.3em;
+            }
+            
+            .carousel-item p {
+                font-size: 0.85em;
+            }
+            
+            .mystery-img {
+                max-height: 150px;
+            }
+            
+            .btn-vote {
+                font-size: 1em;
+                padding: 10px;
+            }
+        }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942"
      crossorigin="anonymous"></script>

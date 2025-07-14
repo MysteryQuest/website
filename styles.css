@@ -100,3 +100,139 @@ image {
     margin-bottom: 20px;
     transition: transform 0.3s ease;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    /* Navigation improvements */
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+    
+    .nav-tabs .nav-item {
+        margin-bottom: 5px;
+    }
+    
+    .nav-tabs .nav-link {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+    
+    /* Header responsive */
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header img {
+        margin-bottom: 15px;
+        height: 70px !important;
+    }
+    
+    .nav-tabs {
+        justify-content: center;
+        margin: 0;
+    }
+    
+    /* Hero section responsive */
+    .hero h1 {
+        font-size: 1.8em;
+        padding: 8px 15px;
+    }
+    
+    .hero p {
+        font-size: 0.9em;
+        padding: 0 15px;
+        margin: 10px 0;
+    }
+    
+    /* Video container responsive */
+    .video-container {
+        padding: 0 15px;
+        margin: 20px 0;
+    }
+    
+    .video-container iframe {
+        width: 100% !important;
+        height: 200px !important;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    /* Form container responsive */
+    .form-container {
+        margin: 20px 15px;
+        padding: 15px;
+    }
+    
+    .form-container input,
+    .form-container textarea,
+    .form-container button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+    
+    /* Mystery sections responsive */
+    .mystery-list {
+        margin-bottom: 30px;
+    }
+    
+    .mystery-item h4 {
+        font-size: 1em;
+    }
+    
+    .mystery-item p {
+        font-size: 0.85em;
+    }
+    
+    /* Container padding adjustments */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Button styling improvements */
+    .button, .form-container button {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        min-width: 120px;
+    }
+    
+    /* Captcha container responsive */
+    .captcha-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .captcha-container input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra small screens */
+    .hero h1 {
+        font-size: 1.5em;
+        padding: 5px 10px;
+    }
+    
+    .nav-tabs .nav-link {
+        padding: 6px 8px;
+        font-size: 0.8em;
+    }
+    
+    header img {
+        height: 60px !important;
+    }
+    
+    .video-container iframe {
+        height: 180px !important;
+    }
+    
+    .form-container {
+        margin: 15px 10px;
+        padding: 12px;
+    }
+}
