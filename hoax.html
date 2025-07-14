@@ -65,23 +65,24 @@
             const data = await response.json();
 
             if (data.values && data.values.length > 1) {
-                const headers = data.values[0];
-                const rows = data.values.slice(1);
+            const headers = data.values[0];
+            const rows = data.values.slice(1);
 
-                mysteries = rows
-                    .map((row, index) => {
-                        const mystery = {};
-                        headers.forEach((header, i) => {
-                            mystery[header] = row[i] || '';
-                        });
-                        mystery.id = index;
-                        mystery.realVotes = parseInt(mystery.realVotes || '0');
-                        mystery.hoaxVotes = parseInt(mystery.hoaxVotes || '0');
-                        return mystery;
-                    })
-                    .filter(mystery => mystery.image_url && mystery.image_url.trim() !== '');
+            mysteries = rows
+                .map((row, index) => {
+                const mystery = {};
+                headers.forEach((header, i) => {
+                    mystery[header] = row[i] || '';
+                });
+                mystery.id = index;
+                // Map spreadsheet columns to JS property names
+                mystery.realVotes = parseInt(mystery.votes || '0');
+                mystery.hoaxVotes = parseInt(mystery.hoax || '0');
+                return mystery;
+                })
+                .filter(mystery => mystery.image_url && mystery.image_url.trim() !== '');
 
-                renderCarousel();
+            renderCarousel();
             }
         }
 
@@ -127,33 +128,40 @@
 
             await submitVote(index);
 
-            // Show popup with real votes count, then move to next slide
+            // Show move to next slide
             setTimeout(() => {
-                alert(`Votes for "Real": ${real}`);
                 moveToNextSlide(index);
-            }, 200);
+            }, 100);
         }
 
-        async function submitVote(index) {
+        async function submitVote(index, type) {
             const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
+            // Determine which column to update
+            let column;
+            if (type === 'realVotes') {
+            column = 'votes';
+            } else if (type === 'hoaxVotes') {
+            column = 'hoax';
+            } else {
+            return;
+            }
             const payload = JSON.stringify({
-                rowIndex: mysteries[index].id + 2,
-                realVotes: mysteries[index].realVotes,
-                hoaxVotes: mysteries[index].hoaxVotes
+            rowIndex: mysteries[index].id + 2,
+            column: column
             });
 
             try {
-                await fetch(url, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "text/plain"
-                    },
-                    body: payload,
-                    mode: "no-cors"
-                });
-                console.log("Vote submitted.");
+            await fetch(url, {
+                method: "POST",
+                headers: {
+                "Content-Type": "text/plain"
+                },
+                body: payload,
+                mode: "no-cors"
+            });
+            console.log("Vote submitted.");
             } catch (error) {
-                console.error("Error submitting vote:", error);
+            console.error("Error submitting vote:", error);
             }
         }
 
