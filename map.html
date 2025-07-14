@@ -142,8 +142,6 @@
         <div class="form-container" id="submitAMystery">
             <h2>Submit a New Event</h2>
             <form id="eventForm">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
 
                 <label for="eventType">Event Type:</label>
                 <input type="text" id="newEventType" name="eventType" required>
@@ -311,11 +309,6 @@
         }
 
         async function submitEvent() {
-            const password = document.getElementById("password").value;
-            if (password !== "admin123") {
-                alert("Invalid password.");
-                return;
-            }
 
             const newEvent = {
                 event_type: document.getElementById("newEventType").value,
@@ -328,6 +321,7 @@
                 url: document.getElementById("newUrl").value,
                 image_url: document.getElementById("newImageUrl").value,
                 votes: 0,
+                new: "User Submitted"
                 investigation_status: "Open",
                 verdict: "Unknown",
                 research_link: "detail.html?name=" + encodeURIComponent(document.getElementById("newName").value)
