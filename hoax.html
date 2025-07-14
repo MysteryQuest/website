@@ -71,12 +71,7 @@
             const headers = data.values[0];
             const rows = data.values.slice(1);
 
-            // Shuffle rows array
-            for (let i = rows.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [rows[i], rows[j]] = [rows[j], rows[i]];
-            }
-
+            // First map rows with their original spreadsheet indices
             mysteries = rows
                 .map((row, index) => {
                 const mystery = {};
@@ -85,13 +80,19 @@
                 });
                 mystery.id = index;
                 // Store the actual spreadsheet row index (offset by 2 for header and 1-based index)
-                mystery.spreadsheetRowIndex = rows.indexOf(row) + 2;
+                mystery.spreadsheetRowIndex = index + 2;
                 // Map spreadsheet columns to JS property names
                 mystery.realVotes = parseInt(mystery.votes || '0');
                 mystery.hoaxVotes = parseInt(mystery.hoax || '0');
                 return mystery;
                 })
                 .filter(mystery => mystery.image_url && mystery.image_url.trim() !== '');
+
+            // Shuffle the mysteries array after mapping
+            for (let i = mysteries.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [mysteries[i], mysteries[j]] = [mysteries[j], mysteries[i]];
+            }
 
             renderCarousel();
             }
@@ -148,6 +149,13 @@
             setTimeout(() => {
                 moveToNextSlide(index);
             }, 800);
+        }
+
+        /**
+         * Submits the vote to the Google Apps Script endpoint.
+         * @param {number} index - The index of the mystery in the mysteries array.
+         * @param {string} type - The type of vote ('realVotes' or 'hoaxVotes').
+         */
         async function submitVote(index, type) {
             const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
             // Use the actual spreadsheet row index and correct column name
@@ -157,16 +165,25 @@
             } else if (type === 'hoaxVotes') {
                 column = 'hoax'; // Use the exact header name from your sheet
             } else {
+                console.error('Invalid vote type:', type);
                 return;
             }
-            // Use the original row index from the spreadsheet (store it when mapping)
+            
+            // Use the original row index from the spreadsheet
             const payload = JSON.stringify({
                 rowIndex: mysteries[index].spreadsheetRowIndex,
                 column: column
             });
 
+            console.log('Submitting vote:', {
+                mysteryName: mysteries[index].name,
+                rowIndex: mysteries[index].spreadsheetRowIndex,
+                column: column,
+                type: type
+            });
+
             try {
-                await fetch(url, {
+                const response = await fetch(url, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
@@ -174,11 +191,9 @@
                     body: payload,
                     mode: "no-cors"
                 });
-                console.log("Vote submitted.");
+                console.log("Vote submitted successfully.");
             } catch (error) {
                 console.error("Error submitting vote:", error);
-            }
-        }
             }
         }
 
