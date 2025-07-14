@@ -37,7 +37,7 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="map.html">Map</a>
+                    <a class="nav-link" href="map.html">Map</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Is it a Hoax?</a>
@@ -153,29 +153,29 @@
             // Determine which column to update
             let column;
             if (type === 'realVotes') {
-            column = 'votes';
+                column = 'votes'; // Make sure this matches the exact header in your sheet
             } else if (type === 'hoaxVotes') {
-            column = 'hoax';
+                column = 'hoax'; // Make sure this matches the exact header in your sheet
             } else {
-            return;
+                return;
             }
             const payload = JSON.stringify({
-            rowIndex: mysteries[index].id + 2,
-            column: column
+                rowIndex: mysteries[index].id + 2,
+                column: column
             });
 
             try {
-            await fetch(url, {
-                method: "POST",
-                headers: {
-                "Content-Type": "text/plain"
-                },
-                body: payload,
-                mode: "no-cors"
-            });
-            console.log("Vote submitted.");
+                await fetch(url, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: payload,
+                    mode: "no-cors"
+                });
+                console.log("Vote submitted.");
             } catch (error) {
-            console.error("Error submitting vote:", error);
+                console.error("Error submitting vote:", error);
             }
         }
 
