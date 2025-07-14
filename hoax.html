@@ -59,10 +59,6 @@
 
         let mysteries = [];
 
-        $('.carousel').carousel({
-        interval: false,
-        });
-
         async function fetchMysteries() {
             const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
             const response = await fetch(url);
@@ -166,18 +162,35 @@
             const bsCarousel = bootstrap.Carousel.getOrCreateInstance(carousel);
             // Only move to next if not last slide
             if (currentIndex < mysteries.length - 1) {
-                bsCarousel.next();
+            bsCarousel.next();
             }
         }
 
-        // Prevent auto-advance
+        // Prevent manual and auto-advance
         document.addEventListener('DOMContentLoaded', () => {
             fetchMysteries();
             const carousel = document.getElementById('mysteryCarousel');
             if (carousel) {
-                carousel.addEventListener('slide.bs.carousel', function (e) {
-                    // Do nothing, disables auto-advance
-                });
+            // Disable keyboard navigation
+            carousel.addEventListener('keydown', function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+            });
+
+            // Disable touch/swipe
+            carousel.addEventListener('touchstart', function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+            });
+
+            // Disable mouse drag
+            carousel.addEventListener('mousedown', function(e) {
+                e.stopPropagation();
+                e.preventDefault();
+            });
+
+            // Prevent auto-advance by removing interval
+            const bsCarousel = bootstrap.Carousel.getOrCreateInstance(carousel, { interval: false, ride: false, pause: true, keyboard: false, touch: false });
             }
         });
     </script>
