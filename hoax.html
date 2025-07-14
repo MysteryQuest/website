@@ -106,8 +106,13 @@
                 <div class="d-flex flex-column align-items-center justify-content-center text-center" style="min-height: 400px;">
                 <h2>${mystery.name}</h2>
                 <p><strong>Location:</strong> ${mystery.location}</p>
-                <img src="${mystery.image_url}" alt="${mystery.name}" class="mystery-img mb-3">
+                ${
+                    /\.(jpe?g|png|gif|webp|bmp|svg|webp)$/i.test(mystery.image_url)
+                    ? `<img src="${mystery.image_url}" alt="${mystery.name}" class="mystery-img mb-3">`
+                    : ''
+                }
                 <p>${mystery.description}</p>
+                <p><a href="${mystery.url}">${mystery.url}</a></p>
                 <div class="mb-3">
                     <button class="btn btn-success btn-vote me-2" onclick="vote(${index}, 'realVotes')">Real</button>
                     <button class="btn btn-danger btn-vote" onclick="vote(${index}, 'hoaxVotes')">Hoax</button>
@@ -135,12 +140,12 @@
                 <p>Hoax: ${hoaxPercent}% (${hoax})</p>
             `;
 
-            await submitVote(index);
+            await submitVote(index, type);
 
-            // Show move to next slide
+            // Show move to next slide after a pause
             setTimeout(() => {
                 moveToNextSlide(index);
-            }, 200);
+            }, 800);
         }
 
         async function submitVote(index, type) {
