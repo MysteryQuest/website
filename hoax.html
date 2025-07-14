@@ -160,26 +160,37 @@
             const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
             // Use the actual spreadsheet row index and correct column name
             let column;
+            let currentValue;
+            
             if (type === 'realVotes') {
                 column = 'votes'; // Use the exact header name from your sheet
+                currentValue = mysteries[index].realVotes - 1; // Subtract 1 because we already incremented locally
             } else if (type === 'hoaxVotes') {
                 column = 'hoax'; // Use the exact header name from your sheet
+                currentValue = mysteries[index].hoaxVotes - 1; // Subtract 1 because we already incremented locally
             } else {
                 console.error('Invalid vote type:', type);
                 return;
             }
             
-            // Use the original row index from the spreadsheet
+            // Send the new value (current + 1) to be set in the spreadsheet
+            const newValue = currentValue + 1;
+            
             const payload = JSON.stringify({
+                action: 'increment',
                 rowIndex: mysteries[index].spreadsheetRowIndex,
-                column: column
+                column: column,
+                currentValue: currentValue,
+                newValue: newValue
             });
 
             console.log('Submitting vote:', {
                 mysteryName: mysteries[index].name,
                 rowIndex: mysteries[index].spreadsheetRowIndex,
                 column: column,
-                type: type
+                type: type,
+                currentValue: currentValue,
+                newValue: newValue
             });
 
             try {
