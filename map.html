@@ -249,7 +249,7 @@
 
             events.forEach((event) => {
                 const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
-                marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.name}<br><a href='${event.url}' target='_blank'>Source</a>`);
+                marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.name}<br><a href='${event.url}' target='_blank'>Source</a><br><a href='detail.html?name=${encodeURIComponent(event.name)}' target='_blank'>Details</a>`);
                 marker.on("click", () => highlightRow(event.id));
             });
         }
