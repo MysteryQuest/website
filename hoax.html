@@ -71,16 +71,6 @@
             const headers = data.values[0];
             const rows = data.values.slice(1);
 
-            // Find column indices for votes and hoax
-            const votesColumnIndex = headers.indexOf('votes');
-            const hoaxColumnIndex = headers.indexOf('hoax');
-            
-            console.log('Column mapping:', {
-                headers: headers,
-                votesColumnIndex: votesColumnIndex,
-                hoaxColumnIndex: hoaxColumnIndex
-            });
-
             // First map rows with their original spreadsheet indices
             mysteries = rows
                 .map((row, index) => {
@@ -91,9 +81,6 @@
                 mystery.id = index;
                 // Store the actual spreadsheet row index (offset by 2 for header and 1-based index)
                 mystery.spreadsheetRowIndex = index + 2;
-                // Store column indices for voting
-                mystery.votesColumnIndex = votesColumnIndex;
-                mystery.hoaxColumnIndex = hoaxColumnIndex;
                 // Map spreadsheet columns to JS property names
                 mystery.realVotes = parseInt(mystery.votes || '0');
                 mystery.hoaxVotes = parseInt(mystery.hoax || '0');
@@ -172,46 +159,27 @@
         async function submitVote(index, type) {
             const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
             
-            let column, columnIndex, currentValue;
+            let column;
             
             if (type === 'realVotes') {
                 column = 'votes';
-                columnIndex = mysteries[index].votesColumnIndex;
-                currentValue = mysteries[index].realVotes - 1; // Subtract 1 because we already incremented locally
             } else if (type === 'hoaxVotes') {
                 column = 'hoax';
-                columnIndex = mysteries[index].hoaxColumnIndex;
-                currentValue = mysteries[index].hoaxVotes - 1; // Subtract 1 because we already incremented locally
             } else {
                 console.error('Invalid vote type:', type);
                 return;
             }
-            
-            // Convert column index to column letter (A=0, B=1, etc.)
-            const columnLetter = String.fromCharCode(65 + columnIndex);
-            
-            // Send the new value (current + 1) to be set in the spreadsheet
-            const newValue = currentValue + 1;
-            
+
             const payload = JSON.stringify({
-                action: 'increment',
                 rowIndex: mysteries[index].spreadsheetRowIndex,
-                column: column,
-                columnIndex: columnIndex,
-                columnLetter: columnLetter,
-                currentValue: currentValue,
-                newValue: newValue
+                column: column
             });
 
             console.log('Submitting vote:', {
                 mysteryName: mysteries[index].name,
                 rowIndex: mysteries[index].spreadsheetRowIndex,
                 column: column,
-                columnIndex: columnIndex,
-                columnLetter: columnLetter,
-                type: type,
-                currentValue: currentValue,
-                newValue: newValue
+                type: type
             });
 
             try {
