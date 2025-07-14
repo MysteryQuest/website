@@ -12,6 +12,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <style>
+        .mystery-list {
+            background: #1f1f1f;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        .mystery-item {
+            background: #333;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 3px solid #007bff;
+        }
+        .mystery-item h4 {
+            margin: 0 0 5px 0;
+            color: #fff;
+            font-size: 1.1em;
+        }
+        .mystery-item p {
+            margin: 5px 0;
+            color: #ccc;
+            font-size: 0.9em;
+        }
+        .mystery-item a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .mystery-item a:hover {
+            text-decoration: underline;
+        }
+        .vote-count {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .hoax-count {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942"
      crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
@@ -56,6 +97,30 @@
         <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
         <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Top 5 Most Believed Mysteries</h2>
+                <div id="topMysteries" class="mystery-list">
+                    <!-- Top mysteries will be loaded here -->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Top 5 Most Voted Hoaxes</h2>
+                <div id="topHoaxes" class="mystery-list">
+                    <!-- Top hoaxes will be loaded here -->
+                </div>
+            </div>
+            <div class="col-12">
+                <p><a class="nav-link" href="hoax.html">Is it a Hoax?</a></p>
+                <p>We investigate the most popular mysteries and hoaxes, providing insights and evidence to help you form your own opinion.</p>
+                <p>Join our community of mystery enthusiasts and skeptics. Share your thoughts, vote on mysteries, and help us uncover the truth.</p>
+                <p>Check out our <a href="map.html">Mystery Map</a> to explore mysteries around the world.</p>
+                <p>Have a mystery you want us to investigate? <a href="#submit-mystery">Submit it here</a>!</p>
+            </div>
         </div>
     </div>
 
@@ -129,6 +194,89 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-YQbZmoymVstIjXJucC6YFSF6u1sL64wMg2xuRQwql1EpQJb8p8HewQqIF8vZ4keE" crossorigin="anonymous"></script>
     <script>
+        const API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
+        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
+        const SHEET_NAME = 'Sheet1';
+
+        async function fetchTopMysteries() {
+            try {
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (data.values && data.values.length > 1) {
+                    const headers = data.values[0];
+                    const rows = data.values.slice(1);
+
+                    let mysteries = rows.map((row, index) => {
+                        const mystery = {};
+                        headers.forEach((header, i) => {
+                            mystery[header] = row[i] || '';
+                        });
+                        mystery.votes = parseInt(mystery.votes || '0');
+                        mystery.hoax = parseInt(mystery.hoax || '0');
+                        return mystery;
+                    }).filter(mystery => mystery.name && mystery.name.trim() !== '');
+
+                    // Sort by votes (highest first) and get top 5
+                    const topByVotes = mysteries
+                        .sort((a, b) => b.votes - a.votes)
+                        .slice(0, 5);
+
+                    // Sort by hoax votes (highest first) and get top 5
+                    const topByHoax = mysteries
+                        .sort((a, b) => b.hoax - a.hoax)
+                        .slice(0, 5);
+
+                    displayTopMysteries(topByVotes);
+                    displayTopHoaxes(topByHoax);
+                }
+            } catch (error) {
+                console.error('Error fetching mysteries:', error);
+            }
+        }
+
+        function displayTopMysteries(mysteries) {
+            const container = document.getElementById('topMysteries');
+            container.innerHTML = '';
+
+            mysteries.forEach((mystery, index) => {
+                const item = document.createElement('div');
+                item.className = 'mystery-item';
+                item.innerHTML = `
+                    <h4>${mystery.name}</h4>
+                    <p><strong>Location:</strong> ${mystery.location}</p>
+                    <p><strong>Date:</strong> ${mystery.date}</p>
+                    <p class="vote-count">Real Votes: ${mystery.votes}</p>
+                    <a href="detail.html?name=${encodeURIComponent(mystery.name)}" target="_blank">View Details</a>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        function displayTopHoaxes(hoaxes) {
+            const container = document.getElementById('topHoaxes');
+            container.innerHTML = '';
+
+            hoaxes.forEach((hoax, index) => {
+                const item = document.createElement('div');
+                item.className = 'mystery-item';
+                item.innerHTML = `
+                    <h4>${hoax.name}</h4>
+                    <p><strong>Location:</strong> ${hoax.location}</p>
+                    <p><strong>Date:</strong> ${hoax.date}</p>
+                    <p class="hoax-count">Hoax Votes: ${hoax.hoax}</p>
+                    <a href="detail.html?name=${encodeURIComponent(hoax.name)}" target="_blank">View Details</a>
+                `;
+                container.appendChild(item);
+            });
+        }
+
+        // Load top mysteries when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchTopMysteries();
+        });
+
         function validateCaptcha() {
             const captcha = document.getElementById('captcha').value;
             if (captcha.trim() === '7') {
