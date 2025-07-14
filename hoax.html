@@ -68,6 +68,12 @@
             const headers = data.values[0];
             const rows = data.values.slice(1);
 
+            // Shuffle rows array
+            for (let i = rows.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [rows[i], rows[j]] = [rows[j], rows[i]];
+            }
+
             mysteries = rows
                 .map((row, index) => {
                 const mystery = {};
