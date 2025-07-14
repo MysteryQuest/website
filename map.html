@@ -78,6 +78,14 @@
         th.descending::after {
             content: " ▼";
         }
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Ensure target element is visible */
+        #submitAMystery {
+            scroll-margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -374,6 +382,16 @@
 
         document.addEventListener("DOMContentLoaded", function() {
             fetchEvents();
+            
+            // Handle anchor links when page loads
+            if (window.location.hash) {
+                setTimeout(() => {
+                    const target = document.querySelector(window.location.hash);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }, 500); // Wait for content to load
+            }
         });
 
         function sortTable(columnIndex, ascending) {
