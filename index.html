@@ -52,6 +52,48 @@
             color: #dc3545;
             font-weight: bold;
         }
+        /* Google Translate Widget Styling */
+        #google_translate_element {
+            margin-right: 15px;
+        }
+        
+        .goog-te-gadget {
+            font-family: inherit !important;
+            font-size: 12px !important;
+        }
+        
+        .goog-te-gadget-simple {
+            background-color: #333 !important;
+            border: 1px solid #555 !important;
+            padding: 5px 8px !important;
+            border-radius: 4px !important;
+            color: #fff !important;
+        }
+        
+        .goog-te-gadget-simple .goog-te-menu-value {
+            color: #fff !important;
+        }
+        
+        .goog-te-gadget-simple .goog-te-menu-value:hover {
+            text-decoration: none !important;
+        }
+        
+        .goog-te-gadget-icon {
+            display: none !important;
+        }
+        
+        .goog-te-gadget-simple .goog-te-menu-value span {
+            color: #fff !important;
+        }
+        
+        /* Hide the Google Translate banner */
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+        
+        body {
+            top: 0 !important;
+        }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942"
      crossorigin="anonymous"></script>
@@ -64,6 +106,17 @@
 
         gtag('config', 'G-5115VTJEF0');
     </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'es,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </head>
 <body>
@@ -71,6 +124,9 @@
         <div class="container d-flex justify-content-between align-items-center">
             <img src="logo.png" alt="MystiQst Logo" height="90">
             <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <div id="google_translate_element" style="margin-top: 8px;"></div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#spanish-version">Español</a>
                 </li>
@@ -115,7 +171,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <p><a class="nav-link" href="hoax.html">Is it a Hoax?</a></p>
+                <p><a class="button" href="hoax.html">Is it a Hoax?</a></p>
                 <p>We investigate the most popular mysteries and hoaxes, providing insights and evidence to help you form your own opinion.</p>
                 <p>Join our community of mystery enthusiasts and skeptics. Share your thoughts, vote on mysteries, and help us uncover the truth.</p>
                 <p>Check out our <a href="map.html">Mystery Map</a> to explore mysteries around the world.</p>
