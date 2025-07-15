@@ -80,6 +80,8 @@
                 <p><strong>Verdict:</strong> ${event.verdict || "Unknown"}</p>
                 <p><strong>Source:</strong> <a href='${event.url}' target='_blank'>Link</a></p>
                 <p><strong>Research Link:</strong> <a href='${event.research_link}' target='_blank'>Details</a></p>
+                <p><strong>Catagories:</strong> ${event.tags || "None"}</p>
+                <p><strong>Credibility (0 hoax - 10 legit):</strong> ${event.credibility_score}</p>
                 <button onclick="voteForEvent(${event.id})">👍 Vote</button>
             `;
         }
