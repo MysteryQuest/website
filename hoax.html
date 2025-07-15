@@ -30,11 +30,11 @@
             border: 1px solid #555 !important;
             padding: 5px 8px !important;
             border-radius: 4px !important;
-            color: #fff !important;
+            color: #ffffff !important;
         }
         
         .goog-te-gadget-simple .goog-te-menu-value {
-            color: #fff !important;
+            color: #ffffff !important;
         }
         
         .goog-te-gadget-simple .goog-te-menu-value:hover {
@@ -46,7 +46,7 @@
         }
         
         .goog-te-gadget-simple .goog-te-menu-value span {
-            color: #fff !important;
+            color: #ffffff !important;
         }
         
         /* Hide the Google Translate banner */
@@ -277,7 +277,7 @@
                 mystery.hoaxVotes = parseInt(mystery.hoax || '0');
                 return mystery;
                 })
-                .filter(mystery => mystery.image_url && mystery.image_url.trim() !== '');
+                .filter(mystery => mystery.image_url && mystery.image_url.trim() !== '' && mystery.real_or_hoax == 'True');
 
             // Shuffle the mysteries array after mapping
             for (let i = mysteries.length - 1; i > 0; i--) {
