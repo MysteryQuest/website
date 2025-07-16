@@ -1,28 +1,15 @@
-<!-- directory/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover UFO sightings, alien encounters, and unexplained aerial phenomena by location. Find UFO tours, investigators, and hotels near famous sighting locations.">
-    <meta name="keywords" content="UFO sightings by location, alien encounters, UAP events, UFO tours, extraterrestrial investigations, UFO hotels, flying saucer sightings">
-    <meta name="author" content="Mystery Quest Team">
-    <title>UFO Sightings Directory by Location - Mystery Quest</title>
+    <meta name="description" content="Mystery Quest Directory - Explore UFO sightings, paranormal activity, cryptid encounters, and historical mysteries. Find tours, investigators, and services worldwide.">
+    <meta name="keywords" content="mystery directory, UFO tours, paranormal investigators, cryptid hunting, historical mysteries, mystery services">
+    <title>Mystery Directory - UFO, Paranormal, Cryptid & Historical Locations | Mystery Quest</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link href="../styles.css" rel="stylesheet">
     <link href="directory.css" rel="stylesheet">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942" crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5115VTJEF0"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5115VTJEF0');
-    </script>
 </head>
 <body>
     <header class="bg-dark p-3">
@@ -33,10 +20,10 @@
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../map.html">Mystery Map</a>
+                    <a class="nav-link active" href="index.html">Directory</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">UFO Directory</a>
+                    <a class="nav-link" href="../map.html">Mystery Map</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../hoax.html">Is it a Hoax?</a>
@@ -47,68 +34,57 @@
 
     <div class="hero-section">
         <div class="container">
-            <h1>UFO Sightings Directory</h1>
-            <p class="lead">Explore UFO sightings, alien encounters, and unexplained aerial phenomena by location. Find tours, investigators, and services near famous UFO hotspots.</p>
+            <h1>Mystery Quest Directory</h1>
+            <p class="lead">Discover mysterious locations worldwide. Find tours, investigators, and services for every type of unexplained phenomenon.</p>
         </div>
     </div>
 
     <div class="container mt-4">
-        <!-- Search Section -->
-        <div class="search-section mb-5">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="search-box">
-                        <input type="text" id="locationSearch" class="form-control" placeholder="Search UFO sightings by city, state, or landmark (e.g., 'Phoenix Arizona', 'Area 51')">
+        <h2 class="text-center mb-4">Explore by Category</h2>
+        <div class="row">
+            
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="category-card category-ufo">
+                    <div class="category-content">
+                        <h3 class="category-title">UFO Sightings</h3>
+                        <div class="category-stats">
+                            <span class="stat-item">20 Locations</span>
+                            <span class="stat-item">0 Services</span>
+                            <span class="stat-item">26 Reports</span>
+                        </div>
+                        <div class="category-actions">
+                            <a href="ufo/index.html" class="btn-explore">Explore Ufo</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <select id="timeFilter" class="form-select">
-                        <option value="">All Time Periods</option>
-                        <option value="recent">Recent Sightings (2020-2025)</option>
-                        <option value="modern">Modern Era (1990-2019)</option>
-                        <option value="classic">Classic Cases (1950-1989)</option>
-                        <option value="historical">Historical (Before 1950)</option>
-                    </select>
-                </div>
             </div>
-        </div>
-
-        <!-- Featured Locations -->
-        <div class="featured-locations mb-5">
-            <h2>Popular UFO Hotspots</h2>
-            <div class="row" id="featuredLocations">
-                <!-- Will be populated by JavaScript -->
-            </div>
-        </div>
-
-        <!-- All Locations Grid -->
-        <div class="locations-grid">
-            <h2>All UFO Locations</h2>
-            <div class="row" id="locationsGrid">
-                <!-- Will be populated by JavaScript -->
-            </div>
-        </div>
-
-        <!-- Services Directory -->
-        <div class="services-directory mt-5">
-            <h2>UFO Investigation Services</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <h3>UFO Tours & Guides</h3>
-                    <div id="ufoTours">
-                        <!-- Will be populated by JavaScript -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="category-card category-paranormal">
+                    <div class="category-content">
+                        <h3 class="category-title">Paranormal Activity</h3>
+                        <div class="category-stats">
+                            <span class="stat-item">6 Locations</span>
+                            <span class="stat-item">0 Services</span>
+                            <span class="stat-item">78 Reports</span>
+                        </div>
+                        <div class="category-actions">
+                            <a href="paranormal/index.html" class="btn-explore">Explore Paranormal</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <h3>UFO Investigators</h3>
-                    <div id="ufoInvestigators">
-                        <!-- Will be populated by JavaScript -->
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <h3>UFO-Themed Hotels</h3>
-                    <div id="ufoHotels">
-                        <!-- Will be populated by JavaScript -->
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="category-card category-historical">
+                    <div class="category-content">
+                        <h3 class="category-title">Historical Mysteries</h3>
+                        <div class="category-stats">
+                            <span class="stat-item">41 Locations</span>
+                            <span class="stat-item">0 Services</span>
+                            <span class="stat-item">54 Reports</span>
+                        </div>
+                        <div class="category-actions">
+                            <a href="historical/index.html" class="btn-explore">Explore Historical</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,6 +96,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="directory-main.js"></script>
 </body>
 </html>

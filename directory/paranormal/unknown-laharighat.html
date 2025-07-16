@@ -1,0 +1,561 @@
+<!-- directory/location.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="meta-description" content="Explore paranormal mysteries in unknown, Laharighat. Explore the mysterious and unexplained phenomena of Laharighat, where legends of Bigfoot and Ape Man come alive. Join us">
+    <meta name="keywords" id="meta-keywords" content="Bigfoot sightings, Ape Man encounters, paranormal events">
+    <title id="page-title">Paranormal Mysteries in unknown, Laharighat - Tours & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet">
+    <link href="../directory.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../../logo.png" alt="MystiQst Logo" height="90">
+            <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Paranormal Activity Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">unknown, Laharighat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../hoax.html">Is it a Hoax?</a>
+                </li>
+        </ul>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div id="locationDetails">
+            <!-- Location details will be populated by JavaScript -->
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <div id="map" style="height: 400px; border-radius: 8px;"></div>
+                
+                <div class="sightings-list mt-4">
+                    <h3>Recent UFO Sightings</h3>
+                    <div id="sightingsList">
+                        <!-- Sightings will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="services" class="services-sidebar">
+                    <h3>Local UFO Services</h3>
+                    <div id="localServices">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
+    </footer>
+
+    
+    <!-- Location Header -->
+    <div class="location-header mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="location-title">unknown, Laharighat</h1>
+                <p class="location-description">Explore the mysterious and unexplained phenomena of Laharighat, where legends of Bigfoot and Ape Man come alive. Join us for a journey into the unknown, where the lines between reality and myth blur.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="location-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">71</span>
+                        <span class="stat-label">Recent Reports</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Local Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-badge paranormal">PARANORMAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "unknown, Laharighat",
+            category: "paranormal",
+            slug: "unknown-laharighat",
+            coordinates: None,
+            businesses: [],
+            events: [
+        {
+                "name": "Ape Man On The Roof",
+                "type": "Paranormal Activity",
+                "description": "<div style=\"text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOyDAB1U4EVArggsNucXLu0YNcJqiKht5PmWxubkUyRoszEVEcDAJIH7MjYsELqSJoVzsbzcdUqT6A4xSUwj1UvgjdbU0ApJTNRzMzcnIFlQs5Fa0Qo2lKelpUhN466C2JJJ3kkRdrR_Ub/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"274\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOyDAB1U4EVArggsNucXLu0YNcJqiKht5PmWxubkUyRoszEVEcDAJIH7MjYsELqSJoVzsbzcdUqT6A4xSUwj1UvgjdbU0ApJTNRzMzcnIFlQs5Fa0Qo2lKelpUhN466C2JJJ3kkRdrR_Ub/w400-h274/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Sstories channel on youtube comes a bigfoot encounter story, slow burn style, about what was described as a deformed ape man on the roof.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/ape-man-on-roof.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Bigfoot Hunts Its Prey",
+                "type": "Paranormal Activity",
+                "description": "<div style=\"text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguGDO-x54nDK4PDKyqW9NoOGCaQeuVvIrk1iuXWhBYWdh_9kpiotL9MclxT4ueulPFr83PUClTFCvj4BYacPsArqq6jY_00z-7xfBGdQKdaUgrbqe8Umz10NXosg9ZD9ZguqfvTYzUpb8g/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"269\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguGDO-x54nDK4PDKyqW9NoOGCaQeuVvIrk1iuXWhBYWdh_9kpiotL9MclxT4ueulPFr83PUClTFCvj4BYacPsArqq6jY_00z-7xfBGdQKdaUgrbqe8Umz10NXosg9ZD9ZguqfvTYzUpb8g/w400-h269/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Bigfoot aren't just powerful creatures, they are smart too. Check out this encounter about how bigfoot hunts their prey.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfoot-hunts-its-prey.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Bigfoot Shows Up During Fishing Trip",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqhDRNMejHG7uFUhdiGuK-nx-mjKZRgChn0a-U-1pljrgWYgDuHLsJrXqh5s7Ugw8UlqJ1QrveK78AWfI_fiAJTeTT4M9mi_9bd7OJ9tW6itdHIY_bFItfcOvZf2uFpHE7DNDVRgwk1lnH/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"245\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqhDRNMejHG7uFUhdiGuK-nx-mjKZRgChn0a-U-1pljrgWYgDuHLsJrXqh5s7Ugw8UlqJ1QrveK78AWfI_fiAJTeTT4M9mi_9bd7OJ9tW6itdHIY_bFItfcOvZf2uFpHE7DNDVRgwk1lnH/w400-h245/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Ontario Cryptids channel comes some bigfoot encounter stories. Bigfoot likes to hang out around freshwater, and so do people.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfoot-shows-up-during-fishing-trip.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Bigfoot Time Lapse",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsT0T3U6zRvaSzFTEDYFTmMfYtgFrGcGUWq0d6kuVaPOxFXIyydZBMfONcCuFtKQ-ICV1VpWruhyHlD8SIwZMkbq75Cqbc6BkhKG2KII5PqvZvmUwpS6VilX0fv0m3CECnjOiBqOvaGCiC/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"325\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsT0T3U6zRvaSzFTEDYFTmMfYtgFrGcGUWq0d6kuVaPOxFXIyydZBMfONcCuFtKQ-ICV1VpWruhyHlD8SIwZMkbq75Cqbc6BkhKG2KII5PqvZvmUwpS6VilX0fv0m3CECnjOiBqOvaGCiC/w400-h325/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Check out this time lapse video of some amazing bigfoot artwork on the youtube channel Danielle Rimbert.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfoot-time-lapse.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Bigfoot Tracks Elite Recon Team",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoTJ8jfiI7PP5NQQ2KBP5__x3cA-NtsCceOtNU7l5Rgdty_aHsyajuZVW09lAzioOxJTYEwCJ7rGzJu9KYVX-kb5bXFpyAsKGxPpFXskJ3g0_jJPr5ix-RC7VxfrTjiXHXd5M_TDnlBjbN/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"278\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoTJ8jfiI7PP5NQQ2KBP5__x3cA-NtsCceOtNU7l5Rgdty_aHsyajuZVW09lAzioOxJTYEwCJ7rGzJu9KYVX-kb5bXFpyAsKGxPpFXskJ3g0_jJPr5ix-RC7VxfrTjiXHXd5M_TDnlBjbN/w400-h278/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Just like something straight out of the movie &quot;Predator&quot;, bigfoot turns things on an elite recon team when it starts tracking them.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfoot-tracks-elite-recon-team.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Bigfooter Todd Neiss Tells All",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfn_B7KxTiBqRYVtXdfYRIkcQRxkCrAoqGI6geUkCUsPWpP8wW3nDW4-kq2CAQsvNqXPM6jHRwiFQXOx26myftUHFQOzTpe0MRLDsP8GAGAbS3h9XQaPliPGyfqsoicrF17ioGdE3HK2Qi/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"234\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfn_B7KxTiBqRYVtXdfYRIkcQRxkCrAoqGI6geUkCUsPWpP8wW3nDW4-kq2CAQsvNqXPM6jHRwiFQXOx26myftUHFQOzTpe0MRLDsP8GAGAbS3h9XQaPliPGyfqsoicrF17ioGdE3HK2Qi/w400-h234/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Military bigfoot witness and veteran researcher Todd Neiss sits down with Paranormal Central to discuss bigfoot.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfooter-todd-neiss-tells-all.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Boy Has Bigfoot Sighting While Sledding",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkIZp0Vl79_2AtWyEIf8VU37YWEloKhvolICBkImTPThfKbADOc44vjLHXMxm2EuE6_Ls7bG_Bvl0EsfTyMaeJIYTCu3z8ZemAgThWv86suEv0CNhgTKrECvoA5S4c_F9G1jSEOYVkYHsV/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"305\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkIZp0Vl79_2AtWyEIf8VU37YWEloKhvolICBkImTPThfKbADOc44vjLHXMxm2EuE6_Ls7bG_Bvl0EsfTyMaeJIYTCu3z8ZemAgThWv86suEv0CNhgTKrECvoA5S4c_F9G1jSEOYVkYHsV/w400-h305/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Buckeye Bigfoot youtube channel comes a collection of bigfoot stories including a sighting a boy had while sledding.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/boy-has-bigfoot-sighting-while-sledding.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Florida Skunk Ape Encounters",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDmEIMr_qVBGCZoRuE-y0X4GHt7Heyxxc5UhOA37pPXXFcrrSb1IBYTLlgAQc6Mn2yve3Q30cpl11BldRUsS3cRnmyfx3-itQJ-8uwsEtM2J_goWurLBGSg9w1fDbtRHffdnmoHSxXmKzc/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"214\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDmEIMr_qVBGCZoRuE-y0X4GHt7Heyxxc5UhOA37pPXXFcrrSb1IBYTLlgAQc6Mn2yve3Q30cpl11BldRUsS3cRnmyfx3-itQJ-8uwsEtM2J_goWurLBGSg9w1fDbtRHffdnmoHSxXmKzc/w400-h214/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">A couple encounter stories from the state of Florida, home of the skunk ape, bigfoot's swampy cousin. From the Bigfoot Case Files youtube channel.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/florida-skunk-ape-encounters.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Franklin Basin Sasquatch",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx4kG1c9zDq63UyNwfcdnjjWgDU1iKgUOdP_VTfS5bawXKoBc60Vqpyn8VNoi3g_a-n78GECc1j7iuuRhkGSHwYncJFsfK_6Ipr96I-PZmzzVD1U6yuOdbfPb9Jc62-2MJUr4OS9OON9xA/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"280\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx4kG1c9zDq63UyNwfcdnjjWgDU1iKgUOdP_VTfS5bawXKoBc60Vqpyn8VNoi3g_a-n78GECc1j7iuuRhkGSHwYncJFsfK_6Ipr96I-PZmzzVD1U6yuOdbfPb9Jc62-2MJUr4OS9OON9xA/w400-h280/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Rocky Mountain Sasquatch Organization - the Franklin Basin sasquatch drive and scouting trip. Check it out.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/franklin-basin-sasquatch.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Hiker Crosses Path With Sasquatch",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiavji5rjLVrLnhn7kwP7B5jMS7SZj0Z1YIxklqJ9X8YYGS0L2Md4H3A1EZFsiN2OHEF0OXnjtYSkkqUAYV4-c6zeGePCyG0rBEG1i7Mntar5knu9I-X13rF2nXkfj9KHo_9T8QFaHNJdg9/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"224\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiavji5rjLVrLnhn7kwP7B5jMS7SZj0Z1YIxklqJ9X8YYGS0L2Md4H3A1EZFsiN2OHEF0OXnjtYSkkqUAYV4-c6zeGePCyG0rBEG1i7Mntar5knu9I-X13rF2nXkfj9KHo_9T8QFaHNJdg9/w400-h224/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Washington state is a great destination for hikers, and it's also prime habitat for bigfoot. Check out what happens when the two meet.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/hiker-crosses-path-with-sasquatch.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Real Creature Encounters",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLXZMwiAKe4OptBTkpjQYmiRTXHUBlKsSE4k5ayQ9J0n6kAUBUndv3UdcH_i4cQsXnscw8BD6j09cCTBc1BlZJvt_9H8F1NqfO9ZqfWEZnfc-nZ1vQ4A8h9v5L7eN0ZmpF0zLImVujbxKa/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"191\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLXZMwiAKe4OptBTkpjQYmiRTXHUBlKsSE4k5ayQ9J0n6kAUBUndv3UdcH_i4cQsXnscw8BD6j09cCTBc1BlZJvt_9H8F1NqfO9ZqfWEZnfc-nZ1vQ4A8h9v5L7eN0ZmpF0zLImVujbxKa/w400-h191/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the What Lurks above channel on youtube comes a collection of creature encounter stories. Not just bigfoot roams the woods.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/real-creature-encounters.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Sasquatch Throws Small Boulder",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlWLyWwV4bvqM6BmsH4ymd_kfQoYI6dQbLikZ3kNwit-njdEvhcKCrkowNpU-hpvlKeNbOO_MPAapTzUs_kFAOktwirnvbS2pxFDpugV4V_k_GPNqaEpjOLqnjjIWuYDM4UhUB3UeEjQ-R/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"206\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlWLyWwV4bvqM6BmsH4ymd_kfQoYI6dQbLikZ3kNwit-njdEvhcKCrkowNpU-hpvlKeNbOO_MPAapTzUs_kFAOktwirnvbS2pxFDpugV4V_k_GPNqaEpjOLqnjjIWuYDM4UhUB3UeEjQ-R/w400-h206/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Bigfoot Barn Show, by Blayne Tyler, sasquatch researcher from Canada, a bigfoot throws a small boulder.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/sasquatch-throws-small-boulder.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Strange Texas Bigfoot Encounter",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLl3cJd-g5DikTb2DX-0gyFK_cLkwMqDpIY_ZcPFYojULHr-HoPyN8-Gg-2pg9-qD_2-nXIHDCrhcVQOm7amiNP_Hk1bqdfFsbqR5P9_BbUdDlLGetOWpJXfL0HAOORvICDXrleJ-g4HmQ/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"204\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLl3cJd-g5DikTb2DX-0gyFK_cLkwMqDpIY_ZcPFYojULHr-HoPyN8-Gg-2pg9-qD_2-nXIHDCrhcVQOm7amiNP_Hk1bqdfFsbqR5P9_BbUdDlLGetOWpJXfL0HAOORvICDXrleJ-g4HmQ/w400-h204/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Bigfoot Case Files channel on youtube comes a strange encounter in a Texas river bottom.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/strange-texas-bigfoot-encounter.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "The Perfect Habitat For Dogmen",
+                "type": "Paranormal Activity",
+                "description": "<br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZT6hmNC7M8b7chjSBXdR176-9T4ecbLKdM7Htl7Hu518CwQI8GbRa1GYbrC1VskU9X-uv9n78ILdb2xYth076wdU6G23HcQK0i3HqP8JZi8TH-H_5QFSde3CFUPsY1mxTq-eN9Og2efFO/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"206\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZT6hmNC7M8b7chjSBXdR176-9T4ecbLKdM7Htl7Hu518CwQI8GbRa1GYbrC1VskU9X-uv9n78ILdb2xYth076wdU6G23HcQK0i3HqP8JZi8TH-H_5QFSde3CFUPsY1mxTq-eN9Og2efFO/w400-h206/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Check out this episode of Dogman Encounters Radio with host Vic Cundiff, as he talks to a dogman witness from North Carolina.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/the-perfect-habitat-for-dogmen.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "The Sea Squatch",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdXwNly-uP6MCuitAGf5kw-P_5V_mI4Z8_Z2yZ5Py1lEBF7oSOnrqpEw_D3E4WTlS7qRPcrvksC4ckxHuHL1fqmxsRTl-cMcld4k3u4S30XzhnIGNKD3z3vkwP9wZ0knuZEulQ6K8PNENt/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"274\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdXwNly-uP6MCuitAGf5kw-P_5V_mI4Z8_Z2yZ5Py1lEBF7oSOnrqpEw_D3E4WTlS7qRPcrvksC4ckxHuHL1fqmxsRTl-cMcld4k3u4S30XzhnIGNKD3z3vkwP9wZ0knuZEulQ6K8PNENt/w400-h274/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Check out this amazing time lapse illustration of an underwater bigfoot done for the Confessionals podcast.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/the-sea-squatch.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "This Bigfoot Story Is Unbelievable",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGYRIN9czRQOqcDeiAtw_xm8vxTbRFY0F89H0CkaLyOP6ExvBicMBNFKNI-CfWkIYOKm6azIIjC2bX2xwCK0rJuu3Hzfv02uA2AqumAyXTMjvPCgCbLXWL4Iw-hsrWQzg9zihtBbSfeHLe/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"235\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGYRIN9czRQOqcDeiAtw_xm8vxTbRFY0F89H0CkaLyOP6ExvBicMBNFKNI-CfWkIYOKm6azIIjC2bX2xwCK0rJuu3Hzfv02uA2AqumAyXTMjvPCgCbLXWL4Iw-hsrWQzg9zihtBbSfeHLe/w400-h235/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">The red pill? You need to sit down for this one? What happened to Mark of the Trail to Bigfoot team?<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/this-bigfoot-story-is-unbelievable.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Unknown Creature Video Breakdown",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxWPzCylAIpsyE788Lz1RR44r9tBF1olOu3Q1lZRkSlABv05FmwF-91sYWruFvGbQPVyAg-Y6_9fGv3gC1JFrPJvocl5y0Vvwi__g_690_9ELFwTgyF8WdU0bNoDXBAdSncJJ-0YQlfv6/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"264\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxWPzCylAIpsyE788Lz1RR44r9tBF1olOu3Q1lZRkSlABv05FmwF-91sYWruFvGbQPVyAg-Y6_9fGv3gC1JFrPJvocl5y0Vvwi__g_690_9ELFwTgyF8WdU0bNoDXBAdSncJJ-0YQlfv6/w400-h264/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From Bigfoot Tony on youtube comes a video breakdown of some footage of an &quot;unknwon creature&quot;. See if you agree.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/unknown-creature-video-breakdown.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Triangle UFO Disguised As Iceberg In Canada, similar to UFOs in clouds, UAP sighting news OMG!",
+                "type": "Paranormal Activity",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-ZAj9Rs5o5-QtWYC0wXoDb7fVlOAkx1hdQ1KgoMKmD-1RiLsnApb06dh0LEoKddcjf5MVEyAFR9L9R7n9xwpRNvsG9LSNHH80JXAPtNiCNsWQjBu53Npg8VxooCC3_QufHiwmF19egprQagIwMuiGAJJUJdyah9PR4Zhpz6i23UYcORT6bws8a6HOtY/s390/UFO_UAP.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"408\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-ZAj9Rs5o5-QtWYC0wXoDb7fVlOAkx1hdQ1KgoMKmD-1RiLsnApb06dh0LEoKddcjf5MVEyAFR9L9R7n9xwpRNvsG9LSNHH80JXAPtNiCNsWQjBu53Npg8VxooCC3_QufHiwmF19egprQagIwMuiGAJJUJdyah9PR4Zhpz6i23UYcORT6bws8a6HOtY/w640-h408/UFO_UAP.png\" width=\"640\" /></a></div><br /><p></p><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of discovery: June 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of discovery: Canada</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Source: Found by me using google earth</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Check this out. I taught the world about UFOs hiding within a cloud and how UFOs can actually make clouds, which I have shown in US gov videos from last year. But...you have never heard of a UFO disguised as an iceberg. This is something even I have never seen until now. This is a 50x70 meter UFO floating on the surface of the ocean and its cloak on top has us almost fooled into looking like an iceberg. Aliens pride themselves on being more intelligent than humans, so much so that they laugh at us as they hide right under our noses. Well, they don't get away with that when I'm in the area.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><br /></div>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Tower and crashed UFO in Antarctica Google Earth Map, UAP Sighting News. Proof of ancient aliens",
+                "type": "Paranormal Activity",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinW0J9cr710bPte1KBSul4FWZsNa_dXhyphenhyphenuS3NC-J9FQM7KjIMO6gdpunPOXjMkwj78eJfaJBbF7Boa6wePNkhFW56KPUxAkVDivbcB4SpCkZRz4qEy7UUZHEBZuvmI9mfUK2BnKdlvpYPv1W6UjKht_Q5LxJ-6K9tI4sPTEAKbtVy1CvAXK9Nard8LOA4/s312/UFO_Aliens.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"377\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinW0J9cr710bPte1KBSul4FWZsNa_dXhyphenhyphenuS3NC-J9FQM7KjIMO6gdpunPOXjMkwj78eJfaJBbF7Boa6wePNkhFW56KPUxAkVDivbcB4SpCkZRz4qEy7UUZHEBZuvmI9mfUK2BnKdlvpYPv1W6UjKht_Q5LxJ-6K9tI4sPTEAKbtVy1CvAXK9Nard8LOA4/w640-h377/UFO_Aliens.png\" width=\"640\" /></a></div><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of sighting: June 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of sighting: Antarctica</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Source: Found by me</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Guys, check this out. I found this alien tower in Antarctica this week and it's&nbsp;just mind blowing. This tower has a large white base and a smaller tower near it. Aliens in Antarctica, we all knew that right?&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring&nbsp;</span></div><div style=\"text-align: left;\"><br /></div><br />",
+                "category": "paranormal"
+        },
+        {
+                "name": "UFO Crash Found In Jungle of Peru, Video! Google Earth Discovery, UFO UAP Sighting News.",
+                "type": "Paranormal Activity",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzChAFzJZO60ToKsNDCH-aexffUn_Mq-6KRCjhZoC0a8HNXYRgOwFHh3jdbAVAJBvNyg17lyLjDw60wn86hnE4mwBMfwUZOdpuxPFQwOuyVHKx37cQ_erAtxWK_t5zJMPgPFdX4gjIT6rKMa8KmXWWL-0RplInakb6oSO-WhD1YPg0wtNRTqKUeXju3gA/s1978/UFO_Sighting_News.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"408\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzChAFzJZO60ToKsNDCH-aexffUn_Mq-6KRCjhZoC0a8HNXYRgOwFHh3jdbAVAJBvNyg17lyLjDw60wn86hnE4mwBMfwUZOdpuxPFQwOuyVHKx37cQ_erAtxWK_t5zJMPgPFdX4gjIT6rKMa8KmXWWL-0RplInakb6oSO-WhD1YPg0wtNRTqKUeXju3gA/w640-h408/UFO_Sighting_News.png\" width=\"640\" /></a></div><br /><p></p><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of discovery: </span>June 20, 2025&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of discovery: </span>Amazonas region, Peru</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Coordinates:</span>&nbsp;</span><span style=\"font-size: x-large;\">6\u00b017'08\"S, 70\u00b028'01\"W</span></div><div style=\"text-align: left;\"><span style=\"font-size: x-large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Hey all, I found this crashed UFO in Peru a few weeks ago and just had time now to put it up. The UFO crashed about 30-35 years ago. I determined this from the crash site area around it...the fallen burnt trees scattered around...the regrowth size. And there is another similar size crash site just half a mile away from this one! This is 100% proof that aliens do exist, and they are roaming the jungles of&nbsp;Peru as we speak.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div><br /></div><div><br /></div><div></div>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Huge Tictac UFO Over Greenwich, Rhode Island, USA June 22, 2025, UAP Sighting News.",
+                "type": "Paranormal Activity",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-n8KNADBu89fLnmkKnxQQ-FUWCeIPzKrq8wtFyy74koBdB5RXHmibirSjHSE2_YCqb6cZM1rsR0pgBoLfSKil3abbgoQzVQwNZ1EVvIf0zcVykW2kGgfJfBi_M3kdQRnRa4wsV0Gx0M-S8crpF82o_LjUqXSz2cEpj9jp27IMue4Ptxa3ZcR0LWXKCY/s1120/tictac_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"388\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-n8KNADBu89fLnmkKnxQQ-FUWCeIPzKrq8wtFyy74koBdB5RXHmibirSjHSE2_YCqb6cZM1rsR0pgBoLfSKil3abbgoQzVQwNZ1EVvIf0zcVykW2kGgfJfBi_M3kdQRnRa4wsV0Gx0M-S8crpF82o_LjUqXSz2cEpj9jp27IMue4Ptxa3ZcR0LWXKCY/w640-h388/tictac_UFO.png\" width=\"640\" /></a></div><div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7z_wBjlt1JDliFShOVzUI21y-37vB9ZUHdUwn182amoaC6UoQh2Nzr9Z5AtplfRAPz0tJvPCo1-C0xTgWnjRkNW6d2kchUMy3Zr8ekbcQ7W_1BPJEz_exEeoOJ2UJFD6CgJeKom2LRsGaoCuOb3hzabzkJ2AUp3Wq33voXgy0J-MHO-fqs3n6sZz8Uh0/s1144/Screenshot%202025-06-25%20at%2010.29.05%E2%80%AFAM.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"390\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7z_wBjlt1JDliFShOVzUI21y-37vB9ZUHdUwn182amoaC6UoQh2Nzr9Z5AtplfRAPz0tJvPCo1-C0xTgWnjRkNW6d2kchUMy3Zr8ekbcQ7W_1BPJEz_exEeoOJ2UJFD6CgJeKom2LRsGaoCuOb3hzabzkJ2AUp3Wq33voXgy0J-MHO-fqs3n6sZz8Uh0/w640-h390/Screenshot%202025-06-25%20at%2010.29.05%E2%80%AFAM.png\" width=\"640\" /></a></div></div><br /><p></p><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting: </span>June 22, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting:</span> Greenwich, Rhode Island USA</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Source:</span> NUFORC.org</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Now look at this report just in at NUFORC, I personally work with them and saw this just now. I made a full screen version and added the original at the end of the video. Its short, just 18 secs or so but its loaded with information about how fast it moves, its 747 size, its lack of color blending into the environment, and its flying low over the coast area. This probably came from the ocean where 75% of the earth is covered in water making it 75% chance that the alien base it came from or is going to is also under the ocean somewhere off Rhode Island.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"color: red; font-size: large;\">Eyewitness states:&nbsp;</span></div><span style=\"font-size: large;\">Saw the object from a distance moving very slowly from west to east. It was very large. Looked big and had no lights. I checked the flight radar and saw nothing in that location. It slowly drifted towards Providence and then went out of sight.</span><div><span style=\"font-size: large;\"><br /></span></div><br />",
+                "category": "paranormal"
+        },
+        {
+                "name": "There is a crashed disk in forest of Hawaii where. Google Earth \ud83c\udf0d Map, UFO UAP Sighting News \ud83d\udcf0 ET Thoughts?",
+                "type": "Paranormal Activity",
+                "description": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOJAh03sMwV6scQVdKNq3Ly9T6tlhTqTDWj2K116hZkeRSQSjqtBJbIHTXzehYGlHmNJkFf32-dn9tryTf4Zx5b0UFl65IW17UtKAzdTOOGsc7SBT7bVQWDLzCZj1D9GwkCq0g1g-6PAt7EwCPjN2zrBz8069hpZIev0gNK9RoYzPBp99rPd-RJJC6-g8/s1236/Hawaii_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"394\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOJAh03sMwV6scQVdKNq3Ly9T6tlhTqTDWj2K116hZkeRSQSjqtBJbIHTXzehYGlHmNJkFf32-dn9tryTf4Zx5b0UFl65IW17UtKAzdTOOGsc7SBT7bVQWDLzCZj1D9GwkCq0g1g-6PAt7EwCPjN2zrBz8069hpZIev0gNK9RoYzPBp99rPd-RJJC6-g8/w640-h394/Hawaii_UFO.png\" width=\"640\" /></a></div><span style=\"font-size: large;\"><br /></span><p></p><p><span style=\"font-size: large;\">Hey I found this the other day and just thought it makes sense that aliens might land in an isolated forest of Hawaii, who wouldn't want too right? &nbsp;This way, they can interact, live, work, influence all humanity and still go back to the ship when they need too.&nbsp;</span></p><p><span style=\"font-size: large;\">Scott C. Waring</span></p><p><span style=\"font-size: large;\"><br /></span></p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Cloaked Passenger Jet, A Sign Alien Cloaking Tech Or Proof We Live In The Matrix? UFO UAP Sighting News.",
+                "type": "Paranormal Activity",
+                "description": "<p><br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLuPxTvOFC9WKzcxxh8nmG6xD-cHOqYdup52H-jfqNPp4QoBRm_S7oWzgj9VUAsjru4CoqdW1zOeE3nEePvzK3FnYhdjmX9YgDAxEMrZ8-DJMjcOEqnQnWByS3naMF4YO739Ah2aGPY77TYhdP9osT_yGExJF-pZbMhpWuLnP5agq1-HCdSyBXo3yL6nI/s2106/UAP_UFO_Alien.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"488\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLuPxTvOFC9WKzcxxh8nmG6xD-cHOqYdup52H-jfqNPp4QoBRm_S7oWzgj9VUAsjru4CoqdW1zOeE3nEePvzK3FnYhdjmX9YgDAxEMrZ8-DJMjcOEqnQnWByS3naMF4YO739Ah2aGPY77TYhdP9osT_yGExJF-pZbMhpWuLnP5agq1-HCdSyBXo3yL6nI/w640-h488/UAP_UFO_Alien.png\" width=\"640\" /><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div></a><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLuPxTvOFC9WKzcxxh8nmG6xD-cHOqYdup52H-jfqNPp4QoBRm_S7oWzgj9VUAsjru4CoqdW1zOeE3nEePvzK3FnYhdjmX9YgDAxEMrZ8-DJMjcOEqnQnWByS3naMF4YO739Ah2aGPY77TYhdP9osT_yGExJF-pZbMhpWuLnP5agq1-HCdSyBXo3yL6nI/s2106/UAP_UFO_Alien.png\" style=\"margin-left: 1em; margin-right: 1em;\"></a><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGAM6gSBUtywsWkB8LF_FwuRG4Ws7jeAX0BeCTE4PKiHmvAXvNiTDrexHUPGbV7wsS_cI4jYp29JVs1F9oPbb3GtRueZH_gx8ndGNLB_Xqh7Hu1vI6VqVTVYRUfO3vSHL62ssvkCcaCEMNr_V5LZrB9qe85lwWjiDpS-_8JXa_VNhyphenhyphenv57nMPIBsPo_jsY/s1996/UFO_UAP_Cloak.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"452\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGAM6gSBUtywsWkB8LF_FwuRG4Ws7jeAX0BeCTE4PKiHmvAXvNiTDrexHUPGbV7wsS_cI4jYp29JVs1F9oPbb3GtRueZH_gx8ndGNLB_Xqh7Hu1vI6VqVTVYRUfO3vSHL62ssvkCcaCEMNr_V5LZrB9qe85lwWjiDpS-_8JXa_VNhyphenhyphenv57nMPIBsPo_jsY/w640-h452/UFO_UAP_Cloak.png\" width=\"640\" /></a></div></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><span style=\"color: #0000ee;\"><span><u><br /></u></span></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"color: #0000ee; font-size: large;\"><span><u><br /></u></span></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of discovery: June 21, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of discovery: Newark Airport, New Jersey, USA</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">While using Google Earth, I found something that...may indicate there is alien&nbsp;tech cloaking devices in some normal passenger planes...to protect some very high risk US gov officials from being harmed and to transport aliens who disguise&nbsp;themselves as humans to their alien bases on Earth. Yet...a part of me hears Elon Musks voice in my head...\"we live in a simulation.\" And this could also be a sign that we do live in a computer simulation revealing a glitch in the matrix at Newark airport. One of those answers is spot on...which one...is up to you.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\">&nbsp;</div>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Skull found cut into island \ud83c\udfdd\ufe0f in Canada, 10,000+ years old! Ancient alien sign, they look like us, UFO UAP Sighting News",
+                "type": "Paranormal Activity",
+                "description": "<div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBzExEEd1lIVooR-vPAvaTI8rfc4BGaPbeJ1PgUvqR4iy9D_4lX2jci2_7kQiYQYbrswHyZ38iFwnpzR26aYuHVtqoxoxW2tJdDHZInA4KcOsbBLpbbTlNJHYT8PPt2PJXfp3-p8Yfv_GDimk_uu4HI6ZCQajAxYYVWey9yrK95tPs74G85CO737L4YAI/s1056/Ancient_Aliens_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBzExEEd1lIVooR-vPAvaTI8rfc4BGaPbeJ1PgUvqR4iy9D_4lX2jci2_7kQiYQYbrswHyZ38iFwnpzR26aYuHVtqoxoxW2tJdDHZInA4KcOsbBLpbbTlNJHYT8PPt2PJXfp3-p8Yfv_GDimk_uu4HI6ZCQajAxYYVWey9yrK95tPs74G85CO737L4YAI/w558-h640/Ancient_Aliens_UFO.png\" width=\"558\" /></a></div><br />Date of discovery: June 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of&nbsp;discovery: Alert Bay Island, Canada</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Guys check this out. There is an human-like skull that measures over a hundred meters across hidden below the surface of the water at the edge of this island. Aliens long ago, knew humans and others would be here...and they hid signs of intelligent life, here and there for us to find. Many humans call this coincidence...and maybe because of them...aliens judge us as not ready yet.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Dragon shaped river, an alien sign Reptilians left for us to find, UFO UAP sighting breaking news.\ud83e\udd8e\ud83d\udc32\ud83d\udc09",
+                "type": "Paranormal Activity",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaXZYlzGRYRDFjklkMyVObnbj7oP5aIzwrY7HK3N4Ul2OAYxbDWobl9gSEL64l-vLZgQ_xvyZy6_7GUtjlPnt1cy8jb54bndV_wZs78AWaSMYwQAyI-ieKc-K9s4M4-sPyDlOy9MdLpR2QYGcZpEkGnPdn0mIG9vmiN2jGZgPQNFtyLzGPtAXCL4qCAN0/s1821/Google_Earth_Dragon.PNG\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaXZYlzGRYRDFjklkMyVObnbj7oP5aIzwrY7HK3N4Ul2OAYxbDWobl9gSEL64l-vLZgQ_xvyZy6_7GUtjlPnt1cy8jb54bndV_wZs78AWaSMYwQAyI-ieKc-K9s4M4-sPyDlOy9MdLpR2QYGcZpEkGnPdn0mIG9vmiN2jGZgPQNFtyLzGPtAXCL4qCAN0/w414-h640/Google_Earth_Dragon.PNG\" width=\"414\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of discovery:</span> June 18, 2025</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of discovery: </span>Ticha Reservoir, Bulgaria</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Google Coordinates:</span>&nbsp;</span><span style=\"font-size: large;\">42\u00b052\u203211.2\u2033N, 26\u00b054\u203221.8\u2033E</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Aliens...those ancient aliens that came long ago...so many different species...and each one left hundred maybe thousands of signs that they were here...and they did it on purpose for us to one day find. Well, here is one of their signs...and I think it was the Reptilians that left it for us. An alien species resembling a reptile...and here is a lake resembling a reptile of legends...a dragon. This is 100% proof that aliens came, left signs for us to find, and knew we would be here to see them one day.&nbsp;</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily \ud83e\udd8e\ud83d\udc32\ud83d\udc09</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: center;\">\n</div>",
+                "category": "paranormal"
+        },
+        {
+                "name": "City In Mars Photo, NASA Calls It A Bear Face! Look In Its Mouth! UFO UAP Sighting News.",
+                "type": "Paranormal Activity",
+                "description": "<p>&nbsp;<br /></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyIuT4V_dw7HNi9lG4WQe6VkH1hXvzs01RUkEZDONfgt0k1uZULelaCHDlMCDsjUCqfAMBUlmjNUJgn1sbTkhdHDBNWmxD2BhfobY0yzqATHGtGJmFDr-MpTnIzx3Z80feyuui_7u8lSWuXxSTSj7Oqw0Sh4SSbJbQP4_b9agBGdgPLljDjO1KHFGNiY4/s3064/UFO_Mars_City.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"396\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyIuT4V_dw7HNi9lG4WQe6VkH1hXvzs01RUkEZDONfgt0k1uZULelaCHDlMCDsjUCqfAMBUlmjNUJgn1sbTkhdHDBNWmxD2BhfobY0yzqATHGtGJmFDr-MpTnIzx3Z80feyuui_7u8lSWuXxSTSj7Oqw0Sh4SSbJbQP4_b9agBGdgPLljDjO1KHFGNiY4/w640-h396/UFO_Mars_City.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-S9Co3-anOyPShxHsfrqLf-NUnVAyR1idFVt6Per_h0SaifDzqDY8LQEaCfIc4_dbZ4bld5nIwda1uHYnCXNJUkaQeyj9sAtO37ydqXkI-57Vx86YO_DfkcIvxGWS2c2y4zwhlukdFtZj4nytiV4DtseiVztQ8wp_X_XLO2FPtoYEjYowwnNKbdLe2mQ/s1080/Mars_Bear_face.tif\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"400\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-S9Co3-anOyPShxHsfrqLf-NUnVAyR1idFVt6Per_h0SaifDzqDY8LQEaCfIc4_dbZ4bld5nIwda1uHYnCXNJUkaQeyj9sAtO37ydqXkI-57Vx86YO_DfkcIvxGWS2c2y4zwhlukdFtZj4nytiV4DtseiVztQ8wp_X_XLO2FPtoYEjYowwnNKbdLe2mQ/w640-h400/Mars_Bear_face.tif\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of discovery:</span> June 18, 2025</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of discovery: </span>Mars&nbsp;</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Source nasa photo:</span>&nbsp;</span><a href=\"https://photojournal.jpl.nasa.gov/catalog/PIA25709\">https://photojournal.jpl.nasa.gov/catalog/PIA25709</a>&nbsp;</div><div class=\"separator\" style=\"clear: both; text-align: left;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">I want to thank the follower who emailed me at scwaring @ yahoo.com and told me about this cool bear photo...which led me to look deeper into it finding the ancient city, crashed ship, air vents and more. The circle of the fake crater wall is 2 miles across, making the structure in the mouth of the bear at least 100-200 meters across, also the ship is 200 meters long! You have to see the video to&nbsp;understand...is just undeniable proof that intelligent aliens lived, thrived and died on Mars.&nbsp;</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><p></p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Mysterious Lights Over Villeta, Paraguay June 5, 2025, UFO UAP Sighting News.",
+                "type": "UFO Sighting",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigYb8XaOqYlNlBEqdTSvv1vSXpm8PPQCXk3o5Sy3ErPhrq58e-t-QnR0swN2LZM_W0LOE6VJSKBYnjt_K4ypawFSnH7-HVx7AEqX4Ay-fUtE9Row2w76ceTv905CZjr2F2PPX7XCyHEbIT4JqLdJQ8NSy55XYS4968PrbqdQ4xNs_GCH1gTK6GThUrOKk/s1260/UFO_report.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigYb8XaOqYlNlBEqdTSvv1vSXpm8PPQCXk3o5Sy3ErPhrq58e-t-QnR0swN2LZM_W0LOE6VJSKBYnjt_K4ypawFSnH7-HVx7AEqX4Ay-fUtE9Row2w76ceTv905CZjr2F2PPX7XCyHEbIT4JqLdJQ8NSy55XYS4968PrbqdQ4xNs_GCH1gTK6GThUrOKk/w598-h640/UFO_report.png\" width=\"598\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCq9qq6K4pwr6chiiXu3UolGUIXAAPnUdF9kwYgC4oK1ivC09yw0Gnm8jQY1MPPupVNdogcLCsiwDIy6NUW02pSqvw0sMfr3ZT8DL5olIjLDhEo3ObeVt1CyxZuOBvqSZdHj9QX87kTCwPpVDP58ieF4mhwW51sW40-400sVEMixcSQ7FTI2sMJ3uPx6o/s1450/Screenshot%202025-06-17%20at%2011.05.37%E2%80%AFPM.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCq9qq6K4pwr6chiiXu3UolGUIXAAPnUdF9kwYgC4oK1ivC09yw0Gnm8jQY1MPPupVNdogcLCsiwDIy6NUW02pSqvw0sMfr3ZT8DL5olIjLDhEo3ObeVt1CyxZuOBvqSZdHj9QX87kTCwPpVDP58ieF4mhwW51sW40-400sVEMixcSQ7FTI2sMJ3uPx6o/w524-h640/Screenshot%202025-06-17%20at%2011.05.37%E2%80%AFPM.png\" width=\"524\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting: </span>June 5, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting: </span>Villeta, Paraguay</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Source:</span> NUFORC.org&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">This is very strange...NUFORC just got a report of a pulsing light that took over the horizon in Paraguay last week. I have seen similar things before in videos are photos and I have to say it...it's a UFO. These lights are a huge UFO landing in the area...but that doesn't mean it stayed on the ground when it landed, but it probably was lowered down under the ground...into an alien base about 4-6 km below the surface. How do I know how UFOs and even people travel to underground bases? The Friendships case of the W56 alien group at Rocca Pia Italy that lasted three decades of alien and human interactions teaches about it. Too many books, most in Italian, videos, photos, tapes and more.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">I want to thank NUFORC for working with me. They allow me to use and analyze and share their UFO reports to the public and the news media but ask to mention the NUFORC name. Also all my videos and photos on this site are allowed to be used by the media...permission granted.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">This UFO reports was written by a person who speaks Spanish and they didn't include a description. </span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "ufo"
+        },
+        {
+                "name": "New Simulations Reveal Dozens of Hidden Galaxies Orbiting the Milky Way",
+                "type": "Paranormal Activity",
+                "description": "There may be many more satellite galaxies in the Milky Way than have been observed, according to new Durham University simulations.",
+                "category": "paranormal"
+        },
+        {
+                "name": "Scientists Discover Mysterious 80-Million-Year-Old Landscape Hidden Beneath Antarctica",
+                "type": "Paranormal Activity",
+                "description": "An international team of scientists have discovered a mysterious, ancient landscape hidden beneath the ice sheet of Eastern Antarctica.",
+                "category": "paranormal"
+        },
+        {
+                "name": "A Forgotten Martian Landscape May Hold the Key to Ancient Water on the Red Planet",
+                "type": "Paranormal Activity",
+                "description": "New evidence for past water on Mars was revealed in research identifying over 15,000 kilometers of dry riverbeds on the Martian surface.",
+                "category": "paranormal"
+        },
+        {
+                "name": "Astronomers Are Tracking a Massive New Interstellar Object That Just Entered Our Solar System",
+                "type": "UFO Sighting",
+                "description": "Astronomers have announced the discovery of A11pl3Z, a massive new interstellar object entering our solar system.",
+                "category": "ufo"
+        },
+        {
+                "name": "Groundbreaking New AI Trained on Psychology Studies Can Predict Human Behavior with Stunning Accuracy",
+                "type": "Historical Mystery",
+                "description": "The new Centaur artificial intelligence (AI) demonstrates an ability to predict human behavior, with an accuracy exceeding any other model.",
+                "category": "historical"
+        },
+        {
+                "name": "James Webb Space Telescope Discovers Peculiar Cosmic \u2018Jellyfish\u2019 in Rare Galactic Observation",
+                "type": "Historical Mystery",
+                "description": "The most distant known example of what astronomers call a \u201cjellyfish galaxy\u201d has been spotted by NASA\u2019s James Webb Space Telescope.",
+                "category": "historical"
+        },
+        {
+                "name": "Controversial \u2018Synthetic Human Genome Project\u2019 Spurs Debate Over Ethics of Building Human DNA from Scratch",
+                "type": "Historical Mystery",
+                "description": "The Synthetic Human Genome Project is working to build synthetic human DNA but who is asking how this science will impact society?",
+                "category": "historical"
+        },
+        {
+                "name": "Scientists Say Deep Sleep Likely Increases Odds of \u201cEureka\u201d Moments",
+                "type": "Historical Mystery",
+                "description": "Scientists trying to unlock the brain mechanisms behind so-called \"eureka\" moments of clarity gave found a possible connection to deep sleep.",
+                "category": "historical"
+        },
+        {
+                "name": "\u201cYou Need H2O and Not Just for Drinking\u201d: Research Suggests an Icy Location for First Crewed Mars Landing",
+                "type": "Historical Mystery",
+                "description": "With crewed missions to the Red Planet becoming a realistic possibility for the 2030s, researchers have begun the search for an ideal Mars\u00a0 landing site.",
+                "category": "historical"
+        },
+        {
+                "name": "Construction on Mars: NASA Suggests a Synthetic Lichen to Autonomously Convert Regolith into Building Material",
+                "type": "Historical Mystery",
+                "description": "On a future crewed Mars mission, explorers may grow their own building materials directly on the Red Planet.",
+                "category": "historical"
+        },
+        {
+                "name": "Bigfoot Shows Itself On Video",
+                "type": "Paranormal Activity",
+                "description": "<br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaAVq62iiRaC4W6ComunfA1aEm9jrM20l8f9pxVCr9LIjDufVrbBX_L-koRhnIa96zG6UvzspP_RGzcSP5HbXkLyOBmFB2I8gR-QbBL9CtZC4ZEslUyI2fEKhF6J4pwc_MALZ0k0ioYyGr/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"274\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaAVq62iiRaC4W6ComunfA1aEm9jrM20l8f9pxVCr9LIjDufVrbBX_L-koRhnIa96zG6UvzspP_RGzcSP5HbXkLyOBmFB2I8gR-QbBL9CtZC4ZEslUyI2fEKhF6J4pwc_MALZ0k0ioYyGr/w400-h274/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From NvTv Bigfoot shows itself on video. Take a look at the following footage and see if you think it's the real deal or not.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfoot-shows-itself-on-video.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Remer Bigfoot Sighting",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh51_mxWEfq8piCc_izAz-PXtdftnd-K9J1Nz62xVIVcGABm3CWf67s33fuEM9TWP5h8RkRuOtCjyLggfGvCiByiDnTutlYztFrJyWH0MAHNltECNYkM6jwAnXFmxnoBNkTxLbAykMGoGlJ/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"217\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh51_mxWEfq8piCc_izAz-PXtdftnd-K9J1Nz62xVIVcGABm3CWf67s33fuEM9TWP5h8RkRuOtCjyLggfGvCiByiDnTutlYztFrJyWH0MAHNltECNYkM6jwAnXFmxnoBNkTxLbAykMGoGlJ/w400-h217/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">Wait, that doesn't look like a bigfoot. Check out this video about a bigfoot sighting in Remer, and a follow up on some possible bigfoot tracks.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/remer-bigfoot-sighting.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "The Hillside Growler",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiDU7m57JpzlkG9ZGoqWP7N6WQ48c9hhLEdqv0FrULVpwR8CqLOJR2BnsPtNquuWIp2-rcuEV22CL1XOyzrhe9g3CoKz_CunkNdpPCPd8DA7ArCSf1inGcIzZphNIOoYH3EoMO21TLTM41/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"258\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiDU7m57JpzlkG9ZGoqWP7N6WQ48c9hhLEdqv0FrULVpwR8CqLOJR2BnsPtNquuWIp2-rcuEV22CL1XOyzrhe9g3CoKz_CunkNdpPCPd8DA7ArCSf1inGcIzZphNIOoYH3EoMO21TLTM41/w400-h258/Capture.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the Into The Fray podcast comes a bigfoot-sized episode: The Hillside Growler. Ooohhh, scary.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/the-hillside-growler.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Bold Bigfoot Behavior",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ0-FChk4VCjsdAuJPDMh_EiRW1SPuQVujL9bY7Aqe8CLekLXnv0WV4jFzv-WO0HCGvtouePTefQxUUcQtbEbfb1ZPFcjAZd09bstrsytYgx-WLeuD8yaVeZphQl4Yp5id-_a1llrjTWkd/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"251\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ0-FChk4VCjsdAuJPDMh_EiRW1SPuQVujL9bY7Aqe8CLekLXnv0WV4jFzv-WO0HCGvtouePTefQxUUcQtbEbfb1ZPFcjAZd09bstrsytYgx-WLeuD8yaVeZphQl4Yp5id-_a1llrjTWkd/w400-h251/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">You might picture bigfoot as some timid and shy forest giant, but sometimes their behavior says otherwise. Check it out.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bold-bigfoot-behavior.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Did You Hear That?",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHzJYpYTHLSH2Za9nPzzYbPFm-A7fCeHW3lIoO7eXyMCDePFYM9-CbRgOLXN7EpzyxxV9jmR_l-iOXdig-J-sNcVUWnlYANob9Q94hk8VqfiHnmbdatYyDE43fzdyfz0eARFqK2loHKIXG/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"245\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHzJYpYTHLSH2Za9nPzzYbPFm-A7fCeHW3lIoO7eXyMCDePFYM9-CbRgOLXN7EpzyxxV9jmR_l-iOXdig-J-sNcVUWnlYANob9Q94hk8VqfiHnmbdatYyDE43fzdyfz0eARFqK2loHKIXG/w400-h245/Capture2.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\">From the buckeye Bigfoot youtube channel comes six, count em six, bigfoot encounter stories to listen to. Check it out.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/did-you-hear-that.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "News Briefs 03-07-2025",
+                "type": "Historical Mystery",
+                "description": "<p>July already? Time flies when you&#8217;re having an apocalyptic existential crisis! Thanks to Greg. Quote of the Day: I find hope in the darkest of days, and focus in the brightest. I do not judge the universe. Dalai Lama</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-03-07-2025/\">News Briefs 03-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Open Minds UAP News: Skinwalker Ranch update with owner Brandon Fugal",
+                "type": "UFO Sighting",
+                "description": "In this episode, we interview Brandon Fugal, owner of Skinwalker Ranch in Utah. The ranch is the focus of years of paranormal research and the History Channel show The Secret of Skinwalker Ranch. The Secret of Skinwalker Ranch Season 5 finale Tuesday, July 23rd, 2024 on The History Channel! The Official Skinwalker Ranch website: https://skinwalker-ranch.com &#8230;",
+                "category": "ufo"
+        },
+        {
+                "name": "Chang\u2019e-6 Returns First Samples from Far Side of the Moon, Revealing Deep Lunar Secrets",
+                "type": "Historical Mystery",
+                "description": "Earth\u2019s Moon always presents us on the surface with the same face, yet its mysterious far side features many significant differences.",
+                "category": "historical"
+        },
+        {
+                "name": "Scientists Are Trying to Explain a Mysterious \u2018Cold Spot\u2019 South of Greenland in the Atlantic Ocean",
+                "type": "UFO Sighting",
+                "description": "Scientists studying a mysterious cold spot south of Greenland in the Atlantic ocean have made a startling discovery.",
+                "category": "ufo"
+        },
+        {
+                "name": "Theory Proposing Three-Dimensional Time as the \u201cPrimary Fabric of Everything\u201d Could Unify Quantum Physics and Gravity",
+                "type": "Historical Mystery",
+                "description": "A new, testable theory proposing three-dimensional time as the \"primary fabric of everything\" could help unify quantum physics and gravity.",
+                "category": "historical"
+        },
+        {
+                "name": "News Briefs 08-07-2025",
+                "type": "Historical Mystery",
+                "description": "<p>Don&#8217;t lose a single minute of your day searching for interesting news &#8211; we&#8217;ve got them all right here for you! Quote of the Day The reason people don&#8217;t buy conspiracy theories is they think &#8216;conspiracy&#8217; means everybody&#8217;s on the same program. That&#8217;s not how it works. Everybody&#8217;s got a different program. They just all want the same guy dead. James Lee Burke</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-08-07-2025/\">News Briefs 08-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Of Roadside Picnics and Disclosure Stalkers",
+                "type": "Historical Mystery",
+                "description": "<p>\u201cIf a lion could speak, we couldn&#8217;t understand him.\u201d -Ludwig Wittgenstein Regular Grailers are aware of my obsession with Jacques Vall\u00e9e\u2019s Forbidden Science published memoirs\u2014check out our latest interview with him on our YouTube channel if you haven\u2019t\u2014in which he not only shares his journal-recorded insights into the study of UFOs as they developed throughout the decades, but also glimpses on his daily life and personal tastes. Learning of his passion for classical music was not particularly revelatory, but discovering [&#8230;]</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/of-roadside-picnics-and-disclosure-stalkers/\">Of Roadside Picnics and Disclosure Stalkers</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Loftus Hall",
+                "type": "Historical Mystery",
+                "description": "A haunted house with alleged demonic activity.",
+                "category": "historical"
+        },
+        {
+                "name": "The Spirits of Villa de Leyva",
+                "type": "Historical Mystery",
+                "description": "Reports of ghostly apparitions in this colonial town.",
+                "category": "historical"
+        },
+        {
+                "name": "Ch\u00e2teau de Brissac",
+                "type": "Historical Mystery",
+                "description": "Haunted by the 'Green Lady'.",
+                "category": "historical"
+        },
+        {
+                "name": "The Myrtles Plantation",
+                "type": "Historical Mystery",
+                "description": "Reputed to be one of the most haunted houses in America.",
+                "category": "historical"
+        },
+        {
+                "name": "Greenland\u2019s UFO Enigma: Secrets Behind the Lights and Strategic Power Plays",
+                "type": "Paranormal Activity",
+                "description": "<p>UFOs over Greenland? Shocking footage, rare earths, secret US bases\u2014this is bigger than anyone thought. #UAP #GreenlandMystery</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/06/greenlands-ufo-enigma-secrets-behind-the-lights-and-strategic-power-plays.html\">Greenland&#8217;s UFO Enigma: Secrets Behind the Lights and Strategic Power Plays</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "\u201cImmaculate Constellation\u201d: Journalist Claims Pentagon Hiding Massive UFO Evidence",
+                "type": "Paranormal Activity",
+                "description": "<p>Journalist: Pentagon\u2019s \u201cImmaculate Constellation\u201d UFO program hides vast, classified evidence. Lawmakers demand full disclosure.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/05/immaculate-constellation-journalist-claims-pentagon-hiding-massive-ufo-evidence.html\">\u201cImmaculate Constellation\u201d: Journalist Claims Pentagon Hiding Massive UFO Evidence</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Inside the Stargate Program: Remote Viewing, UFO Bases & the Secrets of Consciousness",
+                "type": "Paranormal Activity",
+                "description": "<p>Ex-Army remote viewer Dr. Paul H. Smith reveals hidden UFO bases, moon missions &#038; the Stargate Program's secrets on consciousness.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/05/inside-the-stargate-program-remote-viewing-ufo-bases-the-secrets-of-consciousness.html\">Inside the Stargate Program: Remote Viewing, UFO Bases &amp; the Secrets of Consciousness</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Aliens Among Us? 5 Scariest UFO Encounters Shared on Joe Rogan",
+                "type": "Paranormal Activity",
+                "description": "<p>Joe Rogan reveals 5 chilling alien encounters\u2014from Zimbabwe\u2019s school UFO to Brazil\u2019s Roswell and Navy pilot sightings.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/05/aliens-among-us-5-scariest-ufo-encounters-shared-on-joe-rogan.html\">Aliens Among Us? 5 Scariest UFO Encounters Shared on Joe Rogan</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Mantis Overlords: Ancient Aliens or Earth\u2019s Hidden Rulers?",
+                "type": "Paranormal Activity",
+                "description": "<p>Mantis aliens: real rulers of Earth? Ancient carvings, abductions &#038; mind control suggest they\u2019ve been watching us for millennia.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/05/mantis-overlords-ancient-aliens-or-earths-hidden-rulers.html\">Mantis Overlords: Ancient Aliens or Earth\u2019s Hidden Rulers?</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Whistleblower Reveals Pentagon\u2019s Secret UFO Video Archive: \u201cImmaculate Constellation\u201d Exposed",
+                "type": "Historical Mystery",
+                "description": "<p>Whistleblower claims Pentagon hides thousands of UFO videos in a secret program called Immaculate Constellation. More insiders to come.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/05/whistleblower-reveals-pentagons-secret-ufo-video-archive-immaculate-constellation-exposed.html\">Whistleblower Reveals Pentagon\u2019s Secret UFO Video Archive: \u201cImmaculate Constellation\u201d Exposed</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Presidential Insider Reveals: \u201cI Handled Real UFO Material\u201d \u2014 Malmgren\u2019s Stunning Confession",
+                "type": "Paranormal Activity",
+                "description": "<p>Ex-presidential advisor Malmgren says he held UFO material &#038; saw alien survivor video. Secret tech links Tesla &#038; Townsend Brown.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/04/presidential-insider-reveals-i-handled-real-ufo-material-malmgrens-stunning-confession.html\">Presidential Insider Reveals: \u201cI Handled Real UFO Material\u201d \u2014 Malmgren&#8217;s Stunning Confession</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Alien face on island in Antarctica is a sign they left for us, UFO UAP sighting news ancient aliens \ud83d\udc7d\ud83d\udc7d",
+                "type": "Historical Mystery",
+                "description": "<div style=\"text-align: left;\"><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD6kVn8SvbfwWF6Xu0u0zquhxDTklWUF349qRb3izQk6TZ3gFYr87fEj_rT2AWDq7UWY-PmU_k1VaXeeYNz0i6HRFJvo3GuPG_Vl4xfFkD2JLaYKwn0iBmx-uGHRTbXDtU_v5I99UGHI_4Dm46BkuzwAXuVJMtdpX9NLkJf1teJPDwLmSAr7hChwxm8bw/s1668/W56_Aliens_ET.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"438\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD6kVn8SvbfwWF6Xu0u0zquhxDTklWUF349qRb3izQk6TZ3gFYr87fEj_rT2AWDq7UWY-PmU_k1VaXeeYNz0i6HRFJvo3GuPG_Vl4xfFkD2JLaYKwn0iBmx-uGHRTbXDtU_v5I99UGHI_4Dm46BkuzwAXuVJMtdpX9NLkJf1teJPDwLmSAr7hChwxm8bw/w640-h438/W56_Aliens_ET.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5dgjXiXsEwWDPH8T9Glv9Had092mmS5W7gdI7aug1IubtBOAnYF9yuw_vMlKZwKb-EK5xjHuEcGwKI08zlIL3VbEkW7wUs7UXkkCatJRNoQ7fAR5P5fTP4ogTiO8fbzBYr9rnoNVYQg1Hhqbz9_nrL6wZoB-tCjQySbzq5e7XzshPDY5HJQzvVl_g-Gs/s1502/UFO_Aliens.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"408\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5dgjXiXsEwWDPH8T9Glv9Had092mmS5W7gdI7aug1IubtBOAnYF9yuw_vMlKZwKb-EK5xjHuEcGwKI08zlIL3VbEkW7wUs7UXkkCatJRNoQ7fAR5P5fTP4ogTiO8fbzBYr9rnoNVYQg1Hhqbz9_nrL6wZoB-tCjQySbzq5e7XzshPDY5HJQzvVl_g-Gs/w640-h408/UFO_Aliens.png\" width=\"640\" /></a></div></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of discovery: </span>July 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of discovery:</span> Antarctica</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span><span style=\"color: red;\">Coordinates:</span>&nbsp;</span><span>3\u00b000'41\"S 60\u00b046'11\"W</span></span></div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">I found a face again, but this time not on Mars or the moon, it's&nbsp;on a small little island without a name...next Deception Island. The face is like that of an ancient person, with a leather hat that has two long sides as well as a belt that wraps under the&nbsp;persons chin. The person is human-like and has two eyes, a nose, mouth and chin. As I have said before...when you find the face, you find a base. Aliens will create faces of their loved ones that past away while they were far across the galaxy or universe&nbsp;working. Aliens are lazy, meaning they like things done by ai and wont make faces in mountains just&nbsp;anywhere, they always choose locations within 2km of the alien base. Google Ruler says this face is 28 meters by 14, that includes the long parts of the hat that hangs down to where the chest area should be.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings&nbsp;Daily &nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: x-large;\"><br /></span></div><div><br /></div><div><br /></div>\n&nbsp;<div><br /></div><div><br /></div>",
+                "category": "historical"
+        },
+        {
+                "name": "Ancient alien base discovered in remote Antarctica region, ET Structures UFO UAP sighting news \ud83d\udc7d",
+                "type": "Paranormal Activity",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUOLHelJoDD9XYSwqyXl5yXt3G_OO0dCY0EFJDyD2QgAh2X2HP9N7EHffB3IhuZlpTe5SV7vEPEZ40sPz5zTLeWynk5BwNTd92JbonZaUuSEXqbIoYGH7wnHUWwMGDXrtNfyxTO64G6Rzzt96KgZOe6L6FHHCj360sQpicDJfsdSSktdXxuQDUMTgYXVI/s1070/Aliens_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"414\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUOLHelJoDD9XYSwqyXl5yXt3G_OO0dCY0EFJDyD2QgAh2X2HP9N7EHffB3IhuZlpTe5SV7vEPEZ40sPz5zTLeWynk5BwNTd92JbonZaUuSEXqbIoYGH7wnHUWwMGDXrtNfyxTO64G6Rzzt96KgZOe6L6FHHCj360sQpicDJfsdSSktdXxuQDUMTgYXVI/w640-h414/Aliens_UFO.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><p></p><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of discovery: July 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of discovery: Antarctica region</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Coordinates:&nbsp;-80.303889 -81.385611</span></div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">I found this strange structure in a remote Antarctica region of Google Earth Map. The structure measures 50 meters across and 20 meters wide according to Google ruler. This might be just the&nbsp;entrance, not the full structure, it may lead to an underground alien base below the Arctic ice. The real question is...are the aliens still living there or is this an abandoned base that other countries military can take over? Exploration of this structure needs to take place to learn more first hand.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "paranormal"
+        },
+        {
+                "name": "US Gov Releases New Video UFO Over Iraq Recorded By US Military Helicopter, UAP Sighting News.",
+                "type": "UFO Sighting",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqU9s-pDzMcm3C-KVjI6JtJTnyn6nxF2xrsBYPRNJTADYLmQMp_qOTREAwqCBKw8zUrKbSQRRxhNNzOsiglq5E1EZxyOfhxnLqEuEoupz9YbUTVD-Imv1FMeDZ8beVj-YEx9IzNr8kPnGD2ZUE2Ip471a0xVS5Z0ekNsvwoq1hPpuRKS2nDGo4I6MGhes/s720/UFO,%20UAP,%20news.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"412\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqU9s-pDzMcm3C-KVjI6JtJTnyn6nxF2xrsBYPRNJTADYLmQMp_qOTREAwqCBKw8zUrKbSQRRxhNNzOsiglq5E1EZxyOfhxnLqEuEoupz9YbUTVD-Imv1FMeDZ8beVj-YEx9IzNr8kPnGD2ZUE2Ip471a0xVS5Z0ekNsvwoq1hPpuRKS2nDGo4I6MGhes/w640-h412/UFO,%20UAP,%20news.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg6odcBQcnBus1rxmbSNR3nBx-F5HlIIQaWyAbBZ4kS5h8JavA2u9mx34chx3G_wz0RuSHaiYYTsxNK2NFYcz0YMWewszxRxvhaVS5g-NIHrD_j3eU19Bc7Zhh2WIv6YlugCoqpeBPCy7lUkl2duxvDW-eMulrYs97AhbYeRk1v7V4sGNWMGUEt_veq74/s844/Iraq,%20UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"352\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg6odcBQcnBus1rxmbSNR3nBx-F5HlIIQaWyAbBZ4kS5h8JavA2u9mx34chx3G_wz0RuSHaiYYTsxNK2NFYcz0YMWewszxRxvhaVS5g-NIHrD_j3eU19Bc7Zhh2WIv6YlugCoqpeBPCy7lUkl2duxvDW-eMulrYs97AhbYeRk1v7V4sGNWMGUEt_veq74/w640-h352/Iraq,%20UFO.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZcdbiBulCm8a3FDmuKsg-_V15ibPUYSBw_Y5dcqaNCqzEJq41YheJCPFhZhbccK2nZ0By-iI2WgZCFRx5Dxx9P0t_ockydxygDRjDCgXGCqLzRD2Mog84p2-k49pBDh6ZPQ2_-qpqfoD0rIQNTvYYXnRN_-4ZYyyyLM95Ya5Hv5N74lorrBpF60E40hI/s744/UFO,%20Iraq.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"366\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZcdbiBulCm8a3FDmuKsg-_V15ibPUYSBw_Y5dcqaNCqzEJq41YheJCPFhZhbccK2nZ0By-iI2WgZCFRx5Dxx9P0t_ockydxygDRjDCgXGCqLzRD2Mog84p2-k49pBDh6ZPQ2_-qpqfoD0rIQNTvYYXnRN_-4ZYyyyLM95Ya5Hv5N74lorrBpF60E40hI/w640-h366/UFO,%20Iraq.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of sighting: 2024 (gov refuses to release exact date)</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of sighting: Iraq (Most US soldiers located here)</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Source:&nbsp;</span><a href=\"https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/\">https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/</a>&nbsp;</div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Watch this newly released video of a UFO flying over Iraq and was caught by a US military helicopter and followed for at least 1.5 minutes or more...some footage may have been held back from being released. Also the US military blacked out all location data, fly speed, size, and&nbsp;other data that might give away the US military base positions. I used Chatgpt to look at a 10 second clip and tell me the speed...and it said the UFO was traveling at 144.4km per hour or 89.8 mph. That means this is no balloon! This is 100% alien technology watching over the most dangerous area on Earth and recording data of human reactions, interactions, and even thoughts as well as other things like food, water, contamination to the soil, animals, people, and so on.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "ufo"
+        },
+        {
+                "name": "Agency Cafeterias \u2013 Complaints & Menus",
+                "type": "Historical Mystery",
+                "description": "<p>Background You can get quite a bit of material under the Freedom of Information Act (FOIA) even copies of cafeteria menus and complaints sent in regarding the food. Although I still have quite a few open FOIA requests regarding this, the below have come in thus far. Central Intelligence Agency (CIA) \u00a0CIA Cafeteria Complaints, Calendar [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/agency-cafeterias-complaints-menus/\">Agency Cafeterias \u2013 Complaints & Menus</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Air Force Confirms Drone Swarms Over Wright-Patterson AFB Led to Airspace Shutdown; Videos and Reports Released",
+                "type": "Historical Mystery",
+                "description": "<p>Newly released Air Force records confirm that Wright-Patterson Air Force Base (WPAFB) in Ohio experienced multiple drone incursions in mid-December 2024, prompting the temporary shutdown of military airspace and a large-scale security response. The disclosure, made through the Freedom of Information Act (FOIA) to The Black Vault, includes incident reports, sworn witness statements, law enforcement [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/air-force-confirms-drone-incursion-led-to-wright-patterson-afb-shutdown-air-force-videos-surface/\">Air Force Confirms Drone Swarms Over Wright-Patterson AFB Led to Airspace Shutdown; Videos and Reports Released</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "CIA Mishandles UFO Files Again: Intelligence on Soviet UFO Reports Lost Forever",
+                "type": "Historical Mystery",
+                "description": "<p>The CIA\u2019s history of losing or mismanaging UFO-related records continues with yet another example, this time, tied to a Mandatory Declassification Review (MDR) filed more than five years ago. The case, submitted on January 24, 2019, was finally answered on March 7, 2024. It centers on a CIA translation of two Soviet-era newspaper articles discussing [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/cia-mishandles-ufo-files-again-intelligence-on-soviet-ufo-reports-lost-forever/\">CIA Mishandles UFO Files Again: Intelligence on Soviet UFO Reports Lost Forever</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Defense Department Emails Confirm 2017 UAP Briefings, Further Clarify Luis Elizondo\u2019s Role in AATIP",
+                "type": "Historical Mystery",
+                "description": "<p>Newly released internal emails from the Department of Defense, obtained through a FOIA request filed by The Black Vault, shed new light on two key aspects of the UAP issue: previously undisclosed (never officially acknowledged) briefings by Navy pilots to the Secretary of Defense\u2019s front office, and the continued controversy surrounding former intelligence officer Luis [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/defense-department-emails-confirm-2017-uap-briefings-further-clarify-luis-elizondos-role-in-aatip/\">Defense Department Emails Confirm 2017 UAP Briefings, Further Clarify Luis Elizondo\u2019s Role in AATIP</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "Do Not Respond: Pentagon Staff Instructed to Ignore The Black Vault\u2019s UAP Inquiry",
+                "type": "UFO Sighting",
+                "description": "<p>The Department of Defense (DoD) has released 151 pages of internal records related to the FLIR1, Gimbal, and GoFast UAP videos. The disclosure, obtained by The Black Vault through FOIA case 19-F-1420, adds new detail to the growing archive of material that documents how the U.S. government internally handled the official release of the three [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/do-not-respond-pentagon-staff-instructed-to-ignore-the-black-vaults-uap-inquiry/\">Do Not Respond: Pentagon Staff Instructed to Ignore The Black Vault\u2019s UAP Inquiry</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "ufo"
+        },
+        {
+                "name": "FOIA Response Reveals Contact Between AARO and Enigma Labs; Details Remain Largely Redacted",
+                "type": "Paranormal Activity",
+                "description": "<p>In a new batch of documents obtained by The Black Vault, the Department of Defense has released direct communications between the Pentagon\u2019s All-domain Anomaly Resolution Office (AARO) and Enigma Labs, a private company working in the UAP research space. The release stems from a Freedom of Information Act (FOIA) request filed by The Black Vault [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/foia-response-reveals-contact-between-aaro-and-enigma-labs-details-remain-largely-redacted/\">FOIA Response Reveals Contact Between AARO and Enigma Labs; Details Remain Largely Redacted</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "TEMPS (Transportable Electromagnetic Pulse Simulator) Final Reports, 1973",
+                "type": "Paranormal Activity",
+                "description": "<p>The two volumes of the TEMPS (Transportable Electromagnetic Pulse Simulator) Final Report, dated August 1973 and prepared for the Defense Nuclear Agency by Physics International Company, provide a detailed technical overview of the design, construction, testing, and performance evaluation of a mobile high-voltage EMP (Electromagnetic Pulse) simulator. Volume I: System Overview and Technical Design Volume [...]</p>\n<p>The post <a href=\"https://www.theblackvault.com/documentarchive/temps-transportable-electromagnetic-pulse-simulator-final-reports-1973/\">TEMPS (Transportable Electromagnetic Pulse Simulator) Final Reports, 1973</a> first appeared on <a href=\"https://www.theblackvault.com/documentarchive\">The Black Vault</a>.</p>",
+                "category": "paranormal"
+        },
+        {
+                "name": "Over 400,000 Humanoid Civilizations: What UFO Sightings Are Really Telling Us",
+                "type": "Historical Mystery",
+                "description": "<p>UFO sightings are just the tip of the iceberg\u2014400,000 humanoid races exist. Discover why they stay hidden and what they're doing on Earth.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/06/over-400000-humanoid-civilizations-what-ufo-sightings-are-really-telling-us.html\">Over 400,000 Humanoid Civilizations: What UFO Sightings Are Really Telling Us</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 0,
+        "event_count": 71,
+        "last_updated": "2025-07-16T15:33:26.851906"
+},
+            metadata: {
+        "title": "Paranormal Mysteries in unknown, Laharighat - Tours & Services",
+        "description": "Explore paranormal mysteries in unknown, Laharighat. Explore the mysterious and unexplained phenomena of Laharighat, where legends of Bigfoot and Ape Man come alive. Join us",
+        "keywords": [
+                "Bigfoot sightings",
+                "Ape Man encounters",
+                "paranormal events"
+        ],
+        "page_description": "Explore the mysterious and unexplained phenomena of Laharighat, where legends of Bigfoot and Ape Man come alive. Join us for a journey into the unknown, where the lines between reality and myth blur."
+},
+            lastUpdated: "2025-07-16T15:33:26.851906"
+        };
+        
+        // Category-specific styling
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('category-paranormal');
+            if (LOCATION_DATA.coordinates && LOCATION_DATA.coordinates.length === 2) {
+                initLocationMap();
+            }
+            loadLocationContent();
+        });
+    </script>
+    <script src="../location-detail.js"></script>
+</body>
+</html>

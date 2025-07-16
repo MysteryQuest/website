@@ -1,0 +1,141 @@
+<!-- directory/location.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="meta-description" content="Explore ufo mysteries in dragon. Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UAP drone sighting took place on April 19, 2">
+    <meta name="keywords" id="meta-keywords" content="UFO Over Cambridge, UAP Drone Sighting News, Cambridge UFO Sightings">
+    <title id="page-title">Ufo Mysteries in dragon - Tours & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet">
+    <link href="../directory.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../../logo.png" alt="MystiQst Logo" height="90">
+            <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">UFO Sightings Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">dragon</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../hoax.html">Is it a Hoax?</a>
+                </li>
+        </ul>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div id="locationDetails">
+            <!-- Location details will be populated by JavaScript -->
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <div id="map" style="height: 400px; border-radius: 8px;"></div>
+                
+                <div class="sightings-list mt-4">
+                    <h3>Recent UFO Sightings</h3>
+                    <div id="sightingsList">
+                        <!-- Sightings will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="services" class="services-sidebar">
+                    <h3>Local UFO Services</h3>
+                    <div id="localServices">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
+    </footer>
+
+    
+    <!-- Location Header -->
+    <div class="location-header mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="location-title">dragon</h1>
+                <p class="location-description">Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UAP drone sighting took place on April 19, 2025. Visit the site of the incident and learn about the history of UFO sightings in the area.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="location-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Recent Reports</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Local Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-badge ufo">UFO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "dragon",
+            category: "ufo",
+            slug: "dragon",
+            coordinates: None,
+            businesses: [],
+            events: [
+        {
+                "name": "UFO Over Cambridge, Massachusetts April 19, 2025, UAP Drone Sighting News.",
+                "type": "UFO Sighting",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0YNtbkZX3Wak-N7EKSCHRB6PlECBMi8vrzwccz-rknPFjqmvztCHuM12_W9OFfj62MOz3zje-iDBUWUDTKrVbp1XD4iFoHCuf1iG1lPV4k-AKm60UckH-mwG-Iq3nViXoCRE-O4NS-orZBPC7DRAYfCXZtUhHQ8b-YcSBM0jJNXXyPNGIbh2e-qOrVG8/s1162/UAP_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"414\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0YNtbkZX3Wak-N7EKSCHRB6PlECBMi8vrzwccz-rknPFjqmvztCHuM12_W9OFfj62MOz3zje-iDBUWUDTKrVbp1XD4iFoHCuf1iG1lPV4k-AKm60UckH-mwG-Iq3nViXoCRE-O4NS-orZBPC7DRAYfCXZtUhHQ8b-YcSBM0jJNXXyPNGIbh2e-qOrVG8/w640-h414/UAP_UFO.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC7mkhyHqish9wEIwXZ1xZqpBK9qUUy-uUi4falBCrU2Ar7RSJTT2ZF9v23-c7tPpxWh5AC3yVxVUc9eFgszKrFJBm-KhPxBsnD-VP7YBZ1nOfURLPfFK5T6Tt0ndl2UJpciJzG7Fi7KEq05zXRy695FwpbXet61hAn_lzr8eIrGnARIvh3VSSpAREZJY/s1172/UFO_News.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"412\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC7mkhyHqish9wEIwXZ1xZqpBK9qUUy-uUi4falBCrU2Ar7RSJTT2ZF9v23-c7tPpxWh5AC3yVxVUc9eFgszKrFJBm-KhPxBsnD-VP7YBZ1nOfURLPfFK5T6Tt0ndl2UJpciJzG7Fi7KEq05zXRy695FwpbXet61hAn_lzr8eIrGnARIvh3VSSpAREZJY/w640-h412/UFO_News.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifnZ1Z8gJ2l2JBOqT56nPuHakAfA-_-qH1Cqakk2t4dzVFr355Eecb7DdlrJg2U2Wk2NZNg1L5n864q2-lIxcMuieAdUbN12DdniiQdYnYiO7bHQ3oAYi1w3MTFMGiKmyH5v6tcZJG2nHAjm_KCAJTFg2B4tgNa2Nf0hyr3gmxS9iyxnk0IGyOM7Tr5_U/s1512/UFO_2025.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifnZ1Z8gJ2l2JBOqT56nPuHakAfA-_-qH1Cqakk2t4dzVFr355Eecb7DdlrJg2U2Wk2NZNg1L5n864q2-lIxcMuieAdUbN12DdniiQdYnYiO7bHQ3oAYi1w3MTFMGiKmyH5v6tcZJG2nHAjm_KCAJTFg2B4tgNa2Nf0hyr3gmxS9iyxnk0IGyOM7Tr5_U/w508-h640/UFO_2025.png\" width=\"508\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting: </span>April 19, 2025</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting: </span>Cambridge, Massachusetts, USA</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span><span style=\"color: red;\">Source:</span><span>&nbsp;</span></span><a href=\"https://www.reddit.com/r/UFOs/comments/1ldogce/metallic_orb_sighting_april_19_2025_cambridge_ma/\">https://www.reddit.com/r/UFOs/comments/1ldogce/metallic_orb_sighting_april_19_2025_cambridge_ma/</a></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Email report to scwaring @ yahoo.com</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">This just came in my email a few days ago. An eyewitness spotted an orb moving over the city. He describes it as grey metal of some sort and it looks similar in size and speed to the orb recorded and recovered in Colombia a few months ago called the \"Buga sphere.\" It looks like spheres are coming closer and closer to observer human activities. This is strange, because usually they hover and hide within the clouds...moving in and out the edges of these clouds to record and observer. I call them cloud orbs, but to see them suddenly being recorded so frequently by others at such a low altitude...something big must be being planed by aliens on the horizon.</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"color: red; font-size: large;\">Eyewitness states:&nbsp;</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">I captured this a little while ago. Not the best video quality, but you can see it flying in a very straight path. If it were a balloon, I would expect it to be more affected by the wind, which you can hear in the recording.\n\nThere is a jump cut in the middle where I cut out about 10 seconds where it's not in frame.\n\nI got a better view before recording, and I'd estimate it to be roughly basketball sized or a bit larger. Seemingly made of metal or some other silver material.&nbsp;</span></div><div><br /></div><div>&nbsp;\n\n</div>",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 0,
+        "event_count": 1,
+        "last_updated": "2025-07-16T15:34:41.426618"
+},
+            metadata: {
+        "title": "Ufo Mysteries in dragon - Tours & Services",
+        "description": "Explore ufo mysteries in dragon. Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UAP drone sighting took place on April 19, 2",
+        "keywords": [
+                "UFO Over Cambridge",
+                "UAP Drone Sighting News",
+                "Cambridge UFO Sightings"
+        ],
+        "page_description": "Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UAP drone sighting took place on April 19, 2025. Visit the site of the incident and learn about the history of UFO sightings in the area."
+},
+            lastUpdated: "2025-07-16T15:34:41.426618"
+        };
+        
+        // Category-specific styling
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('category-ufo');
+            if (LOCATION_DATA.coordinates && LOCATION_DATA.coordinates.length === 2) {
+                initLocationMap();
+            }
+            loadLocationContent();
+        });
+    </script>
+    <script src="../location-detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!-- directory/location.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="meta-description" content="Explore ufo mysteries in Charleville-Mézières, Ardennes. Explore the mysterious Charleville-Mézières, a town in eastern France where the discovery of wooden Pleistocene tools ha">
+    <meta name="keywords" id="meta-keywords" content="wooden pleistocene tools, ufo museums, alien encounters, east asian technology">
+    <title id="page-title">Ufo Mysteries in Charleville-Mézières, Ardennes - Tours & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet">
+    <link href="../directory.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../../logo.png" alt="MystiQst Logo" height="90">
+            <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">UFO Sightings Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Charleville-Mézières, Ardennes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../hoax.html">Is it a Hoax?</a>
+                </li>
+        </ul>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div id="locationDetails">
+            <!-- Location details will be populated by JavaScript -->
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <div id="map" style="height: 400px; border-radius: 8px;"></div>
+                
+                <div class="sightings-list mt-4">
+                    <h3>Recent UFO Sightings</h3>
+                    <div id="sightingsList">
+                        <!-- Sightings will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="services" class="services-sidebar">
+                    <h3>Local UFO Services</h3>
+                    <div id="localServices">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
+    </footer>
+
+    
+    <!-- Location Header -->
+    <div class="location-header mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="location-title">Charleville-Mézières, Ardennes</h1>
+                <p class="location-description">Explore the mysterious Charleville-Mézières, a town in eastern France where the discovery of wooden Pleistocene tools has revealed complex technology in East Asia. Visit the UFO-themed museum and take part in extraterrestrial-inspired events.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="location-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Recent Reports</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Local Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-badge ufo">UFO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Charleville-Mézières, Ardennes",
+            category: "ufo",
+            slug: "charlevillemzires-ardennes",
+            coordinates: None,
+            businesses: [],
+            events: [
+        {
+                "name": "Discovery of Wooden Pleistocene Tools Demonstrates Earliest Recorded Complex Technology in East Asia",
+                "type": "UFO Sighting",
+                "description": "Pleistocene tools uncovered from the Gantangqing site in China are the oldest complex wooden technology ever discovered in East Asia.",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 0,
+        "event_count": 1,
+        "last_updated": "2025-07-16T15:41:21.398044"
+},
+            metadata: {
+        "title": "Ufo Mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes - Tours & Services",
+        "description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious Charleville-M\u00e9zi\u00e8res, a town in eastern France where the discovery of wooden Pleistocene tools ha",
+        "keywords": [
+                "wooden pleistocene tools",
+                "ufo museums",
+                "alien encounters",
+                "east asian technology"
+        ],
+        "page_description": "Explore the mysterious Charleville-M\u00e9zi\u00e8res, a town in eastern France where the discovery of wooden Pleistocene tools has revealed complex technology in East Asia. Visit the UFO-themed museum and take part in extraterrestrial-inspired events."
+},
+            lastUpdated: "2025-07-16T15:41:21.398044"
+        };
+        
+        // Category-specific styling
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('category-ufo');
+            if (LOCATION_DATA.coordinates && LOCATION_DATA.coordinates.length === 2) {
+                initLocationMap();
+            }
+            loadLocationContent();
+        });
+    </script>
+    <script src="../location-detail.js"></script>
+</body>
+</html>

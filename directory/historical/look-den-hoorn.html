@@ -1,0 +1,147 @@
+<!-- directory/location.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="meta-description" content="Explore historical mysteries in Look, Den Hoorn. Explore the mysterious world of Unidentified Flying Objects (UFOs) in Look, Den Hoorn, a town shrouded in secrecy and in">
+    <meta name="keywords" id="meta-keywords" content="ufo tours, alien encounters, space museums">
+    <title id="page-title">Historical Mysteries in Look, Den Hoorn - Tours & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet">
+    <link href="../directory.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../../logo.png" alt="MystiQst Logo" height="90">
+            <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Historical Mysteries Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Look, Den Hoorn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../hoax.html">Is it a Hoax?</a>
+                </li>
+        </ul>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div id="locationDetails">
+            <!-- Location details will be populated by JavaScript -->
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <div id="map" style="height: 400px; border-radius: 8px;"></div>
+                
+                <div class="sightings-list mt-4">
+                    <h3>Recent UFO Sightings</h3>
+                    <div id="sightingsList">
+                        <!-- Sightings will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="services" class="services-sidebar">
+                    <h3>Local UFO Services</h3>
+                    <div id="localServices">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
+    </footer>
+
+    
+    <!-- Location Header -->
+    <div class="location-header mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="location-title">Look, Den Hoorn</h1>
+                <p class="location-description">Explore the mysterious world of Unidentified Flying Objects (UFOs) in Look, Den Hoorn, a town shrouded in secrecy and intrigue. Visit the local museum to learn about the history of UFO sightings in the region.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="location-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Recent Reports</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Local Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-badge historical">HISTORICAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Look, Den Hoorn",
+            category: "historical",
+            slug: "look-den-hoorn",
+            coordinates: None,
+            businesses: [],
+            events: [
+        {
+                "name": "US Gov Releases New Video UFO Over Iraq Recorded By US Military Helicopter, UAP Sighting News.",
+                "type": "Historical Mystery",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqU9s-pDzMcm3C-KVjI6JtJTnyn6nxF2xrsBYPRNJTADYLmQMp_qOTREAwqCBKw8zUrKbSQRRxhNNzOsiglq5E1EZxyOfhxnLqEuEoupz9YbUTVD-Imv1FMeDZ8beVj-YEx9IzNr8kPnGD2ZUE2Ip471a0xVS5Z0ekNsvwoq1hPpuRKS2nDGo4I6MGhes/s720/UFO,%20UAP,%20news.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"412\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqU9s-pDzMcm3C-KVjI6JtJTnyn6nxF2xrsBYPRNJTADYLmQMp_qOTREAwqCBKw8zUrKbSQRRxhNNzOsiglq5E1EZxyOfhxnLqEuEoupz9YbUTVD-Imv1FMeDZ8beVj-YEx9IzNr8kPnGD2ZUE2Ip471a0xVS5Z0ekNsvwoq1hPpuRKS2nDGo4I6MGhes/w640-h412/UFO,%20UAP,%20news.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg6odcBQcnBus1rxmbSNR3nBx-F5HlIIQaWyAbBZ4kS5h8JavA2u9mx34chx3G_wz0RuSHaiYYTsxNK2NFYcz0YMWewszxRxvhaVS5g-NIHrD_j3eU19Bc7Zhh2WIv6YlugCoqpeBPCy7lUkl2duxvDW-eMulrYs97AhbYeRk1v7V4sGNWMGUEt_veq74/s844/Iraq,%20UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"352\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg6odcBQcnBus1rxmbSNR3nBx-F5HlIIQaWyAbBZ4kS5h8JavA2u9mx34chx3G_wz0RuSHaiYYTsxNK2NFYcz0YMWewszxRxvhaVS5g-NIHrD_j3eU19Bc7Zhh2WIv6YlugCoqpeBPCy7lUkl2duxvDW-eMulrYs97AhbYeRk1v7V4sGNWMGUEt_veq74/w640-h352/Iraq,%20UFO.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZcdbiBulCm8a3FDmuKsg-_V15ibPUYSBw_Y5dcqaNCqzEJq41YheJCPFhZhbccK2nZ0By-iI2WgZCFRx5Dxx9P0t_ockydxygDRjDCgXGCqLzRD2Mog84p2-k49pBDh6ZPQ2_-qpqfoD0rIQNTvYYXnRN_-4ZYyyyLM95Ya5Hv5N74lorrBpF60E40hI/s744/UFO,%20Iraq.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"366\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZcdbiBulCm8a3FDmuKsg-_V15ibPUYSBw_Y5dcqaNCqzEJq41YheJCPFhZhbccK2nZ0By-iI2WgZCFRx5Dxx9P0t_ockydxygDRjDCgXGCqLzRD2Mog84p2-k49pBDh6ZPQ2_-qpqfoD0rIQNTvYYXnRN_-4ZYyyyLM95Ya5Hv5N74lorrBpF60E40hI/w640-h366/UFO,%20Iraq.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of sighting: 2024 (gov refuses to release exact date)</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of sighting: Iraq (Most US soldiers located here)</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Source:&nbsp;</span><a href=\"https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/\">https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/</a>&nbsp;</div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Watch this newly released video of a UFO flying over Iraq and was caught by a US military helicopter and followed for at least 1.5 minutes or more...some footage may have been held back from being released. Also the US military blacked out all location data, fly speed, size, and&nbsp;other data that might give away the US military base positions. I used Chatgpt to look at a 10 second clip and tell me the speed...and it said the UFO was traveling at 144.4km per hour or 89.8 mph. That means this is no balloon! This is 100% alien technology watching over the most dangerous area on Earth and recording data of human reactions, interactions, and even thoughts as well as other things like food, water, contamination to the soil, animals, people, and so on.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "historical"
+        },
+        {
+                "name": "In the Search for Alien Signals, the SETI Institute is Partnering with SpaceX to Mitigate Satellite Interference",
+                "type": "Historical Mystery",
+                "description": "Starlink satellites can interfere with the signals the SETI monitors, but a new collaboration aims to halt the potential contamination.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 0,
+        "event_count": 2,
+        "last_updated": "2025-07-16T15:37:11.937442"
+},
+            metadata: {
+        "title": "Historical Mysteries in Look, Den Hoorn - Tours & Services",
+        "description": "Explore historical mysteries in Look, Den Hoorn. Explore the mysterious world of Unidentified Flying Objects (UFOs) in Look, Den Hoorn, a town shrouded in secrecy and in",
+        "keywords": [
+                "ufo tours",
+                "alien encounters",
+                "space museums"
+        ],
+        "page_description": "Explore the mysterious world of Unidentified Flying Objects (UFOs) in Look, Den Hoorn, a town shrouded in secrecy and intrigue. Visit the local museum to learn about the history of UFO sightings in the region."
+},
+            lastUpdated: "2025-07-16T15:37:11.937442"
+        };
+        
+        // Category-specific styling
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('category-historical');
+            if (LOCATION_DATA.coordinates && LOCATION_DATA.coordinates.length === 2) {
+                initLocationMap();
+            }
+            loadLocationContent();
+        });
+    </script>
+    <script src="../location-detail.js"></script>
+</body>
+</html>
