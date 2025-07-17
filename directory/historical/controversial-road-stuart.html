@@ -1,0 +1,141 @@
+<!-- directory/location.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" id="meta-description" content="Explore historical mysteries in Controversial Road, Stuart. Explore the mysterious Controversial Road, a stretch of road in South Africa known for its unexplained phenomena and all">
+    <meta name="keywords" id="meta-keywords" content="paranormal tourism, mysterious road, ufo sightings">
+    <title id="page-title">Historical Mysteries in Controversial Road, Stuart - Tours & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="../../styles.css" rel="stylesheet">
+    <link href="../directory.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+</head>
+<body>
+    <header class="bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="../../logo.png" alt="MystiQst Logo" height="90">
+            <ul class="nav nav-tabs ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Historical Mysteries Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Controversial Road, Stuart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../hoax.html">Is it a Hoax?</a>
+                </li>
+        </ul>
+        </div>
+    </header>
+
+    <div class="container mt-4">
+        <div id="locationDetails">
+            <!-- Location details will be populated by JavaScript -->
+        </div>
+        
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <div id="map" style="height: 400px; border-radius: 8px;"></div>
+                
+                <div class="sightings-list mt-4">
+                    <h3>Recent UFO Sightings</h3>
+                    <div id="sightingsList">
+                        <!-- Sightings will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div id="services" class="services-sidebar">
+                    <h3>Local UFO Services</h3>
+                    <div id="localServices">
+                        <!-- Services will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
+    </footer>
+
+    
+    <!-- Location Header -->
+    <div class="location-header mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="location-title">Controversial Road, Stuart</h1>
+                <p class="location-description">Explore the mysterious Controversial Road, a stretch of road in South Africa known for its unexplained phenomena and alleged UFO sightings. Visit the nearby Museum of Paranormal History to learn more about the area's eerie past.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="location-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Recent Reports</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Local Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-badge historical">HISTORICAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Controversial Road, Stuart",
+            category: "historical",
+            slug: "controversial-road-stuart",
+            coordinates: None,
+            businesses: [],
+            events: [
+        {
+                "name": "James Webb Space Telescope Captures First Direct Image of Mysterious Alien Exoplanet Lurking in Dusty Debris Disk",
+                "type": "Historical Mystery",
+                "description": "In a groundbreaking first, the James Webb Space Telescope has captured its first direct image of a distant exoplanet unrecognized from past astronomical surveys.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 0,
+        "event_count": 1,
+        "last_updated": "2025-07-16T20:58:00.801055"
+},
+            metadata: {
+        "title": "Historical Mysteries in Controversial Road, Stuart - Tours & Services",
+        "description": "Explore historical mysteries in Controversial Road, Stuart. Explore the mysterious Controversial Road, a stretch of road in South Africa known for its unexplained phenomena and all",
+        "keywords": [
+                "paranormal tourism",
+                "mysterious road",
+                "ufo sightings"
+        ],
+        "page_description": "Explore the mysterious Controversial Road, a stretch of road in South Africa known for its unexplained phenomena and alleged UFO sightings. Visit the nearby Museum of Paranormal History to learn more about the area's eerie past."
+},
+            lastUpdated: "2025-07-16T20:58:00.801055"
+        };
+        
+        // Category-specific styling
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.add('category-historical');
+            if (LOCATION_DATA.coordinates && LOCATION_DATA.coordinates.length === 2) {
+                initLocationMap();
+            }
+            loadLocationContent();
+        });
+    </script>
+    <script src="../location-detail.js"></script>
+</body>
+</html>
