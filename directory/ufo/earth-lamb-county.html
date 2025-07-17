@@ -9,18 +9,18 @@
     <title id="page-title">UFO Sightings in Earth, Lamb County - Tours, Investigators & Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-    <link href="../../styles.css" rel="stylesheet">
-    <link href="../directory.css" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 </head>
 <body>
     <header class="bg-dark p-3">
         <div class="container d-flex justify-content-between align-items-center">
-            <img src="../../logo.png" alt="MystiQst Logo" height="90">
+            <img src="/logo.png" alt="MystiQst Logo" height="90">
             <ul class="nav nav-tabs ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../../index.html">Home</a>
+                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">UFO Sightings Directory</a>
@@ -29,13 +29,37 @@
                     <a class="nav-link active" href="#">Earth, Lamb County</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../../hoax.html">Is it a Hoax?</a>
+                    <a class="nav-link" href="/hoax.html">Is it a Hoax?</a>
                 </li>
         </ul>
         </div>
     </header>
 
     <div class="container mt-4">
+    <!-- Location Header -->
+    <div class="location-header mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="location-title">Earth, Lamb County</h1>
+                <p class="location-description">Explore ufo sightings in Earth, Lamb County. Notable events include Do Certain Songs Help You ‘Time Travel’? A New Study on the Link Between Music and Memory Could Explain Why.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="location-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Recent Reports</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Local Services</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-badge ufo">UFO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <div id="locationDetails">
             <!-- Location details will be populated by JavaScript -->
         </div>
@@ -68,31 +92,6 @@
     </footer>
 
     
-    <!-- Location Header -->
-    <div class="location-header mb-4">
-        <div class="row">
-            <div class="col-md-8">
-                <h1 class="location-title">Earth, Lamb County</h1>
-                <p class="location-description">Explore ufo sightings in Earth, Lamb County. Notable events include Do Certain Songs Help You ‘Time Travel’? A New Study on the Link Between Music and Memory Could Explain Why.</p>
-            </div>
-            <div class="col-md-4">
-                <div class="location-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">1</span>
-                        <span class="stat-label">Recent Reports</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">0</span>
-                        <span class="stat-label">Local Services</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-badge ufo">UFO</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script>
         // Comprehensive location data
         const LOCATION_DATA = {
