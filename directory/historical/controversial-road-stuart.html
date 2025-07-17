@@ -60,20 +60,80 @@
             </div>
         </div>
     </div>
+    <!-- Recent Sightings Map -->
+    <div class="sightings-map-section mb-4">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="map-container">
+                    <h3 class="map-title">Recent Historical Mysteries Activity</h3>
+                    <div id="sightingsMap" style="height: 300px; border-radius: 8px; border: 2px solid #333;"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sightings-summary">
+                    <h4>Activity Summary</h4>
+                    <div class="activity-stats">
+                        <div class="activity-item">
+                            <span class="activity-count">1</span>
+                            <span class="activity-label">Total Reports</span>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-count">1</span>
+                            <span class="activity-label">Named Events</span>
+                        </div>
+                    </div>
+                    <div class="recent-events">
+                        <h5>Recent Events</h5>
+                        <div id="recentEventsList" class="events-list">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <div id="locationDetails">
             <!-- Location details will be populated by JavaScript -->
         </div>
         
-        <div class="row mt-5">
+        
+        <div class="row mt-4">
             <div class="col-md-8">
-                <div id="map" style="height: 400px; border-radius: 8px;"></div>
-                
-                <div class="sightings-list mt-4">
-                    <h3>Recent UFO Sightings</h3>
-                    <div id="sightingsList">
-                        <!-- Sightings will be populated by JavaScript -->
+                <div class="services-businesses">
+                    <h3>Local Services & Businesses</h3>
+                    <div id="localBusinesses" class="businesses-grid">
+                        <!-- Businesses will be populated by JavaScript -->
                     </div>
                 </div>
+                
+                <div class="detailed-reports mt-4">
+                    <h3>Detailed Reports</h3>
+                    <div id="detailedReports" class="reports-list">
+                        <!-- Reports will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="sidebar-content">
+                    <div class="location-info mb-4">
+                        <h4>Location Information</h4>
+                        <div id="locationInfo">
+                            <!-- Location info will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="quick-links">
+                        <h4>Quick Links</h4>
+                        <div class="links-list">
+                            <a href="/map.html" class="quick-link">📍 View on Main Map</a>
+                            <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
             </div>
             
             <div class="col-md-4">
@@ -126,13 +186,182 @@
             lastUpdated: "2025-07-16T20:58:00.801055"
         };
         
-        // Category-specific styling
+        // Map initialization functions
+        let sightingsMap = null;
+        
+        function initSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            // Initialize the sightings map
+            sightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+            
+            // Add tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(sightingsMap);
+            
+            // Add markers for events
+            LOCATION_DATA.events.forEach((event, index) => {
+                if (event.coordinates) {
+                    const marker = L.marker(event.coordinates).addTo(sightingsMap);
+                    marker.bindPopup(`
+                        <div class="sighting-popup">
+                            <h6>${event.name || 'Unknown Event'}</h6>
+                            <p><strong>Type:</strong> ${event.type || 'Unknown'}</p>
+                            <p><strong>Description:</strong> ${event.description || 'No description available'}</p>
+                        </div>
+                    `);
+                } else if (LOCATION_DATA.coordinates) {
+                    // If event has no coordinates, place it at the general location
+                    const marker = L.marker(LOCATION_DATA.coordinates).addTo(sightingsMap);
+                    marker.bindPopup(`
+                        <div class="sighting-popup">
+                            <h6>${event.name || 'Unknown Event'}</h6>
+                            <p><strong>Type:</strong> ${event.type || 'Unknown'}</p>
+                            <p><strong>Description:</strong> ${event.description || 'No description available'}</p>
+                            <p><em>General location</em></p>
+                        </div>
+                    `);
+                }
+            });
+            
+            // Add businesses to the map
+            LOCATION_DATA.businesses.forEach(business => {
+                const geometry = business.geometry || {};
+                const location = geometry.location || {};
+                
+                if (location.lat && location.lng) {
+                    const businessMarker = L.marker([location.lat, location.lng]).addTo(sightingsMap);
+                    businessMarker.bindPopup(`
+                        <div class="business-popup">
+                            <h6>${business.name || 'Unknown Business'}</h6>
+                            <p><strong>Type:</strong> ${business.keyword || 'Service'}</p>
+                            <p><strong>Address:</strong> ${business.address || 'No address available'}</p>
+                            ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                        </div>
+                    `);
+                }
+            });
+            
+            // If we have coordinates, add a general location marker
+            if (LOCATION_DATA.coordinates) {
+                const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                    icon: L.icon({
+                        iconUrl: '/assets/location-marker.png',
+                        iconSize: [25, 41],
+                        iconAnchor: [12, 41],
+                        popupAnchor: [1, -34],
+                        shadowSize: [41, 41]
+                    })
+                }).addTo(sightingsMap);
+                
+                locationMarker.bindPopup(`
+                    <div class="location-popup">
+                        <h6>${LOCATION_DATA.name}</h6>
+                        <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                        <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                        <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                    </div>
+                `);
+            }
+        }
+        
+        function populateRecentEvents() {
+            const recentEventsList = document.getElementById('recentEventsList');
+            if (!recentEventsList) return;
+            
+            if (LOCATION_DATA.events.length === 0) {
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map(event => {
+                const eventDate = event.date || 'Unknown date';
+                const eventName = event.name || 'Unnamed Event';
+                const eventType = event.type || 'Unknown Type';
+                
+                return `
+                    <div class="event-item">
+                        <div class="event-header">
+                            <h6 class="event-name">${eventName}</h6>
+                            <span class="event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description">${event.description || 'No description available'}</p>
+                        <small class="event-date">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            recentEventsList.innerHTML = eventsHtml;
+        }
+        
+        function populateBusinesses() {
+            const localBusinesses = document.getElementById('localBusinesses');
+            if (!localBusinesses) return;
+            
+            if (LOCATION_DATA.businesses.length === 0) {
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            const businessesHtml = LOCATION_DATA.businesses.map(business => {
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address ? `<p class="address">${business.address}</p>` : '';
+                
+                return `
+                    <div class="business-card">
+                        <div class="business-header">
+                            <h5 class="business-name">${business.name || 'Unknown Business'}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type">${business.keyword || 'Service'}</p>
+                        ${address}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="business-link">Visit Website</a>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            localBusinesses.innerHTML = businessesHtml;
+        }
+        
+        function populateLocationInfo() {
+            const locationInfo = document.getElementById('locationInfo');
+            if (!locationInfo) return;
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item">
+                    <strong>Data Sources:</strong> ${LOCATION_DATA.businesses.length + LOCATION_DATA.events.length} records
+                </div>
+            `;
+        }
+        
+        // Category-specific styling and initialization
         document.addEventListener('DOMContentLoaded', function() {
             document.body.classList.add('category-historical');
-            if (LOCATION_DATA.coordinates && LOCATION_DATA.coordinates.length === 2) {
-                initLocationMap();
+            
+            // Initialize maps and content
+            initSightingsMap();
+            populateRecentEvents();
+            populateBusinesses();
+            populateLocationInfo();
+            
+            // Legacy compatibility
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
             }
-            loadLocationContent();
         });
     </script>
     <script src="../location-detail.js"></script>
