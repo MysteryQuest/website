@@ -1,8 +1,762 @@
 {
   "location_name": "Sorans-l\u00e8s-Breurey, Vesoul",
   "category": "ufo",
-  "timestamp": "20250716_205248",
-  "businesses": [],
+  "timestamp": "20250722_121702",
+  "businesses": [
+    {
+      "name": "Desert Wolf Tours",
+      "address": "4220 W Opportunity Way STE 116, Phoenix, AZ 85086, USA",
+      "rating": 5,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt8BVBvpzK4cR5GlKMGxVnHI",
+      "keyword": "things to do attractions tours",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 1170,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.8657657,
+          "lng": -112.1498589
+        }
+      }
+    },
+    {
+      "name": "Soranno's",
+      "address": "341 Lakeshore Rd E, Mississauga, ON L5G 1E7, Canada",
+      "rating": 4.9,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJNZuqSBJHK4gRSUQubz5k0aE",
+      "keyword": "restaurants food dining",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 804,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.5624634,
+          "lng": -79.5736672
+        }
+      }
+    },
+    {
+      "name": "Grand Canyon National Park",
+      "address": "Arizona, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFU2bda4SM4cRKSCRyb6pOB8",
+      "keyword": "things to do attractions tours",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 62052,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.2678855,
+          "lng": -112.35352530000002
+        }
+      }
+    },
+    {
+      "name": "Arizona-Sonora Desert Museum",
+      "address": "2021 N Kinney Rd, Tucson, AZ 85743, USA",
+      "rating": 4.8,
+      "types": [
+        "zoo",
+        "aquarium",
+        "botanical_garden",
+        "tourist_attraction",
+        "park",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJxUN1jMfe1YYRH9GexIelyhE",
+      "keyword": "museums visitor centers",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 11146,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.242686299999995,
+          "lng": -111.1675621
+        }
+      }
+    },
+    {
+      "name": "North Cascades National Park",
+      "address": "Washington, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEfRsULgShVQR7TNkrrBPCFI",
+      "keyword": "parks recreation outdoor",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 1557,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.771817399999996,
+          "lng": -121.2984648
+        }
+      }
+    },
+    {
+      "name": "Great Sand Dunes National Park and Preserve",
+      "address": "Colorado, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "campground",
+        "hiking_area",
+        "park",
+        "lodging",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx8vZHeYvFIcR2YMP0IqR1zM",
+      "keyword": "parks recreation outdoor",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 10966,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.765849100000004,
+          "lng": -105.6235976
+        }
+      }
+    },
+    {
+      "name": "Black Canyon of the Gunnison National Park",
+      "address": "Colorado, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8Wo3SfxeP4cRvIuts5LWMT8",
+      "keyword": "parks recreation outdoor",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 5446,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5753936,
+          "lng": -107.7415961
+        }
+      }
+    },
+    {
+      "name": "Big Bend National Park",
+      "address": "Texas, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK-_lS3AX8oYRD4WDJ7x9RmQ",
+      "keyword": "things to do",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 6034,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.2498194,
+          "lng": -103.2501636
+        }
+      }
+    },
+    {
+      "name": "H\u00f4tel-Restaurant Le Jorjane",
+      "address": "105 Grande Rue, 38680 Choranche, France",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "french_restaurant",
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ52XztK29ikcRoOnluAW5uy8",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 668,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.066921699999995,
+          "lng": 5.391833699999999
+        }
+      }
+    },
+    {
+      "name": "Apache-Sitgreaves National Forests",
+      "address": "30 South Chiricahua Drive, Springerville, AZ 85938, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "national_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM61Vu6zeLocRC-h-V5iFLnI",
+      "keyword": "parks recreation outdoor",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 4703,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.959521099999996,
+          "lng": -109.4973059
+        }
+      }
+    },
+    {
+      "name": "Caverns of Sonora",
+      "address": "1711 Private Rd 4468, Sonora, TX 76950, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "historical_landmark",
+        "rv_park",
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "historical_place",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwYsuZBfO94YRJ6g27T4jP6Y",
+      "keyword": "entertainment activities",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 1851,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.555083999999997,
+          "lng": -100.81222
+        }
+      }
+    },
+    {
+      "name": "Surprise Community Park",
+      "address": "16089 N Bullard Ave, Surprise, AZ 85374, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJw0jszNtEK4cR-8uwEEAKCN8",
+      "keyword": "entertainment activities",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 3304,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.628902599999996,
+          "lng": -112.3748488
+        }
+      }
+    },
+    {
+      "name": "Invasion Station",
+      "address": "600 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
+      "keyword": "gift shops souvenirs",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 937,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3989578,
+          "lng": -104.52308529999999
+        }
+      }
+    },
+    {
+      "name": "Sun Lakes-Dry Falls State Park",
+      "address": "34875 Park Lake Rd NE, Coulee City, WA 99115, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvdlru5AHnFQRZrUzTIrxvS0",
+      "keyword": "camping rv parks",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 2711,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.5915476,
+          "lng": -119.36248339999999
+        }
+      }
+    },
+    {
+      "name": "Soo Locks",
+      "address": "Soo Locks, Sault Ste. Marie, MI 49783, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkVWkubw5Nk0RwaQ-dIGCjbQ",
+      "keyword": "things to do",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 4652,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 46.5032889,
+          "lng": -84.35169479999999
+        }
+      }
+    },
+    {
+      "name": "Cuevas de Sorbas",
+      "address": "Paraje Barranco del Infierno Carretera A-1102, km 0,7, 04270 Sorbas, Almer\u00eda, Spain",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "bar",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZZcl39DHeg0RAnCOb8fc36g",
+      "keyword": "entertainment activities",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 2064,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.0921318,
+          "lng": -2.107481
+        }
+      }
+    },
+    {
+      "name": "Auberge de la Croix Perrin",
+      "address": "3700 Rte de la Croix Perrin, 38250 Lans-en-Vercors, France",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "french_restaurant",
+        "spa",
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJReu5IAaTikcRWw6FAu-abvw",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 681,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.1299816,
+          "lng": 5.5600708
+        }
+      }
+    },
+    {
+      "name": "Sonoran Desert National Monument",
+      "address": "Maricopa, AZ 85239, USA",
+      "rating": 4.5,
+      "types": [
+        "monument",
+        "hiking_area",
+        "tourist_attraction",
+        "sports_activity_location",
+        "national_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB0BLBqXDKocR2auhSTRJ5c8",
+      "keyword": "things to do attractions tours",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 3294,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.9163615,
+          "lng": -112.38146239999999
+        }
+      }
+    },
+    {
+      "name": "Reynolds Park",
+      "address": "3307 Reynolds Park Rd, Paragould, AR 72450, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRz8cQqd81ocR7OBoKnKBv08",
+      "keyword": "parks recreation outdoor",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 901,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.0717359,
+          "lng": -90.5300635
+        }
+      }
+    },
+    {
+      "name": "Fort Concho National Historic Landmark",
+      "address": "630 S Oakes St, San Angelo, TX 76903, USA",
+      "rating": 4.5,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ41p9U1zvV4YR_apIpsurKJU",
+      "keyword": "things to do",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 627,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.4547729,
+          "lng": -100.4312343
+        }
+      }
+    },
+    {
+      "name": "Cabanes des Grands Lacs",
+      "address": "La, Forge de Bonnal, 70230 Chassey-l\u00e8s-Montbozon, France",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM2BSLmFhkkcRYBpix68IcP0",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 674,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.5094298,
+          "lng": 6.3559982
+        }
+      }
+    },
+    {
+      "name": "Camping _ Val de Bonnal",
+      "address": "1 Chem. du Moulin, 25680 Bonnal, France",
+      "rating": 4.4,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBcDOC99jkkcRcSh1mKC1Rbk",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 984,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.507538000000004,
+          "lng": 6.355385999999999
+        }
+      }
+    },
+    {
+      "name": "H\u00f4tel Restaurant de la Buffe",
+      "address": "218 Les \u00c9coles, 38880 Autrans-M\u00e9audre en Vercors, France",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJBQWnpaXsikcRGCGhukUTqn0",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 467,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.1760869,
+          "lng": 5.5446402
+        }
+      }
+    },
+    {
+      "name": "Tangerine Sky Community Park",
+      "address": "4411 W Tangerine Rd, Marana, AZ 85658, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJD5hl7xcJ1oYRyuc4QAW3i90",
+      "keyword": "parks recreation outdoor",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 453,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4223254,
+          "lng": -111.06181559999999
+        }
+      }
+    },
+    {
+      "name": "Uptown Alley",
+      "address": "13525 N Litchfield Rd, Surprise, AZ 85379, USA",
+      "rating": 4.3,
+      "types": [
+        "bowling_alley",
+        "bar",
+        "sports_complex",
+        "sports_activity_location",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJT9RsE4tEK4cRlstyFi-kj2c",
+      "keyword": "entertainment activities",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 2913,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.6068534,
+          "lng": -112.3556289
+        }
+      }
+    },
+    {
+      "name": "English Garden Park",
+      "address": "2 Rue Pierre de Coubertin, 70000 Vesoul, France",
+      "rating": 4.3,
+      "types": [
+        "tourist_attraction",
+        "garden",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0U1jdebykkcRdHd1mW_ybAw",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 803,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.62325560000001,
+          "lng": 6.1641046
+        }
+      }
+    },
+    {
+      "name": "Sun Retreats San Antonio West",
+      "address": "1120 W Loop 1604 N, San Antonio, TX 78251, USA",
+      "rating": 4.4,
+      "types": [
+        "rv_park",
+        "campground",
+        "mobile_home_park",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs_KmwqVDXIYRT9xjuFZu5q8",
+      "keyword": "camping rv parks",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 485,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.444191699999998,
+          "lng": -98.710372
+        }
+      }
+    },
+    {
+      "name": "Action",
+      "address": "Rue du Lieutenant Kopp, 70000 Vesoul, France",
+      "rating": 4.2,
+      "types": [
+        "warehouse_store",
+        "pet_store",
+        "furniture_store",
+        "home_improvement_store",
+        "gift_shop",
+        "home_goods_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJc3QeN57zkkcRnQKelPFJ74s",
+      "keyword": "nearby_store",
+      "user_ratings_total": 776,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.6286442,
+          "lng": 6.1717368
+        }
+      }
+    },
+    {
+      "name": "Alien Zone",
+      "address": "218 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.1,
+      "types": [
+        "gift_shop",
+        "tourist_attraction",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJE5Eiu9lu4oYRBNkpdp4fmT4",
+      "keyword": "gift shops souvenirs",
+      "location": "Sorans, Sorans",
+      "user_ratings_total": 773,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3950728,
+          "lng": -104.52276169999999
+        }
+      }
+    },
+    {
+      "name": "E.Leclerc PUSEY",
+      "address": "Zac de L'Oasis, 70000 Pusey, France",
+      "rating": 4.1,
+      "types": [
+        "bakery",
+        "supermarket",
+        "grocery_store",
+        "home_goods_store",
+        "market",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJued9O3vykkcR5NqL98yAUIU",
+      "keyword": "nearby_store",
+      "user_ratings_total": 4390,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.645956399999996,
+          "lng": 6.1439981
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Could the Large Hadron Collider Disprove String Theory? Scientists Say Yes\u2014With the Right Discovery",
@@ -12,19 +766,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Sorans-l\u00e8s-Breurey, Vesoul. Explore the mysterious world of Sorans-l\u00e8s-Breurey, a town in the heart of the French Alps where scientists have long be",
+    "meta_description": "Explore ufo mysteries in Sorans-l\u00e8s-Breurey, Vesoul. Explore the mysterious atmosphere of Sorans-l\u00e8s-Breurey, a town in the heart of France's Vesoul region. This enigmatic l",
     "title": "Ufo Mysteries in Sorans-l\u00e8s-Breurey, Vesoul - Tours & Services",
-    "description": "Explore the mysterious world of Sorans-l\u00e8s-Breurey, a town in the heart of the French Alps where scientists have long been fascinated by the possibility that the Large Hadron Collider could be used to disprove String Theory. With its eerie landscapes and unexplained phenomena, this location is like nowhere else on earth. Come and experience it for yourself.",
+    "description": "Explore the mysterious atmosphere of Sorans-l\u00e8s-Breurey, a town in the heart of France's Vesoul region. This enigmatic location has been shrouded in secrecy for centuries, making it an ideal destination for those seeking the unknown.",
     "keywords": [
-      "ufo tours",
+      "ufo sightings",
       "alien encounters",
-      "string theory"
+      "mysterious town"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:52:48.107303"
+    "last_updated": "2025-07-22T12:17:02.870149"
   }
 }

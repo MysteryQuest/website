@@ -1,8 +1,749 @@
 {
   "location_name": "Milky Way, Sesel",
   "category": "ufo",
-  "timestamp": "20250716_204943",
-  "businesses": [],
+  "timestamp": "20250722_121043",
+  "businesses": [
+    {
+      "name": "Capricorn Car Rental Ltd",
+      "address": "Baie Ste Anne, Praslin, Seychelles",
+      "rating": 5,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ35Z-A-DtHyMRtoKR7KWDTgI",
+      "keyword": "car rental transportation",
+      "location": "Sesel, USA",
+      "user_ratings_total": 622,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.3428565,
+          "lng": 55.75830750000001
+        }
+      }
+    },
+    {
+      "name": "Berjaya Praslin Resort",
+      "address": "Cote D'Or Esplanade, Anse Volbert Village, Seychelles",
+      "rating": 4.9,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0Rfqg-XxHyMRanCk6gF40Os",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sesel, USA",
+      "user_ratings_total": 3462,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.3154962,
+          "lng": 55.74355680000001
+        }
+      }
+    },
+    {
+      "name": "Doffay Car Rental",
+      "address": "Seychelles international Airport, Victoria, Seychelles",
+      "rating": 4.9,
+      "types": [
+        "car_rental",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ9ehrNSEp4CIRVCcIdugE08w",
+      "keyword": "car rental transportation",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1647,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6710595999999995,
+          "lng": 55.5116564
+        }
+      }
+    },
+    {
+      "name": "Kreol Cars - Kreol Services",
+      "address": "Grand Anse, Seychelles",
+      "rating": 4.9,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-__Rgd_vHyMR-OHR1sR5XN0",
+      "keyword": "car rental transportation",
+      "location": "Sesel, USA",
+      "user_ratings_total": 645,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.3234904,
+          "lng": 55.6906319
+        }
+      }
+    },
+    {
+      "name": "PAPA CAR RENTAL",
+      "address": "ROCHON, MAHE ISLAND, Seychelles",
+      "rating": 4.9,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzYgxrZjtHyMRUBwn8u9fa3o",
+      "keyword": "car rental transportation",
+      "location": "Sesel, USA",
+      "user_ratings_total": 501,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6361867000000005,
+          "lng": 55.460696399999996
+        }
+      }
+    },
+    {
+      "name": "Norris Geyser Basin Museum",
+      "address": "Yellowstone National Park, WY 82190, USA",
+      "rating": 4.8,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJy2Xb4JjZUVMR1UTztKyp2Ns",
+      "keyword": "museums visitor centers",
+      "location": "Sesel, USA",
+      "user_ratings_total": 629,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7264823,
+          "lng": -110.703627
+        }
+      }
+    },
+    {
+      "name": "Saint-Anne Marine National Park",
+      "address": "Seychelles",
+      "rating": 4.7,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ83ZnJujXHyMRueBXGv0nmCQ",
+      "keyword": "things to do attractions tours",
+      "location": "Sesel, USA",
+      "user_ratings_total": 587,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6036699,
+          "lng": 55.5053303
+        }
+      }
+    },
+    {
+      "name": "Montezuma Castle Visitor Center",
+      "address": "Montezuma Castle National Monument Visitor Center, 2800 Montezuma Castle Rd, Camp Verde, AZ 86322, USA",
+      "rating": 4.7,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJX_vRGpaqLYcRyaqZoGt6w0c",
+      "keyword": "museums visitor centers",
+      "location": "Sesel, USA",
+      "user_ratings_total": 2929,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.6117242,
+          "lng": -111.8397437
+        }
+      }
+    },
+    {
+      "name": "West Yellowstone Visitor Information Center & Chamber of Commerce",
+      "address": "30 Yellowstone Ave, West Yellowstone, MT 59758, USA",
+      "rating": 4.7,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJyVXhPry5UVMRlA77m-vzook",
+      "keyword": "museums visitor centers",
+      "location": "Sesel, USA",
+      "user_ratings_total": 3517,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.658323599999996,
+          "lng": -111.09926619999999
+        }
+      }
+    },
+    {
+      "name": "Old Faithful Visitor and Education Center",
+      "address": "View Avenue, Yellowstone National Park, WY 82190, USA",
+      "rating": 4.7,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVVVVVVXlUVMRPn1GOljGk8k",
+      "keyword": "museums visitor centers",
+      "location": "Sesel, USA",
+      "user_ratings_total": 3122,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.4586009,
+          "lng": -110.8292436
+        }
+      }
+    },
+    {
+      "name": "Albright Visitor Center",
+      "address": "Grand Loop Rd, Mammoth, WY 82190, USA",
+      "rating": 4.7,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJi0AIRgzUT1MRJyVwa9u-_HY",
+      "keyword": "museums visitor centers",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1065,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.976432599999995,
+          "lng": -110.6995216
+        }
+      }
+    },
+    {
+      "name": "Blaze-in-Saddle RV Park",
+      "address": "2500 E Rte 66 Blvd, Tucumcari, NM 88401, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVw0R_6VXG4cRQGDXpR0b5Zo",
+      "keyword": "camping rv parks",
+      "location": "Sesel, USA",
+      "user_ratings_total": 741,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.1713844,
+          "lng": -103.6942861
+        }
+      }
+    },
+    {
+      "name": "Constance Ephelia Mahe Seychelles",
+      "address": "Port Launay, Constance Ephelia Rd, N.Y.S. Village, Seychelles",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "gym",
+        "spa",
+        "event_venue",
+        "bar",
+        "sports_activity_location",
+        "lodging",
+        "health",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJCcMlWQcs4CIR4_Mn03IK090",
+      "keyword": "hotels",
+      "location": "Sesel, USA",
+      "user_ratings_total": 3451,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6569741,
+          "lng": 55.4059313
+        }
+      }
+    },
+    {
+      "name": "Kempinski Seychelles Resort",
+      "address": "Baie Lazare Mah\u00e9 Island Mahe, Seychelles",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "resort_hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJq34PAXrV4SIRpvQ0vMs5Hj0",
+      "keyword": "hotels",
+      "location": "Sesel, USA",
+      "user_ratings_total": 3122,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7558169999999995,
+          "lng": 55.475722999999995
+        }
+      }
+    },
+    {
+      "name": "Maryhill Museum of Art",
+      "address": "35 Maryhill Museum Dr, Goldendale, WA 98620, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJySQ5VfwnllQRpRVur5Dcgbg",
+      "keyword": "museums",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1062,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.6775953,
+          "lng": -120.86476199999998
+        }
+      }
+    },
+    {
+      "name": "La Perle Noire Restaurant",
+      "address": "9CPH+JWV, Beau Vallon, Seychelles",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJN6pFl-Yo4CIR6aRz5H-6OjI",
+      "keyword": "restaurants food dining",
+      "location": "Sesel, USA",
+      "user_ratings_total": 751,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6133846,
+          "lng": 55.429801899999994
+        }
+      }
+    },
+    {
+      "name": "Maria's Rock Cafeteria",
+      "address": "Anse Gouvernment Rd, Seychelles",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfaalEXPV4SIR0odsqQIpL4g",
+      "keyword": "restaurants food dining",
+      "location": "Sesel, USA",
+      "user_ratings_total": 550,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7546796,
+          "lng": 55.4712426
+        }
+      }
+    },
+    {
+      "name": "Takamaka Rum Distillery",
+      "address": "Pointe Au Sel, Seychelles",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJub20WS3VHyMR6g7tYdifci8",
+      "keyword": "things to do attractions tours",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1802,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7194375,
+          "lng": 55.5230625
+        }
+      }
+    },
+    {
+      "name": "Four Seasons Resort Seychelles",
+      "address": "Petite Anse, Mahe Island, Seychelles",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "resort_hotel",
+        "extended_stay_hotel",
+        "spa",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlV9-TG3V4SIR4cmyxq-n_mI",
+      "keyword": "hotels",
+      "location": "Sesel, USA",
+      "user_ratings_total": 912,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7534424,
+          "lng": 55.465855899999994
+        }
+      }
+    },
+    {
+      "name": "Hilton Seychelles Northolme Resort & Spa",
+      "address": "N Coast Rd, Mah\u00e9, Seychelles",
+      "rating": 4.6,
+      "types": [
+        "resort_hotel",
+        "banquet_hall",
+        "wedding_venue",
+        "hotel",
+        "spa",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwQdIDZoo4CIRkqvanlj-KZk",
+      "keyword": "hotels",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1099,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.5922623,
+          "lng": 55.431749800000006
+        }
+      }
+    },
+    {
+      "name": "Del Place Restaurant",
+      "address": "Port Launay Rd, N.Y.S. Village, Seychelles",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJbCWCfwr4CIRuKCiREz2_g8",
+      "keyword": "restaurants food dining",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1405,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6607056,
+          "lng": 55.4107428
+        }
+      }
+    },
+    {
+      "name": "La Gaulette Restaurant",
+      "address": "W Coast Road Baie Lazare Anse Gaulette Mah\u00e9, 6FPP+3F8, Takamaka, Seychelles",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJP-KNYIHV4SIRMkYXOjmiP0Y",
+      "keyword": "restaurants food dining",
+      "location": "Sesel, USA",
+      "user_ratings_total": 653,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7648372,
+          "lng": 55.4861977
+        }
+      }
+    },
+    {
+      "name": "USA RV Park",
+      "address": "2925 W Historic Hwy 66, Gallup, NM 87301, USA",
+      "rating": 4.5,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTZ1J95EgJYcRjCYhw9DWmIg",
+      "keyword": "camping rv parks",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1636,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.5074231,
+          "lng": -108.8117365
+        }
+      }
+    },
+    {
+      "name": "DoubleTree by Hilton Seychelles - Allamanda Resort and Spa",
+      "address": "Anse Forbans, S Coast Rd, Seychelles",
+      "rating": 4.4,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "spa",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ30ADl-wqHiMRTF2EIDQZhyE",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sesel, USA",
+      "user_ratings_total": 849,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7769115,
+          "lng": 55.523601400000004
+        }
+      }
+    },
+    {
+      "name": "Paradise Ranch RV Resort",
+      "address": "660 MS-48 W, Tylertown, MS 39667, USA",
+      "rating": 4.4,
+      "types": [
+        "campground",
+        "rv_park",
+        "hiking_area",
+        "event_venue",
+        "sports_activity_location",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZWzWzhqXJ4YR-YDiarYUH9o",
+      "keyword": "camping rv parks",
+      "location": "Sesel, USA",
+      "user_ratings_total": 504,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.114663999999998,
+          "lng": -90.25684199999999
+        }
+      }
+    },
+    {
+      "name": "El Malpais National Monument Visitor Center",
+      "address": "1900 E Santa Fe Ave, Grants, NM 87020, USA",
+      "rating": 4.8,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "hiking_area",
+        "tour_agency",
+        "travel_agency",
+        "sports_activity_location",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2byaKeKaI4cRYsmU3GrQTaA",
+      "keyword": "museums visitor centers",
+      "location": "Sesel, USA",
+      "user_ratings_total": 458,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.11862920000001,
+          "lng": -107.82876329999999
+        }
+      }
+    },
+    {
+      "name": "Bravo Restaurant",
+      "address": "Eden House, Eden Island, Mah\u00e9, Seychelles, 9F5G+H56, Providence, Seychelles",
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAfLeg-kp4CIRjb_35R5MW8c",
+      "keyword": "restaurants food dining",
+      "location": "Sesel, USA",
+      "user_ratings_total": 537,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6410846,
+          "lng": 55.4753875
+        }
+      }
+    },
+    {
+      "name": "Eden Plaza",
+      "address": "9F5G+P8V, Providence, Seychelles",
+      "rating": 4.2,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGwvkmekp4CIRf7FuH_QocI4",
+      "keyword": "shopping retail stores",
+      "location": "Sesel, USA",
+      "user_ratings_total": 831,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6406426,
+          "lng": 55.47579210000001
+        }
+      }
+    },
+    {
+      "name": "Jardin du Roi Spice Garden",
+      "address": "153 Main office Victoria, Anse Royale, Seychelles",
+      "rating": 4.2,
+      "types": [
+        "botanical_garden",
+        "tourist_attraction",
+        "park",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB81kJJYqHiMR6FwavHyc0PU",
+      "keyword": "things to do attractions tours",
+      "location": "Sesel, USA",
+      "user_ratings_total": 995,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7464775,
+          "lng": 55.503645199999994
+        }
+      }
+    },
+    {
+      "name": "voco St. James Hotel by IHG",
+      "address": "330 Magazine St, New Orleans, LA 70130, USA",
+      "rating": 4.1,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJo2vYIHOmIIYRngZeYrXt_eY",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1138,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.949791599999994,
+          "lng": -90.06771040000001
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Cloaked Passenger Jet, A Sign Alien Cloaking Tech Or Proof We Live In The Matrix? UFO UAP Sighting News.",
@@ -12,19 +753,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Milky Way, Sesel. Explore the mysterious Cloaked Passenger Jet, a legendary aircraft said to have been cloaked in an unknown technology. D",
+    "meta_description": "Explore ufo mysteries in Milky Way, Sesel. Explore the mysterious Cloaked Passenger Jet, a legendary UFO sighting that has been shrouded in secrecy for decades. Vi",
     "title": "Ufo Mysteries in Milky Way, Sesel - Tours & Services",
-    "description": "Explore the mysterious Cloaked Passenger Jet, a legendary aircraft said to have been cloaked in an unknown technology. Discover the truth behind this enigmatic event and experience the thrill of being part of history.",
+    "description": "Explore the mysterious Cloaked Passenger Jet, a legendary UFO sighting that has been shrouded in secrecy for decades. Visit the nearby Berjaya Praslin Resort to learn more about this enigmatic event.",
     "keywords": [
       "Cloaked Passenger Jet",
       "UFO sightings",
-      "aliens in flight"
+      "aliens"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:49:43.300412"
+    "last_updated": "2025-07-22T12:10:43.253799"
   }
 }

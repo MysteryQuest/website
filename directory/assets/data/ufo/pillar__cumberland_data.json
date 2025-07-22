@@ -1,8 +1,766 @@
 {
   "location_name": "Pillar, Cumberland",
   "category": "ufo",
-  "timestamp": "20250716_204620",
-  "businesses": [],
+  "timestamp": "20250722_120425",
+  "businesses": [
+    {
+      "name": "Cathedral Cave",
+      "address": "3 Stang End, Little Langdale, Ambleside LA22 9NT, UK",
+      "rating": 4.9,
+      "types": [
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK7TXQp_BfEgRCfPaJ-49tFA",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 645,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.4161394,
+          "lng": -3.0587234000000003
+        }
+      }
+    },
+    {
+      "name": "Cumberland Island National Seashore Visitor Center",
+      "address": "113 St Marys St W, St Marys, GA 31558, USA",
+      "rating": 4.8,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJR8-ldi8C5YgRRcudM6f20mc",
+      "keyword": "things to do attractions tours",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 659,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.720318000000002,
+          "lng": -81.549751
+        }
+      }
+    },
+    {
+      "name": "Cumberland kia",
+      "address": "1556 Interstate Dr, Cookeville, TN 38501, USA",
+      "rating": 4.8,
+      "types": [
+        "car_repair",
+        "car_dealer",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJy_aaiIEhZ4gRHg0Vv9vtLVs",
+      "keyword": "car rental transportation",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 1676,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.1379429,
+          "lng": -85.5241392
+        }
+      }
+    },
+    {
+      "name": "Lake District National Park",
+      "address": "United Kingdom",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF3A1IGLBfEgRhnpq6t17tRc",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 42096,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.4678688,
+          "lng": -3.0704249
+        }
+      }
+    },
+    {
+      "name": "Dungeness Ruins",
+      "address": "St Marys, GA 31558, USA",
+      "rating": 4.8,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "hiking_area",
+        "sports_activity_location",
+        "historical_place",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt1-AuFT85IgRDeWAIMmAXxc",
+      "keyword": "things to do attractions tours",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 496,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.748583300000004,
+          "lng": -81.4708917
+        }
+      }
+    },
+    {
+      "name": "Ristorante Ottaviani",
+      "address": "25 N Centre St, Cumberland, MD 21502, USA",
+      "rating": 4.7,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJk4EfHcWOyokRWtmpXQvyfeI",
+      "keyword": "restaurants food dining",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 735,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6522248,
+          "lng": -78.76156329999999
+        }
+      }
+    },
+    {
+      "name": "Cumberland Mountain State Park",
+      "address": "24 Office Dr, Crossville, TN 38555, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgRS5Ga9WZ4gRxyCmSY0Pdfw",
+      "keyword": "parks recreation outdoor",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 3885,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.9002826,
+          "lng": -84.9984195
+        }
+      }
+    },
+    {
+      "name": "Cumberland Falls State Resort Park",
+      "address": "7351 KY-90, Corbin, KY 40701, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "hiking_area",
+        "tourist_attraction",
+        "campground",
+        "resort_hotel",
+        "tour_agency",
+        "travel_agency",
+        "hotel",
+        "sports_activity_location",
+        "park",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJtcUulJIhXYgR1GPeHWsiCW8",
+      "keyword": "parks recreation outdoor",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 8831,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.83866,
+          "lng": -84.33861999999999
+        }
+      }
+    },
+    {
+      "name": "Hampton Inn Cumberland",
+      "address": "109 Welton Dr, Cumberland, MD 21502, USA",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJS4irVDWJyokRmFXDGij_Xr0",
+      "keyword": "hotels",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 631,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.659158999999995,
+          "lng": -78.74759159999999
+        }
+      }
+    },
+    {
+      "name": "Wasdale National Trust Campsite",
+      "address": "Wasdale Head, Seascale CA20 1EX, UK",
+      "rating": 4.7,
+      "types": [
+        "campground",
+        "rv_park",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt1OAeMrIfEgR9lOL9_p0BuI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 629,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.456975,
+          "lng": -3.26244
+        }
+      }
+    },
+    {
+      "name": "Rydal Cave",
+      "address": "Rydal, Ambleside LA22 9LW, UK",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "hiking_area",
+        "sports_activity_location",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbxMp133qfEgRvO_yvU7_hXU",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 2802,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.4432444,
+          "lng": -2.9964646999999998
+        }
+      }
+    },
+    {
+      "name": "The Grasmere Gingerbread Shop",
+      "address": "Church Cottage, Grasmere, Ambleside LA22 9SW, UK",
+      "rating": 4.7,
+      "types": [
+        "bakery",
+        "tourist_attraction",
+        "gift_shop",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJo-dGlcPBfEgROia8bb2oe3s",
+      "keyword": "nearby_store",
+      "user_ratings_total": 5244,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.4579099,
+          "lng": -3.0235726
+        }
+      }
+    },
+    {
+      "name": "Western Maryland Scenic Railroad",
+      "address": "13 Canal St 2nd Floor, Cumberland, MD 21502, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "fine_dining_restaurant",
+        "transit_depot",
+        "performing_arts_theater",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ03Ze98SOyokRiCKM_tBSSRU",
+      "keyword": "things to do attractions tours",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 2689,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6495507,
+          "lng": -78.7636076
+        }
+      }
+    },
+    {
+      "name": "New Cumberland Borough Park",
+      "address": "517 Front St, New Cumberland, PA 17070, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJz0FDATHAyIkR9NPp0nlFb7o",
+      "keyword": "parks recreation outdoor",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 800,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.2208012,
+          "lng": -76.8628373
+        }
+      }
+    },
+    {
+      "name": "Rocky Gap State Park",
+      "address": "12900 Lake Shore Dr, Flintstone, MD 21530, USA",
+      "rating": 4.6,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiY_jhNdhyokRUUjtNP0b-eI",
+      "keyword": "entertainment activities",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 5539,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.705585299999996,
+          "lng": -78.65353139999999
+        }
+      }
+    },
+    {
+      "name": "Comfort Inn & Suites LaVale - Cumberland",
+      "address": "1216 National Hwy, La Vale, MD 21502, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYyKgq9CPyokRXuY__3ZCZ-8",
+      "keyword": "hotels",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 674,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.636364,
+          "lng": -78.83272199999999
+        }
+      }
+    },
+    {
+      "name": "Cumberland Heritage Village Museum",
+      "address": "2940 Ch. Old Montreal Rd, Cumberland, ON K4C 1G3, Canada",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-cIiRzVrzkwRYu5gFM01Rr0",
+      "keyword": "museums",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 576,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.5177756,
+          "lng": -75.3912552
+        }
+      }
+    },
+    {
+      "name": "Langdale Hotel & Spa",
+      "address": "The Langdale Estate, Great Langdale, Ambleside LA22 9JD, UK",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "spa",
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJXeYATkzAfEgRIe8DpGa6-J4",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 990,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.437411,
+          "lng": -3.0395049999999997
+        }
+      }
+    },
+    {
+      "name": "Keswick Camping and Caravanning Club",
+      "address": "Crow Park Rd, Keswick CA12 5EP, UK",
+      "rating": 4.6,
+      "types": [
+        "campground",
+        "rv_park",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJrVNNzG_bfEgRnP8Pw5kffww",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1362,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.600659799999995,
+          "lng": -3.1497603
+        }
+      }
+    },
+    {
+      "name": "Theatre By The Lake",
+      "address": "Lakeside, Lake Rd, Keswick CA12 5DJ, UK",
+      "rating": 4.6,
+      "types": [
+        "performing_arts_theater",
+        "cafe",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ32_SumbbfEgRioKzDoSVITo",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1473,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.595564599999996,
+          "lng": -3.1393768000000004
+        }
+      }
+    },
+    {
+      "name": "Castlerigg Stone Circle",
+      "address": "Castle Ln, Keswick CA12 4RN, UK",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "hiking_area",
+        "sports_activity_location",
+        "historical_place",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhSrdapbcfEgR6u4mKzSnIDM",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 5892,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.602824,
+          "lng": -3.0984019999999997
+        }
+      }
+    },
+    {
+      "name": "Honister Slate Mine",
+      "address": "Honister Pass, Keswick CA12 5XN, UK",
+      "rating": 4.6,
+      "types": [
+        "adventure_sports_center",
+        "tourist_attraction",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCXjj2VHEfEgRhzr314q0cR8",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 811,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.511169599999995,
+          "lng": -3.199151
+        }
+      }
+    },
+    {
+      "name": "Sleep Inn & Suites Cumberland-LaVale",
+      "address": "13320 Ali Ghan Rd NE, Cumberland, MD 21502, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbTb4c2OJyokR9hXutKSR1A8",
+      "keyword": "hotels accommodation lodging",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 636,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6720574,
+          "lng": -78.7156892
+        }
+      }
+    },
+    {
+      "name": "Stoney River Steakhouse and Grill",
+      "address": "2860 Cumberland Mall Suite 1640, Atlanta, GA 30339, USA",
+      "rating": 4.5,
+      "types": [
+        "steak_house",
+        "hamburger_restaurant",
+        "diner",
+        "meal_takeaway",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJyQNJZ1sQ9YgR8IYUmRmKyfA",
+      "keyword": "restaurants",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 3553,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.8814123,
+          "lng": -84.4691513
+        }
+      }
+    },
+    {
+      "name": "Fairfield Inn & Suites Cumberland",
+      "address": "21 Wineow St, Cumberland, MD 21502, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVwBr-NqOyokR7QpvGdjWFJg",
+      "keyword": "hotels",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 691,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.647175399999995,
+          "lng": -78.7620324
+        }
+      }
+    },
+    {
+      "name": "Old Dungeon Ghyll Hotel Great Langdale",
+      "address": "Great Langdale, Ambleside LA22 9JY, UK",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJr1EoFy_BfEgR8aBlTcbMohU",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1084,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.4454394,
+          "lng": -3.1028169
+        }
+      }
+    },
+    {
+      "name": "Daffodil Hotel & Spa",
+      "address": "By The Lake, Keswick Road, Grasmere, Ambleside LA22 9PR, UK",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "massage",
+        "spa",
+        "cafe",
+        "lodging",
+        "event_venue",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC7DW3NrBfEgRZFWNgzmc5as",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1210,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.4531375,
+          "lng": -3.0176061
+        }
+      }
+    },
+    {
+      "name": "Burns Farm",
+      "address": "Burns Farm Caravan & Campsite, St Johns-in-the-Vale, Keswick CA12 4RR, UK",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "rv_park",
+        "park",
+        "lodging",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJHT5tMgLdfEgRmhFMqrLy2oA",
+      "keyword": "nearby_store",
+      "user_ratings_total": 517,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 54.6084296,
+          "lng": -3.0747948999999997
+        }
+      }
+    },
+    {
+      "name": "Holiday Inn Express & Suites Cumberland - la Vale by IHG",
+      "address": "1076 National Hwy, La Vale, MD 21502, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7xyNxtGPyokRaLZbhlJJr28",
+      "keyword": "hotels accommodation lodging",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 578,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6392816,
+          "lng": -78.8278437
+        }
+      }
+    },
+    {
+      "name": "Puccini Restaurant",
+      "address": "12901 Ali Ghan Rd NE, Cumberland, MD 21502, USA",
+      "rating": 4.4,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ15F2rmCJyokRlcn9abvbT-A",
+      "keyword": "restaurants food dining",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 1740,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6727785,
+          "lng": -78.72461899999999
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Orange disk over Antelope Park, Utah July 3, 2025 UFO UAP sighting news. Over the Salt Lake. \ud83d\udc7d\ud83d\udc40\ud83d\ude31",
@@ -20,18 +778,18 @@
   "generated_content": {
     "meta_description": "Explore ufo mysteries in Pillar, Cumberland. Explore the mysterious Pillar, Cumberland, where an Orange disk was spotted over Antelope Park in July 2025. Archaeologi",
     "title": "Ufo Mysteries in Pillar, Cumberland - Tours & Services",
-    "description": "Explore the mysterious Pillar, Cumberland, where an Orange disk was spotted over Antelope Park in July 2025. Archaeologists have discovered gigantic shoes at a 2000-year-old Roman site, sparking theories of extraterrestrial origin.",
+    "description": "Explore the mysterious Pillar, Cumberland, where an Orange disk was spotted over Antelope Park in July 2025. Archaeologists have also discovered gigantic shoes at a 2000-year-old Roman site.",
     "keywords": [
-      "Pillar Cumberland",
-      "ufo sightings",
-      "alien encounters",
+      "Pillar mystery",
+      "UFO sightings",
+      "Antelope Park UFO",
       "Roman ruins"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:46:20.810288"
+    "last_updated": "2025-07-22T12:04:25.078987"
   }
 }

@@ -1,8 +1,702 @@
 {
   "location_name": "Gavhar ko'chasi, Tirsakobod mahallasi",
   "category": "ufo",
-  "timestamp": "20250716_204556",
-  "businesses": [],
+  "timestamp": "20250722_120338",
+  "businesses": [
+    {
+      "name": "Minor Mosque",
+      "address": "87PG+42F, Kichik Xalqa Yo'li, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.8,
+      "types": [
+        "mosque",
+        "tourist_attraction",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNRD1TEWLrjgRgfZM1ux7-cE",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 2639,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3353102,
+          "lng": 69.275035
+        }
+      }
+    },
+    {
+      "name": "Ayramin Deluxe Hotel",
+      "address": "Katip Mustafa \u00c7elebi, Anadolu Sk. No:4, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHY6zzOa5yhQRTLs3YaccPhc",
+      "keyword": "hotels accommodation lodging",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 650,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.0342762,
+          "lng": 28.981275099999998
+        }
+      }
+    },
+    {
+      "name": "AKKA Hotels Suites",
+      "address": "\u0130stiklal Caddesi, Kulo\u011flu, Ayhan I\u015f\u0131k Sk. No:11, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQ7CWrpe3yhQRfIDf7LTPD3M",
+      "keyword": "hotels accommodation lodging",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 742,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.033938299999996,
+          "lng": 28.980494299999997
+        }
+      }
+    },
+    {
+      "name": "Memorial to the Victims of Repression in Tashkent",
+      "address": "87XQ+46Q, Tashkent, Uzbekistan",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6aDYmar0rjgRi37TKyLAZDM",
+      "keyword": "things to do attractions tours",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 841,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3478267,
+          "lng": 69.28811139999999
+        }
+      }
+    },
+    {
+      "name": "Hyatt Regency Tashkent",
+      "address": "1 A, Navoiy shoh ko'chasi, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJg6MxJjCLrjgRaXPFE4C3TzI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1404,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.316350899999996,
+          "lng": 69.27802199999999
+        }
+      }
+    },
+    {
+      "name": "Hilton Tashkent City",
+      "address": "Ukchi ko'chasi 1, 100027, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "banquet_hall",
+        "wedding_venue",
+        "extended_stay_hotel",
+        "spa",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJE55oW2iLrjgR5_UCblLfTK8",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1662,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.314169299999996,
+          "lng": 69.24886459999999
+        }
+      }
+    },
+    {
+      "name": "Syrovarnya",
+      "address": "Shahrisabz ko'chasi 31\u0411, 181301, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGYqdn06LrjgROiJYj0ToKBg",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 738,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.311867199999995,
+          "lng": 69.2856216
+        }
+      }
+    },
+    {
+      "name": "Amir Temur Square",
+      "address": "\u0410\u043c\u0438\u0440 \u0422\u0435\u043c\u0443\u0440 \u0448\u043e\u04b3 \u043a\u045e\u0447\u0430\u0441\u0438 4, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "state_park",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJIx_0MSmLrjgRRbhUtgZeCYE",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 3086,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3111391,
+          "lng": 69.2795927
+        }
+      }
+    },
+    {
+      "name": "RentCar",
+      "address": "City Palace Hotel, \u0443\u043b.\u0410.\u0422\u0438\u043c\u0443\u0440\u043015, 100007, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.7,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ80ljejWLrjgRRhBk4_sMJ4o",
+      "keyword": "car rental transportation",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 485,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3162282,
+          "lng": 69.2799311
+        }
+      }
+    },
+    {
+      "name": "Khan Chapan",
+      "address": "Usta Olim tupik 5, 100019, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvXFrIGKLrjgRb8UChC0RESA",
+      "keyword": "restaurants food dining",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 667,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3397795,
+          "lng": 69.2552786
+        }
+      }
+    },
+    {
+      "name": "Fort Chiswell RV Park",
+      "address": "312 Fort Chiswell Rd, Max Meadows, VA 24360, USA",
+      "rating": 4.5,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkexBGHj9UYgRCLABgp6GM08",
+      "keyword": "camping rv parks",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 744,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.940629099999995,
+          "lng": -80.9418898
+        }
+      }
+    },
+    {
+      "name": "Museum of Applied Arts",
+      "address": "Rakatboshi ko'chasi 15, 100031, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ47MaouGKrjgR0M-LyFRawbM",
+      "keyword": "museums",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 979,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3010284,
+          "lng": 69.2593952
+        }
+      }
+    },
+    {
+      "name": "Shimoliy Vokzal",
+      "address": "77RP+J94, Turkiston ko'chasi, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.5,
+      "types": [
+        "hostel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQQtoxg2LrjgRSNBzyb2-nLg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 726,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.2915019,
+          "lng": 69.28594439999999
+        }
+      }
+    },
+    {
+      "name": "Besh Qozon Pilaf Center",
+      "address": "\u0443\u043b. \u0421\u0430\u043b\u0438\u0445, Ulitsa Khamzy Umarova, Tashkent, Uzbekistan",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpfD0Q-SLrjgRHmSsbswhdWI",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1021,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.317742700000004,
+          "lng": 69.20963379999999
+        }
+      }
+    },
+    {
+      "name": "Chilonzor Metro",
+      "address": "Unnamed Road, 100135, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.5,
+      "types": [
+        "pharmacy",
+        "store",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJb5b0kz-LrjgR_WNGt-lKFUY",
+      "keyword": "nearby_store",
+      "user_ratings_total": 750,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.2743237,
+          "lng": 69.2040158
+        }
+      }
+    },
+    {
+      "name": "Besh Qozon",
+      "address": "Iftihor ko'chasi 1, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt1PgiKqMrjgRIvaDBbdwLIA",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 3597,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3474316,
+          "lng": 69.2849598
+        }
+      }
+    },
+    {
+      "name": "Chorsu Bazaar",
+      "address": "Tafakkur ko'chasi 57, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "market",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPZUE3ZyLrjgRjqgXCVWdEPg",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 8480,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3267357,
+          "lng": 69.2350318
+        }
+      }
+    },
+    {
+      "name": "AKKA Hotels Lush",
+      "address": "S\u0131raselviler Caddesi, Katip Mustafa \u00c7elebi, Tak-\u0131 Zafer Cd. No:10, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJY0_Pbw23yhQR5A4nSnrRnsk",
+      "keyword": "hotels accommodation lodging",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 1313,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.03469,
+          "lng": 28.984526
+        }
+      }
+    },
+    {
+      "name": "Tashkent Zoo",
+      "address": "\u0411\u043e\u0493\u0438\u0448\u0430\u043c\u043e\u043b \u043a\u045e\u0447\u0430\u0441\u0438 232-\u0430, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.3,
+      "types": [
+        "zoo",
+        "tourist_attraction",
+        "wildlife_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtWakfL30rjgRgOlJPbTwTqg",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 2635,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3439983,
+          "lng": 69.309899
+        }
+      }
+    },
+    {
+      "name": "Sergeli Moshina Bozor",
+      "address": "66Q7+86G, Tashkent, Uzbekistan",
+      "rating": 4.3,
+      "types": [
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs1_7epRhrjgR8ZU72h4ktU4",
+      "keyword": "nearby_store",
+      "user_ratings_total": 732,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.2320643,
+          "lng": 69.215094
+        }
+      }
+    },
+    {
+      "name": "Alay Bazaar",
+      "address": "Yahyo Gulyamov ko'chasi 7, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.3,
+      "types": [
+        "market",
+        "grocery_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJsTO3jDKLrjgR6vShMEFUmio",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1104,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3187322,
+          "lng": 69.2847577
+        }
+      }
+    },
+    {
+      "name": "Axmad oltin jo\u2018ja",
+      "address": "7574+42X, Qovunchi ko'chasi 38-3, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdeJ_T8iJrjgR42reTAKRvVM",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 856,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.262469499999995,
+          "lng": 69.1543939
+        }
+      }
+    },
+    {
+      "name": "Avtouzbegim \u043f\u0440\u043e\u043a\u0430\u0442 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u0432 \u0422\u0430\u0448\u043a\u0435\u043d\u0442\u0435 \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0435",
+      "address": "\u0410\u043c\u0438\u0440 \u0422\u0435\u043c\u0443\u0440 \u0448\u043e\u04b3 \u043a\u045e\u0447\u0430\u0441\u0438 99\u0430, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.8,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4_OwhDCLrjgRrQ_g9YbCy3A",
+      "keyword": "car rental transportation",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 408,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3344044,
+          "lng": 69.2841682
+        }
+      }
+    },
+    {
+      "name": "Hotel Uzbekistan",
+      "address": "Mirzamakhmud Musakhanov Street 45, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 3.8,
+      "types": [
+        "hotel",
+        "extended_stay_hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkVKH7CuLrjgRZOHHIMFbKwI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2182,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3113642,
+          "lng": 69.28267819999999
+        }
+      }
+    },
+    {
+      "name": "Magic park",
+      "address": "863V+QP2, Tashkent, Uzbekistan",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC1Duv9KLrjgRY9IgskQ8QtI",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 358,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.304394099999996,
+          "lng": 69.24427709999999
+        }
+      }
+    },
+    {
+      "name": "Nupera Hotel",
+      "address": "Mahallesi, Katip Mustafa \u00c7elebi, Billurcu Sk. No:15, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+      "rating": 4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhwuOhPa3yhQRJZU5jegHAJY",
+      "keyword": "hotels accommodation lodging",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 384,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.0337414,
+          "lng": 28.982803999999998
+        }
+      }
+    },
+    {
+      "name": "Chilanzar Shopping Center",
+      "address": "Chilonzor ko'chasi 55, 100115, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 4.2,
+      "types": [
+        "shopping_mall",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEVisvUaKrjgRkwPMvJ1O27g",
+      "keyword": "shopping retail stores",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 356,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.2830467,
+          "lng": 69.2222748
+        }
+      }
+    },
+    {
+      "name": "Museum of Victims of Political Repression",
+      "address": "87WQ+Q79, Tashkent, Uzbekistan",
+      "rating": 4.3,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCRLiqar0rjgRIpIlgCCk5p4",
+      "keyword": "museums",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 291,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.3469165,
+          "lng": 69.28821909999999
+        }
+      }
+    },
+    {
+      "name": "Buyuk Istanbul Restaurant",
+      "address": "Sayram ko'chasi 5, 100000, \u0422\u043eshkent, Toshkent, Uzbekistan",
+      "rating": 3.8,
+      "types": [
+        "turkish_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJASNvYkj1rjgRAhcseZQq7As",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 311,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.328227,
+          "lng": 69.3209578
+        }
+      }
+    },
+    {
+      "name": "Elegance House Cafe & Hotel",
+      "address": "Katip Mustafa \u00c7elebi, Billurcu Sk. No:7, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+      "rating": 4.9,
+      "types": [
+        "hotel",
+        "dessert_shop",
+        "cafe",
+        "confectionery",
+        "lodging",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOUll5Km3yhQRTsrD8BLHVCY",
+      "keyword": "hotels accommodation lodging",
+      "location": "chasi, Tirsakobod mahallasi",
+      "user_ratings_total": 161,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.0334414,
+          "lng": 28.982552999999996
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Ancient Alien City Found Under Ocean, Maybe Atlantis? imagine the tech left behind. UFO UAP Sighting News",
@@ -18,20 +712,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Gavhar ko'chasi, Tirsakobod mahallasi. Explore the mysterious Gavhar ko'chasi, Tirsakobod mahallasi, where ancient alien city legends come alive. Discover the ",
+    "meta_description": "Explore ufo mysteries in Gavhar ko'chasi, Tirsakobod mahallasi. Explore the enigmatic Gavhar ko'chasi, Tirsakobod mahallasi, where ancient secrets and mysterious technologies await. Di",
     "title": "Ufo Mysteries in Gavhar ko'chasi, Tirsakobod mahallasi - Tours & Services",
-    "description": "Explore the mysterious Gavhar ko'chasi, Tirsakobod mahallasi, where ancient alien city legends come alive. Discover the remnants of a lost civilization and unravel the secrets of the universe.",
+    "description": "Explore the enigmatic Gavhar ko'chasi, Tirsakobod mahallasi, where ancient secrets and mysterious technologies await. Discover the remnants of an Ancient Alien City hidden beneath the ocean floor, sparking debate about the existence of Atlantis.",
     "keywords": [
       "Gavhar ko'chasi",
       "ufo sightings",
       "ancient alien city",
-      "paranormal tourism"
+      "atlantis theory"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:45:56.951985"
+    "last_updated": "2025-07-22T12:03:38.357138"
   }
 }

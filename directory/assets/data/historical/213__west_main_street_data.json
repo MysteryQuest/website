@@ -1,8 +1,771 @@
 {
   "location_name": "213, West Main Street",
   "category": "historical",
-  "timestamp": "20250716_204710",
-  "businesses": [],
+  "timestamp": "20250722_120600",
+  "businesses": [
+    {
+      "name": "Pemberton Historical Park",
+      "address": "5561 Plantation Ln, Salisbury, MD 21801, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKxyus8oGuYkRIkO_Ud73mss",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 506,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.346042,
+          "lng": -75.6438809
+        }
+      }
+    },
+    {
+      "name": "Chick-fil-A",
+      "address": "2736 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 4.6,
+      "types": [
+        "fast_food_restaurant",
+        "catering_service",
+        "breakfast_restaurant",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAw0Yq4MCuYkRdiY6Szd-FkI",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2969,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.419865099999996,
+          "lng": -75.5657616
+        }
+      }
+    },
+    {
+      "name": "Old Mill Crab House",
+      "address": "8829 Waller Rd, Delmar, DE 19940, USA",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJszBMjK_9uIkRESfUHOSc7Bw",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2008,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.456433,
+          "lng": -75.5841928
+        }
+      }
+    },
+    {
+      "name": "Salisbury Zoological Park",
+      "address": "755 S Park Dr, Salisbury, MD 21804, USA",
+      "rating": 4.5,
+      "types": [
+        "zoo",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJefma75gDuYkRfUln-dSgp1w",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 3992,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3607231,
+          "lng": -75.5826144
+        }
+      }
+    },
+    {
+      "name": "Hampton Inn & Suites Salisbury/Fruitland",
+      "address": "304 Prosperity Ln, Fruitland, MD 21826, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-f4t2hgEuYkRd22D4irUYfk",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 750,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3265813,
+          "lng": -75.6147174
+        }
+      }
+    },
+    {
+      "name": "Evolution Craft Brewing Co. & Public House",
+      "address": "201 E Vine St, Salisbury, MD 21801, USA",
+      "rating": 4.4,
+      "types": [
+        "pub",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJA_8VH5UDuYkR4_I8UXZ3IQk",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 776,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.362033700000005,
+          "lng": -75.5959043
+        }
+      }
+    },
+    {
+      "name": "Hampton Inn Salisbury",
+      "address": "121 E Naylor Mill Rd, Salisbury, MD 21804, USA",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTVxWqY8CuYkRJlK0aBetjBY",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 990,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4101547,
+          "lng": -75.564968
+        }
+      }
+    },
+    {
+      "name": "Cook Out",
+      "address": "1115 S Salisbury Blvd, Salisbury, MD 21804, USA",
+      "rating": 4.1,
+      "types": [
+        "hamburger_restaurant",
+        "fast_food_restaurant",
+        "barbecue_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgQ08NvQDuYkRFhKxUBJDSBQ",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2319,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3474344,
+          "lng": -75.6020738
+        }
+      }
+    },
+    {
+      "name": "Brew River",
+      "address": "502 W Main St, Salisbury, MD 21801, USA",
+      "rating": 4.1,
+      "types": [
+        "american_restaurant",
+        "pub",
+        "banquet_hall",
+        "seafood_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEVRINegDuYkR4VCiFX5oHno",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2149,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3643356,
+          "lng": -75.60707479999999
+        }
+      }
+    },
+    {
+      "name": "Courtyard Salisbury",
+      "address": "128 Troopers Way, Salisbury, MD 21804, USA",
+      "rating": 3.9,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfe1TLoMCuYkRbcJv83GbY7o",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 592,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4192126,
+          "lng": -75.5631253
+        }
+      }
+    },
+    {
+      "name": "Walmart Supercenter",
+      "address": "2702 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 3.9,
+      "types": [
+        "department_store",
+        "hardware_store",
+        "electronics_store",
+        "bakery",
+        "furniture_store",
+        "home_improvement_store",
+        "grocery_store",
+        "home_goods_store",
+        "food_store",
+        "sporting_goods_store",
+        "food",
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJUS9VS4QCuYkRSu7oAXup4vY",
+      "keyword": "nearby_store",
+      "user_ratings_total": 4410,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4172973,
+          "lng": -75.56893149999999
+        }
+      }
+    },
+    {
+      "name": "Walmart Supercenter",
+      "address": "409 N Fruitland Blvd, Salisbury, MD 21801, USA",
+      "rating": 3.9,
+      "types": [
+        "department_store",
+        "hardware_store",
+        "electronics_store",
+        "bakery",
+        "furniture_store",
+        "home_improvement_store",
+        "grocery_store",
+        "home_goods_store",
+        "food_store",
+        "sporting_goods_store",
+        "food",
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJGbVrMx8EuYkROVqIamB_oQI",
+      "keyword": "nearby_store",
+      "user_ratings_total": 3058,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3282424,
+          "lng": -75.6104427
+        }
+      }
+    },
+    {
+      "name": "Microtel Inn & Suites by Wyndham Salisbury",
+      "address": "3050 Merritt Mill Rd, Salisbury, MD 21804, USA",
+      "rating": 3.8,
+      "types": [
+        "hotel",
+        "inn",
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5-qxpzwDuYkRPYOPPsrFkig",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 505,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.367928299999996,
+          "lng": -75.5447453
+        }
+      }
+    },
+    {
+      "name": "Country Inn & Suites by Radisson, Salisbury, MD",
+      "address": "1804 Sweetbay Dr, Salisbury, MD 21804, USA",
+      "rating": 3.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbZeH2CQDuYkR-wObCW2x000",
+      "keyword": "hotels",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 564,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3689673,
+          "lng": -75.5415332
+        }
+      }
+    },
+    {
+      "name": "The Apothecarium Dispensary of Salisbury (formerly Peninsula Alternative Health)",
+      "address": "1003 Mt Hermon Rd, Salisbury, MD 21804, USA",
+      "rating": 3.4,
+      "types": [
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ-XdJ6pYDuYkRnF6qNi2Q3bQ",
+      "keyword": "nearby_store",
+      "user_ratings_total": 970,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3685337,
+          "lng": -75.5769875
+        }
+      }
+    },
+    {
+      "name": "La Quinta Inn & Suites by Wyndham Salisbury",
+      "address": "300 S Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 3.3,
+      "types": [
+        "hotel",
+        "inn",
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfwxMWpUDuYkRMhnVulHmP0g",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 918,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3639934,
+          "lng": -75.59641669999999
+        }
+      }
+    },
+    {
+      "name": "Best Western Salisbury Plaza",
+      "address": "1735 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJd4H6flMCuYkRwvuAckT2g0s",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 708,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.386014,
+          "lng": -75.5799357
+        }
+      }
+    },
+    {
+      "name": "Residence Inn Salisbury",
+      "address": "140 Centre Rd, Salisbury, MD 21801, USA",
+      "rating": 3.8,
+      "types": [
+        "hotel",
+        "extended_stay_hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLwGaJ_UCuYkR6atUWKFkFfU",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 415,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.401755699999995,
+          "lng": -75.5717701
+        }
+      }
+    },
+    {
+      "name": "Holiday Inn Express & Suites Salisbury - Delmar by IHG",
+      "address": "30232 Lighthouse Square Dr, Delmar, MD 21875, USA",
+      "rating": 3.8,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzYIwY3L9uIkRKq5EhPcfixU",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 404,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.440189,
+          "lng": -75.56335299999999
+        }
+      }
+    },
+    {
+      "name": "Target",
+      "address": "125 E N Pointe Dr, Salisbury, MD 21804, USA",
+      "rating": 4.3,
+      "types": [
+        "department_store",
+        "shoe_store",
+        "electronics_store",
+        "furniture_store",
+        "home_improvement_store",
+        "child_care_agency",
+        "home_goods_store",
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJzx9RW4QCuYkR1rpZ2cdTUmw",
+      "keyword": "nearby_store",
+      "user_ratings_total": 331,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4154917,
+          "lng": -75.55972799999999
+        }
+      }
+    },
+    {
+      "name": "Days Inn by Wyndham Salisbury",
+      "address": "2525 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 2.2,
+      "types": [
+        "hotel",
+        "inn",
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZegMp44CuYkRBER7M6GbpR8",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 821,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.4078899,
+          "lng": -75.5667881
+        }
+      }
+    },
+    {
+      "name": "WinterPlace Park & Equestrian Center",
+      "address": "6737 Blue Ribbon Rd, Salisbury, MD 21804, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe9M6NSYduYkRJxHWJkbQhig",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 261,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3773118,
+          "lng": -75.5138576
+        }
+      }
+    },
+    {
+      "name": "Econo Lodge",
+      "address": "10936 Market Ln US 13, Princess Anne, MD 21853, USA",
+      "rating": 3.2,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnQVPoCIKuYkRA9dBTp2b1RY",
+      "keyword": "hotels",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 363,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.180999,
+          "lng": -75.69100999999999
+        }
+      }
+    },
+    {
+      "name": "TidalHealth Peninsula Regional",
+      "address": "100 E Carroll St, Salisbury, MD 21801, USA",
+      "rating": 2.7,
+      "types": [
+        "medical_lab",
+        "hospital",
+        "pharmacy",
+        "health",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJsWgL1uoDuYkRAk9TEBEMZag",
+      "keyword": "nearby_store",
+      "user_ratings_total": 408,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.361799,
+          "lng": -75.5984691
+        }
+      }
+    },
+    {
+      "name": "Skateboarding Hall of Fame Skateboard Museum",
+      "address": "1555 Simi Town Center Way UNIT 230, Simi Valley, CA 93065, USA",
+      "rating": 4.6,
+      "types": [
+        "sporting_goods_store",
+        "museum",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJaUsk5lMo6IARndCAGl3F3S4",
+      "keyword": "museums",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 156,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.2846288,
+          "lng": -118.76959790000001
+        }
+      }
+    },
+    {
+      "name": "Bordeleau Vineyards & Winery",
+      "address": "3155 Noble Farm Rd, Eden, MD 21822, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "farm",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK5twFgeouYkR5Wp-IZfJRFs",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 128,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.277386,
+          "lng": -75.722133
+        }
+      }
+    },
+    {
+      "name": "Wawa",
+      "address": "38711 Sussex Hwy, Delmar, DE 19940, USA",
+      "rating": 4,
+      "types": [
+        "fast_food_restaurant",
+        "coffee_shop",
+        "sandwich_shop",
+        "gas_station",
+        "convenience_store",
+        "breakfast_restaurant",
+        "candy_store",
+        "cafe",
+        "confectionery",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ9wrluBv9uIkRGLdZknVuego",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 164,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.456109999999995,
+          "lng": -75.55722
+        }
+      }
+    },
+    {
+      "name": "Wawa",
+      "address": "668 S Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 3.9,
+      "types": [
+        "fast_food_restaurant",
+        "coffee_shop",
+        "sandwich_shop",
+        "gas_station",
+        "convenience_store",
+        "breakfast_restaurant",
+        "candy_store",
+        "cafe",
+        "confectionery",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJR9VUUOwDuYkRJqLR4ddX_50",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 169,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3581876,
+          "lng": -75.60045240000001
+        }
+      }
+    },
+    {
+      "name": "Royal Farms",
+      "address": "31954 Summer Dr, Salisbury, MD 21804, USA",
+      "rating": 3.6,
+      "types": [
+        "gas_station",
+        "convenience_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJET5QAyAduYkR9jPdjG4SXMY",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 187,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.3741522,
+          "lng": -75.5043816
+        }
+      }
+    },
+    {
+      "name": "Wawa",
+      "address": "2740 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "rating": 4,
+      "types": [
+        "fast_food_restaurant",
+        "coffee_shop",
+        "sandwich_shop",
+        "gas_station",
+        "convenience_store",
+        "breakfast_restaurant",
+        "candy_store",
+        "cafe",
+        "confectionery",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ6fhlV4ICuYkRGXbjtJArfR0",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 144,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.420576,
+          "lng": -75.56575
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Resurrecting the Moa: A New Deextinction Initiative Blends M\u0101ori Wisdom with Cutting-Edge Genomics to Revive a Lost Giant",
@@ -12,19 +775,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 213, West Main Street. Explore the mysterious history of West Main Street, where the Moa was once revered. Learn about the indigenous M\u0101ori peo",
+    "meta_description": "Explore historical mysteries in 213, West Main Street. Explore the mysterious history of West Main Street, where the Moa was once a revered species. Learn about the efforts to",
     "title": "Historical Mysteries in 213, West Main Street - Tours & Services",
-    "description": "Explore the mysterious history of West Main Street, where the Moa was once revered. Learn about the indigenous M\u0101ori people's connection to these giant birds and how they were thought to be extinct. Discover the secrets behind the Resurrecting the Moa: A New Deextinction Initiative, a cutting-edge project blending traditional wisdom with modern genomics.",
+    "description": "Explore the mysterious history of West Main Street, where the Moa was once a revered species. Learn about the efforts to resurrect this lost giant through cutting-edge genomics and M\u0101ori wisdom.",
     "keywords": [
-      "moa revival",
-      "deextinction initiative",
-      "maori history"
+      "moa resurrection",
+      "m\u0101ori wisdom",
+      "genomics"
     ],
     "category": "historical"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:47:10.727228"
+    "last_updated": "2025-07-22T12:06:00.135350"
   }
 }

@@ -1,8 +1,691 @@
 {
   "location_name": "Rinc\u00f3n Lindo I, Los Tordos",
   "category": "paranormal",
-  "timestamp": "20250716_204530",
-  "businesses": [],
+  "timestamp": "20250722_120247",
+  "businesses": [
+    {
+      "name": "Uncompahgre National Forest",
+      "address": "Montrose, CO 81403, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "national_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEStbgeS0OIcRw72pF1z0BHw",
+      "keyword": "parks recreation outdoor",
+      "location": "n UNComa, ",
+      "user_ratings_total": 1866,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2626802,
+          "lng": -108.11032829999999
+        }
+      }
+    },
+    {
+      "name": "Paseo de la Costa",
+      "address": "Neuquen, Neuqu\u00e9n Province, Argentina",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx-YTMSAyCpYRp0o9uLTlyR4",
+      "keyword": "things to do attractions tours",
+      "location": "n UNComa, ",
+      "user_ratings_total": 28232,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9791753,
+          "lng": -68.0536146
+        }
+      }
+    },
+    {
+      "name": "University of North Carolina at Chapel Hill",
+      "address": "Chapel Hill, NC, USA",
+      "rating": 4.6,
+      "types": [
+        "university",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ66oXy9LCrIkR4OCXZJfwO7M",
+      "keyword": "things to do attractions tours",
+      "location": "n UNComa, ",
+      "user_ratings_total": 1107,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.9049122,
+          "lng": -79.0469134
+        }
+      }
+    },
+    {
+      "name": "TeePee Curios",
+      "address": "924 E Rte 66 Blvd, Tucumcari, NM 88401, USA",
+      "rating": 4.6,
+      "types": [
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYepD4pxXG4cRFHmjM2Td2Dg",
+      "keyword": "gift shops souvenirs",
+      "location": "n UNComa, ",
+      "user_ratings_total": 575,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.1715239,
+          "lng": -103.7148818
+        }
+      }
+    },
+    {
+      "name": "Plaza de las Banderas",
+      "address": "Avenida Argentina 1598, Neuqu\u00e9n, Argentina",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ1Slk3eczCpYRbXDGRz1udSQ",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 5473,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9375737,
+          "lng": -68.05904579999999
+        }
+      }
+    },
+    {
+      "name": "Balneario R\u00edo Grande",
+      "address": "Democracia 150, Q8304 FLZ, Neuqu\u00e9n, Argentina",
+      "rating": 4.6,
+      "types": [
+        "public_bath",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKTCgHRgyCpYRbrVME6j6-Nk",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 5400,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9800202,
+          "lng": -68.05816999999999
+        }
+      }
+    },
+    {
+      "name": "Hummel Park Nature Center",
+      "address": "3033 Hummel Rd, Omaha, NE 68112, Omaha, NE 68112, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOykXFcmWk4cRhlK-uWluZaA",
+      "keyword": "parks recreation outdoor",
+      "location": "n UNComa, ",
+      "user_ratings_total": 514,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.373625,
+          "lng": -95.958261
+        }
+      }
+    },
+    {
+      "name": "Museo Nacional De Bellas Artes Neuquen",
+      "address": "Calle Mitre y Santa Cruz, Q8302 Patagonia, Neuqu\u00e9n, Argentina",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmwmisdQzCpYRb_fm9Cv7W7g",
+      "keyword": "museums",
+      "location": "n UNComa, ",
+      "user_ratings_total": 4495,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9567149,
+          "lng": -68.0534091
+        }
+      }
+    },
+    {
+      "name": "Ofelia Caf\u00e9 & Resto",
+      "address": "Blvd. los Casta\u00f1os 485, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJw5tvwu4zCpYRUNmWRRTHJas",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 844,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9694922,
+          "lng": -68.0661598
+        }
+      }
+    },
+    {
+      "name": "Tranquility Park",
+      "address": "12222 W Maple Rd, Omaha, NE 68164, USA",
+      "rating": 4.4,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "athletic_field",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCxODjgvtk4cR7FxeWyNkEOQ",
+      "keyword": "parks recreation outdoor",
+      "location": "n UNComa, ",
+      "user_ratings_total": 895,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.295079099999995,
+          "lng": -96.1052136
+        }
+      }
+    },
+    {
+      "name": "Hilton Garden Inn Neuquen",
+      "address": "Avenida Argentina 1200-1248, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdf1i0twzCpYR47D_DcPGJJ4",
+      "keyword": "hotels",
+      "location": "n UNComa, ",
+      "user_ratings_total": 1811,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9419064,
+          "lng": -68.05957599999999
+        }
+      }
+    },
+    {
+      "name": "Museo Paleontol\u00f3gico Municipal Ernesto Bachmann",
+      "address": "8311, Mario Sureda 328f, Q8311 Villa El Choc\u00f3n, Neuqu\u00e9n, Argentina",
+      "rating": 4.4,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGRpTUbT9C5YRvR3p4iJzgqc",
+      "keyword": "museums",
+      "location": "n UNComa, ",
+      "user_ratings_total": 6889,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -39.260722699999995,
+          "lng": -68.783619
+        }
+      }
+    },
+    {
+      "name": "Cyan Soho Neuquen Hotel",
+      "address": "Tucum\u00e1n 535, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAdiIGdczCpYRWLaCN5-Qf08",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1527,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.949382799999995,
+          "lng": -68.0519333
+        }
+      }
+    },
+    {
+      "name": "San Martin Monument",
+      "address": "Julio Argentino Roca Centro, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.4,
+      "types": [
+        "monument",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJU-KG0NEzCpYRDGDMpngOOsI",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 6977,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.951854,
+          "lng": -68.0591779
+        }
+      }
+    },
+    {
+      "name": "YPF Neuqu\u00e9n Petro Oeste SRL (Estaci\u00f3n de Servicios Suc. Illia e Islas Malvinas)",
+      "address": "Islas Malvinas 990, Q8300 ITT, Neuqu\u00e9n, Argentina",
+      "rating": 4.4,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8ZGBgyBvDJYRQalNWf2ZYdU",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1898,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9474535,
+          "lng": -68.0453256
+        }
+      }
+    },
+    {
+      "name": "Alto Comahue Shopping",
+      "address": "Av. Dr. Ram\u00f3n 355, Neuqu\u00e9n, Argentina",
+      "rating": 4.3,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJy8RsGMIzCpYR8aHTtQ_FWPA",
+      "keyword": "shopping retail stores",
+      "location": "n UNComa, ",
+      "user_ratings_total": 15431,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.941536299999996,
+          "lng": -68.06519779999999
+        }
+      }
+    },
+    {
+      "name": "National University of Comahue",
+      "address": "Buenos Aires 1400, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.4,
+      "types": [
+        "university",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ92EBN0zCpYRdyD3MET8YJ4",
+      "keyword": "things to do",
+      "location": "n UNComa, ",
+      "user_ratings_total": 490,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.940214999999995,
+          "lng": -68.05750809999999
+        }
+      }
+    },
+    {
+      "name": "Museo Gregorio \u00c1lvarez",
+      "address": "San Mart\u00edn 280, Q8302 Neuqu\u00e9n, Argentina",
+      "rating": 4.3,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpR_Ftc0zCpYRf6hROjykMao",
+      "keyword": "things to do",
+      "location": "n UNComa, ",
+      "user_ratings_total": 783,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9557126,
+          "lng": -68.0623493
+        }
+      }
+    },
+    {
+      "name": "Parque Central",
+      "address": "San Mart\u00edn 355, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.3,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJ4XyF8wzCpYR68-QQ9Hqj94",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 5687,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9554441,
+          "lng": -68.0642302
+        }
+      }
+    },
+    {
+      "name": "Este Park",
+      "address": "Q8302JWA, Colonia Alemana 1202, Q8302JWA Neuqu\u00e9n, Argentina",
+      "rating": 4.3,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQS1ngWMxCpYRqkJruuRniC8",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 1794,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9427484,
+          "lng": -68.0421381
+        }
+      }
+    },
+    {
+      "name": "YPF Neuqu\u00e9n Petro Oeste SRL (Estaci\u00f3n de Servicios PIN NQN)",
+      "address": "Ruta Autov\u00eda de Cirvunvalaci\u00f3n Neuqu\u00e9n Plottier, Km 1458,5, PIN, 8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.3,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLbWrf8zLC5YRO65Oy6EmoAE",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 2847,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.91146810000001,
+          "lng": -68.1442378
+        }
+      }
+    },
+    {
+      "name": "Hotel Grand Brizo Comahue",
+      "address": "AYD, Avenida Argentina 377, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHxGJMtAzCpYRDy8yItASaJo",
+      "keyword": "hotels accommodation lodging",
+      "location": "n UNComa, ",
+      "user_ratings_total": 1927,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.951079,
+          "lng": -68.05880499999999
+        }
+      }
+    },
+    {
+      "name": "Howard Johnson by Wyndham Neuquen",
+      "address": "Caracas 50, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "motel",
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJT9pwv7jMC5YR95BAGm4cMhw",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 3360,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9572299,
+          "lng": -68.1592972
+        }
+      }
+    },
+    {
+      "name": "Hotel Land Express Neuqu\u00e9n",
+      "address": "Goya 160, Ruta 22, Q8300AYU Neuqu\u00e9n, Argentina",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVek4VTQzCpYRrX-5WBwarjI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2848,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9561736,
+          "lng": -68.1395634
+        }
+      }
+    },
+    {
+      "name": "Shell",
+      "address": "Juan Juli\u00e1n Lastra, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.2,
+      "types": [
+        "gas_station",
+        "convenience_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJVXf-UcszCpYRxuAobMOjhpI",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1289,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9597945,
+          "lng": -68.0667186
+        }
+      }
+    },
+    {
+      "name": "Casino Magic Hotel & Casino",
+      "address": "Dr. Teodoro Luis Planas 4005, Q8304 Neuqu\u00e9n, Argentina",
+      "rating": 4.1,
+      "types": [
+        "hotel",
+        "casino",
+        "amusement_center",
+        "bar",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJS50WQxczCpYRWrJ6PNolzrU",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 9804,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9579982,
+          "lng": -68.11440879999999
+        }
+      }
+    },
+    {
+      "name": "El Boliche de Alberto \"Parrilla\"",
+      "address": "Juan Juli\u00e1n Lastra 1020, Q8300HXS Neuqu\u00e9n, Argentina",
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJrZfiEbUzCpYRiakiLi7ClC8",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 5017,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.959860299999995,
+          "lng": -68.0736252
+        }
+      }
+    },
+    {
+      "name": "Jumbo",
+      "address": "A, Juan Juli\u00e1n Lastra 2400, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4.1,
+      "types": [
+        "supermarket",
+        "grocery_store",
+        "ice_cream_shop",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJU-9kg6kzCpYRkC-K1e3kAsc",
+      "keyword": "nearby_store",
+      "user_ratings_total": 16218,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9607403,
+          "lng": -68.0943254
+        }
+      }
+    },
+    {
+      "name": "YPF",
+      "address": "General Jos\u00e9 De San Mart\u00edn Y Jujuy, Jujuy 202, Q8300LIC Neuqu\u00e9n, Argentina",
+      "rating": 4,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJid4xwc8zCpYRmI9-WpNDv3w",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 935,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.955009499999996,
+          "lng": -68.0677485
+        }
+      }
+    },
+    {
+      "name": "YPF RUTA22SA",
+      "address": "Eugenio Perticone Y Bah\u00eda Blanca, Eugenio Perticone 555, Q8300 Neuqu\u00e9n, Argentina",
+      "rating": 4,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHfQkBysyCpYRqnEcVIc4fk0",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1057,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -38.9598374,
+          "lng": -68.051283
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Face to Face with Bigfoot",
@@ -18,21 +701,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore paranormal mysteries in Rinc\u00f3n Lindo I, Los Tordos. Experience the eerie atmosphere of Rinc\u00f3n Lindo I, where locals claim to have encountered Bigfoot. Witness a rare Orb Sh",
+    "meta_description": "Explore paranormal mysteries in Rinc\u00f3n Lindo I, Los Tordos. Step into the heart of mystery at Rinc\u00f3n Lindo I, Los Tordos. This enigmatic location is home to a range of paranormal a",
     "title": "Paranormal Mysteries in Rinc\u00f3n Lindo I, Los Tordos - Tours & Services",
-    "description": "Experience the eerie atmosphere of Rinc\u00f3n Lindo I, where locals claim to have encountered Bigfoot. Witness a rare Orb Ship landing on a remote pad and get an exclusive glimpse into the alleged ET Base. But be prepared for a thrilling UFO UAP Sighting that will leave you questioning reality.",
+    "description": "Step into the heart of mystery at Rinc\u00f3n Lindo I, Los Tordos. This enigmatic location is home to a range of paranormal activities, including face-to-face encounters with Bigfoot and unexplained UFO sightings. Explore the Uncompahgre National Forest, Paseo de la Costa, and Plaza de las Banderas, but be warned: some say they live on earth.",
     "keywords": [
-      "paranormal tourism",
+      "paranormal activity",
       "Bigfoot sightings",
-      "UFO sightings",
-      "ET Base",
-      "Orb Ships"
+      "UFO sightings"
     ],
     "category": "paranormal"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:45:30.664700"
+    "last_updated": "2025-07-22T12:02:47.603672"
   }
 }

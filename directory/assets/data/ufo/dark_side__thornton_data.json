@@ -1,8 +1,747 @@
 {
   "location_name": "Dark Side, Thornton",
   "category": "ufo",
-  "timestamp": "20250716_205259",
-  "businesses": [],
+  "timestamp": "20250722_121729",
+  "businesses": [
+    {
+      "name": "Lumen Nature Retreat",
+      "address": "11 Sugar Plum Ln, Woodstock, NH 03293, USA",
+      "rating": 4.9,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlZtcWVh9s0wR28Q1X9BuHcw",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 867,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.971188,
+          "lng": -71.6761243
+        }
+      }
+    },
+    {
+      "name": "Garden of the Gods",
+      "address": "Colorado Springs, CO 80904, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "hiking_area",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJk5zMtRJQE4cRq22_Y1Lf6QQ",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 54342,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.8717933,
+          "lng": -104.8861757
+        }
+      }
+    },
+    {
+      "name": "Lincoln Woods Trailhead",
+      "address": "Kancamagus Hwy, Lincoln, NH 03251, USA",
+      "rating": 4.8,
+      "types": [
+        "hiking_area",
+        "tourist_attraction",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC2b8QLZ_s0wRRuA0EWG4d-o",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 737,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.0639368,
+          "lng": -71.5877177
+        }
+      }
+    },
+    {
+      "name": "Sabbaday Falls Trail",
+      "address": "Kancamagus Hwy, Campton, NH 03223, USA",
+      "rating": 4.8,
+      "types": [
+        "hiking_area",
+        "tourist_attraction",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUeZVG9h2s0wRnHyfVA_Zm1Y",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 617,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.9970867,
+          "lng": -71.3932316
+        }
+      }
+    },
+    {
+      "name": "Mad River Coffee House",
+      "address": "18 Six Flags Rd, Campton, NH 03223, USA",
+      "rating": 4.8,
+      "types": [
+        "coffee_shop",
+        "breakfast_restaurant",
+        "cafe",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJu31VKM5ms0wRL3j9t-9JiC8",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1058,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.850316299999996,
+          "lng": -71.6406185
+        }
+      }
+    },
+    {
+      "name": "Haunted ATX Austin Ghost Tours",
+      "address": "501 N Interstate Hwy 35, Austin, TX 78702, USA",
+      "rating": 4.9,
+      "types": [
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwfVQzl7KRIYRu14zSaDaLsk",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 485,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.2649689,
+          "lng": -97.7341319
+        }
+      }
+    },
+    {
+      "name": "Carpenter Park",
+      "address": "3498 E 112th Ave, Thornton, CO 80233, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJV_9gxq52bIcRybUEzaL4YV4",
+      "keyword": "parks recreation outdoor",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 2295,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.8985111,
+          "lng": -104.94547419999999
+        }
+      }
+    },
+    {
+      "name": "Austin Gift Company",
+      "address": "4211 S Lamar Blvd Ste. A-19, Austin, TX 78704, USA",
+      "rating": 4.7,
+      "types": [
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJexax_TBLW4YR8wKtDHVuuPs",
+      "keyword": "gift shops souvenirs",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 599,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.234203500000003,
+          "lng": -97.79272859999999
+        }
+      }
+    },
+    {
+      "name": "BLUEBIRD Cafe",
+      "address": "885 Thornton Pkwy, Thornton, CO 80229, USA",
+      "rating": 4.6,
+      "types": [
+        "breakfast_restaurant",
+        "brunch_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOzk6gqF3bIcRDjYM_IrjHBs",
+      "keyword": "restaurants food dining",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 1156,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.8714885,
+          "lng": -104.9756264
+        }
+      }
+    },
+    {
+      "name": "North Side Tavern Restaurant",
+      "address": "12708 Lowell Blvd, Broomfield, CO 80020, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJV7ePoniKa4cRqTlww8ql0ak",
+      "keyword": "restaurants food dining",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 2079,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.9270585,
+          "lng": -105.0327274
+        }
+      }
+    },
+    {
+      "name": "Cherry Creek State Park",
+      "address": "4201 S Parker Rd, Aurora, CO 80014, USA",
+      "rating": 4.6,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJO9N8BMGIbIcR53Jr1zP5s3g",
+      "keyword": "camping rv parks",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 9326,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.625962,
+          "lng": -104.8424778
+        }
+      }
+    },
+    {
+      "name": "Lisa's Place",
+      "address": "10285 Washington St, Denver, CO 80229, USA",
+      "rating": 4.6,
+      "types": [
+        "breakfast_restaurant",
+        "brunch_restaurant",
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAQIR94x2bIcRGN4pCY5vK1M",
+      "keyword": "restaurants",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 898,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.882246099999996,
+          "lng": -104.9783037
+        }
+      }
+    },
+    {
+      "name": "Thornton Hall Country Park",
+      "address": "Thornton-in-Craven, Skipton BD23 3TS, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "wedding_venue",
+        "playground",
+        "event_venue",
+        "campground",
+        "park",
+        "lodging",
+        "farm",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzc6FYKqNe0gRAGkQXCBBYRU",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 1731,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.9283852,
+          "lng": -2.1539463
+        }
+      }
+    },
+    {
+      "name": "The Sixth Floor Museum at Dealey Plaza",
+      "address": "411 Elm St, Dallas, TX 75202, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwQTJ3xWZToYRjooryEPLtOw",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 10219,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7798188,
+          "lng": -96.8084842
+        }
+      }
+    },
+    {
+      "name": "Dealey Plaza",
+      "address": "400 Main St, Dallas, TX 75202, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOfYI1RWZToYR4J9wW_J7pM8",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 5918,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7788184,
+          "lng": -96.8082993
+        }
+      }
+    },
+    {
+      "name": "The Common Man Lincoln",
+      "address": "10 Pollard Rd, Lincoln, NH 03251, USA",
+      "rating": 4.6,
+      "types": [
+        "bar_and_grill",
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzeVAq5eBtEwRcHOClaXs6Ps",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2742,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.051322,
+          "lng": -71.65954839999999
+        }
+      }
+    },
+    {
+      "name": "Clark's Bears",
+      "address": "110 Daniel Webster Hwy, Lincoln, NH 03251, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "amusement_center",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt6kVGHeBtEwR2NN0wF1ML-0",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 3891,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.04772,
+          "lng": -71.6858232
+        }
+      }
+    },
+    {
+      "name": "Market Basket",
+      "address": "34 Ridge View Ln, Plymouth, NH 03264, USA",
+      "rating": 4.6,
+      "types": [
+        "grocery_store",
+        "supermarket",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJYdYSW3Zfs0wRnoPYsgg-njs",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1111,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.7720652,
+          "lng": -71.72347429999999
+        }
+      }
+    },
+    {
+      "name": "Covered Bridge Farm-to-Table",
+      "address": "57 Blair Rd, Campton, NH 03223, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "ice_cream_shop",
+        "dessert_shop",
+        "confectionery",
+        "event_venue",
+        "bar",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJS5vaQllns0wRT0zlje0R-D4",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1591,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.8106552,
+          "lng": -71.66651379999999
+        }
+      }
+    },
+    {
+      "name": "Doug's Diner: THORNTON",
+      "address": "4243 E 136th Ave #6918, Thornton, CO 80602, USA",
+      "rating": 4.5,
+      "types": [
+        "diner",
+        "breakfast_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgVLMQoBzbIcRMTSwaCmWNhE",
+      "keyword": "restaurants food dining",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 1656,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.9441274,
+          "lng": -104.93731740000001
+        }
+      }
+    },
+    {
+      "name": "Texas Roadhouse",
+      "address": "231 W 104th Ave, Northglenn, CO 80234, USA",
+      "rating": 4.5,
+      "types": [
+        "steak_house",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvdF2vot2bIcRGNztOeCkL_w",
+      "keyword": "restaurants food dining",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 5815,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.8868248,
+          "lng": -104.98900979999999
+        }
+      }
+    },
+    {
+      "name": "Denver Premium Outlets",
+      "address": "13801 Grant St, Thornton, CO 80023, USA",
+      "rating": 4.5,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJb3OUMfx1bIcRabH2fplTG0o",
+      "keyword": "shopping retail stores",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 5145,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.9448195,
+          "lng": -104.98468419999999
+        }
+      }
+    },
+    {
+      "name": "Chatfield State Park Campground",
+      "address": "11500 Roxborough Park Rd, Littleton, CO 80125, USA",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUd7H5Lp9a4cRTSR2xLVnsJI",
+      "keyword": "camping rv parks",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 853,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.5379421,
+          "lng": -105.064972
+        }
+      }
+    },
+    {
+      "name": "RiverWalk Resort at Loon Mountain",
+      "address": "22 S Mountain Dr, Lincoln, NH 03251, USA",
+      "rating": 4.5,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVxj344WBtEwRi_QDVimyOto",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 844,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.042034,
+          "lng": -71.6677809
+        }
+      }
+    },
+    {
+      "name": "Black Mtn. Burger Co.",
+      "address": "264 Main St, Lincoln, NH 03251, USA",
+      "rating": 4.5,
+      "types": [
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ77jxBZaBtEwRuq1azy5PH1E",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 3867,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.04953,
+          "lng": -71.6593994
+        }
+      }
+    },
+    {
+      "name": "The Common Man Inn & Spa",
+      "address": "231 Main St, Plymouth, NH 03264, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "banquet_hall",
+        "wedding_venue",
+        "spa",
+        "lodging",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJleMhGjRcs0wRViouvt0-y7U",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1089,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.768975999999995,
+          "lng": -71.684066
+        }
+      }
+    },
+    {
+      "name": "Cheddar's Scratch Kitchen",
+      "address": "10250 Grant St, Thornton, CO 80229, USA",
+      "rating": 4.4,
+      "types": [
+        "meal_takeaway",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJjfIcpIt2bIcRL433L9SeBk8",
+      "keyword": "restaurants food dining",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 6051,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.8826549,
+          "lng": -104.98150969999999
+        }
+      }
+    },
+    {
+      "name": "Margaret W. Carpenter Recreation Center",
+      "address": "11151 Colorado Blvd, Thornton, CO 80233, USA",
+      "rating": 4.4,
+      "types": [
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAQBApa12bIcRvs1gDgIkmS8",
+      "keyword": "things to do",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 827,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.896924999999996,
+          "lng": -104.942376
+        }
+      }
+    },
+    {
+      "name": "SeaWorld Orlando",
+      "address": "7007 Sea World Dr, Orlando, FL 32821, USA",
+      "rating": 4.4,
+      "types": [
+        "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfyPWjCh-54gR1SvWozmef5k",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 109972,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 28.4110418,
+          "lng": -81.46122749999999
+        }
+      }
+    },
+    {
+      "name": "Waterville Valley Resort",
+      "address": "1 Ski Area Rd, Waterville Valley, NH 03215, USA",
+      "rating": 4.4,
+      "types": [
+        "ski_resort",
+        "resort_hotel",
+        "hotel",
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVUO1NON6s0wRHiXxhgjWuCg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1198,
+      "price_level": null,
+      "business_status": "CLOSED_TEMPORARILY",
+      "geometry": {
+        "location": {
+          "lat": 43.9651774,
+          "lng": -71.5279084
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Cancel Concrete: This Innovative New \u201cLiving\u201d Building Material Eats Carbon Dioxide",
@@ -18,20 +757,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Dark Side, Thornton. Explore the mysterious world of Dark Side, Thornton, where cutting-edge technology meets extraterrestrial intrigue. This",
+    "meta_description": "Explore ufo mysteries in Dark Side, Thornton. Explore the mysterious and unexplained phenomena at Dark Side, Thornton, where cutting-edge technology meets otherworldl",
     "title": "Ufo Mysteries in Dark Side, Thornton - Tours & Services",
-    "description": "Explore the mysterious world of Dark Side, Thornton, where cutting-edge technology meets extraterrestrial intrigue. This innovative 'living' building material is a game-changer for our understanding of carbon emissions and the future of construction.",
+    "description": "Explore the mysterious and unexplained phenomena at Dark Side, Thornton, where cutting-edge technology meets otherworldly intrigue. Discover the innovative 'Living' Building Material that eats carbon dioxide, and delve into the world of neuralink's first brain interface recipient.",
     "keywords": [
-      "Dark Side",
-      "Thornton",
       "ufo tours",
-      "alien encounters"
+      "alien encounters",
+      "space museums"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:52:59.498838"
+    "last_updated": "2025-07-22T12:17:29.266008"
   }
 }

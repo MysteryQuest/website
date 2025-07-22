@@ -1,8 +1,750 @@
 {
   "location_name": "R\u00e5dhustorget, Centrum",
   "category": "ufo",
-  "timestamp": "20250716_204745",
-  "businesses": [],
+  "timestamp": "20250722_120713",
+  "businesses": [
+    {
+      "name": "Carlsbad Caverns National Park",
+      "address": "Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJW9e4xBN544YRvbI7vfc91G4",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 16770,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.137045,
+          "lng": -104.5437529
+        }
+      }
+    },
+    {
+      "name": "Rocky Mountain National Park",
+      "address": "Colorado, USA",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6QNZReR5aYcRF4KOp0PuJ_o",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 26216,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.342793199999996,
+          "lng": -105.68363889999999
+        }
+      }
+    },
+    {
+      "name": "Red Rocks Park and Amphitheatre",
+      "address": "18300 W Alameda Pkwy, Morrison, CO 80465, USA",
+      "rating": 4.9,
+      "types": [
+        "park",
+        "concert_hall",
+        "auditorium",
+        "tourist_attraction",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ18hsDtqCa4cRrdYsOQfng3w",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 56254,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6655381,
+          "lng": -105.2052116
+        }
+      }
+    },
+    {
+      "name": "Grand Canyon National Park",
+      "address": "Arizona, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFU2bda4SM4cRKSCRyb6pOB8",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 62052,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.2678855,
+          "lng": -112.35352530000002
+        }
+      }
+    },
+    {
+      "name": "Mesa Verde National Park",
+      "address": "Colorado, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJH3HXLr9gOYcRYxj2G6KV9nk",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 10275,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.2308729,
+          "lng": -108.4618335
+        }
+      }
+    },
+    {
+      "name": "The Getty",
+      "address": "1200 Getty Center Dr, Los Angeles, CA 90049, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbzYnQte8woARJaqqFVpKeNo",
+      "keyword": "museums",
+      "location": "Listen, R",
+      "user_ratings_total": 34226,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0773438,
+          "lng": -118.4732648
+        }
+      }
+    },
+    {
+      "name": "Robert's Western World",
+      "address": "416 Broadway # B, Nashville, TN 37203, USA",
+      "rating": 4.7,
+      "types": [
+        "bar",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu3t9SFlmZIgRwC8VAVQPHjo",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 5127,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.1609872,
+          "lng": -86.77804619999999
+        }
+      }
+    },
+    {
+      "name": "Two Rivers Ruidoso River Park",
+      "address": "100 Robin Rd, Ruidoso, NM 88345, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF1nbBSbO4YYRGjHPNzMcAac",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 1820,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.324308699999996,
+          "lng": -105.6549888
+        }
+      }
+    },
+    {
+      "name": "Invasion Station",
+      "address": "600 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
+      "keyword": "gift shops souvenirs",
+      "location": "Listen, R",
+      "user_ratings_total": 937,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3989578,
+          "lng": -104.52308529999999
+        }
+      }
+    },
+    {
+      "name": "Trailer Village RV Park",
+      "address": "1706 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
+      "keyword": "camping rv parks",
+      "location": "Listen, R",
+      "user_ratings_total": 672,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.393937199999996,
+          "lng": -104.4985148
+        }
+      }
+    },
+    {
+      "name": "Listening Room Cafe - Nashville",
+      "address": "618 4th Ave S, Nashville, TN 37210, USA",
+      "rating": 4.7,
+      "types": [
+        "event_venue",
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJG76prYpmZIgRyssMAJAeQhk",
+      "keyword": "restaurants",
+      "location": "Listen, R",
+      "user_ratings_total": 2980,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.153835,
+          "lng": -86.772268
+        }
+      }
+    },
+    {
+      "name": "Al-Basha Restaurant Dine-In Only",
+      "address": "387 Crooks Ave, Paterson, NJ 07503, USA",
+      "rating": 4.7,
+      "types": [
+        "middle_eastern_restaurant",
+        "mediterranean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJX4R1RaH-wokRPL-cDyxRrfA",
+      "keyword": "restaurants",
+      "location": "Listen, R",
+      "user_ratings_total": 3163,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.8920051,
+          "lng": -74.14243239999999
+        }
+      }
+    },
+    {
+      "name": "Castle De Haar",
+      "address": "Kasteellaan 1, 3455 RR Utrecht, Netherlands",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "historical_landmark",
+        "wedding_venue",
+        "garden",
+        "historical_place",
+        "park",
+        "museum",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRcfVWFZwxkcR2OwlZvN_0oc",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 21053,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1213876,
+          "lng": 4.9862758
+        }
+      }
+    },
+    {
+      "name": "Bird & The Bottle",
+      "address": "1055 4th St, Santa Rosa, CA 95404, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8cvmO-NHhIARGX7E1wOE1pY",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 1745,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.444549599999995,
+          "lng": -122.70588959999999
+        }
+      }
+    },
+    {
+      "name": "Sweet T's Restaurant + Bar",
+      "address": "9098 Brooks Rd S, Windsor, CA 95492, USA",
+      "rating": 4.6,
+      "types": [
+        "barbecue_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAyVO2XpHhIARzZLbfKzjCGU",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 1475,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5516363,
+          "lng": -122.80705950000001
+        }
+      }
+    },
+    {
+      "name": "Next Restaurant",
+      "address": "953 W Fulton Market, Chicago, IL 60607, USA",
+      "rating": 4.6,
+      "types": [
+        "fine_dining_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJqdQDvtAsDogRMmlkDTCE-W4",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 610,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8866077,
+          "lng": -87.65188359999999
+        }
+      }
+    },
+    {
+      "name": "The Farm at South Mountain",
+      "address": "6106 S 32nd St, Phoenix, AZ 85042, USA",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "wedding_venue",
+        "event_venue",
+        "farm",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJA3EE5JcPK4cRP5VCOCfLvxs",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 1949,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3907218,
+          "lng": -112.0133533
+        }
+      }
+    },
+    {
+      "name": "Coquette",
+      "address": "2800 Magazine St, New Orleans, LA 70115, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8dFCFi2kIIYR5cXQfaTpL-g",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 932,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.926080400000004,
+          "lng": -90.0825579
+        }
+      }
+    },
+    {
+      "name": "Alcenia's",
+      "address": "317 N Main St, Memphis, TN 38103, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ07mqOux-1YcRdzo0mTOtUAI",
+      "keyword": "restaurants food dining",
+      "location": "Listen, R",
+      "user_ratings_total": 641,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.153636000000006,
+          "lng": -90.04966069999999
+        }
+      }
+    },
+    {
+      "name": "Rock & Roll Hall of Fame",
+      "address": "1100 E 9th St, Cleveland, OH 44114, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHZLHDYPwMIgRXxZaKR6dG5c",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 25347,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.5085414,
+          "lng": -81.6953685
+        }
+      }
+    },
+    {
+      "name": "Roswell Visitor Center",
+      "address": "426 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
+      "keyword": "museums visitor centers",
+      "location": "Listen, R",
+      "user_ratings_total": 956,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.397424799999996,
+          "lng": -104.5230764
+        }
+      }
+    },
+    {
+      "name": "Live! by Loews - Arlington, Texas",
+      "address": "1600 E Randol Mill Rd, Arlington, TX 76011, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMzwS8XuHToYRlFXoTw8Tun8",
+      "keyword": "hotels",
+      "location": "Listen, R",
+      "user_ratings_total": 2137,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.749500399999995,
+          "lng": -97.0857001
+        }
+      }
+    },
+    {
+      "name": "Red Barn RV Park",
+      "address": "2806 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.8,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr4l9xVFv4oYRtK4NR_JezVs",
+      "keyword": "camping rv parks",
+      "location": "Listen, R",
+      "user_ratings_total": 475,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3940282,
+          "lng": -104.48201720000002
+        }
+      }
+    },
+    {
+      "name": "Graceland",
+      "address": "Elvis Presley Blvd, Memphis, TN 38116, USA",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJXK9zjF91YcREcsjDP_xSP0",
+      "keyword": "things to do attractions tours",
+      "location": "Listen, R",
+      "user_ratings_total": 24222,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.047691199999996,
+          "lng": -90.02604930000001
+        }
+      }
+    },
+    {
+      "name": "Sprinker Recreation Center",
+      "address": "521 Military Rd S, Tacoma, WA 98444, USA",
+      "rating": 4.5,
+      "types": [
+        "ice_skating_rink",
+        "community_center",
+        "sports_complex",
+        "park",
+        "athletic_field",
+        "sports_activity_location",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRXViUcgDkVQR1xSiuutiJz8",
+      "keyword": "parks recreation outdoor",
+      "location": "Listen, R",
+      "user_ratings_total": 1551,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.122442,
+          "lng": -122.43840069999999
+        }
+      }
+    },
+    {
+      "name": "Meridian Habitat Park & Community Center",
+      "address": "14422 Meridian E, Puyallup, WA 98375, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "community_center",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJleRTVj39kFQR5VziE_yL0V8",
+      "keyword": "parks recreation outdoor",
+      "location": "Listen, R",
+      "user_ratings_total": 623,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.12385460000001,
+          "lng": -122.2949577
+        }
+      }
+    },
+    {
+      "name": "KIN Windsor",
+      "address": "740 McClelland Dr, Windsor, CA 95492, USA",
+      "rating": 4.5,
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF1WVtOQ9hIARz93I3-3iosw",
+      "keyword": "restaurants",
+      "location": "Listen, R",
+      "user_ratings_total": 850,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5481607,
+          "lng": -122.8152575
+        }
+      }
+    },
+    {
+      "name": "TivoliVredenburg",
+      "address": "Vredenburgkade 11, 3511 WC Utrecht, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "concert_hall",
+        "auditorium",
+        "cafe",
+        "sports_club",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZVoL6EJvxkcRtj7MXDv3c8s",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 13782,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0924298,
+          "lng": 5.1128171
+        }
+      }
+    },
+    {
+      "name": "The Railway Museum",
+      "address": "Maliebaanstation 16, 3581 LE Utrecht, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlzLgSVJvxkcRR16e-9yzpYA",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 15291,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0879556,
+          "lng": 5.131227399999999
+        }
+      }
+    },
+    {
+      "name": "Dom Tower",
+      "address": "Domplein 9, 3512 JE Utrecht, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "cultural_landmark",
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgf7hSkVvxkcRNQQW-7nl0T8",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 8356,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0908254,
+          "lng": 5.1213254
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Astronomers Detect a Mysterious Giant and \u201cHidden Substructures\u201d Lurking in the Haze Around a Young Star",
@@ -12,19 +754,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in R\u00e5dhustorget, Centrum. Explore the mysterious R\u00e5dhustorget, a hub for UFO enthusiasts and researchers. Witness the 'Hidden Substructures' lurki",
+    "meta_description": "Explore ufo mysteries in R\u00e5dhustorget, Centrum. Explore the mysterious R\u00e5dhustorget, a hub for paranormal activity in Sweden. Visit the nearby Carlsbad Caverns National",
     "title": "Ufo Mysteries in R\u00e5dhustorget, Centrum - Tours & Services",
-    "description": "Explore the mysterious R\u00e5dhustorget, a hub for UFO enthusiasts and researchers. Witness the 'Hidden Substructures' lurking in the haze around a young star, and get up close to alleged alien artifacts.",
+    "description": "Explore the mysterious R\u00e5dhustorget, a hub for paranormal activity in Sweden. Visit the nearby Carlsbad Caverns National Park and witness the breathtaking beauty of Rocky Mountain National Park.",
     "keywords": [
-      "ufo sightings",
-      "alien encounters",
-      "mysterious star"
+      "paranormal tours",
+      "mysterious caverns",
+      "rocky mountain national park"
     ],
-    "category": "ufo"
+    "category": "paranormal"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:47:45.129425"
+    "last_updated": "2025-07-22T12:07:13.511417"
   }
 }

@@ -1,8 +1,759 @@
 {
   "location_name": "County Road A044, White Oaks",
   "category": "historical",
-  "timestamp": "20250716_204824",
-  "businesses": [],
+  "timestamp": "20250722_120821",
+  "businesses": [
+    {
+      "name": "Route 66 Museum And Gift Shop",
+      "address": "811 W Rte 66, Williams, AZ 86046, USA",
+      "rating": 4.9,
+      "types": [
+        "museum",
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJOXDNPK2fMocRF0ZoTE3wBo8",
+      "keyword": "gift shops souvenirs",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 571,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.2480115,
+          "lng": -112.1955223
+        }
+      }
+    },
+    {
+      "name": "Bodo's Bagels",
+      "address": "505 Preston Ave, Charlottesville, VA 22903, USA",
+      "rating": 4.8,
+      "types": [
+        "bagel_shop",
+        "fast_food_restaurant",
+        "sandwich_shop",
+        "bakery",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJWyADwC-Gs4kRMuM15aerDG8",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2441,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0351412,
+          "lng": -78.4849943
+        }
+      }
+    },
+    {
+      "name": "The Rotunda",
+      "address": "1826 University Ave, Charlottesville, VA 22904, USA",
+      "rating": 4.8,
+      "types": [
+        "historical_place",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ96Lhw0WGs4kRgBa4vIROQnw",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 1209,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.035551399999996,
+          "lng": -78.50342599999999
+        }
+      }
+    },
+    {
+      "name": "Jonathan's on Brick Street",
+      "address": "116 E Walworth Ave, Delavan, WI 53115, USA",
+      "rating": 4.7,
+      "types": [
+        "fine_dining_restaurant",
+        "wine_bar",
+        "steak_house",
+        "seafood_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJWRmVzBD6BYgRs4Dqctog6Ew",
+      "keyword": "restaurants food dining",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 713,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.6327733,
+          "lng": -88.6477429
+        }
+      }
+    },
+    {
+      "name": "Cloverdale Country Store",
+      "address": "N 13731, County Rd E, Curtiss, WI 54422, USA",
+      "rating": 4.7,
+      "types": [
+        "supermarket",
+        "wholesaler",
+        "grocery_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJrwUtEI2G_4cRZwQtqvHoCBI",
+      "keyword": "shopping retail stores",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 536,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.9160238,
+          "lng": -90.4349082
+        }
+      }
+    },
+    {
+      "name": "Cave of the Mounds",
+      "address": "2975 Cave of the Mounds Rd, Blue Mounds, WI 53517, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "event_venue",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK8DByH-QB4gRUX-EZZUYP1Y",
+      "keyword": "things to do attractions tours",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 4657,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.0170287,
+          "lng": -89.8140528
+        }
+      }
+    },
+    {
+      "name": "Old World Wisconsin",
+      "address": "W372 S9727 WI-67, Eagle, WI 53119, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlYzDJY-_BYgRwnnKBa3oiYA",
+      "keyword": "entertainment activities",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 1103,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.8725263,
+          "lng": -88.49082039999999
+        }
+      }
+    },
+    {
+      "name": "Governor Dodge State Park",
+      "address": "4175 WI-23, Dodgeville, WI 53533, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJy8RRKil7_YcRG3JxeH2OUTk",
+      "keyword": "things to do",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 2711,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.024843,
+          "lng": -90.10745759999999
+        }
+      }
+    },
+    {
+      "name": "Monticello",
+      "address": "1050 Monticello Loop, Charlottesville, VA 22902, USA",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ62zEFCeGs4kRZN9UzXYA78s",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 10564,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0086043,
+          "lng": -78.4531994
+        }
+      }
+    },
+    {
+      "name": "Trader Joe's",
+      "address": "2025 Bond St, Charlottesville, VA 22901, USA",
+      "rating": 4.7,
+      "types": [
+        "grocery_store",
+        "liquor_store",
+        "supermarket",
+        "market",
+        "food_store",
+        "store",
+        "health",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJwebD0sOHs4kRoLRhR_Shj-g",
+      "keyword": "nearby_store",
+      "user_ratings_total": 2052,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0629829,
+          "lng": -78.49148799999999
+        }
+      }
+    },
+    {
+      "name": "Parkwood Lodge - Door County",
+      "address": "3775 WI-42, Fish Creek, WI 54212, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "motel",
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ19Nbge1HTU0R9tdPf2_obow",
+      "keyword": "hotels accommodation lodging",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 515,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.1310729,
+          "lng": -87.2162017
+        }
+      }
+    },
+    {
+      "name": "Truck's Place Restaurant Antigo",
+      "address": "2506 US-45, Antigo, WI 54409, USA",
+      "rating": 4.6,
+      "types": [
+        "sandwich_shop",
+        "dessert_restaurant",
+        "breakfast_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJzUywLVTHVE0RCVMRFBHPkvw",
+      "keyword": "restaurants food dining",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 722,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.166283,
+          "lng": -89.1486491
+        }
+      }
+    },
+    {
+      "name": "BB Jack's Antigo",
+      "address": "523 Superior St, Antigo, WI 54409, USA",
+      "rating": 4.6,
+      "types": [
+        "pizza_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJB2kSt7jIVE0R3E0uTgs8X9A",
+      "keyword": "restaurants food dining",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 691,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.139915599999995,
+          "lng": -89.1520362
+        }
+      }
+    },
+    {
+      "name": "Billy The Kid's Grave and Visitor Center",
+      "address": "3501 Billy the Kid Road, Fort Sumner, NM 88119, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "consultant",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_67Argr-HIcR_Br7TBFjadU",
+      "keyword": "things to do attractions tours",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 1034,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.40375890000001,
+          "lng": -104.1935252
+        }
+      }
+    },
+    {
+      "name": "Roswell Visitor Center",
+      "address": "426 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
+      "keyword": "museums visitor centers",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 956,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.397424799999996,
+          "lng": -104.5230764
+        }
+      }
+    },
+    {
+      "name": "The House on the Rock",
+      "address": "5754 WI-23, Spring Green, WI 53588, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJd2Kfkxh6_YcRMWhfdbUb_gg",
+      "keyword": "things to do",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 7543,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.099431599999996,
+          "lng": -90.1353025
+        }
+      }
+    },
+    {
+      "name": "MarieBette Caf\u00e9 and Bakery",
+      "address": "700 Rose Hill Dr, Charlottesville, VA 22903, USA",
+      "rating": 4.6,
+      "types": [
+        "cafe",
+        "breakfast_restaurant",
+        "bakery",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ2dyRxjGGs4kRqSrdo61nQbE",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1104,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.037563,
+          "lng": -78.487686
+        }
+      }
+    },
+    {
+      "name": "Michie Tavern ca. 1784",
+      "address": "683 Thomas Jefferson Pkwy, Charlottesville, VA 22902, USA",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "tourist_attraction",
+        "pub",
+        "historical_landmark",
+        "gift_shop",
+        "historical_place",
+        "liquor_store",
+        "food_store",
+        "store",
+        "event_venue",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ870exa-Is4kRkdGR5r-r8sc",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 3490,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0087286,
+          "lng": -78.46370309999999
+        }
+      }
+    },
+    {
+      "name": "IX Art Park",
+      "address": "522 2nd St SE D, Charlottesville, VA 22902, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ394bSiKGs4kR9B-gnGQa9-Y",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 1315,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.026310599999995,
+          "lng": -78.48223159999999
+        }
+      }
+    },
+    {
+      "name": "Wegmans",
+      "address": "100 Wegmans Wy, Charlottesville, VA 22902, USA",
+      "rating": 4.6,
+      "types": [
+        "grocery_store",
+        "supermarket",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ1YGyX3OGs4kRgbu5tjpmT2M",
+      "keyword": "nearby_store",
+      "user_ratings_total": 3615,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.008758,
+          "lng": -78.500588
+        }
+      }
+    },
+    {
+      "name": "Gibson Inn",
+      "address": "51 Ave C, Apalachicola, FL 32320, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "resort_hotel",
+        "inn",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ48zNCae1lIgRH1JJSQPvm6A",
+      "keyword": "hotels",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 1037,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.7260486,
+          "lng": -84.98358549999999
+        }
+      }
+    },
+    {
+      "name": "Wood Grill Buffet",
+      "address": "576 Branchlands Blvd, Charlottesville, VA 22901, USA",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ79_OSeOHs4kRgLg1CgMbvrs",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 5281,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.074611,
+          "lng": -78.4794447
+        }
+      }
+    },
+    {
+      "name": "Downtown Mall",
+      "address": "E Main St, Charlottesville, VA 22902, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ____7yaGs4kR1BhvIOFlBlY",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 2125,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.030560799999996,
+          "lng": -78.48067449999999
+        }
+      }
+    },
+    {
+      "name": "Costco Wholesale",
+      "address": "3171 District Ave, Charlottesville, VA 22901, USA",
+      "rating": 4.5,
+      "types": [
+        "warehouse_store",
+        "department_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ02ss_OiHs4kRGskTqGAbMdI",
+      "keyword": "nearby_store",
+      "user_ratings_total": 2525,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0691043,
+          "lng": -78.4902894
+        }
+      }
+    },
+    {
+      "name": "Carter Mountain Orchard and Country Store",
+      "address": "1435 Carters Mountain Trail, Charlottesville, VA 22902, USA",
+      "rating": 4.5,
+      "types": [
+        "liquor_store",
+        "farm",
+        "bakery",
+        "bar",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJHd4pbFePs4kRP8EMFzaIDS8",
+      "keyword": "nearby_store",
+      "user_ratings_total": 4154,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.9913372,
+          "lng": -78.4720589
+        }
+      }
+    },
+    {
+      "name": "Boar's Head Resort",
+      "address": "200 Ednam Dr, Charlottesville, VA 22903, USA",
+      "rating": 4.4,
+      "types": [
+        "resort_hotel",
+        "wedding_venue",
+        "hotel",
+        "swimming_pool",
+        "spa",
+        "lodging",
+        "sports_activity_location",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFWU-a-CGs4kRc3SSdcWaGlg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1421,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0487866,
+          "lng": -78.5413892
+        }
+      }
+    },
+    {
+      "name": "Omni Charlottesville Hotel",
+      "address": "212 Ridge McIntire Rd, Charlottesville, VA 22903, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5yKlCCWGs4kRouLz0Yayj3E",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1620,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0313879,
+          "lng": -78.48387679999999
+        }
+      }
+    },
+    {
+      "name": "Raising Cane's Chicken Fingers",
+      "address": "1805 Emmet St N, Charlottesville, VA 22901, USA",
+      "rating": 4.4,
+      "types": [
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJBz3Ux8aHs4kRriY-YtdzDUk",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2605,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0600515,
+          "lng": -78.49386059999999
+        }
+      }
+    },
+    {
+      "name": "Three Notch'd Craft Kitchen & Brewery",
+      "address": "520 2nd St SE, Charlottesville, VA 22902, USA",
+      "rating": 4.4,
+      "types": [
+        "pub",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ2y3ssCOGs4kR5CspFeBSLv0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 745,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0261291,
+          "lng": -78.4819273
+        }
+      }
+    },
+    {
+      "name": "The Draftsman, Charlottesville, University, Autograph Collection Hotel",
+      "address": "1106 W Main St, Charlottesville, VA 22903, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr8MwXjiGs4kRzq2D_gVDNEs",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 482,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.0326005,
+          "lng": -78.4963657
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "\u201cThe Secret Might Be Here on Our Own Planet\u201d: This NASA Scientist Is on a Mission to Find Out What Aliens Look Like",
@@ -12,19 +763,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in County Road A044, White Oaks. Explore the mysterious world of paranormal activity at County Road A044, where a renowned NASA scientist is on a mission",
+    "meta_description": "Explore historical mysteries in County Road A044, White Oaks. Explore the mysterious world of paranormal activity at this NASA scientist's mission to uncover the truth about alien li",
     "title": "Historical Mysteries in County Road A044, White Oaks - Tours & Services",
-    "description": "Explore the mysterious world of paranormal activity at County Road A044, where a renowned NASA scientist is on a mission to uncover the truth about extraterrestrial life.",
+    "description": "Explore the mysterious world of paranormal activity at this NASA scientist's mission to uncover the truth about alien life.",
     "keywords": [
       "paranormal tours",
       "alien sightings",
-      "mysterious events"
+      "NASA scientists"
     ],
     "category": "paranormal"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:48:24.351184"
+    "last_updated": "2025-07-22T12:08:21.785330"
   }
 }

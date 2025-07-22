@@ -1,8 +1,753 @@
 {
   "location_name": "unknown, Laharighat",
   "category": "paranormal",
-  "timestamp": "20250716_204506",
-  "businesses": [],
+  "timestamp": "20250722_120157",
+  "businesses": [
+    {
+      "name": "Salamonie River State Forest",
+      "address": "5124 County Rd 100 S, Lagro, IN 46941, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "state_park",
+        "national_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbYvGwVxEFIgRQ3Wxkpb0a0w",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 906,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.8093627,
+          "lng": -85.69048440000002
+        }
+      }
+    },
+    {
+      "name": "Umpqua River Lighthouse Museum Giftshop & Coastal Visitors Center",
+      "address": "1020 Lighthouse Rd, Winchester Bay, OR 97467, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "coffee_shop",
+        "tourist_attraction",
+        "candy_store",
+        "visitor_center",
+        "tourist_information_center",
+        "bakery",
+        "art_gallery",
+        "cafe",
+        "gift_shop",
+        "dessert_shop",
+        "confectionery",
+        "tour_agency",
+        "travel_agency",
+        "food_store",
+        "liquor_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJSTkpMPfAw1QRES5JwNU4vco",
+      "keyword": "museums visitor centers",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 1557,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.662347399999994,
+          "lng": -124.1984818
+        }
+      }
+    },
+    {
+      "name": "Larrabee State Park",
+      "address": "245 Chuckanut Dr, Bellingham, WA 98229, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKUKRrYyfhVQRoGcB2sM7SQ8",
+      "keyword": "parks recreation outdoor",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 2552,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.66249330000001,
+          "lng": -122.46693549999999
+        }
+      }
+    },
+    {
+      "name": "Brahmaputra River Heritage Centre",
+      "address": "5PQV+H2F, Pan Bazaar, Guwahati, Assam 781001, India",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwRz5COVbWjcRR_sarwgix34",
+      "keyword": "museums",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 5621,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.188948399999997,
+          "lng": 91.74255339999999
+        }
+      }
+    },
+    {
+      "name": "Bagh Buddhist Caves",
+      "address": "8RF4+2F4, Bagh Cave Rd, Naingaon, Dhar, Madhya Pradesh 454221, India",
+      "rating": 4.4,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtxQ8jgqNYTkR7m5AMGF963s",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 813,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 22.322524599999998,
+          "lng": 74.8061925
+        }
+      }
+    },
+    {
+      "name": "Don Bosco Museum",
+      "address": "Mawlai Phudmuri, Mawlai Mawdatbaki, Shillong, Meghalaya 793008, India",
+      "rating": 4.4,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ____C-Z-UDcRbRXi2qkWkSo",
+      "keyword": "museums",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 8844,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.5928384,
+          "lng": 91.88273199999999
+        }
+      }
+    },
+    {
+      "name": "Assam State Museum",
+      "address": "GNB Rd, near Dighalipukhuri, Mawhati, Ambari, Guwahati, Assam 781001, India",
+      "rating": 4.3,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB2x_xCdaWjcRfxB4IvQpeeA",
+      "keyword": "museums visitor centers",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 7176,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.185174999999997,
+          "lng": 91.75207689999999
+        }
+      }
+    },
+    {
+      "name": "Pin Valley National Park",
+      "address": "Kaza Valley, XVXJ+RX4, Himachal Pradesh 172117, India",
+      "rating": 4.6,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJub6YwNInBDkRGwxOLr5hy5Y",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 460,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.999503999999998,
+          "lng": 77.88244410000001
+        }
+      }
+    },
+    {
+      "name": "The Orang National Park",
+      "address": "No.3 Shyampurchapari, Assam 784114, India",
+      "rating": 4.2,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJD8YRXKYvWzcRNypP4GfFbE0",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 1285,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.5883041,
+          "lng": 92.3079252
+        }
+      }
+    },
+    {
+      "name": "Hornbill Park",
+      "address": "Amsoi Gate, Near, Santipur, Alisinga, Assam 782412, India",
+      "rating": 4.1,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ5MTj_jPWjcRaaro4W1NetA",
+      "keyword": "parks recreation outdoor",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 625,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.1379843,
+          "lng": 92.35597729999999
+        }
+      }
+    },
+    {
+      "name": "Vishal Mega Mart",
+      "address": "Nageshwar Chowk, near Assam Gramin Vikash Bank, Kharupetia, No.1 Thekerabari, Assam 784115, India",
+      "rating": 3.9,
+      "types": [
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "food",
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ_WoBsbAZWzcR1ZsoS_GFLtQ",
+      "keyword": "nearby_store",
+      "user_ratings_total": 540,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.514760799999998,
+          "lng": 92.13896439999999
+        }
+      }
+    },
+    {
+      "name": "Jorhat Science Centre & Planetarium",
+      "address": "Q646+F57, Atilagaon, Jorhat, Assam 785001, India",
+      "rating": 4.1,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJp_US4pTCRjcRoKZjZgfqtVc",
+      "keyword": "museums",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 475,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.7561538,
+          "lng": 94.21042969999999
+        }
+      }
+    },
+    {
+      "name": "Lovely Hotel and Restaurant",
+      "address": "Lovely Hotel, Kharupetia, Niz Kharupetia, Assam 784115, India",
+      "rating": 3.7,
+      "types": [
+        "vegetarian_restaurant",
+        "fast_food_restaurant",
+        "candy_store",
+        "breakfast_restaurant",
+        "confectionery",
+        "indian_restaurant",
+        "food_store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJNW_q1aAYWzcRmM4QccHJVg0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1025,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.5156946,
+          "lng": 92.1428237
+        }
+      }
+    },
+    {
+      "name": "Dolphin Restaurant",
+      "address": "Gopal Nagar, Kharupetia, Niz Kharupetia, Assam 784115, India",
+      "rating": 3.7,
+      "types": [
+        "indian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJI7aPRgoiWzcR15cBWAtDtgc",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 994,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.5173098,
+          "lng": 92.1465662
+        }
+      }
+    },
+    {
+      "name": "Hindola Mahal",
+      "address": "994V+P5F, Sulibardi, Madhya Pradesh 454010, India",
+      "rating": 4.5,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ48Qzw7VBYjkRpsFp7uAktjA",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 379,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 22.3568043,
+          "lng": 75.3929328
+        }
+      }
+    },
+    {
+      "name": "Hanging Rock National Natural Landmark - ACRES Land Trust",
+      "address": "4552 E Hanging Rock Rd, Lagro, IN 46941, USA",
+      "rating": 4.6,
+      "types": [
+        "hiking_area",
+        "cultural_landmark",
+        "park",
+        "landmark",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl3t6DA1JFIgR94MT_h-1A5c",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 344,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.8299985,
+          "lng": -85.7073284
+        }
+      }
+    },
+    {
+      "name": "Villagelife",
+      "address": "Habibarangabari, Barangabari, Assam 782106, India",
+      "rating": 4.7,
+      "types": [
+        "resort_hotel",
+        "yoga_studio",
+        "fitness_center",
+        "wedding_venue",
+        "juice_shop",
+        "hotel",
+        "gym",
+        "sports_complex",
+        "park",
+        "sports_activity_location",
+        "lodging",
+        "health",
+        "event_venue",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ1wQ_WM3VWjcRY5SmbvBHV0s",
+      "keyword": "hotels accommodation lodging",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 324,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.3537037,
+          "lng": 92.4293046
+        }
+      }
+    },
+    {
+      "name": "Spiti Valley Tours",
+      "address": "Main Bazaar, New Kaza,, Kaza, Kaza Khas, Himachal Pradesh 172114, India",
+      "rating": 4.6,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGakByXOjBjkRTTp9mGUynK0",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 324,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.22361840000001,
+          "lng": 78.07322640000001
+        }
+      }
+    },
+    {
+      "name": "Car Rental Dibrugarh Cabs",
+      "address": "Chapori Path, Chiring Chapori, Dibrugarh, Assam 786001, India",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJd_eoQPOZQDcRy_JbEO25UgQ",
+      "keyword": "car rental transportation",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 238,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 27.4685705,
+          "lng": 94.9018927
+        }
+      }
+    },
+    {
+      "name": "Green Hills hotels and resorts",
+      "address": "Ghansimali, Mandalpara, Kharupetia, Assam 784115, India",
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJec2fAu8jWzcRWTtL8fRE5j0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 300,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.539059200000004,
+          "lng": 92.1694933
+        }
+      }
+    },
+    {
+      "name": "Prodopia - Personalised & Corporate Gifts",
+      "address": "Shop No. 1, Aftab Complex, GS Rd, near Akashi Ganga Restaurant, Charali, Ulubari, Guwahati, Assam 781007, India",
+      "rating": 4.9,
+      "types": [
+        "gift_shop",
+        "wholesaler",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQ_BlTkJZWjcRVGZXM4kmIg4",
+      "keyword": "gift shops souvenirs",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 187,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.175069399999998,
+          "lng": 91.7576675
+        }
+      }
+    },
+    {
+      "name": "Vishal Mega Mart",
+      "address": "Nagaon - Morigaon Rd, opposite Bank of India, Phulbari, Morigaon, Assam 782105, India",
+      "rating": 3.8,
+      "types": [
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJSTDe573RWjcRaXWPhSHSZ7A",
+      "keyword": "shopping retail stores",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 273,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.25333,
+          "lng": 92.35087999999999
+        }
+      }
+    },
+    {
+      "name": "Dream Lodge",
+      "address": "Hospital Road Ward no 2 Near ASTC Bus Stand, near NH 15, Kharupetia, Niz Kharupetia, Assam 784115, India",
+      "rating": 4.1,
+      "types": [
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-xEbsskjWzcRQlyoOpms5yM",
+      "keyword": "hotels accommodation lodging",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 240,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.5239847,
+          "lng": 92.1519388
+        }
+      }
+    },
+    {
+      "name": "EYE HUNGER DHABA",
+      "address": "Asian Highway 1, Palahguri, Barati, Assam 782412, India",
+      "rating": 4,
+      "types": [
+        "indian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJhSe23MrHWjcRUvUVz55gLNQ",
+      "keyword": "restaurants",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 242,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.1030117,
+          "lng": 92.2888787
+        }
+      }
+    },
+    {
+      "name": "SJ car Travels",
+      "address": "near, Jain Mandir Rd, Graham Bazar, Dibrugarh, Assam 786001, India",
+      "rating": 4.8,
+      "types": [
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJld3sMUCYQDcRZPpYcGDmojg",
+      "keyword": "car rental transportation",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 144,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 27.488107099999997,
+          "lng": 94.916606
+        }
+      }
+    },
+    {
+      "name": "LANDMARK a Family Restaurant",
+      "address": "Mairabari Town, Moirabari, Assam 782126, India",
+      "rating": 4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJsQ8-G7IrWzcRqNUAh_XyIGA",
+      "keyword": "restaurants food dining",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 220,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.4545714,
+          "lng": 92.4238025
+        }
+      }
+    },
+    {
+      "name": "Orang Village Resort",
+      "address": "and, tiger reserve, nearby Orang National Park Approach Road, Silbori, Orang, Rangagarapathar, Assam 784114, India",
+      "rating": 4.6,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKzAiSXAvWzcRk_DzoNVyO80",
+      "keyword": "hotels accommodation lodging",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 143,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.5895168,
+          "lng": 92.303266
+        }
+      }
+    },
+    {
+      "name": "Bhugali Hotel",
+      "address": "BHUGALI HOTEL, Morigaon, Assam 782105, India",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "candy_store",
+        "confectionery",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJaThLqazRWjcRKkUuCZqWU2g",
+      "keyword": "restaurants food dining",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 140,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.252583899999998,
+          "lng": 92.3425199
+        }
+      }
+    },
+    {
+      "name": "Pakghar - Dhaba & Family Restaurant",
+      "address": "M7WC+HGQ, NH 15, Oubari Jungle, Assam 784114, India",
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJf1JyN9M5WzcRwthRewL3dbc",
+      "keyword": "restaurants",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 172,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.696451099999997,
+          "lng": 92.2713558
+        }
+      }
+    },
+    {
+      "name": "Kissing Falls",
+      "address": "5825 E 50 S, Lagro, IN 46941, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ4RXPqhJFIgRBgXD4UwW9SA",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 108,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.8122445,
+          "lng": -85.6832503
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Ape Man On The Roof",
@@ -263,6 +1008,12 @@
       "category": "historical"
     },
     {
+      "name": "UFO Whistleblowers Will Be Killed, New Interstellar Object, Enki Return, Epstein Client List",
+      "type": "UFO Sighting",
+      "description": "Week in Review \u2013 July 12, 2025 Topics Australia&#8217;s Minister for Foreign Affairs, Penny Wong, appear to laugh at a question about UFOs.https://x.com/MichaelSalla/status/1941460441747661064 A secret salvage operation of an aircraft carrier-sized cigar-shaped UFO that was brought down during the Bluegill Triple Prime nuclear weapons https://x.com/MichaelSalla/status/1941487482555474279 Important points in the archetypal battle between Christianity and Satanism. [&#8230;]",
+      "category": "ufo"
+    },
+    {
       "name": "Open Minds UAP News: Skinwalker Ranch update with owner Brandon Fugal",
       "type": "UFO Sighting",
       "description": "In this episode, we interview Brandon Fugal, owner of Skinwalker Ranch in Utah. The ranch is the focus of years of paranormal research and the History Channel show The Secret of Skinwalker Ranch. The Secret of Skinwalker Ranch Season 5 finale Tuesday, July 23rd, 2024 on The History Channel! The Official Skinwalker Ranch website: https://skinwalker-ranch.com &#8230;",
@@ -429,22 +1180,70 @@
       "type": "Historical Mystery",
       "description": "<p>UFO sightings are just the tip of the iceberg\u2014400,000 humanoid races exist. Discover why they stay hidden and what they're doing on Earth.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/06/over-400000-humanoid-civilizations-what-ufo-sightings-are-really-telling-us.html\">Over 400,000 Humanoid Civilizations: What UFO Sightings Are Really Telling Us</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
       "category": "historical"
+    },
+    {
+      "name": "News Briefs 17-07-2025",
+      "type": "Historical Mystery",
+      "description": "<p>The chickens are finally coming home to roost. Thanks to Greg. Quote of the Day: Almost all people are hypnotics. The proper authority saw to it that the proper belief should be induced, and the people believed properly. Charles Fort</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-17-07-2025/\">News Briefs 17-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+      "category": "historical"
+    },
+    {
+      "name": "How Soon Will We See Nuclear Fusion? New Indicators Suggest It May Be Sooner Than We Think.",
+      "type": "Historical Mystery",
+      "description": "This week, momentum is building around nuclear fusion, as tech investment and breakthroughs suggest it may arrive sooner than many experts are anticipating.",
+      "category": "historical"
+    },
+    {
+      "name": "News Briefs 18-07-2025",
+      "type": "Historical Mystery",
+      "description": "<p>I wrote you a picture of the Friday Grail news briefs, here it is\u2026 Quote of the Day One reason why I would much prefer that we refer to LLMs as \u201cMachine Learning\u201d instead of \u201cArtificial Intelligence\u201d is that, if you tell people you\u2019re building digital god, some of them will surely believe you. Dave Karpf</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-18-07-2025/\">News Briefs 18-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+      "category": "historical"
+    },
+    {
+      "name": "Evolution Keeps Producing Anteaters, and New Research Finally Reveals the Strange Reason Why",
+      "type": "Historical Mystery",
+      "description": "New research has revealed the evolutionary reason anteaters have evolved at least a dozen times since the time of the dinosaurs.",
+      "category": "historical"
+    },
+    {
+      "name": "UFO Sightings Surge as US Congress Prepares Hearings featuring Whistleblowers",
+      "type": "UFO Sighting",
+      "description": "Exopolitics Today &#8211; Week in Review Topics China&#8217;s equivalent to the US Space Force, the PLA Aerospace Force, is busy preparing its space assets for a future space war. https://x.com/MichaelSalla/status/1944221420264751589 JP has shared a video with approximate locations of oval shaped space arks in the Atlantic and Pacific Oceans based on briefings he has received. [&#8230;]",
+      "category": "ufo"
+    },
+    {
+      "name": "News Briefs 21-07-2025",
+      "type": "Historical Mystery",
+      "description": "<p>Thanks to Vince H. for your generous support of the Daily Grail &#8211; you can join Vince in helping us cover our expenses by signing up as a Patreon supporter! Quote of the Day In from three to eight years we will have a machine with the general intelligence of an average human being. I mean a machine that will be able to read Shakespeare, grease a car, play office politics, tell a joke, have a fight. At that point [&#8230;]</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-21-07-2025/\">News Briefs 21-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+      "category": "historical"
+    },
+    {
+      "name": "Seismologists Identify Rare Supershear Event During Devastating Myanmar Quake",
+      "type": "Historical Mystery",
+      "description": "Seismologists reveal that the March 28, 2025, Myanmar earthquake likely moved at 'supershear' velocity, which is analogous to supersonic.",
+      "category": "historical"
+    },
+    {
+      "name": "News Briefs 22-07-2025",
+      "type": "Historical Mystery",
+      "description": "<p>Beetlejuice, Beetlejuice\u2026 Quote of the Day Never trust the living. Juno (in &#8216;Beetlejuice&#8217;)</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-22-07-2025/\">News Briefs 22-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
+      "category": "historical"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore paranormal mysteries in unknown, Laharighat. Explore the mysterious and unexplained phenomena of Laharighat, where legends of Bigfoot and Ape Man come alive. Join us",
+    "meta_description": "Explore paranormal mysteries in unknown, Laharighat. Explore the mysterious world of Laharighat, where legends come alive. Witness the Ape Man On The Roof spectacle, where B",
     "title": "Paranormal Mysteries in unknown, Laharighat - Tours & Services",
-    "description": "Explore the mysterious and unexplained phenomena of Laharighat, where legends of Bigfoot and Ape Man come alive. Join us for a journey into the unknown, where the lines between reality and myth blur.",
+    "description": "Explore the mysterious world of Laharighat, where legends come alive. Witness the Ape Man On The Roof spectacle, where Bigfoot's presence is felt during fishing trips, and uncover the secrets of the Brahmaputra River Heritage Centre.",
     "keywords": [
+      "Ape Man",
       "Bigfoot sightings",
-      "Ape Man encounters",
-      "paranormal tourism"
+      "Brahmaputra River"
     ],
     "category": "paranormal"
   },
   "stats": {
-    "business_count": 0,
-    "event_count": 71,
-    "last_updated": "2025-07-16T20:45:06.445825"
+    "business_count": 30,
+    "event_count": 80,
+    "last_updated": "2025-07-22T12:01:57.915157"
   }
 }

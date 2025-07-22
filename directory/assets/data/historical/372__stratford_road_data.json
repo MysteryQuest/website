@@ -1,8 +1,756 @@
 {
   "location_name": "372, Stratford Road",
   "category": "historical",
-  "timestamp": "20250716_205044",
-  "businesses": [],
+  "timestamp": "20250722_121246",
+  "businesses": [
+    {
+      "name": "Houston Museum of Natural Science",
+      "address": "5555 Hermann Park Dr, Houston, TX 77030, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJqzEuToa_QIYRetkd7kIw47s",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 28717,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.722062500000003,
+          "lng": -95.3895625
+        }
+      }
+    },
+    {
+      "name": "The Metropolitan Museum of Art",
+      "address": "1000 5th Ave, New York, NY 10028, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJb8Jg9pZYwokR-qHGtvSkLzs",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 87354,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.7794366,
+          "lng": -73.963244
+        }
+      }
+    },
+    {
+      "name": "Philbrook Museum of Art",
+      "address": "2727 S Rockford Rd, Tulsa, OK 74114, USA",
+      "rating": 4.8,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "garden",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0VsvX7DstocRErAJ14RYDhI",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 4114,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.1238549,
+          "lng": -95.9700944
+        }
+      }
+    },
+    {
+      "name": "Dishoom Birmingham",
+      "address": "One Chamberlain Sq, Birmingham B3 3AX, UK",
+      "rating": 4.8,
+      "types": [
+        "indian_restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "cafe",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJC-lzZm69cEgR5m5syFmhotc",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 9425,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.480196199999995,
+          "lng": -1.9047858000000002
+        }
+      }
+    },
+    {
+      "name": "Shri Venkateswara (Balaji) Temple, Tividale",
+      "address": "Dudley Rd E, Tividale, Oldbury B69 3DU, UK",
+      "rating": 4.8,
+      "types": [
+        "hindu_temple",
+        "tourist_attraction",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7xBFuX-XcEgRoImlH5YoPOA",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 8820,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.513248,
+          "lng": -2.0293605
+        }
+      }
+    },
+    {
+      "name": "Witte Museum",
+      "address": "3801 Broadway, San Antonio, TX 78209, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "cafe",
+        "gift_shop",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ8SkZWZf1XIYRw1v_mK0j9ss",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 6954,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.461977999999995,
+          "lng": -98.46694959999999
+        }
+      }
+    },
+    {
+      "name": "Bowers Museum",
+      "address": "2002 N Main St, Santa Ana, CA 92706, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "wedding_venue",
+        "museum",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpZmO7rDZ3IARsvZQdYOZasw",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 1989,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.7634055,
+          "lng": -117.86814539999997
+        }
+      }
+    },
+    {
+      "name": "Black Country Living Museum",
+      "address": "Discovery Wy, Dudley DY1 4AL, UK",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYa2jkvyZcEgR-zg356yQ-4A",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 13076,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.5199169,
+          "lng": -2.0754329
+        }
+      }
+    },
+    {
+      "name": "The Sixth Floor Museum at Dealey Plaza",
+      "address": "411 Elm St, Dallas, TX 75202, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwQTJ3xWZToYRjooryEPLtOw",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 10219,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7798188,
+          "lng": -96.8084842
+        }
+      }
+    },
+    {
+      "name": "Space Center Houston",
+      "address": "1601 E NASA Pkwy, Houston, TX 77058, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLZlhwACdQIYRFvnVL8mq8BM",
+      "keyword": "museums",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 49089,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.551831999999997,
+          "lng": -95.0981044
+        }
+      }
+    },
+    {
+      "name": "Costco Fuel Station (Members Only)",
+      "address": "100 Watson Rd, Nechells, Birmingham B7 5SA, UK",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJWYWYWzm7cEgRGnPXpqR9slY",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1222,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.5024166,
+          "lng": -1.8515056
+        }
+      }
+    },
+    {
+      "name": "La Villa Restaurant Lounge and Banquets",
+      "address": "3638 N Pulaski Rd, Chicago, IL 60641, USA",
+      "rating": 4.5,
+      "types": [
+        "italian_restaurant",
+        "pizza_restaurant",
+        "meal_delivery",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfzLcBbDND4gRcHTDuXM-8Tg",
+      "keyword": "restaurants food dining",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 2798,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.9475591,
+          "lng": -87.7277774
+        }
+      }
+    },
+    {
+      "name": "Kemah Boardwalk",
+      "address": "215 Kipp Ave, Kemah, TX 77565, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-2iakAJjP4YRuxAq74DFqDA",
+      "keyword": "attractions",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 38237,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.5473219,
+          "lng": -95.0202048
+        }
+      }
+    },
+    {
+      "name": "The Belfry Hotel & Resort",
+      "address": "Lichfield Rd, Sutton Coldfield B76 9PR, UK",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "resort_hotel",
+        "golf_course",
+        "wedding_venue",
+        "spa",
+        "athletic_field",
+        "sports_activity_location",
+        "lodging",
+        "event_venue",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr0CR1qqvcEgR14qvtIPPDPM",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 7666,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.553248800000006,
+          "lng": -1.7372010999999998
+        }
+      }
+    },
+    {
+      "name": "Peppers Grill & Bar",
+      "address": "500 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.3,
+      "types": [
+        "bar_and_grill",
+        "mexican_restaurant",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJW3l4Otlu4oYR7-2VJXRjiR8",
+      "keyword": "restaurants food dining",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 2051,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3981081,
+          "lng": -104.5231991
+        }
+      }
+    },
+    {
+      "name": "Hyatt Regency Birmingham",
+      "address": "2 Bridge St, Birmingham B1 2JZ, UK",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEUfiZvS8cEgRzU-BF4xMHkQ",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 3202,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4780556,
+          "lng": -1.9094444
+        }
+      }
+    },
+    {
+      "name": "Drayton Manor Resort",
+      "address": "Drayton Manor Dr, Fazeley, Drayton Bassett, Tamworth B78 3TW, UK",
+      "rating": 4.3,
+      "types": [
+        "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ882R90mpcEgR-PM2m5CNGbg",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 19886,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.6109142,
+          "lng": -1.7154669999999999
+        }
+      }
+    },
+    {
+      "name": "IKEA Birmingham",
+      "address": "Park Ln, Wednesbury WS10 9SF, UK",
+      "rating": 4.3,
+      "types": [
+        "furniture_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8--j9vKYcEgRTGcJv2PJ7NQ",
+      "keyword": "nearby_store",
+      "user_ratings_total": 23315,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.569793499999996,
+          "lng": -2.0155537999999997
+        }
+      }
+    },
+    {
+      "name": "Costco Birmingham",
+      "address": "100 Watson Rd, Nechells, Birmingham B7 5SA, UK",
+      "rating": 4.3,
+      "types": [
+        "warehouse_store",
+        "wholesaler",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8eRf4Di7cEgRYJKxk5TY9Vk",
+      "keyword": "nearby_store",
+      "user_ratings_total": 3444,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.5027416,
+          "lng": -1.8537488
+        }
+      }
+    },
+    {
+      "name": "Boulder Creek by Wedgewood Weddings",
+      "address": "38470 Boulder Canyon Dr, Boulder, CO 80302, USA",
+      "rating": 4.7,
+      "types": [
+        "wedding_venue",
+        "banquet_hall",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6bgMaePra4cRoOFJE_tNsOQ",
+      "keyword": "things to do attractions tours",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 456,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.009781499999995,
+          "lng": -105.32530650000001
+        }
+      }
+    },
+    {
+      "name": "Resorts World Birmingham",
+      "address": "Pendigo Way, Marston Green, Birmingham B40 1PU, UK",
+      "rating": 4.2,
+      "types": [
+        "shopping_mall",
+        "bowling_alley",
+        "resort_hotel",
+        "casino",
+        "hotel",
+        "sports_complex",
+        "spa",
+        "sports_activity_location",
+        "lodging",
+        "movie_theater",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh6coDCSxcEgRD5AGWRD9Uyo",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 16643,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4481166,
+          "lng": -1.7177816
+        }
+      }
+    },
+    {
+      "name": "O2 Academy Birmingham",
+      "address": "16-18 Horse Fair, Birmingham B1 1DB, UK",
+      "rating": 4.2,
+      "types": [
+        "concert_hall",
+        "auditorium",
+        "event_venue",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJbeJYcWG8cEgR4jbwFppZ4h4",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 6919,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.473291499999995,
+          "lng": -1.8998955000000002
+        }
+      }
+    },
+    {
+      "name": "Wing Yip Superstore Birmingham",
+      "address": "Birmingham Superstore & Headquarters, 375 Nechells Park Rd, Nechells, Birmingham B7 5NT, UK",
+      "rating": 4.2,
+      "types": [
+        "supermarket",
+        "grocery_store",
+        "wholesaler",
+        "food_store",
+        "store",
+        "chinese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJU8TTQl27cEgRBsvXOxGhlLQ",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1112,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4965845,
+          "lng": -1.8706638
+        }
+      }
+    },
+    {
+      "name": "Cadbury World",
+      "address": "69 Linden Rd, Birmingham B30 1JR, UK",
+      "rating": 4.2,
+      "types": [
+        "chocolate_shop",
+        "candy_store",
+        "chocolate_factory",
+        "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "food",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh7inMXm-cEgR210DGBUXelU",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 22194,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.428794499999995,
+          "lng": -1.9314253000000001
+        }
+      }
+    },
+    {
+      "name": "National SEA LIFE Centre Birmingham",
+      "address": "The Water's Edge, Brindley Pl, Birmingham B1 2HL, UK",
+      "rating": 4.2,
+      "types": [
+        "aquarium",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJxdh6tfa8cEgRCe45SOyUX00",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 14473,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4787122,
+          "lng": -1.9132749999999998
+        }
+      }
+    },
+    {
+      "name": "Primark",
+      "address": "38 High St, Birmingham B4 7SL, UK",
+      "rating": 4.2,
+      "types": [
+        "clothing_store",
+        "department_store",
+        "child_care_agency",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJv8zrIIa8cEgRVwLJJ9S0JTM",
+      "keyword": "nearby_store",
+      "user_ratings_total": 12686,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.478779499999995,
+          "lng": -1.8941831999999996
+        }
+      }
+    },
+    {
+      "name": "TK Maxx",
+      "address": "Unit DS1 Bullring Link Bullring Shopping Centre, Birmingham B5 4BS, UK",
+      "rating": 4.2,
+      "types": [
+        "department_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJASnmGIq8cEgRtwJKUxvt10A",
+      "keyword": "nearby_store",
+      "user_ratings_total": 4340,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4770319,
+          "lng": -1.8969833
+        }
+      }
+    },
+    {
+      "name": "Leonardo Royal Hotel Birmingham",
+      "address": "245 Broad St, Birmingham B1 2HQ, UK",
+      "rating": 4.1,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJf4_mK_S8cEgRR71tteSzhlg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 4850,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4767624,
+          "lng": -1.9113218999999997
+        }
+      }
+    },
+    {
+      "name": "Stevens Inn a Howard Johnson by Wyndham",
+      "address": "1829 S Canal St, Carlsbad, NM 88220, USA",
+      "rating": 4,
+      "types": [
+        "hotel",
+        "inn",
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAdu5Qad544YRhyJT8qzimi4",
+      "keyword": "hotels accommodation lodging",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 1100,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4020872,
+          "lng": -104.2236981
+        }
+      }
+    },
+    {
+      "name": "Hilton Birmingham Metropole",
+      "address": "Pendigo Way, Marston Green, Birmingham B40 1PP, UK",
+      "rating": 4,
+      "types": [
+        "hotel",
+        "banquet_hall",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNVQNqDyxcEgRX1lpvt6-gCQ",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2180,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.450582499999996,
+          "lng": -1.715153
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. VIDEO!",
@@ -18,19 +766,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 372, Stratford Road. Experience the mysterious Pillar UFO 6 Floors High Over Colorado Springs, Colorado. This iconic site has been a hotspot ",
+    "meta_description": "Explore historical mysteries in 372, Stratford Road. Experience the mysterious Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. V",
     "title": "Historical Mysteries in 372, Stratford Road - Tours & Services",
-    "description": "Experience the mysterious Pillar UFO 6 Floors High Over Colorado Springs, Colorado. This iconic site has been a hotspot for UAP sightings and paranormal activity since June 4, 2025, with numerous videos capturing the phenomenon.",
+    "description": "Experience the mysterious Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. VIDEO!, The Phantom of Popay\u00e1n.",
     "keywords": [
       "pillar ufo",
+      "colorado springs",
       "uap sighting",
-      "colorado springs"
+      "alien encounters"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:50:44.227742"
+    "last_updated": "2025-07-22T12:12:46.813532"
   }
 }

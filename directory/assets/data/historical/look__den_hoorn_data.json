@@ -1,8 +1,732 @@
 {
   "location_name": "Look, Den Hoorn",
   "category": "historical",
-  "timestamp": "20250716_204917",
-  "businesses": [],
+  "timestamp": "20250722_120952",
+  "businesses": [
+    {
+      "name": "Mauritshuis",
+      "address": "Plein 29, 2511 CS Den Haag, Netherlands",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEa9zVSO3xUcRXKUtUE5Qgbk",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 17394,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0804322,
+          "lng": 4.3143148
+        }
+      }
+    },
+    {
+      "name": "Piece of Cake",
+      "address": "Woudseweg 20, 2635 CC Den Hoorn, Netherlands",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhxWLE0y0xUcRHLxc1waxZAQ",
+      "keyword": "restaurants food dining",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 565,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.9994533,
+          "lng": 4.329087599999999
+        }
+      }
+    },
+    {
+      "name": "Museum Hoorn-Medemblik",
+      "address": "Van Dedemstraat 8, 1624 NN Hoorn, Netherlands",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJR5YfGw2pyEcRel2hBX0IfW4",
+      "keyword": "things to do attractions tours",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 2534,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.6456137,
+          "lng": 5.054627
+        }
+      }
+    },
+    {
+      "name": "De Toegift",
+      "address": "Klif 12, 1797 AL Den Hoorn Texel, Netherlands",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "performing_arts_theater",
+        "event_venue",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzcVNx-05z0cRCe9Q4B4bKtc",
+      "keyword": "restaurants",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 766,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.024935799999994,
+          "lng": 4.746576
+        }
+      }
+    },
+    {
+      "name": "Museum Voorlinden",
+      "address": "Buurtweg 90, 2244 AG Wassenaar, Netherlands",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEdU4eNG5xUcR73LfUY3FVcY",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 7650,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.118444200000006,
+          "lng": 4.3458592
+        }
+      }
+    },
+    {
+      "name": "The Social Hub Delft",
+      "address": "Van Leeuwenhoekpark 1, 2611 DW Delft, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "extended_stay_hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvctm7x61xUcRxXiUYq8M4X4",
+      "keyword": "hotels accommodation lodging",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 684,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.006634299999995,
+          "lng": 4.357507
+        }
+      }
+    },
+    {
+      "name": "Museum of the 20th Century",
+      "address": "Krententuin 24 Parkeren:, Nieuwe Wal, 1621 DG Hoorn, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM8QKMAipyEcRybLnKeYYDVc",
+      "keyword": "things to do attractions tours",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 2852,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.6359231,
+          "lng": 5.062744299999999
+        }
+      }
+    },
+    {
+      "name": "ss Rotterdam",
+      "address": "3e Katendrechtse Hoofd 25, 3072 AM Rotterdam, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "tourist_attraction",
+        "meal_takeaway",
+        "bar",
+        "event_venue",
+        "lodging",
+        "restaurant",
+        "food",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZf8cNlo1xEcRWMEAapj0qmw",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 7867,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.8981376,
+          "lng": 4.4732477
+        }
+      }
+    },
+    {
+      "name": "Circustheater",
+      "address": "Circusplein 50, 2586 CZ Den Haag, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "performing_arts_theater",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiamT-KawxUcRdNezQOxq56U",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 13144,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1108117,
+          "lng": 4.2831312
+        }
+      }
+    },
+    {
+      "name": "Madurodam",
+      "address": "George Maduroplein 1, 2584 RZ Den Haag, Netherlands",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "amusement_center",
+        "amusement_park",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx9INHE23xUcRQLyRyK-B_sw",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 27541,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.099076,
+          "lng": 4.2990392
+        }
+      }
+    },
+    {
+      "name": "Hotel Grand Canal",
+      "address": "Breestraat 1, 2611 CB Delft, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJffc3ssG1xUcRkgO1lvSlvB8",
+      "keyword": "hotels accommodation lodging",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 573,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.007526999999996,
+          "lng": 4.3592996
+        }
+      }
+    },
+    {
+      "name": "De Bank Texel",
+      "address": "De Naal 2, 1797 AC Den Hoorn Texel, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "diner",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYcpfz-85z0cR_NLWlyWpyRU",
+      "keyword": "restaurants food dining",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 2083,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.025467799999994,
+          "lng": 4.75249
+        }
+      }
+    },
+    {
+      "name": "Pannenkoekenhuis Klif 23",
+      "address": "Klif 23, 1797 AK Den Hoorn Texel, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPSZPo-05z0cRM2rQKnD8LR4",
+      "keyword": "restaurants food dining",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 1098,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.025,
+          "lng": 4.745555599999999
+        }
+      }
+    },
+    {
+      "name": "Supermarkt & Slagerij Go\u00ebnga Den Hoorn",
+      "address": "De Naal 1, 1797 AA Den Hoorn Texel, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "convenience_store",
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3wqz2u85z0cRmBdQfLT4H3M",
+      "keyword": "gas stations convenience stores",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 649,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.0257003,
+          "lng": 4.752756199999999
+        }
+      }
+    },
+    {
+      "name": "Julianapark",
+      "address": "1621 MB Hoorn, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKyUyTQepyEcRGosxtkZ1IcQ",
+      "keyword": "parks recreation outdoor",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 1614,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.639451199999996,
+          "lng": 5.073639399999999
+        }
+      }
+    },
+    {
+      "name": "Camping Loodsmansduin Texel",
+      "address": "Rommelpot 19, 1797 RN Den Hoorn Texel, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtZIaL-05z0cRhz7U-ewz2Vg",
+      "keyword": "entertainment activities",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 1169,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.021726699999995,
+          "lng": 4.7407458
+        }
+      }
+    },
+    {
+      "name": "Hotel De Plataan Delft Centrum",
+      "address": "Doelenplein 10, 2611 BP Delft, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "pub",
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ2bPnOsO1xUcRyu74B9yVPHg",
+      "keyword": "hotels",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 586,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0144534,
+          "lng": 4.3584321
+        }
+      }
+    },
+    {
+      "name": "Hotel nhow Rotterdam",
+      "address": "Wilhelminakade 137, 3072 AP Rotterdam, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfdhKhm8zxEcRq3tEphMGXvI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 4373,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.907016999999996,
+          "lng": 4.488659
+        }
+      }
+    },
+    {
+      "name": "De Pier",
+      "address": "Strandweg 150-154, 2586 JW Den Haag, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJV_lUeAm6xUcRhhbBTFfs5oM",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 43543,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.115776999999994,
+          "lng": 4.282714299999999
+        }
+      }
+    },
+    {
+      "name": "Euromast",
+      "address": "Parkhaven 20, 3016 GM Rotterdam, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "historical_landmark",
+        "historical_place",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTY7aLps0xEcR2DpPoYMXqFg",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 19918,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.9054439,
+          "lng": 4.4666374
+        }
+      }
+    },
+    {
+      "name": "HORNBACH",
+      "address": "Singel 115, 2497 GS Den Haag, Netherlands",
+      "rating": 4.4,
+      "types": [
+        "home_improvement_store",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc_PAJHS2xUcRuNbvmPOrrRI",
+      "keyword": "nearby_store",
+      "user_ratings_total": 7208,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0289138,
+          "lng": 4.3595068999999995
+        }
+      }
+    },
+    {
+      "name": "Van der Valk Hotel Delft A4",
+      "address": "Peuldreef 3, 2635 BX Den Hoorn, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLwZbZy-1xUcRoatJ0zJ0s9A",
+      "keyword": "hotels accommodation lodging",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 548,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.013569999999994,
+          "lng": 4.3154569
+        }
+      }
+    },
+    {
+      "name": "Restaurant De Beren Den Hoorn",
+      "address": "Hogenhoorn 5, 2635 BN Den Hoorn, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJX2BE3CW1xUcRS27MfdH2cXg",
+      "keyword": "restaurants food dining",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 730,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0112915,
+          "lng": 4.3155358999999995
+        }
+      }
+    },
+    {
+      "name": "Restaurant De Hoofdtoren",
+      "address": "Hoofd 2, 1621 AM Hoorn, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJycZr-6epyEcRil_BKwezNwM",
+      "keyword": "restaurants food dining",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 741,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.6370363,
+          "lng": 5.0630695999999995
+        }
+      }
+    },
+    {
+      "name": "Esso Peulwijk",
+      "address": "A4 2, 2635 GA Den Hoorn, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJD1ntoz20xUcRW38H5BcxSsc",
+      "keyword": "gas stations convenience stores",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 589,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0138779,
+          "lng": 4.3124221
+        }
+      }
+    },
+    {
+      "name": "Winkel en slijterij van Landgoed de Bonte Belevenis",
+      "address": "Rommelpot 11, 1797 RN Den Hoorn Texel, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJL7TCX4w5z0cRkriu8RBfVB4",
+      "keyword": "things to do attractions tours",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 566,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.0309624,
+          "lng": 4.7389962
+        }
+      }
+    },
+    {
+      "name": "Municipal Theater Het Park",
+      "address": "Westerdijk 4, 1621 LE Hoorn, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "performing_arts_theater",
+        "cultural_center",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8bYx6nSpyEcRrsnNOTE_dNw",
+      "keyword": "parks recreation outdoor",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 2228,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.6417563,
+          "lng": 5.0509867999999996
+        }
+      }
+    },
+    {
+      "name": "Hampshire Hotel Delft Centre | Overnachten, Arrangementen en Zakelijk",
+      "address": "Koepoortplaats 3, 2612 RR Delft, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "bar",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ5ZjCIOa1xUcRPLPBDcmbwV0",
+      "keyword": "hotels",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 1450,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0149269,
+          "lng": 4.3672279
+        }
+      }
+    },
+    {
+      "name": "Hotel New York",
+      "address": "Koninginnenhoofd 1, 3072 AD Rotterdam, Netherlands",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "bar",
+        "event_venue",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkRX7KHszxEcRQUhq4b_gbuA",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 10757,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.9041459,
+          "lng": 4.4845913
+        }
+      }
+    },
+    {
+      "name": "ANWB winkel Hoorn",
+      "address": "Breed 13, 1621 KA Hoorn, Netherlands",
+      "rating": 4.2,
+      "types": [
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtYnLiAupyEcRbDJjudbHmYo",
+      "keyword": "shopping retail stores",
+      "location": "Look, Den Hoorn",
+      "user_ratings_total": 571,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.642303,
+          "lng": 5.0534276
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "US Gov Releases New Video UFO Over Iraq Recorded By US Military Helicopter, UAP Sighting News.",
@@ -15,22 +739,29 @@
       "type": "Historical Mystery",
       "description": "Starlink satellites can interfere with the signals the SETI monitors, but a new collaboration aims to halt the potential contamination.",
       "category": "historical"
+    },
+    {
+      "name": "Look: NASA\u2019s Parker Solar Probe Just Had Its Closest-Ever Encounter with the Sun, and Has Historic Pictures to Prove It",
+      "type": "Historical Mystery",
+      "description": "NASA\u2019s Parker Solar Probe has proven to be an essential tool in understanding space weather, a major potential hazard to life on Earth.",
+      "category": "historical"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Look, Den Hoorn. Explore the mysterious skies of Iraq, where a US military helicopter captured footage of a UFO over Baghdad in 2023. The",
+    "meta_description": "Explore historical mysteries in Look, Den Hoorn. Explore the mysteries of Look, Den Hoorn, a town in the Netherlands where history meets intrigue. Visit the Mauritshuis,",
     "title": "Historical Mysteries in Look, Den Hoorn - Tours & Services",
-    "description": "Explore the mysterious skies of Iraq, where a US military helicopter captured footage of a UFO over Baghdad in 2023. The incident has sparked renewed interest in Unidentified Flying Objects (UFOs) and their possible connection to extraterrestrial life.",
+    "description": "Explore the mysteries of Look, Den Hoorn, a town in the Netherlands where history meets intrigue. Visit the Mauritshuis, Piece of Cake, Museum Hoorn-Medemblik, De Toegift, and Museum Voorlinden to uncover secrets from the past.",
     "keywords": [
-      "ufo sightings",
-      "iraq ufos",
-      "alien encounters"
+      "historical museums",
+      "look den hoorn",
+      "museum tours",
+      "paranormal history"
     ],
     "category": "historical"
   },
   "stats": {
-    "business_count": 0,
-    "event_count": 2,
-    "last_updated": "2025-07-16T20:49:17.318926"
+    "business_count": 30,
+    "event_count": 3,
+    "last_updated": "2025-07-22T12:09:52.529969"
   }
 }

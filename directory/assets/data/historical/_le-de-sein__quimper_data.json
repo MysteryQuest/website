@@ -1,8 +1,731 @@
 {
   "location_name": "\u00cele-de-Sein, Quimper",
   "category": "historical",
-  "timestamp": "20250716_204928",
-  "businesses": [],
+  "timestamp": "20250722_121014",
+  "businesses": [
+    {
+      "name": "La Parenth\u00e8se",
+      "address": "45 Rue de la Providence, 29000 Quimper, France",
+      "rating": 4.9,
+      "types": [
+        "restaurant",
+        "french_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0wSjcVbVEEgRIB_E7Qpym14",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 543,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9991155,
+          "lng": -4.1087742
+        }
+      }
+    },
+    {
+      "name": "Ti-Coz",
+      "address": "4 Hent Koz, 29000 Quimper, France",
+      "rating": 4.8,
+      "types": [
+        "french_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu3R9o4QpEUgRJo7BLSb0xmg",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 749,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.042617199999995,
+          "lng": -4.0723245
+        }
+      }
+    },
+    {
+      "name": "L'\u00e9trave",
+      "address": "29770 Cl\u00e9den-Cap-Sizun, France",
+      "rating": 4.8,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJgdXiQ4LjFkgREbU65CEz4cE",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 526,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.0568853,
+          "lng": -4.6734461
+        }
+      }
+    },
+    {
+      "name": "Pointe du Van",
+      "address": "Unnamed Road,29770, 29770 Cl\u00e9den-Cap-Sizun, France",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnf4kkhHlFkgRw-usqD7TwJQ",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 495,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.064557099999995,
+          "lng": -4.7137736
+        }
+      }
+    },
+    {
+      "name": "Le Cosy",
+      "address": "2 Rue du Sall\u00e9, 29000 Quimper, France",
+      "rating": 4.7,
+      "types": [
+        "french_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJedH6cpLVEEgRya3wS0wcJMs",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 703,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.996879799999995,
+          "lng": -4.1028686
+        }
+      }
+    },
+    {
+      "name": "La Grange",
+      "address": "11 Rue du Chapeau Rouge, 29000 Quimper, France",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmSb52_TVEEgRJn1k57jIRLc",
+      "keyword": "restaurants",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 639,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.996309,
+          "lng": -4.106979
+        }
+      }
+    },
+    {
+      "name": "Cr\u00eaperie Le Galion",
+      "address": "2 Rte du Loc'h, 29770 Plogoff, France",
+      "rating": 4.7,
+      "types": [
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJH2KYS9LjFkgRG1X9VMIZjjY",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1003,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.029801,
+          "lng": -4.6339006
+        }
+      }
+    },
+    {
+      "name": "Pointe du Raz",
+      "address": "La Pointe du Raz, 29770 Plogoff, France",
+      "rating": 4.7,
+      "types": [
+        "observation_deck",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmdCMY8j8FkgRnDnJC9kZjaM",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 6333,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.039683499999995,
+          "lng": -4.7358345
+        }
+      }
+    },
+    {
+      "name": "Plage de la Baie des Tr\u00e9pass\u00e9s",
+      "address": "179 Rte de la Baie, 29770 Plogoff, France",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwSzOxEbjFkgRnZI6i6nNtaI",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 3476,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.046840499999995,
+          "lng": -4.706955799999999
+        }
+      }
+    },
+    {
+      "name": "Notre-Dame des Naufrag\u00e9s",
+      "address": "La Pointe du Raz, 29770 Plogoff, France",
+      "rating": 4.7,
+      "types": [
+        "monument",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2SP3v8j8FkgRawqAmtp0imw",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 505,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.0390568,
+          "lng": -4.733234599999999
+        }
+      }
+    },
+    {
+      "name": "Saint Corentin Cathedral",
+      "address": "Pl. St Corentin, 29000 Quimper, France",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "church",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzwJcW5LVEEgR4Olq9pHU1hk",
+      "keyword": "things to do attractions tours",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 6187,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.995582399999996,
+          "lng": -4.1022479999999995
+        }
+      }
+    },
+    {
+      "name": "Gorges Stangala",
+      "address": "103 Rte du Stangala, 29000 Quimper, France",
+      "rating": 4.6,
+      "types": [
+        "wildlife_park",
+        "tourist_attraction",
+        "zoo",
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnRKupeopEUgRtucYfvzro4U",
+      "keyword": "things to do attractions tours",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 699,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.0279393,
+          "lng": -4.0582183999999994
+        }
+      }
+    },
+    {
+      "name": "Jardin exotique de la Retraite",
+      "address": "35 Rue \u00c9lie Freron, 29000 Quimper, France",
+      "rating": 4.6,
+      "types": [
+        "garden",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJi2bUiI3VEEgRp3W0yHU4sgc",
+      "keyword": "things to do attractions tours",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 1303,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.997593599999995,
+          "lng": -4.1021524
+        }
+      }
+    },
+    {
+      "name": "Breton County Museum",
+      "address": "1 Rue du Roi Gradlon, 29000 Quimper, France",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe8lkNZLVEEgRYbZ_1JBx2XE",
+      "keyword": "things to do attractions tours",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 643,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9951899,
+          "lng": -4.102479199999999
+        }
+      }
+    },
+    {
+      "name": "La P\u00e9pini\u00e8re",
+      "address": "20 Rue du Frout, 29000 Quimper, France",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "wine_bar",
+        "pizza_restaurant",
+        "bar",
+        "french_restaurant",
+        "italian_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQ7FiX5LVEEgRlEczjR7e-yU",
+      "keyword": "restaurants",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 635,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9959486,
+          "lng": -4.101342799999999
+        }
+      }
+    },
+    {
+      "name": "Monsieur Papier",
+      "address": "59 Rue des Langoustiers, 29770 Plogoff, France",
+      "rating": 4.6,
+      "types": [
+        "cafe",
+        "gift_shop",
+        "book_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJzY9I3TDjFkgR0rovnh0-tnw",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1090,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.037321,
+          "lng": -4.712428
+        }
+      }
+    },
+    {
+      "name": "Restaurant Allium, Quimper",
+      "address": "88 Bd de Cr\u00e9ac'h Gwen, 29000 Quimper, France",
+      "rating": 4.8,
+      "types": [
+        "fine_dining_restaurant",
+        "mediterranean_restaurant",
+        "french_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJU5IJCrfVEEgRceLq8DS4dds",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 479,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9760591,
+          "lng": -4.0982201
+        }
+      }
+    },
+    {
+      "name": "Aven Parc - Parc d'attractions",
+      "address": "Kergoz, 29930 Pont-Aven, France",
+      "rating": 4.5,
+      "types": [
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh3PqwQnoEEgRDg6xj-NR8rs",
+      "keyword": "entertainment activities",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 2435,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.8588804,
+          "lng": -3.7714273
+        }
+      }
+    },
+    {
+      "name": "Nature et D\u00e9couvertes Quimper",
+      "address": "163 Rte de B\u00e9nodet, 29000 Quimper, France",
+      "rating": 4.5,
+      "types": [
+        "gift_shop",
+        "grocery_store",
+        "food_store",
+        "home_goods_store",
+        "book_store",
+        "store",
+        "health",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0cZhysnVEEgRFHVBo3ZCMHM",
+      "keyword": "gift shops souvenirs",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 770,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9754704,
+          "lng": -4.0954521999999995
+        }
+      }
+    },
+    {
+      "name": "Le Pilleur d'\u00c9paves",
+      "address": "116-117, 116-117 D7 D7, 29770 Cl\u00e9den-Cap-Sizun, France",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJzz4H5l3jFkgR1ynnEWKiE2E",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 636,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.058116,
+          "lng": -4.7037033
+        }
+      }
+    },
+    {
+      "name": "Restaurant Sao Kevin Gourret",
+      "address": "1 Quai Neuf, 29000 Quimper, France",
+      "rating": 4.8,
+      "types": [
+        "fine_dining_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJP8DilOrVEEgRSSAkm3dZUdI",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 466,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9902185,
+          "lng": -4.1124396
+        }
+      }
+    },
+    {
+      "name": "Chez Max Bouillon Quimper",
+      "address": "Cour Max Jacob, 8 Rue du Parc, 29000 Quimper, France",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6yGd6TfVEEgRO64Nl0jNwuo",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 779,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9948747,
+          "lng": -4.103442
+        }
+      }
+    },
+    {
+      "name": "S\u00f8strene Grene",
+      "address": "163 Rte de B\u00e9nodet, 29000 Quimper, France",
+      "rating": 4.4,
+      "types": [
+        "home_goods_store",
+        "furniture_store",
+        "home_improvement_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs31y0MnVEEgRP7rF8pCJY5A",
+      "keyword": "shopping retail stores",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 509,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.974871799999995,
+          "lng": -4.0948847
+        }
+      }
+    },
+    {
+      "name": "Le Jardin du Prieur\u00e9 Locmaria",
+      "address": "Pl. Denis Berardier, 29000 Quimper, France",
+      "rating": 4.4,
+      "types": [
+        "botanical_garden",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOYyW8ZjVEEgRKiNNYAQwyNA",
+      "keyword": "things to do attractions tours",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 549,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9883339,
+          "lng": -4.1130816999999995
+        }
+      }
+    },
+    {
+      "name": "Camping de K\u00e9rant\u00e9rec",
+      "address": "1 Route de St Laurent, 29940 La For\u00eat-Fouesnant, France",
+      "rating": 4.4,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_zxuC2TaEEgRrV8TWBjn5j4",
+      "keyword": "parks recreation outdoor",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 1261,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.899165700000005,
+          "lng": -3.9547852
+        }
+      }
+    },
+    {
+      "name": "Au Raz de Sein",
+      "address": "58 Imp. Roz Kerveur, 29770 Plogoff, France",
+      "rating": 4.4,
+      "types": [
+        "dessert_shop",
+        "confectionery",
+        "meal_takeaway",
+        "french_restaurant",
+        "bar",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJu_Bs2hXjFkgRvj0P0OwtT3s",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 960,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.039506599999996,
+          "lng": -4.6933647999999994
+        }
+      }
+    },
+    {
+      "name": "Restaurant le Jardin d'\u00e9t\u00e9 Quimper",
+      "address": "15 Rue du Sall\u00e9, 29000 Quimper, France",
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzS3FD5LVEEgRWJdG4Fg3aGA",
+      "keyword": "restaurants food dining",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 714,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9967003,
+          "lng": -4.1034517
+        }
+      }
+    },
+    {
+      "name": "TY CIRCUS parc de jeux couvert",
+      "address": "6 All. Emile le Page, 29000 Quimper, France",
+      "rating": 4.3,
+      "types": [
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcSy4s7nVEEgRGG6bY5vdCfA",
+      "keyword": "entertainment activities",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 650,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.979870399999996,
+          "lng": -4.0999362
+        }
+      }
+    },
+    {
+      "name": "H\u00f4tel Escale Oceania Quimper",
+      "address": "6 Rue Th\u00e9odore le Hars, 29000 Quimper, France",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "spa",
+        "bar",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFRopGJPVEEgRR5LkSAuy_VI",
+      "keyword": "hotels",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 639,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9942731,
+          "lng": -4.1000157
+        }
+      }
+    },
+    {
+      "name": "Quimper faience",
+      "address": "Pl. Denis Berardier, 29000 Quimper, France",
+      "rating": 4.3,
+      "types": [
+        "tourist_attraction",
+        "art_gallery",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJA86yW5jVEEgRcvGEyG7i5eo",
+      "keyword": "museums",
+      "location": "Sein, Quimper",
+      "user_ratings_total": 931,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.9887483,
+          "lng": -4.1121142
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "\u2018Interstellar Contamination\u2019 Could Change Which Exoplanets Scientists Search for Extraterrestrial Life",
@@ -12,20 +735,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in \u00cele-de-Sein, Quimper. Explore the mysterious \u00cele-de-Sein, a place where rumors of alien life have been circulating for centuries. Visit the Qu",
+    "meta_description": "Explore historical mysteries in \u00cele-de-Sein, Quimper. Explore the mysterious \u00cele-de-Sein, a place where scientists have discovered that interstellar contamination could chang",
     "title": "Historical Mysteries in \u00cele-de-Sein, Quimper - Tours & Services",
-    "description": "Explore the mysterious \u00cele-de-Sein, a place where rumors of alien life have been circulating for centuries. Visit the Quimper UFO Museum to learn about the history of extraterrestrial sightings in the area and see exhibits on alleged alien encounters.",
+    "description": "Explore the mysterious \u00cele-de-Sein, a place where scientists have discovered that interstellar contamination could change which exoplanets they search for extraterrestrial life. Visit La Parenth\u00e8se, Ti-Coz, L'\u00e9trave, Pointe du Van, and Le Cosy to uncover its secrets.",
     "keywords": [
       "\u00cele-de-Sein",
-      "Quimper",
-      "alien life",
-      "UFO sightings"
+      "historical sites",
+      "exoplanet research"
     ],
     "category": "historical"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:49:28.828151"
+    "last_updated": "2025-07-22T12:10:14.436450"
   }
 }

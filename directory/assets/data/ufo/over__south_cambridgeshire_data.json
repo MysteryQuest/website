@@ -1,8 +1,736 @@
 {
   "location_name": "Over, South Cambridgeshire",
   "category": "ufo",
-  "timestamp": "20250716_205311",
-  "businesses": [],
+  "timestamp": "20250722_121753",
+  "businesses": [
+    {
+      "name": "Traditional Punting Cambridge",
+      "address": "Punting, Landing Stage, Thompsons Ln, Cambridge CB5 8AQ, UK",
+      "rating": 4.9,
+      "types": [
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiRiX2k5x2EcRIj3HI0pApE0",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 2046,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2115807,
+          "lng": 0.118289
+        }
+      }
+    },
+    {
+      "name": "Lets Go Punting Cambridge",
+      "address": "Landing Stage, Thompsons Ln, Cambridge CB5 8AG, UK",
+      "rating": 4.9,
+      "types": [
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJy1TdA79w2EcRVRxhmOIljdc",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 3998,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2115807,
+          "lng": 0.118289
+        }
+      }
+    },
+    {
+      "name": "Escape Hunt Cambridge",
+      "address": "36 St Andrew's St, Cambridge CB2 3AR, UK",
+      "rating": 4.9,
+      "types": [
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJifDK1uBx2EcR8M_tBDBUr2w",
+      "keyword": "entertainment activities",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 646,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2030853,
+          "lng": 0.12350309999999998
+        }
+      }
+    },
+    {
+      "name": "Alley Cat Car & Van Rentals - Cambridge",
+      "address": "Copley Hill Business Park, Cambridge Rd, Cambridge CB22 3GN, UK",
+      "rating": 4.9,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0zIA9vxk2EcRmpoxSDPvgpw",
+      "keyword": "car rental transportation",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 496,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1498053,
+          "lng": 0.1928039
+        }
+      }
+    },
+    {
+      "name": "Restaurant Twenty Two",
+      "address": "22 Chesterton Rd, Cambridge CB4 3AX, UK",
+      "rating": 4.8,
+      "types": [
+        "fine_dining_restaurant",
+        "french_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC42pIutw2EcRw2mkaRZODc8",
+      "keyword": "restaurants food dining",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 544,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2138881,
+          "lng": 0.12436870000000001
+        }
+      }
+    },
+    {
+      "name": "Rutherford's Punting Cambridge",
+      "address": "Quayside Boardwalk, Jesus Green Moorings, Cambridge CB5 8AQ, UK",
+      "rating": 4.8,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgS3TBr9w2EcRQ1g7VefO090",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 756,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2116986,
+          "lng": 0.1184612
+        }
+      }
+    },
+    {
+      "name": "IWM Duxford",
+      "address": "IWM Duxford Airfield, Cambridge CB22 4QR, UK",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLYaUOJZw2EcRLTjAoVO_aXw",
+      "keyword": "museums visitor centers",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 17471,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.0964654,
+          "lng": 0.13647979999999998
+        }
+      }
+    },
+    {
+      "name": "The Centre for Computing History",
+      "address": "Rene Ct, Coldham's Rd, Cambridge CB1 3EW, UK",
+      "rating": 4.8,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "gift_shop",
+        "video_arcade",
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "store",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcxaXm_Re2EcR6suPYcJwWog",
+      "keyword": "museums visitor centers",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 690,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.207901,
+          "lng": 0.149001
+        }
+      }
+    },
+    {
+      "name": "Lockhouse Escape Games",
+      "address": "70 Regent St, Cambridge CB2 1DP, UK",
+      "rating": 4.8,
+      "types": [
+        "amusement_center",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ__-r9Jlw2EcRj2n1UACVp1w",
+      "keyword": "entertainment activities",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 716,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2004762,
+          "lng": 0.1260455
+        }
+      }
+    },
+    {
+      "name": "Sedgwick Museum of Earth Sciences",
+      "address": "University Of, Downing Pl, Cambridge CB2 3EQ, UK",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPW1Ek5dw2EcR8LQhjUUd-4k",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 896,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.202963499999996,
+          "lng": 0.12207710000000001
+        }
+      }
+    },
+    {
+      "name": "Anglesey Abbey",
+      "address": "Quy Rd, Lode, Cambridge CB25 9EJ, UK",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "historical_place",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJ8ZORVVu2EcRM-UyHYKMMf4",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 7411,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2365077,
+          "lng": 0.24401029999999999
+        }
+      }
+    },
+    {
+      "name": "The Fitzwilliam Museum",
+      "address": "Trumpington St, Cambridge CB2 1RB, UK",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRSsWo6Jw2EcRLLfAvWgBFLA",
+      "keyword": "museums visitor centers",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 8270,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.200213399999996,
+          "lng": 0.1195238
+        }
+      }
+    },
+    {
+      "name": "Hinchingbrooke Country Park",
+      "address": "Brampton Rd, Huntingdon PE29 6DB, UK",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwecdOsPCd0gRx9jmULNi7to",
+      "keyword": "things to do",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 2028,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.328960200000004,
+          "lng": -0.2106796
+        }
+      }
+    },
+    {
+      "name": "Kettle's Yard",
+      "address": "Castle St, Cambridge CB3 0AQ, UK",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "art_gallery",
+        "museum",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJX3Dbo7hw2EcRtlGuEhvQQfI",
+      "keyword": "things to do",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1325,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.210929,
+          "lng": 0.11454500000000001
+        }
+      }
+    },
+    {
+      "name": "University Museum Of Zoology",
+      "address": "David Attenborough Building, Downing Pl, Cambridge CB2 3EJ, UK",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt1Da65dw2EcRoiJ0gQnSOaA",
+      "keyword": "museums",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 2063,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2032159,
+          "lng": 0.12066099999999999
+        }
+      }
+    },
+    {
+      "name": "Cambridge University Botanic Garden",
+      "address": "1 Brookside, Cambridge CB2 1JE, UK",
+      "rating": 4.7,
+      "types": [
+        "botanical_garden",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJA_q2yZ1w2EcRSWXADT-R3O0",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 7114,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1936373,
+          "lng": 0.1273479
+        }
+      }
+    },
+    {
+      "name": "Ely Cathedral",
+      "address": "Chapter House, The College, ELY CB7 4DL, UK",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "church",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJjTzHfQwT2EcRr-Yl3BQS6sA",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 6321,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.398661,
+          "lng": 0.263779
+        }
+      }
+    },
+    {
+      "name": "La Pergola",
+      "address": "Cambridge Rd, Harlton, Cambridge CB23 1HA, UK",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "pizza_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3-3eqWR42EcR3fii0buRmRg",
+      "keyword": "restaurants food dining",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1130,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1540798,
+          "lng": 0.012539
+        }
+      }
+    },
+    {
+      "name": "Herbie's American Diner",
+      "address": "Huntingdon Rd, Swavesey, Cambridge CB24 4RE, UK",
+      "rating": 4.6,
+      "types": [
+        "diner",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC-xnWhaA2EcRSGxtuzF-1R8",
+      "keyword": "restaurants food dining",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1567,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2707171,
+          "lng": -0.0063709
+        }
+      }
+    },
+    {
+      "name": "South Angle Farm Park",
+      "address": "Angle Common, Soham, ELY CB7 5HX, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "farm",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh3FsKRJr2EcRLno0HnP-z7M",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 573,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.3304329,
+          "lng": 0.3195114
+        }
+      }
+    },
+    {
+      "name": "National Trust - Wicken Fen Nature Reserve",
+      "address": "34 Lode Ln, Wicken, ELY CB7 5XP, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCYcNw4Zr2EcRv_Jsh0BLUBo",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 2356,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.3105565,
+          "lng": 0.2912955
+        }
+      }
+    },
+    {
+      "name": "National Trust - Houghton Mill & Waterclose Meadows",
+      "address": "Mill St, Houghton, Huntingdon PE28 2AZ, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEZaWecfdd0gR6aH7M-_ZcnI",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 2391,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.3308955,
+          "lng": -0.12063159999999999
+        }
+      }
+    },
+    {
+      "name": "Wandlebury Country Park",
+      "address": "Wandlebury Ring, Gog Magog Hills, Stapleford, Cambridge CB22 3AE, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "wedding_venue",
+        "park",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj37IE9B62EcRspVIEVH3M_A",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1198,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.158154700000004,
+          "lng": 0.1874167
+        }
+      }
+    },
+    {
+      "name": "St Neots Camping and Caravanning Club Site",
+      "address": "Hardwick Rd, St. Neots PE19 2PR, UK",
+      "rating": 4.6,
+      "types": [
+        "campground",
+        "rv_park",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfwkrqsXFd0gRGarNZW5rT0w",
+      "keyword": "camping rv parks",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 923,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.219825699999994,
+          "lng": -0.2745991
+        }
+      }
+    },
+    {
+      "name": "The Three Tuns, Cambridge",
+      "address": "High St, Fen Drayton, Cambridge CB24 4SJ, UK",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "pub",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYU6TmSLfd0gRVqkWgBOBac4",
+      "keyword": "restaurants",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 740,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2960089,
+          "lng": -0.0376593
+        }
+      }
+    },
+    {
+      "name": "National Trust - Wimpole Estate",
+      "address": "Wimpole Estate, Arrington, Royston SG8 0BW, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "historical_landmark",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMZx6SvXTd0gRM2TaSvaNqOI",
+      "keyword": "things to do",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 7184,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1410705,
+          "lng": -0.049794899999999996
+        }
+      }
+    },
+    {
+      "name": "The Backs",
+      "address": "Queen's Rd, Cambridge CB3 9AH, UK",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJSClDbVw2EcRngfngjc9ypo",
+      "keyword": "attractions",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 732,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2042444,
+          "lng": 0.11302179999999999
+        }
+      }
+    },
+    {
+      "name": "Johnsons of Old Hurst - Johnsons Zoo",
+      "address": "Church St, Old Hurst, Huntingdon PE28 3AF, UK",
+      "rating": 4.6,
+      "types": [
+        "zoo",
+        "butcher_shop",
+        "tea_house",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJbflbrLbgd0gRNlYuJxEKn18",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 3862,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.378493399999996,
+          "lng": -0.0902183
+        }
+      }
+    },
+    {
+      "name": "Madingley Hall & Gardens",
+      "address": "Madingley, Hall, Madingley, Cambridge CB23 8AQ, UK",
+      "rating": 4.5,
+      "types": [
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC-NA5LF32EcRGdCBhrpU3gg",
+      "keyword": "hotels accommodation lodging",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 542,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2247603,
+          "lng": 0.037649499999999995
+        }
+      }
+    },
+    {
+      "name": "Garden House",
+      "address": "Graduate, Granta Pl, Mill Ln, Cambridge CB2 1RT, UK",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbaFEcM5x2EcRS5m3jWWyiv4",
+      "keyword": "restaurants food dining",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 651,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.200479599999994,
+          "lng": 0.1167023
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Neuralink Hits 7 Users as Global Brain Implant Count Remains Under 100",
@@ -18,19 +746,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Over, South Cambridgeshire. Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. Neuralink'",
+    "meta_description": "Explore ufo mysteries in Over, South Cambridgeshire. Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigm",
     "title": "Ufo Mysteries in Over, South Cambridgeshire - Tours & Services",
-    "description": "Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. Neuralink's brain implant technology has been hailed as a breakthrough, but what does it mean for humanity? Join us on a journey to uncover the secrets of this enigmatic location.",
+    "description": "Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigmatic location is home to Neuralink's groundbreaking brain implant project and offers a unique opportunity for citizen scientists to contribute to its success.",
     "keywords": [
-      "ufo sightings",
+      "Over UFO tours",
       "alien encounters",
-      "neuralink breakthrough"
+      "Neuralink breakthrough"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:53:11.610890"
+    "last_updated": "2025-07-22T12:17:53.914072"
   }
 }

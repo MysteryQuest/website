@@ -1,8 +1,248 @@
 {
   "location_name": "Charleville-M\u00e9zi\u00e8res, Ardennes",
   "category": "ufo",
-  "timestamp": "20250716_205346",
-  "businesses": [],
+  "timestamp": "20250722_121856",
+  "businesses": [
+    {
+      "name": "Hotel Corones Charleville",
+      "address": "33 Wills St, Charleville QLD 4470, Australia",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "pub",
+        "motel",
+        "bar",
+        "lodging",
+        "liquor_store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJJdSwOlGqs2sRz8hJTk482WI",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 646,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.402431,
+          "lng": 146.240876
+        }
+      }
+    },
+    {
+      "name": "Evening Star Tourist Park",
+      "address": "818 Charleville, Adavale Rd, Ward QLD 4470, Australia",
+      "rating": 4.8,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJscnYi6o6s2sRbgEFbc1yAFo",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 314,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.3647898,
+          "lng": 146.15707190000003
+        }
+      }
+    },
+    {
+      "name": "Charleville Waltzing Matilda Motor Inn",
+      "address": "125 Alfred St, Charleville QLD 4470, Australia",
+      "rating": 4.5,
+      "types": [
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx7RerlGqs2sRG3G41XhRzdY",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 184,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.3994274,
+          "lng": 146.2417602
+        }
+      }
+    },
+    {
+      "name": "Rocks Motel",
+      "address": "74 Wills St, Charleville QLD 4470, Australia",
+      "rating": 4.4,
+      "types": [
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRcukZVaqs2sRAP77nbXv2xg",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 155,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.4058781,
+          "lng": 146.2431112
+        }
+      }
+    },
+    {
+      "name": "Mulga Country Motor Inn",
+      "address": "118 Sturt St, Charleville QLD 4470, Australia",
+      "rating": 4.4,
+      "types": [
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4_yz9f2qs2sR8X0AsrrHCdo",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 137,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.4155597,
+          "lng": 146.24893179999998
+        }
+      }
+    },
+    {
+      "name": "Charleville Motel",
+      "address": "148 King St, Charleville QLD 4470, Australia",
+      "rating": 4.3,
+      "types": [
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh7w6N1Oqs2sRR0ZZsyfN1Co",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 134,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.402934899999998,
+          "lng": 146.24915439999998
+        }
+      }
+    },
+    {
+      "name": "Warrego Motel Charleville",
+      "address": "73 Wills St, Charleville QLD 4470, Australia",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSyMagVaqs2sRB85QBjwmAaA",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 95,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.4053318,
+          "lng": 146.2433847
+        }
+      }
+    },
+    {
+      "name": "Cattle Camp Hotel Charleville",
+      "address": "149 Alfred St, Charleville QLD 4470, Australia",
+      "rating": 3.7,
+      "types": [
+        "hotel",
+        "pub",
+        "bar",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFakDQl2rs2sRneTJXxoGvCM",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 154,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.398386100000003,
+          "lng": 146.2437519
+        }
+      }
+    },
+    {
+      "name": "Cosmos Country Motor Inn",
+      "address": "27-29 Sturt St, Charleville QLD 4470, Australia",
+      "rating": 4.3,
+      "types": [
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2WupQS81aAER8xxHWyo0v8s",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 69,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.408570299999997,
+          "lng": 146.2429616
+        }
+      }
+    },
+    {
+      "name": "Baileybar Motor Inn",
+      "address": "196 King St, Charleville QLD 4470, Australia",
+      "rating": 3.8,
+      "types": [
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCQxOErKrs2sRJglO8lnmo2Q",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 17,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.3999588,
+          "lng": 146.25392380000002
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Discovery of Wooden Pleistocene Tools Demonstrates Earliest Recorded Complex Technology in East Asia",
@@ -12,19 +252,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious Charleville-M\u00e9zi\u00e8res, a town in eastern France where the discovery of wooden Pleistocene tools ha",
+    "meta_description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious Charleville-M\u00e9zi\u00e8res, a town shrouded in legend. Discover the secrets of the past and uncover the",
     "title": "Ufo Mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes - Tours & Services",
-    "description": "Explore the mysterious Charleville-M\u00e9zi\u00e8res, a town in eastern France where the discovery of wooden Pleistocene tools has revealed the earliest recorded complex technology in East Asia.",
+    "description": "Explore the mysterious Charleville-M\u00e9zi\u00e8res, a town shrouded in legend. Discover the secrets of the past and uncover the truth about this enigmatic place.",
     "keywords": [
-      "Charleville-M\u00e9zi\u00e8res",
-      "wooden Pleistocene tools",
-      "ufo sightings"
+      "mysterious town",
+      "alien sightings",
+      "paranormal activity"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 10,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:53:46.504063"
+    "last_updated": "2025-07-22T12:18:56.484054"
   }
 }

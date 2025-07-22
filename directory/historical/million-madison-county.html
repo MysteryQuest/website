@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" id="meta-description" content="Explore historical mysteries in Million, Madison County. Explore the mysterious history of Million, a town in Madison County that has been shrouded in secrecy for decades. Disco">
-    <meta name="keywords" id="meta-keywords" content="Million, Madison County, historical tourism, UFO sightings, brain-tech">
+    <meta name="description" id="meta-description" content="Explore historical mysteries in Million, Madison County. Explore the mysterious history of Million, a town shrouded in secrecy and intrigue. Discover its fascinating past, from ">
+    <meta name="keywords" id="meta-keywords" content="Million, Madison County, history, mystery">
     <title id="page-title">Historical Mysteries in Million, Madison County - Tours & Services</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
                     <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Historical Mysteries Directory</a>
+                    <a class="nav-link" href="/directory/historical/index.html">Historical Mysteries Directory</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Million, Madison County</a>
@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col-md-8">
                 <h1 class="location-title">Million, Madison County</h1>
-                <p class="location-description">Explore the mysterious history of Million, a town in Madison County that has been shrouded in secrecy for decades. Discover the remnants of an alleged UFO hotspot and learn about the events surrounding China's recent policies to accelerate brain-tech in healthcare.</p>
+                <p class="location-description">Explore the mysterious history of Million, a town shrouded in secrecy and intrigue. Discover its fascinating past, from its founding to its alleged connections to extraterrestrial life.</p>
             </div>
             <div class="col-md-4">
                 <div class="location-stats">
@@ -50,7 +50,7 @@
                         <span class="stat-label">Recent Reports</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">0</span>
+                        <span class="stat-number">30</span>
                         <span class="stat-label">Local Services</span>
                     </div>
                     <div class="stat-item">
@@ -151,226 +151,6 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    
-    <script>
-        // Comprehensive location data
-        const LOCATION_DATA = {
-            name: "Million, Madison County",
-            category: "historical",
-            slug: "million-madison-county",
-            coordinates: None,
-            businesses: [],
-            events: [
-        {
-                "name": "Global BCI Race Heats Up as China Unveils New Policies to Accelerate Brain-Tech in Healthcare",
-                "type": "Historical Mystery",
-                "description": "China has unveiled new policies to accelerate the development and adoption of brain-computer interface technology for medical purposes.",
-                "category": "historical"
-        },
-        {
-                "name": "Megaplatanos: The Greek Roswell",
-                "type": "Historical Mystery",
-                "description": "<p>Megaplatanos is a small village situated an hour and a half drive just outside the city of Athens, Greece. Like most Greek villages, it is home to mainly shepherds and farmers that toil in the fields and mountains from dawn to dusk. On September 2nd, 1990, around 9 at night, half a dozen strange lights</p>\n<p>The post <a href=\"https://www.ghosttheory.com/2020/03/29/megaplatanos-the-greek-roswell\" rel=\"nofollow\">Megaplatanos: The Greek Roswell</a> appeared first on <a href=\"https://www.ghosttheory.com\" rel=\"nofollow\">Ghost Theory</a>.</p>",
-                "category": "historical"
-        }
-],
-            stats: {
-        "business_count": 0,
-        "event_count": 2,
-        "last_updated": "2025-07-16T20:50:18.730738"
-},
-            metadata: {
-        "title": "Historical Mysteries in Million, Madison County - Tours & Services",
-        "description": "Explore historical mysteries in Million, Madison County. Explore the mysterious history of Million, a town in Madison County that has been shrouded in secrecy for decades. Disco",
-        "keywords": [
-                "Million, Madison County",
-                "historical tourism",
-                "UFO sightings",
-                "brain-tech"
-        ],
-        "page_description": "Explore the mysterious history of Million, a town in Madison County that has been shrouded in secrecy for decades. Discover the remnants of an alleged UFO hotspot and learn about the events surrounding China's recent policies to accelerate brain-tech in healthcare."
-},
-            lastUpdated: "2025-07-16T20:50:18.730738"
-        };
-        
-        // Map initialization functions
-        let sightingsMap = null;
-        
-        function initSightingsMap() {
-            // Default to location coordinates or fallback
-            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
-            
-            // Initialize the sightings map
-            sightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
-            
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors'
-            }).addTo(sightingsMap);
-            
-            // Add markers for events
-            LOCATION_DATA.events.forEach((event, index) => {
-                if (event.coordinates) {
-                    const marker = L.marker(event.coordinates).addTo(sightingsMap);
-                    marker.bindPopup(`
-                        <div class="sighting-popup">
-                            <h6>${event.name || 'Unknown Event'}</h6>
-                            <p><strong>Type:</strong> ${event.type || 'Unknown'}</p>
-                            <p><strong>Description:</strong> ${event.description || 'No description available'}</p>
-                        </div>
-                    `);
-                } else if (LOCATION_DATA.coordinates) {
-                    // If event has no coordinates, place it at the general location
-                    const marker = L.marker(LOCATION_DATA.coordinates).addTo(sightingsMap);
-                    marker.bindPopup(`
-                        <div class="sighting-popup">
-                            <h6>${event.name || 'Unknown Event'}</h6>
-                            <p><strong>Type:</strong> ${event.type || 'Unknown'}</p>
-                            <p><strong>Description:</strong> ${event.description || 'No description available'}</p>
-                            <p><em>General location</em></p>
-                        </div>
-                    `);
-                }
-            });
-            
-            // Add businesses to the map
-            LOCATION_DATA.businesses.forEach(business => {
-                const geometry = business.geometry || {};
-                const location = geometry.location || {};
-                
-                if (location.lat && location.lng) {
-                    const businessMarker = L.marker([location.lat, location.lng]).addTo(sightingsMap);
-                    businessMarker.bindPopup(`
-                        <div class="business-popup">
-                            <h6>${business.name || 'Unknown Business'}</h6>
-                            <p><strong>Type:</strong> ${business.keyword || 'Service'}</p>
-                            <p><strong>Address:</strong> ${business.address || 'No address available'}</p>
-                            ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
-                        </div>
-                    `);
-                }
-            });
-            
-            // If we have coordinates, add a general location marker
-            if (LOCATION_DATA.coordinates) {
-                const locationMarker = L.marker(LOCATION_DATA.coordinates, {
-                    icon: L.icon({
-                        iconUrl: '/assets/location-marker.png',
-                        iconSize: [25, 41],
-                        iconAnchor: [12, 41],
-                        popupAnchor: [1, -34],
-                        shadowSize: [41, 41]
-                    })
-                }).addTo(sightingsMap);
-                
-                locationMarker.bindPopup(`
-                    <div class="location-popup">
-                        <h6>${LOCATION_DATA.name}</h6>
-                        <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
-                        <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
-                        <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
-                    </div>
-                `);
-            }
-        }
-        
-        function populateRecentEvents() {
-            const recentEventsList = document.getElementById('recentEventsList');
-            if (!recentEventsList) return;
-            
-            if (LOCATION_DATA.events.length === 0) {
-                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
-                return;
-            }
-            
-            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map(event => {
-                const eventDate = event.date || 'Unknown date';
-                const eventName = event.name || 'Unnamed Event';
-                const eventType = event.type || 'Unknown Type';
-                
-                return `
-                    <div class="event-item">
-                        <div class="event-header">
-                            <h6 class="event-name">${eventName}</h6>
-                            <span class="event-type">${eventType}</span>
-                        </div>
-                        <p class="event-description">${event.description || 'No description available'}</p>
-                        <small class="event-date">${eventDate}</small>
-                    </div>
-                `;
-            }).join('');
-            
-            recentEventsList.innerHTML = eventsHtml;
-        }
-        
-        function populateBusinesses() {
-            const localBusinesses = document.getElementById('localBusinesses');
-            if (!localBusinesses) return;
-            
-            if (LOCATION_DATA.businesses.length === 0) {
-                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
-                return;
-            }
-            
-            const businessesHtml = LOCATION_DATA.businesses.map(business => {
-                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
-                const address = business.address ? `<p class="address">${business.address}</p>` : '';
-                
-                return `
-                    <div class="business-card">
-                        <div class="business-header">
-                            <h5 class="business-name">${business.name || 'Unknown Business'}</h5>
-                            ${rating}
-                        </div>
-                        <p class="business-type">${business.keyword || 'Service'}</p>
-                        ${address}
-                        ${business.website ? `<a href="${business.website}" target="_blank" class="business-link">Visit Website</a>` : ''}
-                    </div>
-                `;
-            }).join('');
-            
-            localBusinesses.innerHTML = businessesHtml;
-        }
-        
-        function populateLocationInfo() {
-            const locationInfo = document.getElementById('locationInfo');
-            if (!locationInfo) return;
-            
-            const coords = LOCATION_DATA.coordinates;
-            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
-            
-            locationInfo.innerHTML = `
-                <div class="info-item">
-                    <strong>Coordinates:</strong> ${coordsText}
-                </div>
-                <div class="info-item">
-                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
-                </div>
-                <div class="info-item">
-                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
-                </div>
-                <div class="info-item">
-                    <strong>Data Sources:</strong> ${LOCATION_DATA.businesses.length + LOCATION_DATA.events.length} records
-                </div>
-            `;
-        }
-        
-        // Category-specific styling and initialization
-        document.addEventListener('DOMContentLoaded', function() {
-            document.body.classList.add('category-historical');
-            
-            // Initialize maps and content
-            initSightingsMap();
-            populateRecentEvents();
-            populateBusinesses();
-            populateLocationInfo();
-            
-            // Legacy compatibility
-            if (typeof loadLocationContent === 'function') {
-                loadLocationContent();
-            }
-        });
-    </script>
-    <script src="../location-detail.js"></script>
+    <script src="location-detail.js"></script>
 </body>
 </html>

@@ -1,30 +1,758 @@
 {
   "location_name": "Did, Ilovik",
   "category": "historical",
-  "timestamp": "20250716_204759",
-  "businesses": [],
+  "timestamp": "20250722_120732",
+  "businesses": [
+    {
+      "name": "Principovac",
+      "address": "32236, Ilok, Croatia",
+      "rating": 4.8,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ-2HdnMx5W0cRqOBFTHdvkRY",
+      "keyword": "things to do attractions tours",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1413,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.1998508,
+          "lng": 19.358512299999997
+        }
+      }
+    },
+    {
+      "name": "Museum of Apoxyomenos",
+      "address": "Riva lo\u0161injskih kapetana 13, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJT3V5RC74YkcRMyGgewdaF68",
+      "keyword": "museums visitor centers",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 2244,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.534799899999996,
+          "lng": 14.4670508
+        }
+      }
+    },
+    {
+      "name": "Hotel Bellevue",
+      "address": "\u010cikat ul. 9, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "japanese_restaurant",
+        "spa",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhQL1kdT5YkcRD5xCgC7eAYs",
+      "keyword": "hotels accommodation lodging",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1129,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.53223,
+          "lng": 14.455214000000002
+        }
+      }
+    },
+    {
+      "name": "Moby Dick",
+      "address": "Ul. Vladimira Gortana 38, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.7,
+      "types": [
+        "cafe",
+        "ice_cream_shop",
+        "dessert_restaurant",
+        "dessert_shop",
+        "confectionery",
+        "buffet_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ8UvVWi_4YkcR3xtSz6DLJog",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1486,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.531906,
+          "lng": 14.4692597
+        }
+      }
+    },
+    {
+      "name": "Bocca Vera",
+      "address": "Riva lo\u0161injskih kapetana 10, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJPwY6Ti74YkcR6CoTM8O03o0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2528,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5346797,
+          "lng": 14.467224700000001
+        }
+      }
+    },
+    {
+      "name": "Agroturizam - Miomirisni oto\u010dki vrt",
+      "address": "Bukovica ul. 16, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ9YG3Cyb4YkcRgA0J7TcOLBM",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 577,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5273191,
+          "lng": 14.476587799999999
+        }
+      }
+    },
+    {
+      "name": "Vitality Hotel Punta",
+      "address": "\u0160estavine 17, 51551, Veli Lo\u0161inj, Croatia",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "fitness_center",
+        "wellness_center",
+        "athletic_field",
+        "gym",
+        "sports_activity_location",
+        "lodging",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJf4XZggH4YkcRp1o-St8agIA",
+      "keyword": "hotels accommodation lodging",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 2171,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.523551,
+          "lng": 14.497040499999997
+        }
+      }
+    },
+    {
+      "name": "Konoba \"Oliva\" Ilovik",
+      "address": "Ilkovik 23, 51552, Ilovik, Croatia",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ2UPRxGpZYkcRDJVyD2yXu2M",
+      "keyword": "restaurants food dining",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 522,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.4616012,
+          "lng": 14.547900499999997
+        }
+      }
+    },
+    {
+      "name": "Pizzeria - Restaurant PapaBepi",
+      "address": "Trg Zagazinjine 2, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJGVlnUSX4YkcRnyGITNo_fG0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1857,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.535159,
+          "lng": 14.472352599999999
+        }
+      }
+    },
+    {
+      "name": "Luka Riva",
+      "address": "Ul. Rovenska, 51551, Veli Lo\u0161inj, Croatia",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe7qsnwFYYkcR1x5K-uP3nuQ",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 635,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5194578,
+          "lng": 14.5062583
+        }
+      }
+    },
+    {
+      "name": "Camping Cikat",
+      "address": "\u010cikat ul. 6a, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7UbEuND5YkcR5-NI3Rf1rFM",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 4109,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.535936199999995,
+          "lng": 14.451117400000001
+        }
+      }
+    },
+    {
+      "name": "Camping Slatina",
+      "address": "Martin\u0161\u0107ica 92, 51556, Vidovi\u0107i, Croatia",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAxw31ZEZY0cRguuqG-zl6KY",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1393,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.8207697,
+          "lng": 14.342978799999997
+        }
+      }
+    },
+    {
+      "name": "\u010cikat Aquapark",
+      "address": "\u010cikat ul. 6a, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.5,
+      "types": [
+        "water_park",
+        "amusement_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJP54HO9H5YkcR6WF1C-hQdkI",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 5048,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.537129,
+          "lng": 14.448767000000002
+        }
+      }
+    },
+    {
+      "name": "Camping Baldarin",
+      "address": "Bokini\u0107 66, 51554, Nerezine, Croatia",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJm0nec-T-YkcRZUonM0OlObs",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1173,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.6160132,
+          "lng": 14.508390299999999
+        }
+      }
+    },
+    {
+      "name": "Hotel Aurora",
+      "address": "Ul. Sun\u010dana uvala 4, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-b6MVYH3YkcRoffliF-Y9Mw",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2520,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5231747,
+          "lng": 14.458981900000001
+        }
+      }
+    },
+    {
+      "name": "Family Hotel Vespera",
+      "address": "Ul. Sun\u010dana uvala 5, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJE0Szqob3YkcR2JYlcpyQEAM",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1827,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5208495,
+          "lng": 14.459529299999998
+        }
+      }
+    },
+    {
+      "name": "Lanterna Grill & Gourmet",
+      "address": "\u010cikat ul. 24, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "bar_and_grill",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJL4YIm373YkcRXkYxnDz99W8",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1899,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.526044,
+          "lng": 14.448671000000001
+        }
+      }
+    },
+    {
+      "name": "Casa Esempio",
+      "address": "Ilovik 21, 51552, Ilovik, Croatia",
+      "rating": 4.7,
+      "types": [
+        "wine_bar",
+        "bar",
+        "lodging",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJV4QV1mpZYkcRxXqczMG27R8",
+      "keyword": "restaurants food dining",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 478,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.4618168,
+          "lng": 14.547897400000002
+        }
+      }
+    },
+    {
+      "name": "Ilok Municipal Museum",
+      "address": "\u0160etali\u0161te o. Mladena Barbari\u0107a 5, 32236, Ilok, Croatia",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "cultural_landmark",
+        "historical_landmark",
+        "historical_place",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5x7x7O15W0cRRA5y1A0z-T4",
+      "keyword": "things to do attractions tours",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 465,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2241298,
+          "lng": 19.373068699999997
+        }
+      }
+    },
+    {
+      "name": "Lopari Camping Resort",
+      "address": "Lopari 1, 51554, Nerezine, Croatia",
+      "rating": 4.3,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJya59DFr9YkcRBTbnLm-06HA",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1221,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.681042,
+          "lng": 14.396123
+        }
+      }
+    },
+    {
+      "name": "Rapo\u0107a Camping Village",
+      "address": "Ul. Rapo\u0107a 21, 51554, Nerezine, Croatia",
+      "rating": 4.3,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJteDpmiL9YkcRc8BRjGbkWO4",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 640,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.6633187,
+          "lng": 14.3989811
+        }
+      }
+    },
+    {
+      "name": "Lidl",
+      "address": "Omladinska ul. 1/A, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.2,
+      "types": [
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJQ7lhwCj4YkcRiCkOFI2Govc",
+      "keyword": "nearby_store",
+      "user_ratings_total": 2538,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.529959999999996,
+          "lng": 14.467709999999997
+        }
+      }
+    },
+    {
+      "name": "Camping Village Poljana",
+      "address": "Rujnica ul. 9/a, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4,
+      "types": [
+        "camping_cabin",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx5BXTJb5YkcRje8WBU87Pa0",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1235,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.555495799999996,
+          "lng": 14.4420759
+        }
+      }
+    },
+    {
+      "name": "Super Konzum",
+      "address": "Dra\u017eica 18B, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 3.9,
+      "types": [
+        "convenience_store",
+        "warehouse_store",
+        "supermarket",
+        "grocery_store",
+        "food_store",
+        "store",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJU8ABeif4YkcRUuGme18lL7s",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1185,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.528287999999996,
+          "lng": 14.464584
+        }
+      }
+    },
+    {
+      "name": "Amico gostionica",
+      "address": "51552, Ilovik, Croatia",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJW6Co6gxZYkcR7BzP5FSBJPk",
+      "keyword": "restaurants food dining",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 429,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.461218599999995,
+          "lng": 14.5483305
+        }
+      }
+    },
+    {
+      "name": "Restoran Dalmatinka",
+      "address": "60, Ilovik, 51219, Ilovik, Croatia",
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJzexAGmpZYkcRe2eGbjW9a_4",
+      "keyword": "restaurants food dining",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 398,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.4600959,
+          "lng": 14.551648099999998
+        }
+      }
+    },
+    {
+      "name": "Boutique Hotel Alhambra, an SLH Hotel",
+      "address": "\u010cikat ul. 16, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.8,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBUzbXyH4YkcRXpOmSdt7Xjg",
+      "keyword": "hotels accommodation lodging",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 315,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5310091,
+          "lng": 14.4582056
+        }
+      }
+    },
+    {
+      "name": "Tourist Board Mali Losinj",
+      "address": "Priko ul. 42, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.3,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ9z2mVC74YkcRh0WDTN-5lBY",
+      "keyword": "travel services tourism",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 274,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.5330389,
+          "lng": 14.465627099999999
+        }
+      }
+    },
+    {
+      "name": "Ilovik",
+      "address": "Ilovik, Croatia",
+      "rating": 4.6,
+      "types": [
+        "natural_feature",
+        "establishment"
+      ],
+      "place_id": "ChIJ5-YG0kRZYkcRM-_t4fU-038",
+      "keyword": "things to do attractions tours",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 212,
+      "price_level": null,
+      "business_status": null,
+      "geometry": {
+        "location": {
+          "lat": 44.4523198,
+          "lng": 14.5514283
+        }
+      }
+    },
+    {
+      "name": "Restaurant PORTO",
+      "address": "621, Ilovik, Croatia",
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJz4tTdmpZYkcR64jIHfjcSXc",
+      "keyword": "restaurants food dining",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 228,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.459634699999995,
+          "lng": 14.5502108
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Breakthrough Metagrating Tech Filters Light with Unprecedented Precision\u2014A Game Changer for Advanced Imaging",
       "type": "Historical Mystery",
       "description": "Scientists build a \"metagrating\" filter that selects light by both wavelength and angle\u2014unlocking next-gen AR, sensors, and imaging.",
       "category": "historical"
+    },
+    {
+      "name": "Did the millennium falcon land there or what\u2019s going on? Australia \ud83c\udde6\ud83c\uddfa UFO UAP sighting news. \ud83d\udcf0",
+      "type": "UFO Sighting",
+      "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9Lh_3tizupIdxDA6XnLfUD2tqIr-3De22XAWZfgH1yesly6T18gel7w9eGw4eRavPprtih5_TWPhXztwem41R4VzE7ROU9qPMi41qdLiJWSkdQ4HZm-ZtsmUCPSIUEQW5B5rgSckBrPQxZ7KwSBdfyRDW_jtK_U6GTjqWbuWpztN2ST3ZEseFrn29XmA/s738/UFO_Sighting.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"418\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9Lh_3tizupIdxDA6XnLfUD2tqIr-3De22XAWZfgH1yesly6T18gel7w9eGw4eRavPprtih5_TWPhXztwem41R4VzE7ROU9qPMi41qdLiJWSkdQ4HZm-ZtsmUCPSIUEQW5B5rgSckBrPQxZ7KwSBdfyRDW_jtK_U6GTjqWbuWpztN2ST3ZEseFrn29XmA/w640-h418/UFO_Sighting.png\" width=\"640\" /></a></div><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of discovery: July 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of&nbsp;discovery: Australia</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Now this is strange...I found the Millennium Falcon from Star&nbsp;Wars sitting in the&nbsp;desert in the middle of nowhere in Australia. Maybe it landed there and its a new USAF military&nbsp;craft, or maybe its a Star Wars fan that build a house there or maybe its for Disney...but what I do know is...it doesn't belong there and it seems to have flown to its current location.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+      "category": "ufo"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Did, Ilovik. Explore the mysterious site where the world's first metagrating technology was developed, a game-changer for advanced im",
+    "meta_description": "Explore historical mysteries in Did, Ilovik. Explore the enigmatic Did Ilovik, a mysterious location in Australia where reports of UFO sightings and advanced imaging",
     "title": "Historical Mysteries in Did, Ilovik - Tours & Services",
-    "description": "Explore the mysterious site where the world's first metagrating technology was developed, a game-changer for advanced imaging. Discover the fascinating history of this enigmatic location.",
+    "description": "Explore the enigmatic Did Ilovik, a mysterious location in Australia where reports of UFO sightings and advanced imaging technology have sparked intrigue. Discover the history behind this fascinating site and experience it for yourself.",
     "keywords": [
-      "metagrating tech",
-      "history",
-      "unprecedented precision"
+      "Did Ilovik",
+      "UFO sightings",
+      "Australian mysteries"
     ],
-    "category": "historical"
+    "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
-    "event_count": 1,
-    "last_updated": "2025-07-16T20:47:59.571076"
+    "business_count": 30,
+    "event_count": 2,
+    "last_updated": "2025-07-22T12:07:32.943736"
   }
 }

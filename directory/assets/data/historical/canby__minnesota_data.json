@@ -1,8 +1,740 @@
 {
   "location_name": "Canby, Minnesota",
   "category": "historical",
-  "timestamp": "20250716_204455",
-  "businesses": [],
+  "timestamp": "20250722_120116",
+  "businesses": [
+    {
+      "name": "Kerfoot Canopy Tour",
+      "address": "30200 Scenic Byway Rd, Henderson, MN 56044, USA",
+      "rating": 4.9,
+      "types": [
+        "adventure_sports_center",
+        "tourist_attraction",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSwJNZpnd9YcRPCF63XH-goI",
+      "keyword": "things to do attractions tours",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 825,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.6137627,
+          "lng": -93.8731062
+        }
+      }
+    },
+    {
+      "name": "Gooseberry Falls State Park",
+      "address": "3206 MN-61, Two Harbors, MN 55616, USA",
+      "rating": 4.9,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcUOH6gpIr1IRRhR90ucVTZo",
+      "keyword": "things to do",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 10232,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.139632999999996,
+          "lng": -91.4731362
+        }
+      }
+    },
+    {
+      "name": "Tettegouche State Park",
+      "address": "5702 MN-61, Silver Bay, MN 55614, USA",
+      "rating": 4.9,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7Sg2az2sqFIR-ljZsWlFKXI",
+      "keyword": "things to do",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 4177,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.3393554,
+          "lng": -91.1959925
+        }
+      }
+    },
+    {
+      "name": "The Bakken Museum",
+      "address": "3537 Zenith Ave S, Minneapolis, MN 55416, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJrYas0UMn9ocRqCjAkQa6HTo",
+      "keyword": "museums",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 562,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.9383359,
+          "lng": -93.321289
+        }
+      }
+    },
+    {
+      "name": "Backstop Bar & Grill",
+      "address": "211 N Grant St, Canby, OR 97013, USA",
+      "rating": 4.6,
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ1dP1k3hllVQR9o4cDjna2qE",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 1552,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2627135,
+          "lng": -122.6961403
+        }
+      }
+    },
+    {
+      "name": "Canby Community (River) Park",
+      "address": "SW Berg Pkwy, Canby, OR 97013, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr8f6xZBllVQR8kBzqKkF4Pc",
+      "keyword": "parks recreation outdoor",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 603,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2518544,
+          "lng": -122.70475189999999
+        }
+      }
+    },
+    {
+      "name": "The Wild Hare Saloon Canby",
+      "address": "1190 SW 1st Ave, Canby, OR 97013, USA",
+      "rating": 4.4,
+      "types": [
+        "american_restaurant",
+        "hamburger_restaurant",
+        "seafood_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlX3TN4VllVQRAK7vot9Ji-4",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 1219,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2560542,
+          "lng": -122.7062315
+        }
+      }
+    },
+    {
+      "name": "P K Egans Family Restaurant",
+      "address": "115 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 4.6,
+      "types": [
+        "pizza_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhStmoAMFiocRlWd7KOXnpAo",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 438,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.708921800000006,
+          "lng": -96.2757761
+        }
+      }
+    },
+    {
+      "name": "Kathy's Place",
+      "address": "101 Maple St, Sacred Heart, MN 56285, USA",
+      "rating": 4.7,
+      "types": [
+        "diner",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJi_0ir86jiocRtcDvsQDnbKs",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 236,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.787026,
+          "lng": -95.3498051
+        }
+      }
+    },
+    {
+      "name": "Canby Inn & Suites",
+      "address": "127 1st St W, Canby, MN 56220, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJeRGZqAMFiocRqBaLwyHBxGo",
+      "keyword": "hotels accommodation lodging",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 203,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7096119,
+          "lng": -96.27703389999999
+        }
+      }
+    },
+    {
+      "name": "Buffalo Ridge Resort and Business Center",
+      "address": "1312 Coteau St, Gary, SD 57237, USA",
+      "rating": 4.4,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYzx2Zkn-iYcRQZt-vamMcpI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 213,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.795612299999995,
+          "lng": -96.45535269999999
+        }
+      }
+    },
+    {
+      "name": "State Line Bar & Grill",
+      "address": "4000 Edgewater Dr, Gary, SD 57237, USA",
+      "rating": 4.4,
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5V6Y2vPqEYgRJiyUQu5NYdM",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 209,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.709369599999995,
+          "lng": -96.4620437
+        }
+      }
+    },
+    {
+      "name": "Wait City Park",
+      "address": "350 N Grant St, Canby, OR 97013, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_9MeNT1llVQRMuzGlUkeHKk",
+      "keyword": "parks recreation outdoor",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 159,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2644419,
+          "lng": -122.6957853
+        }
+      }
+    },
+    {
+      "name": "Heroes Sports Bar & Grill",
+      "address": "205 1st St W, Canby, MN 56220, USA",
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "dance_hall",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTaHmSAIFiocRwKi-Gyhf3DM",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 167,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7098379,
+          "lng": -96.2777534
+        }
+      }
+    },
+    {
+      "name": "Jim's Market",
+      "address": "911 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 4.5,
+      "types": [
+        "grocery_store",
+        "supermarket",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-7HQMggFiocRZU5BD4BEuXo",
+      "keyword": "gas stations convenience stores",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 155,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7155339,
+          "lng": -96.2653351
+        }
+      }
+    },
+    {
+      "name": "Korner Stone Kravings",
+      "address": "229 1st St W, Canby, MN 56220, USA",
+      "rating": 4.8,
+      "types": [
+        "bakery",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ3d4UOQIFiocR7Q2HUBLRDW0",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 104,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7103482,
+          "lng": -96.27849640000001
+        }
+      }
+    },
+    {
+      "name": "Dairy Queen Grill & Chill",
+      "address": "9 St Olaf Ave S, Canby, MN 56220, USA",
+      "rating": 4,
+      "types": [
+        "fast_food_restaurant",
+        "ice_cream_shop",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJOfADCQMFiocRJuF0_xMHS-M",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 172,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7080638,
+          "lng": -96.2768061
+        }
+      }
+    },
+    {
+      "name": "Amber Pietan Travel Agency, Inc",
+      "address": "340 Pierce Ave, North Mankato, MN 56003, USA",
+      "rating": 5,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJn85nX2A39IcRUy6-WTQBTGk",
+      "keyword": "travel services tourism",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 71,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.1802427,
+          "lng": -94.00980170000001
+        }
+      }
+    },
+    {
+      "name": "Canby Theatre",
+      "address": "109 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 4.8,
+      "types": [
+        "movie_theater",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJi3SEoAMFiocRYWYBRbtipDA",
+      "keyword": "things to do attractions tours",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 67,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7087334,
+          "lng": -96.27583179999999
+        }
+      }
+    },
+    {
+      "name": "Runnings",
+      "address": "116 Fairgrounds Rd W, Canby, MN 56220, USA",
+      "rating": 4.6,
+      "types": [
+        "department_store",
+        "clothing_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJE_-fcQMFiocRYyevp6K1sXo",
+      "keyword": "gas stations convenience stores",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 83,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7178939,
+          "lng": -96.260037
+        }
+      }
+    },
+    {
+      "name": "Lake Cochrane Recreation Area",
+      "address": "3454 Edgewater Dr, Gary, SD 57237, USA",
+      "rating": 4.5,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJP_AnAHL5iYcRbNoj63CjRdo",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 87,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7147346,
+          "lng": -96.4774795
+        }
+      }
+    },
+    {
+      "name": "Dollar General",
+      "address": "809 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 4.3,
+      "types": [
+        "discount_store",
+        "drugstore",
+        "convenience_store",
+        "grocery_store",
+        "food_store",
+        "store",
+        "health",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvRQ-QggFiocRgqP8dViras8",
+      "keyword": "gas stations convenience stores",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 94,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7148028,
+          "lng": -96.26716370000001
+        }
+      }
+    },
+    {
+      "name": "Canby Meat Center",
+      "address": "125 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 4.9,
+      "types": [
+        "butcher_shop",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJN6croAMFiocRfBKznfc7Vro",
+      "keyword": "shopping retail stores",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 27,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.709099699999996,
+          "lng": -96.2756134
+        }
+      }
+    },
+    {
+      "name": "Maple Street Park",
+      "address": "1200 N Maple St, Canby, OR 97013, USA",
+      "rating": 4.9,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFcwNyt5llVQRdchpmEmODU4",
+      "keyword": "parks recreation outdoor",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 27,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.272089099999995,
+          "lng": -122.6856207
+        }
+      }
+    },
+    {
+      "name": "Stonehill Regional Park",
+      "address": "1801 County Road 30, Canby, MN 56220, USA",
+      "rating": 4.6,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJg-rs9dsciocR6p_Ew6dnBlw",
+      "keyword": "things to do attractions tours",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 50,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.695275699999996,
+          "lng": -96.30108489999999
+        }
+      }
+    },
+    {
+      "name": "CANBY PUBLIC LIBRARY",
+      "address": "110 Oscar Ave N, Canby, MN 56220, USA",
+      "rating": 5,
+      "types": [
+        "library",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVVX5fQMFiocRCOUmkxPDEQg",
+      "keyword": "museums visitor centers",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 10,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.708498299999995,
+          "lng": -96.27479410000001
+        }
+      }
+    },
+    {
+      "name": "A New Leaf",
+      "address": "126 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 5,
+      "types": [
+        "florist",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJw8PQoQMFiocRE3q-eYpVmAo",
+      "keyword": "gift shops souvenirs",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 10,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.709392,
+          "lng": -96.2756801
+        }
+      }
+    },
+    {
+      "name": "Travel Place",
+      "address": "310 10th St, Windom, MN 56101, USA",
+      "rating": 5,
+      "types": [
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5buFRrNNi4cRgxUXzXumyik",
+      "keyword": "travel services tourism",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 9,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.8667102,
+          "lng": -95.1166494
+        }
+      }
+    },
+    {
+      "name": "A1 Travel",
+      "address": "3601 Minnesota Dr #190, Minneapolis, MN 55435, USA",
+      "rating": 4.5,
+      "types": [
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOewJSBIk9ocRhCozi_B_SpQ",
+      "keyword": "travel services tourism",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 58,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.861095999999996,
+          "lng": -93.326847
+        }
+      }
+    },
+    {
+      "name": "Pleasant Valley Lodge & Cabins",
+      "address": "18278 SD-22, Gary, SD 57237, USA",
+      "rating": 5,
+      "types": [
+        "motel",
+        "lodging",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJyrC5nr8iYcRdLHqsJq1kKs",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 7,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7373754,
+          "lng": -96.45596850000001
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "The Disappearance of Brandon Swanson",
@@ -18,19 +750,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Canby, Minnesota. Explore the mysterious Disappearance of Brandon Swanson, a local resident who vanished in 1978. Visit the site where his",
+    "meta_description": "Explore historical mysteries in Canby, Minnesota. Explore the mysterious past of Canby, Minnesota, where a legendary disappearance in 1927 remains shrouded in secrecy. Vi",
     "title": "Historical Mysteries in Canby, Minnesota - Tours & Services",
-    "description": "Explore the mysterious Disappearance of Brandon Swanson, a local resident who vanished in 1978. Visit the site where his disappearance was first reported and learn about the strange events that followed.",
+    "description": "Explore the mysterious past of Canby, Minnesota, where a legendary disappearance in 1927 remains shrouded in secrecy. Visit the site of the alleged UFO sighting and learn about the strange events that took place on May 25, 2025.",
     "keywords": [
-      "Brandon Swanson",
-      "Disappearance",
-      "UFO sightings"
+      "Canby Minnesota",
+      "UFO sightings",
+      "disappearance mystery"
     ],
     "category": "historical"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:44:55.462248"
+    "last_updated": "2025-07-22T12:01:16.694773"
   }
 }

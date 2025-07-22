@@ -1,8 +1,742 @@
 {
   "location_name": "Earth, Lamb County",
   "category": "ufo",
-  "timestamp": "20250716_205210",
-  "businesses": [],
+  "timestamp": "20250722_121541",
+  "businesses": [
+    {
+      "name": "Captain Ron's Swamp Tours",
+      "address": "5181 Cypress Dr E, Uncertain, TX 75661, USA",
+      "rating": 4.9,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQTLBf0-UNoYR04Hlf0soNSo",
+      "keyword": "things to do attractions tours",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 498,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.70647,
+          "lng": -94.11825999999999
+        }
+      }
+    },
+    {
+      "name": "Big Bend National Park",
+      "address": "Texas, USA",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK-_lS3AX8oYRD4WDJ7x9RmQ",
+      "keyword": "entertainment activities",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 6034,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.2498194,
+          "lng": -103.2501636
+        }
+      }
+    },
+    {
+      "name": "Shangri La Botanical Gardens and Nature Center",
+      "address": "2111 W Park Ave, Orange, TX 77630, USA",
+      "rating": 4.8,
+      "types": [
+        "botanical_garden",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4YicS6yqPoYRUR26hPJYuN0",
+      "keyword": "entertainment activities",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 1049,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.1026639,
+          "lng": -93.75168389999999
+        }
+      }
+    },
+    {
+      "name": "Caddo Lake State Park",
+      "address": "245 Park Rd 2, Karnack, TX 75661, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4RDHJA-TNoYR-0ucS97gGkw",
+      "keyword": "things to do attractions tours",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 2081,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.6824175,
+          "lng": -94.17674199999999
+        }
+      }
+    },
+    {
+      "name": "East Texas Arboretum",
+      "address": "1601 Patterson Rd, Athens, TX 75751, USA",
+      "rating": 4.7,
+      "types": [
+        "hiking_area",
+        "tourist_attraction",
+        "botanical_garden",
+        "museum",
+        "picnic_ground",
+        "sports_activity_location",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJO0cO8F39SIYRQ8MGyomt0aE",
+      "keyword": "things to do attractions tours",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 590,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.213401,
+          "lng": -95.878196
+        }
+      }
+    },
+    {
+      "name": "Meridian State Park",
+      "address": "173 Park Road #7, Meridian, TX 76665, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ97dPwn7ZT4YRcJCfZS46ZCM",
+      "keyword": "things to do",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 959,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.89027,
+          "lng": -97.69976
+        }
+      }
+    },
+    {
+      "name": "LOCO'S RESTAURANT & BAR",
+      "address": "603 W Waylon Jennings Blvd, Littlefield, TX 79339, USA",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "bar_and_grill",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJPwb730wJAocRlA5CvObL8Do",
+      "keyword": "restaurants food dining",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 679,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9174314,
+          "lng": -102.33616669999999
+        }
+      }
+    },
+    {
+      "name": "Franklin Drive Thru Safari",
+      "address": "4324 W Hwy 79, Franklin, TX 77856, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJE2E2ZXXbRYYRMwB9cLu05xc",
+      "keyword": "things to do attractions tours",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 1689,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.9857495,
+          "lng": -96.53766979999999
+        }
+      }
+    },
+    {
+      "name": "Eisenhower State Park",
+      "address": "50 Park Rd 20, Denison, TX 75020, USA",
+      "rating": 4.6,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZb6aDjiQTIYR3fGMVWwNCPQ",
+      "keyword": "parks recreation outdoor",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 2726,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.810133799999996,
+          "lng": -96.599255
+        }
+      }
+    },
+    {
+      "name": "MERUS Adventure Park",
+      "address": "4510 County Rd 9, Claude, TX 79019, USA",
+      "rating": 4.9,
+      "types": [
+        "adventure_sports_center",
+        "tourist_attraction",
+        "campground",
+        "hiking_area",
+        "off_roading_area",
+        "park",
+        "sports_complex",
+        "lodging",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl1hkFLElAYcRuE9PBBzDLVI",
+      "keyword": "parks recreation outdoor",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 465,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.954318,
+          "lng": -101.4685477
+        }
+      }
+    },
+    {
+      "name": "Oasis State Park",
+      "address": "1891 Base Line, Portales, NM 88130, USA",
+      "rating": 4.4,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj1tCfZvFAocR4vmKijNASnU",
+      "keyword": "parks recreation outdoor",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 535,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.256160699999995,
+          "lng": -103.3487985
+        }
+      }
+    },
+    {
+      "name": "Hillcrest Park",
+      "address": "1001 Sycamore St, Clovis, NM 88101, USA",
+      "rating": 4.4,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVdp0vf3dAocRThdVYrvLCeA",
+      "keyword": "parks recreation outdoor",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 743,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.4083648,
+          "lng": -103.1864086
+        }
+      }
+    },
+    {
+      "name": "Lofers Bend Day Use Park",
+      "address": "Whitney, TX 76692, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSVTHqFu5T4YRypT-O10czag",
+      "keyword": "parks recreation outdoor",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 450,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.8779477,
+          "lng": -97.3585949
+        }
+      }
+    },
+    {
+      "name": "North Plains Mall",
+      "address": "2809 N Prince St, Clovis, NM 88101, USA",
+      "rating": 3.8,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJATP2gBPeAocRiCO4ke96F6I",
+      "keyword": "shopping retail stores",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 1198,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.4251091,
+          "lng": -103.19398799999999
+        }
+      }
+    },
+    {
+      "name": "New York, Texas ZipLine Adventures",
+      "address": "7290 Co Rd 4328, Larue, TX 75770, USA",
+      "rating": 4.7,
+      "types": [
+        "adventure_sports_center",
+        "tourist_attraction",
+        "amusement_park",
+        "sports_complex",
+        "sports_activity_location",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCZP_x_pTSIYRDb247fznuig",
+      "keyword": "things to do attractions tours",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 398,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.149982,
+          "lng": -95.636102
+        }
+      }
+    },
+    {
+      "name": "The Chisholm Trail Outdoor Museum; Big Bear Native American Museum",
+      "address": "101 Chisholm Trail, Cleburne, TX 76033, USA",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "hotel",
+        "wedding_venue",
+        "tourist_attraction",
+        "event_venue",
+        "historical_place",
+        "lodging",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUzvHowQ4ToYRTDONXHHk_aA",
+      "keyword": "museums visitor centers",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 368,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.3230084,
+          "lng": -97.4488588
+        }
+      }
+    },
+    {
+      "name": "Nopalitos",
+      "address": "1012 W Waylon Jennings Blvd, Littlefield, TX 79339, USA",
+      "rating": 4.3,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ97jgE5YJAocRndLF7fiK1SA",
+      "keyword": "restaurants food dining",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 398,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9168307,
+          "lng": -102.34035349999999
+        }
+      }
+    },
+    {
+      "name": "Adamson-Spalding Storybook Garden",
+      "address": "1008-1098 N 6th St, Abilene, TX 79601, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJd_wFliKOVoYR_X2jXgDbBzA",
+      "keyword": "things to do",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 332,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4547489,
+          "lng": -99.73298009999999
+        }
+      }
+    },
+    {
+      "name": "Best Western South Plains Inn & Suites",
+      "address": "204 N College Ave, Levelland, TX 79336, USA",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3cL8FsDr_YYRSP_hrSFbw7s",
+      "keyword": "hotels",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 380,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.5950838,
+          "lng": -102.3686517
+        }
+      }
+    },
+    {
+      "name": "Museum of the Southwest",
+      "address": "1705 W Missouri Ave, Midland, TX 79701, USA",
+      "rating": 4.4,
+      "types": [
+        "museum",
+        "planetarium",
+        "wedding_venue",
+        "tourist_attraction",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJeWPFqGfY-4YR3CE3OWJ2g70",
+      "keyword": "museums visitor centers",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 365,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.993304,
+          "lng": -102.092519
+        }
+      }
+    },
+    {
+      "name": "Devil's Rope Museum",
+      "address": "100 Kingsley St, McLean, TX 79057, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4VOwrkoIqocReP6oIlP5xjo",
+      "keyword": "museums",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 328,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.231457999999996,
+          "lng": -100.597341
+        }
+      }
+    },
+    {
+      "name": "Crescent Park Motel & Suites",
+      "address": "2021 Hall Ave, Littlefield, TX 79339, USA",
+      "rating": 4.4,
+      "types": [
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJd8CfBusJAocRMN94IJt2wuE",
+      "keyword": "hotels accommodation lodging",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 344,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.906916900000006,
+          "lng": -102.32795499999999
+        }
+      }
+    },
+    {
+      "name": "Best Western Littlefield Inn & Suites",
+      "address": "2600 Hall Ave, Littlefield, TX 79339, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJaSUlb-kJAocRVUodL8kLjHk",
+      "keyword": "hotels",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 341,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9009859,
+          "lng": -102.3267688
+        }
+      }
+    },
+    {
+      "name": "Waylon Jennings Free RV Park",
+      "address": "1398 Hall Ave, Littlefield, TX 79339, USA",
+      "rating": 4.5,
+      "types": [
+        "rv_park",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPeclUZQJAocRPtoTb_ZZvzk",
+      "keyword": "parks recreation outdoor",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 257,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9123963,
+          "lng": -102.3268573
+        }
+      }
+    },
+    {
+      "name": "Asian Cuisine",
+      "address": "1001 E Waylon Jennings Blvd, Littlefield, TX 79339, USA",
+      "rating": 4.3,
+      "types": [
+        "asian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJTVU9M5YJAocR82BJYTbk360",
+      "keyword": "restaurants food dining",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 240,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9175885,
+          "lng": -102.32453389999999
+        }
+      }
+    },
+    {
+      "name": "Fiddler's Inn",
+      "address": "705 N Canyon St, Carlsbad, NM 88220, USA",
+      "rating": 4.8,
+      "types": [
+        "hotel",
+        "guest_house",
+        "bed_and_breakfast",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs8WYHMZ544YRnwubHXb4J3U",
+      "keyword": "hotels accommodation lodging",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 174,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4279823,
+          "lng": -104.2279846
+        }
+      }
+    },
+    {
+      "name": "Travelers World Campground",
+      "address": "1361 Highway 60-84, Clovis, NM 88101, USA",
+      "rating": 4.6,
+      "types": [
+        "rv_park",
+        "auto_parts_store",
+        "car_repair",
+        "campground",
+        "park",
+        "lodging",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJXxtvd6neAocRVLFu6KsrbuE",
+      "keyword": "camping rv parks",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 194,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.4038529,
+          "lng": -103.26052879999999
+        }
+      }
+    },
+    {
+      "name": "Gebo's",
+      "address": "707 W Marshall Howard Blvd, Littlefield, TX 79339, USA",
+      "rating": 4.5,
+      "types": [
+        "home_goods_store",
+        "hardware_store",
+        "clothing_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB5p7HpgJAocRE8uBBucC_bI",
+      "keyword": "shopping retail stores",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 200,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.90637520000001,
+          "lng": -102.3382103
+        }
+      }
+    },
+    {
+      "name": "The Bobcat Inn",
+      "address": "442 Old Las Vegas Hwy, Santa Fe, NM 87505, USA",
+      "rating": 4.9,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiXLq8WZWGIcR23FEvS8SBn0",
+      "keyword": "hotels accommodation lodging",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 158,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.581368,
+          "lng": -105.8955495
+        }
+      }
+    },
+    {
+      "name": "Ray and Donna West Free RV Park",
+      "address": "Sherman St, Muleshoe, TX 79347, USA",
+      "rating": 4.6,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJD8tJb1heAocRMM8QbyQbESE",
+      "keyword": "camping rv parks",
+      "location": "Earth, Lamb County",
+      "user_ratings_total": 173,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.2376143,
+          "lng": -102.745908
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Do Certain Songs Help You \u2018Time Travel\u2019? A New Study on the Link Between Music and Memory Could Explain Why",
@@ -12,22 +746,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Discover ufo sightings in Earth, Lamb County. 1 documented events, 0 local services and attractions.",
-    "title": "UFO Sightings in Earth, Lamb County - Tours, Investigators & Services",
-    "description": "Explore ufo sightings in Earth, Lamb County. Notable events include Do Certain Songs Help You \u2018Time Travel\u2019? A New Study on the Link Between Music and Memory Could Explain Why.",
+    "meta_description": "Explore ufo mysteries in Earth, Lamb County. Explore the mysterious world of Earth, Lamb County, where a legendary UFO hotspot beckons. Join Captain Ron's Swamp Tour",
+    "title": "Ufo Mysteries in Earth, Lamb County - Tours & Services",
+    "description": "Explore the mysterious world of Earth, Lamb County, where a legendary UFO hotspot beckons. Join Captain Ron's Swamp Tours for an out-of-this-world experience, and uncover the secrets hidden within Big Bend National Park, Shangri La Botanical Gardens, and Caddo Lake State Park.",
     "keywords": [
-      "ufo Earth, Lamb County",
-      "ufo sightings Earth, Lamb County",
-      "ufo tours Earth, Lamb County",
-      "mystery Earth, Lamb County",
-      "unexplained Earth, Lamb County"
+      "ufo tours",
+      "alien encounters",
+      "space museums"
     ],
-    "services": [],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:52:10.662694"
+    "last_updated": "2025-07-22T12:15:41.911151"
   }
 }

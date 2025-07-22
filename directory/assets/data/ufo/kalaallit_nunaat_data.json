@@ -1,8 +1,704 @@
 {
   "location_name": "Kalaallit Nunaat",
   "category": "ufo",
-  "timestamp": "20250716_205236",
-  "businesses": [],
+  "timestamp": "20250722_121629",
+  "businesses": [
+    {
+      "name": "Albright Visitor Center",
+      "address": "Grand Loop Rd, Mammoth, WY 82190, USA",
+      "rating": 4.7,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJi0AIRgzUT1MRJyVwa9u-_HY",
+      "keyword": "museums visitor centers",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 1065,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.976432599999995,
+          "lng": -110.6995216
+        }
+      }
+    },
+    {
+      "name": "Sea Coast Camping and RV Resort",
+      "address": "115 Lafayette Rd, North Hampton, NH 03862, USA",
+      "rating": 4.6,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlxeSv-3p4okRRMHUG-302ZQ",
+      "keyword": "camping rv parks",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 539,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.982563999999996,
+          "lng": -70.831372
+        }
+      }
+    },
+    {
+      "name": "Greenland Famous Roast Beef & Seafood",
+      "address": "381 Portsmouth Ave, Greenland, NH 03840, USA",
+      "rating": 4.6,
+      "types": [
+        "seafood_restaurant",
+        "pizza_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe9qO3JHq4okR-iMVjKy7xDg",
+      "keyword": "restaurants food dining",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 461,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.03963660000001,
+          "lng": -70.82800929999999
+        }
+      }
+    },
+    {
+      "name": "Northeast Greenland National Park",
+      "address": "Greenland",
+      "rating": 4,
+      "types": [
+        "national_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ094ndGHlp08RX20DMXmMiU0",
+      "keyword": "parks recreation outdoor",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 539,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 75.99998440000002,
+          "lng": -29.998073899999998
+        }
+      }
+    },
+    {
+      "name": "Greenland National Museum and Archives",
+      "address": "Hans Egedesvej 8, Nuuk 3900, Greenland",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJoRNletUNok4RlMCXIVkOMjQ",
+      "keyword": "things to do attractions tours",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 388,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.17705959999999,
+          "lng": -51.7463806
+        }
+      }
+    },
+    {
+      "name": "Hotel Arctic",
+      "address": "Mittarfimmut Aqqutaa B-1128, Ilulissat 3952, Greenland",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM9YNEdSt8k4RFfI-LJg73Oc",
+      "keyword": "hotels accommodation lodging",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 379,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.22691809999999,
+          "lng": -51.0937229
+        }
+      }
+    },
+    {
+      "name": "Hotel Hans Egede",
+      "address": "Aqqusinersuaq, Nuuk 3900, Greenland",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUwnWm9YNok4R_SJhiZesc_Y",
+      "keyword": "hotels",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 325,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.1750084,
+          "lng": -51.736095
+        }
+      }
+    },
+    {
+      "name": "Nuuk Center",
+      "address": "Imaneq 1, Nuuk 3900, Greenland",
+      "rating": 4.2,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3an6SdQNok4RDyRWJ4dQpN8",
+      "keyword": "things to do",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 256,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.1779176,
+          "lng": -51.738717199999996
+        }
+      }
+    },
+    {
+      "name": "Hotel Kangerlussuaq",
+      "address": "2894+VV8, Tankeqarfiup aqq., S\u00f8ndre Str\u00f8mfjord, Greenland",
+      "rating": 3.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJbLYesqslk4Ru5XXI4RKt6k",
+      "keyword": "hotels",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 303,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 67.0196631,
+          "lng": -50.692807599999995
+        }
+      }
+    },
+    {
+      "name": "Nuuk Art Museum",
+      "address": "Kissarneqqortuunnguaq 5, Nuuk 3900, Greenland",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8QDYzdYNok4RBRBrpMXJPxs",
+      "keyword": "museums",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 223,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.17790099999999,
+          "lng": -51.7290163
+        }
+      }
+    },
+    {
+      "name": "Hotel Icefiord",
+      "address": "J. Sverdrupip Aqq. 10, Ilulissat 3952, Greenland",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBxhy4sut8k4RqAU6jSphxRA",
+      "keyword": "hotels accommodation lodging",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 212,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.2171142,
+          "lng": -51.1226014
+        }
+      }
+    },
+    {
+      "name": "Inuit Caf\u00e8",
+      "address": "Kussangajaannguaq 22, Ilulissat 3952, Greenland",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh0L3Rs2t8k4RLIOQU6DHOBs",
+      "keyword": "restaurants food dining",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 186,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.2187816,
+          "lng": -51.0995265
+        }
+      }
+    },
+    {
+      "name": "Caf\u00e9 Esmeralda",
+      "address": "Aqqusinersuaq 20, Nuuk 3900, Greenland",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5RNYFtYNok4RLfRnWFMjzzY",
+      "keyword": "restaurants food dining",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 184,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.173926,
+          "lng": -51.737471899999996
+        }
+      }
+    },
+    {
+      "name": "World of Greenland",
+      "address": "Fredericiap Aqq. 4, Ilulissat 3952, Greenland",
+      "rating": 4.3,
+      "types": [
+        "tourist_information_center",
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJuaqEoNKt8k4RoEnacZvf4IU",
+      "keyword": "things to do attractions tours",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 189,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.21977749999999,
+          "lng": -51.0995807
+        }
+      }
+    },
+    {
+      "name": "Restaurant Roklubben",
+      "address": "Lake Ferguson, X8H2+FRX, Kangerlussuaq, Greenland",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGzVGbxqtlk4Rdqyh7D2efKg",
+      "keyword": "restaurants food dining",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 155,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 66.97873670000001,
+          "lng": -50.697899799999995
+        }
+      }
+    },
+    {
+      "name": "Hotel Hvide Falk",
+      "address": "Napparsimaviup Aqq. 18, Ilulissat 3952, Greenland",
+      "rating": 4.1,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJS3KJks2t8k4RzFDJhYe_HFg",
+      "keyword": "hotels",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 203,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.2209702,
+          "lng": -51.1057815
+        }
+      }
+    },
+    {
+      "name": "Old Camp",
+      "address": "Aqisseq 266, S\u00f8ndre Str\u00f8mfjord, Greenland",
+      "rating": 4,
+      "types": [
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRZvgkyxTkU4RFKaTqY_SwGY",
+      "keyword": "hotels accommodation lodging",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 170,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 67.01092450000002,
+          "lng": -50.7336536
+        }
+      }
+    },
+    {
+      "name": "Hotel Sisimiut",
+      "address": "Postboks 70, Aqqusinersuaq 86, Sisimiut 3911, Greenland",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJo5IRY2tRkE4RS9KliK3GCvw",
+      "keyword": "hotels accommodation lodging",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 123,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 66.9392253,
+          "lng": -53.642582399999995
+        }
+      }
+    },
+    {
+      "name": "Hangout Bistro",
+      "address": "Kussangajaannguaq 25, Ilulissat 3952, Greenland",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "steak_house",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNwUQbhyt8k4RyZ0cHuohnhk",
+      "keyword": "restaurants food dining",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 98,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.2169673,
+          "lng": -51.0983066
+        }
+      }
+    },
+    {
+      "name": "Sisimiut Museum",
+      "address": "W8QH+9J4, Sisimiut 3911, Greenland",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ72bQzw1RkE4RN0_hbrws2Gw",
+      "keyword": "museums visitor centers",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 102,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 66.9383773,
+          "lng": -53.670932699999994
+        }
+      }
+    },
+    {
+      "name": "Greenland Backcountry",
+      "address": "Mittarfimmut Aqq. 1A, Ilulissat 3952, Greenland",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJz-QhihKt8k4RActrKqTLCVg",
+      "keyword": "things to do attractions tours",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 39,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.22161369999999,
+          "lng": -51.0883973
+        }
+      }
+    },
+    {
+      "name": "Best Western Plus Hotel Ilulissat",
+      "address": "Kaaleeraq Poulsen'ip Aqq 4, Ilulissat 3952, Greenland",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5fjsMc2t8k4RUhM0aYNaO_g",
+      "keyword": "hotels",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 113,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.21787259999999,
+          "lng": -51.1009025
+        }
+      }
+    },
+    {
+      "name": "Nanortalik Outdoor Museum",
+      "address": "Kolonivej 9, Nanortalik 3922, Greenland",
+      "rating": 4.8,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3997mlDyqk4RxhtdIbnEkiY",
+      "keyword": "museums visitor centers",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 48,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 60.1371058,
+          "lng": -45.245995799999996
+        }
+      }
+    },
+    {
+      "name": "The Red House",
+      "address": "J96G+48J, Tasiilaq, Greenland",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGVfgrt6ZyE4RpYH61nh4nmw",
+      "keyword": "hotels accommodation lodging",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 55,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 65.6103476,
+          "lng": -37.6242303
+        }
+      }
+    },
+    {
+      "name": "Myggedalen Panoramic View",
+      "address": "Isaajap Aqqutaa 32, Nuuk 3900, Greenland",
+      "rating": 4.8,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiSiq-1INok4R5dUZGIuYoD8",
+      "keyword": "things to do",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 44,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.1824385,
+          "lng": -51.7448645
+        }
+      }
+    },
+    {
+      "name": "Qooqqut Nuan, Gr\u00f8nland",
+      "address": "736X+F3V, Igdl\u00fanguaq, Greenland",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj3Y_jPhnok4RVoQCRxOp1cI",
+      "keyword": "restaurants food dining",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 53,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.2612469,
+          "lng": -50.9023411
+        }
+      }
+    },
+    {
+      "name": "Glacier Lodge Eqi",
+      "address": "Kussangajaannguaq 7, Ilulissat 3952, Greenland",
+      "rating": 4.8,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJL2ZBEy-t8k4RH0fQX5dAPFo",
+      "keyword": "camping rv parks",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 42,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.755856,
+          "lng": -50.247321199999995
+        }
+      }
+    },
+    {
+      "name": "Hotel Aurora",
+      "address": "Paassaasivik 8, Nuuk 3900, Greenland",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF_0IrCcPok4RHvcGzeK44dM",
+      "keyword": "hotels accommodation lodging",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 70,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.1652597,
+          "lng": -51.7381095
+        }
+      }
+    },
+    {
+      "name": "Hotel Angmagssalik",
+      "address": "J958+MV9, Tasiilaq, Greenland",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-YdI3d2ZyE4R8wy1l8qyU1M",
+      "keyword": "hotels",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 53,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 65.6091667,
+          "lng": -37.63277780000001
+        }
+      }
+    },
+    {
+      "name": "Raw Arctic",
+      "address": "Nuukullak 32, st, Nuuk 3900, Greenland",
+      "rating": 5,
+      "types": [
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJL7e1wg0Nok4RvR_KoUp6QZE",
+      "keyword": "things to do attractions tours",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 12,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.16445999999999,
+          "lng": -51.738358
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Scientists Are Tracking an Undersea Phenomenon Off Japan\u2019s Tsunami-Prone Coast Linked to \u201cSilent\u201d Earthquakes",
@@ -12,19 +708,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Kalaallit Nunaat. Explore the mysterious world of Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to 'silent",
+    "meta_description": "Explore ufo mysteries in Kalaallit Nunaat. Explore the mysterious world of UFOs in Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to",
     "title": "Ufo Mysteries in Kalaallit Nunaat - Tours & Services",
-    "description": "Explore the mysterious world of Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to 'silent' earthquakes. Discover the secrets of this enigmatic region on a thrilling UFO tour.",
+    "description": "Explore the mysterious world of UFOs in Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to 'silent' earthquakes on Japan's tsunami-prone coast.",
     "keywords": [
-      "Kalaallit Nunaat",
-      "undersea mysteries",
-      "earthquake activity"
+      "ufo sightings",
+      "alien encounters",
+      "underwater mysteries"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:52:36.182247"
+    "last_updated": "2025-07-22T12:16:29.812132"
   }
 }

@@ -1,8 +1,729 @@
 {
   "location_name": "Million, Madison County",
   "category": "historical",
-  "timestamp": "20250716_205018",
-  "businesses": [],
+  "timestamp": "20250722_121158",
+  "businesses": [
+    {
+      "name": "Taliesin",
+      "address": "5481 County Rd C, Spring Green, WI 53588, USA",
+      "rating": 4.8,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM0FkBix__YcRupUSQ2SfW04",
+      "keyword": "things to do attractions tours",
+      "location": "Million, Madison County",
+      "user_ratings_total": 746,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.1410311,
+          "lng": -90.070467
+        }
+      }
+    },
+    {
+      "name": "Madison County Nature Trail",
+      "address": "5000 Nature Trail Rd SE, Huntsville, AL 35803, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJed2Tx8sNYogR3hp8E4YWPiU",
+      "keyword": "parks recreation outdoor",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1356,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.598093,
+          "lng": -86.517315
+        }
+      }
+    },
+    {
+      "name": "Raven Run Nature Sanctuary",
+      "address": "3885 Raven Run Wy, Lexington, KY 40515, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu0rBJKtXQogR9pzXMi0PfKU",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 1512,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.889387600000006,
+          "lng": -84.3945334
+        }
+      }
+    },
+    {
+      "name": "Madison Bistro Farm to Table",
+      "address": "135 N Court St, Wampsville, NY 13163, USA",
+      "rating": 4.7,
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJp7A07NN32YkRYf_Uy59y4Q8",
+      "keyword": "restaurants food dining",
+      "location": "Million, Madison County",
+      "user_ratings_total": 603,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.0805953,
+          "lng": -75.7078227
+        }
+      }
+    },
+    {
+      "name": "National Great Rivers Museum",
+      "address": "1 Locks and Dam Way, Alton, IL 62002, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTY8SWIpc34cR_pyRNIezvFk",
+      "keyword": "things to do attractions tours",
+      "location": "Million, Madison County",
+      "user_ratings_total": 732,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.8709421,
+          "lng": -90.1513731
+        }
+      }
+    },
+    {
+      "name": "Mississippi Children's Museum",
+      "address": "2145 Museum Blvd, Jackson, MS 39202, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJffLKlpkyKIYRE8_o-Qkz24I",
+      "keyword": "entertainment activities",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1174,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.32870030000001,
+          "lng": -90.1571926
+        }
+      }
+    },
+    {
+      "name": "Main Street Cafe",
+      "address": "101 Main St, Madison, AL 35758, USA",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJDaAJjIRlYogRlcTuMYuZt38",
+      "keyword": "restaurants food dining",
+      "location": "Million, Madison County",
+      "user_ratings_total": 797,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.6933654,
+          "lng": -86.7495916
+        }
+      }
+    },
+    {
+      "name": "Mama Hamil's Southern Cookin' and Bar B Que Buffet",
+      "address": "480 Magnolia St, Madison, MS 39110, USA",
+      "rating": 4.6,
+      "types": [
+        "barbecue_restaurant",
+        "catering_service",
+        "food_delivery",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJo3jiACfSKYYRJ_nPuK1mzJg",
+      "keyword": "restaurants food dining",
+      "location": "Million, Madison County",
+      "user_ratings_total": 4482,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.444675,
+          "lng": -90.122784
+        }
+      }
+    },
+    {
+      "name": "Dublin Park",
+      "address": "8324 Old Madison Pike, Madison, AL 35758, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJm8YlpV1vYogRcGvXNngvtVY",
+      "keyword": "parks recreation outdoor",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1468,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.7093546,
+          "lng": -86.7351659
+        }
+      }
+    },
+    {
+      "name": "Lake Reba Park",
+      "address": "299 Lake Reba Dr, Richmond, KY 40475, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "swimming_pool",
+        "golf_course",
+        "athletic_field",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJa3Ea3BECQ4gRx2lVVXGdQwE",
+      "keyword": "things to do",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1701,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.7388221,
+          "lng": -84.256998
+        }
+      }
+    },
+    {
+      "name": "Old Chain of Rocks Bridge",
+      "address": "10820 Riverview Dr, St. Louis, MO 63137, USA",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj3tgzhaz2IcRizAnCe9q690",
+      "keyword": "attractions",
+      "location": "Million, Madison County",
+      "user_ratings_total": 956,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.7602043,
+          "lng": -90.1751177
+        }
+      }
+    },
+    {
+      "name": "Chick-fil-A",
+      "address": "2072 Lantern Ridge Dr, Richmond, KY 40475, USA",
+      "rating": 4.6,
+      "types": [
+        "fast_food_restaurant",
+        "breakfast_restaurant",
+        "catering_service",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJq1Epsjj8QogRQfvECgs7jNg",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2903,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.7367232,
+          "lng": -84.3280367
+        }
+      }
+    },
+    {
+      "name": "Strawberry Cafe",
+      "address": "107 Depot Dr, Madison, MS 39110, USA",
+      "rating": 4.5,
+      "types": [
+        "american_restaurant",
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJDUJJP5zRKYYR0NWZVxnQnpk",
+      "keyword": "restaurants food dining",
+      "location": "Million, Madison County",
+      "user_ratings_total": 506,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.462294299999996,
+          "lng": -90.1152676
+        }
+      }
+    },
+    {
+      "name": "Fort Boonesborough State Park",
+      "address": "4375 Boonesboro Rd, Richmond, KY 40475, USA",
+      "rating": 4.5,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJreRDfTOrQ4gRv7NhqH-y3yw",
+      "keyword": "things to do attractions tours",
+      "location": "Million, Madison County",
+      "user_ratings_total": 2343,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.8972019,
+          "lng": -84.26543509999999
+        }
+      }
+    },
+    {
+      "name": "Casey Jones Home & Railroad Museum",
+      "address": "30 Casey Jones Ln, Jackson, TN 38305, USA",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtcgjPKWmfogRBkq3eGFq-sU",
+      "keyword": "things to do attractions tours",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1198,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.6602299,
+          "lng": -88.8552249
+        }
+      }
+    },
+    {
+      "name": "Madison Campground",
+      "address": "30 Madison Campground E Loop, Yellowstone National Park, WY 82190, USA",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJaeFfRozDUVMRwZGQn3Pz818",
+      "keyword": "camping rv parks",
+      "location": "Million, Madison County",
+      "user_ratings_total": 842,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.6454309,
+          "lng": -110.8612397
+        }
+      }
+    },
+    {
+      "name": "Madison Museum of Contemporary Art",
+      "address": "227 State St, Madison, WI 53703, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmSVBjDdTBogRuzGIoj4o9pM",
+      "keyword": "museums",
+      "location": "Million, Madison County",
+      "user_ratings_total": 641,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.0744554,
+          "lng": -89.3892675
+        }
+      }
+    },
+    {
+      "name": "Hampton Inn Richmond",
+      "address": "1099 Barnes Mill Rd, Richmond, KY 40475, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJO7oMl0D8QogRFOPcW1ZDsyI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1018,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.7352989,
+          "lng": -84.3295097
+        }
+      }
+    },
+    {
+      "name": "Raising Cane's Chicken Fingers",
+      "address": "1140 Barnes Mill Rd, Richmond, KY 40475, USA",
+      "rating": 4.5,
+      "types": [
+        "fast_food_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7_1ieUD8QogR-ofKpVzGqvQ",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 952,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.73642950000001,
+          "lng": -84.3307243
+        }
+      }
+    },
+    {
+      "name": "Nuevo Vallarta",
+      "address": "709 Big Hill Ave, Richmond, KY 40475, USA",
+      "rating": 4.5,
+      "types": [
+        "mexican_restaurant",
+        "bar_and_grill",
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQ3p2bfP9QogRvNTZ3RjK8BI",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1436,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.7362997,
+          "lng": -84.2765582
+        }
+      }
+    },
+    {
+      "name": "Half Shell Oyster House Madison",
+      "address": "100 Merchant St, Madison, MS 39110, USA",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2yvyQCnRKYYRK80D6scjs04",
+      "keyword": "restaurants food dining",
+      "location": "Million, Madison County",
+      "user_ratings_total": 657,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4638214,
+          "lng": -90.12133779999999
+        }
+      }
+    },
+    {
+      "name": "The Shoppes of Madison",
+      "address": "8141 Hwy 72 W, Madison, AL 35758, USA",
+      "rating": 4.4,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJjbNgmxZmYogR41nwsSZC6IY",
+      "keyword": "shopping retail stores",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1711,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.749375,
+          "lng": -86.7565352
+        }
+      }
+    },
+    {
+      "name": "Books-A-Million",
+      "address": "1789 Gallatin Pike N, Madison, TN 37115, USA",
+      "rating": 4.4,
+      "types": [
+        "book_store",
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4xxYh3hDZIgRKmobDT4tx9g",
+      "keyword": "entertainment activities",
+      "location": "Million, Madison County",
+      "user_ratings_total": 796,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.296098799999996,
+          "lng": -86.70206549999999
+        }
+      }
+    },
+    {
+      "name": "Sky Zone Trampoline Park",
+      "address": "2000 E County Line Rd Suite B, Ridgeland, MS 39157, USA",
+      "rating": 4.4,
+      "types": [
+        "amusement_park",
+        "playground",
+        "amusement_center",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJz8_ZewDTKYYRilxCW5jNINg",
+      "keyword": "entertainment activities",
+      "location": "Million, Madison County",
+      "user_ratings_total": 744,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.400928,
+          "lng": -90.10994199999999
+        }
+      }
+    },
+    {
+      "name": "DEFY Jackson",
+      "address": "2280 Lakeland Dr, Jackson, MS 39232, USA",
+      "rating": 4.4,
+      "types": [
+        "amusement_park",
+        "playground",
+        "amusement_center",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQRfI-xUtKIYRNua9v-mzFpQ",
+      "keyword": "entertainment activities",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1275,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.331529599999996,
+          "lng": -90.12563
+        }
+      }
+    },
+    {
+      "name": "Saint Louis Music Park",
+      "address": "750 Casino Center Dr, Maryland Heights, MO 63043, USA",
+      "rating": 4.4,
+      "types": [
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ51HI2_Uv34cR1N_sKfiesIs",
+      "keyword": "entertainment activities",
+      "location": "Million, Madison County",
+      "user_ratings_total": 1112,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.7504256,
+          "lng": -90.47747509999999
+        }
+      }
+    },
+    {
+      "name": "Madison Campground",
+      "address": "4859 Co Rd V, DeForest, WI 53532, USA",
+      "rating": 4.4,
+      "types": [
+        "campground",
+        "rv_park",
+        "childrens_camp",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSZHk4Hf-BogRHbcQmw04FkA",
+      "keyword": "camping rv parks",
+      "location": "Million, Madison County",
+      "user_ratings_total": 742,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.248674799999996,
+          "lng": -89.3700138
+        }
+      }
+    },
+    {
+      "name": "Hilton Garden Inn Jackson/Madison",
+      "address": "320 New Mannsdale Rd, Madison, MS 39110, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJn39K-dzRKYYRspuW3ccw-Gg",
+      "keyword": "hotels",
+      "location": "Million, Madison County",
+      "user_ratings_total": 674,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4734508,
+          "lng": -90.14496799999999
+        }
+      }
+    },
+    {
+      "name": "Boonedogs",
+      "address": "5902 Old Richmond Rd, Lexington, KY 40515, USA",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlbR4qUVRQogRF3ajSDmstho",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 638,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.9388198,
+          "lng": -84.405304
+        }
+      }
+    },
+    {
+      "name": "Proud Mary BBQ",
+      "address": "9079 Old Richmond Rd, Lexington, KY 40515, USA",
+      "rating": 4.4,
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ22mzaTNUQogR6GutURfGB-4",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2023,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.886694999999996,
+          "lng": -84.339742
+        }
+      }
+    }
+  ],
   "events": [
     {
       "name": "Global BCI Race Heats Up as China Unveils New Policies to Accelerate Brain-Tech in Healthcare",
@@ -18,20 +739,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Million, Madison County. Explore the mysterious history of Million, a town in Madison County that has been shrouded in secrecy for decades. Disco",
+    "meta_description": "Explore historical mysteries in Million, Madison County. Explore the mysterious history of Million, a town shrouded in secrecy and intrigue. Discover its fascinating past, from ",
     "title": "Historical Mysteries in Million, Madison County - Tours & Services",
-    "description": "Explore the mysterious history of Million, a town in Madison County that has been shrouded in secrecy for decades. Discover the remnants of an alleged UFO hotspot and learn about the events surrounding China's recent policies to accelerate brain-tech in healthcare.",
+    "description": "Explore the mysterious history of Million, a town shrouded in secrecy and intrigue. Discover its fascinating past, from its founding to its alleged connections to extraterrestrial life.",
     "keywords": [
       "Million, Madison County",
-      "historical tourism",
-      "UFO sightings",
-      "brain-tech"
+      "history",
+      "mystery"
     ],
     "category": "historical"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-16T20:50:18.730738"
+    "last_updated": "2025-07-22T12:11:58.286059"
   }
 }
