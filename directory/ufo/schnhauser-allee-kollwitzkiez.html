@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse UFO Sightings</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1129 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Schönhauser Allee, Kollwitzkiez",
+            category: "ufo",
+            slug: "schnhauser-allee-kollwitzkiez",
+            coordinates: [35.7791035, -106.2708964],
+            businesses: [
+        {
+                "name": "Bandelier National Monument Visitor Center",
+                "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
+                "rating": 4.8,
+                "types": [
+                        "visitor_center",
+                        "hiking_area",
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "museum",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
+                "keyword": "things to do attractions tours",
+                "location": "Material, Sch",
+                "user_ratings_total": 2092,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.7791035,
+                                "lng": -106.2708964
+                        }
+                }
+        },
+        {
+                "name": "San Antonio Missions National Historical Park",
+                "address": "San Antonio, TX, USA",
+                "rating": 4.8,
+                "types": [
+                        "historical_place",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJN3pIv973XIYRu_gPhfzki94",
+                "keyword": "things to do attractions tours",
+                "location": "Material, Sch",
+                "user_ratings_total": 8816,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.329270700000002,
+                                "lng": -98.4535781
+                        }
+                }
+        },
+        {
+                "name": "San Antonio River Walk",
+                "address": "San Antonio, TX 78205, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJibxLNatYXIYRyCOuemjZxqI",
+                "keyword": "things to do attractions tours",
+                "location": "Material, Sch",
+                "user_ratings_total": 42901,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.4229737,
+                                "lng": -98.48603399999999
+                        }
+                }
+        },
+        {
+                "name": "Mesa Verde Visitor & Research Center",
+                "address": "35853 Rd H.5, Mancos, CO 81328, USA",
+                "rating": 4.7,
+                "types": [
+                        "visitor_center",
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ8YRFt2tdOYcRjaEJPPmx0dQ",
+                "keyword": "museums visitor centers",
+                "location": "Material, Sch",
+                "user_ratings_total": 2899,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.3357516,
+                                "lng": -108.40791639999999
+                        }
+                }
+        },
+        {
+                "name": "Trailer Village RV Park",
+                "address": "1706 E 2nd St, Roswell, NM 88201, USA",
+                "rating": 4.7,
+                "types": [
+                        "rv_park",
+                        "campground",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
+                "keyword": "camping rv parks",
+                "location": "Material, Sch",
+                "user_ratings_total": 672,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.393937199999996,
+                                "lng": -104.4985148
+                        }
+                }
+        },
+        {
+                "name": "The Farm at South Mountain",
+                "address": "6106 S 32nd St, Phoenix, AZ 85042, USA",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "wedding_venue",
+                        "farm",
+                        "food",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJA3EE5JcPK4cRP5VCOCfLvxs",
+                "keyword": "restaurants food dining",
+                "location": "Material, Sch",
+                "user_ratings_total": 1949,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.3907218,
+                                "lng": -112.0133533
+                        }
+                }
+        },
+        {
+                "name": "Walatowa Visitor Center",
+                "address": "7413 NM-4, Jemez Pueblo, NM 87024, USA",
+                "rating": 4.6,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJx9JFE4SQIocREFq5R6KoQOk",
+                "keyword": "museums visitor centers",
+                "location": "Material, Sch",
+                "user_ratings_total": 703,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.6451456,
+                                "lng": -106.72624139999999
+                        }
+                }
+        },
+        {
+                "name": "Hobby Lobby",
+                "address": "4501 N Main St Suite A, Roswell, NM 88201, USA",
+                "rating": 4.5,
+                "types": [
+                        "corporate_office",
+                        "home_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6Y_9lDVu4oYR23E0TguRYLk",
+                "keyword": "shopping retail stores",
+                "location": "Material, Sch",
+                "user_ratings_total": 1103,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4486461,
+                                "lng": -104.5206492
+                        }
+                }
+        },
+        {
+                "name": "Westlake Ace Hardware",
+                "address": "2810 N Main St, Roswell, NM 88201, USA",
+                "rating": 4.5,
+                "types": [
+                        "hardware_store",
+                        "home_improvement_store",
+                        "home_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJU4DWtVVu4oYR3kNS8tFmAbE",
+                "keyword": "shopping retail stores",
+                "location": "Material, Sch",
+                "user_ratings_total": 511,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.429489499999995,
+                                "lng": -104.52462430000001
+                        }
+                }
+        },
+        {
+                "name": "Meteor Crater Visitor Center",
+                "address": "Meteor Crater Rd, Winslow, AZ 86047, USA",
+                "rating": 4.5,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6W5ffGB0LocRLHLxU0yqJD8",
+                "keyword": "museums visitor centers",
+                "location": "Material, Sch",
+                "user_ratings_total": 7020,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.033177699999996,
+                                "lng": -111.02164099999999
+                        }
+                }
+        },
+        {
+                "name": "Tractor Supply Co.",
+                "address": "5000 N Main St, Roswell, NM 88201, USA",
+                "rating": 4.4,
+                "types": [
+                        "hardware_store",
+                        "pet_store",
+                        "home_improvement_store",
+                        "home_goods_store",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJDa-N7C1u4oYRoHZEQtY1jcw",
+                "keyword": "shopping retail stores",
+                "location": "Material, Sch",
+                "user_ratings_total": 515,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4568595,
+                                "lng": -104.5244896
+                        }
+                }
+        },
+        {
+                "name": "Hyatt Place Bethlehem",
+                "address": "45 W North St, Bethlehem, PA 18018, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJc9JQxlM-xIkRk4z6VN8M-Ik",
+                "keyword": "hotels",
+                "location": "Material, Sch",
+                "user_ratings_total": 1008,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.6232025,
+                                "lng": -75.3801223
+                        }
+                }
+        },
+        {
+                "name": "Hampton Inn & Suites Bethlehem",
+                "address": "200 Gateway Dr, Bethlehem, PA 18017, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJkeLA3IA_xIkRpcZyJDtZClM",
+                "keyword": "hotels",
+                "location": "Material, Sch",
+                "user_ratings_total": 893,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.665718399999996,
+                                "lng": -75.3832151
+                        }
+                }
+        },
+        {
+                "name": "SureStay by Best Western Manning",
+                "address": "2816 Paxville Hwy, Manning, SC 29102, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJc_UJg7YN_4gRcNshfu2abrQ",
+                "keyword": "hotels",
+                "location": "Material, Sch",
+                "user_ratings_total": 1086,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.702883,
+                                "lng": -80.23797689999999
+                        }
+                }
+        },
+        {
+                "name": "El Malpais National Monument Visitor Center",
+                "address": "1900 E Santa Fe Ave, Grants, NM 87020, USA",
+                "rating": 4.8,
+                "types": [
+                        "visitor_center",
+                        "hiking_area",
+                        "tourist_information_center",
+                        "park",
+                        "tour_agency",
+                        "travel_agency",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2byaKeKaI4cRYsmU3GrQTaA",
+                "keyword": "museums visitor centers",
+                "location": "Material, Sch",
+                "user_ratings_total": 458,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.11862920000001,
+                                "lng": -107.82876329999999
+                        }
+                }
+        },
+        {
+                "name": "International UFO Museum and Research Center and Gift Shop",
+                "address": "114 N Main St, Roswell, NM 88203, USA",
+                "rating": 4.3,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "library",
+                        "gift_shop",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
+                "keyword": "things to do attractions tours",
+                "location": "Material, Sch",
+                "user_ratings_total": 2520,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.393687899999996,
+                                "lng": -104.52296020000001
+                        }
+                }
+        },
+        {
+                "name": "South Jordan City Park",
+                "address": "11000 S Redwood Rd, South Jordan, UT 84095, USA",
+                "rating": 4.3,
+                "types": [
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_1itfg6GUocRpSTEg4Zy4Rc",
+                "keyword": "parks recreation outdoor",
+                "location": "Material, Sch",
+                "user_ratings_total": 587,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.5507792,
+                                "lng": -111.9398299
+                        }
+                }
+        },
+        {
+                "name": "Steele Hill Resort",
+                "address": "516 Steele Hill Rd, Sanbornton, NH 03269, USA",
+                "rating": 4.2,
+                "types": [
+                        "resort_hotel",
+                        "banquet_hall",
+                        "wedding_venue",
+                        "hotel",
+                        "spa",
+                        "american_restaurant",
+                        "lodging",
+                        "restaurant",
+                        "food",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJgalhiTdKs0wRty1XQITD-_c",
+                "keyword": "hotels",
+                "location": "Material, Sch",
+                "user_ratings_total": 2039,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.550917899999995,
+                                "lng": -71.57345049999999
+                        }
+                }
+        },
+        {
+                "name": "Holiday Inn Express & Suites Bethlehem by IHG",
+                "address": "2201 Cherry Ln, Bethlehem, PA 18015, USA",
+                "rating": 4.2,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "lodging",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHzlOCPcVxIkRMHi0P91eVqU",
+                "keyword": "hotels",
+                "location": "Material, Sch",
+                "user_ratings_total": 793,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.5936726,
+                                "lng": -75.338477
+                        }
+                }
+        },
+        {
+                "name": "The Anderson Museum of Contemporary Art",
+                "address": "409 E College Blvd, Roswell, NM 88201, USA",
+                "rating": 4.9,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJl12ZFR5v4oYRSPQfRZUXfuU",
+                "keyword": "things to do attractions tours",
+                "location": "Material, Sch",
+                "user_ratings_total": 412,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4089852,
+                                "lng": -104.5168281
+                        }
+                }
+        },
+        {
+                "name": "Walmart Supercenter",
+                "address": "4500 N Main St A, Roswell, NM 88201, USA",
+                "rating": 4,
+                "types": [
+                        "department_store",
+                        "hardware_store",
+                        "bakery",
+                        "electronics_store",
+                        "sporting_goods_store",
+                        "grocery_store",
+                        "furniture_store",
+                        "home_improvement_store",
+                        "clothing_store",
+                        "home_goods_store",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJJ2eQKQ524oYRbOvZ160NFLs",
+                "keyword": "entertainment activities",
+                "location": "Material, Sch",
+                "user_ratings_total": 4463,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4499893,
+                                "lng": -104.52655019999999
+                        }
+                }
+        },
+        {
+                "name": "Walmart Supercenter",
+                "address": "604 N 26th St, Artesia, NM 88210, USA",
+                "rating": 3.9,
+                "types": [
+                        "department_store",
+                        "hardware_store",
+                        "bakery",
+                        "electronics_store",
+                        "sporting_goods_store",
+                        "grocery_store",
+                        "furniture_store",
+                        "home_improvement_store",
+                        "clothing_store",
+                        "home_goods_store",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJs8g9gGGu44YREGG_7jotvy0",
+                "keyword": "entertainment activities",
+                "location": "Material, Sch",
+                "user_ratings_total": 1681,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.8476255,
+                                "lng": -104.42713649999999
+                        }
+                }
+        },
+        {
+                "name": "Applebee's Grill + Bar",
+                "address": "2212 N Main St, Roswell, NM 88201, USA",
+                "rating": 3.6,
+                "types": [
+                        "restaurant",
+                        "steak_house",
+                        "hamburger_restaurant",
+                        "bar_and_grill",
+                        "diner",
+                        "bar",
+                        "american_restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ67ckFPxu4oYRsnjVd29PHUs",
+                "keyword": "restaurants food dining",
+                "location": "Material, Sch",
+                "user_ratings_total": 1654,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4192067,
+                                "lng": -104.52351759999999
+                        }
+                }
+        },
+        {
+                "name": "Mural Ride Bike Tours",
+                "address": "503 Chestnut St, San Antonio, TX 78202, USA",
+                "rating": 5,
+                "types": [
+                        "tourist_attraction",
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJPRtwUZVhXIYRTyriKAyAc3A",
+                "keyword": "things to do attractions tours",
+                "location": "Material, Sch",
+                "user_ratings_total": 358,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.426649899999994,
+                                "lng": -98.47953960000001
+                        }
+                }
+        },
+        {
+                "name": "Whites City RV Park",
+                "address": "17 Carlsbad Cavern Hwy, Whites City, NM 88268, USA",
+                "rating": 3.5,
+                "types": [
+                        "rv_park",
+                        "campground",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJOTcs-rJ-5IYRCcb3uFKs1cY",
+                "keyword": "camping rv parks",
+                "location": "Material, Sch",
+                "user_ratings_total": 508,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.1767822,
+                                "lng": -104.37998499999999
+                        }
+                }
+        },
+        {
+                "name": "Tractor Supply Co.",
+                "address": "2793 N 1st St, Artesia, NM 88210, USA",
+                "rating": 4.4,
+                "types": [
+                        "hardware_store",
+                        "pet_store",
+                        "home_improvement_store",
+                        "home_goods_store",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJmYRnbR-s44YRU07qtvauDlI",
+                "keyword": "shopping retail stores",
+                "location": "Material, Sch",
+                "user_ratings_total": 400,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.870916,
+                                "lng": -104.4013994
+                        }
+                }
+        },
+        {
+                "name": "Valero",
+                "address": "3300 N Main St, Roswell, NM 88201, USA",
+                "rating": 4.2,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJSXRewk1u4oYRs4-uZtM4y28",
+                "keyword": "gas stations convenience stores",
+                "location": "Material, Sch",
+                "user_ratings_total": 317,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4381896,
+                                "lng": -104.52352680000001
+                        }
+                }
+        },
+        {
+                "name": "Ysleta Mission Gift Shop",
+                "address": "131 S Zaragoza Rd, El Paso, TX 79907, USA",
+                "rating": 4.9,
+                "types": [
+                        "gift_shop",
+                        "historical_landmark",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "historical_place",
+                        "travel_agency",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZ7aujdxC54YRDA3Qj3MjZPw",
+                "keyword": "gift shops souvenirs",
+                "location": "Material, Sch",
+                "user_ratings_total": 236,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 31.690801800000003,
+                                "lng": -106.3276224
+                        }
+                }
+        },
+        {
+                "name": "Bonito Hollow RV Park & Campground",
+                "address": "221 NM-37, Alto, NM 88312, USA",
+                "rating": 4.7,
+                "types": [
+                        "rv_park",
+                        "campground",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJq6qqqlrX4YYR7FW8K-Knhes",
+                "keyword": "camping rv parks",
+                "location": "Material, Sch",
+                "user_ratings_total": 243,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4496141,
+                                "lng": -105.6810304
+                        }
+                }
+        },
+        {
+                "name": "Manzano's RV Park",
+                "address": "103 Flury Ln, Silver City, NM 88061, USA",
+                "rating": 4.8,
+                "types": [
+                        "rv_park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO5611D_I2IYRIJzV1qJd9BU",
+                "keyword": "camping rv parks",
+                "location": "Material, Sch",
+                "user_ratings_total": 215,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.7798182,
+                                "lng": -108.21865899999999
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "From Ears to Rears, a Group of Chimpanzees is Putting Grass in Strange Places, and Scientists Are Fascinated",
+                "type": "UFO Sighting",
+                "description": "In Zambia, a peculiar trend has swept through a group of chimpanzees: blades of grass, stylishly dangling from ears and their behinds.",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 1,
+        "last_updated": "2025-07-22T12:14:26.501603"
+},
+            metadata: {
+        "title": "Ufo Mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez - Tours & Services",
+        "description": "Explore ufo mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez. Explore the mysterious Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places.",
+        "keywords": [
+                "chimpanzee grass",
+                "mysterious primate behavior",
+                "paranormal tourism"
+        ],
+        "page_description": "Explore the mysterious Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places. This bizarre phenomenon has fascinated scientists and tourists alike."
+},
+            lastUpdated: "2025-07-22T12:14:26.501603"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-ufo');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

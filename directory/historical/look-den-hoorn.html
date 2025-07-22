@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Historical Mysteries</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1093 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Look, Den Hoorn",
+            category: "historical",
+            slug: "look-den-hoorn",
+            coordinates: [52.0804322, 4.3143148],
+            businesses: [
+        {
+                "name": "Mauritshuis",
+                "address": "Plein 29, 2511 CS Den Haag, Netherlands",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "restaurant",
+                        "food",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJEa9zVSO3xUcRXKUtUE5Qgbk",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 17394,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.0804322,
+                                "lng": 4.3143148
+                        }
+                }
+        },
+        {
+                "name": "Piece of Cake",
+                "address": "Woudseweg 20, 2635 CC Den Hoorn, Netherlands",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJhxWLE0y0xUcRHLxc1waxZAQ",
+                "keyword": "restaurants food dining",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 565,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 51.9994533,
+                                "lng": 4.329087599999999
+                        }
+                }
+        },
+        {
+                "name": "Museum Hoorn-Medemblik",
+                "address": "Van Dedemstraat 8, 1624 NN Hoorn, Netherlands",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJR5YfGw2pyEcRel2hBX0IfW4",
+                "keyword": "things to do attractions tours",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 2534,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.6456137,
+                                "lng": 5.054627
+                        }
+                }
+        },
+        {
+                "name": "De Toegift",
+                "address": "Klif 12, 1797 AL Den Hoorn Texel, Netherlands",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "performing_arts_theater",
+                        "event_venue",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJzcVNx-05z0cRCe9Q4B4bKtc",
+                "keyword": "restaurants",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 766,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 53.024935799999994,
+                                "lng": 4.746576
+                        }
+                }
+        },
+        {
+                "name": "Museum Voorlinden",
+                "address": "Buurtweg 90, 2244 AG Wassenaar, Netherlands",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJEdU4eNG5xUcR73LfUY3FVcY",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 7650,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.118444200000006,
+                                "lng": 4.3458592
+                        }
+                }
+        },
+        {
+                "name": "The Social Hub Delft",
+                "address": "Van Leeuwenhoekpark 1, 2611 DW Delft, Netherlands",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "extended_stay_hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJvctm7x61xUcRxXiUYq8M4X4",
+                "keyword": "hotels accommodation lodging",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 684,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.006634299999995,
+                                "lng": 4.357507
+                        }
+                }
+        },
+        {
+                "name": "Museum of the 20th Century",
+                "address": "Krententuin 24 Parkeren:, Nieuwe Wal, 1621 DG Hoorn, Netherlands",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJM8QKMAipyEcRybLnKeYYDVc",
+                "keyword": "things to do attractions tours",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 2852,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.6359231,
+                                "lng": 5.062744299999999
+                        }
+                }
+        },
+        {
+                "name": "ss Rotterdam",
+                "address": "3e Katendrechtse Hoofd 25, 3072 AM Rotterdam, Netherlands",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "tourist_attraction",
+                        "meal_takeaway",
+                        "bar",
+                        "event_venue",
+                        "lodging",
+                        "restaurant",
+                        "food",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZf8cNlo1xEcRWMEAapj0qmw",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 7867,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 51.8981376,
+                                "lng": 4.4732477
+                        }
+                }
+        },
+        {
+                "name": "Circustheater",
+                "address": "Circusplein 50, 2586 CZ Den Haag, Netherlands",
+                "rating": 4.5,
+                "types": [
+                        "performing_arts_theater",
+                        "restaurant",
+                        "food",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJiamT-KawxUcRdNezQOxq56U",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 13144,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.1108117,
+                                "lng": 4.2831312
+                        }
+                }
+        },
+        {
+                "name": "Madurodam",
+                "address": "George Maduroplein 1, 2584 RZ Den Haag, Netherlands",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "amusement_center",
+                        "amusement_park",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJx9INHE23xUcRQLyRyK-B_sw",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 27541,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.099076,
+                                "lng": 4.2990392
+                        }
+                }
+        },
+        {
+                "name": "Hotel Grand Canal",
+                "address": "Breestraat 1, 2611 CB Delft, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJffc3ssG1xUcRkgO1lvSlvB8",
+                "keyword": "hotels accommodation lodging",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 573,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.007526999999996,
+                                "lng": 4.3592996
+                        }
+                }
+        },
+        {
+                "name": "De Bank Texel",
+                "address": "De Naal 2, 1797 AC Den Hoorn Texel, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "diner",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJYcpfz-85z0cR_NLWlyWpyRU",
+                "keyword": "restaurants food dining",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 2083,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 53.025467799999994,
+                                "lng": 4.75249
+                        }
+                }
+        },
+        {
+                "name": "Pannenkoekenhuis Klif 23",
+                "address": "Klif 23, 1797 AK Den Hoorn Texel, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJPSZPo-05z0cRM2rQKnD8LR4",
+                "keyword": "restaurants food dining",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 1098,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 53.025,
+                                "lng": 4.745555599999999
+                        }
+                }
+        },
+        {
+                "name": "Supermarkt & Slagerij Go\u00ebnga Den Hoorn",
+                "address": "De Naal 1, 1797 AA Den Hoorn Texel, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "convenience_store",
+                        "supermarket",
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ3wqz2u85z0cRmBdQfLT4H3M",
+                "keyword": "gas stations convenience stores",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 649,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 53.0257003,
+                                "lng": 4.752756199999999
+                        }
+                }
+        },
+        {
+                "name": "Julianapark",
+                "address": "1621 MB Hoorn, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJKyUyTQepyEcRGosxtkZ1IcQ",
+                "keyword": "parks recreation outdoor",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 1614,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.639451199999996,
+                                "lng": 5.073639399999999
+                        }
+                }
+        },
+        {
+                "name": "Camping Loodsmansduin Texel",
+                "address": "Rommelpot 19, 1797 RN Den Hoorn Texel, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "campground",
+                        "park",
+                        "lodging",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJtZIaL-05z0cRhz7U-ewz2Vg",
+                "keyword": "entertainment activities",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 1169,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 53.021726699999995,
+                                "lng": 4.7407458
+                        }
+                }
+        },
+        {
+                "name": "Hotel De Plataan Delft Centrum",
+                "address": "Doelenplein 10, 2611 BP Delft, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "pub",
+                        "bar",
+                        "lodging",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2bPnOsO1xUcRyu74B9yVPHg",
+                "keyword": "hotels",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 586,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.0144534,
+                                "lng": 4.3584321
+                        }
+                }
+        },
+        {
+                "name": "Hotel nhow Rotterdam",
+                "address": "Wilhelminakade 137, 3072 AP Rotterdam, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfdhKhm8zxEcRq3tEphMGXvI",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 4373,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 51.907016999999996,
+                                "lng": 4.488659
+                        }
+                }
+        },
+        {
+                "name": "De Pier",
+                "address": "Strandweg 150-154, 2586 JW Den Haag, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "tourist_attraction",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJV_lUeAm6xUcRhhbBTFfs5oM",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 43543,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.115776999999994,
+                                "lng": 4.282714299999999
+                        }
+                }
+        },
+        {
+                "name": "Euromast",
+                "address": "Parkhaven 20, 3016 GM Rotterdam, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "tourist_attraction",
+                        "historical_landmark",
+                        "historical_place",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJTY7aLps0xEcR2DpPoYMXqFg",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 19918,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 51.9054439,
+                                "lng": 4.4666374
+                        }
+                }
+        },
+        {
+                "name": "HORNBACH",
+                "address": "Singel 115, 2497 GS Den Haag, Netherlands",
+                "rating": 4.4,
+                "types": [
+                        "home_improvement_store",
+                        "home_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJc_PAJHS2xUcRuNbvmPOrrRI",
+                "keyword": "nearby_store",
+                "user_ratings_total": 7208,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.0289138,
+                                "lng": 4.3595068999999995
+                        }
+                }
+        },
+        {
+                "name": "Van der Valk Hotel Delft A4",
+                "address": "Peuldreef 3, 2635 BX Den Hoorn, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJLwZbZy-1xUcRoatJ0zJ0s9A",
+                "keyword": "hotels accommodation lodging",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 548,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.013569999999994,
+                                "lng": 4.3154569
+                        }
+                }
+        },
+        {
+                "name": "Restaurant De Beren Den Hoorn",
+                "address": "Hogenhoorn 5, 2635 BN Den Hoorn, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJX2BE3CW1xUcRS27MfdH2cXg",
+                "keyword": "restaurants food dining",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 730,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.0112915,
+                                "lng": 4.3155358999999995
+                        }
+                }
+        },
+        {
+                "name": "Restaurant De Hoofdtoren",
+                "address": "Hoofd 2, 1621 AM Hoorn, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJycZr-6epyEcRil_BKwezNwM",
+                "keyword": "restaurants food dining",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 741,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.6370363,
+                                "lng": 5.0630695999999995
+                        }
+                }
+        },
+        {
+                "name": "Esso Peulwijk",
+                "address": "A4 2, 2635 GA Den Hoorn, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJD1ntoz20xUcRW38H5BcxSsc",
+                "keyword": "gas stations convenience stores",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 589,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.0138779,
+                                "lng": 4.3124221
+                        }
+                }
+        },
+        {
+                "name": "Winkel en slijterij van Landgoed de Bonte Belevenis",
+                "address": "Rommelpot 11, 1797 RN Den Hoorn Texel, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJL7TCX4w5z0cRkriu8RBfVB4",
+                "keyword": "things to do attractions tours",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 566,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 53.0309624,
+                                "lng": 4.7389962
+                        }
+                }
+        },
+        {
+                "name": "Municipal Theater Het Park",
+                "address": "Westerdijk 4, 1621 LE Hoorn, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "performing_arts_theater",
+                        "cultural_center",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ8bYx6nSpyEcRrsnNOTE_dNw",
+                "keyword": "parks recreation outdoor",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 2228,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.6417563,
+                                "lng": 5.0509867999999996
+                        }
+                }
+        },
+        {
+                "name": "Hampshire Hotel Delft Centre | Overnachten, Arrangementen en Zakelijk",
+                "address": "Koepoortplaats 3, 2612 RR Delft, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "bar",
+                        "lodging",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ5ZjCIOa1xUcRPLPBDcmbwV0",
+                "keyword": "hotels",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 1450,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.0149269,
+                                "lng": 4.3672279
+                        }
+                }
+        },
+        {
+                "name": "Hotel New York",
+                "address": "Koninginnenhoofd 1, 3072 AD Rotterdam, Netherlands",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "bar",
+                        "event_venue",
+                        "lodging",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJkRX7KHszxEcRQUhq4b_gbuA",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 10757,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 51.9041459,
+                                "lng": 4.4845913
+                        }
+                }
+        },
+        {
+                "name": "ANWB winkel Hoorn",
+                "address": "Breed 13, 1621 KA Hoorn, Netherlands",
+                "rating": 4.2,
+                "types": [
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJtYnLiAupyEcRbDJjudbHmYo",
+                "keyword": "shopping retail stores",
+                "location": "Look, Den Hoorn",
+                "user_ratings_total": 571,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 52.642303,
+                                "lng": 5.0534276
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "US Gov Releases New Video UFO Over Iraq Recorded By US Military Helicopter, UAP Sighting News.",
+                "type": "Historical Mystery",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqU9s-pDzMcm3C-KVjI6JtJTnyn6nxF2xrsBYPRNJTADYLmQMp_qOTREAwqCBKw8zUrKbSQRRxhNNzOsiglq5E1EZxyOfhxnLqEuEoupz9YbUTVD-Imv1FMeDZ8beVj-YEx9IzNr8kPnGD2ZUE2Ip471a0xVS5Z0ekNsvwoq1hPpuRKS2nDGo4I6MGhes/s720/UFO,%20UAP,%20news.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"412\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqU9s-pDzMcm3C-KVjI6JtJTnyn6nxF2xrsBYPRNJTADYLmQMp_qOTREAwqCBKw8zUrKbSQRRxhNNzOsiglq5E1EZxyOfhxnLqEuEoupz9YbUTVD-Imv1FMeDZ8beVj-YEx9IzNr8kPnGD2ZUE2Ip471a0xVS5Z0ekNsvwoq1hPpuRKS2nDGo4I6MGhes/w640-h412/UFO,%20UAP,%20news.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg6odcBQcnBus1rxmbSNR3nBx-F5HlIIQaWyAbBZ4kS5h8JavA2u9mx34chx3G_wz0RuSHaiYYTsxNK2NFYcz0YMWewszxRxvhaVS5g-NIHrD_j3eU19Bc7Zhh2WIv6YlugCoqpeBPCy7lUkl2duxvDW-eMulrYs97AhbYeRk1v7V4sGNWMGUEt_veq74/s844/Iraq,%20UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"352\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg6odcBQcnBus1rxmbSNR3nBx-F5HlIIQaWyAbBZ4kS5h8JavA2u9mx34chx3G_wz0RuSHaiYYTsxNK2NFYcz0YMWewszxRxvhaVS5g-NIHrD_j3eU19Bc7Zhh2WIv6YlugCoqpeBPCy7lUkl2duxvDW-eMulrYs97AhbYeRk1v7V4sGNWMGUEt_veq74/w640-h352/Iraq,%20UFO.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZcdbiBulCm8a3FDmuKsg-_V15ibPUYSBw_Y5dcqaNCqzEJq41YheJCPFhZhbccK2nZ0By-iI2WgZCFRx5Dxx9P0t_ockydxygDRjDCgXGCqLzRD2Mog84p2-k49pBDh6ZPQ2_-qpqfoD0rIQNTvYYXnRN_-4ZYyyyLM95Ya5Hv5N74lorrBpF60E40hI/s744/UFO,%20Iraq.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"366\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZcdbiBulCm8a3FDmuKsg-_V15ibPUYSBw_Y5dcqaNCqzEJq41YheJCPFhZhbccK2nZ0By-iI2WgZCFRx5Dxx9P0t_ockydxygDRjDCgXGCqLzRD2Mog84p2-k49pBDh6ZPQ2_-qpqfoD0rIQNTvYYXnRN_-4ZYyyyLM95Ya5Hv5N74lorrBpF60E40hI/w640-h366/UFO,%20Iraq.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of sighting: 2024 (gov refuses to release exact date)</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of sighting: Iraq (Most US soldiers located here)</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Source:&nbsp;</span><a href=\"https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/\">https://www.aaro.mil/UAP-Cases/Official-UAP-Imagery/</a>&nbsp;</div><div style=\"text-align: left;\"><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Watch this newly released video of a UFO flying over Iraq and was caught by a US military helicopter and followed for at least 1.5 minutes or more...some footage may have been held back from being released. Also the US military blacked out all location data, fly speed, size, and&nbsp;other data that might give away the US military base positions. I used Chatgpt to look at a 10 second clip and tell me the speed...and it said the UFO was traveling at 144.4km per hour or 89.8 mph. That means this is no balloon! This is 100% alien technology watching over the most dangerous area on Earth and recording data of human reactions, interactions, and even thoughts as well as other things like food, water, contamination to the soil, animals, people, and so on.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "historical"
+        },
+        {
+                "name": "In the Search for Alien Signals, the SETI Institute is Partnering with SpaceX to Mitigate Satellite Interference",
+                "type": "Historical Mystery",
+                "description": "Starlink satellites can interfere with the signals the SETI monitors, but a new collaboration aims to halt the potential contamination.",
+                "category": "historical"
+        },
+        {
+                "name": "Look: NASA\u2019s Parker Solar Probe Just Had Its Closest-Ever Encounter with the Sun, and Has Historic Pictures to Prove It",
+                "type": "Historical Mystery",
+                "description": "NASA\u2019s Parker Solar Probe has proven to be an essential tool in understanding space weather, a major potential hazard to life on Earth.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 3,
+        "last_updated": "2025-07-22T12:09:52.529969"
+},
+            metadata: {
+        "title": "Historical Mysteries in Look, Den Hoorn - Tours & Services",
+        "description": "Explore historical mysteries in Look, Den Hoorn. Explore the mysteries of Look, Den Hoorn, a town in the Netherlands where history meets intrigue. Visit the Mauritshuis,",
+        "keywords": [
+                "historical museums",
+                "look den hoorn",
+                "museum tours",
+                "paranormal history"
+        ],
+        "page_description": "Explore the mysteries of Look, Den Hoorn, a town in the Netherlands where history meets intrigue. Visit the Mauritshuis, Piece of Cake, Museum Hoorn-Medemblik, De Toegift, and Museum Voorlinden to uncover secrets from the past."
+},
+            lastUpdated: "2025-07-22T12:09:52.529969"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-historical');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

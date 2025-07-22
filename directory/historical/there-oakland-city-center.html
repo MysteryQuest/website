@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Historical Mysteries</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1111 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "There!, Oakland City Center",
+            category: "historical",
+            slug: "there-oakland-city-center",
+            coordinates: [37.809213899999996, -122.1998089],
+            businesses: [
+        {
+                "name": "Oakland Temple Visitors' Center",
+                "address": "4766 Lincoln Ave, Oakland, CA 94602, USA",
+                "rating": 4.9,
+                "types": [
+                        "visitor_center",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "church",
+                        "place_of_worship",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1_MnpLeHj4ARGEK0TWqDoD4",
+                "keyword": "museums visitor centers",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1110,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.809213899999996,
+                                "lng": -122.1998089
+                        }
+                }
+        },
+        {
+                "name": "Escape Oakland",
+                "address": "522 7th St, Oakland, CA 94607, USA",
+                "rating": 4.9,
+                "types": [
+                        "amusement_center",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_cisolSBj4ARN1uxoW2bhAU",
+                "keyword": "entertainment activities",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 670,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8003947,
+                                "lng": -122.2758009
+                        }
+                }
+        },
+        {
+                "name": "Roberts Regional Recreation Area",
+                "address": "10570 Skyline Blvd, Oakland, CA 94619, USA",
+                "rating": 4.8,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJpWOH5tWHj4ARSdxsJ0uiqe0",
+                "keyword": "camping rv parks",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 889,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8123964,
+                                "lng": -122.17470390000001
+                        }
+                }
+        },
+        {
+                "name": "Golden Gate Bridge",
+                "address": "Golden Gate Brg, San Francisco, CA, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "historical_landmark",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJw____96GhYARCVVwg5cT7c0",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 82436,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.819910899999996,
+                                "lng": -122.4785598
+                        }
+                }
+        },
+        {
+                "name": "Oakland Museum of California",
+                "address": "1000 Oak St, Oakland, CA 94607, USA",
+                "rating": 4.7,
+                "types": [
+                        "museum",
+                        "garden",
+                        "park",
+                        "cafe",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJD9KbIzWHj4AR1Mp5x7ZVBWs",
+                "keyword": "things to do attractions tours",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 3478,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7987496,
+                                "lng": -122.2633654
+                        }
+                }
+        },
+        {
+                "name": "Anthony Chabot Regional Park",
+                "address": "9999 Redwood Rd, Castro Valley, CA 94552, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJAbrOKvKOj4ARVv3zYBvxB2g",
+                "keyword": "camping rv parks",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1166,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.750038599999996,
+                                "lng": -122.1046897
+                        }
+                }
+        },
+        {
+                "name": "Oracle Park",
+                "address": "24 Willie Mays Plaza, San Francisco, CA 94107, USA",
+                "rating": 4.7,
+                "types": [
+                        "stadium",
+                        "tourist_attraction",
+                        "sports_complex",
+                        "sports_activity_location",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_T25cNd_j4ARehGmHe0pT84",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 30210,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7784136,
+                                "lng": -122.38921680000001
+                        }
+                }
+        },
+        {
+                "name": "Golden Gate Park",
+                "address": "San Francisco, CA, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "garden",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJY_dFYHKHhYARMKc772iLvnE",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 42944,
+                "price_level": "PRICE_LEVEL_FREE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7689203,
+                                "lng": -122.482977
+                        }
+                }
+        },
+        {
+                "name": "In-N-Out Burger",
+                "address": "555 Willie Stargell Ave, Alameda, CA 94501, USA",
+                "rating": 4.6,
+                "types": [
+                        "hamburger_restaurant",
+                        "fast_food_restaurant",
+                        "diner",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ8fUUctqAj4ARKbAfWkBEU8Q",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 4021,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7838079,
+                                "lng": -122.2772403
+                        }
+                }
+        },
+        {
+                "name": "PIER 39",
+                "address": "The Embarcadero, San Francisco, CA 94133, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "shopping_mall",
+                        "historical_landmark",
+                        "historical_place",
+                        "marina",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHSGzi_yAhYARnrPmDWAx9ro",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 131283,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.808673000000006,
+                                "lng": -122.409821
+                        }
+                }
+        },
+        {
+                "name": "Ferry Building",
+                "address": "1 Ferry Building, San Francisco, CA 94105, USA",
+                "rating": 4.6,
+                "types": [
+                        "historical_landmark",
+                        "market",
+                        "historical_place",
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWTGPjmaAhYARxz6l1hOj92w",
+                "keyword": "nearby_store",
+                "user_ratings_total": 35703,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7954425,
+                                "lng": -122.3936136
+                        }
+                }
+        },
+        {
+                "name": "The Fat Lady Bar & Restaurant",
+                "address": "201 Washington St, Oakland, CA 94607, USA",
+                "rating": 4.5,
+                "types": [
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJFbAoCLiAj4AR5PvBifjo6vg",
+                "keyword": "restaurants food dining",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1323,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7967654,
+                                "lng": -122.2777405
+                        }
+                }
+        },
+        {
+                "name": "Brotzeit Lokal",
+                "address": "1000 Embarcadero, Oakland, CA 94606, USA",
+                "rating": 4.5,
+                "types": [
+                        "brunch_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6TOJJyaHj4ARR5WoSytkThY",
+                "keyword": "restaurants food dining",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1491,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.787730599999996,
+                                "lng": -122.2540222
+                        }
+                }
+        },
+        {
+                "name": "Jack London Square",
+                "address": "472 Water St, Oakland, CA 94607, USA",
+                "rating": 4.5,
+                "types": [
+                        "marina",
+                        "community_center",
+                        "apartment_complex",
+                        "hotel",
+                        "lodging",
+                        "event_venue",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJh4bticiAj4ARWq51mwQd95E",
+                "keyword": "things to do attractions tours",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 7444,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7938992,
+                                "lng": -122.27706320000001
+                        }
+                }
+        },
+        {
+                "name": "Fairmont San Francisco",
+                "address": "950 Mason St, San Francisco, CA 94108, USA",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJN2S4EI2AhYAR9J4Qeh1U8Aw",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 6968,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7923897,
+                                "lng": -122.41044429999998
+                        }
+                }
+        },
+        {
+                "name": "Tony's Pizza Napoletana",
+                "address": "1570 Stockton St, San Francisco, CA 94133, USA",
+                "rating": 4.5,
+                "types": [
+                        "pizza_restaurant",
+                        "italian_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHXHcEvGAhYARQPuHNN78s78",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 9060,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8003815,
+                                "lng": -122.4090457
+                        }
+                }
+        },
+        {
+                "name": "Costco Gas Station",
+                "address": "4801 Central Ave, Richmond, CA 94804, USA",
+                "rating": 4.5,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJcT8ml-d4hYARF8jIrym3ILc",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 761,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.898005999999995,
+                                "lng": -122.322619
+                        }
+                }
+        },
+        {
+                "name": "Costco Gas Station",
+                "address": "1900 Davis St, San Leandro, CA 94577, USA",
+                "rating": 4.5,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfy7bemSFj4ARzsPf08OcMjc",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 925,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7207011,
+                                "lng": -122.18310210000001
+                        }
+                }
+        },
+        {
+                "name": "Ghirardelli Chocolate Experience",
+                "address": "900 North Point St F301, San Francisco, CA 94109, USA",
+                "rating": 4.5,
+                "types": [
+                        "chocolate_shop",
+                        "ice_cream_shop",
+                        "candy_store",
+                        "dessert_shop",
+                        "confectionery",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJvXl2weCAhYARjSxnhzrBfNc",
+                "keyword": "nearby_store",
+                "user_ratings_total": 28558,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8059485,
+                                "lng": -122.4229383
+                        }
+                }
+        },
+        {
+                "name": "Mua",
+                "address": "2442a Webster St, Oakland, CA 94612, USA",
+                "rating": 4.4,
+                "types": [
+                        "american_restaurant",
+                        "event_venue",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJc5ERRVOHj4ARu2mIe7m3x-E",
+                "keyword": "restaurants food dining",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1707,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8141056,
+                                "lng": -122.26454170000001
+                        }
+                }
+        },
+        {
+                "name": "NIDO's BackYard",
+                "address": "104 Oak St, Oakland, CA 94607, USA",
+                "rating": 4.4,
+                "types": [
+                        "mexican_restaurant",
+                        "event_venue",
+                        "bar",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJK_MXKS6Bj4ARR_hUcLHS-Rs",
+                "keyword": "restaurants",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1686,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7917939,
+                                "lng": -122.26783049999999
+                        }
+                }
+        },
+        {
+                "name": "Portal",
+                "address": "1611 2nd Ave, Oakland, CA 94606, USA",
+                "rating": 4.4,
+                "types": [
+                        "brunch_restaurant",
+                        "hamburger_restaurant",
+                        "breakfast_restaurant",
+                        "bar",
+                        "american_restaurant",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ3Q_0UDeHj4ARf1lF1WZa6BI",
+                "keyword": "restaurants",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 1401,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7993577,
+                                "lng": -122.25455899999999
+                        }
+                }
+        },
+        {
+                "name": "Hyatt Regency San Francisco",
+                "address": "5 Embarcadero Ctr, San Francisco, CA 94111, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJX2AfTWGAhYARK51ADFAMZoQ",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 7001,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.794216899999995,
+                                "lng": -122.3956663
+                        }
+                }
+        },
+        {
+                "name": "The Grove - Yerba Buena",
+                "address": "690 Mission St, San Francisco, CA 94105, USA",
+                "rating": 4.4,
+                "types": [
+                        "american_restaurant",
+                        "coffee_shop",
+                        "breakfast_restaurant",
+                        "cafe",
+                        "bar",
+                        "food_store",
+                        "meal_takeaway",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJiZyN7IeAhYARnCn-G6GH73Q",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 4561,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.786542399999995,
+                                "lng": -122.40198620000001
+                        }
+                }
+        },
+        {
+                "name": "The Painted Ladies",
+                "address": "San Francisco, CA 94117, USA",
+                "rating": 4.4,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJuX92JKWAhYARxVmeb8DQIYQ",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 26284,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7762528,
+                                "lng": -122.43275559999998
+                        }
+                }
+        },
+        {
+                "name": "Costco Wholesale",
+                "address": "450 10th St, San Francisco, CA 94103, USA",
+                "rating": 4.4,
+                "types": [
+                        "warehouse_store",
+                        "department_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJC2juwih-j4ARvLq4f6Oyeuc",
+                "keyword": "nearby_store",
+                "user_ratings_total": 7311,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7703137,
+                                "lng": -122.41092400000001
+                        }
+                }
+        },
+        {
+                "name": "Costco Wholesale",
+                "address": "4801 Central Ave, Richmond, CA 94804, USA",
+                "rating": 4.4,
+                "types": [
+                        "warehouse_store",
+                        "department_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJcT8ml-d4hYARcuL5aed2-ao",
+                "keyword": "nearby_store",
+                "user_ratings_total": 6334,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.898750299999996,
+                                "lng": -122.3202972
+                        }
+                }
+        },
+        {
+                "name": "Chabot Space & Science Center",
+                "address": "10000 Skyline Blvd, Oakland, CA 94619, USA",
+                "rating": 4.5,
+                "types": [
+                        "observation_deck",
+                        "planetarium",
+                        "tourist_attraction",
+                        "wedding_venue",
+                        "museum",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJMyjumCuGj4ARA0zS-YtL_tU",
+                "keyword": "things to do attractions tours",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 489,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8187474,
+                                "lng": -122.18072169999999
+                        }
+                }
+        },
+        {
+                "name": "Buttercup",
+                "address": "229 Broadway, Oakland, CA 94607, USA",
+                "rating": 4.3,
+                "types": [
+                        "diner",
+                        "breakfast_restaurant",
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJv8B_A8iAj4ARIGwgJlPLnks",
+                "keyword": "restaurants food dining",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 2846,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.79658,
+                                "lng": -122.27644679999997
+                        }
+                }
+        },
+        {
+                "name": "De Fremery Park",
+                "address": "1651 Adeline St, Oakland, CA 94607, USA",
+                "rating": 4.3,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "playground",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ95wKEqCAj4ARo8x3GrzGs_Y",
+                "keyword": "parks recreation outdoor",
+                "location": "Oakland City Center, Downtown Oakland",
+                "user_ratings_total": 599,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.812239,
+                                "lng": -122.2868316
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Gravitational Waves Unveil Record-Breaking Black Hole Merger, Challenging Existing Models",
+                "type": "Historical Mystery",
+                "description": "The most massive gravitationally detected black hole merger to date has been observed by the LIGO-Virgo-KAGRA Collaboration.",
+                "category": "historical"
+        },
+        {
+                "name": "Scientists Achieve the \u201cImpossible,\u201d Unlocking Quantum Circuits Using Magnetic Graphene",
+                "type": "Historical Mystery",
+                "description": "Researchers reveal magnetic graphene supports quantum spin Hall states at zero field\u2014paving the way for quantum spintronics.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 2,
+        "last_updated": "2025-07-22T12:13:13.445119"
+},
+            metadata: {
+        "title": "Historical Mysteries in There!, Oakland City Center - Tours & Services",
+        "description": "Explore historical mysteries in There!, Oakland City Center. Explore the mysterious world of unidentified flying objects at Oakland City Center, where scientists have made groundbre",
+        "keywords": [
+                "ufo sightings",
+                "alien research",
+                "space exploration"
+        ],
+        "page_description": "Explore the mysterious world of unidentified flying objects at Oakland City Center, where scientists have made groundbreaking discoveries about gravitational waves and quantum circuits."
+},
+            lastUpdated: "2025-07-22T12:13:13.445119"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-historical');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

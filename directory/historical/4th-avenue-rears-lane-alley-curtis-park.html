@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Historical Mysteries</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1074 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "4th Avenue Rears Lane Alley, Curtis Park",
+            category: "historical",
+            slug: "4th-avenue-rears-lane-alley-curtis-park",
+            coordinates: [38.5769817, -121.50685339999998],
+            businesses: [
+        {
+                "name": "Crocker Art Museum",
+                "address": "216 O St, Sacramento, CA 95814, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7ecEyDPRmoARObm20dmuM9k",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 3497,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5769817,
+                                "lng": -121.50685339999998
+                        }
+                }
+        },
+        {
+                "name": "California State Railroad Museum",
+                "address": "125 I St, Sacramento, CA 95814, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJYxCsn83WmoAR6J5mJl3jT7U",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 5295,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5849368,
+                                "lng": -121.5044161
+                        }
+                }
+        },
+        {
+                "name": "Localis",
+                "address": "2031 S St, Sacramento, CA 95811, USA",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "fine_dining_restaurant",
+                        "american_restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJYUnm_ubQmoARMQ2616W5Yi8",
+                "keyword": "restaurants food dining",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 558,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.566699899999996,
+                                "lng": -121.48299619999999
+                        }
+                }
+        },
+        {
+                "name": "California State Capitol Museum",
+                "address": "1315 10th St, Sacramento, CA 95814, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "botanical_garden",
+                        "park",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJldtsqgTWmoAR1aSB8REJQgU",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 5689,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.576588199999996,
+                                "lng": -121.4932368
+                        }
+                }
+        },
+        {
+                "name": "Stanford Mansion",
+                "address": "800 N St, Sacramento, CA 95814, USA",
+                "rating": 4.7,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJAUbbMS_RmoAR9Q0EK_CimYY",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 566,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5761903,
+                                "lng": -121.4978549
+                        }
+                }
+        },
+        {
+                "name": "Cinemark Century Arden 14 and XD",
+                "address": "1590 Ethan Way, Sacramento, CA 95825, USA",
+                "rating": 4.7,
+                "types": [
+                        "movie_theater",
+                        "meal_takeaway",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJa2u9OzzamoARKjfmdWSiWKo",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 7022,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5935608,
+                                "lng": -121.4183465
+                        }
+                }
+        },
+        {
+                "name": "Costco Gas Station",
+                "address": "7400 Elk Grove Blvd, Elk Grove, CA 95757, USA",
+                "rating": 4.7,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJqY1rYRvHmoARIeF0T4zSxEs",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 505,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.4076977,
+                                "lng": -121.41435519999999
+                        }
+                }
+        },
+        {
+                "name": "Curtis Park",
+                "address": "3349 W Curtis Dr, Sacramento, CA 95818, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ39nOgFrQmoARdl-GjAvpnjk",
+                "keyword": "parks recreation outdoor",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 655,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5438873,
+                                "lng": -121.4795422
+                        }
+                }
+        },
+        {
+                "name": "In-N-Out Burger",
+                "address": "2001 Alta Arden Expy, Sacramento, CA 95825, USA",
+                "rating": 4.6,
+                "types": [
+                        "hamburger_restaurant",
+                        "fast_food_restaurant",
+                        "diner",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZ6ToLSPamoARk4rP3GkRiUM",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 6531,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.598016699999995,
+                                "lng": -121.41941929999999
+                        }
+                }
+        },
+        {
+                "name": "Old Sacramento Waterfront",
+                "address": "1014 2nd St #200, Sacramento, CA 95814, USA",
+                "rating": 4.6,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "shopping_mall",
+                        "historical_place",
+                        "museum",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJy_qwEs3WmoARcHTfbV8tsNM",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 28074,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5826761,
+                                "lng": -121.50452360000001
+                        }
+                }
+        },
+        {
+                "name": "Pavilions Shopping Center",
+                "address": "563 Pavilions Ln, Sacramento, CA 95825, USA",
+                "rating": 4.5,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJhbpdRVfamoARR6KKHj50YYc",
+                "keyword": "shopping retail stores",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 745,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5751248,
+                                "lng": -121.40967450000001
+                        }
+                }
+        },
+        {
+                "name": "Sellands Neighborhood Cafe & Bar Broadway",
+                "address": "915 Broadway, Sacramento, CA 95818, USA",
+                "rating": 4.5,
+                "types": [
+                        "cafe",
+                        "catering_service",
+                        "food_delivery",
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDwarkCLRmoAR4wg4lK8ygjg",
+                "keyword": "restaurants",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 1769,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.564324299999996,
+                                "lng": -121.5008739
+                        }
+                }
+        },
+        {
+                "name": "Sacramento History Museum",
+                "address": "101 I St, Sacramento, CA 95814, USA",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfTk-u83WmoARVPA4mMSdcZY",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 879,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.584821,
+                                "lng": -121.50494510000001
+                        }
+                }
+        },
+        {
+                "name": "Costco Gas Station",
+                "address": "1601 Expo Pkwy, Sacramento, CA 95815, USA",
+                "rating": 4.5,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJC7sKtazQmoARfl756BgxVtE",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 1150,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5982598,
+                                "lng": -121.451788
+                        }
+                }
+        },
+        {
+                "name": "Costco Gas Station",
+                "address": "7981 E Stockton Blvd, Sacramento, CA 95823, USA",
+                "rating": 4.5,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJEzFa_sTFmoARVtwLYDaPOiQ",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 588,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.4676355,
+                                "lng": -121.41489399999999
+                        }
+                }
+        },
+        {
+                "name": "Costco Wholesale",
+                "address": "1600 Expo Pkwy, Sacramento, CA 95815, USA",
+                "rating": 4.5,
+                "types": [
+                        "warehouse_store",
+                        "department_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJVZR3tKzQmoARvfBrBDJpCls",
+                "keyword": "nearby_store",
+                "user_ratings_total": 7953,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.597212,
+                                "lng": -121.4532954
+                        }
+                }
+        },
+        {
+                "name": "Caf\u00e9 Dantorels",
+                "address": "2700 24th St, Sacramento, CA 95818, USA",
+                "rating": 4.4,
+                "types": [
+                        "restaurant",
+                        "coffee_shop",
+                        "cafe",
+                        "american_restaurant",
+                        "food_store",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJLabm2fvQmoARm_m6nUxMI0Q",
+                "keyword": "restaurants food dining",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 1760,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.555109,
+                                "lng": -121.483544
+                        }
+                }
+        },
+        {
+                "name": "Midtown's Cantina Alley",
+                "address": "2320 Jazz Alley, Sacramento, CA 95816, USA",
+                "rating": 4.4,
+                "types": [
+                        "mexican_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_V7q2sPQmoARsrhDpBZzWXs",
+                "keyword": "restaurants food dining",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 2251,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5747208,
+                                "lng": -121.4753445
+                        }
+                }
+        },
+        {
+                "name": "Hyatt Regency Sacramento",
+                "address": "1209 L St, Sacramento, CA 95814, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDTt_HyjRmoARDtu2yLCU3ko",
+                "keyword": "hotels",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 3726,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5775662,
+                                "lng": -121.4908256
+                        }
+                }
+        },
+        {
+                "name": "SMUD Museum of Science and Curiosity",
+                "address": "400 Jibboom St, Sacramento, CA 95811, USA",
+                "rating": 4.4,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJKVbeFBXZmoARcKxnfV0912Y",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 1706,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5933296,
+                                "lng": -121.5056569
+                        }
+                }
+        },
+        {
+                "name": "Kimpton Sawyer Hotel",
+                "address": "500 J St, Sacramento, CA 95814, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "lodging",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbXhq5SzRmoAR3sHmxdgHBjw",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 1580,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5816844,
+                                "lng": -121.4994812
+                        }
+                }
+        },
+        {
+                "name": "Chick-fil-A",
+                "address": "2101 Alta Arden Expy, Sacramento, CA 95825, USA",
+                "rating": 4.4,
+                "types": [
+                        "fast_food_restaurant",
+                        "breakfast_restaurant",
+                        "catering_service",
+                        "food_delivery",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1Sz6ViPamoARtlvMQaLGV9I",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 3883,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5987882,
+                                "lng": -121.4174906
+                        }
+                }
+        },
+        {
+                "name": "Sacramento Zoo",
+                "address": "3930 W Land Park Dr, Sacramento, CA 95822, USA",
+                "rating": 4.4,
+                "types": [
+                        "zoo",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJw0nl36XRmoARhXrVCiszP1k",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 8059,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5392791,
+                                "lng": -121.5040041
+                        }
+                }
+        },
+        {
+                "name": "Discovery Park",
+                "address": "Sacramento, CA 95833, USA",
+                "rating": 4.4,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJq6qqqjbDmoARAOBwJ7-btVs",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 2607,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.6057626,
+                                "lng": -121.50348
+                        }
+                }
+        },
+        {
+                "name": "KP International Market",
+                "address": "10971 Olson Dr, Rancho Cordova, CA 95670, USA",
+                "rating": 4.4,
+                "types": [
+                        "grocery_store",
+                        "supermarket",
+                        "food_store",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ53wh7GzdmoAR__P4oyapxNI",
+                "keyword": "nearby_store",
+                "user_ratings_total": 4479,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.596948999999995,
+                                "lng": -121.28343249999999
+                        }
+                }
+        },
+        {
+                "name": "Residence Inn Sacramento Downtown at Capitol Park",
+                "address": "1121 15th St, Sacramento, CA 95814, USA",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJP0bmwNnQmoARdgQYo-iKCEg",
+                "keyword": "hotels accommodation lodging",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 1166,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.5767105,
+                                "lng": -121.48717669999999
+                        }
+                }
+        },
+        {
+                "name": "Meet & Eat",
+                "address": "3445 Freeport Blvd, Sacramento, CA 95818, USA",
+                "rating": 4.3,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJCXBKuFTQmoARgGgC8yJTqC0",
+                "keyword": "restaurants food dining",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 1582,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.54434010000001,
+                                "lng": -121.4905148
+                        }
+                }
+        },
+        {
+                "name": "California Museum",
+                "address": "1020 O St, Sacramento, CA 95814, USA",
+                "rating": 4.3,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "cultural_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJX7zgOybRmoARnggGIuIdX58",
+                "keyword": "museums",
+                "location": "Rears Lane Alley, Curtis Park",
+                "user_ratings_total": 721,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.574563,
+                                "lng": -121.4956668
+                        }
+                }
+        },
+        {
+                "name": "IKEA",
+                "address": "700 Ikea Ct, West Sacramento, CA 95605, USA",
+                "rating": 4.3,
+                "types": [
+                        "furniture_store",
+                        "home_improvement_store",
+                        "home_goods_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJzyahGxSo6lQRkcw5Hk9avQ8",
+                "keyword": "nearby_store",
+                "user_ratings_total": 9182,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.586607699999995,
+                                "lng": -121.55352529999999
+                        }
+                }
+        },
+        {
+                "name": "Costco Wholesale",
+                "address": "3881 E Commerce Way, Sacramento, CA 95834, USA",
+                "rating": 4.3,
+                "types": [
+                        "warehouse_store",
+                        "department_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2_VLMQDXmoARSMztdSHuuUY",
+                "keyword": "nearby_store",
+                "user_ratings_total": 604,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.6410926,
+                                "lng": -121.52317260000001
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Dark Side of the Moon: The Most Suppressed Space Story Ever Told",
+                "type": "Historical Mystery",
+                "description": "<p>Is the Moon a hollow alien base? Explore suppressed astronaut stories, lunar secrets, and why humanity was warned to stay away.</p>\n<p>The post <a href=\"https://www.latest-ufo-sightings.net/2025/07/dark-side-of-the-moon-the-most-suppressed-space-story-ever-told.html\">Dark Side of the Moon: The Most Suppressed Space Story Ever Told</a> appeared first on <a href=\"https://www.latest-ufo-sightings.net\">Latest UFO Sightings</a>.</p>",
+                "category": "historical"
+        },
+        {
+                "name": "A Mysterious Eruption Caused an Extreme Climate Event in 1831. Now Scientists Have Traced It to a Former Secret Soviet Island Base",
+                "type": "Historical Mystery",
+                "description": "In 1831, a mystery eruption occurred, causing a 1\u00b0C drop in global temperatures only recently identified in a paper by scientists.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 2,
+        "last_updated": "2025-07-22T12:08:48.381804"
+},
+            metadata: {
+        "title": "Historical Mysteries in 4th Avenue Rears Lane Alley, Curtis Park - Tours & Services",
+        "description": "Explore historical mysteries in 4th Avenue Rears Lane Alley, Curtis Park. Explore the mysterious history of this alleyway, where a 1831 extreme climate event was linked to a former secret Soviet",
+        "keywords": [
+                "historical sites",
+                "climate change",
+                "soviet history"
+        ],
+        "page_description": "Explore the mysterious history of this alleyway, where a 1831 extreme climate event was linked to a former secret Soviet island base. Discover the dark side of this enigmatic location with guided tours and exhibitions at nearby museums."
+},
+            lastUpdated: "2025-07-22T12:08:48.381804"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-historical');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Historical Mysteries</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1074 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Sava, Hrvatska",
+            category: "historical",
+            slug: "sava-hrvatska",
+            coordinates: [45.8128591, 15.9762902],
+            businesses: [
+        {
+                "name": "Free Spirit Tours - Zagreb free tour and other tours",
+                "address": "Neboder Ilica 1, Trg bana Josipa Jela\u010di\u0107a, Ilica 1, 10000, Zagreb, Croatia",
+                "rating": 5,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJnzs0mvHXZUcRpoOXf1Az3yU",
+                "keyword": "things to do attractions tours",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 4622,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.8128591,
+                                "lng": 15.9762902
+                        }
+                }
+        },
+        {
+                "name": "PEEK&POKE Computer Museum",
+                "address": "Ul. Ivana Grohovca 2A, 51000, Rijeka, Croatia",
+                "rating": 4.9,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJT7RtnR2hZEcRUn0XyH3uIvU",
+                "keyword": "museums",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 886,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.3281553,
+                                "lng": 14.4453036
+                        }
+                }
+        },
+        {
+                "name": "Sundial Boutique Hotel",
+                "address": "Remetine\u010dka cesta 101, 10000, Zagreb, Croatia",
+                "rating": 4.8,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ8ct52i7UZUcRM96_3E2VlvI",
+                "keyword": "hotels accommodation lodging",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 611,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.7734781,
+                                "lng": 15.9531301
+                        }
+                }
+        },
+        {
+                "name": "Youth pedestrian bridge",
+                "address": "Drava, 31000, Osijek, Croatia",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJTRT26KPnXEcRYHxqE1AZzlY",
+                "keyword": "things to do attractions tours",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 3424,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.563602100000004,
+                                "lng": 18.685364099999997
+                        }
+                }
+        },
+        {
+                "name": "Paklenica National Park",
+                "address": "Croatia",
+                "rating": 4.8,
+                "types": [
+                        "national_park",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDeBolRCRYUcR5CjZvSE3lrI",
+                "keyword": "parks recreation outdoor",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 6141,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 44.3438096,
+                                "lng": 15.4840471
+                        }
+                }
+        },
+        {
+                "name": "Old Town of Herceg Novi",
+                "address": "FG2Q+C29, Herceg Novi, Montenegro",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "historical_landmark",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJz-2vrHE7TBMRVyOo6nx2jL4",
+                "keyword": "things to do",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 10400,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 42.4510308,
+                                "lng": 18.537597200000004
+                        }
+                }
+        },
+        {
+                "name": "Sportski Centar Sava Sport",
+                "address": "Ul. Vladimira Vidri\u0107a 12, 10360, Sesvete, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "coffee_shop",
+                        "catering_service",
+                        "food_delivery",
+                        "cafe",
+                        "food_store",
+                        "event_venue",
+                        "store",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJzyzrOn13ZkcRhFK-lYLIkzI",
+                "keyword": "restaurants food dining",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 689,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.8354743,
+                                "lng": 16.1187306
+                        }
+                }
+        },
+        {
+                "name": "Pri zvoncu",
+                "address": "Ul. Vrbik XII 1, 10000, Zagreb, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "steak_house",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDeCRXIvWZUcRw1xHeIm3mFc",
+                "keyword": "restaurants food dining",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 3920,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.7952354,
+                                "lng": 15.969170100000001
+                        }
+                }
+        },
+        {
+                "name": "Korzo",
+                "address": "Trg Ivane Brli\u0107 Ma\u017eurani\u0107, 35000, Slavonski Brod, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJo7oQT_-5XUcRLv_i7KdEngo",
+                "keyword": "things to do attractions tours",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 4293,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.153750099999996,
+                                "lng": 18.0119529
+                        }
+                }
+        },
+        {
+                "name": "Bundek City Park",
+                "address": "Ul. Damira Tomljanovi\u0107a, 10000, Zagreb, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJyRZk3W3WZUcRVOaWasmocD8",
+                "keyword": "things to do attractions tours",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 16007,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.785989099999995,
+                                "lng": 15.984468099999997
+                        }
+                }
+        },
+        {
+                "name": "Medora Orbis Camping & Glamping",
+                "address": "Put Sv. Vicenca bb, 21327, Podgora, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "campground",
+                        "hotel",
+                        "childrens_camp",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJkT1y3mnwShMRCn1OpBoEDL8",
+                "keyword": "camping rv parks",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 1071,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.2338879,
+                                "lng": 17.0787651
+                        }
+                }
+        },
+        {
+                "name": "Jimi Hendrix Bridge",
+                "address": "Sava, 10000, Trnje, Zagreb, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJSTznzYTWZUcRCvjCM_Xv1Ko",
+                "keyword": "attractions",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 989,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.785198699999995,
+                                "lng": 15.9561267
+                        }
+                }
+        },
+        {
+                "name": "Krapina Neanderthal Museum",
+                "address": "\u0160etali\u0161te Vilibalda Sluge bb, 49000, Krapina, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJm7FGJZ7tZUcRmAOCgcT8J2o",
+                "keyword": "museums",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 6236,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 46.1646599,
+                                "lng": 15.8637781
+                        }
+                }
+        },
+        {
+                "name": "Pansion As",
+                "address": "Ul. bana Josipa Jela\u010di\u0107a 65A, 35403, Re\u0161etari, Croatia",
+                "rating": 4.7,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJMdlVCBtiZ0cRHJgMinVUtjg",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 558,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.256693999999996,
+                                "lng": 17.414004500000004
+                        }
+                }
+        },
+        {
+                "name": "\u0110erdan",
+                "address": "Trg jevrejskih stradanja, Gradi\u0161ka, Bosnia and Herzegovina",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJW1A2hCdcZ0cRESpPWXw679M",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1286,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.1476847,
+                                "lng": 17.2537065
+                        }
+                }
+        },
+        {
+                "name": "Pizzeria Stara Sava",
+                "address": "Savska cesta 208, 10000, Zagreb, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "pizza_restaurant",
+                        "meal_takeaway",
+                        "parking",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJLUzHjZvWZUcRJ83jQ-gYvT0",
+                "keyword": "restaurants food dining",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 4753,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.784569399999995,
+                                "lng": 15.950830100000001
+                        }
+                }
+        },
+        {
+                "name": "Sava",
+                "address": "Ul. Ilirskog preporoda 32, 32270, \u017dupanja, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJNzP4WRppXEcRWTaKdjOtl50",
+                "keyword": "restaurants food dining",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 508,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.0757233,
+                                "lng": 18.691811
+                        }
+                }
+        },
+        {
+                "name": "The Olde Pink House",
+                "address": "23 Abercorn St, Savannah, GA 31401, USA",
+                "rating": 4.6,
+                "types": [
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJyQpbUGSe-4gReydRVhkCbKc",
+                "keyword": "restaurants food dining",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 9373,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.079614899999996,
+                                "lng": -81.0898033
+                        }
+                }
+        },
+        {
+                "name": "River pub",
+                "address": "Jarunska ul. 5, 10000, Zagreb, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "wedding_venue",
+                        "pub",
+                        "bar",
+                        "event_venue",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJewGg4Z_XZUcR2ayGnQ8cIRY",
+                "keyword": "restaurants food dining",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 1069,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.7837597,
+                                "lng": 15.948563199999997
+                        }
+                }
+        },
+        {
+                "name": "River Street Market Place",
+                "address": "502 E River St, Savannah, GA 31401, USA",
+                "rating": 4.6,
+                "types": [
+                        "gift_shop",
+                        "tourist_attraction",
+                        "market",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6ztjSHue-4gRJcOrnnNpBjY",
+                "keyword": "shopping retail stores",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 2644,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.080491099999996,
+                                "lng": -81.0858499
+                        }
+                }
+        },
+        {
+                "name": "Savudrija Lighthouse",
+                "address": "Svjetionicarska ul. 1, 52475, Ba\u0161anija, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "landmark",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJK01dK-t7e0cRBP319j2HZ8E",
+                "keyword": "things to do attractions tours",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 2462,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.4900956,
+                                "lng": 13.4910909
+                        }
+                }
+        },
+        {
+                "name": "Muzej Domovinskog rata Karlovac - Turanj",
+                "address": "Turanj 2, 47000, Karlovac, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "cultural_landmark",
+                        "historical_landmark",
+                        "historical_place",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJrSB4Lpk9ZEcRhYsRaRikBK0",
+                "keyword": "museums visitor centers",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 3661,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.4626655,
+                                "lng": 15.567357
+                        }
+                }
+        },
+        {
+                "name": "St. Sava Park",
+                "address": "Pariske Komune 11, Ni\u0161, Serbia",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJRXfrt-qwVUcR_qbonreWHU0",
+                "keyword": "parks recreation outdoor",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 10826,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.320282,
+                                "lng": 21.9192963
+                        }
+                }
+        },
+        {
+                "name": "Etno Park Zagreb",
+                "address": "Gradska ul. 4, 10000, Mala Mlaka, 10000, Novi Zagreb - zapad, Zagreb, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "park",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJcWkW-3bVZUcRHxL6RFiKt7Y",
+                "keyword": "parks recreation outdoor",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 1398,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.735079500000005,
+                                "lng": 15.976300899999998
+                        }
+                }
+        },
+        {
+                "name": "Camp Vransko Lake Crkvine",
+                "address": "Crkvine 2, 23211, Pako\u0161tane, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "campground",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJzddxq6_MNBMRYQHIOf_tS2A",
+                "keyword": "camping rv parks",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 1074,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.9304765,
+                                "lng": 15.509645899999997
+                        }
+                }
+        },
+        {
+                "name": "Alligator Soul Restaurant",
+                "address": "114 Barnard St, Savannah, GA 31401, USA",
+                "rating": 4.6,
+                "types": [
+                        "fine_dining_restaurant",
+                        "seafood_restaurant",
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJcTmyVmae-4gR6jU5fYwK8kE",
+                "keyword": "restaurants",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 2228,
+                "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.078992,
+                                "lng": -81.094207
+                        }
+                }
+        },
+        {
+                "name": "Sava",
+                "address": "Sava",
+                "rating": 4.6,
+                "types": [
+                        "natural_feature",
+                        "establishment"
+                ],
+                "place_id": "ChIJXWJshym2W0cRO5ojLoPI6Ug",
+                "keyword": "things to do",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 5219,
+                "price_level": null,
+                "business_status": null,
+                "geometry": {
+                        "location": {
+                                "lat": 45.2764802,
+                                "lng": 16.935951
+                        }
+                }
+        },
+        {
+                "name": "Ran\u010d Ramarin",
+                "address": "GARDUNSKA 18, 35212, Gar\u010din, Croatia",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJcR3NxUayXUcR8q_CATRd-w0",
+                "keyword": "attractions",
+                "location": "Sava, Hrvatska",
+                "user_ratings_total": 2766,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.1805072,
+                                "lng": 18.177125399999998
+                        }
+                }
+        },
+        {
+                "name": "Cafe & Restaurant Stanica",
+                "address": "\u010catrnja bb, 78400, Bosnia and Herzegovina",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "motel",
+                        "lodging",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJx15Cp0NbZ0cRiLfYuAO-NOM",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 504,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.1236262,
+                                "lng": 17.219310699999998
+                        }
+                }
+        },
+        {
+                "name": "Motel Pizzeria \"Actros\"",
+                "address": "Banjalu\u010dki put 285, Nova Topola 78418, Bosnia and Herzegovina",
+                "rating": 4.6,
+                "types": [
+                        "pizza_restaurant",
+                        "breakfast_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJt-mnVhj4XUcRvDLbXfB5jbY",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1808,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.02733,
+                                "lng": 17.3112448
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Think Your Student Can Pass an AI Literacy Test? A Concerning New Study Says Otherwise",
+                "type": "Historical Mystery",
+                "description": "A new study reveals a troubling gap in AI literacy, showing most students can\u2019t effectively use or evaluate generative AI tools.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 1,
+        "last_updated": "2025-07-22T12:11:12.199649"
+},
+            metadata: {
+        "title": "Historical Mysteries in Sava, Hrvatska - Tours & Services",
+        "description": "Explore historical mysteries in Sava, Hrvatska. Explore the mysterious Sava River, where numerous reports of UFO sightings have been documented over the years. Visit th",
+        "keywords": [
+                "ufo tours",
+                "alien encounters",
+                "space museums"
+        ],
+        "page_description": "Explore the mysterious Sava River, where numerous reports of UFO sightings have been documented over the years. Visit the Think Your Student Can Pass an AI Literacy Test? exhibit at the PEEK&POKE Computer Museum to learn more about the phenomenon."
+},
+            lastUpdated: "2025-07-22T12:11:12.199649"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-historical');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

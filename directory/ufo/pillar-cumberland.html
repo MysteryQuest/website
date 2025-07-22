@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse UFO Sightings</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1121 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Pillar, Cumberland",
+            category: "ufo",
+            slug: "pillar-cumberland",
+            coordinates: [54.4161394, -3.0587234000000003],
+            businesses: [
+        {
+                "name": "Cathedral Cave",
+                "address": "3 Stang End, Little Langdale, Ambleside LA22 9NT, UK",
+                "rating": 4.9,
+                "types": [
+                        "tourist_attraction",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJK7TXQp_BfEgRCfPaJ-49tFA",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 645,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.4161394,
+                                "lng": -3.0587234000000003
+                        }
+                }
+        },
+        {
+                "name": "Cumberland Island National Seashore Visitor Center",
+                "address": "113 St Marys St W, St Marys, GA 31558, USA",
+                "rating": 4.8,
+                "types": [
+                        "visitor_center",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJR8-ldi8C5YgRRcudM6f20mc",
+                "keyword": "things to do attractions tours",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 659,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 30.720318000000002,
+                                "lng": -81.549751
+                        }
+                }
+        },
+        {
+                "name": "Cumberland kia",
+                "address": "1556 Interstate Dr, Cookeville, TN 38501, USA",
+                "rating": 4.8,
+                "types": [
+                        "car_repair",
+                        "car_dealer",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJy_aaiIEhZ4gRHg0Vv9vtLVs",
+                "keyword": "car rental transportation",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 1676,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.1379429,
+                                "lng": -85.5241392
+                        }
+                }
+        },
+        {
+                "name": "Lake District National Park",
+                "address": "United Kingdom",
+                "rating": 4.8,
+                "types": [
+                        "national_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJF3A1IGLBfEgRhnpq6t17tRc",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 42096,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.4678688,
+                                "lng": -3.0704249
+                        }
+                }
+        },
+        {
+                "name": "Dungeness Ruins",
+                "address": "St Marys, GA 31558, USA",
+                "rating": 4.8,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "historical_place",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJt1-AuFT85IgRDeWAIMmAXxc",
+                "keyword": "things to do attractions tours",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 496,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 30.748583300000004,
+                                "lng": -81.4708917
+                        }
+                }
+        },
+        {
+                "name": "Ristorante Ottaviani",
+                "address": "25 N Centre St, Cumberland, MD 21502, USA",
+                "rating": 4.7,
+                "types": [
+                        "italian_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJk4EfHcWOyokRWtmpXQvyfeI",
+                "keyword": "restaurants food dining",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 735,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.6522248,
+                                "lng": -78.76156329999999
+                        }
+                }
+        },
+        {
+                "name": "Cumberland Mountain State Park",
+                "address": "24 Office Dr, Crossville, TN 38555, USA",
+                "rating": 4.7,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJgRS5Ga9WZ4gRxyCmSY0Pdfw",
+                "keyword": "parks recreation outdoor",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 3885,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.9002826,
+                                "lng": -84.9984195
+                        }
+                }
+        },
+        {
+                "name": "Cumberland Falls State Resort Park",
+                "address": "7351 KY-90, Corbin, KY 40701, USA",
+                "rating": 4.7,
+                "types": [
+                        "state_park",
+                        "hiking_area",
+                        "tourist_attraction",
+                        "campground",
+                        "resort_hotel",
+                        "tour_agency",
+                        "travel_agency",
+                        "hotel",
+                        "sports_activity_location",
+                        "park",
+                        "lodging",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJtcUulJIhXYgR1GPeHWsiCW8",
+                "keyword": "parks recreation outdoor",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 8831,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.83866,
+                                "lng": -84.33861999999999
+                        }
+                }
+        },
+        {
+                "name": "Hampton Inn Cumberland",
+                "address": "109 Welton Dr, Cumberland, MD 21502, USA",
+                "rating": 4.7,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJS4irVDWJyokRmFXDGij_Xr0",
+                "keyword": "hotels",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 631,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.659158999999995,
+                                "lng": -78.74759159999999
+                        }
+                }
+        },
+        {
+                "name": "Wasdale National Trust Campsite",
+                "address": "Wasdale Head, Seascale CA20 1EX, UK",
+                "rating": 4.7,
+                "types": [
+                        "campground",
+                        "rv_park",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJt1OAeMrIfEgR9lOL9_p0BuI",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 629,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.456975,
+                                "lng": -3.26244
+                        }
+                }
+        },
+        {
+                "name": "Rydal Cave",
+                "address": "Rydal, Ambleside LA22 9LW, UK",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbxMp133qfEgRvO_yvU7_hXU",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 2802,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.4432444,
+                                "lng": -2.9964646999999998
+                        }
+                }
+        },
+        {
+                "name": "The Grasmere Gingerbread Shop",
+                "address": "Church Cottage, Grasmere, Ambleside LA22 9SW, UK",
+                "rating": 4.7,
+                "types": [
+                        "bakery",
+                        "tourist_attraction",
+                        "gift_shop",
+                        "food_store",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJo-dGlcPBfEgROia8bb2oe3s",
+                "keyword": "nearby_store",
+                "user_ratings_total": 5244,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.4579099,
+                                "lng": -3.0235726
+                        }
+                }
+        },
+        {
+                "name": "Western Maryland Scenic Railroad",
+                "address": "13 Canal St 2nd Floor, Cumberland, MD 21502, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "fine_dining_restaurant",
+                        "transit_depot",
+                        "performing_arts_theater",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "event_venue",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ03Ze98SOyokRiCKM_tBSSRU",
+                "keyword": "things to do attractions tours",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 2689,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.6495507,
+                                "lng": -78.7636076
+                        }
+                }
+        },
+        {
+                "name": "New Cumberland Borough Park",
+                "address": "517 Front St, New Cumberland, PA 17070, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJz0FDATHAyIkR9NPp0nlFb7o",
+                "keyword": "parks recreation outdoor",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 800,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.2208012,
+                                "lng": -76.8628373
+                        }
+                }
+        },
+        {
+                "name": "Rocky Gap State Park",
+                "address": "12900 Lake Shore Dr, Flintstone, MD 21530, USA",
+                "rating": 4.6,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJiY_jhNdhyokRUUjtNP0b-eI",
+                "keyword": "entertainment activities",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 5539,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.705585299999996,
+                                "lng": -78.65353139999999
+                        }
+                }
+        },
+        {
+                "name": "Comfort Inn & Suites LaVale - Cumberland",
+                "address": "1216 National Hwy, La Vale, MD 21502, USA",
+                "rating": 4.6,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJYyKgq9CPyokRXuY__3ZCZ-8",
+                "keyword": "hotels",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 674,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.636364,
+                                "lng": -78.83272199999999
+                        }
+                }
+        },
+        {
+                "name": "Cumberland Heritage Village Museum",
+                "address": "2940 Ch. Old Montreal Rd, Cumberland, ON K4C 1G3, Canada",
+                "rating": 4.6,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-cIiRzVrzkwRYu5gFM01Rr0",
+                "keyword": "museums",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 576,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.5177756,
+                                "lng": -75.3912552
+                        }
+                }
+        },
+        {
+                "name": "Langdale Hotel & Spa",
+                "address": "The Langdale Estate, Great Langdale, Ambleside LA22 9JD, UK",
+                "rating": 4.6,
+                "types": [
+                        "hotel",
+                        "spa",
+                        "bar",
+                        "lodging",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJXeYATkzAfEgRIe8DpGa6-J4",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 990,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.437411,
+                                "lng": -3.0395049999999997
+                        }
+                }
+        },
+        {
+                "name": "Keswick Camping and Caravanning Club",
+                "address": "Crow Park Rd, Keswick CA12 5EP, UK",
+                "rating": 4.6,
+                "types": [
+                        "campground",
+                        "rv_park",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJrVNNzG_bfEgRnP8Pw5kffww",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 1362,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.600659799999995,
+                                "lng": -3.1497603
+                        }
+                }
+        },
+        {
+                "name": "Theatre By The Lake",
+                "address": "Lakeside, Lake Rd, Keswick CA12 5DJ, UK",
+                "rating": 4.6,
+                "types": [
+                        "performing_arts_theater",
+                        "cafe",
+                        "event_venue",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ32_SumbbfEgRioKzDoSVITo",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1473,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.595564599999996,
+                                "lng": -3.1393768000000004
+                        }
+                }
+        },
+        {
+                "name": "Castlerigg Stone Circle",
+                "address": "Castle Ln, Keswick CA12 4RN, UK",
+                "rating": 4.6,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "historical_place",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJhSrdapbcfEgR6u4mKzSnIDM",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 5892,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.602824,
+                                "lng": -3.0984019999999997
+                        }
+                }
+        },
+        {
+                "name": "Honister Slate Mine",
+                "address": "Honister Pass, Keswick CA12 5XN, UK",
+                "rating": 4.6,
+                "types": [
+                        "adventure_sports_center",
+                        "tourist_attraction",
+                        "sports_complex",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJCXjj2VHEfEgRhzr314q0cR8",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 811,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.511169599999995,
+                                "lng": -3.199151
+                        }
+                }
+        },
+        {
+                "name": "Sleep Inn & Suites Cumberland-LaVale",
+                "address": "13320 Ali Ghan Rd NE, Cumberland, MD 21502, USA",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbTb4c2OJyokR9hXutKSR1A8",
+                "keyword": "hotels accommodation lodging",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 636,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.6720574,
+                                "lng": -78.7156892
+                        }
+                }
+        },
+        {
+                "name": "Stoney River Steakhouse and Grill",
+                "address": "2860 Cumberland Mall Suite 1640, Atlanta, GA 30339, USA",
+                "rating": 4.5,
+                "types": [
+                        "steak_house",
+                        "hamburger_restaurant",
+                        "diner",
+                        "meal_takeaway",
+                        "bar",
+                        "american_restaurant",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJyQNJZ1sQ9YgR8IYUmRmKyfA",
+                "keyword": "restaurants",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 3553,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.8814123,
+                                "lng": -84.4691513
+                        }
+                }
+        },
+        {
+                "name": "Fairfield Inn & Suites Cumberland",
+                "address": "21 Wineow St, Cumberland, MD 21502, USA",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "event_venue",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJVwBr-NqOyokR7QpvGdjWFJg",
+                "keyword": "hotels",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 691,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.647175399999995,
+                                "lng": -78.7620324
+                        }
+                }
+        },
+        {
+                "name": "Old Dungeon Ghyll Hotel Great Langdale",
+                "address": "Great Langdale, Ambleside LA22 9JY, UK",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "bar",
+                        "lodging",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJr1EoFy_BfEgR8aBlTcbMohU",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 1084,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.4454394,
+                                "lng": -3.1028169
+                        }
+                }
+        },
+        {
+                "name": "Daffodil Hotel & Spa",
+                "address": "By The Lake, Keswick Road, Grasmere, Ambleside LA22 9PR, UK",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "massage",
+                        "spa",
+                        "cafe",
+                        "lodging",
+                        "event_venue",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJC7DW3NrBfEgRZFWNgzmc5as",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1210,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.4531375,
+                                "lng": -3.0176061
+                        }
+                }
+        },
+        {
+                "name": "Burns Farm",
+                "address": "Burns Farm Caravan & Campsite, St Johns-in-the-Vale, Keswick CA12 4RR, UK",
+                "rating": 4.5,
+                "types": [
+                        "campground",
+                        "rv_park",
+                        "park",
+                        "lodging",
+                        "food_store",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJHT5tMgLdfEgRmhFMqrLy2oA",
+                "keyword": "nearby_store",
+                "user_ratings_total": 517,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 54.6084296,
+                                "lng": -3.0747948999999997
+                        }
+                }
+        },
+        {
+                "name": "Holiday Inn Express & Suites Cumberland - la Vale by IHG",
+                "address": "1076 National Hwy, La Vale, MD 21502, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "event_venue",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7xyNxtGPyokRaLZbhlJJr28",
+                "keyword": "hotels accommodation lodging",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 578,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.6392816,
+                                "lng": -78.8278437
+                        }
+                }
+        },
+        {
+                "name": "Puccini Restaurant",
+                "address": "12901 Ali Ghan Rd NE, Cumberland, MD 21502, USA",
+                "rating": 4.4,
+                "types": [
+                        "italian_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ15F2rmCJyokRlcn9abvbT-A",
+                "keyword": "restaurants food dining",
+                "location": "Pillar, Cumberland",
+                "user_ratings_total": 1740,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.6727785,
+                                "lng": -78.72461899999999
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Orange disk over Antelope Park, Utah July 3, 2025 UFO UAP sighting news. Over the Salt Lake. \ud83d\udc7d\ud83d\udc40\ud83d\ude31",
+                "type": "UFO Sighting",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2hAaeR1_odcBliLV6hPrBCiJNRhPBLCQcQlp6O_xxKP0BPTkLZqciV5Cdv6UKzpw7TT4A7adQe_M8OVmWQhnDWhHaFYAFkDOEdlvvI48AH6cnCZBpUtRq6vlBFxXA_sAWKjUvdLWFc8410SaYmsgu6zxHze5VV5fwERXd23qB3WX_WyfQWxUvu9MRzZk/s644/UFO_Utah.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"374\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2hAaeR1_odcBliLV6hPrBCiJNRhPBLCQcQlp6O_xxKP0BPTkLZqciV5Cdv6UKzpw7TT4A7adQe_M8OVmWQhnDWhHaFYAFkDOEdlvvI48AH6cnCZBpUtRq6vlBFxXA_sAWKjUvdLWFc8410SaYmsgu6zxHze5VV5fwERXd23qB3WX_WyfQWxUvu9MRzZk/w640-h374/UFO_Utah.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9VqvQl8zv7hRGJQ7SZhTfOIbEN98I4akL34QwISQ0iKpM8hQoUeBohr33cWq-qOmZVwHbsq4IJ1E_PhSTqJbJamHnTKdXjzG9mw3wj2V7rdXI2INJeULAWPGjFBLD8GKG44PCu6kP9wD4vMUhoctmJMAm3tQWKuDRhK-qFUKSASi-N09gm1eLCMcqauE/s806/Utah_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"396\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9VqvQl8zv7hRGJQ7SZhTfOIbEN98I4akL34QwISQ0iKpM8hQoUeBohr33cWq-qOmZVwHbsq4IJ1E_PhSTqJbJamHnTKdXjzG9mw3wj2V7rdXI2INJeULAWPGjFBLD8GKG44PCu6kP9wD4vMUhoctmJMAm3tQWKuDRhK-qFUKSASi-N09gm1eLCMcqauE/w640-h396/Utah_UFO.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of sighting: July 3, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of sighting: Over Antelope Park, Utah, USA</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Source: Filmed by me.</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Guys, you know me...I got to scan the sky every moment I get outside. Why? Because the more you search, the more your chance to see an actual UFO...like yesterday. I recorded this UFO that I noticed was glowing orange behind some darker clouds. It really popped! I used my iPhone 14 so the quality is soso but I got it! And thats what counts. I added contrast to the screenshots and I quickly noticed that there is a tornado like spiral cloud coming down from the UFO. It was probably getting ready to send some people or supplies down to an underground base about 4-5 miles below the Salt Lake. It's&nbsp;a dead zone where most people don't&nbsp;venture out there. Also the land behind that area is all top secret military practices areas for the helicopters and fighter jets from Hill AFB. Recorded some F35s today...see the next post. This is 100% a real alien disk&nbsp;and it's&nbsp;over 100&nbsp;meters&nbsp;across! They didn't fool me...I nailed their alien butts to the wall on this day.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO&nbsp;Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "ufo"
+        },
+        {
+                "name": "\u201cThere is Something Very Different Going on Here\u201d: Archaeologists Keep Finding Gigantic Shoes at This 2000-Year-Old Roman Site",
+                "type": "UFO Sighting",
+                "description": "Recent excavations at an ancient Roman site in England have unearthed gigantic shoes that may be among the largest ever found.",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 2,
+        "last_updated": "2025-07-22T12:04:25.078987"
+},
+            metadata: {
+        "title": "Ufo Mysteries in Pillar, Cumberland - Tours & Services",
+        "description": "Explore ufo mysteries in Pillar, Cumberland. Explore the mysterious Pillar, Cumberland, where an Orange disk was spotted over Antelope Park in July 2025. Archaeologi",
+        "keywords": [
+                "Pillar mystery",
+                "UFO sightings",
+                "Antelope Park UFO",
+                "Roman ruins"
+        ],
+        "page_description": "Explore the mysterious Pillar, Cumberland, where an Orange disk was spotted over Antelope Park in July 2025. Archaeologists have also discovered gigantic shoes at a 2000-year-old Roman site."
+},
+            lastUpdated: "2025-07-22T12:04:25.078987"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-ufo');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

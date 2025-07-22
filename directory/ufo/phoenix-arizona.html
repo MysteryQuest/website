@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse UFO Sightings</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1114 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Phoenix, Arizona",
+            category: "ufo",
+            slug: "phoenix-arizona",
+            coordinates: [33.4818627, -112.0706041],
+            businesses: [
+        {
+                "name": "Spirit of Arizona Tours",
+                "address": "2929 N 2nd St, Phoenix, AZ 85012, USA",
+                "rating": 5,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJJTuMFoGvK4cR9HSdXDopxnk",
+                "keyword": "things to do attractions tours",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 842,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4818627,
+                                "lng": -112.0706041
+                        }
+                }
+        },
+        {
+                "name": "Game Show Battle Rooms - Phoenix (Chandler)",
+                "address": "6909 W Ray Rd Suite 29, Chandler, AZ 85226, USA",
+                "rating": 5,
+                "types": [
+                        "amusement_center",
+                        "tourist_attraction",
+                        "sports_activity_location",
+                        "event_venue",
+                        "bar",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJw1ieKScFK4cRwU5kmgoBHkg",
+                "keyword": "entertainment activities",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 9504,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.3192367,
+                                "lng": -111.96065569999999
+                        }
+                }
+        },
+        {
+                "name": "Musical Instrument Museum",
+                "address": "4725 E Mayo Blvd, Phoenix, AZ 85050, USA",
+                "rating": 4.9,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfTp55hhxK4cR-9G0f9JQwTM",
+                "keyword": "museums visitor centers",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 9303,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.6679904,
+                                "lng": -111.97829689999999
+                        }
+                }
+        },
+        {
+                "name": "Puzzle Effect Escape Rooms - Phoenix",
+                "address": "4700 N Central Ave #102, Phoenix, AZ 85012, USA",
+                "rating": 4.9,
+                "types": [
+                        "tourist_attraction",
+                        "amusement_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ69ahrLYSK4cRIC8ExYOZKPY",
+                "keyword": "entertainment activities",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 1739,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5058487,
+                                "lng": -112.07420889999999
+                        }
+                }
+        },
+        {
+                "name": "Eyeconic Arizona Souvenir Shop",
+                "address": "1745 E McDowell Rd, Phoenix, AZ 85006, USA",
+                "rating": 4.9,
+                "types": [
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJacuLgYcNK4cRr1krEAfx-X8",
+                "keyword": "gift shops souvenirs",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 1516,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4655956,
+                                "lng": -112.04365560000001
+                        }
+                }
+        },
+        {
+                "name": "Desert Botanical Garden",
+                "address": "1201 N Galvin Pkwy, Phoenix, AZ 85008, USA",
+                "rating": 4.8,
+                "types": [
+                        "botanical_garden",
+                        "tourist_attraction",
+                        "wedding_venue",
+                        "museum",
+                        "event_venue",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIZ4tCFMJK4cRF10FJZ3pXCE",
+                "keyword": "things to do attractions tours",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 21068,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.461679499999995,
+                                "lng": -111.944926
+                        }
+                }
+        },
+        {
+                "name": "Dobbins Lookout",
+                "address": "10919 South Central Avenue, Phoenix, AZ 85042, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "state_park",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJISkRs7AaK4cRvnm0jjWrkYw",
+                "keyword": "things to do attractions tours",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 5138,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.3454505,
+                                "lng": -112.05857189999999
+                        }
+                }
+        },
+        {
+                "name": "Museum of Illusions Scottsdale",
+                "address": "9500 East V\u00eda de Ventura, Scottsdale, AZ 85256, USA",
+                "rating": 4.8,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "gift_shop",
+                        "event_venue",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJoRXNPj4LK4cR8W4cznomFuI",
+                "keyword": "things to do attractions tours",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 2822,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5553068,
+                                "lng": -111.8763932
+                        }
+                }
+        },
+        {
+                "name": "South Mountain Park and Preserve",
+                "address": "10919 S Central Ave, Phoenix, AZ 85042, USA",
+                "rating": 4.8,
+                "types": [
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfybkSL8aK4cRdZqNLRVyfmQ",
+                "keyword": "parks recreation outdoor",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 9969,
+                "price_level": "PRICE_LEVEL_FREE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.340336799999996,
+                                "lng": -112.0609473
+                        }
+                }
+        },
+        {
+                "name": "Echo Canyon Recreation Area",
+                "address": "4925 E McDonald Dr, Phoenix, AZ 85018, USA",
+                "rating": 4.8,
+                "types": [
+                        "hiking_area",
+                        "tourist_attraction",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO19qdo8MK4cR4CnFuI4-0X0",
+                "keyword": "parks recreation outdoor",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 2927,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5213576,
+                                "lng": -111.9733981
+                        }
+                }
+        },
+        {
+                "name": "Hall of Flame Fire Museum",
+                "address": "6101 E Van Buren St, Phoenix, AZ 85008, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7zu16koJK4cRVP2jnPomddU",
+                "keyword": "museums",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 1265,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4476794,
+                                "lng": -111.953272
+                        }
+                }
+        },
+        {
+                "name": "The Gladly",
+                "address": "2201 E Camelback Rd, Phoenix, AZ 85016, USA",
+                "rating": 4.7,
+                "types": [
+                        "event_venue",
+                        "bar",
+                        "american_restaurant",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJkxpMR28NK4cRg84ZJeCWJ-U",
+                "keyword": "restaurants food dining",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 1672,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5090973,
+                                "lng": -112.03390580000001
+                        }
+                }
+        },
+        {
+                "name": "The Capital Grille",
+                "address": "2502 E Camelback Rd, Phoenix, AZ 85016, USA",
+                "rating": 4.7,
+                "types": [
+                        "fine_dining_restaurant",
+                        "wine_bar",
+                        "steak_house",
+                        "seafood_restaurant",
+                        "bar",
+                        "american_restaurant",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_T4sdGwNK4cRwHXACULBcpA",
+                "keyword": "restaurants food dining",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 1840,
+                "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.510225999999996,
+                                "lng": -112.02707199999999
+                        }
+                }
+        },
+        {
+                "name": "Papago Park",
+                "address": "625 N Galvin Pkwy, Phoenix, AZ 85008, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZ4MLk0wJK4cRp2RC_VatisA",
+                "keyword": "things to do attractions tours",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 12576,
+                "price_level": "PRICE_LEVEL_FREE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4536315,
+                                "lng": -111.94869299999999
+                        }
+                }
+        },
+        {
+                "name": "Heard Museum",
+                "address": "2301 N Central Ave, Phoenix, AZ 85004, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "art_gallery",
+                        "gift_shop",
+                        "event_venue",
+                        "book_store",
+                        "store",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJq1ARW0ISK4cRItccBOgJS9w",
+                "keyword": "museums visitor centers",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 5295,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.472581399999996,
+                                "lng": -112.0722331
+                        }
+                }
+        },
+        {
+                "name": "North Mountain Visitor Center",
+                "address": "12950 N 7th St, Phoenix, AZ 85022, USA",
+                "rating": 4.7,
+                "types": [
+                        "visitor_center",
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "hiking_area",
+                        "tour_agency",
+                        "travel_agency",
+                        "gift_shop",
+                        "sports_activity_location",
+                        "park",
+                        "book_store",
+                        "store",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-3zP6-ttK4cR512VMM-dsm4",
+                "keyword": "museums visitor centers",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 718,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5985498,
+                                "lng": -112.0668249
+                        }
+                }
+        },
+        {
+                "name": "Phoenix Art Museum",
+                "address": "1625 N Central Ave, Phoenix, AZ 85004, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "gift_shop",
+                        "store",
+                        "restaurant",
+                        "food",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJmcBGT0ASK4cR8QooSw1pSn4",
+                "keyword": "museums visitor centers",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 3551,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4670863,
+                                "lng": -112.0727721
+                        }
+                }
+        },
+        {
+                "name": "Arizona Museum of Natural History",
+                "address": "53 N Macdonald, Mesa, AZ 85201, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJGcplxemnK4cRvhnQKCwAtXY",
+                "keyword": "museums visitor centers",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 4721,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4166023,
+                                "lng": -111.83366269999999
+                        }
+                }
+        },
+        {
+                "name": "Dreamy Draw Recreation Area",
+                "address": "2421 E Northern Ave, Phoenix, AZ 85020, USA",
+                "rating": 4.7,
+                "types": [
+                        "hiking_area",
+                        "tourist_attraction",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_____xgSK4cRYGb5rWrUGjk",
+                "keyword": "parks recreation outdoor",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 921,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5642105,
+                                "lng": -112.0288628
+                        }
+                }
+        },
+        {
+                "name": "The Rush Fun Park",
+                "address": "3865 E Thomas Rd, Phoenix, AZ 85018, USA",
+                "rating": 4.7,
+                "types": [
+                        "amusement_center",
+                        "playground",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJeaZWKf8NK4cRcHR-bopn3iI",
+                "keyword": "entertainment activities",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 2155,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4790087,
+                                "lng": -111.99844569999999
+                        }
+                }
+        },
+        {
+                "name": "Miel De Agave Phoenix",
+                "address": "705 N 1st St #110, Phoenix, AZ 85004, USA",
+                "rating": 4.7,
+                "types": [
+                        "mexican_restaurant",
+                        "steak_house",
+                        "brunch_restaurant",
+                        "seafood_restaurant",
+                        "event_venue",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJv6MKWhYTK4cRqPu9jejTrg0",
+                "keyword": "restaurants",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 2785,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.455929,
+                                "lng": -112.07210239999999
+                        }
+                }
+        },
+        {
+                "name": "Hole in the Rock",
+                "address": "625 N Galvin Pkwy, Phoenix, AZ 85008, USA",
+                "rating": 4.7,
+                "types": [
+                        "hiking_area",
+                        "tourist_attraction",
+                        "historical_landmark",
+                        "historical_place",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJdWuhyFEJK4cRLczqrQDbWAU",
+                "keyword": "attractions",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 6402,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4564869,
+                                "lng": -111.9452606
+                        }
+                }
+        },
+        {
+                "name": "Drury Inn & Suites Phoenix Airport",
+                "address": "3333 E University Dr, Phoenix, AZ 85034, USA",
+                "rating": 4.6,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJv99A1VIOK4cRqstbCYT97MY",
+                "keyword": "hotels accommodation lodging",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 1790,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4135245,
+                                "lng": -112.0090625
+                        }
+                }
+        },
+        {
+                "name": "The Henry",
+                "address": "4455 E Camelback Rd, Phoenix, AZ 85018, USA",
+                "rating": 4.6,
+                "types": [
+                        "american_restaurant",
+                        "coffee_shop",
+                        "vegan_restaurant",
+                        "vegetarian_restaurant",
+                        "breakfast_restaurant",
+                        "brunch_restaurant",
+                        "cafe",
+                        "bar",
+                        "food_store",
+                        "store",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJawGHJfEMK4cRyNHA2-dfoPw",
+                "keyword": "restaurants food dining",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 4433,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5088363,
+                                "lng": -111.9841332
+                        }
+                }
+        },
+        {
+                "name": "Chelsea\u2019s Kitchen",
+                "address": "5040 N 40th St, Phoenix, AZ 85018, USA",
+                "rating": 4.6,
+                "types": [
+                        "american_restaurant",
+                        "hamburger_restaurant",
+                        "brunch_restaurant",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJbTTqyvwMK4cRZ1KCvvgw7Nw",
+                "keyword": "restaurants food dining",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 3541,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.5111864,
+                                "lng": -111.99559149999999
+                        }
+                }
+        },
+        {
+                "name": "Scottsdale Fashion Square",
+                "address": "7014 E Camelback Rd, Scottsdale, AZ 85251, USA",
+                "rating": 4.6,
+                "types": [
+                        "shopping_mall",
+                        "restaurant",
+                        "food",
+                        "clothing_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJMwi19grD4xQR6CuvknZ-Peo",
+                "keyword": "shopping retail stores",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 18864,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.502748,
+                                "lng": -111.92934070000001
+                        }
+                }
+        },
+        {
+                "name": "Desert Ridge Marketplace",
+                "address": "21001 N Tatum Blvd, Phoenix, AZ 85050, USA",
+                "rating": 4.6,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1d2SceBwK4cRND_CfkHy2qE",
+                "keyword": "shopping retail stores",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 11556,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.6762528,
+                                "lng": -111.97307839999999
+                        }
+                }
+        },
+        {
+                "name": "Butterfly Wonderland",
+                "address": "9500 East V\u00eda de Ventura F100, Scottsdale, AZ 85256, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "wildlife_park",
+                        "zoo",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJL04x7s8KK4cRJsuul6fyG_g",
+                "keyword": "things to do attractions tours",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 7046,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.554511399999996,
+                                "lng": -111.87619
+                        }
+                }
+        },
+        {
+                "name": "Children\u2019s Museum of Phoenix",
+                "address": "215 N 7th St, Phoenix, AZ 85034, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJdUwOBBwSK4cR54UxlSuXRRM",
+                "keyword": "museums visitor centers",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 5543,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4504029,
+                                "lng": -112.06458239999999
+                        }
+                }
+        },
+        {
+                "name": "Encanto Park",
+                "address": "2605 N 15th Ave, Phoenix, AZ 85007, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJB0ksyFMSK4cRjPkPrPJmn8I",
+                "keyword": "parks recreation outdoor",
+                "location": "Phoenix, Arizona",
+                "user_ratings_total": 6687,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4742548,
+                                "lng": -112.08917849999999
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "The Phoenix Lights",
+                "type": "UFO Sighting",
+                "description": "Mass sightings of unexplained lights.",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 1,
+        "last_updated": "2025-07-22T12:00:31.171095"
+},
+            metadata: {
+        "title": "Ufo Mysteries in Phoenix, Arizona - Tours & Services",
+        "description": "Explore ufo mysteries in Phoenix, Arizona. Experience the mysterious Phoenix Lights, a legendary event in which thousands of people witnessed a massive V-shaped UF",
+        "keywords": [
+                "Phoenix Lights",
+                "UFO sightings",
+                "mysterious events"
+        ],
+        "page_description": "Experience the mysterious Phoenix Lights, a legendary event in which thousands of people witnessed a massive V-shaped UFO in the sky. Visit Spirit of Arizona Tours for guided tours and learn more about this fascinating phenomenon."
+},
+            lastUpdated: "2025-07-22T12:00:31.171095"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-ufo');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

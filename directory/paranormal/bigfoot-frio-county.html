@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Paranormal Activity</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1138 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Bigfoot, Frio County",
+            category: "paranormal",
+            slug: "bigfoot-frio-county",
+            coordinates: [29.7255104, -99.7746289],
+            businesses: [
+        {
+                "name": "Bent Rim Grill",
+                "address": "657 Ranch Rd 337 W, Leakey, TX 78873, USA",
+                "rating": 4.8,
+                "types": [
+                        "bar_and_grill",
+                        "fast_food_restaurant",
+                        "sandwich_shop",
+                        "hamburger_restaurant",
+                        "breakfast_restaurant",
+                        "american_restaurant",
+                        "bar",
+                        "meal_takeaway",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ--wpHFIyWYYRKFZfKrnxm6o",
+                "keyword": "restaurants food dining",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 1019,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.7255104,
+                                "lng": -99.7746289
+                        }
+                }
+        },
+        {
+                "name": "Fimfo Adventures",
+                "address": "520 Whitewater Way, New Braunfels, TX 78132, USA",
+                "rating": 4.8,
+                "types": [
+                        "adventure_sports_center",
+                        "roller_coaster",
+                        "sports_complex",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJGR0f9ZWfXIYRZSbeiQBwJfQ",
+                "keyword": "things to do attractions tours",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 632,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.860504499999998,
+                                "lng": -98.1550628
+                        }
+                }
+        },
+        {
+                "name": "Lost Maples State Natural Area",
+                "address": "37221 RM 187, Vanderpool, TX 78885, USA",
+                "rating": 4.8,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJz9HiWCg1WYYRMofwIGEvinU",
+                "keyword": "things to do",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 2546,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.807623099999997,
+                                "lng": -99.5706069
+                        }
+                }
+        },
+        {
+                "name": "Garner State Park",
+                "address": "234 RR 1050, Concan, TX 78838, USA",
+                "rating": 4.7,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ4ZB_4BSsToYRMQh6yWwH9Mg",
+                "keyword": "things to do attractions tours",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 5715,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.599011699999995,
+                                "lng": -99.7439308
+                        }
+                }
+        },
+        {
+                "name": "Frio Country Resort",
+                "address": "1996 Co Rd 348, Concan, TX 78838, USA",
+                "rating": 4.7,
+                "types": [
+                        "adventure_sports_center",
+                        "rv_park",
+                        "resort_hotel",
+                        "golf_course",
+                        "real_estate_agency",
+                        "hotel",
+                        "sports_complex",
+                        "travel_agency",
+                        "athletic_field",
+                        "sports_activity_location",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2W3cG6TEXoYRD37uIC6QdCw",
+                "keyword": "hotels",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 786,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.515552399999994,
+                                "lng": -99.6964972
+                        }
+                }
+        },
+        {
+                "name": "Natural Bridge Caverns",
+                "address": "26495 Natural Bridge Caverns Rd, San Antonio, TX 78266, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "historical_landmark",
+                        "historical_place",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJpxaV65mPXIYRn0Rz-dje-xY",
+                "keyword": "things to do",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 16405,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.692409500000004,
+                                "lng": -98.3427276
+                        }
+                }
+        },
+        {
+                "name": "Hill Country State Natural Area",
+                "address": "10600 Bandera Creek Rd, Bandera, TX 78003, USA",
+                "rating": 4.8,
+                "types": [
+                        "state_park",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJzdYBCeanXoYREORU02p9xYY",
+                "keyword": "parks recreation outdoor",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 484,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.628054700000003,
+                                "lng": -99.18104389999999
+                        }
+                }
+        },
+        {
+                "name": "The Crossing Travel Market",
+                "address": "901 S Main St, Winters, TX 79567, USA",
+                "rating": 4.6,
+                "types": [
+                        "truck_stop",
+                        "convenience_store",
+                        "rest_stop",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ27fObjmrV4YR-vx1P1IV1_w",
+                "keyword": "gas stations convenience stores",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 883,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 31.949173299999998,
+                                "lng": -99.963854
+                        }
+                }
+        },
+        {
+                "name": "Bigfoot Restaurant",
+                "address": "212 Warm Springs Blvd, Elephant Butte, NM 87935, USA",
+                "rating": 4.5,
+                "types": [
+                        "restaurant",
+                        "bakery",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJd81kNsCD34YRAKRDtmhx9Sg",
+                "keyword": "restaurants food dining",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 572,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.1840949,
+                                "lng": -107.22220759999999
+                        }
+                }
+        },
+        {
+                "name": "Lost Maples Cafe",
+                "address": "384 Main St, Utopia, TX 78884, USA",
+                "rating": 4.5,
+                "types": [
+                        "american_restaurant",
+                        "breakfast_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJr6nH5ha4XoYRabc1aIgThAw",
+                "keyword": "restaurants food dining",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 1109,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.615875000000003,
+                                "lng": -99.52681199999999
+                        }
+                }
+        },
+        {
+                "name": "Buc-ee's",
+                "address": "2760 I-35, New Braunfels, TX 78130, USA",
+                "rating": 4.4,
+                "types": [
+                        "convenience_store",
+                        "gas_station",
+                        "deli",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJs-S_RM28XIYRhHYRkMZgV2k",
+                "keyword": "gas stations convenience stores",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 3375,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.726333999999998,
+                                "lng": -98.07833339999999
+                        }
+                }
+        },
+        {
+                "name": "Choke Canyon State Park",
+                "address": "358 Recreational Rd 8, Calliham, TX 78007, USA",
+                "rating": 4.4,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJc2fmXy9jXYYR7hcc_abxKX4",
+                "keyword": "things to do attractions tours",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 1224,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 28.4658123,
+                                "lng": -98.35427589999999
+                        }
+                }
+        },
+        {
+                "name": "Best Western Plus Lytle Inn & Suites",
+                "address": "19876 I-35, Lytle, TX 78052, USA",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZbLDF39JXIYRnxGyXM6L1mg",
+                "keyword": "hotels accommodation lodging",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 604,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.225493999999994,
+                                "lng": -98.78973189999999
+                        }
+                }
+        },
+        {
+                "name": "Mill Creek Cafe",
+                "address": "849 US-83, Leakey, TX 78873, USA",
+                "rating": 4.3,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ488JIGjNXoYRHKKf7B6V03Q",
+                "keyword": "restaurants food dining",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 746,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.714623,
+                                "lng": -99.76356150000001
+                        }
+                }
+        },
+        {
+                "name": "Cowpokes Bar-B-Q",
+                "address": "1854 W Comal St, Pearsall, TX 78061, USA",
+                "rating": 4.3,
+                "types": [
+                        "barbecue_restaurant",
+                        "fast_food_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ14ZjvI3ZXYYR2Ukaca9eevQ",
+                "keyword": "restaurants",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 531,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 28.8975398,
+                                "lng": -99.11309759999999
+                        }
+                }
+        },
+        {
+                "name": "Walmart Supercenter",
+                "address": "175 I-35, Devine, TX 78016, USA",
+                "rating": 4.3,
+                "types": [
+                        "department_store",
+                        "hardware_store",
+                        "electronics_store",
+                        "bakery",
+                        "furniture_store",
+                        "home_improvement_store",
+                        "grocery_store",
+                        "home_goods_store",
+                        "food_store",
+                        "sporting_goods_store",
+                        "food",
+                        "clothing_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJd6xo3L40XIYRjz6yk2b2Jm8",
+                "keyword": "nearby_store",
+                "user_ratings_total": 2947,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.133297299999995,
+                                "lng": -98.8943565
+                        }
+                }
+        },
+        {
+                "name": "Mama Chole's",
+                "address": "234 US-83, Leakey, TX 78873, USA",
+                "rating": 4.2,
+                "types": [
+                        "mexican_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJv2c5UWozCIcRXgkXeyvfmL4",
+                "keyword": "restaurants food dining",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 623,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.7255095,
+                                "lng": -99.7627387
+                        }
+                }
+        },
+        {
+                "name": "Exxon",
+                "address": "127 I-35, Devine, TX 78016, USA",
+                "rating": 4.2,
+                "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ74rT5s40XIYReMSpYNgaid8",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 625,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.129284000000002,
+                                "lng": -98.89523969999999
+                        }
+                }
+        },
+        {
+                "name": "Camp Riverview",
+                "address": "1636 Co Rd 350, Concan, TX 78838, USA",
+                "rating": 4.1,
+                "types": [
+                        "campground",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJF04hiDHbXoYRKMcFcPpyZiY",
+                "keyword": "parks recreation outdoor",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 535,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.5678187,
+                                "lng": -99.7256791
+                        }
+                }
+        },
+        {
+                "name": "Triple C Steakhouse",
+                "address": "698 E Hondo Ave, Devine, TX 78016, USA",
+                "rating": 4.1,
+                "types": [
+                        "steak_house",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ0dbySs80XIYR62_l40KscmQ",
+                "keyword": "restaurants",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 1066,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.1312311,
+                                "lng": -98.8965762
+                        }
+                }
+        },
+        {
+                "name": "Garcia's Bar & Grill",
+                "address": "205 S Oak St, Pearsall, TX 78061, USA",
+                "rating": 4.1,
+                "types": [
+                        "bar_and_grill",
+                        "hamburger_restaurant",
+                        "mexican_restaurant",
+                        "bar",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDetn5yXaXYYRsbQ7X4yACKo",
+                "keyword": "restaurants",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 702,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 28.891003,
+                                "lng": -99.095671
+                        }
+                }
+        },
+        {
+                "name": "Road Ranger",
+                "address": "9977 I-35, Moore, TX 78057, USA",
+                "rating": 4.1,
+                "types": [
+                        "gas_station",
+                        "truck_stop",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJRUexIZvNXYYRnBwoTDbF6Ks",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 1942,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.0291801,
+                                "lng": -99.050822
+                        }
+                }
+        },
+        {
+                "name": "Love's Travel Stop",
+                "address": "21548 FM471, Natalia, TX 78059, USA",
+                "rating": 4,
+                "types": [
+                        "truck_stop",
+                        "gas_station",
+                        "convenience_store",
+                        "food_store",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ8f2ZvY81XIYRenT01ucGxDQ",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 653,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.184800199999998,
+                                "lng": -98.8465355
+                        }
+                }
+        },
+        {
+                "name": "Garner State Park Gift Shop",
+                "address": "Concan, TX 78838, USA",
+                "rating": 4.6,
+                "types": [
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJgY3Ies_aXoYRcfnacGq0P2w",
+                "keyword": "gift shops souvenirs",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 413,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.584901000000002,
+                                "lng": -99.7338193
+                        }
+                }
+        },
+        {
+                "name": "McDonald's",
+                "address": "1009 E Hondo Ave, Devine, TX 78016, USA",
+                "rating": 3.7,
+                "types": [
+                        "fast_food_restaurant",
+                        "sandwich_shop",
+                        "coffee_shop",
+                        "hamburger_restaurant",
+                        "breakfast_restaurant",
+                        "cafe",
+                        "food_store",
+                        "american_restaurant",
+                        "store",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJObVYSs80XIYRuHJfci9vI1s",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1123,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.131679899999998,
+                                "lng": -98.8954519
+                        }
+                }
+        },
+        {
+                "name": "Parkview Riverside RV Park",
+                "address": "2561 Co Rd 350, Concan, TX 78838, USA",
+                "rating": 4.6,
+                "types": [
+                        "rv_park",
+                        "grocery_store",
+                        "lodging",
+                        "food_store",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_VPU7M3aXoYRNeEsVYL3X4Y",
+                "keyword": "camping rv parks",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 376,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.582731000000003,
+                                "lng": -99.72746
+                        }
+                }
+        },
+        {
+                "name": "Devine Acres - San Antonio Pumpkin, Christmas & Easter Events",
+                "address": "944 FM 2200, Devine, TX 78016, USA",
+                "rating": 4.5,
+                "types": [
+                        "farm",
+                        "wholesaler",
+                        "event_venue",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJAxE4W2gzXIYRa-s7aZWMgcY",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 334,
+                "price_level": null,
+                "business_status": "CLOSED_TEMPORARILY",
+                "geometry": {
+                        "location": {
+                                "lat": 29.145455400000003,
+                                "lng": -98.93541490000001
+                        }
+                }
+        },
+        {
+                "name": "Chubby's Travel Center, Valero Gas Station",
+                "address": "21561 FM471, Natalia, TX 78059, USA",
+                "rating": 4.6,
+                "types": [
+                        "gas_station",
+                        "dog_park",
+                        "truck_stop",
+                        "atm",
+                        "parking",
+                        "park",
+                        "finance",
+                        "mexican_restaurant",
+                        "store",
+                        "meal_takeaway",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQ6BpTtM1XIYRpnP2zHqSjgo",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 311,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.1856082,
+                                "lng": -98.84480860000001
+                        }
+                }
+        },
+        {
+                "name": "Black Creek Bar and Grill",
+                "address": "1721 TX-173, Devine, TX 78016, USA",
+                "rating": 4.4,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ550flqwzXIYRVwUX-58GV18",
+                "keyword": "restaurants",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 322,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.158069599999997,
+                                "lng": -98.92999259999999
+                        }
+                }
+        },
+        {
+                "name": "Happy Hollow Frio River Outfitters",
+                "address": "32580 US-83, Concan, TX 78838, USA",
+                "rating": 4.3,
+                "types": [
+                        "real_estate_agency",
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJEQgq5c_EXoYR-5AO-rT2ZtA",
+                "keyword": "things to do attractions tours",
+                "location": "Bigfoot, Frio County",
+                "user_ratings_total": 317,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.619755200000004,
+                                "lng": -99.7536611
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Bigfoot and The Hand House",
+                "type": "Paranormal Activity",
+                "description": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaguVZcm5j9uo_k9QEsVQoZXF7jylU4yHNtbjhoZNMDSaoIoaJWGHw_T_P3aEJ-lhXyoJQJoMqRtjSlHO0s2Pr0BPRk92oN9wPg9qw5oI3hkefOInB9J1SWrRMKqNDlV6aT-bF9TGLWpQk/\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"236\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaguVZcm5j9uo_k9QEsVQoZXF7jylU4yHNtbjhoZNMDSaoIoaJWGHw_T_P3aEJ-lhXyoJQJoMqRtjSlHO0s2Pr0BPRk92oN9wPg9qw5oI3hkefOInB9J1SWrRMKqNDlV6aT-bF9TGLWpQk/w400-h236/Capture1.JPG\" width=\"400\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><br /></div><div style=\"text-align: left;\">Check out another great video from Dixie Cryptid. His bigfoot encounter stories are always entertaining.<span></span></div><a href=\"http://bigfootevidence.blogspot.com/2020/05/bigfoot-and-hand-house.html#more\">Read more \u00bb</a>",
+                "category": "paranormal"
+        },
+        {
+                "name": "UFO made cloud over Antelope Island, Utah June 20, 2025, UAP Alien Sighting News. \ud83d\udc7d\ud83d\ude31 Strange Sky",
+                "type": "Paranormal Activity",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxdHam-YYmTPRGeZgOg7F30tnue-4oWeS21_9pzQq6xE_Oqwzpa0RQpmsv1YO1hXnLNEYdY0fK6MyYJD9jEetdIqVaC5HIdIdmY_xoNI9TBrrLofagPv50ycHAlrGg9emhr8GMlq0HKlM79dJCCIeWW8X10dzttiSEEbwtTgojm784KzHvkO0pEPXgbXw/s1672/UFO_Utah.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"478\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxdHam-YYmTPRGeZgOg7F30tnue-4oWeS21_9pzQq6xE_Oqwzpa0RQpmsv1YO1hXnLNEYdY0fK6MyYJD9jEetdIqVaC5HIdIdmY_xoNI9TBrrLofagPv50ycHAlrGg9emhr8GMlq0HKlM79dJCCIeWW8X10dzttiSEEbwtTgojm784KzHvkO0pEPXgbXw/w640-h478/UFO_Utah.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting: </span>June 20, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting: </span>Antelope Park, Utah, USA</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Source: </span>Self recorded</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">As I have said over the years, aliens of all alien species out there...like to view themselves as superior in all ways to humans. This includes outwitting them by hiding in the most obvious ways possible. But we know of past UFO research that UFOs not only hide in clouds, but often create the&nbsp;clouds themselves to hide within. This is another example of such a UFO cloaked within a cloud over Utah that I personally recorded last night.</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "paranormal"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 2,
+        "last_updated": "2025-07-22T12:02:25.592830"
+},
+            metadata: {
+        "title": "Paranormal Mysteries in Bigfoot, Frio County - Tours & Services",
+        "description": "Explore paranormal mysteries in Bigfoot, Frio County. Explore the mysterious skies of Bigfoot Country, where a legendary creature is said to roam. Visit The Hand House, a hau",
+        "keywords": [
+                "ufo sightings",
+                "paranormal activity",
+                "alien encounters"
+        ],
+        "page_description": "Explore the mysterious skies of Bigfoot Country, where a legendary creature is said to roam. Visit The Hand House, a haunted mansion rumored to be inhabited by Bigfoot's spirit, and witness a rare UFO sighting over Antelope Island in June 2025."
+},
+            lastUpdated: "2025-07-22T12:02:25.592830"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-paranormal');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse UFO Sightings</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1057 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Gavhar ko'chasi, Tirsakobod mahallasi",
+            category: "ufo",
+            slug: "gavhar-kochasi-tirsakobod-mahallasi",
+            coordinates: [41.3353102, 69.275035],
+            businesses: [
+        {
+                "name": "Minor Mosque",
+                "address": "87PG+42F, Kichik Xalqa Yo'li, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.8,
+                "types": [
+                        "mosque",
+                        "tourist_attraction",
+                        "place_of_worship",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJNRD1TEWLrjgRgfZM1ux7-cE",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 2639,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3353102,
+                                "lng": 69.275035
+                        }
+                }
+        },
+        {
+                "name": "Ayramin Deluxe Hotel",
+                "address": "Katip Mustafa \u00c7elebi, Anadolu Sk. No:4, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+                "rating": 4.7,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHY6zzOa5yhQRTLs3YaccPhc",
+                "keyword": "hotels accommodation lodging",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 650,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.0342762,
+                                "lng": 28.981275099999998
+                        }
+                }
+        },
+        {
+                "name": "AKKA Hotels Suites",
+                "address": "\u0130stiklal Caddesi, Kulo\u011flu, Ayhan I\u015f\u0131k Sk. No:11, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+                "rating": 4.7,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQ7CWrpe3yhQRfIDf7LTPD3M",
+                "keyword": "hotels accommodation lodging",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 742,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.033938299999996,
+                                "lng": 28.980494299999997
+                        }
+                }
+        },
+        {
+                "name": "Memorial to the Victims of Repression in Tashkent",
+                "address": "87XQ+46Q, Tashkent, Uzbekistan",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6aDYmar0rjgRi37TKyLAZDM",
+                "keyword": "things to do attractions tours",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 841,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3478267,
+                                "lng": 69.28811139999999
+                        }
+                }
+        },
+        {
+                "name": "Hyatt Regency Tashkent",
+                "address": "1 A, Navoiy shoh ko'chasi, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.7,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJg6MxJjCLrjgRaXPFE4C3TzI",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 1404,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.316350899999996,
+                                "lng": 69.27802199999999
+                        }
+                }
+        },
+        {
+                "name": "Hilton Tashkent City",
+                "address": "Ukchi ko'chasi 1, 100027, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.6,
+                "types": [
+                        "hotel",
+                        "banquet_hall",
+                        "wedding_venue",
+                        "extended_stay_hotel",
+                        "spa",
+                        "lodging",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJE55oW2iLrjgR5_UCblLfTK8",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 1662,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.314169299999996,
+                                "lng": 69.24886459999999
+                        }
+                }
+        },
+        {
+                "name": "Syrovarnya",
+                "address": "Shahrisabz ko'chasi 31\u0411, 181301, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.6,
+                "types": [
+                        "italian_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJGYqdn06LrjgROiJYj0ToKBg",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 738,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.311867199999995,
+                                "lng": 69.2856216
+                        }
+                }
+        },
+        {
+                "name": "Amir Temur Square",
+                "address": "\u0410\u043c\u0438\u0440 \u0422\u0435\u043c\u0443\u0440 \u0448\u043e\u04b3 \u043a\u045e\u0447\u0430\u0441\u0438 4, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "state_park",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIx_0MSmLrjgRRbhUtgZeCYE",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 3086,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3111391,
+                                "lng": 69.2795927
+                        }
+                }
+        },
+        {
+                "name": "RentCar",
+                "address": "City Palace Hotel, \u0443\u043b.\u0410.\u0422\u0438\u043c\u0443\u0440\u043015, 100007, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.7,
+                "types": [
+                        "car_rental",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ80ljejWLrjgRRhBk4_sMJ4o",
+                "keyword": "car rental transportation",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 485,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3162282,
+                                "lng": 69.2799311
+                        }
+                }
+        },
+        {
+                "name": "Khan Chapan",
+                "address": "Usta Olim tupik 5, 100019, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.5,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJvXFrIGKLrjgRb8UChC0RESA",
+                "keyword": "restaurants food dining",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 667,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3397795,
+                                "lng": 69.2552786
+                        }
+                }
+        },
+        {
+                "name": "Fort Chiswell RV Park",
+                "address": "312 Fort Chiswell Rd, Max Meadows, VA 24360, USA",
+                "rating": 4.5,
+                "types": [
+                        "rv_park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJkexBGHj9UYgRCLABgp6GM08",
+                "keyword": "camping rv parks",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 744,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.940629099999995,
+                                "lng": -80.9418898
+                        }
+                }
+        },
+        {
+                "name": "Museum of Applied Arts",
+                "address": "Rakatboshi ko'chasi 15, 100031, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.5,
+                "types": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ47MaouGKrjgR0M-LyFRawbM",
+                "keyword": "museums",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 979,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3010284,
+                                "lng": 69.2593952
+                        }
+                }
+        },
+        {
+                "name": "Shimoliy Vokzal",
+                "address": "77RP+J94, Turkiston ko'chasi, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.5,
+                "types": [
+                        "hostel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQQtoxg2LrjgRSNBzyb2-nLg",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 726,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.2915019,
+                                "lng": 69.28594439999999
+                        }
+                }
+        },
+        {
+                "name": "Besh Qozon Pilaf Center",
+                "address": "\u0443\u043b. \u0421\u0430\u043b\u0438\u0445, Ulitsa Khamzy Umarova, Tashkent, Uzbekistan",
+                "rating": 4.5,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJpfD0Q-SLrjgRHmSsbswhdWI",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1021,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.317742700000004,
+                                "lng": 69.20963379999999
+                        }
+                }
+        },
+        {
+                "name": "Chilonzor Metro",
+                "address": "Unnamed Road, 100135, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.5,
+                "types": [
+                        "pharmacy",
+                        "store",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJb5b0kz-LrjgR_WNGt-lKFUY",
+                "keyword": "nearby_store",
+                "user_ratings_total": 750,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.2743237,
+                                "lng": 69.2040158
+                        }
+                }
+        },
+        {
+                "name": "Besh Qozon",
+                "address": "Iftihor ko'chasi 1, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.4,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJt1PgiKqMrjgRIvaDBbdwLIA",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 3597,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3474316,
+                                "lng": 69.2849598
+                        }
+                }
+        },
+        {
+                "name": "Chorsu Bazaar",
+                "address": "Tafakkur ko'chasi 57, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.4,
+                "types": [
+                        "tourist_attraction",
+                        "market",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJPZUE3ZyLrjgRjqgXCVWdEPg",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 8480,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3267357,
+                                "lng": 69.2350318
+                        }
+                }
+        },
+        {
+                "name": "AKKA Hotels Lush",
+                "address": "S\u0131raselviler Caddesi, Katip Mustafa \u00c7elebi, Tak-\u0131 Zafer Cd. No:10, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJY0_Pbw23yhQR5A4nSnrRnsk",
+                "keyword": "hotels accommodation lodging",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 1313,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.03469,
+                                "lng": 28.984526
+                        }
+                }
+        },
+        {
+                "name": "Tashkent Zoo",
+                "address": "\u0411\u043e\u0493\u0438\u0448\u0430\u043c\u043e\u043b \u043a\u045e\u0447\u0430\u0441\u0438 232-\u0430, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.3,
+                "types": [
+                        "zoo",
+                        "tourist_attraction",
+                        "wildlife_park",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJtWakfL30rjgRgOlJPbTwTqg",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 2635,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3439983,
+                                "lng": 69.309899
+                        }
+                }
+        },
+        {
+                "name": "Sergeli Moshina Bozor",
+                "address": "66Q7+86G, Tashkent, Uzbekistan",
+                "rating": 4.3,
+                "types": [
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJs1_7epRhrjgR8ZU72h4ktU4",
+                "keyword": "nearby_store",
+                "user_ratings_total": 732,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.2320643,
+                                "lng": 69.215094
+                        }
+                }
+        },
+        {
+                "name": "Alay Bazaar",
+                "address": "Yahyo Gulyamov ko'chasi 7, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.3,
+                "types": [
+                        "market",
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJsTO3jDKLrjgR6vShMEFUmio",
+                "keyword": "nearby_store",
+                "user_ratings_total": 1104,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3187322,
+                                "lng": 69.2847577
+                        }
+                }
+        },
+        {
+                "name": "Axmad oltin jo\u2018ja",
+                "address": "7574+42X, Qovunchi ko'chasi 38-3, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.2,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJdeJ_T8iJrjgR42reTAKRvVM",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 856,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.262469499999995,
+                                "lng": 69.1543939
+                        }
+                }
+        },
+        {
+                "name": "Avtouzbegim \u043f\u0440\u043e\u043a\u0430\u0442 \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439 \u0432 \u0422\u0430\u0448\u043a\u0435\u043d\u0442\u0435 \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d\u0435",
+                "address": "\u0410\u043c\u0438\u0440 \u0422\u0435\u043c\u0443\u0440 \u0448\u043e\u04b3 \u043a\u045e\u0447\u0430\u0441\u0438 99\u0430, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.8,
+                "types": [
+                        "car_rental",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ4_OwhDCLrjgRrQ_g9YbCy3A",
+                "keyword": "car rental transportation",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 408,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3344044,
+                                "lng": 69.2841682
+                        }
+                }
+        },
+        {
+                "name": "Hotel Uzbekistan",
+                "address": "Mirzamakhmud Musakhanov Street 45, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 3.8,
+                "types": [
+                        "hotel",
+                        "extended_stay_hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJkVKH7CuLrjgRZOHHIMFbKwI",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 2182,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3113642,
+                                "lng": 69.28267819999999
+                        }
+                }
+        },
+        {
+                "name": "Magic park",
+                "address": "863V+QP2, Tashkent, Uzbekistan",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJC1Duv9KLrjgRY9IgskQ8QtI",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 358,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.304394099999996,
+                                "lng": 69.24427709999999
+                        }
+                }
+        },
+        {
+                "name": "Nupera Hotel",
+                "address": "Mahallesi, Katip Mustafa \u00c7elebi, Billurcu Sk. No:15, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+                "rating": 4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJhwuOhPa3yhQRJZU5jegHAJY",
+                "keyword": "hotels accommodation lodging",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 384,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.0337414,
+                                "lng": 28.982803999999998
+                        }
+                }
+        },
+        {
+                "name": "Chilanzar Shopping Center",
+                "address": "Chilonzor ko'chasi 55, 100115, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 4.2,
+                "types": [
+                        "shopping_mall",
+                        "amusement_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJEVisvUaKrjgRkwPMvJ1O27g",
+                "keyword": "shopping retail stores",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 356,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.2830467,
+                                "lng": 69.2222748
+                        }
+                }
+        },
+        {
+                "name": "Museum of Victims of Political Repression",
+                "address": "87WQ+Q79, Tashkent, Uzbekistan",
+                "rating": 4.3,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJCRLiqar0rjgRIpIlgCCk5p4",
+                "keyword": "museums",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 291,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.3469165,
+                                "lng": 69.28821909999999
+                        }
+                }
+        },
+        {
+                "name": "Buyuk Istanbul Restaurant",
+                "address": "Sayram ko'chasi 5, 100000, \u0422\u043eshkent, Toshkent, Uzbekistan",
+                "rating": 3.8,
+                "types": [
+                        "turkish_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJASNvYkj1rjgRAhcseZQq7As",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 311,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.328227,
+                                "lng": 69.3209578
+                        }
+                }
+        },
+        {
+                "name": "Elegance House Cafe & Hotel",
+                "address": "Katip Mustafa \u00c7elebi, Billurcu Sk. No:7, 34433 Beyo\u011flu/\u0130stanbul, T\u00fcrkiye",
+                "rating": 4.9,
+                "types": [
+                        "hotel",
+                        "dessert_shop",
+                        "cafe",
+                        "confectionery",
+                        "lodging",
+                        "food_store",
+                        "store",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJOUll5Km3yhQRTsrD8BLHVCY",
+                "keyword": "hotels accommodation lodging",
+                "location": "chasi, Tirsakobod mahallasi",
+                "user_ratings_total": 161,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.0334414,
+                                "lng": 28.982552999999996
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Ancient Alien City Found Under Ocean, Maybe Atlantis? imagine the tech left behind. UFO UAP Sighting News",
+                "type": "UFO Sighting",
+                "description": "<div style=\"text-align: left;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOS4ZQnM4qmZYKaKGLZHJXKLL6d4PenPJipUku17QtAJpP-foGw4FSayPUHujaYHeArirqunsZwedvH_qfUXXTbTNoFP6UEeXfZUEC6oKNZek9YBpzpifcjAXqNE8xayLLRRoX2WS6n7OrW1mjGa4PGPJHey5UN4jsx1aFZo7Qh8QqF3jImZruq4H4dg4/s1092/Alien%20base,%20aliens.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"398\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOS4ZQnM4qmZYKaKGLZHJXKLL6d4PenPJipUku17QtAJpP-foGw4FSayPUHujaYHeArirqunsZwedvH_qfUXXTbTNoFP6UEeXfZUEC6oKNZek9YBpzpifcjAXqNE8xayLLRRoX2WS6n7OrW1mjGa4PGPJHey5UN4jsx1aFZo7Qh8QqF3jImZruq4H4dg4/w640-h398/Alien%20base,%20aliens.png\" width=\"640\" /></a></div><br /><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Date of discovery: July 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Location of discovery: Island of Crete, Greece</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Co</span><span style=\"font-size: large;\"><span>ordinates:&nbsp;</span>35\u00b002'55.0\"N 24\u00b038'13.0\"E</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Wow, just look at this. This is a prehistoric city that is massive in size...35km wide and 72km long! That last time water was that low was back 20,000 years ago before the ice age melt...that means prehistoric human society...and no prehistoric human civilization&nbsp;could make such a massive city. So that leave...yes!&nbsp;Aliens!&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">This area is also close to Rocca Pia Italy, the area where the Friendship&nbsp;Alien Case that lasted many decades where humans and alien interacted helping each other. Just a few hundred miles away.</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">So the real question on everybody's minds...is this the long lost city of Atlantis? I say it is. Don't believe me? Remember the ancient gods of Greece? They were real and lived in Atlantis! You are looking at the city of the gods.</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div>",
+                "category": "ufo"
+        },
+        {
+                "name": "Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. VIDEO!",
+                "type": "UFO Sighting",
+                "description": "<div style=\"text-align: left;\"><span style=\"font-size: large;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxyVsiDpwkfylswvN5rSl78yihi8VMGQi8lRb8fYWJTN5dOwZXzAsJHpbanSgNqAH1OAbv-7_HOrq9SxGh95zyjVfb7jj-nvAz1slMe-jLPa05BXSV_Irayb-kZCFnflDFDPfuE207nyYH5u0fY4__IkPMADWjv3X56YmXqJfR0s4ehPHc-cWtrWxDxqA/s1122/UFO_Colorado.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"382\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxyVsiDpwkfylswvN5rSl78yihi8VMGQi8lRb8fYWJTN5dOwZXzAsJHpbanSgNqAH1OAbv-7_HOrq9SxGh95zyjVfb7jj-nvAz1slMe-jLPa05BXSV_Irayb-kZCFnflDFDPfuE207nyYH5u0fY4__IkPMADWjv3X56YmXqJfR0s4ehPHc-cWtrWxDxqA/w640-h382/UFO_Colorado.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIebWfg16MTjq3_huDxZGc28rVrzF4mjyHX-_x3Ia5nW1Nx_8iaf7R15rT_xaFd6r_w_wdpLezeJ-YtZa7duOInKkiCG50Ei9ViQmoRN96m7DVTqI5Mzz0EvjbkDu1sZ1t2xjH1JHGQKBtztJ0YQ4vuUa_SH9M03zkQiwlH-3ZcirJdwK4SBG4ATsox5E/s1186/UFO_UAP.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"374\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIebWfg16MTjq3_huDxZGc28rVrzF4mjyHX-_x3Ia5nW1Nx_8iaf7R15rT_xaFd6r_w_wdpLezeJ-YtZa7duOInKkiCG50Ei9ViQmoRN96m7DVTqI5Mzz0EvjbkDu1sZ1t2xjH1JHGQKBtztJ0YQ4vuUa_SH9M03zkQiwlH-3ZcirJdwK4SBG4ATsox5E/w640-h374/UFO_UAP.png\" width=\"640\" /></a></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><br /><span style=\"color: red;\"><br /></span></span><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObQeFNbMdBN2qTBYxNNX6Ngv-CIOTLcEpJ-FtOOHjjAkGLqSuTtgL-WmAQwUxZo0GIneJmwOXaEOfFiUJc3O2KbDHEJiV-hjysK8O1_p9bq1vwuBI8jotQyK35USOz39nMTuXWoElpj2n5FQdrx4ag3Gpj2c0L8Z6-rVM9SekGFA5aiQeOgwB1tRkbRw/s980/Screenshot%202025-06-19%20at%2012.22.25%E2%80%AFAM.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"305\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObQeFNbMdBN2qTBYxNNX6Ngv-CIOTLcEpJ-FtOOHjjAkGLqSuTtgL-WmAQwUxZo0GIneJmwOXaEOfFiUJc3O2KbDHEJiV-hjysK8O1_p9bq1vwuBI8jotQyK35USOz39nMTuXWoElpj2n5FQdrx4ag3Gpj2c0L8Z6-rVM9SekGFA5aiQeOgwB1tRkbRw/s320/Screenshot%202025-06-19%20at%2012.22.25%E2%80%AFAM.png\" width=\"320\" /></a></div><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting:</span> June 4, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting: </span>Colorado Springs, Colorado, USA</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Source:</span> NUFORC.org who I&nbsp;assist.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Wow, check out this eyewitness video. I made a close up full screen and a slow motion clip so you can get a better look at it and judge for yourself. This is a pillar UFO also called a cigar UFO. The craft is spinning around as it moves forward and it's just amazing to see it in slow motion! This is undeniable proof that UFOs frequently visit Colorado. Notice that the UFO is not perfectly round, but it seems to be more like two long rectangle attached at the sides. Such a rare catch and although the video is short, it shows us its speed, shape, rotation as it moves, its hight never changes, and its very dark color...all add to the info in the file on this case thanks to the video.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"color: red; font-size: large;\">Eyewitness states:&nbsp;</span></div><span style=\"font-size: large;\">Large cigar shaped ufo was incredibly shocking to see\n\nSpotted this cigar shaped UFO after leaving my mom\u2019s house it was probably over a mile away from me when I filmed it and it still looked very large to my eyes. Camera doesn\u2019t do justice how big is was. If I had to guess 3-6 story\u2019s tall.</span><div><br /></div>",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 2,
+        "last_updated": "2025-07-22T12:03:38.357138"
+},
+            metadata: {
+        "title": "Ufo Mysteries in Gavhar ko'chasi, Tirsakobod mahallasi - Tours & Services",
+        "description": "Explore ufo mysteries in Gavhar ko'chasi, Tirsakobod mahallasi. Explore the enigmatic Gavhar ko'chasi, Tirsakobod mahallasi, where ancient secrets and mysterious technologies await. Di",
+        "keywords": [
+                "Gavhar ko'chasi",
+                "ufo sightings",
+                "ancient alien city",
+                "atlantis theory"
+        ],
+        "page_description": "Explore the enigmatic Gavhar ko'chasi, Tirsakobod mahallasi, where ancient secrets and mysterious technologies await. Discover the remnants of an Ancient Alien City hidden beneath the ocean floor, sparking debate about the existence of Atlantis."
+},
+            lastUpdated: "2025-07-22T12:03:38.357138"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-ufo');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

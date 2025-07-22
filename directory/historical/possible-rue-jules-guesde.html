@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Historical Mysteries</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1094 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Possible, Rue Jules Guesde",
+            category: "historical",
+            slug: "possible-rue-jules-guesde",
+            coordinates: [48.8369326, 2.3238683],
+            businesses: [
+        {
+                "name": "H\u00f4tel Mistral",
+                "address": "24 Rue Cels, 75014 Paris, France",
+                "rating": 4.8,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJM8WdArFx5kcRNbviIxF9uoY",
+                "keyword": "hotels accommodation lodging",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 1540,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8369326,
+                                "lng": 2.3238683
+                        }
+                }
+        },
+        {
+                "name": "ESCAPEGAME.LOL - Escape Game Montpellier",
+                "address": "12 Rue Farges, 34000 Montpellier, France",
+                "rating": 4.8,
+                "types": [
+                        "night_club",
+                        "video_arcade",
+                        "karaoke",
+                        "amusement_center",
+                        "bar",
+                        "sports_activity_location",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJAQAUwKOvthIR9k_3V1iA-o4",
+                "keyword": "entertainment activities",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 17110,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.6042318,
+                                "lng": 3.8821360999999994
+                        }
+                }
+        },
+        {
+                "name": "Pullman Paris Montparnasse",
+                "address": "19 Rue du Commandant Ren\u00e9 Mouchotte, 75014 Paris, France",
+                "rating": 4.8,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJwXZmLDVw5kcRIJ2dYURyo_w",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 8940,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8384551,
+                                "lng": 2.3203929999999997
+                        }
+                }
+        },
+        {
+                "name": "North Rim Visitor Center",
+                "address": "AZ-67, North Rim, AZ 86023, USA",
+                "rating": 4.7,
+                "types": [
+                        "visitor_center",
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJM-oLXJ8SM4cRvtjmxQTeXi4",
+                "keyword": "museums visitor centers",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 3399,
+                "price_level": null,
+                "business_status": "CLOSED_TEMPORARILY",
+                "geometry": {
+                        "location": {
+                                "lat": 36.198378399999996,
+                                "lng": -112.052496
+                        }
+                }
+        },
+        {
+                "name": "Golden Gate National Recreation Area",
+                "address": "California, USA",
+                "rating": 4.7,
+                "types": [
+                        "historical_landmark",
+                        "national_park",
+                        "tourist_attraction",
+                        "historical_place",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
+                "keyword": "parks recreation outdoor",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 16851,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8451837,
+                                "lng": -122.53007769999999
+                        }
+                }
+        },
+        {
+                "name": "Fort Ticonderoga",
+                "address": "102 Fort Ti Rd, Ticonderoga, NY 12883, USA",
+                "rating": 4.7,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "historical_place",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJvWTTPdpVtUwRc_fye8CY2nA",
+                "keyword": "things to do",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 2446,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.8416766,
+                                "lng": -73.38753960000001
+                        }
+                }
+        },
+        {
+                "name": "Eiffel Tower",
+                "address": "Av. Gustave Eiffel, 75007 Paris, France",
+                "rating": 4.7,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "monument",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 451884,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.858370099999995,
+                                "lng": 2.2944812999999997
+                        }
+                }
+        },
+        {
+                "name": "Louvre Museum",
+                "address": "75001 Paris, France",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJD3uTd9hx5kcR1IQvGfr8dbk",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 348553,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8606111,
+                                "lng": 2.337644
+                        }
+                }
+        },
+        {
+                "name": "Arc de Triomphe",
+                "address": "Pl. Charles de Gaulle, 75008 Paris, France",
+                "rating": 4.7,
+                "types": [
+                        "monument",
+                        "cultural_landmark",
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJjx37cOxv5kcRPWQuEW5ntdk",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 270405,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8737917,
+                                "lng": 2.2950274999999998
+                        }
+                }
+        },
+        {
+                "name": "Notre-Dame Cathedral of Paris",
+                "address": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "church",
+                        "place_of_worship",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJATr1n-Fx5kcRjQb6q6cdQDY",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 70337,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.85296820000001,
+                                "lng": 2.3499021
+                        }
+                }
+        },
+        {
+                "name": "Vieux Tours",
+                "address": "Jard Saint-Pierre le Puellier, 37000 Tours, France",
+                "rating": 4.6,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJNX8psLvV_EcRqddY7TpwAsE",
+                "keyword": "things to do attractions tours",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 3601,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 47.3942956,
+                                "lng": 0.6821221
+                        }
+                }
+        },
+        {
+                "name": "Joe Creason Park",
+                "address": "1297 Trevilian Way, Louisville, KY 40213, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJK_xH6-wMaYgRN-K3ZP2-qbA",
+                "keyword": "parks recreation outdoor",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 930,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.209074099999995,
+                                "lng": -85.70590639999999
+                        }
+                }
+        },
+        {
+                "name": "Palace of Versailles",
+                "address": "Place d'Armes, 78000 Versailles, France",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "historical_place",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJdUyx15R95kcRj85ZX8H8OAU",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 156022,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8048649,
+                                "lng": 2.1203554
+                        }
+                }
+        },
+        {
+                "name": "Pullman Paris Tour Eiffel",
+                "address": "18 Avenue De Suffren, 22 Rue Jean Rey Entr\u00e9e Au, 75015 Paris, France",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQ9zqGSJw5kcRxXrv3IVGdrc",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 11985,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8556488,
+                                "lng": 2.2928584
+                        }
+                }
+        },
+        {
+                "name": "Ibis Paris Gare Montparnasse Catalogne",
+                "address": "11 Rue du Texel, 75014 Paris, France",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ9QsrVDVw5kcRstUEaSMxQvU",
+                "keyword": "hotels accommodation lodging",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 780,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8367778,
+                                "lng": 2.3200876999999998
+                        }
+                }
+        },
+        {
+                "name": "Hyatt Regency Paris \u00c9toile",
+                "address": "3 Pl. du G\u00e9n\u00e9ral K\u0153nig, 75017 Paris, France",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJT0BJgYtv5kcRJH8RHq52HUU",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 5629,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.880506399999994,
+                                "lng": 2.284538
+                        }
+                }
+        },
+        {
+                "name": "Bateaux Parisiens",
+                "address": "Port de la Bourdonnais, 75007 Paris, France",
+                "rating": 4.4,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJA2WozONv5kcRDN_4jmUSXBk",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 29324,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.860385,
+                                "lng": 2.293565
+                        }
+                }
+        },
+        {
+                "name": "Bouillon Chartier",
+                "address": "59 Bd du Montparnasse, 75006 Paris, France",
+                "rating": 4.3,
+                "types": [
+                        "french_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ3RzfHs1x5kcRpBYaFaRZw5k",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 15553,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.844290799999996,
+                                "lng": 2.3233219
+                        }
+                }
+        },
+        {
+                "name": "Angelina",
+                "address": "226 Rue de Rivoli, 75001 Paris, France",
+                "rating": 4.3,
+                "types": [
+                        "restaurant",
+                        "coffee_shop",
+                        "bakery",
+                        "cafe",
+                        "tea_house",
+                        "food_store",
+                        "store",
+                        "french_restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWVhEdi5u5kcRRl0Vdpqt7RI",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 16697,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8650898,
+                                "lng": 2.3284434
+                        }
+                }
+        },
+        {
+                "name": "Hotel Apollon Montparnasse",
+                "address": "91 Rue de l'Ouest, 75014 Paris, France",
+                "rating": 4.2,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJPTs3Wkpw5kcRXQl-PIayHSo",
+                "keyword": "hotels accommodation lodging",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 639,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8347914,
+                                "lng": 2.3170113999999997
+                        }
+                }
+        },
+        {
+                "name": "Centre Commercial Beaugrenelle",
+                "address": "12 Rue Linois, 75015 Paris, France",
+                "rating": 4.2,
+                "types": [
+                        "shopping_mall",
+                        "atm",
+                        "movie_theater",
+                        "fast_food_restaurant",
+                        "shoe_store",
+                        "finance",
+                        "clothing_store",
+                        "home_goods_store",
+                        "book_store",
+                        "store",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJAbQV5AVw5kcR3as-MQ8GJCI",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 6593,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.848323799999996,
+                                "lng": 2.2823613
+                        }
+                }
+        },
+        {
+                "name": "Bonanza Gift Shop",
+                "address": "2400 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
+                "rating": 4.1,
+                "types": [
+                        "gift_shop",
+                        "liquor_store",
+                        "jewelry_store",
+                        "clothing_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJczbU8HbEyIARpUpFTXIdAmA",
+                "keyword": "gift shops souvenirs",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 10106,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.1444439,
+                                "lng": -115.15732169999998
+                        }
+                }
+        },
+        {
+                "name": "Generator Paris",
+                "address": "9-11 Pl. du Colonel Fabien, 75010 Paris, France",
+                "rating": 4.1,
+                "types": [
+                        "hostel",
+                        "hotel",
+                        "cafe",
+                        "lodging",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJFSBjnt9t5kcRb33P22PJ-RE",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 8499,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.878247599999995,
+                                "lng": 2.3696032
+                        }
+                }
+        },
+        {
+                "name": "Fnac",
+                "address": "136 Rue de Rennes, 75006 Paris, France",
+                "rating": 4.1,
+                "types": [
+                        "department_store",
+                        "cell_phone_store",
+                        "electronics_store",
+                        "book_store",
+                        "home_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJcTWK-NFx5kcRI4buiJpXGtc",
+                "keyword": "nearby_store",
+                "user_ratings_total": 17173,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8458344,
+                                "lng": 2.3254321
+                        }
+                }
+        },
+        {
+                "name": "Louisville Nature Center",
+                "address": "3745 Illinois Ave, Louisville, KY 40213, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJNadU4-4MaYgReKlLlVrwDVQ",
+                "keyword": "parks recreation outdoor",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 435,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.2096492,
+                                "lng": -85.7111025
+                        }
+                }
+        },
+        {
+                "name": "H\u00f4tel Restaurant Campanile Paris Montparnasse",
+                "address": "146 Av. du Maine, 75014 Paris, France",
+                "rating": 4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJVfc5sbVx5kcRyhVKz9v5dLM",
+                "keyword": "hotels accommodation lodging",
+                "location": "Possible, Rue Jules Guesde",
+                "user_ratings_total": 1186,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.834432,
+                                "lng": 2.323973
+                        }
+                }
+        },
+        {
+                "name": "Novotel Paris Centre Tour Eiffel",
+                "address": "61 Quai de Grenelle, 75015 Paris, France",
+                "rating": 4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZxFlNARw5kcRcfKfmkPZows",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 8535,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8498744,
+                                "lng": 2.2832638
+                        }
+                }
+        },
+        {
+                "name": "E-Leclerc service station in Paris 17\u00e8me",
+                "address": "Bd du Fort de Vaux, 75017 Paris, France",
+                "rating": 4,
+                "types": [
+                        "gas_station",
+                        "coffee_shop",
+                        "cafe",
+                        "car_wash",
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-3OHWJ9v5kcRSZZrA3sVZOM",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 1158,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.8936101,
+                                "lng": 2.302942
+                        }
+                }
+        },
+        {
+                "name": "Lidl",
+                "address": "53/55 Av. du Maine, 75014 Paris, France",
+                "rating": 4,
+                "types": [
+                        "supermarket",
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJyxE_94xx5kcRZRhRBq8OGQs",
+                "keyword": "nearby_store",
+                "user_ratings_total": 706,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.83992,
+                                "lng": 2.32232
+                        }
+                }
+        },
+        {
+                "name": "Uniqlo",
+                "address": "136 Rue de Rennes, 75006 Paris, France",
+                "rating": 4,
+                "types": [
+                        "clothing_store",
+                        "sporting_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJr2mcks1x5kcR1RkhKjRk7hg",
+                "keyword": "nearby_store",
+                "user_ratings_total": 1467,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.845991,
+                                "lng": 2.325771
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "Scientists Link Cataclysmic Volcanic Eruptions to Mysterious Continent-Sized \u2018BLOBS\u2019 Deep Within the Earth",
+                "type": "Historical Mystery",
+                "description": "New research traces the origins of Earth\u2019s most powerful volcanic eruptions to mysterious continent-sized structures deep within our planet.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 1,
+        "last_updated": "2025-07-22T12:07:57.209088"
+},
+            metadata: {
+        "title": "Historical Mysteries in Possible, Rue Jules Guesde - Tours & Services",
+        "description": "Explore historical mysteries in Possible, Rue Jules Guesde. Explore the mysterious continent-sized 'BLOBS' deep within the Earth, where scientists have discovered a connection betw",
+        "keywords": [
+                "ufo sightings",
+                "volcanic eruptions",
+                "earth mysteries"
+        ],
+        "page_description": "Explore the mysterious continent-sized 'BLOBS' deep within the Earth, where scientists have discovered a connection between cataclysmic volcanic eruptions and these enigmatic formations. Visit H\u00f4tel Mistral for a taste of Montpellier's rich history."
+},
+            lastUpdated: "2025-07-22T12:07:57.209088"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-historical');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

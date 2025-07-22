@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse UFO Sightings</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1075 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "dragon",
+            category: "ufo",
+            slug: "dragon",
+            coordinates: [34.864005999999996, -111.80175009999999],
+            businesses: [
+        {
+                "name": "Scenic Sedona Tours",
+                "address": "2370 AZ-89A Unit #5, Sedona, AZ 86336, USA",
+                "rating": 4.9,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJS2BI2luhLYcRhZB0djbAh6A",
+                "keyword": "things to do attractions tours",
+                "location": "dragon, ",
+                "user_ratings_total": 1449,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.864005999999996,
+                                "lng": -111.80175009999999
+                        }
+                }
+        },
+        {
+                "name": "Tail of the Dragon",
+                "address": "17555 Tapoco Rd, Robbinsville, NC 28771, USA",
+                "rating": 4.8,
+                "types": [
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJXT5dazC-XogRwi65RZ2VMO8",
+                "keyword": "gift shops souvenirs",
+                "location": "dragon, ",
+                "user_ratings_total": 4364,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.4666851,
+                                "lng": -83.92026249999999
+                        }
+                }
+        },
+        {
+                "name": "Back of the Dragon Brewery",
+                "address": "592 W Main St, Tazewell, VA 24651, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "gift_shop",
+                        "pizza_restaurant",
+                        "food_store",
+                        "store",
+                        "event_venue",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-yfa60TUT4gRvFy_Xxn18Po",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 713,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.1144478,
+                                "lng": -81.5272031
+                        }
+                }
+        },
+        {
+                "name": "Dragonman's",
+                "address": "1200 Dragonman Dr, Colorado Springs, CO 80929, USA",
+                "rating": 4.7,
+                "types": [
+                        "sports_complex",
+                        "sporting_goods_store",
+                        "sports_activity_location",
+                        "store",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ06shB9A7E4cRytwtDmkZVpE",
+                "keyword": "things to do attractions tours",
+                "location": "dragon, ",
+                "user_ratings_total": 2035,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.8476676,
+                                "lng": -104.5621379
+                        }
+                }
+        },
+        {
+                "name": "George and the Dragon",
+                "address": "813 W 50th St, Minneapolis, MN 55419, USA",
+                "rating": 4.7,
+                "types": [
+                        "pub",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJD0SgSFIm9ocRdLlVXKBGwMU",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 2031,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 44.912183,
+                                "lng": -93.29032439999999
+                        }
+                }
+        },
+        {
+                "name": "Hungry AF Downtown",
+                "address": "27 Piedmont Ave NE d1, Atlanta, GA 30303, USA",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ0eQfrtYD9YgRBf_21hqdv9M",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 2740,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.75530200000001,
+                                "lng": -84.38205300000001
+                        }
+                }
+        },
+        {
+                "name": "Tapoco Tavern",
+                "address": "14981 Tapoco Rd, Robbinsville, NC 28771, USA",
+                "rating": 4.7,
+                "types": [
+                        "bar_and_grill",
+                        "pizza_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ025YYWSVXogR2FX3kFdSWqw",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 1117,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.443633999999996,
+                                "lng": -83.9382705
+                        }
+                }
+        },
+        {
+                "name": "Verkamp's Visitor Center",
+                "address": "100 S Entrance Rd, Grand Canyon Village, AZ 86023, USA",
+                "rating": 4.6,
+                "types": [
+                        "visitor_center",
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJu6w_FrYQM4cRQz9_6Z5feW4",
+                "keyword": "museums visitor centers",
+                "location": "dragon, ",
+                "user_ratings_total": 659,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.057637299999996,
+                                "lng": -112.13573
+                        }
+                }
+        },
+        {
+                "name": "Lakeway City Park",
+                "address": "502 Hurst Creek Rd, Lakeway, TX 78734, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6ynWavA5W4YRbV57AuFmmCY",
+                "keyword": "parks recreation outdoor",
+                "location": "dragon, ",
+                "user_ratings_total": 770,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 30.377894999999995,
+                                "lng": -97.967112
+                        }
+                }
+        },
+        {
+                "name": "Dragon House",
+                "address": "4050 Barton Creek #100, Highland Village, TX 75077, USA",
+                "rating": 4.6,
+                "types": [
+                        "chinese_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJBahzFAAzTIYRsmD1J1bebJM",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 636,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.0751203,
+                                "lng": -97.0850206
+                        }
+                }
+        },
+        {
+                "name": "La Tani\u00e8re du Dragon",
+                "address": "Parc Disneyland, 77700 Chessy, France",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZW-R7R0d5kcRvNe3_tisIE0",
+                "keyword": "things to do attractions tours",
+                "location": "dragon, ",
+                "user_ratings_total": 678,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.872886699999995,
+                                "lng": 2.7759671
+                        }
+                }
+        },
+        {
+                "name": "Bitter Lake National Wildlife Refuge",
+                "address": "Bitter Lake National Wildlife Refuge Visitor Center, 4200 E Pine Lodge Rd, Roswell, NM 88201, USA",
+                "rating": 4.5,
+                "types": [
+                        "wildlife_refuge",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ824zJetk4oYRm9xyxAjc25A",
+                "keyword": "museums visitor centers",
+                "location": "dragon, ",
+                "user_ratings_total": 512,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4560475,
+                                "lng": -104.40166389999999
+                        }
+                }
+        },
+        {
+                "name": "Bottomless Lakes State Park",
+                "address": "545A Bottomless Lakes Rd, Roswell, NM 88201, USA",
+                "rating": 4.5,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJn6I0ffNg4oYRalsBEXDIA4k",
+                "keyword": "parks recreation outdoor",
+                "location": "dragon, ",
+                "user_ratings_total": 2755,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.3361819,
+                                "lng": -104.3327217
+                        }
+                }
+        },
+        {
+                "name": "Dragon Hill Lodge",
+                "address": "Yongsan-dong 4(sa)-ga, Yongsan District, Seoul, South Korea",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ43co6DuifDURExh_vejo2J0",
+                "keyword": "hotels accommodation lodging",
+                "location": "dragon, ",
+                "user_ratings_total": 2105,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.532148,
+                                "lng": 126.98114659999997
+                        }
+                }
+        },
+        {
+                "name": "Dragon House Restaurant",
+                "address": "10200 Corrales Rd suite e, Albuquerque, NM 87114, USA",
+                "rating": 4.3,
+                "types": [
+                        "chinese_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJP5qht0ZxIocRT8PH1trc3do",
+                "keyword": "restaurants food dining",
+                "location": "dragon, ",
+                "user_ratings_total": 541,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.2037987,
+                                "lng": -106.6461791
+                        }
+                }
+        },
+        {
+                "name": "Dragon House",
+                "address": "2640 E Southlake Blvd, Southlake, TX 76092, USA",
+                "rating": 4.3,
+                "types": [
+                        "chinese_restaurant",
+                        "asian_restaurant",
+                        "meal_delivery",
+                        "food_delivery",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJy9QPrfHVTYYR8PvyUGmRb4s",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 1626,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.939944499999996,
+                                "lng": -97.11129210000001
+                        }
+                }
+        },
+        {
+                "name": "Dragon China Buffet",
+                "address": "2125 S Canal St, Carlsbad, NM 88220, USA",
+                "rating": 4.2,
+                "types": [
+                        "chinese_restaurant",
+                        "asian_restaurant",
+                        "buffet_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1S_BYwl544YRQe6CQpnJt-A",
+                "keyword": "restaurants food dining",
+                "location": "dragon, ",
+                "user_ratings_total": 2246,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3975,
+                                "lng": -104.2225
+                        }
+                }
+        },
+        {
+                "name": "Dragon Mart by Dubai Retail",
+                "address": "Al Awir Road - Dubai International City - Dubai - United Arab Emirates",
+                "rating": 4.2,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-RX5UklhXz4RqRE2cZdsQAw",
+                "keyword": "shopping retail stores",
+                "location": "dragon, ",
+                "user_ratings_total": 43402,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.1753672,
+                                "lng": 55.412628399999996
+                        }
+                }
+        },
+        {
+                "name": "Dragon Gift Center",
+                "address": "Muscat 133, Oman",
+                "rating": 4.2,
+                "types": [
+                        "shopping_mall",
+                        "department_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJL1ylscL_kT4R7NslmFVR7Oc",
+                "keyword": "gift shops souvenirs",
+                "location": "dragon, ",
+                "user_ratings_total": 4486,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 23.590780799999997,
+                                "lng": 58.383297899999995
+                        }
+                }
+        },
+        {
+                "name": "Twin Dragon Chinese Restaurant & Bar",
+                "address": "8597 W Pico Blvd, Los Angeles, CA 90035, USA",
+                "rating": 4.2,
+                "types": [
+                        "chinese_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJtagnzWm5woAR2KBbLb5JceU",
+                "keyword": "restaurants",
+                "location": "dragon, ",
+                "user_ratings_total": 842,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.0539729,
+                                "lng": -118.37826059999999
+                        }
+                }
+        },
+        {
+                "name": "Dragon Mart 2 by Dubai Retail",
+                "address": "5CFC+FPC - Al Awir Road - Dubai International City - Dubai - United Arab Emirates",
+                "rating": 4.1,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJCUhUtT1hXz4Rdd-wCBeYPXg",
+                "keyword": "shopping retail stores",
+                "location": "dragon, ",
+                "user_ratings_total": 6180,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.1736564,
+                                "lng": 55.421820399999994
+                        }
+                }
+        },
+        {
+                "name": "Best Western Plus Dragon Gate Inn",
+                "address": "818 N Hill St, Los Angeles, CA 90012, USA",
+                "rating": 4.1,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHa52O1rGwoARer87_e2fc1M",
+                "keyword": "hotels",
+                "location": "dragon, ",
+                "user_ratings_total": 979,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.063266,
+                                "lng": -118.23894399999999
+                        }
+                }
+        },
+        {
+                "name": "Spring River Park",
+                "address": "1306 E College Blvd, Roswell, NM 88201, USA",
+                "rating": 4.3,
+                "types": [
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6c8pOxZv4oYRo4DSZZfZmZI",
+                "keyword": "things to do",
+                "location": "dragon, ",
+                "user_ratings_total": 398,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.40838370000001,
+                                "lng": -104.50448349999999
+                        }
+                }
+        },
+        {
+                "name": "BUFFETTIME",
+                "address": "1801 N Turner St, Hobbs, NM 88240, USA",
+                "rating": 4.3,
+                "types": [
+                        "buffet_restaurant",
+                        "asian_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJnVWyM5aV_IYR4IgQixZtIQY",
+                "keyword": "restaurants food dining",
+                "location": "dragon, ",
+                "user_ratings_total": 390,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.7196099,
+                                "lng": -103.14236299999999
+                        }
+                }
+        },
+        {
+                "name": "The Dragon's Den Sedona ~ Crystal Store, Metaphysical Gift Shop & Clothing",
+                "address": "2370 AZ-89A Unit #5, Sedona, AZ 86336, USA",
+                "rating": 5,
+                "types": [
+                        "gift_shop",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJMdmkPSmjLYcRhV1Cd8Q47ts",
+                "keyword": "things to do attractions tours",
+                "location": "dragon, ",
+                "user_ratings_total": 316,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.8642126,
+                                "lng": -111.8017625
+                        }
+                }
+        },
+        {
+                "name": "Enchanted Forest",
+                "address": "925 S Main St h1, Frankenmuth, MI 48734, USA",
+                "rating": 4.8,
+                "types": [
+                        "gift_shop",
+                        "home_goods_store",
+                        "clothing_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJR06SksfyI4gRZ3gXSnmJdiI",
+                "keyword": "gift shops souvenirs",
+                "location": "dragon, ",
+                "user_ratings_total": 268,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.323821099999996,
+                                "lng": -83.7399133
+                        }
+                }
+        },
+        {
+                "name": "Dragon Park (James L. Morgan Recreation Complex)",
+                "address": "1206 Turnpike Rd, Laurinburg, NC 28352, USA",
+                "rating": 4.5,
+                "types": [
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJW1QXN94pVYgRnSPXyvtu7f8",
+                "keyword": "parks recreation outdoor",
+                "location": "dragon, ",
+                "user_ratings_total": 281,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7565221,
+                                "lng": -79.4940491
+                        }
+                }
+        },
+        {
+                "name": "Newaygo State Park",
+                "address": "2793 S Beech Ave, Newaygo, MI 49337, USA",
+                "rating": 4.5,
+                "types": [
+                        "park",
+                        "state_park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJB-DNXJPYGIgRY8PKACmMaoc",
+                "keyword": "parks recreation outdoor",
+                "location": "dragon, ",
+                "user_ratings_total": 274,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.5001937,
+                                "lng": -85.58287120000001
+                        }
+                }
+        },
+        {
+                "name": "Dragon Rocks",
+                "address": "2G9V+3V9, Bahrain",
+                "rating": 4.3,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIdKuB1BSSD4Ra8m9L3OXpL8",
+                "keyword": "things to do attractions tours",
+                "location": "dragon, ",
+                "user_ratings_total": 268,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 26.017656499999998,
+                                "lng": 50.5447497
+                        }
+                }
+        },
+        {
+                "name": "Spring River RV Park",
+                "address": "950 E College Blvd, Roswell, NM 88201, USA",
+                "rating": 4.4,
+                "types": [
+                        "rv_park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJe8atthlv4oYR7BijBQshNYU",
+                "keyword": "camping rv parks",
+                "location": "dragon, ",
+                "user_ratings_total": 206,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4077835,
+                                "lng": -104.5100631
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "UFO Over Cambridge, Massachusetts April 19, 2025, UAP Drone Sighting News.",
+                "type": "UFO Sighting",
+                "description": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0YNtbkZX3Wak-N7EKSCHRB6PlECBMi8vrzwccz-rknPFjqmvztCHuM12_W9OFfj62MOz3zje-iDBUWUDTKrVbp1XD4iFoHCuf1iG1lPV4k-AKm60UckH-mwG-Iq3nViXoCRE-O4NS-orZBPC7DRAYfCXZtUhHQ8b-YcSBM0jJNXXyPNGIbh2e-qOrVG8/s1162/UAP_UFO.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"414\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0YNtbkZX3Wak-N7EKSCHRB6PlECBMi8vrzwccz-rknPFjqmvztCHuM12_W9OFfj62MOz3zje-iDBUWUDTKrVbp1XD4iFoHCuf1iG1lPV4k-AKm60UckH-mwG-Iq3nViXoCRE-O4NS-orZBPC7DRAYfCXZtUhHQ8b-YcSBM0jJNXXyPNGIbh2e-qOrVG8/w640-h414/UAP_UFO.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC7mkhyHqish9wEIwXZ1xZqpBK9qUUy-uUi4falBCrU2Ar7RSJTT2ZF9v23-c7tPpxWh5AC3yVxVUc9eFgszKrFJBm-KhPxBsnD-VP7YBZ1nOfURLPfFK5T6Tt0ndl2UJpciJzG7Fi7KEq05zXRy695FwpbXet61hAn_lzr8eIrGnARIvh3VSSpAREZJY/s1172/UFO_News.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"412\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC7mkhyHqish9wEIwXZ1xZqpBK9qUUy-uUi4falBCrU2Ar7RSJTT2ZF9v23-c7tPpxWh5AC3yVxVUc9eFgszKrFJBm-KhPxBsnD-VP7YBZ1nOfURLPfFK5T6Tt0ndl2UJpciJzG7Fi7KEq05zXRy695FwpbXet61hAn_lzr8eIrGnARIvh3VSSpAREZJY/w640-h412/UFO_News.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifnZ1Z8gJ2l2JBOqT56nPuHakAfA-_-qH1Cqakk2t4dzVFr355Eecb7DdlrJg2U2Wk2NZNg1L5n864q2-lIxcMuieAdUbN12DdniiQdYnYiO7bHQ3oAYi1w3MTFMGiKmyH5v6tcZJG2nHAjm_KCAJTFg2B4tgNa2Nf0hyr3gmxS9iyxnk0IGyOM7Tr5_U/s1512/UFO_2025.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"640\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifnZ1Z8gJ2l2JBOqT56nPuHakAfA-_-qH1Cqakk2t4dzVFr355Eecb7DdlrJg2U2Wk2NZNg1L5n864q2-lIxcMuieAdUbN12DdniiQdYnYiO7bHQ3oAYi1w3MTFMGiKmyH5v6tcZJG2nHAjm_KCAJTFg2B4tgNa2Nf0hyr3gmxS9iyxnk0IGyOM7Tr5_U/w508-h640/UFO_2025.png\" width=\"508\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\"><br /></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting: </span>April 19, 2025</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting: </span>Cambridge, Massachusetts, USA</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><span><span style=\"color: red;\">Source:</span><span>&nbsp;</span></span><a href=\"https://www.reddit.com/r/UFOs/comments/1ldogce/metallic_orb_sighting_april_19_2025_cambridge_ma/\">https://www.reddit.com/r/UFOs/comments/1ldogce/metallic_orb_sighting_april_19_2025_cambridge_ma/</a></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Email report to scwaring @ yahoo.com</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">This just came in my email a few days ago. An eyewitness spotted an orb moving over the city. He describes it as grey metal of some sort and it looks similar in size and speed to the orb recorded and recovered in Colombia a few months ago called the \"Buga sphere.\" It looks like spheres are coming closer and closer to observer human activities. This is strange, because usually they hover and hide within the clouds...moving in and out the edges of these clouds to record and observer. I call them cloud orbs, but to see them suddenly being recorded so frequently by others at such a low altitude...something big must be being planed by aliens on the horizon.</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"color: red; font-size: large;\">Eyewitness states:&nbsp;</span></div><div class=\"separator\" style=\"clear: both; text-align: left;\"><span style=\"font-size: large;\">I captured this a little while ago. Not the best video quality, but you can see it flying in a very straight path. If it were a balloon, I would expect it to be more affected by the wind, which you can hear in the recording.\n\nThere is a jump cut in the middle where I cut out about 10 seconds where it's not in frame.\n\nI got a better view before recording, and I'd estimate it to be roughly basketball sized or a bit larger. Seemingly made of metal or some other silver material.&nbsp;</span></div><div><br /></div><div>&nbsp;\n\n</div>",
+                "category": "ufo"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 1,
+        "last_updated": "2025-07-22T12:04:45.601428"
+},
+            metadata: {
+        "title": "Ufo Mysteries in dragon - Tours & Services",
+        "description": "Explore ufo mysteries in dragon. Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UFO sighting took place in April 2025. Visit",
+        "keywords": [
+                "ufo sightings",
+                "alien encounters",
+                "paranormal activity"
+        ],
+        "page_description": "Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UFO sighting took place in April 2025. Visit Scenic Sedona Tours for guided tours and scenic views, or take a ride on Tail of the Dragon for an adrenaline-packed adventure. For a unique experience, visit Back of the Dragon Brewery and enjoy craft beers while learning about the area's paranormal history."
+},
+            lastUpdated: "2025-07-22T12:04:45.601428"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-ufo');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>

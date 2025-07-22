@@ -35,7 +35,9 @@
         </div>
     </header>
 
+    
     <div class="container mt-4">
+        
     <!-- Location Header -->
     <div class="location-header mb-4">
         <div class="row">
@@ -60,6 +62,7 @@
             </div>
         </div>
     </div>
+        
     <!-- Recent Sightings Map -->
     <div class="sightings-map-section mb-4">
         <div class="row">
@@ -92,10 +95,6 @@
             </div>
         </div>
     </div>
-        <div id="locationDetails">
-            <!-- Location details will be populated by JavaScript -->
-        </div>
-        
         
         <div class="row mt-4">
             <div class="col-md-8">
@@ -128,19 +127,8 @@
                         <div class="links-list">
                             <a href="/map.html" class="quick-link">📍 View on Main Map</a>
                             <a href="/map.html#submitAMystery" class="quick-link">📝 Report a Sighting</a>
-                            <a href="../index.html" class="quick-link">🔍 Browse {category_display}</a>
+                            <a href="../index.html" class="quick-link">🔍 Browse Historical Mysteries</a>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            </div>
-            
-            <div class="col-md-4">
-                <div id="services" class="services-sidebar">
-                    <h3>Local UFO Services</h3>
-                    <div id="localServices">
-                        <!-- Services will be populated by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -151,6 +139,1077 @@
         <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
     </footer>
 
-    <script src="/directory/location-detail.js"></script>
+    
+
+    <script>
+        // Comprehensive location data
+        const LOCATION_DATA = {
+            name: "Česko",
+            category: "historical",
+            slug: "esko",
+            coordinates: [50.078358099999996, 14.422228899999999],
+            businesses: [
+        {
+                "name": "Free Walking Tour Prague",
+                "address": "\u0158eznick\u00e1 1486 /5, 110 00 Praha 1-Nov\u00e9 M\u011bsto, Czechia",
+                "rating": 5,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJdVfIvhGVC0cRHd09Mrj8CQw",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 10433,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.078358099999996,
+                                "lng": 14.422228899999999
+                        }
+                }
+        },
+        {
+                "name": "100 Spires City Tours",
+                "address": "Na P\u0159\u00edkop\u011b 33, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 5,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJv18g_GyVC0cRAm5s54ZP1A8",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3043,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.086912,
+                                "lng": 14.4274979
+                        }
+                }
+        },
+        {
+                "name": "The Chamber",
+                "address": "Petrsk\u00e9 n\u00e1m. 1186/1, 110 00 Praha 1-Nov\u00e9 M\u011bsto, Czechia",
+                "rating": 5,
+                "types": [
+                        "amusement_park",
+                        "amusement_center",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWzprcsCUC0cRJVbE4TcY4JA",
+                "keyword": "entertainment activities",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3929,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0917071,
+                                "lng": 14.4316673
+                        }
+                }
+        },
+        {
+                "name": "Thrill Park Prague",
+                "address": "Provaznick\u00e1 399/11, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "amusement_park",
+                        "amusement_center",
+                        "tourist_attraction",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJwXr1VYyUC0cRGg30s_5Xygo",
+                "keyword": "entertainment activities",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 2301,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.085277399999995,
+                                "lng": 14.4239226
+                        }
+                }
+        },
+        {
+                "name": "Car Rental Prague | Carlove",
+                "address": "Pob\u0159e\u017en\u00ed 311/1, Karl\u00edn, 186 00 Praha-Praha 8, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "car_rental",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJYwezu26TC0cRMZ44b7bkbVw",
+                "keyword": "car rental transportation",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1512,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0931016,
+                                "lng": 14.4395358
+                        }
+                }
+        },
+        {
+                "name": "Express Rent",
+                "address": "Na P\u0159\u00edkop\u011b 12/853, 110 00 Praha 1, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "car_rental",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ9dXD5VaTC0cRNKd2ON-2SRk",
+                "keyword": "car rental transportation",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 869,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.085077999999996,
+                                "lng": 14.425320800000001
+                        }
+                }
+        },
+        {
+                "name": "Veterans Museum",
+                "address": "V\u00edde\u0148sk\u00e1 136, 378 33 Nov\u00e1 Byst\u0159ice, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJjVa7fSkrc0cRXLNZWf_zb0E",
+                "keyword": "museums",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3395,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.018529699999995,
+                                "lng": 15.106134399999998
+                        }
+                }
+        },
+        {
+                "name": "Bockem",
+                "address": "Eli\u0161ky Pe\u0161kov\u00e9 1095/5, Sm\u00edchov, 150 00 Praha-Praha 5, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ84NXbW-VC0cRbLgZps6JxqY",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 579,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.077304399999996,
+                                "lng": 14.405223699999999
+                        }
+                }
+        },
+        {
+                "name": "Pep\u0159 a S\u016fl",
+                "address": "Kr\u00e1tk\u00e9ho 1, 190 00 Praha 9, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJR2CUwrfsC0cR179Iwmkwu2Y",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 2532,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.1115116,
+                                "lng": 14.500529499999999
+                        }
+                }
+        },
+        {
+                "name": "The Eatery",
+                "address": "U Uranie 18, 170 00 Praha 7-Hole\u0161ovice, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJuz0vRzuVC0cRSfvtawq3UPk",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1477,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.1074694,
+                                "lng": 14.450756399999998
+                        }
+                }
+        },
+        {
+                "name": "Bohemian Switzerland National Park",
+                "address": "Czechia",
+                "rating": 4.8,
+                "types": [
+                        "national_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIyy2doEOCUcRDosWXH1sUvA",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 18058,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.8784035,
+                                "lng": 14.3715503
+                        }
+                }
+        },
+        {
+                "name": "Pilsner Urquell: The Original Beer Experience",
+                "address": "28. \u0159\u00edjna 377/13, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJdVni0CyVC0cRjvWug8Q-6jE",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 4710,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.084061399999996,
+                                "lng": 14.422819899999999
+                        }
+                }
+        },
+        {
+                "name": "Park Pr\u016fhonice",
+                "address": "Z\u00e1mek 1, 252 43 Pr\u016fhonice, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "park",
+                        "botanical_garden",
+                        "historical_landmark",
+                        "historical_place",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJvbeYxT-OC0cRekLReBPO3wc",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 8211,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.98997120000001,
+                                "lng": 14.5525763
+                        }
+                }
+        },
+        {
+                "name": "Obora Svat\u00fd Linhart",
+                "address": "Unnamed Road, 360 01 Karlovy Vary-Karlovy Vary 1, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "wildlife_park",
+                        "tourist_attraction",
+                        "zoo",
+                        "hiking_area",
+                        "park",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJBx_IQ9iboEcREMvE9_ndU5U",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 901,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.213802799999996,
+                                "lng": 12.856513999999999
+                        }
+                }
+        },
+        {
+                "name": "Steel Art Museum",
+                "address": "Celetn\u00e1 15, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJU_ZMUfeVC0cREB7z5jLUC_I",
+                "keyword": "museums",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 5766,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0873378,
+                                "lng": 14.4243285
+                        }
+                }
+        },
+        {
+                "name": "Charles Bridge",
+                "address": "Karl\u016fv most, 110 00 Praha 1, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJn7WO5eWUC0cRJrHT0TiXIHU",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 179099,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0864771,
+                                "lng": 14.411436600000002
+                        }
+                }
+        },
+        {
+                "name": "Old Town Square",
+                "address": "Starom\u011bstsk\u00e9 n\u00e1m., 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "plaza",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIfpRNOmUC0cRxHIewgck75c",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 112922,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0875692,
+                                "lng": 14.421187399999999
+                        }
+                }
+        },
+        {
+                "name": "Restaurant Ml\u00fdnec",
+                "address": "Novotn\u00e9ho l\u00e1vka 9, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "fine_dining_restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJq8Kqk-WUC0cR1qKYFrCBV84",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 4445,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.085420899999995,
+                                "lng": 14.413601
+                        }
+                }
+        },
+        {
+                "name": "Czech Slovak Restaurant",
+                "address": "20, \u00dajezd 423, 118 00 Praha 1-Mal\u00e1 Strana, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJCWZ8ovyUC0cRUDz-RPxkU50",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1986,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0817729,
+                                "lng": 14.4046314
+                        }
+                }
+        },
+        {
+                "name": "Prague Astronomical Clock",
+                "address": "Starom\u011bstsk\u00e9 n\u00e1m. 1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 80950,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0870215,
+                                "lng": 14.420706500000001
+                        }
+                }
+        },
+        {
+                "name": "Prav\u010dick\u00e1 Archway",
+                "address": "H\u0159ensko 82, 407 17 H\u0159ensko, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbek7bUWgCUcROqeYeMZK90g",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 14317,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.8839207,
+                                "lng": 14.2815093
+                        }
+                }
+        },
+        {
+                "name": "Kon\u011bprusk\u00e9 Caves",
+                "address": "266 01 Kon\u011bprusy-Beroun 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "park",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJU11nLtClC0cRa4tBSZeElEg",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 5845,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.9161284,
+                                "lng": 14.068791099999999
+                        }
+                }
+        },
+        {
+                "name": "Obora Holedn\u00e1",
+                "address": "\u017deb\u011bt\u00ednsk\u00e1, 623 00 Brno-\u017deb\u011bt\u00edn, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7zhEB2CWEkcRQAmHtLlcqsA",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 2397,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.1998812,
+                                "lng": 16.519603699999998
+                        }
+                }
+        },
+        {
+                "name": "Gardens below Prague Castle",
+                "address": "14, Vald\u0161tejnsk\u00e1 158, 110 00 Praha 1-Mal\u00e1 Strana, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "garden",
+                        "tourist_attraction",
+                        "historical_landmark",
+                        "historical_place",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2UvksOGUC0cRUe7pDLQy54E",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 970,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0905595,
+                                "lng": 14.4059796
+                        }
+                }
+        },
+        {
+                "name": "Action Park",
+                "address": "V\u00fdpadov\u00e1 157, Lahovice, 159 00 Praha-Zbraslav, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "amusement_center",
+                        "sports_complex",
+                        "athletic_field",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWSIH-9mWC0cRMmslrTaP2kM",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 746,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.994552399999996,
+                                "lng": 14.3956349
+                        }
+                }
+        },
+        {
+                "name": "Questerland",
+                "address": "54, M\u00e1nesova 1613, Vinohrady, 120 00 Praha-Praha 2, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "amusement_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIXwBMIWUC0cRFFb3ettNK0I",
+                "keyword": "entertainment activities",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1044,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0775833,
+                                "lng": 14.4425991
+                        }
+                }
+        },
+        {
+                "name": "Czech-American Restaurant",
+                "address": "220 N Main St, West, TX 76691, USA",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJzVXix6kKT4YRJiMNlReIFWY",
+                "keyword": "restaurants",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 685,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 31.8032456,
+                                "lng": -97.0917614
+                        }
+                }
+        },
+        {
+                "name": "Cafe Prague",
+                "address": "6710 W Belmont Ave, Chicago, IL 60634, USA",
+                "rating": 4.7,
+                "types": [
+                        "coffee_shop",
+                        "cafe",
+                        "food_store",
+                        "store",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ92we1J_LD4gRwiCwLl4y1AE",
+                "keyword": "restaurants",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 802,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.938317999999995,
+                                "lng": -87.79383700000001
+                        }
+                }
+        },
+        {
+                "name": "Sad Man's Tongue Bar & Bistro",
+                "address": "Konviktsk\u00e1 7, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "bar_and_grill",
+                        "hamburger_restaurant",
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJiePSuu-UC0cR3V69VGKIsi0",
+                "keyword": "restaurants",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 8113,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0835158,
+                                "lng": 14.416132900000001
+                        }
+                }
+        },
+        {
+                "name": "Chr\u00e1n\u011bn\u00e1 krajinn\u00e1 oblast \u010cesk\u00fd kras",
+                "address": "267 18, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "national_park",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJxZLoNw2jC0cROzqfOEKvgtU",
+                "keyword": "things to do",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 5301,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.9355334,
+                                "lng": 14.1819469
+                        }
+                }
+        }
+],
+            events: [
+        {
+                "name": "NASA Reveals New Images of Oddly Shaped Asteroid \u2018Donaldjohanson\u2019 Captured by Lucy Spacecraft",
+                "type": "Historical Mystery",
+                "description": "NASA has released new detailed images revealing a full-frame view of the peculiarly shaped asteroid Donaldjohanson.",
+                "category": "historical"
+        },
+        {
+                "name": "Is Cosmic Expansion Losing Steam? Scientists Say Dark Energy\u2019s Grip May Be Weakening",
+                "type": "Historical Mystery",
+                "description": "Scientists say the dark energy in our universe may be losing its power over time, leading to a slowdown in universal expansion.",
+                "category": "historical"
+        }
+],
+            stats: {
+        "business_count": 30,
+        "event_count": 2,
+        "last_updated": "2025-07-22T12:18:23.623309"
+},
+            metadata: {
+        "title": "Historical Mysteries in \u010cesko - Tours & Services",
+        "description": "Explore historical mysteries in \u010cesko. Explore the mysterious skies of Prague, where the city's rich history meets the allure of unexplained phenomena. Visit t",
+        "keywords": [
+                "ufo tours",
+                "alien encounters",
+                "space museums"
+        ],
+        "page_description": "Explore the mysterious skies of Prague, where the city's rich history meets the allure of unexplained phenomena. Visit the Museum of the History of Transport and Tourism to learn about the city's UFO sightings, and take a guided tour to uncover the truth behind these enigmatic events."
+},
+            lastUpdated: "2025-07-22T12:18:23.623309"
+        };
+        
+        // Debug: Log the data to console
+        console.log('🚀 LOCATION_DATA loaded:', LOCATION_DATA);
+        console.log('📊 Events found:', LOCATION_DATA.events.length);
+        console.log('🏢 Businesses found:', LOCATION_DATA.businesses.length);
+        console.log('📍 Coordinates:', LOCATION_DATA.coordinates);
+        
+        // Map initialization functions - use unique variable names
+        let locationSightingsMap = null;
+        
+        function initLocationSightingsMap() {
+            // Default to location coordinates or fallback
+            const defaultCoords = LOCATION_DATA.coordinates || [39.8283, -98.5795]; // US center
+            
+            console.log('🗺️ Initializing map with coordinates:', defaultCoords);
+            
+            try {
+                // Initialize the sightings map with unique variable name
+                locationSightingsMap = L.map('sightingsMap').setView(defaultCoords, 8);
+                
+                // Add tile layer
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(locationSightingsMap);
+                
+                console.log('✅ Base map created');
+                
+                // Add markers for events
+                LOCATION_DATA.events.forEach((event, index) => {
+                    console.log(`📍 Processing event ${index + 1}:`, event);
+                    
+                    if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
+                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                            </div>
+                        `);
+                        console.log(`✅ Added event marker: ${event.name}`);
+                    } else if (LOCATION_DATA.coordinates) {
+                        // If event has no coordinates, place it at the general location
+                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        marker.bindPopup(`
+                            <div class="sighting-popup">
+                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
+                                <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
+                                <p><em>General location</em></p>
+                            </div>
+                        `);
+                        console.log(`✅ Added general event marker: ${event.name}`);
+                    }
+                });
+                
+                // Add businesses to the map
+                LOCATION_DATA.businesses.forEach((business, index) => {
+                    console.log(`🏢 Processing business ${index + 1}:`, business);
+                    
+                    const geometry = business.geometry || {};
+                    const location = geometry.location || {};
+                    
+                    if (location.lat && location.lng) {
+                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        businessMarker.bindPopup(`
+                            <div class="business-popup">
+                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
+                                <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                            </div>
+                        `);
+                        console.log(`✅ Added business marker: ${business.name}`);
+                    }
+                });
+                
+                // If we have coordinates, add a general location marker
+                if (LOCATION_DATA.coordinates) {
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
+                        icon: L.icon({
+                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
+                            iconSize: [30, 30],
+                            iconAnchor: [15, 30],
+                            popupAnchor: [1, -34]
+                        })
+                    }).addTo(locationSightingsMap);
+                    
+                    locationMarker.bindPopup(`
+                        <div class="location-popup">
+                            <h6>${LOCATION_DATA.name}</h6>
+                            <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
+                            <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
+                            <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
+                        </div>
+                    `);
+                    console.log('✅ Added location marker');
+                }
+                
+                console.log('✅ Map initialized successfully');
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+        }
+        
+        function populateLocationRecentEvents() {
+            console.log('🔍 populateLocationRecentEvents called');
+            const recentEventsList = document.getElementById('recentEventsList');
+            console.log('📍 recentEventsList element:', recentEventsList);
+            
+            if (!recentEventsList) {
+                console.error('❌ recentEventsList element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                console.log('⚠️ No events found');
+                recentEventsList.innerHTML = '<p class="no-events">No recent events reported.</p>';
+                return;
+            }
+            
+            console.log(`📊 Processing ${LOCATION_DATA.events.length} events`);
+            
+            const eventsHtml = LOCATION_DATA.events.slice(0, 5).map((event, index) => {
+                console.log(`📝 Processing event ${index + 1}:`, event);
+                
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Event ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="event-item mb-3 p-3 border rounded">
+                        <div class="event-header d-flex justify-content-between align-items-start mb-2">
+                            <h6 class="event-name mb-0">${eventName}</h6>
+                            <span class="badge bg-primary event-type">${eventType}</span>
+                        </div>
+                        <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
+                        <small class="event-date text-muted">${eventDate}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('📝 Generated events HTML length:', eventsHtml.length);
+            recentEventsList.innerHTML = eventsHtml;
+            console.log('✅ Events populated successfully');
+        }
+        
+        function populateLocationBusinesses() {
+            console.log('🏢 populateLocationBusinesses called');
+            const localBusinesses = document.getElementById('localBusinesses');
+            console.log('📍 localBusinesses element:', localBusinesses);
+            
+            if (!localBusinesses) {
+                console.error('❌ localBusinesses element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.businesses || LOCATION_DATA.businesses.length === 0) {
+                console.log('⚠️ No businesses found');
+                localBusinesses.innerHTML = '<p class="no-businesses">No local services found.</p>';
+                return;
+            }
+            
+            console.log(`🏪 Processing ${LOCATION_DATA.businesses.length} businesses`);
+            
+            const businessesHtml = LOCATION_DATA.businesses.map((business, index) => {
+                console.log(`🏢 Processing business ${index + 1}:`, business);
+                
+                const rating = business.rating ? `<span class="rating">⭐ ${business.rating}</span>` : '';
+                const address = business.address || business.formatted_address || business.vicinity || '';
+                const businessName = business.name || 'Unknown Business';
+                const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
+                
+                return `
+                    <div class="business-card mb-3 p-3 border rounded">
+                        <div class="business-header d-flex justify-content-between align-items-start mb-2">
+                            <h5 class="business-name mb-0">${businessName}</h5>
+                            ${rating}
+                        </div>
+                        <p class="business-type text-muted mb-2">${businessType}</p>
+                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
+                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
+                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                    </div>
+                `;
+            }).join('');
+            
+            console.log('🏢 Generated businesses HTML length:', businessesHtml.length);
+            localBusinesses.innerHTML = businessesHtml;
+            console.log('✅ Businesses populated successfully');
+        }
+        
+        function populateLocationInformation() {
+            console.log('ℹ️ populateLocationInformation called');
+            const locationInfo = document.getElementById('locationInfo');
+            
+            if (!locationInfo) {
+                console.error('❌ locationInfo element not found');
+                return;
+            }
+            
+            const coords = LOCATION_DATA.coordinates;
+            const coordsText = coords ? `${coords[0].toFixed(4)}, ${coords[1].toFixed(4)}` : 'Unknown';
+            
+            locationInfo.innerHTML = `
+                <div class="info-item mb-2">
+                    <strong>Coordinates:</strong> ${coordsText}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Last Updated:</strong> ${new Date(LOCATION_DATA.lastUpdated).toLocaleDateString()}
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Events:</strong> ${LOCATION_DATA.events.length} documented
+                </div>
+                <div class="info-item mb-2">
+                    <strong>Services:</strong> ${LOCATION_DATA.businesses.length} local businesses
+                </div>
+            `;
+            
+            console.log('✅ Location information populated successfully');
+        }
+        
+        function populateDetailedReports() {
+            console.log('📋 populateDetailedReports called');
+            const detailedReports = document.getElementById('detailedReports');
+            
+            if (!detailedReports) {
+                console.error('❌ detailedReports element not found');
+                return;
+            }
+            
+            if (!LOCATION_DATA.events || LOCATION_DATA.events.length === 0) {
+                detailedReports.innerHTML = '<p class="no-reports">No detailed reports available.</p>';
+                return;
+            }
+            
+            const reportsHtml = LOCATION_DATA.events.map((event, index) => {
+                const eventDate = event.date || event.occurrence_date || 'Unknown date';
+                const eventName = event.name || event.title || `Report ${index + 1}`;
+                const eventType = event.event_type || event.type || event.category || 'Unknown Type';
+                const eventDescription = event.description || 'No description available';
+                
+                return `
+                    <div class="report-card mb-4 p-4 border rounded">
+                        <div class="report-header mb-3">
+                            <h5 class="report-title">${eventName}</h5>
+                            <div class="report-meta">
+                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="text-muted">${eventDate}</span>
+                            </div>
+                        </div>
+                        <div class="report-content">
+                            <p>${eventDescription}</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            detailedReports.innerHTML = reportsHtml;
+            console.log('✅ Detailed reports populated successfully');
+        }
+        
+        // Category-specific styling and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 DOM Content Loaded - Initializing location page');
+            console.log('📊 Location data:', LOCATION_DATA);
+            
+            document.body.classList.add('category-historical');
+            
+            // Initialize all components with error handling
+            try {
+                console.log('🗺️ Initializing map...');
+                if (typeof L !== 'undefined') {
+                    initLocationSightingsMap();
+                } else {
+                    console.error('❌ Leaflet (L) not loaded');
+                }
+            } catch (error) {
+                console.error('❌ Error initializing map:', error);
+            }
+            
+            try {
+                console.log('📅 Populating recent events...');
+                populateLocationRecentEvents();
+            } catch (error) {
+                console.error('❌ Error populating recent events:', error);
+            }
+            
+            try {
+                console.log('🏢 Populating businesses...');
+                populateLocationBusinesses();
+            } catch (error) {
+                console.error('❌ Error populating businesses:', error);
+            }
+            
+            try {
+                console.log('ℹ️ Populating location information...');
+                populateLocationInformation();
+            } catch (error) {
+                console.error('❌ Error populating location information:', error);
+            }
+            
+            try {
+                console.log('📋 Populating detailed reports...');
+                populateDetailedReports();
+            } catch (error) {
+                console.error('❌ Error populating detailed reports:', error);
+            }
+            
+            console.log('✅ All components initialized');
+        });
+    </script>
 </body>
 </html>
