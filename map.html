@@ -73,6 +73,58 @@
             background: #333;
             cursor: pointer;
         }
+        .pagination-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px 0;
+            background: #1f1f1f;
+            padding: 10px;
+            border-radius: 8px;
+            flex-wrap: wrap;
+        }
+        .pagination-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .pagination-controls button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .pagination-controls button:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+        .pagination-controls select {
+            background: #333;
+            color: white;
+            border: 1px solid #555;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .pagination-info {
+            color: #ccc;
+            font-size: 0.9em;
+        }
+        .map-link {
+            color: #007bff;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .map-link:hover {
+            color: #0056b3;
+        }
+        .event-description {
+            max-width: 200px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
         .form-container {
             margin: 20px 0;
             background: #1f1f1f;
@@ -222,12 +274,28 @@
             
             table {
                 font-size: 0.8em;
-                min-width: 600px;
+                min-width: 800px;
             }
             
             th, td {
                 padding: 6px 4px;
                 white-space: nowrap;
+            }
+            
+            .event-description {
+                max-width: 150px;
+            }
+            
+            /* Pagination responsive */
+            .pagination-container {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .pagination-controls {
+                justify-content: center;
+                flex-wrap: wrap;
             }
             
             /* Form container responsive */
@@ -303,10 +371,24 @@
             
             table {
                 font-size: 0.75em;
+                min-width: 700px;
             }
             
             th, td {
                 padding: 4px 2px;
+            }
+            
+            .event-description {
+                max-width: 120px;
+            }
+            
+            .pagination-container {
+                padding: 8px;
+            }
+            
+            .pagination-controls button {
+                padding: 6px 10px;
+                font-size: 0.85em;
             }
         }
     </style>
@@ -353,13 +435,34 @@
 
         <div id="map"></div>
 
+        <div class="pagination-container">
+            <div class="pagination-controls">
+                <label for="pageSize">Show:</label>
+                <select id="pageSize">
+                    <option value="20" selected>20</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+                <span>per page</span>
+            </div>
+            <div class="pagination-info" id="paginationInfo">
+                Showing 0 of 0 entries
+            </div>
+            <div class="pagination-controls">
+                <button id="prevPage" onclick="changePage(-1)">‹ Previous</button>
+                <button id="nextPage" onclick="changePage(1)">Next ›</button>
+            </div>
+        </div>
+
         <div class="table-container">
             <table id="eventsTable">
                 <thead>
                     <tr>
                         <th>Date</th>
                         <th>Event Type</th>
+                        <th>Name</th>
                         <th>Description</th>
+                        <th>Location</th>
                         <th>Votes</th>
                         <th>Investigation Status</th>
                         <th>Verdict</th>
@@ -413,10 +516,16 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+        <script>
         const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
         const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
         const SHEET_NAME = 'Sheet1';
         let map;
+        let allEvents = [];
+        let filteredEvents = [];
+        let currentPage = 1;
+        let pageSize = 20;
+        let markers = [];
 
         async function fetchEvents(filters = {}) {
             const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
@@ -427,7 +536,7 @@
                 const headers = data.values[0];
                 const rows = data.values.slice(1);
 
-                let events = rows.map((row, index) => {
+                allEvents = rows.map((row, index) => {
                     const event = { id: index };
                     headers.forEach((header, i) => {
                         event[header] = row[i] || '';
@@ -436,19 +545,22 @@
                 });
 
                 // Apply filters
+                filteredEvents = [...allEvents];
                 if (filters.eventType) {
-                    events = events.filter(event => event.event_type === filters.eventType);
+                    filteredEvents = filteredEvents.filter(event => event.event_type === filters.eventType);
                 }
                 if (filters.startDate) {
-                    events = events.filter(event => new Date(event.date) >= new Date(filters.startDate));
+                    filteredEvents = filteredEvents.filter(event => new Date(event.date) >= new Date(filters.startDate));
                 }
                 if (filters.endDate) {
-                    events = events.filter(event => new Date(event.date) <= new Date(filters.endDate));
+                    filteredEvents = filteredEvents.filter(event => new Date(event.date) <= new Date(filters.endDate));
                 }
 
-                populateFilters(events);
-                updateMap(events);
-                updateTable(events);
+                currentPage = 1; // Reset to first page when filtering
+                populateFilters(allEvents);
+                updateMap(filteredEvents);
+                updateTable();
+                updatePaginationInfo();
             }
         }
 
@@ -477,18 +589,39 @@
                     attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
                 }).addTo(map);
             } else {
-                map.eachLayer(layer => {
-                    if (layer instanceof L.Marker) {
-                        map.removeLayer(layer);
-                    }
-                });
+                // Clear existing markers
+                markers.forEach(marker => map.removeLayer(marker));
+                markers = [];
             }
 
             events.forEach((event) => {
                 const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
                 marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.name}<br><a href='${event.url}' target='_blank'>Source</a><br><a href='detail.html?name=${encodeURIComponent(event.name)}' target='_blank'>Details</a>`);
                 marker.on("click", () => highlightRow(event.id));
+                
+                // Store marker with event ID for later reference
+                marker.eventId = event.id;
+                markers.push(marker);
             });
+        }
+
+        function highlightAndZoomToEvent(eventId) {
+            // Find the marker for this event
+            const marker = markers.find(m => m.eventId === eventId);
+            if (marker) {
+                // Zoom to marker
+                map.setView(marker.getLatLng(), 10);
+                // Open popup
+                marker.openPopup();
+                // Highlight the marker temporarily
+                const originalIcon = marker.options.icon;
+                // You can customize this highlight effect
+                setTimeout(() => {
+                    marker.openPopup();
+                }, 100);
+            }
+            // Also highlight the table row
+            highlightRow(eventId);
         }
 
         function highlightRow(index) {
@@ -502,16 +635,29 @@
             });
         }
 
-        function updateTable(events) {
+        function updateTable() {
             const tableBody = document.getElementById("eventsTable").querySelector("tbody");
             tableBody.innerHTML = "";
 
-            events.forEach(event => {
+            // Calculate pagination
+            const startIndex = (currentPage - 1) * pageSize;
+            const endIndex = startIndex + pageSize;
+            const pageEvents = filteredEvents.slice(startIndex, endIndex);
+
+            pageEvents.forEach(event => {
                 const row = document.createElement("tr");
+                
+                // Truncate description if too long
+                const description = event.description || event.name || '';
+                const truncatedDescription = description.length > 100 ? 
+                    description.substring(0, 97) + '...' : description;
+                
                 row.innerHTML = `
                     <td>${event.date}</td>
                     <td>${event.event_type}</td>
-                    <td>${event.name}</td>
+                    <td><span class="map-link" onclick="highlightAndZoomToEvent(${event.id})" title="Click to view on map">${event.name}</span></td>
+                    <td class="event-description" title="${description}">${truncatedDescription}</td>
+                    <td>${event.location}</td>
                     <td>${event.votes || 0}</td>
                     <td>${event.investigation_status || "Open"}</td>
                     <td>${event.verdict || "Unknown"}</td>
@@ -521,6 +667,38 @@
                 `;
                 tableBody.appendChild(row);
             });
+
+            updatePaginationButtons();
+        }
+
+        function updatePaginationInfo() {
+            const totalEvents = filteredEvents.length;
+            const startIndex = (currentPage - 1) * pageSize + 1;
+            const endIndex = Math.min(currentPage * pageSize, totalEvents);
+            
+            const info = totalEvents === 0 ? 
+                "Showing 0 of 0 entries" : 
+                `Showing ${startIndex}-${endIndex} of ${totalEvents} entries`;
+            
+            document.getElementById("paginationInfo").textContent = info;
+        }
+
+        function updatePaginationButtons() {
+            const totalPages = Math.ceil(filteredEvents.length / pageSize);
+            
+            document.getElementById("prevPage").disabled = currentPage <= 1;
+            document.getElementById("nextPage").disabled = currentPage >= totalPages;
+        }
+
+        function changePage(direction) {
+            const totalPages = Math.ceil(filteredEvents.length / pageSize);
+            const newPage = currentPage + direction;
+            
+            if (newPage >= 1 && newPage <= totalPages) {
+                currentPage = newPage;
+                updateTable();
+                updatePaginationInfo();
+            }
         }
 
         async function voteForEvent(eventId) {
@@ -608,6 +786,13 @@
                 endDate: document.getElementById("endDate").value
             };
             fetchEvents(filters);
+        });
+
+        document.getElementById("pageSize").addEventListener("change", function() {
+            pageSize = parseInt(this.value);
+            currentPage = 1; // Reset to first page
+            updateTable();
+            updatePaginationInfo();
         });
 
         document.addEventListener("DOMContentLoaded", function() {

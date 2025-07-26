@@ -71,6 +71,28 @@
             border-radius: 8px;
         }
         
+        .mystery-map {
+            height: 300px;
+            width: 100%;
+            border-radius: 8px;
+            border: 2px solid #333;
+        }
+        
+        .image-map-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            justify-content: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .image-container, .map-container {
+            flex: 1;
+            min-width: 250px;
+            max-width: 400px;
+        }
+        
         .btn-vote {
             min-width: 100px;
             padding: 10px 20px;
@@ -120,7 +142,7 @@
             /* Carousel responsive */
             .carousel-item {
                 padding: 15px 10px;
-                min-height: 350px !important;
+                min-height: 500px !important;
             }
             
             .carousel-item h2 {
@@ -133,7 +155,17 @@
                 margin-bottom: 10px;
             }
             
-            .mystery-img {
+            .image-map-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .image-container, .map-container {
+                max-width: 100%;
+                min-width: 100%;
+            }
+            
+            .mystery-img, .mystery-map {
                 max-height: 200px;
                 margin-bottom: 15px !important;
             }
@@ -170,7 +202,7 @@
             
             .carousel-item {
                 padding: 10px 5px;
-                min-height: 320px !important;
+                min-height: 420px !important;
             }
             
             .carousel-item h2 {
@@ -181,7 +213,7 @@
                 font-size: 0.85em;
             }
             
-            .mystery-img {
+            .mystery-img, .mystery-map {
                 max-height: 150px;
             }
             
@@ -252,6 +284,7 @@
         const SHEET_NAME = 'Sheet1';
 
         let mysteries = [];
+        let mysteryMaps = [];
 
         async function fetchMysteries() {
             const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
@@ -292,30 +325,88 @@
         function renderCarousel() {
             const container = document.getElementById("carouselItems");
             container.innerHTML = "";
+            mysteryMaps = []; // Clear existing maps
+            
             mysteries.forEach((mystery, index) => {
-            const activeClass = index === 0 ? "active" : "";
-            const item = document.createElement("div");
-            item.className = `carousel-item ${activeClass}`;
-            item.innerHTML = `
-                <div class="d-flex flex-column align-items-center justify-content-center text-center" style="min-height: 400px;">
-                <h2>${mystery.name}</h2>
-                <p><strong>Location:</strong> ${mystery.location}</p>
-                ${
-                    /\.(jpe?g|png|gif|webp|bmp|svg|webp)$/i.test(mystery.image_url)
-                    ? `<img src="${mystery.image_url}" alt="${mystery.name}" class="mystery-img mb-3">`
-                    : ''
+                const activeClass = index === 0 ? "active" : "";
+                const item = document.createElement("div");
+                item.className = `carousel-item ${activeClass}`;
+                
+                const hasValidImage = mystery.image_url && /\.(jpe?g|png|gif|webp|bmp|svg)$/i.test(mystery.image_url);
+                const hasValidCoordinates = mystery.latitude && mystery.longitude && 
+                    !isNaN(parseFloat(mystery.latitude)) && !isNaN(parseFloat(mystery.longitude));
+                
+                item.innerHTML = `
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center" style="min-height: 400px;">
+                        <h2>${mystery.name}</h2>
+                        <p><strong>Location:</strong> ${mystery.location}</p>
+                        ${hasValidImage || hasValidCoordinates ? `
+                            <div class="image-map-container">
+                                ${hasValidImage ? `
+                                    <div class="image-container">
+                                        <img src="${mystery.image_url}" alt="${mystery.name}" class="mystery-img">
+                                    </div>
+                                ` : ''}
+                                ${hasValidCoordinates ? `
+                                    <div class="map-container">
+                                        <div id="map-${index}" class="mystery-map"></div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                        <p>${mystery.description}</p>
+                        <p><a href="${mystery.url}" target="_blank">${mystery.url}</a></p>
+                        <div class="mb-3">
+                            <button class="btn btn-success btn-vote me-2" onclick="vote(${index}, 'realVotes')">Real</button>
+                            <button class="btn btn-danger btn-vote" onclick="vote(${index}, 'hoaxVotes')">Hoax</button>
+                        </div>
+                        <div id="result-${index}" class="result"></div>
+                    </div>
+                `;
+                container.appendChild(item);
+                
+                // Initialize map if coordinates are available
+                if (hasValidCoordinates) {
+                    setTimeout(() => initializeMap(index, mystery), 100);
                 }
-                <p>${mystery.description}</p>
-                <p><a href="${mystery.url}">${mystery.url}</a></p>
-                <div class="mb-3">
-                    <button class="btn btn-success btn-vote me-2" onclick="vote(${index}, 'realVotes')">Real</button>
-                    <button class="btn btn-danger btn-vote" onclick="vote(${index}, 'hoaxVotes')">Hoax</button>
-                </div>
-                <div id="result-${index}" class="result"></div>
-                </div>
-            `;
-            container.appendChild(item);
             });
+        }
+
+        function initializeMap(index, mystery) {
+            const mapId = `map-${index}`;
+            const mapElement = document.getElementById(mapId);
+            
+            if (!mapElement) return;
+            
+            try {
+                const lat = parseFloat(mystery.latitude);
+                const lng = parseFloat(mystery.longitude);
+                
+                const map = L.map(mapId).setView([lat, lng], 10);
+                
+                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+                    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
+                }).addTo(map);
+                
+                // Add marker for the mystery location
+                const marker = L.marker([lat, lng]).addTo(map);
+                marker.bindPopup(`
+                    <strong>${mystery.name}</strong><br>
+                    ${mystery.location}<br>
+                    ${mystery.date || 'Date unknown'}
+                `);
+                
+                // Store map reference
+                mysteryMaps[index] = map;
+                
+                // Invalidate size to ensure proper rendering
+                setTimeout(() => {
+                    map.invalidateSize();
+                }, 200);
+                
+            } catch (error) {
+                console.error(`Error initializing map for mystery ${index}:`, error);
+            }
         }
 
         async function vote(index, type) {
@@ -402,26 +493,42 @@
             fetchMysteries();
             const carousel = document.getElementById('mysteryCarousel');
             if (carousel) {
-            // Disable keyboard navigation
-            carousel.addEventListener('keydown', function(e) {
-                e.stopPropagation();
-                e.preventDefault();
-            });
+                // Disable keyboard navigation
+                carousel.addEventListener('keydown', function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
 
-            // Disable touch/swipe
-            carousel.addEventListener('touchstart', function(e) {
-                e.stopPropagation();
-                e.preventDefault();
-            });
+                // Disable touch/swipe
+                carousel.addEventListener('touchstart', function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
 
-            // Disable mouse drag
-            carousel.addEventListener('mousedown', function(e) {
-                e.stopPropagation();
-                e.preventDefault();
-            });
+                // Disable mouse drag
+                carousel.addEventListener('mousedown', function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
 
-            // Prevent auto-advance by removing interval
-            const bsCarousel = bootstrap.Carousel.getOrCreateInstance(carousel, { interval: false, ride: false, pause: true, keyboard: false, touch: false });
+                // Handle slide changes to resize maps
+                carousel.addEventListener('slid.bs.carousel', function(event) {
+                    const activeIndex = Array.from(event.target.querySelectorAll('.carousel-item')).indexOf(event.relatedTarget);
+                    if (mysteryMaps[activeIndex]) {
+                        setTimeout(() => {
+                            mysteryMaps[activeIndex].invalidateSize();
+                        }, 100);
+                    }
+                });
+
+                // Prevent auto-advance by removing interval
+                const bsCarousel = bootstrap.Carousel.getOrCreateInstance(carousel, { 
+                    interval: false, 
+                    ride: false, 
+                    pause: true, 
+                    keyboard: false, 
+                    touch: false 
+                });
             }
         });
     </script>
