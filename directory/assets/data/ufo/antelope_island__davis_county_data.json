@@ -1,40 +1,15 @@
 {
   "location_name": "Antelope Island, Davis County",
   "category": "ufo",
-  "timestamp": "20250722_120401",
+  "timestamp": "20250725_104856",
   "businesses": [
-    {
-      "name": "Vito's",
-      "address": "108 S Main St, Bountiful, UT 84010, USA",
-      "rating": 4.9,
-      "types": [
-        "american_restaurant",
-        "italian_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJQ2W1AvX3UocR93oO7z6uc1Y",
-      "keyword": "restaurants food dining",
-      "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1318,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.8882611,
-          "lng": -111.88093889999999
-        }
-      }
-    },
     {
       "name": "Utah Souvenir & Gift Store",
       "address": "300 State St, Salt Lake City, UT 84103, USA",
       "rating": 4.9,
       "types": [
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJDxXkrkr1UocRGQUWUauc7SY",
@@ -56,14 +31,14 @@
       "rating": 4.9,
       "types": [
         "gift_shop",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ9ZMQSEz1UocRGGCR7nk_ELM",
       "keyword": "gift shops souvenirs",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 546,
+      "user_ratings_total": 547,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -79,8 +54,8 @@
       "rating": 4.9,
       "types": [
         "gift_shop",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ_UIQGnb1UocRTrgcW2aIFJQ",
@@ -102,14 +77,14 @@
       "rating": 4.9,
       "types": [
         "gift_shop",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJf-BqIwD1UocRhzsc6ejak48",
       "keyword": "gift shops souvenirs",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1940,
+      "user_ratings_total": 1943,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -132,7 +107,7 @@
       "place_id": "ChIJXwIQaWAEU4cRoRjAJEyjaIQ",
       "keyword": "museums",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 5249,
+      "user_ratings_total": 5258,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -151,14 +126,14 @@
         "dessert_shop",
         "confectionery",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ6QhZpvgbU4cRXyesh3vB1VM",
       "keyword": "nearby_store",
-      "user_ratings_total": 937,
+      "user_ratings_total": 940,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -174,14 +149,14 @@
       "rating": 4.8,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJA875fLcDU4cRG0SpUTJhXpU",
       "keyword": "restaurants food dining",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1675,
+      "user_ratings_total": 1678,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -204,7 +179,7 @@
       "place_id": "ChIJH26FhJYTNIcRheTZKnLCcCE",
       "keyword": "things to do attractions tours",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 5609,
+      "user_ratings_total": 5628,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -220,8 +195,8 @@
       "rating": 4.8,
       "types": [
         "gift_shop",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJy_yLTtX1UocREVI2-3UvL9Q",
@@ -244,8 +219,8 @@
       "types": [
         "gift_shop",
         "book_store",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJj6gbagD1UocRqop6UWV3dSY",
@@ -262,6 +237,30 @@
       }
     },
     {
+      "name": "Ol' Skool \"Cali Style Mexican\"",
+      "address": "1588 S 2000 W #102, Syracuse, UT 84075, USA",
+      "rating": 4.8,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ5fPQK9gDU4cRCVwrgl_kzb4",
+      "keyword": "restaurants",
+      "location": "Antelope Island, Davis County",
+      "user_ratings_total": 521,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.0907516,
+          "lng": -112.0661239
+        }
+      }
+    },
+    {
       "name": "Natural History Museum of Utah",
       "address": "301 Wakara Way, Salt Lake City, UT 84108, USA",
       "rating": 4.8,
@@ -274,7 +273,7 @@
       "place_id": "ChIJG1SOiItfUocRThU8WOiqTeo",
       "keyword": "museums",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 6999,
+      "user_ratings_total": 7007,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -290,20 +289,20 @@
       "rating": 4.7,
       "types": [
         "banquet_hall",
-        "wedding_venue",
         "meal_takeaway",
-        "event_venue",
+        "wedding_venue",
         "bar",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "event_venue",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJCRFY-0RhUocRva70j0coSww",
       "keyword": "restaurants food dining",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1778,
+      "user_ratings_total": 1779,
       "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -320,8 +319,8 @@
       "types": [
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJiY_l8yX4UocRMAAayEGMVvE",
@@ -345,14 +344,14 @@
         "cafe",
         "breakfast_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ9wjM0_j2UocRW2C_Crvw_NQ",
       "keyword": "restaurants food dining",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1120,
+      "user_ratings_total": 1121,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -376,7 +375,7 @@
       "place_id": "ChIJ6bQ5YpQbU4cRCw2g6VuOcUY",
       "keyword": "gas stations convenience stores",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 5783,
+      "user_ratings_total": 5784,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -397,7 +396,7 @@
       "place_id": "ChIJf3aoqZgPNIcRte6w4CUprzw",
       "keyword": "things to do attractions tours",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1934,
+      "user_ratings_total": 1936,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -433,26 +432,77 @@
       }
     },
     {
-      "name": "Ogden's George S. Eccles Dinosaur Park",
-      "address": "1544 Park Blvd, Ogden, UT 84401, USA",
+      "name": "Adams Canyon Trailhead",
+      "address": "Layton, UT 84040, USA",
       "rating": 4.7,
       "types": [
-        "museum",
-        "sculpture",
+        "hiking_area",
+        "tourist_attraction",
+        "sports_activity_location",
         "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ91QGTjoJU4cRco-kGvfoVaI",
-      "keyword": "museums",
+      "place_id": "ChIJszvjX0EAU4cRlM1DDlN2jOk",
+      "keyword": "parks recreation outdoor",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 4446,
+      "user_ratings_total": 1085,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 41.237826999999996,
-          "lng": -111.937941
+          "lat": 41.067699999999995,
+          "lng": -111.9099418
+        }
+      }
+    },
+    {
+      "name": "Fremont Indian State Park and Museum",
+      "address": "3820 Clear Creek Canyon Rd, Sevier, UT 84766, USA",
+      "rating": 4.7,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtQfuXJMiS4cRy6yvyS-ZYWA",
+      "keyword": "museums",
+      "location": "Antelope Island, Davis County",
+      "user_ratings_total": 970,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.577568299999996,
+          "lng": -112.3349416
+        }
+      }
+    },
+    {
+      "name": "Fielding Garr Ranch",
+      "address": "4528 West 1700 South, Syracuse, UT 84075, USA",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "ranch",
+        "historical_place",
+        "farm",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMQjpZj_hUocR5k0KCQjey2M",
+      "keyword": "gas stations convenience stores",
+      "location": "Antelope Island, Davis County",
+      "user_ratings_total": 1435,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.925685099999995,
+          "lng": -112.1677086
         }
       }
     },
@@ -479,38 +529,12 @@
       }
     },
     {
-      "name": "Fielding Garr Ranch",
-      "address": "4528 West 1700 South, Syracuse, UT 84075, USA",
-      "rating": 4.6,
-      "types": [
-        "historical_landmark",
-        "tourist_attraction",
-        "ranch",
-        "historical_place",
-        "farm",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJMQjpZj_hUocR5k0KCQjey2M",
-      "keyword": "shopping retail stores",
-      "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1433,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.925685099999995,
-          "lng": -112.1677086
-        }
-      }
-    },
-    {
       "name": "End Zone Hobby Center",
       "address": "133 State St Unit 5, Clearfield, UT 84015, USA",
       "rating": 4.6,
       "types": [
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJLz7lBsAEU4cRtTK0qku3IYY",
@@ -540,7 +564,7 @@
       "place_id": "ChIJiwRvm6QUNIcRuUXdZ1VX4HE",
       "keyword": "things to do attractions tours",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 4042,
+      "user_ratings_total": 4044,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -555,27 +579,27 @@
       "address": "Indian Rte 222, Page, AZ 86040, USA",
       "rating": 4.6,
       "types": [
-        "tourist_attraction",
         "adventure_sports_center",
-        "hiking_area",
-        "tourist_information_center",
         "cultural_landmark",
-        "park",
+        "tourist_attraction",
         "cafe",
-        "gift_shop",
+        "tourist_information_center",
+        "hiking_area",
+        "sports_complex",
         "tour_agency",
         "travel_agency",
-        "sports_complex",
-        "food",
+        "gift_shop",
         "sports_activity_location",
-        "point_of_interest",
+        "park",
         "store",
+        "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJh2ablZATNIcRTeJ8LzrsCwg",
       "keyword": "things to do attractions tours",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 14076,
+      "user_ratings_total": 14091,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -594,7 +618,7 @@
         "establishment"
       ],
       "place_id": "ChIJr0eTPUfgUocRlLizM1Y1G9k",
-      "keyword": "things to do attractions tours",
+      "keyword": "museums visitor centers",
       "location": "Antelope Island, Davis County",
       "user_ratings_total": 778,
       "price_level": null,
@@ -612,8 +636,8 @@
       "rating": 4.6,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ-ylpLmIbU4cRGe6PpQ4_1Ko",
@@ -630,75 +654,25 @@
       }
     },
     {
-      "name": "Hug-Hes Restaurant and Catering",
-      "address": "2432 W 1700 S Ste. B6, Syracuse, UT 84075, USA",
+      "name": "Best Western Plus Canyon Pines",
+      "address": "6650 US-89, South Ogden, UT 84405, USA",
       "rating": 4.5,
       "types": [
-        "catering_service",
-        "food_delivery",
-        "american_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJGVHYC2cbU4cR0snu5ZsvO9Q",
-      "keyword": "restaurants food dining",
-      "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1285,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.0895592,
-          "lng": -112.0731469
-        }
-      }
-    },
-    {
-      "name": "Ramblin Roads Family Restaurant",
-      "address": "544 W 400 N, Bountiful, UT 84010, USA",
-      "rating": 4.5,
-      "types": [
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ957YbC_4UocRc5JxxopMEJA",
-      "keyword": "restaurants food dining",
-      "location": "Antelope Island, Davis County",
-      "user_ratings_total": 1503,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.8945732,
-          "lng": -111.89381399999999
-        }
-      }
-    },
-    {
-      "name": "Adventurous Antelope Canyon",
-      "address": "Highway 98 Road, & Milepost 302, Page, AZ 86040, USA",
-      "rating": 4.5,
-      "types": [
-        "tour_agency",
-        "tourist_attraction",
-        "travel_agency",
+        "hotel",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJhygJoncRNIcRfCnXP-mtYOM",
-      "keyword": "things to do attractions tours",
+      "place_id": "ChIJz2MyxOUGU4cR7tvyWYf-Pfk",
+      "keyword": "hotels accommodation lodging",
       "location": "Antelope Island, Davis County",
-      "user_ratings_total": 4689,
+      "user_ratings_total": 910,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 36.8878656,
-          "lng": -111.3664579
+          "lat": 41.139448,
+          "lng": -111.91434509999999
         }
       }
     },
@@ -713,7 +687,7 @@
         "establishment"
       ],
       "place_id": "ChIJhdumIr4DU4cRS_1Wk4fUQtQ",
-      "keyword": "hotels",
+      "keyword": "hotels accommodation lodging",
       "location": "Antelope Island, Davis County",
       "user_ratings_total": 1063,
       "price_level": null,
@@ -722,6 +696,32 @@
         "location": {
           "lat": 41.0818152,
           "lng": -111.9807029
+        }
+      }
+    },
+    {
+      "name": "Hug-Hes Restaurant and Catering",
+      "address": "2432 W 1700 S Ste. B6, Syracuse, UT 84075, USA",
+      "rating": 4.5,
+      "types": [
+        "catering_service",
+        "food_delivery",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGVHYC2cbU4cR0snu5ZsvO9Q",
+      "keyword": "restaurants food dining",
+      "location": "Antelope Island, Davis County",
+      "user_ratings_total": 1287,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.0895592,
+          "lng": -112.0731469
         }
       }
     }
@@ -741,20 +741,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Antelope Island, Davis County. Explore the mysterious world of Antelope Island, where rumors of Amelia Earhart's Lockheed Electra 10E have been confirm",
+    "meta_description": "Explore ufo mysteries in Antelope Island, Davis County. Explore the mysterious and unexplained phenomena of Antelope Island, where rumors of Amelia Earhart's Lockheed Electra 1",
     "title": "Ufo Mysteries in Antelope Island, Davis County - Tours & Services",
-    "description": "Explore the mysterious world of Antelope Island, where rumors of Amelia Earhart's Lockheed Electra 10E have been confirmed by Google Earth. This enigmatic location is also home to a Buga Sphere and has been the site of numerous UFO sightings.",
+    "description": "Explore the mysterious and unexplained phenomena of Antelope Island, where rumors of Amelia Earhart's Lockheed Electra 10E have been circulating for decades. Visit the Utah Souvenir & Gift Store, Uniquely Utah Souvenir Co., and Utah Gift Emporium to learn more about this enigmatic location.",
     "keywords": [
       "Antelope Island",
-      "ufo tours",
-      "alien encounters",
-      "buga sphere"
+      "Amelia Earhart",
+      "UFO sightings"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:04:01.135467"
+    "last_updated": "2025-07-25T10:48:56.551190"
   }
 }

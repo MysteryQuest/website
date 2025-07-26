@@ -1,7 +1,7 @@
 {
   "location_name": "Life, Henderson County",
   "category": "historical",
-  "timestamp": "20250722_120909",
+  "timestamp": "20250725_105411",
   "businesses": [
     {
       "name": "Appalachian Pinball Museum",
@@ -14,7 +14,7 @@
         "establishment"
       ],
       "place_id": "ChIJf8CK6RHCWYgRLj4PJljjjSg",
-      "keyword": "museums",
+      "keyword": "things to do attractions tours",
       "location": "Life, Henderson County",
       "user_ratings_total": 659,
       "price_level": null,
@@ -62,9 +62,9 @@
         "establishment"
       ],
       "place_id": "ChIJc8B4MjbAWYgRiXS5O4Ml6j8",
-      "keyword": "parks recreation outdoor",
+      "keyword": "things to do attractions tours",
       "location": "Life, Henderson County",
-      "user_ratings_total": 2133,
+      "user_ratings_total": 2134,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -86,7 +86,7 @@
       "place_id": "ChIJ-wG3l1XCWYgRlRI6LgUdFGg",
       "keyword": "parks recreation outdoor",
       "location": "Life, Henderson County",
-      "user_ratings_total": 1206,
+      "user_ratings_total": 1207,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -125,44 +125,19 @@
       "types": [
         "barbecue_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ88aXRAATfIgRySe6ykvC8NU",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 560,
+      "user_ratings_total": 561,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 35.660578799999996,
           "lng": -88.4253414
-        }
-      }
-    },
-    {
-      "name": "Echo Mountain Inn",
-      "address": "2849 Laurel Park Hwy, Laurel Park, NC 28739, USA",
-      "rating": 4.7,
-      "types": [
-        "inn",
-        "bed_and_breakfast",
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJGcXQIb7BWYgR2m1s9FaC-Yg",
-      "keyword": "hotels accommodation lodging",
-      "location": "Life, Henderson County",
-      "user_ratings_total": 591,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.3069846,
-          "lng": -82.4969538
         }
       }
     },
@@ -180,36 +155,13 @@
       "place_id": "ChIJ7ZbBCxHCWYgRmQ5Nw4nOqRk",
       "keyword": "restaurants food dining",
       "location": "Life, Henderson County",
-      "user_ratings_total": 867,
+      "user_ratings_total": 868,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 35.316857,
           "lng": -82.4606529
-        }
-      }
-    },
-    {
-      "name": "Flat Rock Playhouse",
-      "address": "2661 Greenville Hwy, Flat Rock, NC 28731, USA",
-      "rating": 4.7,
-      "types": [
-        "performing_arts_theater",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJARPLSaXDWYgRpGEa_dyoizA",
-      "keyword": "things to do attractions tours",
-      "location": "Life, Henderson County",
-      "user_ratings_total": 976,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.2743446,
-          "lng": -82.44268369999999
         }
       }
     },
@@ -229,9 +181,9 @@
         "establishment"
       ],
       "place_id": "ChIJb6YfHb_DWYgRJz-hD8UqK9s",
-      "keyword": "things to do",
+      "keyword": "things to do attractions tours",
       "location": "Life, Henderson County",
-      "user_ratings_total": 1697,
+      "user_ratings_total": 1700,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -242,13 +194,62 @@
       }
     },
     {
+      "name": "Audubon Museum & Nature Center",
+      "address": "3100 US-41, Henderson, KY 42420, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj0gHfV4ocIgRfGlGcIQU8L4",
+      "keyword": "museums visitor centers",
+      "location": "Life, Henderson County",
+      "user_ratings_total": 576,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.883127099999996,
+          "lng": -87.5570946
+        }
+      }
+    },
+    {
+      "name": "Echo Mountain Inn",
+      "address": "2849 Laurel Park Hwy, Laurel Park, NC 28739, USA",
+      "rating": 4.7,
+      "types": [
+        "inn",
+        "bed_and_breakfast",
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGcXQIb7BWYgR2m1s9FaC-Yg",
+      "keyword": "hotels",
+      "location": "Life, Henderson County",
+      "user_ratings_total": 592,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.3069846,
+          "lng": -82.4969538
+        }
+      }
+    },
+    {
       "name": "Brooks Tavern",
       "address": "142 3rd Ave W, Hendersonville, NC 28792, USA",
       "rating": 4.6,
       "types": [
         "restaurant",
-        "pub",
         "bar_and_grill",
+        "pub",
         "bar",
         "food",
         "point_of_interest",
@@ -257,7 +258,7 @@
       "place_id": "ChIJq6raPBHCWYgRcj8Z14TtWaU",
       "keyword": "restaurants food dining",
       "location": "Life, Henderson County",
-      "user_ratings_total": 1403,
+      "user_ratings_total": 1408,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -272,8 +273,8 @@
       "address": "527 N Main St, Hendersonville, NC 28792, USA",
       "rating": 4.6,
       "types": [
-        "candy_store",
         "department_store",
+        "candy_store",
         "shoe_store",
         "confectionery",
         "clothing_store",
@@ -320,6 +321,84 @@
       }
     },
     {
+      "name": "Arabella - Breakfast and Brunch",
+      "address": "536 N Main St, Hendersonville, NC 28792, USA",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhaCQ0L7DWYgR4eXBoYisHJU",
+      "keyword": "restaurants",
+      "location": "Life, Henderson County",
+      "user_ratings_total": 790,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.31847,
+          "lng": -82.4603482
+        }
+      }
+    },
+    {
+      "name": "West First Wood-Fired",
+      "address": "101B 1st Ave W, Hendersonville, NC 28792, USA",
+      "rating": 4.6,
+      "types": [
+        "pizza_restaurant",
+        "mediterranean_restaurant",
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmSaztRbCWYgRy88D6RZMSUI",
+      "keyword": "restaurants",
+      "location": "Life, Henderson County",
+      "user_ratings_total": 1406,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.314164399999996,
+          "lng": -82.4602275
+        }
+      }
+    },
+    {
+      "name": "Highland Lake Inn & Resort",
+      "address": "86 Lily Pad Ln, Flat Rock, NC 28731, USA",
+      "rating": 4.6,
+      "types": [
+        "resort_hotel",
+        "banquet_hall",
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM7tUiqrDWYgRB8rpHaONUM0",
+      "keyword": "hotels",
+      "location": "Life, Henderson County",
+      "user_ratings_total": 603,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.283238,
+          "lng": -82.4328872
+        }
+      }
+    },
+    {
       "name": "Fairfield Inn & Suites Hendersonville Flat Rock",
       "address": "836 Upward Rd, Flat Rock, NC 28731, USA",
       "rating": 4.6,
@@ -355,7 +434,7 @@
       "place_id": "ChIJK0hSQxHCWYgRVachp45awds",
       "keyword": "museums",
       "location": "Life, Henderson County",
-      "user_ratings_total": 516,
+      "user_ratings_total": 517,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -379,88 +458,13 @@
       ],
       "place_id": "ChIJYxPUPP5rfIgRBAS1FAbHm5g",
       "keyword": "nearby_store",
-      "user_ratings_total": 975,
+      "user_ratings_total": 980,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 35.6389455,
           "lng": -88.4021921
-        }
-      }
-    },
-    {
-      "name": "Needful Things & Antiques",
-      "address": "10 Francis Rd, Hendersonville, NC 28792, USA",
-      "rating": 4.5,
-      "types": [
-        "home_goods_store",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJoyGnCMzpWYgRGt6B3bCNXC0",
-      "keyword": "shopping retail stores",
-      "location": "Life, Henderson County",
-      "user_ratings_total": 632,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.3452775,
-          "lng": -82.436683
-        }
-      }
-    },
-    {
-      "name": "Blue Ridge Bargains",
-      "address": "51 Jackson Loop Rd, Flat Rock, NC 28731, USA",
-      "rating": 4.5,
-      "types": [
-        "home_goods_store",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJBQCQSDHdWYgRuoIA6GY_GR0",
-      "keyword": "shopping retail stores",
-      "location": "Life, Henderson County",
-      "user_ratings_total": 525,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.297924,
-          "lng": -82.3816793
-        }
-      }
-    },
-    {
-      "name": "Highland Lake Inn & Resort",
-      "address": "86 Lily Pad Ln, Flat Rock, NC 28731, USA",
-      "rating": 4.5,
-      "types": [
-        "resort_hotel",
-        "banquet_hall",
-        "wedding_venue",
-        "hotel",
-        "lodging",
-        "event_venue",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJM7tUiqrDWYgRB8rpHaONUM0",
-      "keyword": "hotels",
-      "location": "Life, Henderson County",
-      "user_ratings_total": 601,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.283238,
-          "lng": -82.4328872
         }
       }
     },
@@ -478,7 +482,7 @@
       "place_id": "ChIJ9UMjJ9_pWYgRmB7UIk_hqIo",
       "keyword": "restaurants food dining",
       "location": "Life, Henderson County",
-      "user_ratings_total": 5585,
+      "user_ratings_total": 5588,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -502,7 +506,7 @@
       "place_id": "ChIJ91ABU7bDWYgRi7yT8413PqI",
       "keyword": "restaurants food dining",
       "location": "Life, Henderson County",
-      "user_ratings_total": 1465,
+      "user_ratings_total": 1466,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -518,8 +522,8 @@
       "rating": 4.4,
       "types": [
         "barbecue_restaurant",
-        "barbecue_area",
         "hamburger_restaurant",
+        "barbecue_area",
         "american_restaurant",
         "restaurant",
         "food",
@@ -529,13 +533,37 @@
       "place_id": "ChIJebtvSEnCWYgRXBFqzOleacY",
       "keyword": "restaurants food dining",
       "location": "Life, Henderson County",
-      "user_ratings_total": 2540,
+      "user_ratings_total": 2542,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 35.29255,
           "lng": -82.448782
+        }
+      }
+    },
+    {
+      "name": "Moonshine Mountain Snow Tubing Park",
+      "address": "5865 Willow Rd, Hendersonville, NC 28739, USA",
+      "rating": 4.4,
+      "types": [
+        "ski_resort",
+        "tourist_attraction",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBxyBsO_AWYgR4F0xhUxndxI",
+      "keyword": "things to do attractions tours",
+      "location": "Life, Henderson County",
+      "user_ratings_total": 512,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.2787806,
+          "lng": -82.5314192
         }
       }
     },
@@ -552,7 +580,7 @@
       "place_id": "ChIJR9D7kP3pWYgRxt2zJteyVmI",
       "keyword": "parks recreation outdoor",
       "location": "Life, Henderson County",
-      "user_ratings_total": 511,
+      "user_ratings_total": 512,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -597,7 +625,7 @@
       "place_id": "ChIJn4G7MCrJN4YRlK4a8nmjOok",
       "keyword": "shopping retail stores",
       "location": "Life, Henderson County",
-      "user_ratings_total": 498,
+      "user_ratings_total": 499,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -675,7 +703,7 @@
       ],
       "place_id": "ChIJx6AiBhBsfIgRqAdEEkLUo88",
       "keyword": "nearby_store",
-      "user_ratings_total": 2514,
+      "user_ratings_total": 2518,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -711,33 +739,6 @@
           "lng": -88.29028489999999
         }
       }
-    },
-    {
-      "name": "Zaxbys Chicken Fingers & Buffalo Wings",
-      "address": "390 W Church St, Lexington, TN 38351, USA",
-      "rating": 3.9,
-      "types": [
-        "fast_food_restaurant",
-        "catering_service",
-        "meal_delivery",
-        "food_delivery",
-        "meal_takeaway",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJcRbs7xxsfIgRqs09hjWUY9U",
-      "keyword": "nearby_restaurant",
-      "user_ratings_total": 567,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.656039199999995,
-          "lng": -88.4044459
-        }
-      }
     }
   ],
   "events": [
@@ -749,12 +750,12 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Life, Henderson County. Explore the rich history of Henderson County, from its Native American roots to its role in the Civil War and beyond. Vi",
+    "meta_description": "Explore historical mysteries in Life, Henderson County. Explore the rich history of Henderson County, including its role in the Civil War and the Appalachian region's significa",
     "title": "Historical Mysteries in Life, Henderson County - Tours & Services",
-    "description": "Explore the rich history of Henderson County, from its Native American roots to its role in the Civil War and beyond. Visit historic sites like The Lodge at Flat Rock and The Park at Flat Rock for a glimpse into the region's past.",
+    "description": "Explore the rich history of Henderson County, including its role in the Civil War and the Appalachian region's significance in American folklore. Visit historic sites like The Lodge at Flat Rock and The Park at Flat Rock to experience the area's unique heritage.",
     "keywords": [
       "henderson county history",
-      "historic sites",
+      "appalachian folklore",
       "civil war history"
     ],
     "category": "historical"
@@ -762,6 +763,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:09:09.519397"
+    "last_updated": "2025-07-25T10:54:11.054724"
   }
 }

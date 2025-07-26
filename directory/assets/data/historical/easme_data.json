@@ -1,8 +1,31 @@
 {
   "location_name": "EASME",
   "category": "historical",
-  "timestamp": "20250722_121843",
+  "timestamp": "20250725_110312",
   "businesses": [
+    {
+      "name": "The Usual Brussels",
+      "address": "Bd Adolphe Max 107, 1000 Bruxelles, Belgium",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJyRHJYXfDw0cRDU4AUgCycEc",
+      "keyword": "hotels accommodation lodging",
+      "location": "EASME, Place Charles Rogier",
+      "user_ratings_total": 512,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.854136100000005,
+          "lng": 4.3566522
+        }
+      }
+    },
     {
       "name": "Grand Place",
       "address": "Grote Markt, 1000 Brussel, Belgium",
@@ -15,7 +38,7 @@
       ],
       "place_id": "ChIJ8fEURn_Ew0cRts_ij101PLA",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 165309,
+      "user_ratings_total": 165439,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -26,37 +49,14 @@
       }
     },
     {
-      "name": "Riverside RV Park & Resort",
-      "address": "4280 Boyds Creek Hwy, Sevierville, TN 37876, USA",
-      "rating": 4.6,
-      "types": [
-        "rv_park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ3WO_Xvv3W4gRf1SGqlOYjps",
-      "keyword": "camping rv parks",
-      "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 755,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.9287547,
-          "lng": -83.58667969999999
-        }
-      }
-    },
-    {
       "name": "S\u00e9same",
       "address": "Rue du Moulin \u00e0 Papier 17, 1160 Auderghem, Belgium",
       "rating": 4.6,
       "types": [
         "restaurant",
         "french_restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJZYpfUxjbw0cR7UJyUyeuaUY",
@@ -86,7 +86,7 @@
       ],
       "place_id": "ChIJX1tyKaTEw0cRWjLH8frzAq8",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 38477,
+      "user_ratings_total": 38516,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -103,15 +103,15 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "lodging",
         "event_venue",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJjU9qc7XDw0cRqb5pOt-9KOc",
       "keyword": "hotels accommodation lodging",
       "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 1441,
+      "user_ratings_total": 1442,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -128,16 +128,16 @@
       "types": [
         "spa",
         "hotel",
+        "lodging",
         "gym",
         "sports_activity_location",
-        "lodging",
         "health",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ-_TP2OvAw0cR054HlKOjLkQ",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 10032,
+      "user_ratings_total": 10041,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -160,36 +160,13 @@
       ],
       "place_id": "ChIJg1inSYHEw0cRPXqckguLZjM",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 14318,
+      "user_ratings_total": 14334,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 50.8420026,
           "lng": 4.3623406
-        }
-      }
-    },
-    {
-      "name": "Aparthotel Adagio Brussels Grand Place",
-      "address": "Bd Anspach 20, 1000 Bruxelles, Belgium",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJrwWv1IDDw0cR51VWBPq7g0c",
-      "keyword": "hotels accommodation lodging",
-      "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 2243,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.84999740000001,
-          "lng": 4.3518779
         }
       }
     },
@@ -205,7 +182,7 @@
       ],
       "place_id": "ChIJJUEfP37Dw0cRTkdvU-ve9_k",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 5296,
+      "user_ratings_total": 5300,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -222,13 +199,13 @@
       "types": [
         "food_court",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ9925lCbDw0cRi0dZBkg8RD8",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 10361,
+      "user_ratings_total": 10371,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -244,8 +221,8 @@
       "rating": 4.4,
       "types": [
         "tourist_attraction",
-        "observation_deck",
         "cultural_landmark",
+        "observation_deck",
         "museum",
         "event_venue",
         "point_of_interest",
@@ -253,13 +230,38 @@
       ],
       "place_id": "ChIJAQAAAKzDw0cRCTemaB0Hk1I",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 102775,
+      "user_ratings_total": 102868,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 50.8948787,
           "lng": 4.3415547
+        }
+      }
+    },
+    {
+      "name": "Novotel Brussels City Centre",
+      "address": "Rue de la Vge Noire 32, 1000 Bruxelles, Belgium",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJtd6f_IbDw0cRRSEu3pVdiCk",
+      "keyword": "hotels accommodation lodging",
+      "location": "EASME, Place Charles Rogier",
+      "user_ratings_total": 3391,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.8506706,
+          "lng": 4.3498257
         }
       }
     },
@@ -276,7 +278,7 @@
       ],
       "place_id": "ChIJQQ_1yIvDw0cRvqXflOhSXQM",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 6791,
+      "user_ratings_total": 6790,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -292,15 +294,15 @@
       "rating": 4.2,
       "types": [
         "hotel",
-        "lodging",
         "event_venue",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ41gX-YLDw0cRk1XCkUTH7r4",
       "keyword": "hotels accommodation lodging",
       "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 3654,
+      "user_ratings_total": 3656,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -323,7 +325,7 @@
       "place_id": "ChIJc6FtyoPDw0cR7Qy2NKui1-g",
       "keyword": "hotels accommodation lodging",
       "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 2046,
+      "user_ratings_total": 2049,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -339,16 +341,16 @@
       "rating": 4.1,
       "types": [
         "water_park",
-        "tourist_attraction",
-        "amusement_center",
         "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJx22iKVlRwYkRU1VYI4MFaLI",
       "keyword": "things to do attractions tours",
       "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 11882,
+      "user_ratings_total": 11902,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -359,17 +361,44 @@
       }
     },
     {
+      "name": "Citadines Sainte-Catherine Brussels",
+      "address": "Quai au Bois \u00e0 Br\u00fbler 51, 1000 Bruxelles, Belgium",
+      "rating": 4.1,
+      "types": [
+        "extended_stay_hotel",
+        "hotel",
+        "city_hall",
+        "local_government_office",
+        "government_office",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVe49BobDw0cRiBIwL2eEr08",
+      "keyword": "hotels",
+      "location": "EASME, Place Charles Rogier",
+      "user_ratings_total": 1306,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.853020799999996,
+          "lng": 4.347840199999999
+        }
+      }
+    },
+    {
       "name": "Mix Brussels",
       "address": "Bd du Souverain 25/1, 1170 Watermael-Boitsfort, Belgium",
       "rating": 4.1,
       "types": [
         "fitness_center",
         "hotel",
-        "gym",
         "swimming_pool",
         "spa",
-        "sports_activity_location",
         "lodging",
+        "gym",
+        "sports_activity_location",
         "health",
         "restaurant",
         "food",
@@ -378,7 +407,7 @@
       ],
       "place_id": "ChIJRTPGxS3bw0cRd6GysUN-BVg",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1285,
+      "user_ratings_total": 1289,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -394,15 +423,15 @@
       "rating": 4.1,
       "types": [
         "shopping_mall",
-        "store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJd8VePRXDw0cRlDzbjpRIOPg",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 22165,
+      "user_ratings_total": 22176,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -420,15 +449,15 @@
         "furniture_store",
         "home_improvement_store",
         "home_goods_store",
-        "store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ2Qj-0Dvcw0cRmbYpL1_kZ4A",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 15624,
+      "user_ratings_total": 15632,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -447,8 +476,8 @@
         "skateboard_park",
         "bicycle_store",
         "sports_club",
-        "clothing_store",
         "sports_complex",
+        "clothing_store",
         "sports_activity_location",
         "store",
         "point_of_interest",
@@ -456,7 +485,7 @@
       ],
       "place_id": "ChIJHQiw0jLDw0cRGByiNcQdT7g",
       "keyword": "nearby_store",
-      "user_ratings_total": 2827,
+      "user_ratings_total": 2832,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -472,16 +501,16 @@
       "rating": 4,
       "types": [
         "water_park",
-        "tourist_attraction",
-        "amusement_center",
         "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJJ8hieUtP2YARQ4BL-650ZWY",
       "keyword": "entertainment activities",
       "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 5190,
+      "user_ratings_total": 5202,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -497,20 +526,20 @@
       "rating": 4,
       "types": [
         "hotel",
-        "brunch_restaurant",
         "banquet_hall",
+        "brunch_restaurant",
         "convention_center",
         "lodging",
-        "event_venue",
         "bar",
         "restaurant",
         "food",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJOUvAlXnEw0cRm8QDtalvxKM",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 8666,
+      "user_ratings_total": 8671,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -532,7 +561,7 @@
       ],
       "place_id": "ChIJ0T1eGXnEw0cRH8GwIKZAuBc",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 77469,
+      "user_ratings_total": 77530,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -550,18 +579,18 @@
         "gas_station",
         "coffee_shop",
         "sandwich_shop",
-        "cafe",
         "book_store",
+        "cafe",
         "food_store",
-        "store",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJJzbC1t7Fw0cRpa51tf5xdgI",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 6068,
+      "user_ratings_total": 6069,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -585,7 +614,7 @@
       ],
       "place_id": "ChIJFWUkfYjGw0cRpgNEurCdVRA",
       "keyword": "nearby_store",
-      "user_ratings_total": 13072,
+      "user_ratings_total": 13075,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -623,8 +652,8 @@
       "types": [
         "clothing_store",
         "department_store",
-        "store",
         "child_care_agency",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -641,6 +670,31 @@
       }
     },
     {
+      "name": "Two Rivers Landing RV Resort",
+      "address": "2328 Business Ctr Cir, Sevierville, TN 37876, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "campground",
+        "lodging",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ1z2wrOb3W4gRUl2T7G8ad5o",
+      "keyword": "camping rv parks",
+      "location": "EASME, Place Charles Rogier",
+      "user_ratings_total": 400,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.9349683,
+          "lng": -83.5868922
+        }
+      }
+    },
+    {
       "name": "Esso Groot-Bijgaarden Noord",
       "address": "Autostrade E 40, 1702 Dilbeek, Belgium",
       "rating": 3.6,
@@ -651,7 +705,7 @@
       ],
       "place_id": "ChIJVWxF4eTAw0cR_OZd2paWjMQ",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 4393,
+      "user_ratings_total": 4397,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -683,52 +737,6 @@
           "lng": 4.3629482
         }
       }
-    },
-    {
-      "name": "Hotel Des Colonies",
-      "address": "Rue du Progr\u00e8s 9, 1210 Saint-Josse-ten-Noode, Belgium",
-      "rating": 3.5,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJVaAj7YLDw0cRhUbWMmf3zWI",
-      "keyword": "hotels accommodation lodging",
-      "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 1277,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.856631099999994,
-          "lng": 4.3586094
-        }
-      }
-    },
-    {
-      "name": "H\u00f4tel Queen Anne",
-      "address": "Bd Emile Jacqmain 110, 1000 Bruxelles, Belgium",
-      "rating": 3.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJMb8bkoPDw0cRoZ0d846JcO4",
-      "keyword": "hotels accommodation lodging",
-      "location": "EASME, Place Charles Rogier",
-      "user_ratings_total": 597,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.854658199999996,
-          "lng": 4.354324399999999
-        }
-      }
     }
   ],
   "events": [
@@ -740,20 +748,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in EASME. Explore the mysterious past of EASME, a city shrouded in legend and intrigue. From its medieval Grand Place to the eerie",
+    "meta_description": "Explore historical mysteries in EASME. Explore the mysterious past of EASME, a city shrouded in legend and intrigue. From its medieval roots to its modern-day ",
     "title": "Historical Mysteries in EASME - Tours & Services",
-    "description": "Explore the mysterious past of EASME, a city shrouded in legend and intrigue. From its medieval Grand Place to the eerie Parc du Cinquantenaire, this destination is steeped in history and filled with secrets waiting to be uncovered.",
+    "description": "Explore the mysterious past of EASME, a city shrouded in legend and intrigue. From its medieval roots to its modern-day attractions, this enigmatic destination is sure to leave you spellbound.",
     "keywords": [
-      "EASME",
       "mysterious",
-      "historical",
-      "paranormal"
+      "medieval",
+      "paranormal",
+      "cryptid"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:18:43.987023"
+    "last_updated": "2025-07-25T11:03:12.045524"
   }
 }

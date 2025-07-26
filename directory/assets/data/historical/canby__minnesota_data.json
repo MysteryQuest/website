@@ -1,8 +1,34 @@
 {
   "location_name": "Canby, Minnesota",
   "category": "historical",
-  "timestamp": "20250722_120116",
+  "timestamp": "20250725_104633",
   "businesses": [
+    {
+      "name": "Tettegouche State Park",
+      "address": "5702 MN-61, Silver Bay, MN 55614, USA",
+      "rating": 4.9,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "hiking_area",
+        "sports_activity_location",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7Sg2az2sqFIR-ljZsWlFKXI",
+      "keyword": "things to do attractions tours",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 4182,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.3393554,
+          "lng": -91.1959925
+        }
+      }
+    },
     {
       "name": "Kerfoot Canopy Tour",
       "address": "30200 Scenic Byway Rd, Henderson, MN 56044, USA",
@@ -29,54 +55,24 @@
       }
     },
     {
-      "name": "Gooseberry Falls State Park",
-      "address": "3206 MN-61, Two Harbors, MN 55616, USA",
-      "rating": 4.9,
+      "name": "Split Rock Lighthouse",
+      "address": "3713 Split Rock Lighthouse Rd, Two Harbors, MN 55616, USA",
+      "rating": 4.7,
       "types": [
-        "state_park",
-        "tourist_attraction",
-        "hiking_area",
-        "park",
-        "sports_activity_location",
+        "museum",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJcUOH6gpIr1IRRhR90ucVTZo",
-      "keyword": "things to do",
+      "place_id": "ChIJvcX13VhJr1IRvICrvDmK63Y",
+      "keyword": "things to do attractions tours",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 10232,
+      "user_ratings_total": 5655,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 47.139632999999996,
-          "lng": -91.4731362
-        }
-      }
-    },
-    {
-      "name": "Tettegouche State Park",
-      "address": "5702 MN-61, Silver Bay, MN 55614, USA",
-      "rating": 4.9,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "hiking_area",
-        "park",
-        "sports_activity_location",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ7Sg2az2sqFIR-ljZsWlFKXI",
-      "keyword": "things to do",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 4177,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 47.3393554,
-          "lng": -91.1959925
+          "lat": 47.1999918,
+          "lng": -91.3670132
         }
       }
     },
@@ -92,7 +88,7 @@
       "place_id": "ChIJrYas0UMn9ocRqCjAkQa6HTo",
       "keyword": "museums",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 562,
+      "user_ratings_total": 563,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -118,13 +114,38 @@
       "place_id": "ChIJ1dP1k3hllVQR9o4cDjna2qE",
       "keyword": "restaurants food dining",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 1552,
+      "user_ratings_total": 1553,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 45.2627135,
           "lng": -122.6961403
+        }
+      }
+    },
+    {
+      "name": "Pappy's Greasy Spoon",
+      "address": "243 NW 2nd Ave, Canby, OR 97013, USA",
+      "rating": 4.5,
+      "types": [
+        "diner",
+        "breakfast_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc_VD8HhllVQR_6HVY75yVTc",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 517,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2626889,
+          "lng": -122.6946584
         }
       }
     },
@@ -180,6 +201,76 @@
       }
     },
     {
+      "name": "Molalla River State Park",
+      "address": "Molalla River State Park, Canby, OR 97013, USA",
+      "rating": 4.4,
+      "types": [
+        "state_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJv2RHp6RvlVQRc_DhXWJW4uI",
+      "keyword": "parks recreation outdoor",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 581,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.2964042,
+          "lng": -122.69779519999997
+        }
+      }
+    },
+    {
+      "name": "Can Can Wonderland - St. Paul",
+      "address": "755 Prior Ave N Suite #004, St Paul, MN 55104, USA",
+      "rating": 4.3,
+      "types": [
+        "video_arcade",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJT0FI6agss1IRHAf0ZX4Rw_0",
+      "keyword": "entertainment activities",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 5382,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.964859,
+          "lng": -93.1833496
+        }
+      }
+    },
+    {
+      "name": "Mille Lacs Indian Museum",
+      "address": "43411 Oodena Dr, Onamia, MN 56359, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "store",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPxRYT4NXsVIRpd5szUpuBRs",
+      "keyword": "museums",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 430,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 46.1766903,
+          "lng": -93.7556281
+        }
+      }
+    },
+    {
       "name": "P K Egans Family Restaurant",
       "address": "115 St Olaf Ave N, Canby, MN 56220, USA",
       "rating": 4.6,
@@ -193,7 +284,7 @@
       "place_id": "ChIJhStmoAMFiocRlWd7KOXnpAo",
       "keyword": "restaurants food dining",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 438,
+      "user_ratings_total": 439,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -204,26 +295,28 @@
       }
     },
     {
-      "name": "Kathy's Place",
-      "address": "101 Maple St, Sacred Heart, MN 56285, USA",
+      "name": "Ash River Visitor Center",
+      "address": "9899 Mead Wood Rd, Orr, MN 55771, USA",
       "rating": 4.7,
       "types": [
-        "diner",
-        "restaurant",
-        "food",
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJi_0ir86jiocRtcDvsQDnbKs",
-      "keyword": "restaurants food dining",
+      "place_id": "ChIJ6bDhhvFLu1IRNGs8HEwhcUo",
+      "keyword": "museums visitor centers",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 236,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "user_ratings_total": 276,
+      "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 44.787026,
-          "lng": -95.3498051
+          "lat": 48.4356199,
+          "lng": -92.8504358
         }
       }
     },
@@ -263,7 +356,7 @@
       ],
       "place_id": "ChIJYzx2Zkn-iYcRQZt-vamMcpI",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 213,
+      "user_ratings_total": 215,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -288,7 +381,7 @@
       "place_id": "ChIJ5V6Y2vPqEYgRJiyUQu5NYdM",
       "keyword": "restaurants food dining",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 209,
+      "user_ratings_total": 210,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -356,9 +449,9 @@
         "grocery_store",
         "supermarket",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ-7HQMggFiocRZU5BD4BEuXo",
@@ -479,11 +572,11 @@
       "rating": 4.6,
       "types": [
         "department_store",
-        "clothing_store",
         "food_store",
-        "store",
         "food",
+        "clothing_store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJE_-fcQMFiocRYyevp6K1sXo",
@@ -527,19 +620,19 @@
       "address": "809 St Olaf Ave N, Canby, MN 56220, USA",
       "rating": 4.3,
       "types": [
-        "discount_store",
-        "drugstore",
         "convenience_store",
+        "drugstore",
+        "discount_store",
+        "health",
         "grocery_store",
         "food_store",
-        "store",
-        "health",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJvRQ-QggFiocRgqP8dViras8",
-      "keyword": "gas stations convenience stores",
+      "keyword": "shopping retail stores",
       "location": "Canby, Minnesota",
       "user_ratings_total": 94,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
@@ -558,8 +651,8 @@
       "types": [
         "butcher_shop",
         "food_store",
-        "food",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
@@ -643,96 +736,6 @@
           "lng": -96.27479410000001
         }
       }
-    },
-    {
-      "name": "A New Leaf",
-      "address": "126 St Olaf Ave N, Canby, MN 56220, USA",
-      "rating": 5,
-      "types": [
-        "florist",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJw8PQoQMFiocRE3q-eYpVmAo",
-      "keyword": "gift shops souvenirs",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 10,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.709392,
-          "lng": -96.2756801
-        }
-      }
-    },
-    {
-      "name": "Travel Place",
-      "address": "310 10th St, Windom, MN 56101, USA",
-      "rating": 5,
-      "types": [
-        "travel_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ5buFRrNNi4cRgxUXzXumyik",
-      "keyword": "travel services tourism",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 9,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 43.8667102,
-          "lng": -95.1166494
-        }
-      }
-    },
-    {
-      "name": "A1 Travel",
-      "address": "3601 Minnesota Dr #190, Minneapolis, MN 55435, USA",
-      "rating": 4.5,
-      "types": [
-        "travel_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJOewJSBIk9ocRhCozi_B_SpQ",
-      "keyword": "travel services tourism",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 58,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.861095999999996,
-          "lng": -93.326847
-        }
-      }
-    },
-    {
-      "name": "Pleasant Valley Lodge & Cabins",
-      "address": "18278 SD-22, Gary, SD 57237, USA",
-      "rating": 5,
-      "types": [
-        "motel",
-        "lodging",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJJyrC5nr8iYcRdLHqsJq1kKs",
-      "keyword": "nearby_lodging",
-      "user_ratings_total": 7,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.7373754,
-          "lng": -96.45596850000001
-        }
-      }
     }
   ],
   "events": [
@@ -750,19 +753,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Canby, Minnesota. Explore the mysterious past of Canby, Minnesota, where a legendary disappearance in 1927 remains shrouded in secrecy. Vi",
+    "meta_description": "Explore historical mysteries in Canby, Minnesota. Explore the mysterious Disappearance of Brandon Swanson, a local resident who vanished in 1978. Visit Tettegouche State ",
     "title": "Historical Mysteries in Canby, Minnesota - Tours & Services",
-    "description": "Explore the mysterious past of Canby, Minnesota, where a legendary disappearance in 1927 remains shrouded in secrecy. Visit the site of the alleged UFO sighting and learn about the strange events that took place on May 25, 2025.",
+    "description": "Explore the mysterious Disappearance of Brandon Swanson, a local resident who vanished in 1978. Visit Tettegouche State Park to learn about the incident and its impact on the community.",
     "keywords": [
-      "Canby Minnesota",
-      "UFO sightings",
-      "disappearance mystery"
+      "Brandon Swanson disappearance",
+      "UFO mystery",
+      "Minnesota history"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:01:16.694773"
+    "last_updated": "2025-07-25T10:46:33.356402"
   }
 }

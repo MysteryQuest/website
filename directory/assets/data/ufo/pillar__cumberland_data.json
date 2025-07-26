@@ -1,7 +1,7 @@
 {
   "location_name": "Pillar, Cumberland",
   "category": "ufo",
-  "timestamp": "20250722_120425",
+  "timestamp": "20250725_104918",
   "businesses": [
     {
       "name": "Cathedral Cave",
@@ -15,7 +15,7 @@
       ],
       "place_id": "ChIJK7TXQp_BfEgRCfPaJ-49tFA",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 645,
+      "user_ratings_total": 646,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -64,7 +64,7 @@
       "place_id": "ChIJy_aaiIEhZ4gRHg0Vv9vtLVs",
       "keyword": "car rental transportation",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 1676,
+      "user_ratings_total": 1677,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -87,7 +87,7 @@
       ],
       "place_id": "ChIJF3A1IGLBfEgRhnpq6t17tRc",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 42096,
+      "user_ratings_total": 42112,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -105,9 +105,9 @@
         "historical_landmark",
         "tourist_attraction",
         "hiking_area",
-        "sports_activity_location",
-        "historical_place",
         "park",
+        "historical_place",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
@@ -138,7 +138,7 @@
       "place_id": "ChIJk4EfHcWOyokRWtmpXQvyfeI",
       "keyword": "restaurants food dining",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 735,
+      "user_ratings_total": 736,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -162,7 +162,7 @@
       "place_id": "ChIJgRS5Ga9WZ4gRxyCmSY0Pdfw",
       "keyword": "parks recreation outdoor",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 3885,
+      "user_ratings_total": 3886,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -178,16 +178,16 @@
       "rating": 4.7,
       "types": [
         "state_park",
-        "hiking_area",
         "tourist_attraction",
-        "campground",
+        "hiking_area",
         "resort_hotel",
-        "tour_agency",
-        "travel_agency",
+        "campground",
         "hotel",
-        "sports_activity_location",
+        "tour_agency",
         "park",
+        "travel_agency",
         "lodging",
+        "sports_activity_location",
         "restaurant",
         "point_of_interest",
         "food",
@@ -196,7 +196,7 @@
       "place_id": "ChIJtcUulJIhXYgR1GPeHWsiCW8",
       "keyword": "parks recreation outdoor",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 8831,
+      "user_ratings_total": 8833,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -219,7 +219,7 @@
       "place_id": "ChIJS4irVDWJyokRmFXDGij_Xr0",
       "keyword": "hotels",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 631,
+      "user_ratings_total": 635,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -267,7 +267,7 @@
       ],
       "place_id": "ChIJbxMp133qfEgRvO_yvU7_hXU",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 2802,
+      "user_ratings_total": 2808,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -293,7 +293,7 @@
       ],
       "place_id": "ChIJo-dGlcPBfEgROia8bb2oe3s",
       "keyword": "nearby_store",
-      "user_ratings_total": 5244,
+      "user_ratings_total": 5256,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -309,22 +309,22 @@
       "rating": 4.6,
       "types": [
         "tourist_attraction",
-        "fine_dining_restaurant",
         "transit_depot",
+        "fine_dining_restaurant",
         "performing_arts_theater",
         "tourist_information_center",
         "tour_agency",
         "travel_agency",
-        "event_venue",
         "restaurant",
         "food",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ03Ze98SOyokRiCKM_tBSSRU",
       "keyword": "things to do attractions tours",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 2689,
+      "user_ratings_total": 2691,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -354,30 +354,6 @@
         "location": {
           "lat": 40.2208012,
           "lng": -76.8628373
-        }
-      }
-    },
-    {
-      "name": "Rocky Gap State Park",
-      "address": "12900 Lake Shore Dr, Flintstone, MD 21530, USA",
-      "rating": 4.6,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJiY_jhNdhyokRUUjtNP0b-eI",
-      "keyword": "entertainment activities",
-      "location": "Pillar, Cumberland",
-      "user_ratings_total": 5539,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.705585299999996,
-          "lng": -78.65353139999999
         }
       }
     },
@@ -434,8 +410,8 @@
       "types": [
         "hotel",
         "spa",
-        "bar",
         "lodging",
+        "bar",
         "restaurant",
         "point_of_interest",
         "food",
@@ -443,7 +419,7 @@
       ],
       "place_id": "ChIJXeYATkzAfEgRIe8DpGa6-J4",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 990,
+      "user_ratings_total": 992,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -467,7 +443,7 @@
       ],
       "place_id": "ChIJrVNNzG_bfEgRnP8Pw5kffww",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1362,
+      "user_ratings_total": 1365,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -484,15 +460,15 @@
       "types": [
         "performing_arts_theater",
         "cafe",
-        "event_venue",
         "restaurant",
         "food",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ32_SumbbfEgRioKzDoSVITo",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1473,
+      "user_ratings_total": 1475,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -518,7 +494,7 @@
       ],
       "place_id": "ChIJhSrdapbcfEgR6u4mKzSnIDM",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 5892,
+      "user_ratings_total": 5899,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -542,7 +518,7 @@
       ],
       "place_id": "ChIJCXjj2VHEfEgRhzr314q0cR8",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 811,
+      "user_ratings_total": 814,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -565,7 +541,7 @@
       "place_id": "ChIJbTb4c2OJyokR9hXutKSR1A8",
       "keyword": "hotels accommodation lodging",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 636,
+      "user_ratings_total": 638,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -583,12 +559,12 @@
         "steak_house",
         "hamburger_restaurant",
         "diner",
-        "meal_takeaway",
         "bar",
         "american_restaurant",
+        "meal_takeaway",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJyQNJZ1sQ9YgR8IYUmRmKyfA",
@@ -611,8 +587,8 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "event_venue",
         "lodging",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
@@ -635,8 +611,8 @@
       "rating": 4.5,
       "types": [
         "hotel",
-        "bar",
         "lodging",
+        "bar",
         "restaurant",
         "point_of_interest",
         "food",
@@ -644,7 +620,7 @@
       ],
       "place_id": "ChIJr1EoFy_BfEgR8aBlTcbMohU",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1084,
+      "user_ratings_total": 1087,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -660,21 +636,21 @@
       "rating": 4.5,
       "types": [
         "hotel",
-        "wedding_venue",
         "massage",
+        "wedding_venue",
         "spa",
         "cafe",
-        "lodging",
-        "event_venue",
         "bar",
+        "lodging",
         "restaurant",
         "food",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJC7DW3NrBfEgRZFWNgzmc5as",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1210,
+      "user_ratings_total": 1212,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -701,7 +677,7 @@
       ],
       "place_id": "ChIJHT5tMgLdfEgRmhFMqrLy2oA",
       "keyword": "nearby_store",
-      "user_ratings_total": 517,
+      "user_ratings_total": 519,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -726,7 +702,7 @@
       "place_id": "ChIJ7xyNxtGPyokRaLZbhlJJr28",
       "keyword": "hotels accommodation lodging",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 578,
+      "user_ratings_total": 579,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -750,13 +726,40 @@
       "place_id": "ChIJ15F2rmCJyokRlcn9abvbT-A",
       "keyword": "restaurants food dining",
       "location": "Pillar, Cumberland",
-      "user_ratings_total": 1740,
+      "user_ratings_total": 1744,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 39.6727785,
           "lng": -78.72461899999999
+        }
+      }
+    },
+    {
+      "name": "Oscar's Restaurant",
+      "address": "1103 E Oldtown Rd, Cumberland, MD 21502, USA",
+      "rating": 4.4,
+      "types": [
+        "italian_restaurant",
+        "catering_service",
+        "food_delivery",
+        "seafood_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPRie1tSIyokRB_qJkGxQIP8",
+      "keyword": "restaurants",
+      "location": "Pillar, Cumberland",
+      "user_ratings_total": 680,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6360787,
+          "lng": -78.7473016
         }
       }
     }
@@ -782,14 +785,14 @@
     "keywords": [
       "Pillar mystery",
       "UFO sightings",
-      "Antelope Park UFO",
-      "Roman ruins"
+      "Roman ruins",
+      "alien encounters"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:04:25.078987"
+    "last_updated": "2025-07-25T10:49:18.049891"
   }
 }

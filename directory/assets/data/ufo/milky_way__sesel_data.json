@@ -1,53 +1,8 @@
 {
   "location_name": "Milky Way, Sesel",
   "category": "ufo",
-  "timestamp": "20250722_121043",
+  "timestamp": "20250725_105541",
   "businesses": [
-    {
-      "name": "Capricorn Car Rental Ltd",
-      "address": "Baie Ste Anne, Praslin, Seychelles",
-      "rating": 5,
-      "types": [
-        "car_rental",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ35Z-A-DtHyMRtoKR7KWDTgI",
-      "keyword": "car rental transportation",
-      "location": "Sesel, USA",
-      "user_ratings_total": 622,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": -4.3428565,
-          "lng": 55.75830750000001
-        }
-      }
-    },
-    {
-      "name": "Berjaya Praslin Resort",
-      "address": "Cote D'Or Esplanade, Anse Volbert Village, Seychelles",
-      "rating": 4.9,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ0Rfqg-XxHyMRanCk6gF40Os",
-      "keyword": "hotels accommodation lodging",
-      "location": "Sesel, USA",
-      "user_ratings_total": 3462,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": -4.3154962,
-          "lng": 55.74355680000001
-        }
-      }
-    },
     {
       "name": "Doffay Car Rental",
       "address": "Seychelles international Airport, Victoria, Seychelles",
@@ -62,7 +17,7 @@
       "place_id": "ChIJ9ehrNSEp4CIRVCcIdugE08w",
       "keyword": "car rental transportation",
       "location": "Sesel, USA",
-      "user_ratings_total": 1647,
+      "user_ratings_total": 1652,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -84,7 +39,7 @@
       "place_id": "ChIJ-__Rgd_vHyMR-OHR1sR5XN0",
       "keyword": "car rental transportation",
       "location": "Sesel, USA",
-      "user_ratings_total": 645,
+      "user_ratings_total": 646,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -106,13 +61,36 @@
       "place_id": "ChIJzYgxrZjtHyMRUBwn8u9fa3o",
       "keyword": "car rental transportation",
       "location": "Sesel, USA",
-      "user_ratings_total": 501,
+      "user_ratings_total": 503,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": -4.6361867000000005,
           "lng": 55.460696399999996
+        }
+      }
+    },
+    {
+      "name": "Berjaya Praslin Resort",
+      "address": "Cote D'Or Esplanade, Anse Volbert Village, Seychelles",
+      "rating": 4.9,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0Rfqg-XxHyMRanCk6gF40Os",
+      "keyword": "hotels",
+      "location": "Sesel, USA",
+      "user_ratings_total": 3474,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.3154962,
+          "lng": 55.74355680000001
         }
       }
     },
@@ -133,7 +111,7 @@
       "place_id": "ChIJy2Xb4JjZUVMR1UTztKyp2Ns",
       "keyword": "museums visitor centers",
       "location": "Sesel, USA",
-      "user_ratings_total": 629,
+      "user_ratings_total": 630,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -183,7 +161,7 @@
       "place_id": "ChIJX_vRGpaqLYcRyaqZoGt6w0c",
       "keyword": "museums visitor centers",
       "location": "Sesel, USA",
-      "user_ratings_total": 2929,
+      "user_ratings_total": 2931,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -209,7 +187,7 @@
       "place_id": "ChIJyVXhPry5UVMRlA77m-vzook",
       "keyword": "museums visitor centers",
       "location": "Sesel, USA",
-      "user_ratings_total": 3517,
+      "user_ratings_total": 3537,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -235,7 +213,7 @@
       "place_id": "ChIJVVVVVVXlUVMRPn1GOljGk8k",
       "keyword": "museums visitor centers",
       "location": "Sesel, USA",
-      "user_ratings_total": 3122,
+      "user_ratings_total": 3147,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -261,7 +239,7 @@
       "place_id": "ChIJi0AIRgzUT1MRJyVwa9u-_HY",
       "keyword": "museums visitor centers",
       "location": "Sesel, USA",
-      "user_ratings_total": 1065,
+      "user_ratings_total": 1066,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -302,20 +280,20 @@
         "hotel",
         "gym",
         "spa",
-        "event_venue",
         "bar",
-        "sports_activity_location",
         "lodging",
         "health",
         "restaurant",
-        "point_of_interest",
         "food",
+        "sports_activity_location",
+        "event_venue",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJCcMlWQcs4CIR4_Mn03IK090",
       "keyword": "hotels",
       "location": "Sesel, USA",
-      "user_ratings_total": 3451,
+      "user_ratings_total": 3457,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -339,7 +317,7 @@
       "place_id": "ChIJq34PAXrV4SIRpvQ0vMs5Hj0",
       "keyword": "hotels",
       "location": "Sesel, USA",
-      "user_ratings_total": 3122,
+      "user_ratings_total": 3127,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -362,13 +340,36 @@
       "place_id": "ChIJySQ5VfwnllQRpRVur5Dcgbg",
       "keyword": "museums",
       "location": "Sesel, USA",
-      "user_ratings_total": 1062,
+      "user_ratings_total": 1064,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 45.6775953,
           "lng": -120.86476199999998
+        }
+      }
+    },
+    {
+      "name": "Maria's Rock Cafeteria",
+      "address": "Anse Gouvernment Rd, Seychelles",
+      "rating": 4.6,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfaalEXPV4SIR0odsqQIpL4g",
+      "keyword": "restaurants food dining",
+      "location": "Sesel, USA",
+      "user_ratings_total": 552,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.7546796,
+          "lng": 55.4712426
         }
       }
     },
@@ -386,36 +387,13 @@
       "place_id": "ChIJN6pFl-Yo4CIR6aRz5H-6OjI",
       "keyword": "restaurants food dining",
       "location": "Sesel, USA",
-      "user_ratings_total": 751,
+      "user_ratings_total": 750,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": -4.6133846,
           "lng": 55.429801899999994
-        }
-      }
-    },
-    {
-      "name": "Maria's Rock Cafeteria",
-      "address": "Anse Gouvernment Rd, Seychelles",
-      "rating": 4.6,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJfaalEXPV4SIR0odsqQIpL4g",
-      "keyword": "restaurants food dining",
-      "location": "Sesel, USA",
-      "user_ratings_total": 550,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": -4.7546796,
-          "lng": 55.4712426
         }
       }
     },
@@ -431,7 +409,7 @@
       "place_id": "ChIJub20WS3VHyMR6g7tYdifci8",
       "keyword": "things to do attractions tours",
       "location": "Sesel, USA",
-      "user_ratings_total": 1802,
+      "user_ratings_total": 1808,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -447,19 +425,19 @@
       "rating": 4.6,
       "types": [
         "hotel",
+        "extended_stay_hotel",
         "wedding_venue",
         "resort_hotel",
-        "extended_stay_hotel",
         "spa",
-        "event_venue",
         "lodging",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJlV9-TG3V4SIR4cmyxq-n_mI",
       "keyword": "hotels",
       "location": "Sesel, USA",
-      "user_ratings_total": 912,
+      "user_ratings_total": 913,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -479,8 +457,8 @@
         "wedding_venue",
         "hotel",
         "spa",
-        "event_venue",
         "lodging",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
@@ -498,6 +476,29 @@
       }
     },
     {
+      "name": "Hotel Santa Fe, Hacienda & Spa",
+      "address": "1501 Paseo De Peralta, Santa Fe, NM 87501, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ693GCkJQGIcR59w4kM1y2FE",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sesel, USA",
+      "user_ratings_total": 1103,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.682265,
+          "lng": -105.946389
+        }
+      }
+    },
+    {
       "name": "Del Place Restaurant",
       "address": "Port Launay Rd, N.Y.S. Village, Seychelles",
       "rating": 4.5,
@@ -511,7 +512,7 @@
       "place_id": "ChIJJbCWCfwr4CIRuKCiREz2_g8",
       "keyword": "restaurants food dining",
       "location": "Sesel, USA",
-      "user_ratings_total": 1405,
+      "user_ratings_total": 1408,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -534,7 +535,7 @@
       "place_id": "ChIJP-KNYIHV4SIRMkYXOjmiP0Y",
       "keyword": "restaurants food dining",
       "location": "Sesel, USA",
-      "user_ratings_total": 653,
+      "user_ratings_total": 654,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -557,7 +558,7 @@
       "place_id": "ChIJTZ1J95EgJYcRjCYhw9DWmIg",
       "keyword": "camping rv parks",
       "location": "Sesel, USA",
-      "user_ratings_total": 1636,
+      "user_ratings_total": 1635,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -568,28 +569,25 @@
       }
     },
     {
-      "name": "DoubleTree by Hilton Seychelles - Allamanda Resort and Spa",
-      "address": "Anse Forbans, S Coast Rd, Seychelles",
+      "name": "Vall\u00e9e de Mai, Praslin, Seychelles",
+      "address": "Baie Ste Anne, Seychelles",
       "rating": 4.4,
       "types": [
-        "resort_hotel",
-        "hotel",
-        "spa",
-        "lodging",
-        "event_venue",
+        "national_park",
+        "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ30ADl-wqHiMRTF2EIDQZhyE",
-      "keyword": "hotels accommodation lodging",
+      "place_id": "ChIJVVVVVQXuHyMRn5mdovopTTI",
+      "keyword": "things to do attractions tours",
       "location": "Sesel, USA",
-      "user_ratings_total": 849,
+      "user_ratings_total": 1591,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": -4.7769115,
-          "lng": 55.523601400000004
+          "lat": -4.3318525999999995,
+          "lng": 55.7401062
         }
       }
     },
@@ -601,17 +599,17 @@
         "campground",
         "rv_park",
         "hiking_area",
-        "event_venue",
-        "sports_activity_location",
         "park",
         "lodging",
+        "sports_activity_location",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJZWzWzhqXJ4YR-YDiarYUH9o",
       "keyword": "camping rv parks",
       "location": "Sesel, USA",
-      "user_ratings_total": 504,
+      "user_ratings_total": 505,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -622,24 +620,50 @@
       }
     },
     {
+      "name": "Savoy Seychelles Resort & Spa",
+      "address": "Box 400, Mahe Island, Beau Vallon, Seychelles",
+      "rating": 4.4,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJESWj1uUo4CIRFdRshusJzW4",
+      "keyword": "hotels",
+      "location": "Sesel, USA",
+      "user_ratings_total": 2241,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -4.6123186,
+          "lng": 55.430894699999996
+        }
+      }
+    },
+    {
       "name": "El Malpais National Monument Visitor Center",
       "address": "1900 E Santa Fe Ave, Grants, NM 87020, USA",
       "rating": 4.8,
       "types": [
         "visitor_center",
-        "tourist_information_center",
         "hiking_area",
+        "tourist_information_center",
+        "park",
         "tour_agency",
         "travel_agency",
         "sports_activity_location",
-        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ2byaKeKaI4cRYsmU3GrQTaA",
       "keyword": "museums visitor centers",
       "location": "Sesel, USA",
-      "user_ratings_total": 458,
+      "user_ratings_total": 459,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -662,7 +686,7 @@
       "place_id": "ChIJAfLeg-kp4CIRjb_35R5MW8c",
       "keyword": "restaurants food dining",
       "location": "Sesel, USA",
-      "user_ratings_total": 537,
+      "user_ratings_total": 540,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -684,7 +708,7 @@
       "place_id": "ChIJGwvkmekp4CIRf7FuH_QocI4",
       "keyword": "shopping retail stores",
       "location": "Sesel, USA",
-      "user_ratings_total": 831,
+      "user_ratings_total": 832,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -703,43 +727,20 @@
         "tourist_attraction",
         "park",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJB81kJJYqHiMR6FwavHyc0PU",
       "keyword": "things to do attractions tours",
       "location": "Sesel, USA",
-      "user_ratings_total": 995,
+      "user_ratings_total": 997,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": -4.7464775,
           "lng": 55.503645199999994
-        }
-      }
-    },
-    {
-      "name": "voco St. James Hotel by IHG",
-      "address": "330 Magazine St, New Orleans, LA 70130, USA",
-      "rating": 4.1,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJo2vYIHOmIIYRngZeYrXt_eY",
-      "keyword": "hotels accommodation lodging",
-      "location": "Sesel, USA",
-      "user_ratings_total": 1138,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 29.949791599999994,
-          "lng": -90.06771040000001
         }
       }
     }
@@ -755,17 +756,17 @@
   "generated_content": {
     "meta_description": "Explore ufo mysteries in Milky Way, Sesel. Explore the mysterious Cloaked Passenger Jet, a legendary UFO sighting that has been shrouded in secrecy for decades. Vi",
     "title": "Ufo Mysteries in Milky Way, Sesel - Tours & Services",
-    "description": "Explore the mysterious Cloaked Passenger Jet, a legendary UFO sighting that has been shrouded in secrecy for decades. Visit the nearby Berjaya Praslin Resort to learn more about this enigmatic event.",
+    "description": "Explore the mysterious Cloaked Passenger Jet, a legendary UFO sighting that has been shrouded in secrecy for decades. Visit the Norris Geyser Basin Museum to uncover the truth behind this enigmatic event.",
     "keywords": [
       "Cloaked Passenger Jet",
       "UFO sightings",
-      "aliens"
+      "mysterious events"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:10:43.253799"
+    "last_updated": "2025-07-25T10:55:41.466278"
   }
 }

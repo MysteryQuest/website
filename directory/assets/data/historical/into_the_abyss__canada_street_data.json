@@ -1,22 +1,45 @@
 {
   "location_name": "Into the Abyss, Canada Street",
   "category": "historical",
-  "timestamp": "20250722_120930",
+  "timestamp": "20250725_105433",
   "businesses": [
+    {
+      "name": "Sea Vancouver Waterfront Sightseeing",
+      "address": "1666 Duranleau St, Vancouver, BC V6H 3S4, Canada",
+      "rating": 4.9,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkwj5pYhxhlQRhN0xZpCiDaM",
+      "keyword": "things to do attractions tours",
+      "location": "Into the Abyss, Canada Street",
+      "user_ratings_total": 830,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 49.2721592,
+          "lng": -123.1363379
+        }
+      }
+    },
     {
       "name": "Restaurant Canada Best",
       "address": "997 Av. Ogilvy, Montr\u00e9al, QC H3N 2T3, Canada",
       "rating": 4.8,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJjaC1sBsZyUwRvbawx1jAGRw",
       "keyword": "restaurants food dining",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 539,
+      "user_ratings_total": 542,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -27,48 +50,24 @@
       }
     },
     {
-      "name": "Cave of the Winds",
-      "address": "10 Goat Island Rd, Niagara Falls, NY 14303, USA",
+      "name": "Vancouver Seawall",
+      "address": "Vancouver, BC V6G 3E2, Canada",
       "rating": 4.8,
       "types": [
         "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJiUjUZwRD04kRBdQnXIqsO-4",
-      "keyword": "things to do attractions tours",
+      "place_id": "ChIJm9BY9o5xhlQRtZBMs5-fqrI",
+      "keyword": "things to do",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 11130,
+      "user_ratings_total": 2704,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.0822943,
-          "lng": -79.0713474
-        }
-      }
-    },
-    {
-      "name": "Yoho National Park Of Canada",
-      "address": "Field, BC V0A 1G0, Canada",
-      "rating": 4.8,
-      "types": [
-        "national_park",
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJUxBJITveeVMRdW-P2NvpnPI",
-      "keyword": "parks recreation outdoor",
-      "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 4696,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.4666667,
-          "lng": -116.58333329999999
+          "lat": 49.2960965,
+          "lng": -123.12797959999999
         }
       }
     },
@@ -78,8 +77,8 @@
       "rating": 4.8,
       "types": [
         "hotel",
-        "bed_and_breakfast",
         "inn",
+        "bed_and_breakfast",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -103,18 +102,18 @@
       "rating": 4.7,
       "types": [
         "pub",
-        "clothing_store",
-        "store",
         "bar",
         "restaurant",
         "food",
+        "clothing_store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJowc7v8oeyUwRduz6Ov4iQ_4",
       "keyword": "entertainment activities",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 877,
+      "user_ratings_total": 878,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -137,7 +136,7 @@
       "place_id": "ChIJE-Xa87o0K4gRkvXFHuE0hMk",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 39598,
+      "user_ratings_total": 39658,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -148,21 +147,44 @@
       }
     },
     {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W, Toronto, ON M5T 1G4, Canada",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvRlT7cU0K4gRr0bg7VV3J9o",
+      "keyword": "museums",
+      "location": "Into the Abyss, Canada Street",
+      "user_ratings_total": 17827,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.653606599999996,
+          "lng": -79.39251229999999
+        }
+      }
+    },
+    {
       "name": "McMichael Canadian Art Collection",
       "address": "Grand Hall, 10365 Islington Ave, Kleinburg, ON L0J 1C0, Canada",
       "rating": 4.7,
       "types": [
         "tourist_attraction",
         "art_gallery",
-        "museum",
         "event_venue",
+        "museum",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJf6qfHj0kK4gRWem1KyJy2uo",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 2773,
+      "user_ratings_total": 2779,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -191,29 +213,6 @@
         "location": {
           "lat": 43.321419999999996,
           "lng": -79.798897
-        }
-      }
-    },
-    {
-      "name": "Lake Inez",
-      "address": "1471 Gerrard St E, Toronto, ON M4L 2A1, Canada",
-      "rating": 4.6,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJnaQ0LnbM1IkR7izznFHf3H8",
-      "keyword": "restaurants food dining",
-      "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 1213,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 43.6723948,
-          "lng": -79.32068989999999
         }
       }
     },
@@ -270,34 +269,6 @@
       }
     },
     {
-      "name": "Spacious Skies Campgrounds - Bear Den",
-      "address": "600 Bear Den Mountain Dr, Spruce Pine, NC 28777, USA",
-      "rating": 4.6,
-      "types": [
-        "campground",
-        "guest_house",
-        "rv_park",
-        "real_estate_agency",
-        "park",
-        "travel_agency",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJI9h2KfO7UIgR4DwKCkmViG4",
-      "keyword": "camping rv parks",
-      "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 756,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.893169,
-          "lng": -81.97480999999999
-        }
-      }
-    },
-    {
       "name": "Canadian Museum of Immigration at Pier 21",
       "address": "1055 Marginal Rd, Halifax, NS B3H 4P7, Canada",
       "rating": 4.6,
@@ -310,7 +281,7 @@
       "place_id": "ChIJ3axyMEoiWksRIJs4Q5Vx4xc",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 3215,
+      "user_ratings_total": 3225,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -333,7 +304,7 @@
       "place_id": "ChIJf1uvLFQEzkwR0HSqtnfxPBQ",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 1661,
+      "user_ratings_total": 1671,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -356,7 +327,7 @@
       "place_id": "ChIJL-0QIPEEzkwRxPx5idTJaKo",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 13165,
+      "user_ratings_total": 13184,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -378,7 +349,7 @@
       "place_id": "ChIJQRgei5B0j1QRPcfjFwsz8Rc",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 3127,
+      "user_ratings_total": 3131,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -396,13 +367,13 @@
         "restaurant",
         "wedding_venue",
         "event_venue",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJw8bLFK2FLIgR8YHJ5eEoWO8",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2835,
+      "user_ratings_total": 2840,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -419,17 +390,17 @@
       "types": [
         "botanical_garden",
         "historical_landmark",
-        "tourist_attraction",
         "wedding_venue",
-        "park",
-        "historical_place",
+        "tourist_attraction",
         "event_venue",
+        "historical_place",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJE5ogNvacLIgRi6iKaHvgNcc",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 7082,
+      "user_ratings_total": 7087,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -446,14 +417,14 @@
       "types": [
         "tourist_attraction",
         "hiking_area",
-        "park",
         "sports_activity_location",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ6U0osICDLIgRGc3gs5yljhY",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 4105,
+      "user_ratings_total": 4107,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -475,7 +446,7 @@
       ],
       "place_id": "ChIJx_9_0n2cLIgRQMv52y3wjJQ",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 6247,
+      "user_ratings_total": 6244,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -496,7 +467,7 @@
       ],
       "place_id": "ChIJdcwP-3iFLIgRk14_4CWxub4",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 816,
+      "user_ratings_total": 817,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -507,16 +478,41 @@
       }
     },
     {
+      "name": "Fairmont Empress",
+      "address": "721 Government St, Victoria, BC V8W 1W5, Canada",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJifpQ75B0j1QRTJ17niGHLuI",
+      "keyword": "hotels accommodation lodging",
+      "location": "Into the Abyss, Canada Street",
+      "user_ratings_total": 5822,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.421721000000005,
+          "lng": -123.36784890000001
+        }
+      }
+    },
+    {
       "name": "The Carbon Bar",
       "address": "99 Queen St E, Toronto, ON M5C 1S1, Canada",
       "rating": 4.5,
       "types": [
         "barbecue_restaurant",
-        "bar",
         "american_restaurant",
+        "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJv6F6Usw0K4gRQt20A8k3Jws",
@@ -533,38 +529,13 @@
       }
     },
     {
-      "name": "Chambar Restaurant",
-      "address": "568 Beatty St, Vancouver, BC V6B 2L3, Canada",
-      "rating": 4.5,
-      "types": [
-        "restaurant",
-        "cafe",
-        "bar",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJq2tI6HtxhlQRBaKUv59cS9E",
-      "keyword": "restaurants food dining",
-      "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 4166,
-      "price_level": "PRICE_LEVEL_EXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 49.2801271,
-          "lng": -123.109935
-        }
-      }
-    },
-    {
       "name": "American Museum of Natural History",
       "address": "200 Central Prk W, New York, NY 10024, USA",
       "rating": 4.5,
       "types": [
-        "planetarium",
         "tourist_attraction",
         "historical_landmark",
+        "planetarium",
         "historical_place",
         "museum",
         "point_of_interest",
@@ -573,7 +544,7 @@
       "place_id": "ChIJCXoPsPRYwokRsV1MYnKBfaI",
       "keyword": "museums visitor centers",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 22440,
+      "user_ratings_total": 22461,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -596,7 +567,7 @@
       "place_id": "ChIJ3Z1QQSwiWksRP19i25Yxl5I",
       "keyword": "museums",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 2464,
+      "user_ratings_total": 2466,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -618,7 +589,7 @@
       ],
       "place_id": "ChIJr3Vn6C-eLIgR_-v5LxWZXnE",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 893,
+      "user_ratings_total": 895,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -634,14 +605,14 @@
       "rating": 4.4,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJraUHetM0K4gR3VS5TMC86_s",
       "keyword": "restaurants food dining",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 6466,
+      "user_ratings_total": 6484,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -652,85 +623,96 @@
       }
     },
     {
-      "name": "Yogi Bear's Jellystone Park Camp-Resort: Lakes Region in Milton, NH",
-      "address": "111 Mitejo Rd, Milton, NH 03851, USA",
+      "name": "Harbour 60 Toronto",
+      "address": "60 Harbour St, Toronto, ON M5J 1B7, Canada",
       "rating": 4.4,
       "types": [
-        "campground",
-        "camping_cabin",
-        "rv_park",
-        "resort_hotel",
-        "hotel",
-        "swimming_pool",
-        "park",
-        "lodging",
-        "sports_activity_location",
+        "steak_house",
+        "fine_dining_restaurant",
+        "seafood_restaurant",
+        "event_venue",
+        "restaurant",
         "point_of_interest",
+        "food",
         "establishment"
       ],
-      "place_id": "ChIJ1bSEw3zSskwRILY13xOGk4s",
-      "keyword": "camping rv parks",
+      "place_id": "ChIJ1UnIuyvL1IkRiq6TsqVk4fc",
+      "keyword": "restaurants food dining",
       "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 585,
-      "price_level": null,
+      "user_ratings_total": 2759,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.4426175,
-          "lng": -70.968886
+          "lat": 43.6421013,
+          "lng": -79.3784532
         }
       }
     },
     {
-      "name": "Spacious Skies Campgrounds - Minute Man",
-      "address": "264 Ayer Rd, Littleton, MA 01460, USA",
+      "name": "Costco Gas Station",
+      "address": "1326 S Service Rd, Stoney Creek, ON L8E 5C5, Canada",
       "rating": 4.4,
       "types": [
-        "campground",
-        "camping_cabin",
-        "rv_park",
-        "real_estate_agency",
-        "park",
-        "travel_agency",
-        "lodging",
+        "gas_station",
         "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ67SqdXqkLIgRoaNjj5whGFA",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1121,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.215382399999996,
+          "lng": -79.6453382
+        }
+      }
+    },
+    {
+      "name": "Costco Wholesale",
+      "address": "100 Legend Ct, Hamilton, ON L9K 1J3, Canada",
+      "rating": 4.4,
+      "types": [
+        "warehouse_store",
+        "department_store",
         "store",
+        "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ3-trtxyV44kRxbbY17-o6Hs",
-      "keyword": "camping rv parks",
-      "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 834,
-      "price_level": null,
+      "place_id": "ChIJxyPFBRyFLIgROprT5Qw-a5A",
+      "keyword": "nearby_store",
+      "user_ratings_total": 9229,
+      "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 42.5499514,
-          "lng": -71.536847
+          "lat": 43.2298164,
+          "lng": -79.9483413
         }
       }
     },
     {
-      "name": "Canada's Wonderland",
-      "address": "Vaughan, ON L6A 1S6, Canada",
-      "rating": 4.4,
+      "name": "Homewood Suites by Hilton Hamilton, Ontario, Canada",
+      "address": "40 Bay St S, Hamilton, ON L8P 0B3, Canada",
+      "rating": 4.3,
       "types": [
-        "amusement_park",
-        "tourist_attraction",
-        "amusement_center",
+        "extended_stay_hotel",
+        "hotel",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJe3u5IUsvK4gR_PyyMgWDpoc",
-      "keyword": "attractions",
-      "location": "Into the Abyss, Canada Street",
-      "user_ratings_total": 61856,
+      "place_id": "ChIJQdt5n4KbLIgRAxHoMzeIo-U",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 1641,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.8423619,
-          "lng": -79.54121549999999
+          "lat": 43.2571321,
+          "lng": -79.8747396
         }
       }
     }
@@ -744,19 +726,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Into the Abyss, Canada Street. Explore the mysterious world of humanoids in this vast network of underground tunnels and caverns. Discover the secrets ",
+    "meta_description": "Explore historical mysteries in Into the Abyss, Canada Street. Explore the mysterious side of Vancouver's history at Into the Abyss, a hub for UFO sightings and paranormal activity. D",
     "title": "Historical Mysteries in Into the Abyss, Canada Street - Tours & Services",
-    "description": "Explore the mysterious world of humanoids in this vast network of underground tunnels and caverns. Discover the secrets behind the enigmatic UFO sightings that have captivated humanity for centuries.",
+    "description": "Explore the mysterious side of Vancouver's history at Into the Abyss, a hub for UFO sightings and paranormal activity. Discover the truth behind these unexplained phenomena and experience the city like never before.",
     "keywords": [
-      "humanoid civilizations",
-      "ufo sightings",
-      "alien encounters"
+      "paranormal tours",
+      "ufo hotspots",
+      "vancouver history"
     ],
     "category": "paranormal"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:09:30.026964"
+    "last_updated": "2025-07-25T10:54:33.348398"
   }
 }

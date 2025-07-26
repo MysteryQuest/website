@@ -1,31 +1,8 @@
 {
   "location_name": "4th Avenue Rears Lane Alley, Curtis Park",
   "category": "historical",
-  "timestamp": "20250722_120848",
+  "timestamp": "20250725_105349",
   "businesses": [
-    {
-      "name": "Crocker Art Museum",
-      "address": "216 O St, Sacramento, CA 95814, USA",
-      "rating": 4.8,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ7ecEyDPRmoARObm20dmuM9k",
-      "keyword": "museums",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 3497,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.5769817,
-          "lng": -121.50685339999998
-        }
-      }
-    },
     {
       "name": "California State Railroad Museum",
       "address": "125 I St, Sacramento, CA 95814, USA",
@@ -39,13 +16,36 @@
       "place_id": "ChIJYxCsn83WmoAR6J5mJl3jT7U",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 5295,
+      "user_ratings_total": 5297,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.5849368,
           "lng": -121.5044161
+        }
+      }
+    },
+    {
+      "name": "Crocker Art Museum",
+      "address": "216 O St, Sacramento, CA 95814, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7ecEyDPRmoARObm20dmuM9k",
+      "keyword": "museums",
+      "location": "Rears Lane Alley, Curtis Park",
+      "user_ratings_total": 3501,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5769817,
+          "lng": -121.50685339999998
         }
       }
     },
@@ -64,7 +64,7 @@
       "place_id": "ChIJYUnm_ubQmoARMQ2616W5Yi8",
       "keyword": "restaurants food dining",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 558,
+      "user_ratings_total": 559,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -81,15 +81,15 @@
       "types": [
         "tourist_attraction",
         "botanical_garden",
-        "park",
         "museum",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJldtsqgTWmoAR1aSB8REJQgU",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 5689,
+      "user_ratings_total": 5692,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -112,7 +112,7 @@
       "place_id": "ChIJAUbbMS_RmoAR9Q0EK_CimYY",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 566,
+      "user_ratings_total": 567,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -136,7 +136,7 @@
       ],
       "place_id": "ChIJa2u9OzzamoARKjfmdWSiWKo",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 7022,
+      "user_ratings_total": 7025,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -157,13 +157,39 @@
       ],
       "place_id": "ChIJqY1rYRvHmoARIeF0T4zSxEs",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 505,
+      "user_ratings_total": 506,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.4076977,
           "lng": -121.41435519999999
+        }
+      }
+    },
+    {
+      "name": "Bacon & Butter",
+      "address": "5913 Broadway, Sacramento, CA 95820, USA",
+      "rating": 4.6,
+      "types": [
+        "brunch_restaurant",
+        "breakfast_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7XUWRcPQmoARLJ-AE7NfruI",
+      "keyword": "restaurants food dining",
+      "location": "Rears Lane Alley, Curtis Park",
+      "user_ratings_total": 3651,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.546957899999995,
+          "lng": -121.4360138
         }
       }
     },
@@ -205,7 +231,7 @@
       ],
       "place_id": "ChIJZ6ToLSPamoARk4rP3GkRiUM",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 6531,
+      "user_ratings_total": 6537,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -221,9 +247,9 @@
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "tourist_attraction",
-        "shopping_mall",
         "historical_place",
+        "shopping_mall",
+        "tourist_attraction",
         "museum",
         "restaurant",
         "food",
@@ -232,35 +258,13 @@
       ],
       "place_id": "ChIJy_qwEs3WmoARcHTfbV8tsNM",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 28074,
+      "user_ratings_total": 28084,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.5826761,
           "lng": -121.50452360000001
-        }
-      }
-    },
-    {
-      "name": "Pavilions Shopping Center",
-      "address": "563 Pavilions Ln, Sacramento, CA 95825, USA",
-      "rating": 4.5,
-      "types": [
-        "shopping_mall",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJhbpdRVfamoARR6KKHj50YYc",
-      "keyword": "shopping retail stores",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 745,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.5751248,
-          "lng": -121.40967450000001
         }
       }
     },
@@ -282,7 +286,7 @@
       "place_id": "ChIJDwarkCLRmoAR4wg4lK8ygjg",
       "keyword": "restaurants",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1769,
+      "user_ratings_total": 1770,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -326,7 +330,7 @@
       ],
       "place_id": "ChIJC7sKtazQmoARfl756BgxVtE",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 1150,
+      "user_ratings_total": 1153,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -347,7 +351,7 @@
       ],
       "place_id": "ChIJEzFa_sTFmoARVtwLYDaPOiQ",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 588,
+      "user_ratings_total": 589,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -364,13 +368,13 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJVZR3tKzQmoARvfBrBDJpCls",
       "keyword": "nearby_store",
-      "user_ratings_total": 7953,
+      "user_ratings_total": 7956,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -422,7 +426,7 @@
       "place_id": "ChIJ_V7q2sPQmoARsrhDpBZzWXs",
       "keyword": "restaurants food dining",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 2251,
+      "user_ratings_total": 2252,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -456,6 +460,29 @@
       }
     },
     {
+      "name": "Embassy Suites by Hilton Sacramento Riverfront Promenade",
+      "address": "100 Capitol Mall, Sacramento, CA 95814, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJb1-cFDPRmoARTE1y3WhBc_8",
+      "keyword": "hotels",
+      "location": "Rears Lane Alley, Curtis Park",
+      "user_ratings_total": 2538,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.579569,
+          "lng": -121.506937
+        }
+      }
+    },
+    {
       "name": "SMUD Museum of Science and Curiosity",
       "address": "400 Jibboom St, Sacramento, CA 95811, USA",
       "rating": 4.4,
@@ -468,7 +495,7 @@
       "place_id": "ChIJKVbeFBXZmoARcKxnfV0912Y",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1706,
+      "user_ratings_total": 1707,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -492,7 +519,7 @@
       ],
       "place_id": "ChIJbXhq5SzRmoAR3sHmxdgHBjw",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1580,
+      "user_ratings_total": 1581,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -518,7 +545,7 @@
       ],
       "place_id": "ChIJ1Sz6ViPamoARtlvMQaLGV9I",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 3883,
+      "user_ratings_total": 3884,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -540,7 +567,7 @@
       ],
       "place_id": "ChIJw0nl36XRmoARhXrVCiszP1k",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 8059,
+      "user_ratings_total": 8063,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -562,7 +589,7 @@
       ],
       "place_id": "ChIJq6qqqjbDmoARAOBwJ7-btVs",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 2607,
+      "user_ratings_total": 2609,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -581,13 +608,13 @@
         "supermarket",
         "food_store",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ53wh7GzdmoAR__P4oyapxNI",
       "keyword": "nearby_store",
-      "user_ratings_total": 4479,
+      "user_ratings_total": 4484,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -610,36 +637,13 @@
       "place_id": "ChIJP0bmwNnQmoARdgQYo-iKCEg",
       "keyword": "hotels accommodation lodging",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1166,
+      "user_ratings_total": 1168,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.5767105,
           "lng": -121.48717669999999
-        }
-      }
-    },
-    {
-      "name": "Meet & Eat",
-      "address": "3445 Freeport Blvd, Sacramento, CA 95818, USA",
-      "rating": 4.3,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJCXBKuFTQmoARgGgC8yJTqC0",
-      "keyword": "restaurants food dining",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1582,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.54434010000001,
-          "lng": -121.4905148
         }
       }
     },
@@ -657,7 +661,7 @@
       "place_id": "ChIJX7zgOybRmoARnggGIuIdX58",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 721,
+      "user_ratings_total": 722,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -675,13 +679,13 @@
         "furniture_store",
         "home_improvement_store",
         "home_goods_store",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJzyahGxSo6lQRkcw5Hk9avQ8",
       "keyword": "nearby_store",
-      "user_ratings_total": 9182,
+      "user_ratings_total": 9185,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -698,13 +702,13 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ2_VLMQDXmoARSMztdSHuuUY",
       "keyword": "nearby_store",
-      "user_ratings_total": 604,
+      "user_ratings_total": 607,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -730,19 +734,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 4th Avenue Rears Lane Alley, Curtis Park. Explore the mysterious history of this alleyway, where a 1831 extreme climate event was linked to a former secret Soviet",
+    "meta_description": "Explore historical mysteries in 4th Avenue Rears Lane Alley, Curtis Park. Explore the mysterious history of this alleyway, where a 1831 extreme climate event may have been caused by a secret Sov",
     "title": "Historical Mysteries in 4th Avenue Rears Lane Alley, Curtis Park - Tours & Services",
-    "description": "Explore the mysterious history of this alleyway, where a 1831 extreme climate event was linked to a former secret Soviet island base. Discover the dark side of this enigmatic location with guided tours and exhibitions at nearby museums.",
+    "description": "Explore the mysterious history of this alleyway, where a 1831 extreme climate event may have been caused by a secret Soviet island base. Visit the California State Railroad Museum and Crocker Art Museum to uncover more secrets.",
     "keywords": [
       "historical sites",
-      "climate change",
-      "soviet history"
+      "climate events",
+      "secret bases"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:08:48.381804"
+    "last_updated": "2025-07-25T10:53:49.442844"
   }
 }

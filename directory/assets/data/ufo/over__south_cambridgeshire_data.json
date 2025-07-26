@@ -1,7 +1,7 @@
 {
   "location_name": "Over, South Cambridgeshire",
   "category": "ufo",
-  "timestamp": "20250722_121753",
+  "timestamp": "20250725_110226",
   "businesses": [
     {
       "name": "Traditional Punting Cambridge",
@@ -17,7 +17,7 @@
       "place_id": "ChIJiRiX2k5x2EcRIj3HI0pApE0",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 2046,
+      "user_ratings_total": 2047,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -41,7 +41,7 @@
       "place_id": "ChIJy1TdA79w2EcRVRxhmOIljdc",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 3998,
+      "user_ratings_total": 4008,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -63,7 +63,7 @@
       "place_id": "ChIJifDK1uBx2EcR8M_tBDBUr2w",
       "keyword": "entertainment activities",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 646,
+      "user_ratings_total": 659,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -110,7 +110,7 @@
       "place_id": "ChIJC42pIutw2EcRw2mkaRZODc8",
       "keyword": "restaurants food dining",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 544,
+      "user_ratings_total": 545,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -133,7 +133,7 @@
       "place_id": "ChIJgS3TBr9w2EcRQ1g7VefO090",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 756,
+      "user_ratings_total": 763,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -149,16 +149,16 @@
       "rating": 4.8,
       "types": [
         "tourist_attraction",
+        "museum",
         "tour_agency",
         "travel_agency",
-        "museum",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJLYaUOJZw2EcRLTjAoVO_aXw",
       "keyword": "museums visitor centers",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 17471,
+      "user_ratings_total": 17486,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -169,44 +169,13 @@
       }
     },
     {
-      "name": "The Centre for Computing History",
-      "address": "Rene Ct, Coldham's Rd, Cambridge CB1 3EW, UK",
-      "rating": 4.8,
-      "types": [
-        "museum",
-        "tourist_attraction",
-        "gift_shop",
-        "video_arcade",
-        "visitor_center",
-        "tourist_information_center",
-        "tour_agency",
-        "travel_agency",
-        "store",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJcxaXm_Re2EcR6suPYcJwWog",
-      "keyword": "museums visitor centers",
-      "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 690,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 52.207901,
-          "lng": 0.149001
-        }
-      }
-    },
-    {
       "name": "Lockhouse Escape Games",
       "address": "70 Regent St, Cambridge CB2 1DP, UK",
       "rating": 4.8,
       "types": [
         "amusement_center",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ__-r9Jlw2EcRj2n1UACVp1w",
@@ -235,7 +204,7 @@
       "place_id": "ChIJPW1Ek5dw2EcR8LQhjUUd-4k",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 896,
+      "user_ratings_total": 898,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -254,15 +223,15 @@
         "visitor_center",
         "tourist_information_center",
         "tour_agency",
-        "historical_place",
         "travel_agency",
+        "historical_place",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJJ8ZORVVu2EcRM-UyHYKMMf4",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 7411,
+      "user_ratings_total": 7413,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -285,7 +254,7 @@
       "place_id": "ChIJRSsWo6Jw2EcRLLfAvWgBFLA",
       "keyword": "museums visitor centers",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 8270,
+      "user_ratings_total": 8278,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -296,44 +265,21 @@
       }
     },
     {
-      "name": "Hinchingbrooke Country Park",
-      "address": "Brampton Rd, Huntingdon PE29 6DB, UK",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJwecdOsPCd0gRx9jmULNi7to",
-      "keyword": "things to do",
-      "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 2028,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 52.328960200000004,
-          "lng": -0.2106796
-        }
-      }
-    },
-    {
       "name": "Kettle's Yard",
       "address": "Castle St, Cambridge CB3 0AQ, UK",
       "rating": 4.7,
       "types": [
         "tourist_attraction",
         "art_gallery",
-        "museum",
         "event_venue",
+        "museum",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJX3Dbo7hw2EcRtlGuEhvQQfI",
       "keyword": "things to do",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 1325,
+      "user_ratings_total": 1327,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -356,7 +302,7 @@
       "place_id": "ChIJt1Da65dw2EcRoiJ0gQnSOaA",
       "keyword": "museums",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 2063,
+      "user_ratings_total": 2068,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -379,7 +325,7 @@
       ],
       "place_id": "ChIJA_q2yZ1w2EcRSWXADT-R3O0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 7114,
+      "user_ratings_total": 7119,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -404,7 +350,7 @@
       ],
       "place_id": "ChIJjTzHfQwT2EcRr-Yl3BQS6sA",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 6321,
+      "user_ratings_total": 6329,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -490,6 +436,28 @@
       }
     },
     {
+      "name": "National Trust - Houghton Mill & Waterclose Meadows",
+      "address": "Mill St, Houghton, Huntingdon PE28 2AZ, UK",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEZaWecfdd0gR6aH7M-_ZcnI",
+      "keyword": "things to do attractions tours",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 2393,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.3308955,
+          "lng": -0.12063159999999999
+        }
+      }
+    },
+    {
       "name": "National Trust - Wicken Fen Nature Reserve",
       "address": "34 Lode Ln, Wicken, ELY CB7 5XP, UK",
       "rating": 4.6,
@@ -502,7 +470,7 @@
       "place_id": "ChIJCYcNw4Zr2EcRv_Jsh0BLUBo",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 2356,
+      "user_ratings_total": 2358,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -513,36 +481,14 @@
       }
     },
     {
-      "name": "National Trust - Houghton Mill & Waterclose Meadows",
-      "address": "Mill St, Houghton, Huntingdon PE28 2AZ, UK",
-      "rating": 4.6,
-      "types": [
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJEZaWecfdd0gR6aH7M-_ZcnI",
-      "keyword": "things to do attractions tours",
-      "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 2391,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 52.3308955,
-          "lng": -0.12063159999999999
-        }
-      }
-    },
-    {
       "name": "Wandlebury Country Park",
       "address": "Wandlebury Ring, Gog Magog Hills, Stapleford, Cambridge CB22 3AE, UK",
       "rating": 4.6,
       "types": [
-        "tourist_attraction",
         "wedding_venue",
-        "park",
+        "tourist_attraction",
         "event_venue",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -599,7 +545,7 @@
       "place_id": "ChIJYU6TmSLfd0gRVqkWgBOBac4",
       "keyword": "restaurants",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 740,
+      "user_ratings_total": 741,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -623,7 +569,7 @@
       "place_id": "ChIJMZx6SvXTd0gRM2TaSvaNqOI",
       "keyword": "things to do",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 7184,
+      "user_ratings_total": 7193,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -634,25 +580,24 @@
       }
     },
     {
-      "name": "The Backs",
-      "address": "Queen's Rd, Cambridge CB3 9AH, UK",
+      "name": "Cherry Hinton Hall Park",
+      "address": "Cherry Hinton Rd, Cambridge CB1 8DW, UK",
       "rating": 4.6,
       "types": [
         "park",
-        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJJSClDbVw2EcRngfngjc9ypo",
-      "keyword": "attractions",
+      "place_id": "ChIJWSyJ25562EcRNVhezUXwJcU",
+      "keyword": "things to do",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 732,
+      "user_ratings_total": 1282,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 52.2042444,
-          "lng": 0.11302179999999999
+          "lat": 52.1863976,
+          "lng": 0.1640457
         }
       }
     },
@@ -667,13 +612,13 @@
         "food_store",
         "store",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJbflbrLbgd0gRNlYuJxEKn18",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 3862,
+      "user_ratings_total": 3867,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -696,7 +641,7 @@
       "place_id": "ChIJC-NA5LF32EcRGdCBhrpU3gg",
       "keyword": "hotels accommodation lodging",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 542,
+      "user_ratings_total": 543,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -720,13 +665,63 @@
       "place_id": "ChIJbaFEcM5x2EcRS5m3jWWyiv4",
       "keyword": "restaurants food dining",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 651,
+      "user_ratings_total": 652,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 52.200479599999994,
           "lng": 0.1167023
+        }
+      }
+    },
+    {
+      "name": "The Three Horseshoes",
+      "address": "High St, Madingley, Cambridge CB23 8AB, UK",
+      "rating": 4.5,
+      "types": [
+        "vegan_restaurant",
+        "pub",
+        "vegetarian_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGx0wMhl42EcR9hnPU_dL5dg",
+      "keyword": "restaurants food dining",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1192,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.225334399999994,
+          "lng": 0.0432307
+        }
+      }
+    },
+    {
+      "name": "Lammas Land",
+      "address": "61 Newnham Rd, Cambridge CB3 9EY, UK",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLyuwGKRw2EcRiPHK9qLCLPo",
+      "keyword": "parks recreation outdoor",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1116,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1968431,
+          "lng": 0.1132489
         }
       }
     }
@@ -748,17 +743,17 @@
   "generated_content": {
     "meta_description": "Explore ufo mysteries in Over, South Cambridgeshire. Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigm",
     "title": "Ufo Mysteries in Over, South Cambridgeshire - Tours & Services",
-    "description": "Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigmatic location is home to Neuralink's groundbreaking brain implant project and offers a unique opportunity for citizen scientists to contribute to its success.",
+    "description": "Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigmatic location is home to Neuralink's global brain implant project and offers a unique opportunity for citizen scientists to contribute to groundbreaking research.",
     "keywords": [
       "Over UFO tours",
       "alien encounters",
-      "Neuralink breakthrough"
+      "Neuralink breakthroughs"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:17:53.914072"
+    "last_updated": "2025-07-25T11:02:26.426009"
   }
 }

@@ -1,7 +1,7 @@
 {
   "location_name": "dragon",
   "category": "ufo",
-  "timestamp": "20250722_120445",
+  "timestamp": "20250725_104942",
   "businesses": [
     {
       "name": "Scenic Sedona Tours",
@@ -16,7 +16,7 @@
       "place_id": "ChIJS2BI2luhLYcRhZB0djbAh6A",
       "keyword": "things to do attractions tours",
       "location": "dragon, ",
-      "user_ratings_total": 1449,
+      "user_ratings_total": 1452,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -31,14 +31,14 @@
       "address": "17555 Tapoco Rd, Robbinsville, NC 28771, USA",
       "rating": 4.8,
       "types": [
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJXT5dazC-XogRwi65RZ2VMO8",
       "keyword": "gift shops souvenirs",
       "location": "dragon, ",
-      "user_ratings_total": 4364,
+      "user_ratings_total": 4365,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -54,14 +54,14 @@
       "rating": 4.8,
       "types": [
         "tourist_attraction",
-        "gift_shop",
         "pizza_restaurant",
-        "food_store",
-        "store",
+        "gift_shop",
         "event_venue",
+        "food_store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ-yfa60TUT4gRvFy_Xxn18Po",
@@ -82,18 +82,18 @@
       "address": "1200 Dragonman Dr, Colorado Springs, CO 80929, USA",
       "rating": 4.7,
       "types": [
-        "sports_complex",
+        "museum",
         "sporting_goods_store",
+        "sports_complex",
         "sports_activity_location",
         "store",
-        "museum",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ06shB9A7E4cRytwtDmkZVpE",
       "keyword": "things to do attractions tours",
       "location": "dragon, ",
-      "user_ratings_total": 2035,
+      "user_ratings_total": 2038,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -104,50 +104,29 @@
       }
     },
     {
-      "name": "George and the Dragon",
-      "address": "813 W 50th St, Minneapolis, MN 55419, USA",
+      "name": "Rainbow Forest Museum",
+      "address": "6618 Petrified Forest Rd, Holbrook, AZ 86025, USA",
       "rating": 4.7,
       "types": [
-        "pub",
-        "bar",
-        "restaurant",
-        "food",
+        "museum",
+        "tourist_attraction",
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJD0SgSFIm9ocRdLlVXKBGwMU",
-      "keyword": "restaurants",
+      "place_id": "ChIJUZ5f4FxyL4cR8YJyKiK0vcw",
+      "keyword": "museums visitor centers",
       "location": "dragon, ",
-      "user_ratings_total": 2031,
-      "price_level": "PRICE_LEVEL_MODERATE",
+      "user_ratings_total": 1327,
+      "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 44.912183,
-          "lng": -93.29032439999999
-        }
-      }
-    },
-    {
-      "name": "Hungry AF Downtown",
-      "address": "27 Piedmont Ave NE d1, Atlanta, GA 30303, USA",
-      "rating": 4.7,
-      "types": [
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ0eQfrtYD9YgRBf_21hqdv9M",
-      "keyword": "restaurants",
-      "location": "dragon, ",
-      "user_ratings_total": 2740,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.75530200000001,
-          "lng": -84.38205300000001
+          "lat": 34.815183999999995,
+          "lng": -109.86582179999999
         }
       }
     },
@@ -160,46 +139,20 @@
         "pizza_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ025YYWSVXogR2FX3kFdSWqw",
       "keyword": "restaurants",
       "location": "dragon, ",
-      "user_ratings_total": 1117,
+      "user_ratings_total": 1120,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 35.443633999999996,
           "lng": -83.9382705
-        }
-      }
-    },
-    {
-      "name": "Verkamp's Visitor Center",
-      "address": "100 S Entrance Rd, Grand Canyon Village, AZ 86023, USA",
-      "rating": 4.6,
-      "types": [
-        "visitor_center",
-        "tourist_attraction",
-        "tourist_information_center",
-        "tour_agency",
-        "travel_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJu6w_FrYQM4cRQz9_6Z5feW4",
-      "keyword": "museums visitor centers",
-      "location": "dragon, ",
-      "user_ratings_total": 659,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 36.057637299999996,
-          "lng": -112.13573
         }
       }
     },
@@ -216,7 +169,7 @@
       "place_id": "ChIJ6ynWavA5W4YRbV57AuFmmCY",
       "keyword": "parks recreation outdoor",
       "location": "dragon, ",
-      "user_ratings_total": 770,
+      "user_ratings_total": 771,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -233,14 +186,14 @@
       "types": [
         "chinese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJBahzFAAzTIYRsmD1J1bebJM",
       "keyword": "restaurants",
       "location": "dragon, ",
-      "user_ratings_total": 636,
+      "user_ratings_total": 639,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -273,30 +226,6 @@
       }
     },
     {
-      "name": "Bitter Lake National Wildlife Refuge",
-      "address": "Bitter Lake National Wildlife Refuge Visitor Center, 4200 E Pine Lodge Rd, Roswell, NM 88201, USA",
-      "rating": 4.5,
-      "types": [
-        "wildlife_refuge",
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ824zJetk4oYRm9xyxAjc25A",
-      "keyword": "museums visitor centers",
-      "location": "dragon, ",
-      "user_ratings_total": 512,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4560475,
-          "lng": -104.40166389999999
-        }
-      }
-    },
-    {
       "name": "Bottomless Lakes State Park",
       "address": "545A Bottomless Lakes Rd, Roswell, NM 88201, USA",
       "rating": 4.5,
@@ -310,13 +239,37 @@
       "place_id": "ChIJn6I0ffNg4oYRalsBEXDIA4k",
       "keyword": "parks recreation outdoor",
       "location": "dragon, ",
-      "user_ratings_total": 2755,
+      "user_ratings_total": 2756,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.3361819,
           "lng": -104.3327217
+        }
+      }
+    },
+    {
+      "name": "Dragon Restaurant",
+      "address": "303 Washington Blvd, Ogden, UT 84404, USA",
+      "rating": 4.4,
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ4WbtdR4MU4cRDbd8gheSY2c",
+      "keyword": "restaurants",
+      "location": "dragon, ",
+      "user_ratings_total": 855,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.2581166,
+          "lng": -111.9700632
         }
       }
     },
@@ -333,7 +286,7 @@
       "place_id": "ChIJ43co6DuifDURExh_vejo2J0",
       "keyword": "hotels accommodation lodging",
       "location": "dragon, ",
-      "user_ratings_total": 2105,
+      "user_ratings_total": 2106,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -357,7 +310,7 @@
       "place_id": "ChIJP5qht0ZxIocRT8PH1trc3do",
       "keyword": "restaurants food dining",
       "location": "dragon, ",
-      "user_ratings_total": 541,
+      "user_ratings_total": 542,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -377,8 +330,8 @@
         "meal_delivery",
         "food_delivery",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJy9QPrfHVTYYR8PvyUGmRb4s",
@@ -395,9 +348,55 @@
       }
     },
     {
+      "name": "Dragon Mart by Dubai Retail",
+      "address": "Al Awir Road - Dubai International City - Dubai - United Arab Emirates",
+      "rating": 4.2,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-RX5UklhXz4RqRE2cZdsQAw",
+      "keyword": "shopping retail stores",
+      "location": "dragon, ",
+      "user_ratings_total": 43421,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 25.1753672,
+          "lng": 55.412628399999996
+        }
+      }
+    },
+    {
+      "name": "Twin Dragon Chinese Restaurant & Bar",
+      "address": "8597 W Pico Blvd, Los Angeles, CA 90035, USA",
+      "rating": 4.2,
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJtagnzWm5woAR2KBbLb5JceU",
+      "keyword": "restaurants",
+      "location": "dragon, ",
+      "user_ratings_total": 843,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0539729,
+          "lng": -118.37826059999999
+        }
+      }
+    },
+    {
       "name": "Dragon China Buffet",
       "address": "2125 S Canal St, Carlsbad, NM 88220, USA",
-      "rating": 4.2,
+      "rating": 4.1,
       "types": [
         "chinese_restaurant",
         "asian_restaurant",
@@ -410,83 +409,13 @@
       "place_id": "ChIJ1S_BYwl544YRQe6CQpnJt-A",
       "keyword": "restaurants food dining",
       "location": "dragon, ",
-      "user_ratings_total": 2246,
+      "user_ratings_total": 2248,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 32.3975,
           "lng": -104.2225
-        }
-      }
-    },
-    {
-      "name": "Dragon Mart by Dubai Retail",
-      "address": "Al Awir Road - Dubai International City - Dubai - United Arab Emirates",
-      "rating": 4.2,
-      "types": [
-        "shopping_mall",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ-RX5UklhXz4RqRE2cZdsQAw",
-      "keyword": "shopping retail stores",
-      "location": "dragon, ",
-      "user_ratings_total": 43402,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 25.1753672,
-          "lng": 55.412628399999996
-        }
-      }
-    },
-    {
-      "name": "Dragon Gift Center",
-      "address": "Muscat 133, Oman",
-      "rating": 4.2,
-      "types": [
-        "shopping_mall",
-        "department_store",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJL1ylscL_kT4R7NslmFVR7Oc",
-      "keyword": "gift shops souvenirs",
-      "location": "dragon, ",
-      "user_ratings_total": 4486,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 23.590780799999997,
-          "lng": 58.383297899999995
-        }
-      }
-    },
-    {
-      "name": "Twin Dragon Chinese Restaurant & Bar",
-      "address": "8597 W Pico Blvd, Los Angeles, CA 90035, USA",
-      "rating": 4.2,
-      "types": [
-        "chinese_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJtagnzWm5woAR2KBbLb5JceU",
-      "keyword": "restaurants",
-      "location": "dragon, ",
-      "user_ratings_total": 842,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.0539729,
-          "lng": -118.37826059999999
         }
       }
     },
@@ -502,13 +431,61 @@
       "place_id": "ChIJCUhUtT1hXz4Rdd-wCBeYPXg",
       "keyword": "shopping retail stores",
       "location": "dragon, ",
-      "user_ratings_total": 6180,
+      "user_ratings_total": 6187,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 25.1736564,
           "lng": 55.421820399999994
+        }
+      }
+    },
+    {
+      "name": "Dragon Gift Center",
+      "address": "Muscat 133, Oman",
+      "rating": 4.1,
+      "types": [
+        "shopping_mall",
+        "department_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJL1ylscL_kT4R7NslmFVR7Oc",
+      "keyword": "gift shops souvenirs",
+      "location": "dragon, ",
+      "user_ratings_total": 4490,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 23.590780799999997,
+          "lng": 58.383297899999995
+        }
+      }
+    },
+    {
+      "name": "Dragon Kitchen",
+      "address": "2219 Missouri Blvd, Jefferson City, MO 65109, USA",
+      "rating": 4.1,
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJHxbvY9te24cRfiZySm0YnGA",
+      "keyword": "restaurants",
+      "location": "dragon, ",
+      "user_ratings_total": 1887,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5809566,
+          "lng": -92.2097504
         }
       }
     },
@@ -525,7 +502,7 @@
       "place_id": "ChIJHa52O1rGwoARer87_e2fc1M",
       "keyword": "hotels",
       "location": "dragon, ",
-      "user_ratings_total": 979,
+      "user_ratings_total": 981,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -558,6 +535,29 @@
       }
     },
     {
+      "name": "Dragon Sea Travel",
+      "address": "243 \u0110\u1ec1 Th\u00e1m, Ph\u01b0\u1eddng Ph\u1ea1m Ng\u0169 L\u00e3o, Qu\u1eadn 1, H\u1ed3 Ch\u00ed Minh 700000, Vietnam",
+      "rating": 4.8,
+      "types": [
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUUEaxLAvdTERstyAGsGVGAo",
+      "keyword": "travel services tourism",
+      "location": "dragon, ",
+      "user_ratings_total": 342,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.768132999999999,
+          "lng": 106.693446
+        }
+      }
+    },
+    {
       "name": "BUFFETTIME",
       "address": "1801 N Turner St, Hobbs, NM 88240, USA",
       "rating": 4.3,
@@ -572,7 +572,7 @@
       "place_id": "ChIJnVWyM5aV_IYR4IgQixZtIQY",
       "keyword": "restaurants food dining",
       "location": "dragon, ",
-      "user_ratings_total": 390,
+      "user_ratings_total": 391,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -606,31 +606,6 @@
       }
     },
     {
-      "name": "Enchanted Forest",
-      "address": "925 S Main St h1, Frankenmuth, MI 48734, USA",
-      "rating": 4.8,
-      "types": [
-        "gift_shop",
-        "home_goods_store",
-        "clothing_store",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJR06SksfyI4gRZ3gXSnmJdiI",
-      "keyword": "gift shops souvenirs",
-      "location": "dragon, ",
-      "user_ratings_total": 268,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 43.323821099999996,
-          "lng": -83.7399133
-        }
-      }
-    },
-    {
       "name": "Dragon Park (James L. Morgan Recreation Complex)",
       "address": "1206 Turnpike Rd, Laurinburg, NC 28352, USA",
       "rating": 4.5,
@@ -658,15 +633,15 @@
       "rating": 4.5,
       "types": [
         "park",
-        "state_park",
         "tourist_attraction",
+        "state_park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJB-DNXJPYGIgRY8PKACmMaoc",
       "keyword": "parks recreation outdoor",
       "location": "dragon, ",
-      "user_ratings_total": 274,
+      "user_ratings_total": 278,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -688,7 +663,7 @@
       "place_id": "ChIJIdKuB1BSSD4Ra8m9L3OXpL8",
       "keyword": "things to do attractions tours",
       "location": "dragon, ",
-      "user_ratings_total": 268,
+      "user_ratings_total": 269,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -720,6 +695,31 @@
           "lng": -104.5100631
         }
       }
+    },
+    {
+      "name": "Red Dragon Convenient",
+      "address": "505 N Main St, Niles, OH 44446, USA",
+      "rating": 4.3,
+      "types": [
+        "convenience_store",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ6daIxwDhM4gR2I46xKmwq-A",
+      "keyword": "gas stations convenience stores",
+      "location": "dragon, ",
+      "user_ratings_total": 200,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.186432599999996,
+          "lng": -80.7643883
+        }
+      }
     }
   ],
   "events": [
@@ -733,17 +733,17 @@
   "generated_content": {
     "meta_description": "Explore ufo mysteries in dragon. Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UFO sighting took place in April 2025. Visit",
     "title": "Ufo Mysteries in dragon - Tours & Services",
-    "description": "Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UFO sighting took place in April 2025. Visit Scenic Sedona Tours for guided tours and scenic views, or take a ride on Tail of the Dragon for an adrenaline-packed adventure. For a unique experience, visit Back of the Dragon Brewery and enjoy craft beers while learning about the area's paranormal history.",
+    "description": "Explore the mysterious skies of Cambridge, Massachusetts, where a legendary UFO sighting took place in April 2025. Visit Scenic Sedona Tours for guided tours and discover the area's rich history.",
     "keywords": [
       "ufo sightings",
       "alien encounters",
-      "paranormal activity"
+      "Cambridge UFO"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:04:45.601428"
+    "last_updated": "2025-07-25T10:49:42.332463"
   }
 }

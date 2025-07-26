@@ -1,34 +1,8 @@
 {
   "location_name": "Kalaallit Nunaat",
   "category": "ufo",
-  "timestamp": "20250722_121629",
+  "timestamp": "20250725_110114",
   "businesses": [
-    {
-      "name": "Albright Visitor Center",
-      "address": "Grand Loop Rd, Mammoth, WY 82190, USA",
-      "rating": 4.7,
-      "types": [
-        "visitor_center",
-        "tourist_attraction",
-        "tourist_information_center",
-        "tour_agency",
-        "travel_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJi0AIRgzUT1MRJyVwa9u-_HY",
-      "keyword": "museums visitor centers",
-      "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 1065,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.976432599999995,
-          "lng": -110.6995216
-        }
-      }
-    },
     {
       "name": "Sea Coast Camping and RV Resort",
       "address": "115 Lafayette Rd, North Hampton, NH 03862, USA",
@@ -43,7 +17,7 @@
       "place_id": "ChIJlxeSv-3p4okRRMHUG-302ZQ",
       "keyword": "camping rv parks",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 539,
+      "user_ratings_total": 542,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -91,7 +65,7 @@
       "place_id": "ChIJ094ndGHlp08RX20DMXmMiU0",
       "keyword": "parks recreation outdoor",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 539,
+      "user_ratings_total": 540,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -182,36 +156,13 @@
       "place_id": "ChIJ3an6SdQNok4RDyRWJ4dQpN8",
       "keyword": "things to do",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 256,
+      "user_ratings_total": 257,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 64.1779176,
           "lng": -51.738717199999996
-        }
-      }
-    },
-    {
-      "name": "Hotel Kangerlussuaq",
-      "address": "2894+VV8, Tankeqarfiup aqq., S\u00f8ndre Str\u00f8mfjord, Greenland",
-      "rating": 3.7,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJJbLYesqslk4Ru5XXI4RKt6k",
-      "keyword": "hotels",
-      "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 303,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 67.0196631,
-          "lng": -50.692807599999995
         }
       }
     },
@@ -228,7 +179,7 @@
       "place_id": "ChIJ8QDYzdYNok4RBRBrpMXJPxs",
       "keyword": "museums",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 223,
+      "user_ratings_total": 224,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -276,7 +227,7 @@
       "place_id": "ChIJh0L3Rs2t8k4RLIOQU6DHOBs",
       "keyword": "restaurants food dining",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 186,
+      "user_ratings_total": 188,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -299,7 +250,7 @@
       "place_id": "ChIJ5RNYFtYNok4RLfRnWFMjzzY",
       "keyword": "restaurants food dining",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 184,
+      "user_ratings_total": 185,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -347,7 +298,7 @@
       "place_id": "ChIJGzVGbxqtlk4Rdqyh7D2efKg",
       "keyword": "restaurants food dining",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 155,
+      "user_ratings_total": 156,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -473,27 +424,6 @@
       }
     },
     {
-      "name": "Greenland Backcountry",
-      "address": "Mittarfimmut Aqq. 1A, Ilulissat 3952, Greenland",
-      "rating": 5,
-      "types": [
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJz-QhihKt8k4RActrKqTLCVg",
-      "keyword": "things to do attractions tours",
-      "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 39,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 69.22161369999999,
-          "lng": -51.0883973
-        }
-      }
-    },
-    {
       "name": "Best Western Plus Hotel Ilulissat",
       "address": "Kaaleeraq Poulsen'ip Aqq 4, Ilulissat 3952, Greenland",
       "rating": 4.2,
@@ -513,6 +443,27 @@
         "location": {
           "lat": 69.21787259999999,
           "lng": -51.1009025
+        }
+      }
+    },
+    {
+      "name": "Greenland Backcountry",
+      "address": "Mittarfimmut Aqq. 1A, Ilulissat 3952, Greenland",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJz-QhihKt8k4RActrKqTLCVg",
+      "keyword": "things to do attractions tours",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 41,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 69.22161369999999,
+          "lng": -51.0883973
         }
       }
     },
@@ -618,7 +569,7 @@
       "place_id": "ChIJL2ZBEy-t8k4RH0fQX5dAPFo",
       "keyword": "camping rv parks",
       "location": "Kalaallit Nunaat, USA",
-      "user_ratings_total": 42,
+      "user_ratings_total": 43,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -697,6 +648,52 @@
           "lng": -51.738358
         }
       }
+    },
+    {
+      "name": "Nuuk Rental",
+      "address": "Naternaq 9b-002, Nuuk 3905, Greenland",
+      "rating": 5,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJXWYZ27YNok4RUFU9RIU8bRU",
+      "keyword": "car rental transportation",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 11,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 64.1664005,
+          "lng": -51.668750499999994
+        }
+      }
+    },
+    {
+      "name": "Tasiilaq Tours",
+      "address": "Akitterni B1554, Tasiilaq 3913, Greenland",
+      "rating": 5,
+      "types": [
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7frPJRKZyE4RB_vAZQKE7Hs",
+      "keyword": "travel services tourism",
+      "location": "Kalaallit Nunaat, USA",
+      "user_ratings_total": 8,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 65.6168358,
+          "lng": -37.646318799999996
+        }
+      }
     }
   ],
   "events": [
@@ -708,12 +705,12 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Kalaallit Nunaat. Explore the mysterious world of UFOs in Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to",
+    "meta_description": "Explore ufo mysteries in Kalaallit Nunaat. Explore the mysterious world of Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to 'silent",
     "title": "Ufo Mysteries in Kalaallit Nunaat - Tours & Services",
-    "description": "Explore the mysterious world of UFOs in Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to 'silent' earthquakes on Japan's tsunami-prone coast.",
+    "description": "Explore the mysterious world of Kalaallit Nunaat, where scientists are tracking an undersea phenomenon linked to 'silent' earthquakes. Visit Sea Coast Camping and RV Resort for a taste of Greenland's famous roast beef and seafood.",
     "keywords": [
+      "Kalaallit Nunaat",
       "ufo sightings",
-      "alien encounters",
       "underwater mysteries"
     ],
     "category": "ufo"
@@ -721,6 +718,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:16:29.812132"
+    "last_updated": "2025-07-25T11:01:14.538533"
   }
 }

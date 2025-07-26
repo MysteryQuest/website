@@ -1,31 +1,8 @@
 {
   "location_name": "\u010cesko",
   "category": "historical",
-  "timestamp": "20250722_121823",
+  "timestamp": "20250725_110250",
   "businesses": [
-    {
-      "name": "Free Walking Tour Prague",
-      "address": "\u0158eznick\u00e1 1486 /5, 110 00 Praha 1-Nov\u00e9 M\u011bsto, Czechia",
-      "rating": 5,
-      "types": [
-        "tour_agency",
-        "travel_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJdVfIvhGVC0cRHd09Mrj8CQw",
-      "keyword": "things to do attractions tours",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 10433,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.078358099999996,
-          "lng": 14.422228899999999
-        }
-      }
-    },
     {
       "name": "100 Spires City Tours",
       "address": "Na P\u0159\u00edkop\u011b 33, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
@@ -39,7 +16,7 @@
       "place_id": "ChIJv18g_GyVC0cRAm5s54ZP1A8",
       "keyword": "things to do attractions tours",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 3043,
+      "user_ratings_total": 3055,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -50,26 +27,25 @@
       }
     },
     {
-      "name": "The Chamber",
-      "address": "Petrsk\u00e9 n\u00e1m. 1186/1, 110 00 Praha 1-Nov\u00e9 M\u011bsto, Czechia",
+      "name": "The Acoma House",
+      "address": "1114 Acoma St, Denver, CO 80204, USA",
       "rating": 5,
       "types": [
-        "amusement_park",
-        "amusement_center",
-        "tourist_attraction",
+        "hotel",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJWzprcsCUC0cRJVbE4TcY4JA",
-      "keyword": "entertainment activities",
+      "place_id": "ChIJBUIjWNx_bIcR1oaKrvcnE1A",
+      "keyword": "hotels",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 3929,
+      "user_ratings_total": 821,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 50.0917071,
-          "lng": 14.4316673
+          "lat": 39.734245,
+          "lng": -104.9884809
         }
       }
     },
@@ -78,9 +54,9 @@
       "address": "Provaznick\u00e1 399/11, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
       "rating": 4.9,
       "types": [
+        "tourist_attraction",
         "amusement_park",
         "amusement_center",
-        "tourist_attraction",
         "event_venue",
         "point_of_interest",
         "establishment"
@@ -88,7 +64,7 @@
       "place_id": "ChIJwXr1VYyUC0cRGg30s_5Xygo",
       "keyword": "entertainment activities",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 2301,
+      "user_ratings_total": 2303,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -110,7 +86,7 @@
       "place_id": "ChIJYwezu26TC0cRMZ44b7bkbVw",
       "keyword": "car rental transportation",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 1512,
+      "user_ratings_total": 1516,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -155,7 +131,7 @@
       "place_id": "ChIJjVa7fSkrc0cRXLNZWf_zb0E",
       "keyword": "museums",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 3395,
+      "user_ratings_total": 3397,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -166,13 +142,59 @@
       }
     },
     {
+      "name": "Muzeum Slivovice R. Jel\u00ednek",
+      "address": "U Lu\u017eick\u00e9ho semin\u00e1\u0159e 116/48, Mal\u00e1 Strana, 118 00 Praha-Praha 1, Czechia",
+      "rating": 4.9,
+      "types": [
+        "museum",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJC14Q0eaUC0cRigheTKTAX-c",
+      "keyword": "museums",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 1416,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0897787,
+          "lng": 14.4102521
+        }
+      }
+    },
+    {
+      "name": "Tavern Hotel",
+      "address": "904 N Main St, Cottonwood, AZ 86326, USA",
+      "rating": 4.8,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJsSTrC8EPLYcRBlKxW2tmVHE",
+      "keyword": "hotels accommodation lodging",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 569,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.7469944,
+          "lng": -112.02790279999999
+        }
+      }
+    },
+    {
       "name": "Bockem",
       "address": "Eli\u0161ky Pe\u0161kov\u00e9 1095/5, Sm\u00edchov, 150 00 Praha-Praha 5, Czechia",
       "rating": 4.8,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ84NXbW-VC0cRbLgZps6JxqY",
@@ -189,42 +211,19 @@
       }
     },
     {
-      "name": "Pep\u0159 a S\u016fl",
-      "address": "Kr\u00e1tk\u00e9ho 1, 190 00 Praha 9, Czechia",
-      "rating": 4.8,
-      "types": [
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJR2CUwrfsC0cR179Iwmkwu2Y",
-      "keyword": "restaurants food dining",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 2532,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.1115116,
-          "lng": 14.500529499999999
-        }
-      }
-    },
-    {
       "name": "The Eatery",
       "address": "U Uranie 18, 170 00 Praha 7-Hole\u0161ovice, Czechia",
       "rating": 4.8,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJuz0vRzuVC0cRSfvtawq3UPk",
       "keyword": "restaurants food dining",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 1477,
+      "user_ratings_total": 1479,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -248,7 +247,7 @@
       "place_id": "ChIJIyy2doEOCUcRDosWXH1sUvA",
       "keyword": "things to do attractions tours",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 18058,
+      "user_ratings_total": 18073,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -270,7 +269,7 @@
       "place_id": "ChIJdVni0CyVC0cRjvWug8Q-6jE",
       "keyword": "things to do attractions tours",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 4710,
+      "user_ratings_total": 4738,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -286,9 +285,9 @@
       "rating": 4.8,
       "types": [
         "park",
-        "botanical_garden",
         "historical_landmark",
         "historical_place",
+        "botanical_garden",
         "event_venue",
         "point_of_interest",
         "establishment"
@@ -296,7 +295,7 @@
       "place_id": "ChIJvbeYxT-OC0cRekLReBPO3wc",
       "keyword": "parks recreation outdoor",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 8211,
+      "user_ratings_total": 8212,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -307,51 +306,25 @@
       }
     },
     {
-      "name": "Obora Svat\u00fd Linhart",
-      "address": "Unnamed Road, 360 01 Karlovy Vary-Karlovy Vary 1, Czechia",
+      "name": "St\u00e1tn\u00ed hrad a z\u00e1mek \u010cesk\u00fd Krumlov",
+      "address": "Z\u00e1mek 59, 381 01 \u010cesk\u00fd Krumlov-\u010cesk\u00fd Krumlov 1, Czechia",
       "rating": 4.8,
       "types": [
-        "wildlife_park",
         "tourist_attraction",
-        "zoo",
-        "hiking_area",
-        "park",
-        "sports_activity_location",
+        "historical_place",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJBx_IQ9iboEcREMvE9_ndU5U",
-      "keyword": "parks recreation outdoor",
+      "place_id": "ChIJV71mh51dc0cRhlWWvtEL6_8",
+      "keyword": "things to do",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 901,
+      "user_ratings_total": 27096,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 50.213802799999996,
-          "lng": 12.856513999999999
-        }
-      }
-    },
-    {
-      "name": "Steel Art Museum",
-      "address": "Celetn\u00e1 15, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
-      "rating": 4.8,
-      "types": [
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJU_ZMUfeVC0cREB7z5jLUC_I",
-      "keyword": "museums",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 5766,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.0873378,
-          "lng": 14.4243285
+          "lat": 48.812849799999995,
+          "lng": 14.3139887
         }
       }
     },
@@ -365,14 +338,38 @@
         "establishment"
       ],
       "place_id": "ChIJn7WO5eWUC0cRJrHT0TiXIHU",
-      "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 179099,
+      "keyword": "things to do",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 179260,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 50.0864771,
           "lng": 14.411436600000002
+        }
+      }
+    },
+    {
+      "name": "Houston Museum of Natural Science",
+      "address": "5555 Hermann Park Dr, Houston, TX 77030, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJqzEuToa_QIYRetkd7kIw47s",
+      "keyword": "museums",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 28748,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.722062500000003,
+          "lng": -95.3895625
         }
       }
     },
@@ -388,7 +385,7 @@
       ],
       "place_id": "ChIJIfpRNOmUC0cRxHIewgck75c",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 112922,
+      "user_ratings_total": 112974,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -405,14 +402,14 @@
       "types": [
         "restaurant",
         "fine_dining_restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJq8Kqk-WUC0cR1qKYFrCBV84",
       "keyword": "restaurants food dining",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 4445,
+      "user_ratings_total": 4448,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -428,42 +425,20 @@
       "rating": 4.7,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJCWZ8ovyUC0cRUDz-RPxkU50",
       "keyword": "restaurants food dining",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 1986,
+      "user_ratings_total": 1988,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 50.0817729,
           "lng": 14.4046314
-        }
-      }
-    },
-    {
-      "name": "Prague Astronomical Clock",
-      "address": "Starom\u011bstsk\u00e9 n\u00e1m. 1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
-      "keyword": "things to do attractions tours",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 80950,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.0870215,
-          "lng": 14.420706500000001
         }
       }
     },
@@ -484,7 +459,7 @@
       "place_id": "ChIJbek7bUWgCUcROqeYeMZK90g",
       "keyword": "things to do attractions tours",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 14317,
+      "user_ratings_total": 14349,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -495,27 +470,98 @@
       }
     },
     {
+      "name": "Prague Astronomical Clock",
+      "address": "Starom\u011bstsk\u00e9 n\u00e1m. 1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+      "keyword": "things to do attractions tours",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 81147,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0870215,
+          "lng": 14.420706500000001
+        }
+      }
+    },
+    {
       "name": "Kon\u011bprusk\u00e9 Caves",
       "address": "266 01 Kon\u011bprusy-Beroun 1, Czechia",
       "rating": 4.7,
       "types": [
         "tourist_attraction",
         "hiking_area",
-        "park",
         "sports_activity_location",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJU11nLtClC0cRa4tBSZeElEg",
       "keyword": "things to do attractions tours",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 5845,
+      "user_ratings_total": 5850,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 49.9161284,
           "lng": 14.068791099999999
+        }
+      }
+    },
+    {
+      "name": "Letna Park",
+      "address": "Letn\u00e1, 170 00 Praha 7, Czechia",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbSZndNuUC0cR2lgM9o_zW5Q",
+      "keyword": "parks recreation outdoor",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 27693,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.0960828,
+          "lng": 14.4195728
+        }
+      }
+    },
+    {
+      "name": "Theresa valley",
+      "address": "374 01 Trhov\u00e9 Sviny, Czechia",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "hiking_area",
+        "national_park",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJW7OfowE9c0cRxzhKV4XvTWg",
+      "keyword": "parks recreation outdoor",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 3898,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.780319299999995,
+          "lng": 14.7580111
         }
       }
     },
@@ -532,7 +578,7 @@
       "place_id": "ChIJ7zhEB2CWEkcRQAmHtLlcqsA",
       "keyword": "parks recreation outdoor",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 2397,
+      "user_ratings_total": 2398,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -543,86 +589,13 @@
       }
     },
     {
-      "name": "Gardens below Prague Castle",
-      "address": "14, Vald\u0161tejnsk\u00e1 158, 110 00 Praha 1-Mal\u00e1 Strana, Czechia",
-      "rating": 4.7,
-      "types": [
-        "garden",
-        "tourist_attraction",
-        "historical_landmark",
-        "historical_place",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ2UvksOGUC0cRUe7pDLQy54E",
-      "keyword": "parks recreation outdoor",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 970,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.0905595,
-          "lng": 14.4059796
-        }
-      }
-    },
-    {
-      "name": "Action Park",
-      "address": "V\u00fdpadov\u00e1 157, Lahovice, 159 00 Praha-Zbraslav, Czechia",
-      "rating": 4.7,
-      "types": [
-        "amusement_center",
-        "sports_complex",
-        "athletic_field",
-        "sports_activity_location",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJWSIH-9mWC0cRMmslrTaP2kM",
-      "keyword": "parks recreation outdoor",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 746,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 49.994552399999996,
-          "lng": 14.3956349
-        }
-      }
-    },
-    {
-      "name": "Questerland",
-      "address": "54, M\u00e1nesova 1613, Vinohrady, 120 00 Praha-Praha 2, Czechia",
-      "rating": 4.7,
-      "types": [
-        "amusement_center",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJIXwBMIWUC0cRFFb3ettNK0I",
-      "keyword": "entertainment activities",
-      "location": "\u010cesko, USA",
-      "user_ratings_total": 1044,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 50.0775833,
-          "lng": 14.4425991
-        }
-      }
-    },
-    {
       "name": "Czech-American Restaurant",
       "address": "220 N Main St, West, TX 76691, USA",
       "rating": 4.7,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJzVXix6kKT4YRJiMNlReIFWY",
@@ -645,12 +618,12 @@
       "types": [
         "coffee_shop",
         "cafe",
-        "food_store",
-        "store",
         "bar",
+        "food_store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ92we1J_LD4gRwiCwLl4y1AE",
@@ -676,14 +649,14 @@
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJiePSuu-UC0cR3V69VGKIsi0",
       "keyword": "restaurants",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 8113,
+      "user_ratings_total": 8123,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -694,26 +667,49 @@
       }
     },
     {
-      "name": "Chr\u00e1n\u011bn\u00e1 krajinn\u00e1 oblast \u010cesk\u00fd kras",
-      "address": "267 18, Czechia",
+      "name": "Prague Castle",
+      "address": "119 08 Prague 1, Czechia",
       "rating": 4.7,
       "types": [
         "tourist_attraction",
-        "national_park",
-        "park",
+        "historical_place",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJxZLoNw2jC0cROzqfOEKvgtU",
+      "place_id": "ChIJw7ckbB6VC0cRnyUSr4g8zyo",
       "keyword": "things to do",
       "location": "\u010cesko, USA",
-      "user_ratings_total": 5301,
+      "user_ratings_total": 183784,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 49.9355334,
-          "lng": 14.1819469
+          "lat": 50.0910966,
+          "lng": 14.4016165
+        }
+      }
+    },
+    {
+      "name": "Field Restaurant",
+      "address": "U Milosrdn\u00fdch 12, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+      "rating": 4.6,
+      "types": [
+        "fine_dining_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJxyKFfMKUC0cRauBsYpvume8",
+      "keyword": "restaurants food dining",
+      "location": "\u010cesko, USA",
+      "user_ratings_total": 1930,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 50.091823999999995,
+          "lng": 14.42206
         }
       }
     }
@@ -733,19 +729,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in \u010cesko. Explore the mysterious skies of Prague, where the city's rich history meets the allure of unexplained phenomena. Visit t",
+    "meta_description": "Explore historical mysteries in \u010cesko. Explore the mysterious past of Czechoslovakia, a land of ancient castles, hidden palaces, and forgotten legends. Visit t",
     "title": "Historical Mysteries in \u010cesko - Tours & Services",
-    "description": "Explore the mysterious skies of Prague, where the city's rich history meets the allure of unexplained phenomena. Visit the Museum of the History of Transport and Tourism to learn about the city's UFO sightings, and take a guided tour to uncover the truth behind these enigmatic events.",
+    "description": "Explore the mysterious past of Czechoslovakia, a land of ancient castles, hidden palaces, and forgotten legends. Visit the Acoma House, a medieval fortress that has stood for centuries, and uncover its secrets.",
     "keywords": [
-      "ufo tours",
-      "alien encounters",
-      "space museums"
+      "Acoma House",
+      "medieval history",
+      "Czechoslovakian heritage"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:18:23.623309"
+    "last_updated": "2025-07-25T11:02:50.375115"
   }
 }

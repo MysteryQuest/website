@@ -1,7 +1,7 @@
 {
   "location_name": "Years",
   "category": "historical",
-  "timestamp": "20250722_120509",
+  "timestamp": "20250725_105007",
   "businesses": [
     {
       "name": "Sara's Mediterranean Caf\u00e9 & Grill",
@@ -10,14 +10,14 @@
       "types": [
         "mediterranean_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJM2Jbn0pv4oYRDbxpnOx37Nc",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 950,
+      "user_ratings_total": 953,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -33,8 +33,8 @@
       "rating": 4.9,
       "types": [
         "visitor_center",
-        "hiking_area",
         "tourist_information_center",
+        "hiking_area",
         "tour_agency",
         "travel_agency",
         "sports_activity_location",
@@ -45,7 +45,7 @@
       "place_id": "ChIJl3Mk4pV55IYRaWp5KybiJB4",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 7625,
+      "user_ratings_total": 7630,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -90,7 +90,7 @@
       "place_id": "ChIJLSwNsBHY-4YRSouy1oKKU-4",
       "keyword": "museums",
       "location": "Years, ",
-      "user_ratings_total": 1007,
+      "user_ratings_total": 1009,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -155,14 +155,14 @@
       "types": [
         "italian_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ90KcAsdu4oYRq342Q_ApbjY",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 949,
+      "user_ratings_total": 950,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -187,7 +187,7 @@
       "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
       "keyword": "museums visitor centers",
       "location": "Years, ",
-      "user_ratings_total": 956,
+      "user_ratings_total": 957,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -210,7 +210,7 @@
       "place_id": "ChIJZ6cTQS35HIcRIb8_UMXV7NM",
       "keyword": "museums",
       "location": "Years, ",
-      "user_ratings_total": 1732,
+      "user_ratings_total": 1734,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -257,7 +257,7 @@
       "place_id": "ChIJiSurDx1x4oYReAAac9B_9Zo",
       "keyword": "things to do",
       "location": "Years, ",
-      "user_ratings_total": 491,
+      "user_ratings_total": 493,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -275,14 +275,14 @@
         "american_restaurant",
         "breakfast_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJgeqD-i9v4oYRdSClzLKXWfo",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 2259,
+      "user_ratings_total": 2260,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -306,7 +306,7 @@
       "place_id": "ChIJUdU9m_h344YRZ5ETrmASLG0",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 1521,
+      "user_ratings_total": 1522,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -330,7 +330,7 @@
       "place_id": "ChIJn6I0ffNg4oYRalsBEXDIA4k",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 2755,
+      "user_ratings_total": 2756,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -354,7 +354,7 @@
       "place_id": "ChIJ7ePmPzpv4oYRUWGBIB4OwsY",
       "keyword": "restaurants",
       "location": "Years, ",
-      "user_ratings_total": 1439,
+      "user_ratings_total": 1440,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -369,15 +369,15 @@
       "address": "Lantau Island, Hong Kong",
       "rating": 4.5,
       "types": [
-        "tourist_attraction",
-        "amusement_center",
         "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJPZXTUy_8AzQRBVRH5GyvszU",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 60879,
+      "user_ratings_total": 60920,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -394,15 +394,15 @@
       "types": [
         "hotel",
         "banquet_hall",
-        "lodging",
         "event_venue",
-        "point_of_interest",
+        "lodging",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ4cj9uvEABDQRn5SxnnZaBi0",
       "keyword": "nearby_store",
-      "user_ratings_total": 2754,
+      "user_ratings_total": 2757,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -427,13 +427,35 @@
       "place_id": "ChIJV7HQ_ftu4oYRebQsVdGpcd8",
       "keyword": "hotels accommodation lodging",
       "location": "Years, ",
-      "user_ratings_total": 715,
+      "user_ratings_total": 716,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.4202642,
           "lng": -104.5249102
+        }
+      }
+    },
+    {
+      "name": "Kerry Hotel, Hong Kong",
+      "address": "38 Hung Luen Rd, Hung Hom, Hong Kong",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpRDsveEABDQR1xRBSniN4s0",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 5998,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 22.3013479,
+          "lng": 114.18824740000001
         }
       }
     },
@@ -451,7 +473,7 @@
       "place_id": "ChIJpzZYYdVf4oYRm9KFh-e6PY8",
       "keyword": "camping rv parks",
       "location": "Years, ",
-      "user_ratings_total": 490,
+      "user_ratings_total": 489,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -462,35 +484,13 @@
       }
     },
     {
-      "name": "Kerry Hotel, Hong Kong",
-      "address": "38 Hung Luen Rd, Hung Hom, Hong Kong",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJpRDsveEABDQR1xRBSniN4s0",
-      "keyword": "nearby_lodging",
-      "user_ratings_total": 5999,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 22.3013479,
-          "lng": 114.18824740000001
-        }
-      }
-    },
-    {
       "name": "Roswell Inn",
       "address": "2101 N Main St, Roswell, NM 88201, USA",
       "rating": 4.3,
       "types": [
         "inn",
-        "motel",
         "hotel",
+        "motel",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -498,7 +498,7 @@
       "place_id": "ChIJTU7EXvxu4oYRLUsWfgtY2ws",
       "keyword": "hotels accommodation lodging",
       "location": "Years, ",
-      "user_ratings_total": 1085,
+      "user_ratings_total": 1087,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -515,14 +515,14 @@
       "types": [
         "steak_house",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJezpOkOBu4oYRX3c25Ehn2Wo",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 2622,
+      "user_ratings_total": 2624,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -538,18 +538,18 @@
       "rating": 4.3,
       "types": [
         "bar_and_grill",
+        "mexican_restaurant",
         "american_restaurant",
         "bar",
-        "mexican_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJW3l4Otlu4oYR7-2VJXRjiR8",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 2051,
+      "user_ratings_total": 2056,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -560,13 +560,35 @@
       }
     },
     {
+      "name": "Midland Park Mall",
+      "address": "4511 N Midkiff Rd, Midland, TX 79705, USA",
+      "rating": 4.3,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl4w-YTrZ-4YRonmLBKw3n3g",
+      "keyword": "shopping retail stores",
+      "location": "Years, ",
+      "user_ratings_total": 4865,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.0304055,
+          "lng": -102.1317351
+        }
+      }
+    },
+    {
       "name": "International UFO Museum and Research Center and Gift Shop",
       "address": "114 N Main St, Roswell, NM 88203, USA",
       "rating": 4.3,
       "types": [
         "museum",
-        "tourist_attraction",
         "library",
+        "tourist_attraction",
         "gift_shop",
         "store",
         "point_of_interest",
@@ -575,7 +597,7 @@
       "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 2520,
+      "user_ratings_total": 2522,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -586,19 +608,43 @@
       }
     },
     {
+      "name": "La Fonda",
+      "address": "206 W Main St, Artesia, NM 88210, USA",
+      "rating": 4.3,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJv-vRCMGu44YRu3SQeX_uzqY",
+      "keyword": "restaurants",
+      "location": "Years, ",
+      "user_ratings_total": 964,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.8425,
+          "lng": -104.39916670000001
+        }
+      }
+    },
+    {
       "name": "\u4e00\u9ede\u5fc3 (\u592a\u5b50) One Dim Sum (Prince Edward)",
       "address": "G/F, 209A Tung Choi St, Prince Edward, Hong Kong",
       "rating": 4.3,
       "types": [
         "chinese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJZTOZi8kABDQR6mCupQnajEI",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 6732,
+      "user_ratings_total": 6738,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -620,7 +666,7 @@
       ],
       "place_id": "ChIJx_WyiXMABDQRJnFIJdc19Kw",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 21967,
+      "user_ratings_total": 21988,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -641,7 +687,7 @@
       ],
       "place_id": "ChIJsyIrnPEABDQRzjValbVWEJo",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 15382,
+      "user_ratings_total": 15390,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -658,68 +704,20 @@
       "types": [
         "bakery",
         "food_store",
+        "store",
         "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "place_id": "ChIJBQQXwrUBBDQRuF7yIgthafA",
       "keyword": "nearby_store",
-      "user_ratings_total": 1832,
+      "user_ratings_total": 1834,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 22.2978445,
           "lng": 114.1711359
-        }
-      }
-    },
-    {
-      "name": "Quality Inn & Suites Roswell North",
-      "address": "3595 N Main St, Roswell, NM 88201, USA",
-      "rating": 4.2,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJry0IRExu4oYRWWaD0UwmdyM",
-      "keyword": "hotels accommodation lodging",
-      "location": "Years, ",
-      "user_ratings_total": 507,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.440747,
-          "lng": -104.522352
-        }
-      }
-    },
-    {
-      "name": "Holiday Inn Roswell by IHG",
-      "address": "3620 N Main St, Roswell, NM 88201, USA",
-      "rating": 4.2,
-      "types": [
-        "hotel",
-        "wedding_venue",
-        "event_venue",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJwcDM8ktu4oYRUuTrkLFWvEw",
-      "keyword": "hotels accommodation lodging",
-      "location": "Years, ",
-      "user_ratings_total": 796,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.442881,
-          "lng": -104.52485399999999
         }
       }
     }
@@ -739,19 +737,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Years. Uncover the mysteries of the past at Carlsbad Caverns National Park, where ancient rock formations and underground river",
+    "meta_description": "Explore historical mysteries in Years. Explore the mysteries of Earth's past, from ancient civilizations to modern-day discoveries. Discover the secrets of the",
     "title": "Historical Mysteries in Years - Tours & Services",
-    "description": "Uncover the mysteries of the past at Carlsbad Caverns National Park, where ancient rock formations and underground rivers hold secrets of a long-lost civilization.",
+    "description": "Explore the mysteries of Earth's past, from ancient civilizations to modern-day discoveries. Discover the secrets of the Permian Basin Petroleum Museum and learn about the history of oil and gas.",
     "keywords": [
-      "carlsbad caverns",
-      "ancient ruins",
-      "natural wonders"
+      "history",
+      "petroleum museum",
+      "oil exploration"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:05:09.133334"
+    "last_updated": "2025-07-25T10:50:07.244922"
   }
 }

@@ -1,8 +1,36 @@
 {
   "location_name": "213, West Main Street",
   "category": "historical",
-  "timestamp": "20250722_120600",
+  "timestamp": "20250725_105056",
   "businesses": [
+    {
+      "name": "Modern Skate & Surf",
+      "address": "1500 N Stephenson Hwy, Royal Oak, MI 48067, USA",
+      "rating": 4.8,
+      "types": [
+        "skateboard_park",
+        "shoe_store",
+        "sports_complex",
+        "clothing_store",
+        "sporting_goods_store",
+        "sports_activity_location",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ55XIexvGJIgR0Lqmnhx-ieQ",
+      "keyword": "things to do attractions tours",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 630,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.5027885,
+          "lng": -83.11681140000002
+        }
+      }
+    },
     {
       "name": "Pemberton Historical Park",
       "address": "5561 Plantation Ln, Salisbury, MD 21801, USA",
@@ -31,8 +59,8 @@
       "rating": 4.6,
       "types": [
         "fast_food_restaurant",
-        "catering_service",
         "breakfast_restaurant",
+        "catering_service",
         "food_delivery",
         "restaurant",
         "food",
@@ -41,7 +69,7 @@
       ],
       "place_id": "ChIJAw0Yq4MCuYkRdiY6Szd-FkI",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2969,
+      "user_ratings_total": 2970,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -63,7 +91,7 @@
       ],
       "place_id": "ChIJszBMjK_9uIkRESfUHOSc7Bw",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2008,
+      "user_ratings_total": 2010,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -85,7 +113,7 @@
       ],
       "place_id": "ChIJefma75gDuYkRfUln-dSgp1w",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 3992,
+      "user_ratings_total": 3997,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -132,7 +160,7 @@
       ],
       "place_id": "ChIJA_8VH5UDuYkR4_I8UXZ3IQk",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 776,
+      "user_ratings_total": 778,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -153,7 +181,8 @@
         "establishment"
       ],
       "place_id": "ChIJTVxWqY8CuYkRJlK0aBetjBY",
-      "keyword": "nearby_lodging",
+      "keyword": "hotels",
+      "location": "Lurking Class Skate Shop, ",
       "user_ratings_total": 990,
       "price_level": null,
       "business_status": "OPERATIONAL",
@@ -180,7 +209,7 @@
       ],
       "place_id": "ChIJgQ08NvQDuYkRFhKxUBJDSBQ",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2319,
+      "user_ratings_total": 2321,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -196,8 +225,8 @@
       "rating": 4.1,
       "types": [
         "american_restaurant",
-        "pub",
         "banquet_hall",
+        "pub",
         "seafood_restaurant",
         "bar",
         "restaurant",
@@ -208,13 +237,38 @@
       ],
       "place_id": "ChIJEVRINegDuYkR4VCiFX5oHno",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2149,
+      "user_ratings_total": 2151,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.3643356,
           "lng": -75.60707479999999
+        }
+      }
+    },
+    {
+      "name": "Microtel Inn & Suites by Wyndham Salisbury",
+      "address": "3050 Merritt Mill Rd, Salisbury, MD 21804, USA",
+      "rating": 3.9,
+      "types": [
+        "hotel",
+        "motel",
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5-qxpzwDuYkRPYOPPsrFkig",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 507,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.367928299999996,
+          "lng": -75.5447453
         }
       }
     },
@@ -247,23 +301,23 @@
       "types": [
         "department_store",
         "hardware_store",
-        "electronics_store",
         "bakery",
+        "electronics_store",
         "furniture_store",
-        "home_improvement_store",
-        "grocery_store",
-        "home_goods_store",
-        "food_store",
-        "sporting_goods_store",
-        "food",
         "clothing_store",
+        "sporting_goods_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "grocery_store",
+        "food_store",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
       "place_id": "ChIJUS9VS4QCuYkRSu7oAXup4vY",
       "keyword": "nearby_store",
-      "user_ratings_total": 4410,
+      "user_ratings_total": 4412,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -280,54 +334,29 @@
       "types": [
         "department_store",
         "hardware_store",
-        "electronics_store",
         "bakery",
+        "electronics_store",
         "furniture_store",
-        "home_improvement_store",
-        "grocery_store",
-        "home_goods_store",
-        "food_store",
-        "sporting_goods_store",
-        "food",
         "clothing_store",
+        "sporting_goods_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "grocery_store",
+        "food_store",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
       "place_id": "ChIJGbVrMx8EuYkROVqIamB_oQI",
       "keyword": "nearby_store",
-      "user_ratings_total": 3058,
+      "user_ratings_total": 3060,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.3282424,
           "lng": -75.6104427
-        }
-      }
-    },
-    {
-      "name": "Microtel Inn & Suites by Wyndham Salisbury",
-      "address": "3050 Merritt Mill Rd, Salisbury, MD 21804, USA",
-      "rating": 3.8,
-      "types": [
-        "hotel",
-        "inn",
-        "motel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ5-qxpzwDuYkRPYOPPsrFkig",
-      "keyword": "hotels accommodation lodging",
-      "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 505,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.367928299999996,
-          "lng": -75.5447453
         }
       }
     },
@@ -365,7 +394,7 @@
       ],
       "place_id": "ChIJ-XdJ6pYDuYkRnF6qNi2Q3bQ",
       "keyword": "nearby_store",
-      "user_ratings_total": 970,
+      "user_ratings_total": 973,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -381,8 +410,8 @@
       "rating": 3.3,
       "types": [
         "hotel",
-        "inn",
         "motel",
+        "inn",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -390,13 +419,37 @@
       "place_id": "ChIJfwxMWpUDuYkRMhnVulHmP0g",
       "keyword": "hotels accommodation lodging",
       "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 918,
+      "user_ratings_total": 919,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.3639934,
           "lng": -75.59641669999999
+        }
+      }
+    },
+    {
+      "name": "Core Board Shop",
+      "address": "10467 N May Ave, Oklahoma City, OK 73120, USA",
+      "rating": 4.9,
+      "types": [
+        "clothing_store",
+        "sporting_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj_VWppcbsocRXUSaJMIUeh4",
+      "keyword": "things to do attractions tours",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 326,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.575901,
+          "lng": -97.56792279999999
         }
       }
     },
@@ -436,7 +489,7 @@
       ],
       "place_id": "ChIJLwGaJ_UCuYkR6atUWKFkFfU",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 415,
+      "user_ratings_total": 417,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -453,8 +506,8 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "lodging",
         "event_venue",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
@@ -476,13 +529,13 @@
       "rating": 4.3,
       "types": [
         "department_store",
-        "shoe_store",
         "electronics_store",
         "furniture_store",
-        "home_improvement_store",
-        "child_care_agency",
-        "home_goods_store",
+        "shoe_store",
         "clothing_store",
+        "child_care_agency",
+        "home_improvement_store",
+        "home_goods_store",
         "point_of_interest",
         "store",
         "establishment"
@@ -505,8 +558,8 @@
       "rating": 2.2,
       "types": [
         "hotel",
-        "inn",
         "motel",
+        "inn",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -547,29 +600,6 @@
       }
     },
     {
-      "name": "Econo Lodge",
-      "address": "10936 Market Ln US 13, Princess Anne, MD 21853, USA",
-      "rating": 3.2,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJnQVPoCIKuYkRA9dBTp2b1RY",
-      "keyword": "hotels",
-      "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 363,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.180999,
-          "lng": -75.69100999999999
-        }
-      }
-    },
-    {
       "name": "TidalHealth Peninsula Regional",
       "address": "100 E Carroll St, Salisbury, MD 21801, USA",
       "rating": 2.7,
@@ -584,7 +614,7 @@
       ],
       "place_id": "ChIJsWgL1uoDuYkRAk9TEBEMZag",
       "keyword": "nearby_store",
-      "user_ratings_total": 408,
+      "user_ratings_total": 410,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -595,26 +625,77 @@
       }
     },
     {
+      "name": "Pure Boardshop",
+      "address": "1908 Forest Dr #1F, Annapolis, MD 21401, USA",
+      "rating": 4.9,
+      "types": [
+        "shoe_store",
+        "clothing_store",
+        "sporting_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4S-P3MH2t4kRgcps0MAbH7U",
+      "keyword": "businesses",
+      "location": "near Lurking Class Skate Shop,",
+      "user_ratings_total": 135,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.9749076,
+          "lng": -76.5261896
+        }
+      }
+    },
+    {
       "name": "Skateboarding Hall of Fame Skateboard Museum",
       "address": "1555 Simi Town Center Way UNIT 230, Simi Valley, CA 93065, USA",
       "rating": 4.6,
       "types": [
-        "sporting_goods_store",
         "museum",
-        "point_of_interest",
+        "sporting_goods_store",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJaUsk5lMo6IARndCAGl3F3S4",
       "keyword": "museums",
       "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 156,
+      "user_ratings_total": 155,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 34.2846288,
           "lng": -118.76959790000001
+        }
+      }
+    },
+    {
+      "name": "Old Skull Skateboard Shop",
+      "address": "2555 Baird Rd # E, Penfield, NY 14526, USA",
+      "rating": 4.9,
+      "types": [
+        "shoe_store",
+        "bicycle_store",
+        "clothing_store",
+        "sporting_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3y73Xc7M1okRUGNhc0q7JfE",
+      "keyword": "things to do attractions tours",
+      "location": "Lurking Class Skate Shop, ",
+      "user_ratings_total": 114,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.1114268,
+          "lng": -77.46349119999999
         }
       }
     },
@@ -647,19 +728,19 @@
       "rating": 4,
       "types": [
         "fast_food_restaurant",
-        "coffee_shop",
-        "sandwich_shop",
         "gas_station",
-        "convenience_store",
-        "breakfast_restaurant",
+        "sandwich_shop",
         "candy_store",
+        "coffee_shop",
+        "convenience_store",
         "cafe",
+        "breakfast_restaurant",
         "confectionery",
         "food_store",
-        "store",
         "restaurant",
         "point_of_interest",
         "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ9wrluBv9uIkRGLdZknVuego",
@@ -673,97 +754,6 @@
           "lng": -75.55722
         }
       }
-    },
-    {
-      "name": "Wawa",
-      "address": "668 S Salisbury Blvd, Salisbury, MD 21801, USA",
-      "rating": 3.9,
-      "types": [
-        "fast_food_restaurant",
-        "coffee_shop",
-        "sandwich_shop",
-        "gas_station",
-        "convenience_store",
-        "breakfast_restaurant",
-        "candy_store",
-        "cafe",
-        "confectionery",
-        "food_store",
-        "store",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJR9VUUOwDuYkRJqLR4ddX_50",
-      "keyword": "nearby_gas_station",
-      "user_ratings_total": 169,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.3581876,
-          "lng": -75.60045240000001
-        }
-      }
-    },
-    {
-      "name": "Royal Farms",
-      "address": "31954 Summer Dr, Salisbury, MD 21804, USA",
-      "rating": 3.6,
-      "types": [
-        "gas_station",
-        "convenience_store",
-        "food_store",
-        "store",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJET5QAyAduYkR9jPdjG4SXMY",
-      "keyword": "nearby_gas_station",
-      "user_ratings_total": 187,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.3741522,
-          "lng": -75.5043816
-        }
-      }
-    },
-    {
-      "name": "Wawa",
-      "address": "2740 N Salisbury Blvd, Salisbury, MD 21801, USA",
-      "rating": 4,
-      "types": [
-        "fast_food_restaurant",
-        "coffee_shop",
-        "sandwich_shop",
-        "gas_station",
-        "convenience_store",
-        "breakfast_restaurant",
-        "candy_store",
-        "cafe",
-        "confectionery",
-        "food_store",
-        "store",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ6fhlV4ICuYkRGXbjtJArfR0",
-      "keyword": "nearby_gas_station",
-      "user_ratings_total": 144,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.420576,
-          "lng": -75.56575
-        }
-      }
     }
   ],
   "events": [
@@ -775,19 +765,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 213, West Main Street. Explore the mysterious history of West Main Street, where the Moa was once a revered species. Learn about the efforts to",
+    "meta_description": "Explore historical mysteries in 213, West Main Street. Explore the rich history of New Zealand's indigenous people at Pemberton Historical Park, where you can learn about the ",
     "title": "Historical Mysteries in 213, West Main Street - Tours & Services",
-    "description": "Explore the mysterious history of West Main Street, where the Moa was once a revered species. Learn about the efforts to resurrect this lost giant through cutting-edge genomics and M\u0101ori wisdom.",
+    "description": "Explore the rich history of New Zealand's indigenous people at Pemberton Historical Park, where you can learn about the Moa and its significance in M\u0101ori culture. Visit Modern Skate & Surf for some adrenaline-pumping action on the skate park, or grab a bite to eat at Chick-fil-A.",
     "keywords": [
-      "moa resurrection",
-      "m\u0101ori wisdom",
-      "genomics"
+      "historical attractions",
+      "moa conservation",
+      "pemberton historical park"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:06:00.135350"
+    "last_updated": "2025-07-25T10:50:56.875948"
   }
 }

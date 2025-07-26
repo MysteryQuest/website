@@ -1,7 +1,7 @@
 {
   "location_name": "Evidence, Le Tasta",
   "category": "ufo",
-  "timestamp": "20250722_121452",
+  "timestamp": "20250725_105943",
   "businesses": [
     {
       "name": "Walk Is Free Bordeaux (Free Walking Tours en Espa\u00f1ol / Ingl\u00e9s)",
@@ -16,7 +16,7 @@
       "place_id": "ChIJqXFtGewpVQ0RXV6MAmpxFoQ",
       "keyword": "things to do attractions tours",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 4053,
+      "user_ratings_total": 4055,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -36,13 +36,13 @@
         "mediterranean_restaurant",
         "meal_takeaway",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJC91z94EnVQ0RjHtHab7kHic",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 19786,
+      "user_ratings_total": 19840,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -53,27 +53,26 @@
       }
     },
     {
-      "name": "Parc national des Calanques",
-      "address": "13008 Marseille, France",
-      "rating": 4.7,
+      "name": "Sutjeska National Park",
+      "address": "8MWQ+F4Q, Tjenti\u0161te, Bosnia and Herzegovina",
+      "rating": 4.8,
       "types": [
         "national_park",
         "tourist_attraction",
-        "wildlife_refuge",
         "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJySHEzzW4yRIRniAPBwmntxo",
+      "place_id": "ChIJLSVqVDrRTBMRmpMDXLvejjE",
       "keyword": "things to do",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 20813,
+      "user_ratings_total": 635,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.2178391,
-          "lng": 5.4430178
+          "lat": 43.346201199999996,
+          "lng": 18.6878568
         }
       }
     },
@@ -89,7 +88,7 @@
       "place_id": "ChIJp3ywX5PlCEgR0Ev8zqf2xbY",
       "keyword": "museums",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 1767,
+      "user_ratings_total": 1769,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -104,14 +103,14 @@
       "address": "Imp. Brown de Colstoun, 33300 Bordeaux, France",
       "rating": 4.7,
       "types": [
-        "tourist_attraction",
         "cultural_center",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJpyY--JApVQ0RqUfd4KL6kX8",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 16568,
+      "user_ratings_total": 16599,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -135,13 +134,36 @@
       "place_id": "ChIJbYaUXi0oVQ0RRs90ww7NoMc",
       "keyword": "restaurants food dining",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 795,
+      "user_ratings_total": 797,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 44.8870486,
           "lng": -0.5922311
+        }
+      }
+    },
+    {
+      "name": "Ch\u00e2teau de Commarque",
+      "address": "Route du Ch\u00e2teau de Commarque, 24620 Les Eyzies, France",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRSL4IrRTqxIRrtnAYcSzxwo",
+      "keyword": "things to do attractions tours",
+      "location": "Evidence, Le Tasta",
+      "user_ratings_total": 3031,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.936536499999995,
+          "lng": 1.1033832000000001
         }
       }
     },
@@ -182,7 +204,7 @@
       "place_id": "ChIJzeSl0oevkIgRXK9jkBp8NlY",
       "keyword": "parks recreation outdoor",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 1267,
+      "user_ratings_total": 1268,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -205,7 +227,7 @@
       "place_id": "ChIJbVjRJf5eJ4YRhocH0PYXIo0",
       "keyword": "museums",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 786,
+      "user_ratings_total": 787,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -228,7 +250,7 @@
       "place_id": "ChIJ-RKdrH4JjkcR_Dn0uWg_VQw",
       "keyword": "museums",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 1307,
+      "user_ratings_total": 1310,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -239,43 +261,20 @@
       }
     },
     {
-      "name": "Museum of La Cour d'Or",
-      "address": "2 Rue du Haut Poirier, 57000 Metz, France",
-      "rating": 4.6,
-      "types": [
-        "museum",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJuTzOyKfelEcRg9jNoC-Ai_w",
-      "keyword": "museums",
-      "location": "Evidence, Le Tasta",
-      "user_ratings_total": 2045,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 49.121055299999995,
-          "lng": 6.1781802
-        }
-      }
-    },
-    {
       "name": "Place de la Bourse",
       "address": "Pl. de la Bourse, 33000 Bordeaux, France",
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "tourist_attraction",
         "plaza",
+        "tourist_attraction",
         "historical_place",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJs2kuo9EnVQ0REAu4lz5dThc",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 18956,
+      "user_ratings_total": 18972,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -298,7 +297,7 @@
       ],
       "place_id": "ChIJiRiav8QnVQ0RWaT2EhBnHSw",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 14010,
+      "user_ratings_total": 14024,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -313,15 +312,15 @@
       "address": "Jardin Public, Cr de Verdun, 33000 Bordeaux, France",
       "rating": 4.6,
       "types": [
-        "tourist_attraction",
         "garden",
+        "tourist_attraction",
         "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ8e10Wd8nVQ0RrFcYO9RxtnQ",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 13837,
+      "user_ratings_total": 13851,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -345,7 +344,7 @@
       "place_id": "ChIJD-_f9MQnVQ0RcaQotYIya0c",
       "keyword": "things to do attractions tours",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 3463,
+      "user_ratings_total": 3465,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -367,7 +366,7 @@
       "place_id": "ChIJf829AqxSqxIRo2Q83K53fsE",
       "keyword": "things to do attractions tours",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 8435,
+      "user_ratings_total": 8464,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -393,7 +392,7 @@
       "place_id": "ChIJRa5KnWhMqxIRJs_vh0Q2DVM",
       "keyword": "things to do attractions tours",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 2559,
+      "user_ratings_total": 2567,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -419,7 +418,7 @@
       "place_id": "ChIJZzQyEQivyRIRJe-6838mx94",
       "keyword": "things to do",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 5402,
+      "user_ratings_total": 5407,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -441,37 +440,13 @@
       "place_id": "ChIJkVv7QECvyRIRceIrkmKyryc",
       "keyword": "things to do",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 4869,
+      "user_ratings_total": 4878,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 43.1668476,
           "lng": 5.5973317
-        }
-      }
-    },
-    {
-      "name": "Necropolis of Tarquinia",
-      "address": "Via Ripagretta, 01016 Tarquinia VT, Italy",
-      "rating": 4.5,
-      "types": [
-        "tourist_attraction",
-        "park",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJFxUHNGS_KBMROHEaf_JbPHk",
-      "keyword": "things to do",
-      "location": "Evidence, Le Tasta",
-      "user_ratings_total": 4361,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.249812899999995,
-          "lng": 11.767680799999999
         }
       }
     },
@@ -488,13 +463,36 @@
       "place_id": "ChIJb7Q62MUnVQ0RFJXheSeTNW0",
       "keyword": "museums",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 4386,
+      "user_ratings_total": 4390,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 44.835559200000006,
           "lng": -0.5749556
+        }
+      }
+    },
+    {
+      "name": "Palazzo Lanfranchi",
+      "address": "Piazzetta Pascoli, 1, 75100 Matera MT, Italy",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJH6viPdx-RxMRuiiZ5nAuj4Y",
+      "keyword": "museums",
+      "location": "Evidence, Le Tasta",
+      "user_ratings_total": 919,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.6630506,
+          "lng": 16.6103262
         }
       }
     },
@@ -511,7 +509,7 @@
       ],
       "place_id": "ChIJY0n3XEYmVQ0RlStaH_7fyV0",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 2463,
+      "user_ratings_total": 2467,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -533,7 +531,7 @@
       ],
       "place_id": "ChIJKczrFMknVQ0RRvvrH4QillY",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 846,
+      "user_ratings_total": 847,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -544,55 +542,24 @@
       }
     },
     {
-      "name": "Abri de la Madeleine",
-      "address": "Route de la Madeleine, Le Petit marzac, 24620 Tursac, France",
+      "name": "Museo Regionale di Scienze Naturali",
+      "address": "Via Accademia Albertina, 15, 10123 Torino TO, Italy",
       "rating": 4.4,
       "types": [
-        "historical_landmark",
-        "cultural_landmark",
-        "tourist_attraction",
-        "meal_takeaway",
-        "place_of_worship",
-        "historical_place",
-        "restaurant",
-        "food",
+        "museum",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ-5PVxRFNqxIRYf2htNM1lmM",
-      "keyword": "things to do attractions tours",
+      "place_id": "ChIJzwNtLWRtiEcRw6yRAMMH_cc",
+      "keyword": "museums",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 3243,
+      "user_ratings_total": 1310,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 44.968503,
-          "lng": 1.033955
-        }
-      }
-    },
-    {
-      "name": "Grotte de Font-de-Gaume",
-      "address": "1-4 Av. des Grottes, 24620 Les Eyzies, France",
-      "rating": 4.4,
-      "types": [
-        "historical_landmark",
-        "tourist_attraction",
-        "historical_place",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJm_MeCslNqxIRQPwmvJEg2wE",
-      "keyword": "things to do",
-      "location": "Evidence, Le Tasta",
-      "user_ratings_total": 747,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.937042299999995,
-          "lng": 1.0266332999999999
+          "lat": 45.0642542,
+          "lng": 7.687552299999999
         }
       }
     },
@@ -606,14 +573,14 @@
         "grocery_store",
         "food_store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
       "place_id": "ChIJvb9sfJEoVQ0RpHJQDcD9-a4",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 5309,
+      "user_ratings_total": 5313,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -631,14 +598,14 @@
         "market",
         "grocery_store",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJBbGLy_wnVQ0RWbYBrEn9RP8",
       "keyword": "nearby_store",
-      "user_ratings_total": 4135,
+      "user_ratings_total": 4139,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -649,25 +616,25 @@
       }
     },
     {
-      "name": "Bordeaux Museum of Fine Arts",
-      "address": "20 Cr d'Albret, 33000 Bordeaux, France",
+      "name": "Les Gorges Du Gouleyrous",
+      "address": "Les Gouleyrous, 66720 Tautavel, France",
       "rating": 4.3,
       "types": [
-        "tourist_attraction",
-        "museum",
+        "wildlife_refuge",
+        "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJYwjjXsInVQ0Rd9HNbTC95E8",
-      "keyword": "museums",
+      "place_id": "ChIJ1WyhWdw_sBIR_Dw7iKe3vKc",
+      "keyword": "things to do",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 3055,
+      "user_ratings_total": 2303,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 44.837365999999996,
-          "lng": -0.5805429999999999
+          "lat": 42.8375175,
+          "lng": 2.754561
         }
       }
     },
@@ -684,7 +651,7 @@
       "place_id": "ChIJzbVL5zZMqxIRP8Y8FOuzQmo",
       "keyword": "museums",
       "location": "Evidence, Le Tasta",
-      "user_ratings_total": 3451,
+      "user_ratings_total": 3457,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -695,19 +662,42 @@
       }
     },
     {
+      "name": "Bordeaux Museum of Fine Arts",
+      "address": "20 Cr d'Albret, 33000 Bordeaux, France",
+      "rating": 4.3,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYwjjXsInVQ0Rd9HNbTC95E8",
+      "keyword": "museums",
+      "location": "Evidence, Le Tasta",
+      "user_ratings_total": 3057,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.837365999999996,
+          "lng": -0.5805429999999999
+        }
+      }
+    },
+    {
       "name": "Leclerc - Bruges",
       "address": "427 Rte du M\u00e9doc, 33520 Bruges, France",
       "rating": 4.2,
       "types": [
         "gas_station",
         "coffee_shop",
-        "cafe",
         "car_wash",
+        "cafe",
         "grocery_store",
         "food_store",
-        "store",
-        "point_of_interest",
         "food",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJA6gAKnaCABARsqHRdnhY2OA",
@@ -733,9 +723,9 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Evidence, Le Tasta. Explore the mysterious world of UFOs at Evidence, Le Tasta. This enigmatic location is home to cutting-edge museums and ",
+    "meta_description": "Explore ufo mysteries in Evidence, Le Tasta. Explore the mysterious world of UFOs at this enigmatic location, featuring cutting-edge museums and guided tours.",
     "title": "Ufo Mysteries in Evidence, Le Tasta - Tours & Services",
-    "description": "Explore the mysterious world of UFOs at Evidence, Le Tasta. This enigmatic location is home to cutting-edge museums and tours that delve into the unknown.",
+    "description": "Explore the mysterious world of UFOs at this enigmatic location, featuring cutting-edge museums and guided tours.",
     "keywords": [
       "ufo tours",
       "alien encounters",
@@ -746,6 +736,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:14:52.266435"
+    "last_updated": "2025-07-25T10:59:43.310481"
   }
 }

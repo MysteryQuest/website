@@ -1,7 +1,7 @@
 {
   "location_name": "Possible, Rue Jules Guesde",
   "category": "historical",
-  "timestamp": "20250722_120757",
+  "timestamp": "20250725_105300",
   "businesses": [
     {
       "name": "H\u00f4tel Mistral",
@@ -32,11 +32,11 @@
       "rating": 4.8,
       "types": [
         "night_club",
-        "video_arcade",
         "karaoke",
+        "video_arcade",
         "amusement_center",
-        "bar",
         "sports_activity_location",
+        "bar",
         "event_venue",
         "point_of_interest",
         "establishment"
@@ -44,7 +44,7 @@
       "place_id": "ChIJAQAUwKOvthIR9k_3V1iA-o4",
       "keyword": "entertainment activities",
       "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 17110,
+      "user_ratings_total": 17128,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -66,7 +66,7 @@
       ],
       "place_id": "ChIJwXZmLDVw5kcRIJ2dYURyo_w",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 8940,
+      "user_ratings_total": 9042,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -118,13 +118,59 @@
       "place_id": "ChIJxdYX1GGOhYARiIigVMJ9TOY",
       "keyword": "parks recreation outdoor",
       "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 16851,
+      "user_ratings_total": 16850,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 37.8451837,
           "lng": -122.53007769999999
+        }
+      }
+    },
+    {
+      "name": "Pilcher Park Nature Center",
+      "address": "2501 Highland Park Dr, Joliet, IL 60432, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpQXES-JgDogRBuVe7BuScHQ",
+      "keyword": "parks recreation outdoor",
+      "location": "Possible, Rue Jules Guesde",
+      "user_ratings_total": 766,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.5329846,
+          "lng": -88.0219707
+        }
+      }
+    },
+    {
+      "name": "Bosque de Chapultepec",
+      "address": "Miguel Hidalgo, Mexico City, CDMX, Mexico",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJP1dJRVf_0YURr8MZosHl4kI",
+      "keyword": "things to do",
+      "location": "Possible, Rue Jules Guesde",
+      "user_ratings_total": 259388,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 19.4194815,
+          "lng": -99.18945579999999
         }
       }
     },
@@ -143,13 +189,38 @@
       "place_id": "ChIJvWTTPdpVtUwRc_fye8CY2nA",
       "keyword": "things to do",
       "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 2446,
+      "user_ratings_total": 2455,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 43.8416766,
           "lng": -73.38753960000001
+        }
+      }
+    },
+    {
+      "name": "Pink Mamma",
+      "address": "20bis Rue de Douai, 75009 Paris, France",
+      "rating": 4.7,
+      "types": [
+        "italian_restaurant",
+        "pizza_restaurant",
+        "mediterranean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJaYIUUk9u5kcRfAhRNL_ZJgw",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 39689,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.881946899999996,
+          "lng": 2.3345309
         }
       }
     },
@@ -167,7 +238,7 @@
       ],
       "place_id": "ChIJLU7jZClu5kcR4PcOOO6p3I0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 451884,
+      "user_ratings_total": 452565,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -189,7 +260,7 @@
       ],
       "place_id": "ChIJD3uTd9hx5kcR1IQvGfr8dbk",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 348553,
+      "user_ratings_total": 348917,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -205,15 +276,15 @@
       "rating": 4.7,
       "types": [
         "monument",
-        "cultural_landmark",
         "tourist_attraction",
+        "cultural_landmark",
         "museum",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJjx37cOxv5kcRPWQuEW5ntdk",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 270405,
+      "user_ratings_total": 270671,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -236,7 +307,7 @@
       ],
       "place_id": "ChIJATr1n-Fx5kcRjQb6q6cdQDY",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 70337,
+      "user_ratings_total": 70585,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -252,15 +323,15 @@
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "tourist_attraction",
         "historical_place",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJNX8psLvV_EcRqddY7TpwAsE",
       "keyword": "things to do attractions tours",
       "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 3601,
+      "user_ratings_total": 3608,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -283,7 +354,7 @@
       "place_id": "ChIJK_xH6-wMaYgRN-K3ZP2-qbA",
       "keyword": "parks recreation outdoor",
       "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 930,
+      "user_ratings_total": 931,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -306,13 +377,59 @@
       ],
       "place_id": "ChIJdUyx15R95kcRj85ZX8H8OAU",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 156022,
+      "user_ratings_total": 156178,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 48.8048649,
           "lng": 2.1203554
+        }
+      }
+    },
+    {
+      "name": "Shakespeare and Company",
+      "address": "37 Rue de la B\u00fbcherie, 75005 Paris, France",
+      "rating": 4.6,
+      "types": [
+        "book_store",
+        "tourist_attraction",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ_7ZXHuFx5kcRs1LnTeCsOBM",
+      "keyword": "nearby_store",
+      "user_ratings_total": 23482,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.8525632,
+          "lng": 2.3471303
+        }
+      }
+    },
+    {
+      "name": "Des Pres Park",
+      "address": "4709 Lowe Rd, Louisville, KY 40220, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlQJwtacKaYgRSJ6i_0hpc6c",
+      "keyword": "parks recreation outdoor",
+      "location": "Possible, Rue Jules Guesde",
+      "user_ratings_total": 722,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2214382,
+          "lng": -85.60606419999999
         }
       }
     },
@@ -328,7 +445,7 @@
       ],
       "place_id": "ChIJQ9zqGSJw5kcRxXrv3IVGdrc",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 11985,
+      "user_ratings_total": 12017,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -339,25 +456,60 @@
       }
     },
     {
-      "name": "Ibis Paris Gare Montparnasse Catalogne",
-      "address": "11 Rue du Texel, 75014 Paris, France",
-      "rating": 4.4,
+      "name": "La Felicit\u00e0",
+      "address": "5 Parv. Alan Turing, 75013 Paris, France",
+      "rating": 4.5,
       "types": [
-        "hotel",
-        "lodging",
+        "italian_restaurant",
+        "hamburger_restaurant",
+        "wine_bar",
+        "pizza_restaurant",
+        "bakery",
+        "dessert_shop",
+        "confectionery",
+        "bar",
+        "american_restaurant",
+        "food_store",
+        "restaurant",
+        "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
-      "place_id": "ChIJ9QsrVDVw5kcRstUEaSMxQvU",
-      "keyword": "hotels accommodation lodging",
-      "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 780,
-      "price_level": null,
+      "place_id": "ChIJk16wp8Fz5kcRkHv9uQxB30M",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 29536,
+      "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 48.8367778,
-          "lng": 2.3200876999999998
+          "lat": 48.8334295,
+          "lng": 2.3718736
+        }
+      }
+    },
+    {
+      "name": "Le Bon March\u00e9",
+      "address": "24 Rue de S\u00e8vres, 75007 Paris, France",
+      "rating": 4.5,
+      "types": [
+        "department_store",
+        "shoe_store",
+        "home_goods_store",
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJAYa7ntNx5kcRcmJxXPZ7m9k",
+      "keyword": "nearby_store",
+      "user_ratings_total": 19960,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.851203999999996,
+          "lng": 2.3244849999999997
         }
       }
     },
@@ -373,7 +525,7 @@
       ],
       "place_id": "ChIJT0BJgYtv5kcRJH8RHq52HUU",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 5629,
+      "user_ratings_total": 5644,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -384,26 +536,32 @@
       }
     },
     {
-      "name": "Bateaux Parisiens",
-      "address": "Port de la Bourdonnais, 75007 Paris, France",
+      "name": "Galeries Lafayette Champs-\u00c9lys\u00e9es",
+      "address": "60 Av. des Champs-\u00c9lys\u00e9es, 75008 Paris, France",
       "rating": 4.4,
       "types": [
-        "tour_agency",
-        "travel_agency",
+        "department_store",
+        "fast_food_restaurant",
+        "deli",
+        "mediterranean_restaurant",
+        "gift_shop",
+        "food_store",
         "restaurant",
         "food",
+        "clothing_store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
-      "place_id": "ChIJA2WozONv5kcRDN_4jmUSXBk",
+      "place_id": "ChIJU0nn0uZv5kcRbncuncHdnXE",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 29324,
+      "user_ratings_total": 10266,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 48.860385,
-          "lng": 2.293565
+          "lat": 48.8706988,
+          "lng": 2.3062649
         }
       }
     },
@@ -420,42 +578,13 @@
       ],
       "place_id": "ChIJ3RzfHs1x5kcRpBYaFaRZw5k",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 15553,
+      "user_ratings_total": 15589,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 48.844290799999996,
           "lng": 2.3233219
-        }
-      }
-    },
-    {
-      "name": "Angelina",
-      "address": "226 Rue de Rivoli, 75001 Paris, France",
-      "rating": 4.3,
-      "types": [
-        "restaurant",
-        "coffee_shop",
-        "bakery",
-        "cafe",
-        "tea_house",
-        "food_store",
-        "store",
-        "french_restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJWVhEdi5u5kcRRl0Vdpqt7RI",
-      "keyword": "nearby_restaurant",
-      "user_ratings_total": 16697,
-      "price_level": "PRICE_LEVEL_EXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 48.8650898,
-          "lng": 2.3284434
         }
       }
     },
@@ -483,60 +612,28 @@
       }
     },
     {
-      "name": "Centre Commercial Beaugrenelle",
-      "address": "12 Rue Linois, 75015 Paris, France",
+      "name": "BHV Marais",
+      "address": "52 Rue de Rivoli, 75004 Paris, France",
       "rating": 4.2,
       "types": [
-        "shopping_mall",
-        "atm",
-        "movie_theater",
-        "fast_food_restaurant",
-        "shoe_store",
-        "finance",
-        "clothing_store",
+        "department_store",
+        "furniture_store",
+        "home_improvement_store",
         "home_goods_store",
-        "book_store",
-        "store",
-        "restaurant",
-        "food",
+        "clothing_store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
-      "place_id": "ChIJAbQV5AVw5kcR3as-MQ8GJCI",
-      "keyword": "nearby_restaurant",
-      "user_ratings_total": 6593,
+      "place_id": "ChIJYzNMFh1u5kcRSCRf3S2PtPk",
+      "keyword": "nearby_store",
+      "user_ratings_total": 26762,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 48.848323799999996,
-          "lng": 2.2823613
-        }
-      }
-    },
-    {
-      "name": "Bonanza Gift Shop",
-      "address": "2400 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
-      "rating": 4.1,
-      "types": [
-        "gift_shop",
-        "liquor_store",
-        "jewelry_store",
-        "clothing_store",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJczbU8HbEyIARpUpFTXIdAmA",
-      "keyword": "gift shops souvenirs",
-      "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 10106,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 36.1444439,
-          "lng": -115.15732169999998
+          "lat": 48.8573489,
+          "lng": 2.3524232
         }
       }
     },
@@ -548,8 +645,8 @@
         "hostel",
         "hotel",
         "cafe",
-        "lodging",
         "bar",
+        "lodging",
         "restaurant",
         "food",
         "point_of_interest",
@@ -557,7 +654,7 @@
       ],
       "place_id": "ChIJFSBjnt9t5kcRb33P22PJ-RE",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 8499,
+      "user_ratings_total": 8516,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -568,28 +665,25 @@
       }
     },
     {
-      "name": "Fnac",
-      "address": "136 Rue de Rennes, 75006 Paris, France",
+      "name": "Bouillon Chartier Grands Boulevards",
+      "address": "7 Rue du Faubourg Montmartre, 75009 Paris, France",
       "rating": 4.1,
       "types": [
-        "department_store",
-        "cell_phone_store",
-        "electronics_store",
-        "book_store",
-        "home_goods_store",
-        "store",
+        "french_restaurant",
+        "restaurant",
+        "food",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJcTWK-NFx5kcRI4buiJpXGtc",
-      "keyword": "nearby_store",
-      "user_ratings_total": 17173,
-      "price_level": null,
+      "place_id": "ChIJ4xutfT5u5kcRaJn2NkiOhPU",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 28342,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 48.8458344,
-          "lng": 2.3254321
+          "lat": 48.871933299999995,
+          "lng": 2.3430535
         }
       }
     },
@@ -632,111 +726,13 @@
       "place_id": "ChIJVfc5sbVx5kcRyhVKz9v5dLM",
       "keyword": "hotels accommodation lodging",
       "location": "Possible, Rue Jules Guesde",
-      "user_ratings_total": 1186,
+      "user_ratings_total": 1187,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 48.834432,
           "lng": 2.323973
-        }
-      }
-    },
-    {
-      "name": "Novotel Paris Centre Tour Eiffel",
-      "address": "61 Quai de Grenelle, 75015 Paris, France",
-      "rating": 4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJZxFlNARw5kcRcfKfmkPZows",
-      "keyword": "nearby_lodging",
-      "user_ratings_total": 8535,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 48.8498744,
-          "lng": 2.2832638
-        }
-      }
-    },
-    {
-      "name": "E-Leclerc service station in Paris 17\u00e8me",
-      "address": "Bd du Fort de Vaux, 75017 Paris, France",
-      "rating": 4,
-      "types": [
-        "gas_station",
-        "coffee_shop",
-        "cafe",
-        "car_wash",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ-3OHWJ9v5kcRSZZrA3sVZOM",
-      "keyword": "nearby_gas_station",
-      "user_ratings_total": 1158,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 48.8936101,
-          "lng": 2.302942
-        }
-      }
-    },
-    {
-      "name": "Lidl",
-      "address": "53/55 Av. du Maine, 75014 Paris, France",
-      "rating": 4,
-      "types": [
-        "supermarket",
-        "grocery_store",
-        "food_store",
-        "store",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJyxE_94xx5kcRZRhRBq8OGQs",
-      "keyword": "nearby_store",
-      "user_ratings_total": 706,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 48.83992,
-          "lng": 2.32232
-        }
-      }
-    },
-    {
-      "name": "Uniqlo",
-      "address": "136 Rue de Rennes, 75006 Paris, France",
-      "rating": 4,
-      "types": [
-        "clothing_store",
-        "sporting_goods_store",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJr2mcks1x5kcR1RkhKjRk7hg",
-      "keyword": "nearby_store",
-      "user_ratings_total": 1467,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 48.845991,
-          "lng": 2.325771
         }
       }
     }
@@ -752,17 +748,17 @@
   "generated_content": {
     "meta_description": "Explore historical mysteries in Possible, Rue Jules Guesde. Explore the mysterious continent-sized 'BLOBS' deep within the Earth, where scientists have discovered a connection betw",
     "title": "Historical Mysteries in Possible, Rue Jules Guesde - Tours & Services",
-    "description": "Explore the mysterious continent-sized 'BLOBS' deep within the Earth, where scientists have discovered a connection between cataclysmic volcanic eruptions and these enigmatic formations. Visit H\u00f4tel Mistral for a taste of Montpellier's rich history.",
+    "description": "Explore the mysterious continent-sized 'BLOBS' deep within the Earth, where scientists have discovered a connection between cataclysmic volcanic eruptions and these enigmatic formations. Visit H\u00f4tel Mistral for a taste of luxury in Montpellier.",
     "keywords": [
-      "ufo sightings",
+      "mysterious continent",
       "volcanic eruptions",
-      "earth mysteries"
+      "alien sightings"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:07:57.209088"
+    "last_updated": "2025-07-25T10:53:00.066813"
   }
 }

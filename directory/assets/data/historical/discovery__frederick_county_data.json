@@ -1,7 +1,7 @@
 {
   "location_name": "Discovery, Frederick County",
   "category": "historical",
-  "timestamp": "20250722_120648",
+  "timestamp": "20250725_105150",
   "businesses": [
     {
       "name": "Tree Trekkers Frederick Outdoor Aerial Adventure Ropes and Zipline Park",
@@ -9,22 +9,45 @@
       "rating": 5,
       "types": [
         "adventure_sports_center",
-        "park",
         "sports_complex",
         "sports_activity_location",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJD7YG8ETRyYkRPX0YKbIosuI",
       "keyword": "parks recreation outdoor",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 2085,
+      "user_ratings_total": 2093,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 39.3977699,
           "lng": -77.33384699999999
+        }
+      }
+    },
+    {
+      "name": "Clue IQ: An Escape Room Experience",
+      "address": "103 S Carroll St, Frederick, MD 21701, USA",
+      "rating": 4.9,
+      "types": [
+        "amusement_center",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJWRC0mVvayYkRrp7fGc8ZiVE",
+      "keyword": "things to do",
+      "location": "Discovery, Frederick County",
+      "user_ratings_total": 1027,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.411406199999995,
+          "lng": -77.40833669999999
         }
       }
     },
@@ -41,7 +64,7 @@
       "place_id": "ChIJ_z_X51vayYkRno9t-xx7ULg",
       "keyword": "things to do attractions tours",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 2701,
+      "user_ratings_total": 2706,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -59,9 +82,9 @@
         "visitor_center",
         "tourist_attraction",
         "tourist_information_center",
+        "museum",
         "tour_agency",
         "travel_agency",
-        "museum",
         "event_venue",
         "point_of_interest",
         "establishment"
@@ -69,7 +92,7 @@
       "place_id": "ChIJ5wNAX-SsyYkRkNQyj682FMQ",
       "keyword": "museums visitor centers",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 14336,
+      "user_ratings_total": 14352,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -86,16 +109,16 @@
       "types": [
         "adventure_sports_center",
         "tourist_attraction",
+        "park",
         "sports_complex",
         "sports_activity_location",
-        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJG4_GL2PQt4kRy5bDGzj7iok",
       "keyword": "entertainment activities",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 1447,
+      "user_ratings_total": 1449,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -112,16 +135,16 @@
       "types": [
         "american_restaurant",
         "wedding_venue",
-        "restaurant",
-        "food",
         "event_venue",
+        "restaurant",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJqWdysLvbyYkRB5YyVLiNarc",
       "keyword": "restaurants food dining",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 4266,
+      "user_ratings_total": 4270,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -144,7 +167,7 @@
       "place_id": "ChIJEX07e1nayYkRQNbC0ghTl0w",
       "keyword": "things to do attractions tours",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 687,
+      "user_ratings_total": 688,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -224,6 +247,53 @@
       }
     },
     {
+      "name": "Green Meadows Petting Farm",
+      "address": "10102 Fingerboard Rd, Ijamsville, MD 21754, USA",
+      "rating": 4.7,
+      "types": [
+        "event_venue",
+        "zoo",
+        "farm",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnbfzMerWyYkR6Is57N8eBUA",
+      "keyword": "things to do",
+      "location": "Discovery, Frederick County",
+      "user_ratings_total": 1052,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.3459083,
+          "lng": -77.3131205
+        }
+      }
+    },
+    {
+      "name": "Catoctin Mountain Park",
+      "address": "14707 Park Central Rd, Thurmont, MD 21788, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0dOB08i4yYkR4Lbb2WIhT5Y",
+      "keyword": "attractions",
+      "location": "Discovery, Frederick County",
+      "user_ratings_total": 2117,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6341418,
+          "lng": -77.4499613
+        }
+      }
+    },
+    {
       "name": "Monocacy Crossing Restaurant",
       "address": "4424A Urbana Pike, Frederick, MD 21704, USA",
       "rating": 4.6,
@@ -231,8 +301,8 @@
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJlWySFOHZyYkR3PnUtoBaWEw",
@@ -257,46 +327,20 @@
         "wine_bar",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJjRwhslnayYkRfgDQpKzvwpA",
       "keyword": "restaurants food dining",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 1105,
+      "user_ratings_total": 1106,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 39.4155076,
           "lng": -77.41099109999999
-        }
-      }
-    },
-    {
-      "name": "Hootch and Banter",
-      "address": "49 S Market St, Frederick, MD 21701, USA",
-      "rating": 4.6,
-      "types": [
-        "american_restaurant",
-        "night_club",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ8c9uPVrayYkRRqdoS3xKoEw",
-      "keyword": "restaurants food dining",
-      "location": "Discovery, Frederick County",
-      "user_ratings_total": 1493,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.413004099999995,
-          "lng": -77.411407
         }
       }
     },
@@ -345,44 +389,19 @@
       }
     },
     {
-      "name": "Monocacy National Battlefield",
-      "address": "5201 Urbana Pike, Frederick, MD 21704, USA",
-      "rating": 4.6,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "historical_landmark",
-        "historical_place",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJFTV_kfrZyYkRpcRXrgna3lI",
-      "keyword": "things to do",
-      "location": "Discovery, Frederick County",
-      "user_ratings_total": 1180,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.3774539,
-          "lng": -77.3972936
-        }
-      }
-    },
-    {
       "name": "White Rabbit Gastropub",
       "address": "18 Market Space, Frederick, MD 21701, USA",
       "rating": 4.6,
       "types": [
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJPWLu_ljayYkRAUp5BLIVg3Q",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2396,
+      "user_ratings_total": 2399,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -405,7 +424,7 @@
       ],
       "place_id": "ChIJLdVjLDzHyYkROmg0Ol6ZgNc",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 1865,
+      "user_ratings_total": 1872,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -424,19 +443,43 @@
         "supermarket",
         "food_store",
         "store",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ0T0_YLjayYkRT9tk1UMXjJE",
       "keyword": "nearby_store",
-      "user_ratings_total": 2739,
+      "user_ratings_total": 2741,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 39.445713999999995,
           "lng": -77.39999499999999
+        }
+      }
+    },
+    {
+      "name": "JoJo's Restaurant & Tap House",
+      "address": "16-18 E Patrick St, Frederick, MD 21701, USA",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJp8kChVnayYkR9PaVVqx049s",
+      "keyword": "restaurants food dining",
+      "location": "Discovery, Frederick County",
+      "user_ratings_total": 1479,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.413964799999995,
+          "lng": -77.4101739
         }
       }
     },
@@ -455,7 +498,7 @@
       "place_id": "ChIJQS41NTmxyYkRs3KUvQJ3M-M",
       "keyword": "museums visitor centers",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 948,
+      "user_ratings_total": 949,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -475,13 +518,13 @@
         "catering_service",
         "food_delivery",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJf6g0Sx_ayYkR2TeNbjmzwnA",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2552,
+      "user_ratings_total": 2553,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -504,7 +547,7 @@
       ],
       "place_id": "ChIJ4bzfyUbayYkRXdFSBXe8Yi4",
       "keyword": "nearby_store",
-      "user_ratings_total": 4982,
+      "user_ratings_total": 4984,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -523,20 +566,42 @@
         "steak_house",
         "seafood_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJQ-D2WDjZyYkRACrJYCvHffA",
       "keyword": "restaurants food dining",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 794,
+      "user_ratings_total": 795,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 39.3748846,
           "lng": -77.4108158
+        }
+      }
+    },
+    {
+      "name": "Clarksburg Premium Outlets",
+      "address": "22705 Clarksburg Rd, Clarksburg, MD 20871, USA",
+      "rating": 4.4,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSQn0YtgrtokRPY0qanQG89Q",
+      "keyword": "shopping retail stores",
+      "location": "Discovery, Frederick County",
+      "user_ratings_total": 7284,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.2281092,
+          "lng": -77.2866712
         }
       }
     },
@@ -589,18 +654,18 @@
       "address": "124 N Market St, Frederick, MD 21701, USA",
       "rating": 4.4,
       "types": [
-        "pub",
         "bar_and_grill",
+        "pub",
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJo39zsFnayYkR4q-mvQbOpP4",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 3791,
+      "user_ratings_total": 3794,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -623,7 +688,7 @@
       ],
       "place_id": "ChIJzf5aLwTHyYkRgL8dsrra9PQ",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 2209,
+      "user_ratings_total": 2213,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -634,105 +699,26 @@
       }
     },
     {
-      "name": "Showroom",
-      "address": "882 N East St, Frederick, MD 21701, USA",
+      "name": "Homewood Suites by Hilton Frederick",
+      "address": "4950 Westview Dr, Frederick, MD 21703, USA",
       "rating": 4.3,
       "types": [
-        "restaurant",
-        "brunch_restaurant",
-        "breakfast_restaurant",
-        "bar",
-        "american_restaurant",
-        "food",
+        "extended_stay_hotel",
+        "hotel",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJb4HZHUbbyYkRB8O976xmdP0",
-      "keyword": "restaurants food dining",
+      "place_id": "ChIJxyHPhYXZyYkRF_p-lZ-M4TU",
+      "keyword": "hotels accommodation lodging",
       "location": "Discovery, Frederick County",
-      "user_ratings_total": 993,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.425156199999996,
-          "lng": -77.40323649999999
-        }
-      }
-    },
-    {
-      "name": "Sheetz",
-      "address": "1300 E Patrick St, Frederick, MD 21701, USA",
-      "rating": 4.3,
-      "types": [
-        "convenience_store",
-        "gas_station",
-        "coffee_shop",
-        "car_wash",
-        "cafe",
-        "food_store",
-        "liquor_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJwTgWknrayYkRxT3Dd4fY8BI",
-      "keyword": "gas stations convenience stores",
-      "location": "Discovery, Frederick County",
-      "user_ratings_total": 943,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.406858799999995,
-          "lng": -77.3878869
-        }
-      }
-    },
-    {
-      "name": "Clemson Corner",
-      "address": "Wormans Mill Rd, Frederick, MD 21701, USA",
-      "rating": 4.3,
-      "types": [
-        "shopping_mall",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJE-WUSrjayYkRZ19AUl1JKNc",
-      "keyword": "shopping retail stores",
-      "location": "Discovery, Frederick County",
-      "user_ratings_total": 1362,
+      "user_ratings_total": 631,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 39.446028299999995,
-          "lng": -77.3991896
-        }
-      }
-    },
-    {
-      "name": "Riverview Plaza",
-      "address": "5425 Urbana Pike, Frederick, MD 21701, USA",
-      "rating": 4.3,
-      "types": [
-        "shopping_mall",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJXa-w4BjayYkRB2P3cczl3jI",
-      "keyword": "shopping retail stores",
-      "location": "Discovery, Frederick County",
-      "user_ratings_total": 1481,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.381658699999996,
-          "lng": -77.3979495
+          "lat": 39.3690097,
+          "lng": -77.4151325
         }
       }
     }
@@ -764,19 +750,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Discovery, Frederick County. Explore the mysteries of Frederick County's past, from ancient Mongolian rock art to the mysterious transformation of a ",
+    "meta_description": "Explore historical mysteries in Discovery, Frederick County. Uncover the mysteries of this historic town, featuring a museum and visitor center showcasing its rich history, from the",
     "title": "Historical Mysteries in Discovery, Frederick County - Tours & Services",
-    "description": "Explore the mysteries of Frederick County's past, from ancient Mongolian rock art to the mysterious transformation of a creature into a mythic beast. Discover the region's rich history and uncover the secrets that lie within.",
+    "description": "Uncover the mysteries of this historic town, featuring a museum and visitor center showcasing its rich history, from the Civil War to the present day.",
     "keywords": [
-      "mystery object hit saturn",
-      "astronomers investigating strange flash issue",
-      "12,000 years of mongolian rock art"
+      "history",
+      "museum",
+      "civil war"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 4,
-    "last_updated": "2025-07-22T12:06:48.870120"
+    "last_updated": "2025-07-25T10:51:50.556194"
   }
 }

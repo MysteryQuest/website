@@ -1,38 +1,8 @@
 {
   "location_name": "Sch\u00f6nhauser Allee, Kollwitzkiez",
   "category": "ufo",
-  "timestamp": "20250722_121426",
+  "timestamp": "20250725_105918",
   "businesses": [
-    {
-      "name": "Bandelier National Monument Visitor Center",
-      "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
-      "rating": 4.8,
-      "types": [
-        "visitor_center",
-        "hiking_area",
-        "tourist_attraction",
-        "tourist_information_center",
-        "tour_agency",
-        "travel_agency",
-        "museum",
-        "sports_activity_location",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
-      "keyword": "things to do attractions tours",
-      "location": "Material, Sch",
-      "user_ratings_total": 2092,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.7791035,
-          "lng": -106.2708964
-        }
-      }
-    },
     {
       "name": "San Antonio Missions National Historical Park",
       "address": "San Antonio, TX, USA",
@@ -46,7 +16,7 @@
       "place_id": "ChIJN3pIv973XIYRu_gPhfzki94",
       "keyword": "things to do attractions tours",
       "location": "Material, Sch",
-      "user_ratings_total": 8816,
+      "user_ratings_total": 8815,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -57,25 +27,32 @@
       }
     },
     {
-      "name": "San Antonio River Walk",
-      "address": "San Antonio, TX 78205, USA",
-      "rating": 4.7,
+      "name": "Bandelier National Monument Visitor Center",
+      "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "rating": 4.8,
       "types": [
-        "park",
+        "visitor_center",
         "tourist_attraction",
+        "hiking_area",
+        "tourist_information_center",
+        "museum",
+        "tour_agency",
+        "park",
+        "travel_agency",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJibxLNatYXIYRyCOuemjZxqI",
+      "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
       "keyword": "things to do attractions tours",
       "location": "Material, Sch",
-      "user_ratings_total": 42901,
+      "user_ratings_total": 2094,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 29.4229737,
-          "lng": -98.48603399999999
+          "lat": 35.7791035,
+          "lng": -106.2708964
         }
       }
     },
@@ -95,7 +72,7 @@
       "place_id": "ChIJ8YRFt2tdOYcRjaEJPPmx0dQ",
       "keyword": "museums visitor centers",
       "location": "Material, Sch",
-      "user_ratings_total": 2899,
+      "user_ratings_total": 2904,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -137,16 +114,16 @@
       "types": [
         "restaurant",
         "wedding_venue",
-        "farm",
-        "food",
         "event_venue",
+        "farm",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJA3EE5JcPK4cRP5VCOCfLvxs",
       "keyword": "restaurants food dining",
       "location": "Material, Sch",
-      "user_ratings_total": 1949,
+      "user_ratings_total": 1950,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -176,6 +153,29 @@
         "location": {
           "lat": 35.6451456,
           "lng": -106.72624139999999
+        }
+      }
+    },
+    {
+      "name": "Drury Inn & Suites Hayti Caruthersville",
+      "address": "1317 MO-84, Hayti, MO 63851, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGap92XG-eIgRdE92UjzxeLo",
+      "keyword": "hotels",
+      "location": "Material, Sch",
+      "user_ratings_total": 1081,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.2314188,
+          "lng": -89.7338302
         }
       }
     },
@@ -229,25 +229,25 @@
       }
     },
     {
-      "name": "Meteor Crater Visitor Center",
-      "address": "Meteor Crater Rd, Winslow, AZ 86047, USA",
+      "name": "Rice Park",
+      "address": "109 W 4th St, St Paul, MN 55102, USA",
       "rating": 4.5,
       "types": [
-        "museum",
+        "park",
         "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ6W5ffGB0LocRLHLxU0yqJD8",
-      "keyword": "museums visitor centers",
+      "place_id": "ChIJz-WEr0zV94cRNzbxUefOoyk",
+      "keyword": "parks recreation outdoor",
       "location": "Material, Sch",
-      "user_ratings_total": 7020,
+      "user_ratings_total": 2215,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 35.033177699999996,
-          "lng": -111.02164099999999
+          "lat": 44.9447498,
+          "lng": -93.0971128
         }
       }
     },
@@ -261,9 +261,9 @@
         "home_improvement_store",
         "home_goods_store",
         "food_store",
+        "food",
         "store",
         "point_of_interest",
-        "food",
         "establishment"
       ],
       "place_id": "ChIJDa-N7C1u4oYRoHZEQtY1jcw",
@@ -280,6 +280,29 @@
       }
     },
     {
+      "name": "Hampton Inn & Suites Scottsbluff-Conference Center",
+      "address": "301 US-26, Scottsbluff, NE 69361, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8bm4aNtRZYcRRmLejsVdWFQ",
+      "keyword": "hotels",
+      "location": "Material, Sch",
+      "user_ratings_total": 626,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8809926,
+          "lng": -103.6670941
+        }
+      }
+    },
+    {
       "name": "Hyatt Place Bethlehem",
       "address": "45 W North St, Bethlehem, PA 18018, USA",
       "rating": 4.4,
@@ -292,7 +315,7 @@
       "place_id": "ChIJc9JQxlM-xIkRk4z6VN8M-Ik",
       "keyword": "hotels",
       "location": "Material, Sch",
-      "user_ratings_total": 1008,
+      "user_ratings_total": 1009,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -338,7 +361,7 @@
       "place_id": "ChIJc_UJg7YN_4gRcNshfu2abrQ",
       "keyword": "hotels",
       "location": "Material, Sch",
-      "user_ratings_total": 1086,
+      "user_ratings_total": 1089,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -356,8 +379,8 @@
         "visitor_center",
         "hiking_area",
         "tourist_information_center",
-        "park",
         "tour_agency",
+        "park",
         "travel_agency",
         "sports_activity_location",
         "point_of_interest",
@@ -366,7 +389,7 @@
       "place_id": "ChIJ2byaKeKaI4cRYsmU3GrQTaA",
       "keyword": "museums visitor centers",
       "location": "Material, Sch",
-      "user_ratings_total": 458,
+      "user_ratings_total": 459,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -377,22 +400,46 @@
       }
     },
     {
+      "name": "Marshalls",
+      "address": "4501 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.3,
+      "types": [
+        "department_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-889SjRu4oYRWbQ6CTd4mQI",
+      "keyword": "shopping retail stores",
+      "location": "Material, Sch",
+      "user_ratings_total": 547,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4480047,
+          "lng": -104.521084
+        }
+      }
+    },
+    {
       "name": "International UFO Museum and Research Center and Gift Shop",
       "address": "114 N Main St, Roswell, NM 88203, USA",
       "rating": 4.3,
       "types": [
         "museum",
         "tourist_attraction",
-        "library",
         "gift_shop",
-        "store",
+        "library",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
       "keyword": "things to do attractions tours",
       "location": "Material, Sch",
-      "user_ratings_total": 2520,
+      "user_ratings_total": 2522,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -445,7 +492,7 @@
       "place_id": "ChIJgalhiTdKs0wRty1XQITD-_c",
       "keyword": "hotels",
       "location": "Material, Sch",
-      "user_ratings_total": 2039,
+      "user_ratings_total": 2041,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -481,6 +528,29 @@
       }
     },
     {
+      "name": "Comfort Suites Bethlehem Near Lehigh University and LVI Airport",
+      "address": "120 W 3rd St, Bethlehem, PA 18015, USA",
+      "rating": 4.1,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJWdFWF1w-xIkRpIeeijA83BU",
+      "keyword": "hotels",
+      "location": "Material, Sch",
+      "user_ratings_total": 1118,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.611658899999995,
+          "lng": -75.381402
+        }
+      }
+    },
+    {
       "name": "The Anderson Museum of Contemporary Art",
       "address": "409 E College Blvd, Roswell, NM 88201, USA",
       "rating": 4.9,
@@ -504,74 +574,6 @@
       }
     },
     {
-      "name": "Walmart Supercenter",
-      "address": "4500 N Main St A, Roswell, NM 88201, USA",
-      "rating": 4,
-      "types": [
-        "department_store",
-        "hardware_store",
-        "bakery",
-        "electronics_store",
-        "sporting_goods_store",
-        "grocery_store",
-        "furniture_store",
-        "home_improvement_store",
-        "clothing_store",
-        "home_goods_store",
-        "food_store",
-        "store",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJJ2eQKQ524oYRbOvZ160NFLs",
-      "keyword": "entertainment activities",
-      "location": "Material, Sch",
-      "user_ratings_total": 4463,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4499893,
-          "lng": -104.52655019999999
-        }
-      }
-    },
-    {
-      "name": "Walmart Supercenter",
-      "address": "604 N 26th St, Artesia, NM 88210, USA",
-      "rating": 3.9,
-      "types": [
-        "department_store",
-        "hardware_store",
-        "bakery",
-        "electronics_store",
-        "sporting_goods_store",
-        "grocery_store",
-        "furniture_store",
-        "home_improvement_store",
-        "clothing_store",
-        "home_goods_store",
-        "food_store",
-        "store",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJs8g9gGGu44YREGG_7jotvy0",
-      "keyword": "entertainment activities",
-      "location": "Material, Sch",
-      "user_ratings_total": 1681,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 32.8476255,
-          "lng": -104.42713649999999
-        }
-      }
-    },
-    {
       "name": "Applebee's Grill + Bar",
       "address": "2212 N Main St, Roswell, NM 88201, USA",
       "rating": 3.6,
@@ -581,10 +583,10 @@
         "hamburger_restaurant",
         "bar_and_grill",
         "diner",
-        "bar",
         "american_restaurant",
-        "food",
+        "bar",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ67ckFPxu4oYRsnjVd29PHUs",
@@ -597,30 +599,6 @@
         "location": {
           "lat": 33.4192067,
           "lng": -104.52351759999999
-        }
-      }
-    },
-    {
-      "name": "Mural Ride Bike Tours",
-      "address": "503 Chestnut St, San Antonio, TX 78202, USA",
-      "rating": 5,
-      "types": [
-        "tourist_attraction",
-        "tour_agency",
-        "travel_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJPRtwUZVhXIYRTyriKAyAc3A",
-      "keyword": "things to do attractions tours",
-      "location": "Material, Sch",
-      "user_ratings_total": 358,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 29.426649899999994,
-          "lng": -98.47953960000001
         }
       }
     },
@@ -650,6 +628,31 @@
       }
     },
     {
+      "name": "Holiday Inn Express & Suites Scottsbluff-Gering by IHG",
+      "address": "1821 Frontage Rd, Scottsbluff, NE 69361, USA",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNXYUz4tRZYcRp_BqCzkOZdQ",
+      "keyword": "hotels",
+      "location": "Material, Sch",
+      "user_ratings_total": 420,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8681633,
+          "lng": -103.63985849999999
+        }
+      }
+    },
+    {
       "name": "Tractor Supply Co.",
       "address": "2793 N 1st St, Artesia, NM 88210, USA",
       "rating": 4.4,
@@ -659,9 +662,9 @@
         "home_improvement_store",
         "home_goods_store",
         "food_store",
+        "food",
         "store",
         "point_of_interest",
-        "food",
         "establishment"
       ],
       "place_id": "ChIJmYRnbR-s44YRU07qtvauDlI",
@@ -678,6 +681,33 @@
       }
     },
     {
+      "name": "Ivy Manor Inn - Village Center",
+      "address": "194 Main St, Bar Harbor, ME 04609, USA",
+      "rating": 4.8,
+      "types": [
+        "inn",
+        "motel",
+        "wedding_venue",
+        "hotel",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc79lYGO_rkwRf5D1RuLVce4",
+      "keyword": "hotels accommodation lodging",
+      "location": "Material, Sch",
+      "user_ratings_total": 266,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.3873073,
+          "lng": -68.2038044
+        }
+      }
+    },
+    {
       "name": "Valero",
       "address": "3300 N Main St, Roswell, NM 88201, USA",
       "rating": 4.2,
@@ -689,7 +719,7 @@
       "place_id": "ChIJSXRewk1u4oYRs4-uZtM4y28",
       "keyword": "gas stations convenience stores",
       "location": "Material, Sch",
-      "user_ratings_total": 317,
+      "user_ratings_total": 318,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -706,12 +736,12 @@
       "types": [
         "gift_shop",
         "historical_landmark",
+        "historical_place",
         "tourist_information_center",
         "tour_agency",
-        "historical_place",
         "travel_agency",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJZ7aujdxC54YRDA3Qj3MjZPw",
@@ -726,54 +756,6 @@
           "lng": -106.3276224
         }
       }
-    },
-    {
-      "name": "Bonito Hollow RV Park & Campground",
-      "address": "221 NM-37, Alto, NM 88312, USA",
-      "rating": 4.7,
-      "types": [
-        "rv_park",
-        "campground",
-        "park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJq6qqqlrX4YYR7FW8K-Knhes",
-      "keyword": "camping rv parks",
-      "location": "Material, Sch",
-      "user_ratings_total": 243,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4496141,
-          "lng": -105.6810304
-        }
-      }
-    },
-    {
-      "name": "Manzano's RV Park",
-      "address": "103 Flury Ln, Silver City, NM 88061, USA",
-      "rating": 4.8,
-      "types": [
-        "rv_park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJO5611D_I2IYRIJzV1qJd9BU",
-      "keyword": "camping rv parks",
-      "location": "Material, Sch",
-      "user_ratings_total": 215,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 32.7798182,
-          "lng": -108.21865899999999
-        }
-      }
     }
   ],
   "events": [
@@ -785,19 +767,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez. Explore the mysterious Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places.",
+    "meta_description": "Explore ufo mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez. Explore the enigmatic Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places. ",
     "title": "Ufo Mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez - Tours & Services",
-    "description": "Explore the mysterious Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places. This bizarre phenomenon has fascinated scientists and tourists alike.",
+    "description": "Explore the enigmatic Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places. This bizarre phenomenon has fascinated scientists and tourists alike.",
     "keywords": [
-      "chimpanzee grass",
-      "mysterious primate behavior",
-      "paranormal tourism"
+      "Sch\u00f6nhauser Allee",
+      "Kollwitzkiez",
+      "chimpanzee grassing",
+      "ufo sightings"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:14:26.501603"
+    "last_updated": "2025-07-25T10:59:18.462356"
   }
 }

@@ -1,7 +1,7 @@
 {
   "location_name": "B\u00e4ckerstrasse, Langstrasse",
   "category": "historical",
-  "timestamp": "20250722_121406",
+  "timestamp": "20250725_105859",
   "businesses": [
     {
       "name": "Efly AG Reiseb\u00fcro",
@@ -15,7 +15,7 @@
       "place_id": "ChIJDw6iJRIKkEcRlUMHdJtMAKk",
       "keyword": "travel services tourism",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 562,
+      "user_ratings_total": 563,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -37,7 +37,7 @@
       "place_id": "ChIJTZJtjX-hmkcRlb5gBTLTcaA",
       "keyword": "museums",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1690,
+      "user_ratings_total": 1697,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -72,6 +72,31 @@
       }
     },
     {
+      "name": "Lindenhof",
+      "address": "Lindenhof, 8001 Z\u00fcrich, Switzerland",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "park",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRactawcKkEcR-xqkb5ysLMc",
+      "keyword": "things to do attractions tours",
+      "location": "ckerstrasse, Langstrasse",
+      "user_ratings_total": 12467,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.37303370000001,
+          "lng": 8.540788599999999
+        }
+      }
+    },
+    {
       "name": "Z\u00fcrich Tourist Information",
       "address": "Hauptbahnhof, 8001 Z\u00fcrich, Switzerland",
       "rating": 4.7,
@@ -79,8 +104,8 @@
         "tourist_information_center",
         "tour_agency",
         "travel_agency",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJcbeW9QgKkEcRgdQPijrkSWA",
@@ -97,31 +122,6 @@
       }
     },
     {
-      "name": "Lindenhof",
-      "address": "Lindenhof, 8001 Z\u00fcrich, Switzerland",
-      "rating": 4.7,
-      "types": [
-        "historical_landmark",
-        "tourist_attraction",
-        "historical_place",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJRactawcKkEcR-xqkb5ysLMc",
-      "keyword": "things to do attractions tours",
-      "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 12451,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 47.37303370000001,
-          "lng": 8.540788599999999
-        }
-      }
-    },
-    {
       "name": "Kunsthaus Z\u00fcrich",
       "address": "Heimpl. 1/5, 8001 Z\u00fcrich, Switzerland",
       "rating": 4.7,
@@ -132,9 +132,9 @@
         "establishment"
       ],
       "place_id": "ChIJw12aEaygmkcRowvgojyyzdk",
-      "keyword": "museums",
+      "keyword": "things to do attractions tours",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 8046,
+      "user_ratings_total": 8065,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -159,7 +159,7 @@
       "place_id": "ChIJgcawFfsJkEcRnXtmMoXBxJ4",
       "keyword": "museums",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1591,
+      "user_ratings_total": 1593,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -176,8 +176,8 @@
       "types": [
         "hotel",
         "extended_stay_hotel",
-        "bar",
         "lodging",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -186,7 +186,7 @@
       "place_id": "ChIJ6ypIHhEKkEcR48Zj00ibeaQ",
       "keyword": "hotels accommodation lodging",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 3189,
+      "user_ratings_total": 3192,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -202,8 +202,8 @@
       "rating": 4.6,
       "types": [
         "asian_restaurant",
-        "bar",
         "meal_takeaway",
+        "bar",
         "restaurant",
         "food",
         "point_of_interest",
@@ -212,7 +212,7 @@
       "place_id": "ChIJzxYkxXwLkEcRNIh8uI7CJbw",
       "keyword": "restaurants food dining",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 685,
+      "user_ratings_total": 688,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -235,7 +235,7 @@
       "place_id": "ChIJbX9xVPSnmkcResjLc79EJEU",
       "keyword": "things to do attractions tours",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 946,
+      "user_ratings_total": 957,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -252,14 +252,14 @@
       "types": [
         "pizza_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ5b9YKBoKkEcRtbjorH6Dgas",
       "keyword": "restaurants",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 847,
+      "user_ratings_total": 848,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -274,17 +274,17 @@
       "address": "Stationsstrasse 7, 8003 Z\u00fcrich, Switzerland",
       "rating": 4.6,
       "types": [
-        "breakfast_restaurant",
         "cafe",
+        "breakfast_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJSf4yMR8KkEcRN4shzjruJcg",
       "keyword": "hotels",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 956,
+      "user_ratings_total": 957,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -301,16 +301,16 @@
       "types": [
         "historical_landmark",
         "tourist_attraction",
+        "historical_place",
         "church",
         "place_of_worship",
-        "historical_place",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJZWHfSaqgmkcREF9TlBQlGkk",
       "keyword": "things to do attractions tours",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 9310,
+      "user_ratings_total": 9322,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -334,7 +334,7 @@
       "place_id": "ChIJt3pPhgAKkEcRvqw_aAx57q0",
       "keyword": "things to do attractions tours",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 3930,
+      "user_ratings_total": 3934,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -357,7 +357,7 @@
       "place_id": "ChIJLYUQHAkKkEcRzA4gWFr1Hf8",
       "keyword": "museums",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 9195,
+      "user_ratings_total": 9210,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -422,8 +422,8 @@
         "bar_and_grill",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJg6igoxAKkEcR1fHEKEx0OFA",
@@ -446,14 +446,14 @@
       "types": [
         "asian_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ_Wco1BMKkEcRPUh7lCAFhik",
       "keyword": "restaurants",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1319,
+      "user_ratings_total": 1320,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -464,59 +464,12 @@
       }
     },
     {
-      "name": "citizenM Z\u00fcrich hotel",
-      "address": "Talacker 42, 8001 Z\u00fcrich, Switzerland",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJe-2QBwQKkEcRH0TSLuKgW64",
-      "keyword": "hotels",
-      "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1099,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 47.3721272,
-          "lng": 8.535269
-        }
-      }
-    },
-    {
-      "name": "Europaallee",
-      "address": "Europaallee, 8004 Z\u00fcrich, Switzerland",
-      "rating": 4.3,
-      "types": [
-        "shopping_mall",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJP1UflA8KkEcRXwFuW3OtlcU",
-      "keyword": "entertainment activities",
-      "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 3016,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 47.3776637,
-          "lng": 8.534512399999999
-        }
-      }
-    },
-    {
       "name": "Teddy's Souvenir Shop AG",
       "address": "Limmatquai 34, 8001 Z\u00fcrich, Switzerland",
       "rating": 4.3,
       "types": [
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJD73KUaqgmkcRgaUC4eAsWXk",
@@ -529,32 +482,6 @@
         "location": {
           "lat": 47.370342199999996,
           "lng": 8.5434054
-        }
-      }
-    },
-    {
-      "name": "Miss Miu",
-      "address": "Europaallee 48, 8004 Z\u00fcrich, Switzerland",
-      "rating": 4.3,
-      "types": [
-        "asian_restaurant",
-        "korean_restaurant",
-        "meal_takeaway",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJCb8EJ-ELkEcRPpKnmAAiB28",
-      "keyword": "restaurants",
-      "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 4421,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 47.3791868,
-          "lng": 8.5322145
         }
       }
     },
@@ -573,7 +500,7 @@
       "place_id": "ChIJ__-_ZEgKkEcRcwLBHWRY_vc",
       "keyword": "hotels",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1505,
+      "user_ratings_total": 1506,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -596,7 +523,7 @@
       "place_id": "ChIJP4Javg0KkEcRk8O9Snj5VQ0",
       "keyword": "museums",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 471,
+      "user_ratings_total": 473,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -618,7 +545,7 @@
       "place_id": "ChIJn3UhHhEKkEcRF9InJL3FRlo",
       "keyword": "entertainment activities",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1125,
+      "user_ratings_total": 1126,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -629,48 +556,26 @@
       }
     },
     {
-      "name": "Hotel Stoller",
-      "address": "Badenerstrasse 357, 8003 Z\u00fcrich, Switzerland",
-      "rating": 4.1,
+      "name": "Saint Georges Hotel",
+      "address": "Weberstrasse 11, 8004 Z\u00fcrich, Switzerland",
+      "rating": 4.2,
       "types": [
         "hotel",
+        "bed_and_breakfast",
         "lodging",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJY41BMSUKkEcRh0lHEKRHRjw",
+      "place_id": "ChIJ8xs8wxwKkEcRDEKu6fccuFU",
       "keyword": "hotels",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1071,
+      "user_ratings_total": 559,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 47.3785392,
-          "lng": 8.5092014
-        }
-      }
-    },
-    {
-      "name": "ibis Styles Zurich City Center",
-      "address": "Stampfenbachstrasse 60, 8006 Z\u00fcrich, Switzerland",
-      "rating": 4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJx9l9XVELkEcRt0WvKihsjX4",
-      "keyword": "hotels",
-      "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 1478,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 47.38122430000001,
-          "lng": 8.5424692
+          "lat": 47.3707089,
+          "lng": 8.5281015
         }
       }
     },
@@ -710,13 +615,111 @@
       "place_id": "ChIJEZl7Ng4LkEcRLSMmwxeJ4s4",
       "keyword": "hotels accommodation lodging",
       "location": "ckerstrasse, Langstrasse",
-      "user_ratings_total": 648,
+      "user_ratings_total": 649,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 47.3770974,
           "lng": 8.5275631
+        }
+      }
+    },
+    {
+      "name": "WOW Museum",
+      "address": "Werdm\u00fchlestrasse 10, 8001 Z\u00fcrich, Switzerland",
+      "rating": 3.9,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0xncYyELkEcRFvI7-j1OYuA",
+      "keyword": "museums",
+      "location": "ckerstrasse, Langstrasse",
+      "user_ratings_total": 2318,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.3750984,
+          "lng": 8.5404326
+        }
+      }
+    },
+    {
+      "name": "Camping Fischers Fritz",
+      "address": "Seestrasse 559, 8038 Z\u00fcrich, Switzerland",
+      "rating": 3.7,
+      "types": [
+        "campground",
+        "rv_park",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe_NKN3unmkcRfTJ-pZFqkZQ",
+      "keyword": "camping rv parks",
+      "location": "ckerstrasse, Langstrasse",
+      "user_ratings_total": 1323,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.3358608,
+          "lng": 8.5412178
+        }
+      }
+    },
+    {
+      "name": "ibis budget Zurich City West",
+      "address": "Technoparkstrasse 2, 8005 Z\u00fcrich, Switzerland",
+      "rating": 3.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcS-qSEcKkEcRIHlgyLoynk4",
+      "keyword": "hotels",
+      "location": "ckerstrasse, Langstrasse",
+      "user_ratings_total": 2013,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.3889874,
+          "lng": 8.516218799999999
+        }
+      }
+    },
+    {
+      "name": "Museum Haus Konstruktiv",
+      "address": "Limmatstrasse 268, 8005 Z\u00fcrich, Switzerland",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "cafe",
+        "gift_shop",
+        "museum",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJx7M8gwQKkEcRdPe2XKs5Qwc",
+      "keyword": "museums",
+      "location": "ckerstrasse, Langstrasse",
+      "user_ratings_total": 407,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.389247999999995,
+          "lng": 8.5254814
         }
       }
     }
@@ -732,17 +735,18 @@
   "generated_content": {
     "meta_description": "Explore historical mysteries in B\u00e4ckerstrasse, Langstrasse. Explore the forgotten Martian landscape of B\u00e4ckerstrasse, Langstrasse, a mysterious site that may hold the key to ancien",
     "title": "Historical Mysteries in B\u00e4ckerstrasse, Langstrasse - Tours & Services",
-    "description": "Explore the forgotten Martian landscape of B\u00e4ckerstrasse, Langstrasse, a mysterious site that may hold the key to ancient water on Mars. Discover the history and significance of this enigmatic location.",
+    "description": "Explore the forgotten Martian landscape of B\u00e4ckerstrasse, Langstrasse, a mysterious site that may hold the key to ancient water on Mars. Discover the region's rich history and potential connections to extraterrestrial life.",
     "keywords": [
-      "mysterious Martian landscape",
-      "ancient water on mars",
-      "B\u00e4ckerstrasse Langstrasse"
+      "B\u00e4ckerstrasse",
+      "Langstrasse",
+      "Martian water",
+      "Mars exploration"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:14:06.450223"
+    "last_updated": "2025-07-25T10:58:59.600877"
   }
 }

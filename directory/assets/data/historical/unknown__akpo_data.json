@@ -1,61 +1,8 @@
 {
   "location_name": "unknown, Akpo",
   "category": "historical",
-  "timestamp": "20250722_120531",
+  "timestamp": "20250725_105030",
   "businesses": [
-    {
-      "name": "Kasha-Katuwe Tent Rocks National Monument",
-      "address": "0 NM-22, Cochiti Pueblo, NM 87072, USA",
-      "rating": 4.7,
-      "types": [
-        "monument",
-        "tourist_attraction",
-        "national_park",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJeYYoXCV3GIcR1z9yT1VZv0g",
-      "keyword": "things to do attractions tours",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 2127,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.6565079,
-          "lng": -106.4111676
-        }
-      }
-    },
-    {
-      "name": "Puye Cliff Dwellings",
-      "address": "NM 30 and NM 5, Santa Clara Canyon Rd, Los Alamos, NM 87544, USA",
-      "rating": 4.7,
-      "types": [
-        "historical_landmark",
-        "hiking_area",
-        "tourist_attraction",
-        "cultural_landmark",
-        "historical_place",
-        "sports_activity_location",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJzSK_ph4XGIcRhMImY12sXNM",
-      "keyword": "things to do attractions tours",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 543,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.9727521,
-          "lng": -106.22915309999999
-        }
-      }
-    },
     {
       "name": "Totem Bight State Historical Park",
       "address": "9883 N Tongass Hwy, Ketchikan, AK 99901, USA",
@@ -69,7 +16,7 @@
       "place_id": "ChIJV_qHDQgnDFQRzgmxzMEesfE",
       "keyword": "things to do attractions tours",
       "location": "unknown, Akpo",
-      "user_ratings_total": 1157,
+      "user_ratings_total": 1159,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -80,12 +27,59 @@
       }
     },
     {
+      "name": "Barefoot Beach County Preserve",
+      "address": "505 Barefoot Beach Blvd, Bonita Springs, FL 34134, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJadqPlNwY24gRNO4F6q1j1cQ",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 2809,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.3009234,
+          "lng": -81.8339908
+        }
+      }
+    },
+    {
+      "name": "Paolo's Italian Restaurant",
+      "address": "23810 104th Ave SE, Kent, WA 98031, USA",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUTFhgqFekFQRJTiUhOy13so",
+      "keyword": "restaurants food dining",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 989,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.3886016,
+          "lng": -122.20160170000001
+        }
+      }
+    },
+    {
       "name": "Organ Pipe Cactus National Monument",
       "address": "10 Organ Pipe Dr, Ajo, AZ 85321, USA",
       "rating": 4.6,
       "types": [
-        "tourist_attraction",
         "national_park",
+        "tourist_attraction",
         "park",
         "point_of_interest",
         "establishment"
@@ -104,34 +98,6 @@
       }
     },
     {
-      "name": "Sky City Cultural Center & Haak'u Museum",
-      "address": "Haaku Rd, Acoma Pueblo, NM 87034, USA",
-      "rating": 4.6,
-      "types": [
-        "museum",
-        "cultural_center",
-        "tourist_attraction",
-        "historical_landmark",
-        "cafe",
-        "historical_place",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJDfB0wZm_I4cRghpPT1RUAHo",
-      "keyword": "things to do attractions tours",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 750,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.9015357,
-          "lng": -107.5879566
-        }
-      }
-    },
-    {
       "name": "Navajo Spirit Tours",
       "address": "US-163, Oljato-Monument Valley, UT 84536, USA",
       "rating": 4.9,
@@ -144,7 +110,7 @@
       "place_id": "ChIJ48wNryMyN4cRU7EPF-oA4G4",
       "keyword": "things to do attractions tours",
       "location": "unknown, Akpo",
-      "user_ratings_total": 468,
+      "user_ratings_total": 470,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -155,61 +121,59 @@
       }
     },
     {
-      "name": "CanoeHouse",
-      "address": "Mauna Lani, Auberge Resorts Collection, 68-1400, Mauna Lani Dr, Waimea, HI 96743, USA",
-      "rating": 4.5,
+      "name": "Sky City Cultural Center & Haak'u Museum",
+      "address": "Haaku Rd, Acoma Pueblo, NM 87034, USA",
+      "rating": 4.6,
       "types": [
-        "american_restaurant",
-        "restaurant",
+        "museum",
+        "tourist_attraction",
+        "historical_landmark",
+        "cultural_center",
+        "historical_place",
+        "cafe",
+        "point_of_interest",
         "food",
-        "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ582muw14VHkRXvqXega42K4",
-      "keyword": "restaurants food dining",
+      "place_id": "ChIJDfB0wZm_I4cRghpPT1RUAHo",
+      "keyword": "museums visitor centers",
       "location": "unknown, Akpo",
-      "user_ratings_total": 866,
-      "price_level": "PRICE_LEVEL_EXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 19.9470712,
-          "lng": -155.8668351
-        }
-      }
-    },
-    {
-      "name": "Flying Flags RV Resort & Campground",
-      "address": "180 Ave of Flags, Buellton, CA 93427, USA",
-      "rating": 4.5,
-      "types": [
-        "rv_park",
-        "dog_park",
-        "fitness_center",
-        "wedding_venue",
-        "playground",
-        "athletic_field",
-        "swimming_pool",
-        "gym",
-        "event_venue",
-        "sports_activity_location",
-        "campground",
-        "park",
-        "lodging",
-        "health",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJuTUsqRyr7oAR3J8mJgyej1s",
-      "keyword": "camping rv parks",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 1853,
+      "user_ratings_total": 750,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 34.6111443,
-          "lng": -120.1928499
+          "lat": 34.9015357,
+          "lng": -107.5879566
+        }
+      }
+    },
+    {
+      "name": "The Royal Senchi Resort/Hotel",
+      "address": "Ferry Road, Ghana",
+      "rating": 4.5,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "bar",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJddSnqvGoIBAR2m3ekWBbs2o",
+      "keyword": "hotels",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 3854,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 6.2194647000000005,
+          "lng": 0.0892921
         }
       }
     },
@@ -234,6 +198,28 @@
         "location": {
           "lat": 37.972259699999995,
           "lng": -120.24365189999999
+        }
+      }
+    },
+    {
+      "name": "Enterprise Rent-A-Car",
+      "address": "95-01 Ditmars Blvd, East Elmhurst, NY 11369, USA",
+      "rating": 4.3,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJIcPLL5xfwokRqH4wDotCtYE",
+      "keyword": "car rental transportation",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 2869,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.7702208,
+          "lng": -73.8751056
         }
       }
     },
@@ -263,6 +249,33 @@
       }
     },
     {
+      "name": "Al\u2019s Oasis",
+      "address": "1000 E South Dakota, W Hwy 16, Oacoma, SD 57365, USA",
+      "rating": 4.1,
+      "types": [
+        "american_restaurant",
+        "gift_shop",
+        "clothing_store",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJazZSCRM6gYcR8l1dGwBHLCg",
+      "keyword": "restaurants",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 3803,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.8033028,
+          "lng": -99.3819649
+        }
+      }
+    },
+    {
       "name": "White Castle Hotel",
       "address": "32Q3+WP8, Neni 422102, Anambra, Nigeria",
       "rating": 4,
@@ -285,30 +298,6 @@
       }
     },
     {
-      "name": "Acorn Campground",
-      "address": "2693 S Petersburg Rd, Valley Springs, CA 95252, USA",
-      "rating": 4.2,
-      "types": [
-        "campground",
-        "park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJbXQWGAGEkIARanJzG8njVBA",
-      "keyword": "camping rv parks",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 409,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.1765331,
-          "lng": -120.7999674
-        }
-      }
-    },
-    {
       "name": "OOPL WILDLIFE PARK",
       "address": "Olusegun Obasanjo Presidential Library, Abeokuta 110118, Ogun State, Nigeria",
       "rating": 4.2,
@@ -322,7 +311,7 @@
       "place_id": "ChIJ02ADWaBLOhARyRk4lRbYb9U",
       "keyword": "attractions",
       "location": "unknown, Akpo",
-      "user_ratings_total": 401,
+      "user_ratings_total": 403,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -381,50 +370,24 @@
       }
     },
     {
-      "name": "Absaroka Bay RV Park",
-      "address": "2002 Mountain View Dr, Cody, WY 82414, USA",
-      "rating": 4,
-      "types": [
-        "rv_park",
-        "campground",
-        "park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJSb3YVEHWTVMRGiB2-pFXvpM",
-      "keyword": "camping rv parks",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 338,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.5144004,
-          "lng": -109.04920949999999
-        }
-      }
-    },
-    {
-      "name": "Kaibab Paiute RV Park & Campground",
-      "address": "600 N Pipe Spring Rd, Fredonia, AZ 86022, USA",
+      "name": "TCI Heritage Horseback Riding & Tours",
+      "address": "Providenciales, TKCA 1ZZ, Turks and Caicos, TKCA 1ZZ, Turks and Caicos Islands",
       "rating": 4.8,
       "types": [
-        "rv_park",
-        "lodging",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJgZy4CXUxy4ARixeoWwxAfwo",
-      "keyword": "camping rv parks",
+      "place_id": "ChIJbREQOm1JS4kRMm7aAJaZqXA",
+      "keyword": "things to do attractions tours",
       "location": "unknown, Akpo",
-      "user_ratings_total": 252,
+      "user_ratings_total": 273,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 36.866924999999995,
-          "lng": -112.7373951
+          "lat": 21.7555429,
+          "lng": -72.2646154
         }
       }
     },
@@ -516,6 +479,30 @@
         "location": {
           "lat": 5.953988,
           "lng": 7.0822579999999995
+        }
+      }
+    },
+    {
+      "name": "Out to Sea Expedition Company",
+      "address": "124 Thomas St, Ketchikan, AK 99901, USA",
+      "rating": 5,
+      "types": [
+        "gift_shop",
+        "sporting_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLTBY9wklDFQRt5j2W53tbjk",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 72,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.3395131,
+          "lng": -131.63951459999998
         }
       }
     },
@@ -633,6 +620,27 @@
       }
     },
     {
+      "name": "Ocean outback adventures",
+      "address": "TKCA 1ZZ, Turks and Caicos Islands",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJFRmFeSZJS4kRuRkzeDy4iKg",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Akpo",
+      "user_ratings_total": 19,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 21.742213,
+          "lng": -72.2850203
+        }
+      }
+    },
+    {
       "name": "The Shop at Old Town",
       "address": "1919 Old Town Rd NW #8, Albuquerque, NM 87104, USA",
       "rating": 5,
@@ -698,29 +706,6 @@
           "lng": 3.9195799000000004
         }
       }
-    },
-    {
-      "name": "A & K Gift & Fashion",
-      "address": "730 N Broadway, Los Angeles, CA 90012, USA",
-      "rating": 5,
-      "types": [
-        "gift_shop",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ58Np91rGwoARMl7UEk-cxDU",
-      "keyword": "gift shops souvenirs",
-      "location": "unknown, Akpo",
-      "user_ratings_total": 3,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.0611786,
-          "lng": -118.2387431
-        }
-      }
     }
   ],
   "events": [
@@ -732,19 +717,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in unknown, Akpo. Explore the mysterious Akpo, a location shrouded in secrecy and intrigue. Discover the history behind this enigmatic sit",
+    "meta_description": "Explore historical mysteries in unknown, Akpo. Explore the mysterious skies of Akpo, where Virtual Reality technology is being used to treat mental health issues in a ",
     "title": "Historical Mysteries in unknown, Akpo - Tours & Services",
-    "description": "Explore the mysterious Akpo, a location shrouded in secrecy and intrigue. Discover the history behind this enigmatic site and uncover its secrets.",
+    "description": "Explore the mysterious skies of Akpo, where Virtual Reality technology is being used to treat mental health issues in a groundbreaking new way. Discover the history and culture of this enigmatic location.",
     "keywords": [
-      "mystery tourism",
-      "Akpo",
-      "UFO sightings"
+      "virtual reality",
+      "mental health treatment",
+      "mysterious locations"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:05:31.211210"
+    "last_updated": "2025-07-25T10:50:30.411658"
   }
 }

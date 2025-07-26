@@ -1,7 +1,7 @@
 {
   "location_name": "County Road A044, White Oaks",
   "category": "historical",
-  "timestamp": "20250722_120821",
+  "timestamp": "20250725_105324",
   "businesses": [
     {
       "name": "Route 66 Museum And Gift Shop",
@@ -17,13 +17,38 @@
       "place_id": "ChIJOXDNPK2fMocRF0ZoTE3wBo8",
       "keyword": "gift shops souvenirs",
       "location": "Forgotten, County Road A",
-      "user_ratings_total": 571,
+      "user_ratings_total": 574,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 35.2480115,
           "lng": -112.1955223
+        }
+      }
+    },
+    {
+      "name": "Sitting Bull Falls Recreation Area",
+      "address": "742 Sitting Bull Falls Rd, Carlsbad, NM 88220, USA",
+      "rating": 4.8,
+      "types": [
+        "picnic_ground",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3YYMpg_144YRQ8v0zbmTZfc",
+      "keyword": "camping rv parks",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 621,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.2458946,
+          "lng": -104.6974211
         }
       }
     },
@@ -37,10 +62,10 @@
         "sandwich_shop",
         "bakery",
         "food_store",
-        "store",
         "restaurant",
-        "point_of_interest",
         "food",
+        "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJWyADwC-Gs4kRMuM15aerDG8",
@@ -67,7 +92,7 @@
       ],
       "place_id": "ChIJ96Lhw0WGs4kRgBa4vIROQnw",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 1209,
+      "user_ratings_total": 1210,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -78,81 +103,26 @@
       }
     },
     {
-      "name": "Jonathan's on Brick Street",
-      "address": "116 E Walworth Ave, Delavan, WI 53115, USA",
+      "name": "Governor Dodge State Park",
+      "address": "4175 WI-23, Dodgeville, WI 53533, USA",
       "rating": 4.7,
       "types": [
-        "fine_dining_restaurant",
-        "wine_bar",
-        "steak_house",
-        "seafood_restaurant",
-        "bar",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJWRmVzBD6BYgRs4Dqctog6Ew",
-      "keyword": "restaurants food dining",
-      "location": "Forgotten, County Road A",
-      "user_ratings_total": 713,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.6327733,
-          "lng": -88.6477429
-        }
-      }
-    },
-    {
-      "name": "Cloverdale Country Store",
-      "address": "N 13731, County Rd E, Curtiss, WI 54422, USA",
-      "rating": 4.7,
-      "types": [
-        "supermarket",
-        "wholesaler",
-        "grocery_store",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJrwUtEI2G_4cRZwQtqvHoCBI",
-      "keyword": "shopping retail stores",
-      "location": "Forgotten, County Road A",
-      "user_ratings_total": 536,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.9160238,
-          "lng": -90.4349082
-        }
-      }
-    },
-    {
-      "name": "Cave of the Mounds",
-      "address": "2975 Cave of the Mounds Rd, Blue Mounds, WI 53517, USA",
-      "rating": 4.7,
-      "types": [
+        "state_park",
         "tourist_attraction",
-        "event_venue",
         "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJK8DByH-QB4gRUX-EZZUYP1Y",
+      "place_id": "ChIJy8RRKil7_YcRG3JxeH2OUTk",
       "keyword": "things to do attractions tours",
       "location": "Forgotten, County Road A",
-      "user_ratings_total": 4657,
+      "user_ratings_total": 2712,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.0170287,
-          "lng": -89.8140528
+          "lat": 43.024843,
+          "lng": -90.10745759999999
         }
       }
     },
@@ -170,37 +140,13 @@
       "place_id": "ChIJlYzDJY-_BYgRwnnKBa3oiYA",
       "keyword": "entertainment activities",
       "location": "Forgotten, County Road A",
-      "user_ratings_total": 1103,
+      "user_ratings_total": 1106,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 42.8725263,
           "lng": -88.49082039999999
-        }
-      }
-    },
-    {
-      "name": "Governor Dodge State Park",
-      "address": "4175 WI-23, Dodgeville, WI 53533, USA",
-      "rating": 4.7,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJy8RRKil7_YcRG3JxeH2OUTk",
-      "keyword": "things to do",
-      "location": "Forgotten, County Road A",
-      "user_ratings_total": 2711,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 43.024843,
-          "lng": -90.10745759999999
         }
       }
     },
@@ -217,7 +163,7 @@
       ],
       "place_id": "ChIJ62zEFCeGs4kRZN9UzXYA78s",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 10564,
+      "user_ratings_total": 10569,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -234,49 +180,24 @@
       "types": [
         "grocery_store",
         "liquor_store",
-        "supermarket",
         "market",
-        "food_store",
-        "store",
+        "supermarket",
         "health",
+        "food_store",
         "point_of_interest",
         "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJwebD0sOHs4kRoLRhR_Shj-g",
       "keyword": "nearby_store",
-      "user_ratings_total": 2052,
+      "user_ratings_total": 2055,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.0629829,
           "lng": -78.49148799999999
-        }
-      }
-    },
-    {
-      "name": "Parkwood Lodge - Door County",
-      "address": "3775 WI-42, Fish Creek, WI 54212, USA",
-      "rating": 4.6,
-      "types": [
-        "hotel",
-        "motel",
-        "inn",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ19Nbge1HTU0R9tdPf2_obow",
-      "keyword": "hotels accommodation lodging",
-      "location": "Forgotten, County Road A",
-      "user_ratings_total": 515,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.1310729,
-          "lng": -87.2162017
         }
       }
     },
@@ -371,7 +292,7 @@
       "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
       "keyword": "museums visitor centers",
       "location": "Forgotten, County Road A",
-      "user_ratings_total": 956,
+      "user_ratings_total": 957,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -382,24 +303,26 @@
       }
     },
     {
-      "name": "The House on the Rock",
-      "address": "5754 WI-23, Spring Green, WI 53588, USA",
+      "name": "Rocky Gap State Park",
+      "address": "12900 Lake Shore Dr, Flintstone, MD 21530, USA",
       "rating": 4.6,
       "types": [
+        "state_park",
         "tourist_attraction",
+        "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJd2Kfkxh6_YcRMWhfdbUb_gg",
+      "place_id": "ChIJiY_jhNdhyokRUUjtNP0b-eI",
       "keyword": "things to do",
       "location": "Forgotten, County Road A",
-      "user_ratings_total": 7543,
+      "user_ratings_total": 5542,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.099431599999996,
-          "lng": -90.1353025
+          "lat": 39.705585299999996,
+          "lng": -78.65353139999999
         }
       }
     },
@@ -412,15 +335,15 @@
         "breakfast_restaurant",
         "bakery",
         "food_store",
-        "store",
         "restaurant",
-        "point_of_interest",
         "food",
+        "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ2dyRxjGGs4kRqSrdo61nQbE",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1104,
+      "user_ratings_total": 1105,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -437,22 +360,22 @@
       "types": [
         "restaurant",
         "tourist_attraction",
-        "pub",
         "historical_landmark",
-        "gift_shop",
         "historical_place",
+        "gift_shop",
         "liquor_store",
-        "food_store",
-        "store",
+        "pub",
         "event_venue",
         "bar",
-        "food",
+        "food_store",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ870exa-Is4kRkdGR5r-r8sc",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 3490,
+      "user_ratings_total": 3493,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -468,8 +391,8 @@
       "rating": 4.6,
       "types": [
         "tourist_attraction",
-        "park",
         "museum",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -493,14 +416,14 @@
         "grocery_store",
         "supermarket",
         "food_store",
-        "store",
         "point_of_interest",
         "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ1YGyX3OGs4kRgbu5tjpmT2M",
       "keyword": "nearby_store",
-      "user_ratings_total": 3615,
+      "user_ratings_total": 3617,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -516,18 +439,18 @@
       "rating": 4.5,
       "types": [
         "hotel",
-        "resort_hotel",
-        "inn",
         "wedding_venue",
-        "event_venue",
+        "inn",
+        "resort_hotel",
         "lodging",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ48zNCae1lIgRH1JJSQPvm6A",
       "keyword": "hotels",
       "location": "Forgotten, County Road A",
-      "user_ratings_total": 1037,
+      "user_ratings_total": 1038,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -543,13 +466,13 @@
       "rating": 4.5,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ79_OSeOHs4kRgLg1CgMbvrs",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 5281,
+      "user_ratings_total": 5286,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -571,7 +494,7 @@
       ],
       "place_id": "ChIJ____7yaGs4kR1BhvIOFlBlY",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 2125,
+      "user_ratings_total": 2127,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -588,13 +511,13 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ02ss_OiHs4kRGskTqGAbMdI",
       "keyword": "nearby_store",
-      "user_ratings_total": 2525,
+      "user_ratings_total": 2526,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -610,18 +533,18 @@
       "rating": 4.5,
       "types": [
         "liquor_store",
-        "farm",
         "bakery",
+        "farm",
         "bar",
         "food_store",
-        "store",
         "point_of_interest",
         "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJHd4pbFePs4kRP8EMFzaIDS8",
       "keyword": "nearby_store",
-      "user_ratings_total": 4154,
+      "user_ratings_total": 4155,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -637,19 +560,19 @@
       "rating": 4.4,
       "types": [
         "resort_hotel",
-        "wedding_venue",
         "hotel",
+        "wedding_venue",
         "swimming_pool",
-        "spa",
-        "lodging",
-        "sports_activity_location",
         "event_venue",
+        "sports_activity_location",
+        "lodging",
+        "spa",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJFWU-a-CGs4kRc3SSdcWaGlg",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1421,
+      "user_ratings_total": 1423,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -671,7 +594,7 @@
       ],
       "place_id": "ChIJ5yKlCCWGs4kRouLz0Yayj3E",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1620,
+      "user_ratings_total": 1621,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -689,13 +612,13 @@
         "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJBz3Ux8aHs4kRriY-YtdzDUk",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2605,
+      "user_ratings_total": 2608,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -713,13 +636,13 @@
         "pub",
         "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ2y3ssCOGs4kR5CspFeBSLv0",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 745,
+      "user_ratings_total": 748,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -736,20 +659,96 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "lodging",
         "event_venue",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJr8MwXjiGs4kRzq2D_gVDNEs",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 482,
+      "user_ratings_total": 483,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 38.0326005,
           "lng": -78.4963657
+        }
+      }
+    },
+    {
+      "name": "La Fonda",
+      "address": "206 W Main St, Artesia, NM 88210, USA",
+      "rating": 4.3,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJv-vRCMGu44YRu3SQeX_uzqY",
+      "keyword": "restaurants food dining",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 964,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.8425,
+          "lng": -104.39916670000001
+        }
+      }
+    },
+    {
+      "name": "International UFO Museum and Research Center and Gift Shop",
+      "address": "114 N Main St, Roswell, NM 88203, USA",
+      "rating": 4.3,
+      "types": [
+        "museum",
+        "library",
+        "tourist_attraction",
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
+      "keyword": "things to do attractions tours",
+      "location": "Forgotten, County Road A",
+      "user_ratings_total": 2522,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.393687899999996,
+          "lng": -104.52296020000001
+        }
+      }
+    },
+    {
+      "name": "Keswick Hall",
+      "address": "701 Club Dr, Keswick, VA 22947, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "resort_hotel",
+        "golf_course",
+        "athletic_field",
+        "sports_activity_location",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlbwJssaLs4kRDsbMa5PASzU",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 476,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.01678030000001,
+          "lng": -78.3666045
         }
       }
     }
@@ -763,19 +762,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in County Road A044, White Oaks. Explore the mysterious world of paranormal activity at this NASA scientist's mission to uncover the truth about alien li",
+    "meta_description": "Explore historical mysteries in County Road A044, White Oaks. Explore the mysterious world of paranormal activity in County Road A044, where a renowned NASA scientist is on a mission",
     "title": "Historical Mysteries in County Road A044, White Oaks - Tours & Services",
-    "description": "Explore the mysterious world of paranormal activity at this NASA scientist's mission to uncover the truth about alien life.",
+    "description": "Explore the mysterious world of paranormal activity in County Road A044, where a renowned NASA scientist is on a mission to uncover the truth about extraterrestrial life.",
     "keywords": [
-      "paranormal tours",
-      "alien sightings",
-      "NASA scientists"
+      "paranormal tourism",
+      "mysterious attractions",
+      "alien sightings"
     ],
     "category": "paranormal"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:08:21.785330"
+    "last_updated": "2025-07-25T10:53:24.714017"
   }
 }

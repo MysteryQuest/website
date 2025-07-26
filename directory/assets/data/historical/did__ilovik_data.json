@@ -1,31 +1,8 @@
 {
   "location_name": "Did, Ilovik",
   "category": "historical",
-  "timestamp": "20250722_120732",
+  "timestamp": "20250725_105234",
   "businesses": [
-    {
-      "name": "Principovac",
-      "address": "32236, Ilok, Croatia",
-      "rating": 4.8,
-      "types": [
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ-2HdnMx5W0cRqOBFTHdvkRY",
-      "keyword": "things to do attractions tours",
-      "location": "Did, Ilovik",
-      "user_ratings_total": 1413,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.1998508,
-          "lng": 19.358512299999997
-        }
-      }
-    },
     {
       "name": "Museum of Apoxyomenos",
       "address": "Riva lo\u0161injskih kapetana 13, 51550, Mali Lo\u0161inj, Croatia",
@@ -39,7 +16,7 @@
       "place_id": "ChIJT3V5RC74YkcRMyGgewdaF68",
       "keyword": "museums visitor centers",
       "location": "Did, Ilovik",
-      "user_ratings_total": 2244,
+      "user_ratings_total": 2251,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -50,23 +27,72 @@
       }
     },
     {
+      "name": "Konoba \"Oliva\" Ilovik",
+      "address": "Ilkovik 23, 51552, Ilovik, Croatia",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ2UPRxGpZYkcRDJVyD2yXu2M",
+      "keyword": "restaurants food dining",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 523,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.4616012,
+          "lng": 14.547900499999997
+        }
+      }
+    },
+    {
+      "name": "Tematski vidikovac Providenca",
+      "address": "Umpiljak, 51550, Mali Lo\u0161inj, Croatia",
+      "rating": 4.7,
+      "types": [
+        "observation_deck",
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmb-YTfT3YkcRBGEohr2rVUc",
+      "keyword": "things to do attractions tours",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 2510,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.522363,
+          "lng": 14.4820557
+        }
+      }
+    },
+    {
       "name": "Hotel Bellevue",
       "address": "\u010cikat ul. 9, 51550, Mali Lo\u0161inj, Croatia",
       "rating": 4.7,
       "types": [
         "hotel",
-        "lodging",
-        "japanese_restaurant",
         "spa",
+        "japanese_restaurant",
+        "lodging",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJhQL1kdT5YkcRD5xCgC7eAYs",
-      "keyword": "hotels accommodation lodging",
+      "keyword": "hotels",
       "location": "Did, Ilovik",
-      "user_ratings_total": 1129,
+      "user_ratings_total": 1131,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -82,21 +108,21 @@
       "rating": 4.7,
       "types": [
         "cafe",
-        "ice_cream_shop",
         "dessert_restaurant",
+        "buffet_restaurant",
+        "ice_cream_shop",
         "dessert_shop",
         "confectionery",
-        "buffet_restaurant",
         "food_store",
-        "store",
         "restaurant",
-        "point_of_interest",
         "food",
+        "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ8UvVWi_4YkcR3xtSz6DLJog",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1486,
+      "user_ratings_total": 1491,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -112,13 +138,13 @@
       "rating": 4.7,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJPwY6Ti74YkcR6CoTM8O03o0",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2528,
+      "user_ratings_total": 2530,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -135,13 +161,13 @@
       "types": [
         "tourist_attraction",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ9YG3Cyb4YkcRgA0J7TcOLBM",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 577,
+      "user_ratings_total": 579,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -157,20 +183,20 @@
       "rating": 4.6,
       "types": [
         "hotel",
-        "fitness_center",
         "wellness_center",
+        "fitness_center",
         "athletic_field",
         "gym",
-        "sports_activity_location",
         "lodging",
+        "sports_activity_location",
         "health",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJf4XZggH4YkcRp1o-St8agIA",
-      "keyword": "hotels accommodation lodging",
+      "keyword": "hotels",
       "location": "Did, Ilovik",
-      "user_ratings_total": 2171,
+      "user_ratings_total": 2176,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -181,41 +207,18 @@
       }
     },
     {
-      "name": "Konoba \"Oliva\" Ilovik",
-      "address": "Ilkovik 23, 51552, Ilovik, Croatia",
-      "rating": 4.6,
-      "types": [
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ2UPRxGpZYkcRDJVyD2yXu2M",
-      "keyword": "restaurants food dining",
-      "location": "Did, Ilovik",
-      "user_ratings_total": 522,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.4616012,
-          "lng": 14.547900499999997
-        }
-      }
-    },
-    {
       "name": "Pizzeria - Restaurant PapaBepi",
       "address": "Trg Zagazinjine 2, 51550, Mali Lo\u0161inj, Croatia",
       "rating": 4.6,
       "types": [
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJGVlnUSX4YkcRnyGITNo_fG0",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1857,
+      "user_ratings_total": 1865,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -262,13 +265,37 @@
       "place_id": "ChIJ7UbEuND5YkcR5-NI3Rf1rFM",
       "keyword": "camping rv parks",
       "location": "Did, Ilovik",
-      "user_ratings_total": 4109,
+      "user_ratings_total": 4117,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 44.535936199999995,
           "lng": 14.451117400000001
+        }
+      }
+    },
+    {
+      "name": "Camping Baldarin",
+      "address": "Bokini\u0107 66, 51554, Nerezine, Croatia",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJm0nec-T-YkcRZUonM0OlObs",
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1174,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.6160132,
+          "lng": 14.508390299999999
         }
       }
     },
@@ -311,37 +338,13 @@
       "place_id": "ChIJP54HO9H5YkcR6WF1C-hQdkI",
       "keyword": "camping rv parks",
       "location": "Did, Ilovik",
-      "user_ratings_total": 5048,
+      "user_ratings_total": 5058,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 44.537129,
           "lng": 14.448767000000002
-        }
-      }
-    },
-    {
-      "name": "Camping Baldarin",
-      "address": "Bokini\u0107 66, 51554, Nerezine, Croatia",
-      "rating": 4.5,
-      "types": [
-        "campground",
-        "park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJm0nec-T-YkcRZUonM0OlObs",
-      "keyword": "camping rv parks",
-      "location": "Did, Ilovik",
-      "user_ratings_total": 1173,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.6160132,
-          "lng": 14.508390299999999
         }
       }
     },
@@ -357,7 +360,7 @@
       ],
       "place_id": "ChIJ-b6MVYH3YkcRoffliF-Y9Mw",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 2520,
+      "user_ratings_total": 2524,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -379,7 +382,7 @@
       ],
       "place_id": "ChIJE0Szqob3YkcR2JYlcpyQEAM",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1827,
+      "user_ratings_total": 1828,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -397,13 +400,13 @@
         "restaurant",
         "bar_and_grill",
         "bar",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJL4YIm373YkcRXkYxnDz99W8",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1899,
+      "user_ratings_total": 1925,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -419,8 +422,8 @@
       "rating": 4.7,
       "types": [
         "wine_bar",
-        "bar",
         "lodging",
+        "bar",
         "point_of_interest",
         "food",
         "establishment"
@@ -428,7 +431,7 @@
       "place_id": "ChIJV4QV1mpZYkcRxXqczMG27R8",
       "keyword": "restaurants food dining",
       "location": "Did, Ilovik",
-      "user_ratings_total": 478,
+      "user_ratings_total": 479,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -443,9 +446,9 @@
       "address": "\u0160etali\u0161te o. Mladena Barbari\u0107a 5, 32236, Ilok, Croatia",
       "rating": 4.7,
       "types": [
-        "tourist_attraction",
-        "cultural_landmark",
         "historical_landmark",
+        "cultural_landmark",
+        "tourist_attraction",
         "historical_place",
         "museum",
         "point_of_interest",
@@ -478,7 +481,7 @@
       "place_id": "ChIJya59DFr9YkcRBTbnLm-06HA",
       "keyword": "camping rv parks",
       "location": "Did, Ilovik",
-      "user_ratings_total": 1221,
+      "user_ratings_total": 1223,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -502,7 +505,7 @@
       "place_id": "ChIJteDpmiL9YkcRc8BRjGbkWO4",
       "keyword": "camping rv parks",
       "location": "Did, Ilovik",
-      "user_ratings_total": 640,
+      "user_ratings_total": 639,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -520,14 +523,14 @@
         "supermarket",
         "grocery_store",
         "food_store",
+        "food",
         "store",
         "point_of_interest",
-        "food",
         "establishment"
       ],
       "place_id": "ChIJQ7lhwCj4YkcRiCkOFI2Govc",
       "keyword": "nearby_store",
-      "user_ratings_total": 2538,
+      "user_ratings_total": 2540,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -550,8 +553,9 @@
         "establishment"
       ],
       "place_id": "ChIJx5BXTJb5YkcRje8WBU87Pa0",
-      "keyword": "nearby_lodging",
-      "user_ratings_total": 1235,
+      "keyword": "camping rv parks",
+      "location": "Did, Ilovik",
+      "user_ratings_total": 1234,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -571,20 +575,20 @@
         "supermarket",
         "grocery_store",
         "food_store",
+        "food",
         "store",
         "point_of_interest",
-        "food",
         "establishment"
       ],
       "place_id": "ChIJU8ABeif4YkcRUuGme18lL7s",
       "keyword": "nearby_store",
-      "user_ratings_total": 1185,
+      "user_ratings_total": 1184,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 44.528287999999996,
-          "lng": 14.464584
+          "lat": 44.526432799999995,
+          "lng": 14.471214000000002
         }
       }
     },
@@ -624,7 +628,7 @@
       "place_id": "ChIJzexAGmpZYkcRe2eGbjW9a_4",
       "keyword": "restaurants food dining",
       "location": "Did, Ilovik",
-      "user_ratings_total": 398,
+      "user_ratings_total": 396,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -714,7 +718,7 @@
       "place_id": "ChIJz4tTdmpZYkcR64jIHfjcSXc",
       "keyword": "restaurants food dining",
       "location": "Did, Ilovik",
-      "user_ratings_total": 228,
+      "user_ratings_total": 227,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -740,19 +744,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Did, Ilovik. Explore the enigmatic Did Ilovik, a mysterious location in Australia where reports of UFO sightings and advanced imaging",
+    "meta_description": "Explore historical mysteries in Did, Ilovik. Explore the mysterious Did Ilovik, a hub for UFO sightings and paranormal activity. Discover the history behind this eni",
     "title": "Historical Mysteries in Did, Ilovik - Tours & Services",
-    "description": "Explore the enigmatic Did Ilovik, a mysterious location in Australia where reports of UFO sightings and advanced imaging technology have sparked intrigue. Discover the history behind this fascinating site and experience it for yourself.",
+    "description": "Explore the mysterious Did Ilovik, a hub for UFO sightings and paranormal activity. Discover the history behind this enigmatic location and experience it for yourself.",
     "keywords": [
       "Did Ilovik",
       "UFO sightings",
-      "Australian mysteries"
+      "paranormal tourism"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:07:32.943736"
+    "last_updated": "2025-07-25T10:52:34.608189"
   }
 }

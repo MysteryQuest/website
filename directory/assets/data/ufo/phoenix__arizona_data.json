@@ -1,7 +1,7 @@
 {
   "location_name": "Phoenix, Arizona",
   "category": "ufo",
-  "timestamp": "20250722_120031",
+  "timestamp": "20250725_104546",
   "businesses": [
     {
       "name": "Spirit of Arizona Tours",
@@ -34,15 +34,15 @@
         "amusement_center",
         "tourist_attraction",
         "sports_activity_location",
-        "event_venue",
         "bar",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJw1ieKScFK4cRwU5kmgoBHkg",
       "keyword": "entertainment activities",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 9504,
+      "user_ratings_total": 9508,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -66,36 +66,13 @@
       "place_id": "ChIJfTp55hhxK4cR-9G0f9JQwTM",
       "keyword": "museums visitor centers",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 9303,
+      "user_ratings_total": 9307,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.6679904,
           "lng": -111.97829689999999
-        }
-      }
-    },
-    {
-      "name": "Puzzle Effect Escape Rooms - Phoenix",
-      "address": "4700 N Central Ave #102, Phoenix, AZ 85012, USA",
-      "rating": 4.9,
-      "types": [
-        "tourist_attraction",
-        "amusement_center",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ69ahrLYSK4cRIC8ExYOZKPY",
-      "keyword": "entertainment activities",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 1739,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.5058487,
-          "lng": -112.07420889999999
         }
       }
     },
@@ -111,7 +88,7 @@
       "place_id": "ChIJacuLgYcNK4cRr1krEAfx-X8",
       "keyword": "gift shops souvenirs",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 1516,
+      "user_ratings_total": 1521,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -127,48 +104,24 @@
       "rating": 4.8,
       "types": [
         "botanical_garden",
-        "tourist_attraction",
         "wedding_venue",
-        "museum",
+        "tourist_attraction",
         "event_venue",
         "park",
+        "museum",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJIZ4tCFMJK4cRF10FJZ3pXCE",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 21068,
+      "user_ratings_total": 21076,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.461679499999995,
           "lng": -111.944926
-        }
-      }
-    },
-    {
-      "name": "Dobbins Lookout",
-      "address": "10919 South Central Avenue, Phoenix, AZ 85042, USA",
-      "rating": 4.8,
-      "types": [
-        "tourist_attraction",
-        "state_park",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJISkRs7AaK4cRvnm0jjWrkYw",
-      "keyword": "things to do attractions tours",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 5138,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.3454505,
-          "lng": -112.05857189999999
         }
       }
     },
@@ -188,13 +141,37 @@
       "place_id": "ChIJoRXNPj4LK4cR8W4cznomFuI",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 2822,
+      "user_ratings_total": 2847,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.5553068,
           "lng": -111.8763932
+        }
+      }
+    },
+    {
+      "name": "Dobbins Lookout",
+      "address": "10919 South Central Avenue, Phoenix, AZ 85042, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "state_park",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJISkRs7AaK4cRvnm0jjWrkYw",
+      "keyword": "things to do attractions tours",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 5141,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3454505,
+          "lng": -112.05857189999999
         }
       }
     },
@@ -210,38 +187,13 @@
       "place_id": "ChIJfybkSL8aK4cRdZqNLRVyfmQ",
       "keyword": "parks recreation outdoor",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 9969,
+      "user_ratings_total": 9971,
       "price_level": "PRICE_LEVEL_FREE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.340336799999996,
           "lng": -112.0609473
-        }
-      }
-    },
-    {
-      "name": "Echo Canyon Recreation Area",
-      "address": "4925 E McDonald Dr, Phoenix, AZ 85018, USA",
-      "rating": 4.8,
-      "types": [
-        "hiking_area",
-        "tourist_attraction",
-        "sports_activity_location",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJO19qdo8MK4cR4CnFuI4-0X0",
-      "keyword": "parks recreation outdoor",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 2927,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.5213576,
-          "lng": -111.9733981
         }
       }
     },
@@ -273,18 +225,18 @@
       "address": "2201 E Camelback Rd, Phoenix, AZ 85016, USA",
       "rating": 4.7,
       "types": [
-        "event_venue",
         "bar",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "event_venue",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJkxpMR28NK4cRg84ZJeCWJ-U",
       "keyword": "restaurants food dining",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 1672,
+      "user_ratings_total": 1673,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -295,25 +247,77 @@
       }
     },
     {
+      "name": "Miel De Agave Phoenix",
+      "address": "705 N 1st St #110, Phoenix, AZ 85004, USA",
+      "rating": 4.7,
+      "types": [
+        "mexican_restaurant",
+        "brunch_restaurant",
+        "steak_house",
+        "seafood_restaurant",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJv6MKWhYTK4cRqPu9jejTrg0",
+      "keyword": "restaurants food dining",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 2809,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.455929,
+          "lng": -112.07210239999999
+        }
+      }
+    },
+    {
+      "name": "The Farish House",
+      "address": "816 N 3rd St, Phoenix, AZ 85004, USA",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "american_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4wfeweETK4cRmYKoxUWlgLM",
+      "keyword": "restaurants food dining",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 518,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.45718960000001,
+          "lng": -112.0702162
+        }
+      }
+    },
+    {
       "name": "The Capital Grille",
       "address": "2502 E Camelback Rd, Phoenix, AZ 85016, USA",
       "rating": 4.7,
       "types": [
         "fine_dining_restaurant",
-        "wine_bar",
         "steak_house",
+        "wine_bar",
         "seafood_restaurant",
         "bar",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ_T4sdGwNK4cRwHXACULBcpA",
       "keyword": "restaurants food dining",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 1840,
+      "user_ratings_total": 1842,
       "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -335,13 +339,40 @@
       "place_id": "ChIJZ4MLk0wJK4cRp2RC_VatisA",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 12576,
+      "user_ratings_total": 12582,
       "price_level": "PRICE_LEVEL_FREE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.4536315,
           "lng": -111.94869299999999
+        }
+      }
+    },
+    {
+      "name": "Phoenix Art Museum",
+      "address": "1625 N Central Ave, Phoenix, AZ 85004, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "gift_shop",
+        "store",
+        "restaurant",
+        "food",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmcBGT0ASK4cR8QooSw1pSn4",
+      "keyword": "museums visitor centers",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 3555,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4670863,
+          "lng": -112.0727721
         }
       }
     },
@@ -363,7 +394,7 @@
       "place_id": "ChIJq1ARW0ISK4cRItccBOgJS9w",
       "keyword": "museums visitor centers",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 5295,
+      "user_ratings_total": 5298,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -407,71 +438,21 @@
       }
     },
     {
-      "name": "Phoenix Art Museum",
-      "address": "1625 N Central Ave, Phoenix, AZ 85004, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "gift_shop",
-        "store",
-        "restaurant",
-        "food",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJmcBGT0ASK4cR8QooSw1pSn4",
-      "keyword": "museums visitor centers",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 3551,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4670863,
-          "lng": -112.0727721
-        }
-      }
-    },
-    {
-      "name": "Arizona Museum of Natural History",
-      "address": "53 N Macdonald, Mesa, AZ 85201, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJGcplxemnK4cRvhnQKCwAtXY",
-      "keyword": "museums visitor centers",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 4721,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4166023,
-          "lng": -111.83366269999999
-        }
-      }
-    },
-    {
       "name": "Dreamy Draw Recreation Area",
       "address": "2421 E Northern Ave, Phoenix, AZ 85020, USA",
       "rating": 4.7,
       "types": [
         "hiking_area",
         "tourist_attraction",
-        "sports_activity_location",
         "park",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ_____xgSK4cRYGb5rWrUGjk",
       "keyword": "parks recreation outdoor",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 921,
+      "user_ratings_total": 922,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -505,42 +486,14 @@
       }
     },
     {
-      "name": "Miel De Agave Phoenix",
-      "address": "705 N 1st St #110, Phoenix, AZ 85004, USA",
-      "rating": 4.7,
-      "types": [
-        "mexican_restaurant",
-        "steak_house",
-        "brunch_restaurant",
-        "seafood_restaurant",
-        "event_venue",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJv6MKWhYTK4cRqPu9jejTrg0",
-      "keyword": "restaurants",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 2785,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.455929,
-          "lng": -112.07210239999999
-        }
-      }
-    },
-    {
       "name": "Hole in the Rock",
       "address": "625 N Galvin Pkwy, Phoenix, AZ 85008, USA",
       "rating": 4.7,
       "types": [
         "hiking_area",
-        "tourist_attraction",
         "historical_landmark",
         "historical_place",
+        "tourist_attraction",
         "sports_activity_location",
         "park",
         "point_of_interest",
@@ -549,13 +502,36 @@
       "place_id": "ChIJdWuhyFEJK4cRLczqrQDbWAU",
       "keyword": "attractions",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 6402,
+      "user_ratings_total": 6410,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.4564869,
           "lng": -111.9452606
+        }
+      }
+    },
+    {
+      "name": "Arizona Museum of Natural History",
+      "address": "53 N Macdonald, Mesa, AZ 85201, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGcplxemnK4cRvhnQKCwAtXY",
+      "keyword": "museums",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 4726,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4166023,
+          "lng": -111.83366269999999
         }
       }
     },
@@ -588,56 +564,30 @@
       "rating": 4.6,
       "types": [
         "american_restaurant",
-        "coffee_shop",
         "vegan_restaurant",
+        "coffee_shop",
+        "brunch_restaurant",
         "vegetarian_restaurant",
         "breakfast_restaurant",
-        "brunch_restaurant",
         "cafe",
-        "bar",
         "food_store",
-        "store",
+        "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJawGHJfEMK4cRyNHA2-dfoPw",
       "keyword": "restaurants food dining",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 4433,
+      "user_ratings_total": 4437,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.5088363,
           "lng": -111.9841332
-        }
-      }
-    },
-    {
-      "name": "Chelsea\u2019s Kitchen",
-      "address": "5040 N 40th St, Phoenix, AZ 85018, USA",
-      "rating": 4.6,
-      "types": [
-        "american_restaurant",
-        "hamburger_restaurant",
-        "brunch_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJbTTqyvwMK4cRZ1KCvvgw7Nw",
-      "keyword": "restaurants food dining",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 3541,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.5111864,
-          "lng": -111.99559149999999
         }
       }
     },
@@ -657,35 +607,13 @@
       "place_id": "ChIJMwi19grD4xQR6CuvknZ-Peo",
       "keyword": "shopping retail stores",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 18864,
+      "user_ratings_total": 18874,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.502748,
           "lng": -111.92934070000001
-        }
-      }
-    },
-    {
-      "name": "Desert Ridge Marketplace",
-      "address": "21001 N Tatum Blvd, Phoenix, AZ 85050, USA",
-      "rating": 4.6,
-      "types": [
-        "shopping_mall",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ1d2SceBwK4cRND_CfkHy2qE",
-      "keyword": "shopping retail stores",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 11556,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.6762528,
-          "lng": -111.97307839999999
         }
       }
     },
@@ -704,36 +632,13 @@
       "place_id": "ChIJL04x7s8KK4cRJsuul6fyG_g",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 7046,
+      "user_ratings_total": 7051,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.554511399999996,
           "lng": -111.87619
-        }
-      }
-    },
-    {
-      "name": "Children\u2019s Museum of Phoenix",
-      "address": "215 N 7th St, Phoenix, AZ 85034, USA",
-      "rating": 4.6,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJdUwOBBwSK4cR54UxlSuXRRM",
-      "keyword": "museums visitor centers",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 5543,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4504029,
-          "lng": -112.06458239999999
         }
       }
     },
@@ -750,13 +655,107 @@
       "place_id": "ChIJB0ksyFMSK4cRjPkPrPJmn8I",
       "keyword": "parks recreation outdoor",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 6687,
+      "user_ratings_total": 6688,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 33.4742548,
           "lng": -112.08917849999999
+        }
+      }
+    },
+    {
+      "name": "Granada Park",
+      "address": "6505 N 20th St, Phoenix, AZ 85016, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvxfulk0NK4cRhDA-rw2L5zc",
+      "keyword": "parks recreation outdoor",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 1441,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.5325717,
+          "lng": -112.0363253
+        }
+      }
+    },
+    {
+      "name": "Children\u2019s Museum of Phoenix",
+      "address": "215 N 7th St, Phoenix, AZ 85034, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdUwOBBwSK4cR54UxlSuXRRM",
+      "keyword": "entertainment activities",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 5547,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4504029,
+          "lng": -112.06458239999999
+        }
+      }
+    },
+    {
+      "name": "National Car Rental",
+      "address": "1805 E Sky Harbor Cir S, Phoenix, AZ 85034, USA",
+      "rating": 4.6,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnUSdwB4OK4cRrL9XYxR88Ys",
+      "keyword": "car rental transportation",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 7077,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4326472,
+          "lng": -112.04397
+        }
+      }
+    },
+    {
+      "name": "Chelsea\u2019s Kitchen",
+      "address": "5040 N 40th St, Phoenix, AZ 85018, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "brunch_restaurant",
+        "hamburger_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbTTqyvwMK4cRZ1KCvvgw7Nw",
+      "keyword": "restaurants",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 3543,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.5111864,
+          "lng": -111.99559149999999
         }
       }
     }
@@ -770,19 +769,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Phoenix, Arizona. Experience the mysterious Phoenix Lights, a legendary event in which thousands of people witnessed a massive V-shaped UF",
+    "meta_description": "Explore ufo mysteries in Phoenix, Arizona. Witness the breathtaking spectacle of the Phoenix Lights, a rare and unforgettable experience that has been etched in lo",
     "title": "Ufo Mysteries in Phoenix, Arizona - Tours & Services",
-    "description": "Experience the mysterious Phoenix Lights, a legendary event in which thousands of people witnessed a massive V-shaped UFO in the sky. Visit Spirit of Arizona Tours for guided tours and learn more about this fascinating phenomenon.",
+    "description": "Witness the breathtaking spectacle of the Phoenix Lights, a rare and unforgettable experience that has been etched in local history. Explore the mysteries of this iconic event at Spirit of Arizona Tours.",
     "keywords": [
       "Phoenix Lights",
       "UFO sightings",
-      "mysterious events"
+      "mystery tours"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:00:31.171095"
+    "last_updated": "2025-07-25T10:45:46.118836"
   }
 }

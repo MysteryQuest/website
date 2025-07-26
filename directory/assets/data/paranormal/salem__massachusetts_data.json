@@ -1,7 +1,7 @@
 {
   "location_name": "Salem, Massachusetts",
   "category": "paranormal",
-  "timestamp": "20250722_120056",
+  "timestamp": "20250725_104607",
   "businesses": [
     {
       "name": "Witch City Walking Tours",
@@ -14,41 +14,13 @@
       "place_id": "ChIJ9_KdlBcV44kRrTbpvpJXeFk",
       "keyword": "things to do attractions tours",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 951,
+      "user_ratings_total": 957,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 42.5209707,
           "lng": -70.894617
-        }
-      }
-    },
-    {
-      "name": "Real Pirates Salem",
-      "address": "Charlotte Forten Park, 285 Derby St #5, Salem, MA 01970, USA",
-      "rating": 4.9,
-      "types": [
-        "museum",
-        "historical_landmark",
-        "amusement_center",
-        "tourist_attraction",
-        "gift_shop",
-        "historical_place",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJMZRo3mEV44kRYMznSi-ZmfE",
-      "keyword": "museums visitor centers",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 1817,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.519698999999996,
-          "lng": -70.8912048
         }
       }
     },
@@ -63,7 +35,7 @@
         "establishment"
       ],
       "place_id": "ChIJUeXGMLwV44kRNATuRHjygYc",
-      "keyword": "travel services tourism",
+      "keyword": "things to do attractions tours",
       "location": "Salem, Massachusetts",
       "user_ratings_total": 503,
       "price_level": null,
@@ -72,6 +44,34 @@
         "location": {
           "lat": 42.5205224,
           "lng": -70.89419869999999
+        }
+      }
+    },
+    {
+      "name": "Real Pirates Salem",
+      "address": "Charlotte Forten Park, 285 Derby St #5, Salem, MA 01970, USA",
+      "rating": 4.9,
+      "types": [
+        "museum",
+        "historical_landmark",
+        "historical_place",
+        "tourist_attraction",
+        "amusement_center",
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMZRo3mEV44kRYMznSi-ZmfE",
+      "keyword": "museums visitor centers",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 1822,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.519698999999996,
+          "lng": -70.8912048
         }
       }
     },
@@ -88,7 +88,7 @@
       "place_id": "ChIJYyEOoHsU44kR6b4DtlwrFrE",
       "keyword": "hotels accommodation lodging",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 933,
+      "user_ratings_total": 937,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -110,7 +110,7 @@
       "place_id": "ChIJ0Wj6DGUU44kRXhCZNXF-geM",
       "keyword": "museums visitor centers",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 4142,
+      "user_ratings_total": 4144,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -126,18 +126,18 @@
       "rating": 4.7,
       "types": [
         "state_park",
+        "tourist_attraction",
         "wildlife_refuge",
         "hiking_area",
-        "tourist_attraction",
         "fishing_pond",
-        "sports_activity_location",
         "park",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ1RRsiI5z44kRUfMgHDQYOBE",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 5391,
+      "user_ratings_total": 5394,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -152,8 +152,8 @@
       "address": "125 Washington St, Salem, MA 01970, USA",
       "rating": 4.6,
       "types": [
-        "american_restaurant",
         "bar",
+        "american_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -197,6 +197,32 @@
       }
     },
     {
+      "name": "Mercy Tavern",
+      "address": "148 Derby St, Salem, MA 01970, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "barbecue_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOd7deGgU44kRgjXVCLn0-bY",
+      "keyword": "restaurants food dining",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 1286,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.522081799999995,
+          "lng": -70.8857819
+        }
+      }
+    },
+    {
       "name": "Count Orlok's Nightmare Gallery Monster Museum",
       "address": "217 Essex St, Salem, MA 01970, USA",
       "rating": 4.6,
@@ -210,7 +236,7 @@
       "place_id": "ChIJr2HhRWQU44kR4hCbwLM_K_g",
       "keyword": "things to do attractions tours",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 918,
+      "user_ratings_total": 919,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -226,11 +252,11 @@
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "gift_shop",
         "historical_place",
-        "store",
-        "government_office",
         "museum",
+        "gift_shop",
+        "government_office",
+        "store",
         "point_of_interest",
         "establishment"
       ],
@@ -260,7 +286,7 @@
       "place_id": "ChIJ8SOn6owU44kRAVmQ_rvjfmE",
       "keyword": "parks recreation outdoor",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 775,
+      "user_ratings_total": 776,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -283,7 +309,7 @@
       "place_id": "ChIJw_Im7zAU44kRh5NjuwXNOQw",
       "keyword": "parks recreation outdoor",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 3669,
+      "user_ratings_total": 3672,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -306,40 +332,13 @@
       "place_id": "ChIJ25TaBjcU44kR9bsfijeT6iU",
       "keyword": "camping rv parks",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 1130,
+      "user_ratings_total": 1131,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 42.5278133,
           "lng": -70.8676783
-        }
-      }
-    },
-    {
-      "name": "Salisbury Beach State Reservation",
-      "address": "1 Beach Rd, Salisbury, MA 01952, USA",
-      "rating": 4.6,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "campground",
-        "park",
-        "lodging",
-        "sports_activity_location",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ7a86bFHn4okRlcv2qSekLIc",
-      "keyword": "camping rv parks",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 7149,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.8343182,
-          "lng": -70.8184189
         }
       }
     },
@@ -356,7 +355,7 @@
       "place_id": "ChIJo15HrGUU44kREi4broJXhBE",
       "keyword": "things to do",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 3000,
+      "user_ratings_total": 3005,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -372,8 +371,8 @@
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "community_center",
         "historical_place",
+        "community_center",
         "museum",
         "event_venue",
         "point_of_interest",
@@ -382,7 +381,7 @@
       "place_id": "ChIJYza_FmgU44kRoW-cra6Ow0Y",
       "keyword": "things to do",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 4507,
+      "user_ratings_total": 4511,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -398,17 +397,17 @@
       "rating": 4.6,
       "types": [
         "fast_food_restaurant",
-        "breakfast_restaurant",
         "catering_service",
+        "breakfast_restaurant",
         "food_delivery",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJF5RoWDt144kR08YEMOvBZS0",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2273,
+      "user_ratings_total": 2277,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -425,8 +424,8 @@
       "types": [
         "museum",
         "tourist_attraction",
-        "wedding_venue",
         "historical_landmark",
+        "wedding_venue",
         "historical_place",
         "event_venue",
         "point_of_interest",
@@ -434,7 +433,7 @@
       ],
       "place_id": "ChIJ2WUuLTY744kRaiaxfImWNsQ",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 2524,
+      "user_ratings_total": 2527,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -451,11 +450,11 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "event_venue",
         "lodging",
         "restaurant",
-        "point_of_interest",
         "food",
+        "event_venue",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJXVmVVm8U44kRX7zxpwqxuLs",
@@ -487,7 +486,7 @@
       "place_id": "ChIJi9vgiWYU44kROrAeXfkOn6o",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 3098,
+      "user_ratings_total": 3099,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -530,19 +529,19 @@
         "campground",
         "historical_landmark",
         "rv_park",
-        "public_bathroom",
         "wedding_venue",
-        "park",
+        "public_bathroom",
         "historical_place",
-        "lodging",
+        "park",
         "event_venue",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJVbkEUEgU44kR-Y9Vp_9e5S8",
       "keyword": "camping rv parks",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 806,
+      "user_ratings_total": 807,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -561,14 +560,14 @@
         "fitness_center",
         "gym",
         "grocery_store",
-        "clothing_store",
-        "sports_activity_location",
         "food_store",
-        "store",
         "health",
         "restaurant",
-        "point_of_interest",
         "food",
+        "clothing_store",
+        "sports_activity_location",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJpUwWPzwN44kR_lVTL7LqYbI",
@@ -590,13 +589,13 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJRaCm2Blx44kRvTr7drPALC4",
       "keyword": "nearby_store",
-      "user_ratings_total": 4367,
+      "user_ratings_total": 4370,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -613,8 +612,8 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJC4M4sSIS44kRw5BXF6-erk0",
@@ -637,43 +636,20 @@
         "grocery_store",
         "supermarket",
         "food_store",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ5fTzg69x44kRpMmXJIowALs",
       "keyword": "nearby_store",
-      "user_ratings_total": 5113,
+      "user_ratings_total": 5117,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 42.3964755,
           "lng": -71.0422492
-        }
-      }
-    },
-    {
-      "name": "Hampton Inn Salem Boston",
-      "address": "11 Dodge St, Salem, MA 01970, USA",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJM2QIqGQU44kR7G8fdJ2wqt4",
-      "keyword": "hotels accommodation lodging",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 815,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.5187063,
-          "lng": -70.89448
         }
       }
     },
@@ -691,7 +667,7 @@
       "place_id": "ChIJG0J0XWYU44kRYH0-R6Wu5Lc",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 2952,
+      "user_ratings_total": 2956,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -717,7 +693,7 @@
       "place_id": "ChIJM3EBMnsU44kRz7C1booV8rA",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 1775,
+      "user_ratings_total": 1779,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -739,13 +715,35 @@
       "place_id": "ChIJjVbzIyOq44kR0_j69xJt0Zs",
       "keyword": "shopping retail stores",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 1749,
+      "user_ratings_total": 1750,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 42.766610400000005,
           "lng": -71.2198604
+        }
+      }
+    },
+    {
+      "name": "Village Shoppes at Salem",
+      "address": "290 S Broadway, Salem, NH 03079, USA",
+      "rating": 4.4,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQb8L0h-q44kRE1XcHoRiY18",
+      "keyword": "shopping retail stores",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 1090,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.7576515,
+          "lng": -71.2136223
         }
       }
     }
@@ -772,6 +770,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:00:56.109534"
+    "last_updated": "2025-07-25T10:46:07.728542"
   }
 }

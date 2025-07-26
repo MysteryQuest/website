@@ -1,7 +1,7 @@
 {
   "location_name": "Moon Rice Drive, Seneca",
   "category": "historical",
-  "timestamp": "20250722_121132",
+  "timestamp": "20250725_105631",
   "businesses": [
     {
       "name": "The Escape Quest",
@@ -15,7 +15,7 @@
       "place_id": "ChIJRclabJXzWIgRLK_RJexdbrk",
       "keyword": "things to do attractions tours",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 672,
+      "user_ratings_total": 673,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -39,7 +39,7 @@
       "place_id": "ChIJE9xnPHX1WIgRAxMmNBbtA3g",
       "keyword": "shopping retail stores",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 613,
+      "user_ratings_total": 615,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -54,25 +54,25 @@
       "address": "170 Hackberry Ln, Seneca, SC 29678, USA",
       "rating": 4.9,
       "types": [
-        "ice_cream_shop",
         "botanical_garden",
-        "golf_course",
+        "ice_cream_shop",
+        "park",
         "dessert_shop",
         "confectionery",
-        "event_venue",
-        "athletic_field",
-        "sports_activity_location",
-        "park",
         "food_store",
-        "store",
-        "point_of_interest",
+        "golf_course",
+        "athletic_field",
         "food",
+        "sports_activity_location",
+        "event_venue",
+        "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ4UdUpBhfWIgRqR3fAXcTyew",
       "keyword": "entertainment activities",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 820,
+      "user_ratings_total": 822,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -83,39 +83,14 @@
       }
     },
     {
-      "name": "Hochstetler's Country Store",
-      "address": "1470 S Walnut St, Seneca, SC 29678, USA",
-      "rating": 4.8,
-      "types": [
-        "grocery_store",
-        "food_store",
-        "store",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ3xX3XzP1WIgR4gIJgXsSV1w",
-      "keyword": "shopping retail stores",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 715,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.6591242,
-          "lng": -82.9340756
-        }
-      }
-    },
-    {
       "name": "Oconee Station State Historic Site",
       "address": "500 Oconee Station Rd, Walhalla, SC 29691, USA",
       "rating": 4.8,
       "types": [
         "tourist_attraction",
         "state_park",
-        "park",
         "museum",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -133,54 +108,6 @@
       }
     },
     {
-      "name": "South Carolina Botanical Garden",
-      "address": "150 Discovery Ln, Clemson, SC 29634, USA",
-      "rating": 4.8,
-      "types": [
-        "botanical_garden",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJP1v1HOBdWIgR-8YIYyUJc3A",
-      "keyword": "things to do attractions tours",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 622,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.672276499999995,
-          "lng": -82.82124619999999
-        }
-      }
-    },
-    {
-      "name": "Dimas Brothers Cafe",
-      "address": "400 S Fairplay St, Seneca, SC 29678, USA",
-      "rating": 4.7,
-      "types": [
-        "cafe",
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJWVBn_3D1WIgRLKGuUmzxx4g",
-      "keyword": "restaurants food dining",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 962,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.678905799999995,
-          "lng": -82.95432890000001
-        }
-      }
-    },
-    {
       "name": "Oconee State Park",
       "address": "624 State Park Rd, Mountain Rest, SC 29664, USA",
       "rating": 4.7,
@@ -193,36 +120,13 @@
       "place_id": "ChIJd2kNBRXlWIgRr6KZ_ISuzwA",
       "keyword": "things to do attractions tours",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 1254,
+      "user_ratings_total": 1256,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 34.8686417,
           "lng": -83.1055466
-        }
-      }
-    },
-    {
-      "name": "The Smokin' Pig of Pendleton",
-      "address": "6630 Clemson Blvd, Pendleton, SC 29670, USA",
-      "rating": 4.7,
-      "types": [
-        "barbecue_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJZ7NxpaBnWIgRXNmT3Sny1CE",
-      "keyword": "nearby_restaurant",
-      "user_ratings_total": 2543,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.610189,
-          "lng": -82.76751999999999
         }
       }
     },
@@ -239,14 +143,38 @@
         "establishment"
       ],
       "place_id": "ChIJ--u9g7jsWIgRbKsm4l6aTKs",
-      "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 1136,
+      "keyword": "things to do attractions tours",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 1138,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 34.6812965,
           "lng": -83.1458455
+        }
+      }
+    },
+    {
+      "name": "The Smokin' Pig of Pendleton",
+      "address": "6630 Clemson Blvd, Pendleton, SC 29670, USA",
+      "rating": 4.7,
+      "types": [
+        "barbecue_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ7NxpaBnWIgRXNmT3Sny1CE",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 2545,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.610189,
+          "lng": -82.76751999999999
         }
       }
     },
@@ -262,13 +190,37 @@
       ],
       "place_id": "ChIJV1wSlMFXWIgRXNZaYIlOA3E",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 755,
+      "user_ratings_total": 757,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 34.8521332,
           "lng": -82.8828941
+        }
+      }
+    },
+    {
+      "name": "Paesano's Italian Restaurant",
+      "address": "1727 Blue Ridge Blvd, Seneca, SC 29672, USA",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJf4m_3YDzWIgR0DlCUi9BCx8",
+      "keyword": "restaurants food dining",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 1269,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.7099114,
+          "lng": -82.9952591
         }
       }
     },
@@ -285,7 +237,7 @@
       "place_id": "ChIJWwZejVz0WIgROM9pljOBs-Y",
       "keyword": "things to do attractions tours",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 1471,
+      "user_ratings_total": 1472,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -301,8 +253,8 @@
       "rating": 4.6,
       "types": [
         "park",
-        "campground",
         "playground",
+        "campground",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -321,30 +273,6 @@
       }
     },
     {
-      "name": "Paesano's Italian Restaurant",
-      "address": "1727 Blue Ridge Blvd, Seneca, SC 29672, USA",
-      "rating": 4.6,
-      "types": [
-        "italian_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJf4m_3YDzWIgR0DlCUi9BCx8",
-      "keyword": "restaurants",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 1269,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.7099114,
-          "lng": -82.9952591
-        }
-      }
-    },
-    {
       "name": "Twelve Mile Recreation Area",
       "address": "113 12 Mile Park Rd, Clemson, SC 29631, USA",
       "rating": 4.6,
@@ -356,7 +284,7 @@
       ],
       "place_id": "ChIJp_u4Vo5eWIgReGSgIKdnCF0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 617,
+      "user_ratings_total": 618,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -372,51 +300,27 @@
       "rating": 4.6,
       "types": [
         "supermarket",
-        "liquor_store",
-        "deli",
-        "market",
         "florist",
+        "deli",
+        "liquor_store",
         "bakery",
+        "market",
         "grocery_store",
         "food_store",
-        "store",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJJduq5dZdWIgRn8VCfqn5Llg",
       "keyword": "nearby_store",
-      "user_ratings_total": 1132,
+      "user_ratings_total": 1133,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 34.6858308,
           "lng": -82.8175251
-        }
-      }
-    },
-    {
-      "name": "Mayberry's-Seneca",
-      "address": "125 N Townville St, Seneca, SC 29678, USA",
-      "rating": 4.5,
-      "types": [
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJk1FYNWReWIgRykGKITR8lJ4",
-      "keyword": "restaurants food dining",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 653,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.6854918,
-          "lng": -82.9534599
         }
       }
     },
@@ -469,6 +373,28 @@
       }
     },
     {
+      "name": "Hartwell Village",
+      "address": "Clemson Blvd, Seneca, SC 29678, USA",
+      "rating": 4.4,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgcx341NeWIgRhmcpLT6k93k",
+      "keyword": "shopping retail stores",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 710,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.690565500000005,
+          "lng": -82.8592247
+        }
+      }
+    },
+    {
       "name": "The Lighthouse Restaurant",
       "address": "1290 State Rd S-37-15, Seneca, SC 29672, USA",
       "rating": 4.4,
@@ -480,8 +406,7 @@
         "establishment"
       ],
       "place_id": "ChIJd_yo6jr2WIgRGs_-jtmY5AQ",
-      "keyword": "restaurants food dining",
-      "location": "Seneca, Oconee County",
+      "keyword": "nearby_restaurant",
       "user_ratings_total": 1845,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
@@ -499,22 +424,22 @@
       "types": [
         "grocery_store",
         "gas_station",
-        "department_store",
-        "florist",
-        "supermarket",
         "deli",
-        "pharmacy",
+        "florist",
+        "department_store",
+        "supermarket",
         "bakery",
         "food_store",
+        "pharmacy",
         "health",
-        "store",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ6b12NQj1WIgReh5TUCIiTvE",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 2035,
+      "user_ratings_total": 2036,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -530,8 +455,8 @@
       "rating": 4.3,
       "types": [
         "hotel",
-        "resort_hotel",
         "extended_stay_hotel",
+        "resort_hotel",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -539,7 +464,7 @@
       "place_id": "ChIJBbSLfHFfWIgRaNUXBJ7xX7M",
       "keyword": "hotels accommodation lodging",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 628,
+      "user_ratings_total": 630,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -558,8 +483,8 @@
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJUTp8EeH0WIgRxob5vGvPdeY",
@@ -582,12 +507,12 @@
       "types": [
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ6yKSPfz0WIgRHhquv_RUTkM",
-      "keyword": "restaurants",
+      "keyword": "restaurants food dining",
       "location": "Seneca, Oconee County",
       "user_ratings_total": 1383,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
@@ -608,8 +533,8 @@
         "hardware_store",
         "furniture_store",
         "home_goods_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ1-kdlK1dWIgRsGam4zMSXZA",
@@ -631,16 +556,16 @@
       "types": [
         "grocery_store",
         "department_store",
-        "discount_store",
         "deli",
-        "market",
         "bakery",
+        "discount_store",
+        "market",
         "supermarket",
-        "food_store",
         "wholesaler",
-        "store",
-        "food",
+        "food_store",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJbV1MkTRcWIgRsI4v4z5mhBk",
@@ -667,7 +592,7 @@
       "place_id": "ChIJb-RwU5D0WIgR8BdnKIi3kEQ",
       "keyword": "shopping retail stores",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 728,
+      "user_ratings_total": 729,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -710,14 +635,14 @@
       "types": [
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJZ45B2Pv0WIgRqGc0cLucgNw",
       "keyword": "restaurants food dining",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 1839,
+      "user_ratings_total": 1841,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -752,6 +677,87 @@
           "lng": -82.99107699999999
         }
       }
+    },
+    {
+      "name": "Walmart Supercenter",
+      "address": "1286 18 Mile Rd, Central, SC 29630, USA",
+      "rating": 4.1,
+      "types": [
+        "department_store",
+        "hardware_store",
+        "bakery",
+        "electronics_store",
+        "furniture_store",
+        "clothing_store",
+        "sporting_goods_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "grocery_store",
+        "food_store",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJVT6wLOlcWIgRsZxZ6xwKnk0",
+      "keyword": "nearby_store",
+      "user_ratings_total": 3636,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.7056617,
+          "lng": -82.76218779999999
+        }
+      }
+    },
+    {
+      "name": "Southern Steakhouse",
+      "address": "1069 By Pass, US-123, Seneca, SC 29678, USA",
+      "rating": 4.4,
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJDfuFezz1WIgRIrEfXD7RZDM",
+      "keyword": "restaurants food dining",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 469,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.692714699999996,
+          "lng": -82.9788521
+        }
+      }
+    },
+    {
+      "name": "Strickland's",
+      "address": "620 E North 1st St, Seneca, SC 29678, USA",
+      "rating": 4.7,
+      "types": [
+        "breakfast_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ24tcnJr1WIgRT_BJcwD31ZA",
+      "keyword": "restaurants food dining",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 428,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.6877242,
+          "lng": -82.9445891
+        }
+      }
     }
   ],
   "events": [
@@ -763,19 +769,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Moon Rice Drive, Seneca. Explore the mysterious skies of Antelope Island, where a rare and unexplained event took place on June 20, 2025. Witness",
+    "meta_description": "Explore historical mysteries in Moon Rice Drive, Seneca. Experience the eerie atmosphere of Moon Rice Drive, Seneca, where a rare UAP (Unidentified Aerial Phenomenon) alien sigh",
     "title": "Historical Mysteries in Moon Rice Drive, Seneca - Tours & Services",
-    "description": "Explore the mysterious skies of Antelope Island, where a rare and unexplained event took place on June 20, 2025. Witness the eerie glow of a UFO cloud that seemed to defy explanation.",
+    "description": "Experience the eerie atmosphere of Moon Rice Drive, Seneca, where a rare UAP (Unidentified Aerial Phenomenon) alien sighting was witnessed on June 20, 2025. Visit The Escape Quest for thrilling adventures and explore the mysterious Oconee Station State Historic Site.",
     "keywords": [
       "ufo sightings",
       "alien encounters",
-      "space mysteries"
+      "mysterious events"
     ],
-    "category": "ufo"
+    "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:11:32.711221"
+    "last_updated": "2025-07-25T10:56:31.540606"
   }
 }

@@ -1,7 +1,7 @@
 {
   "location_name": "Sava, Hrvatska",
   "category": "historical",
-  "timestamp": "20250722_121112",
+  "timestamp": "20250725_105604",
   "businesses": [
     {
       "name": "Free Spirit Tours - Zagreb free tour and other tours",
@@ -16,13 +16,37 @@
       "place_id": "ChIJnzs0mvHXZUcRpoOXf1Az3yU",
       "keyword": "things to do attractions tours",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 4622,
+      "user_ratings_total": 4630,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 45.8128591,
           "lng": 15.9762902
+        }
+      }
+    },
+    {
+      "name": "Northern Velebit National Park",
+      "address": "Krasno 96, 53274, Krasno, Croatia",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJyzm6CKm4Y0cRciJZj4XCmbk",
+      "keyword": "parks recreation outdoor",
+      "location": "Sava, Hrvatska",
+      "user_ratings_total": 1579,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7656747,
+          "lng": 14.9440741
         }
       }
     },
@@ -39,36 +63,13 @@
       "place_id": "ChIJT7RtnR2hZEcRUn0XyH3uIvU",
       "keyword": "museums",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 886,
+      "user_ratings_total": 891,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 45.3281553,
           "lng": 14.4453036
-        }
-      }
-    },
-    {
-      "name": "Sundial Boutique Hotel",
-      "address": "Remetine\u010dka cesta 101, 10000, Zagreb, Croatia",
-      "rating": 4.8,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ8ct52i7UZUcRM96_3E2VlvI",
-      "keyword": "hotels accommodation lodging",
-      "location": "Sava, Hrvatska",
-      "user_ratings_total": 611,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.7734781,
-          "lng": 15.9531301
         }
       }
     },
@@ -107,7 +108,7 @@
       "place_id": "ChIJDeBolRCRYUcR5CjZvSE3lrI",
       "keyword": "parks recreation outdoor",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 6141,
+      "user_ratings_total": 6150,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -118,26 +119,25 @@
       }
     },
     {
-      "name": "Old Town of Herceg Novi",
-      "address": "FG2Q+C29, Herceg Novi, Montenegro",
+      "name": "Belgrade Fortress",
+      "address": "Belgrade, Serbia",
       "rating": 4.8,
       "types": [
         "tourist_attraction",
-        "historical_landmark",
         "historical_place",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJz-2vrHE7TBMRVyOo6nx2jL4",
+      "place_id": "ChIJUyxcAUllWkcRstJIPZ95CxY",
       "keyword": "things to do",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 10400,
+      "user_ratings_total": 48828,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 42.4510308,
-          "lng": 18.537597200000004
+          "lat": 44.824118399999996,
+          "lng": 20.450191999999998
         }
       }
     },
@@ -147,15 +147,15 @@
       "rating": 4.7,
       "types": [
         "coffee_shop",
+        "cafe",
         "catering_service",
         "food_delivery",
-        "cafe",
-        "food_store",
         "event_venue",
-        "store",
+        "food_store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJzyzrOn13ZkcRhFK-lYLIkzI",
@@ -178,14 +178,14 @@
       "types": [
         "steak_house",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJDeCRXIvWZUcRw1xHeIm3mFc",
       "keyword": "restaurants food dining",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 3920,
+      "user_ratings_total": 3924,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -230,39 +230,13 @@
       "place_id": "ChIJyRZk3W3WZUcRVOaWasmocD8",
       "keyword": "things to do attractions tours",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 16007,
+      "user_ratings_total": 16013,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 45.785989099999995,
           "lng": 15.984468099999997
-        }
-      }
-    },
-    {
-      "name": "Medora Orbis Camping & Glamping",
-      "address": "Put Sv. Vicenca bb, 21327, Podgora, Croatia",
-      "rating": 4.7,
-      "types": [
-        "campground",
-        "hotel",
-        "childrens_camp",
-        "park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJkT1y3mnwShMRCn1OpBoEDL8",
-      "keyword": "camping rv parks",
-      "location": "Sava, Hrvatska",
-      "user_ratings_total": 1071,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 43.2338879,
-          "lng": 17.0787651
         }
       }
     },
@@ -278,7 +252,7 @@
       "place_id": "ChIJSTznzYTWZUcRCvjCM_Xv1Ko",
       "keyword": "attractions",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 989,
+      "user_ratings_total": 990,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -301,13 +275,35 @@
       "place_id": "ChIJm7FGJZ7tZUcRmAOCgcT8J2o",
       "keyword": "museums",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 6236,
+      "user_ratings_total": 6242,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 46.1646599,
           "lng": 15.8637781
+        }
+      }
+    },
+    {
+      "name": "City Museum of Rijeka \u2013 Sugar Refinery Palace",
+      "address": "Kre\u0161imirova ul. 28, 51000, Rijeka, Croatia",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKbyE3x2hZEcRA5Fp6p6D5eQ",
+      "keyword": "museums",
+      "location": "Sava, Hrvatska",
+      "user_ratings_total": 656,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.330558499999995,
+          "lng": 14.431315599999998
         }
       }
     },
@@ -345,7 +341,7 @@
       ],
       "place_id": "ChIJW1A2hCdcZ0cRESpPWXw679M",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1286,
+      "user_ratings_total": 1287,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -364,14 +360,14 @@
         "meal_takeaway",
         "parking",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJLUzHjZvWZUcRJ83jQ-gYvT0",
       "keyword": "restaurants food dining",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 4753,
+      "user_ratings_total": 4754,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -387,8 +383,8 @@
       "rating": 4.6,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJNzP4WRppXEcRWTaKdjOtl50",
@@ -412,47 +408,20 @@
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJyQpbUGSe-4gReydRVhkCbKc",
       "keyword": "restaurants food dining",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 9373,
+      "user_ratings_total": 9385,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 32.079614899999996,
           "lng": -81.0898033
-        }
-      }
-    },
-    {
-      "name": "River pub",
-      "address": "Jarunska ul. 5, 10000, Zagreb, Croatia",
-      "rating": 4.6,
-      "types": [
-        "restaurant",
-        "wedding_venue",
-        "pub",
-        "bar",
-        "event_venue",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJewGg4Z_XZUcR2ayGnQ8cIRY",
-      "keyword": "restaurants food dining",
-      "location": "Sava, Hrvatska",
-      "user_ratings_total": 1069,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.7837597,
-          "lng": 15.948563199999997
         }
       }
     },
@@ -471,7 +440,7 @@
       "place_id": "ChIJ6ztjSHue-4gRJcOrnnNpBjY",
       "keyword": "shopping retail stores",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 2644,
+      "user_ratings_total": 2646,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -487,16 +456,16 @@
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "tourist_attraction",
         "landmark",
         "historical_place",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJK01dK-t7e0cRBP319j2HZ8E",
       "keyword": "things to do attractions tours",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 2462,
+      "user_ratings_total": 2473,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -511,8 +480,8 @@
       "address": "Turanj 2, 47000, Karlovac, Croatia",
       "rating": 4.6,
       "types": [
-        "cultural_landmark",
         "historical_landmark",
+        "cultural_landmark",
         "historical_place",
         "museum",
         "point_of_interest",
@@ -521,7 +490,7 @@
       "place_id": "ChIJrSB4Lpk9ZEcRhYsRaRikBK0",
       "keyword": "museums visitor centers",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 3661,
+      "user_ratings_total": 3664,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -544,7 +513,7 @@
       "place_id": "ChIJRXfrt-qwVUcR_qbonreWHU0",
       "keyword": "parks recreation outdoor",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 10826,
+      "user_ratings_total": 10830,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -568,7 +537,7 @@
       "place_id": "ChIJcWkW-3bVZUcRHxL6RFiKt7Y",
       "keyword": "parks recreation outdoor",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 1398,
+      "user_ratings_total": 1399,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -579,26 +548,27 @@
       }
     },
     {
-      "name": "Camp Vransko Lake Crkvine",
-      "address": "Crkvine 2, 23211, Pako\u0161tane, Croatia",
+      "name": "Driftaway Cafe",
+      "address": "7400 Skidaway Rd D, Savannah, GA 31406, USA",
       "rating": 4.6,
       "types": [
-        "campground",
-        "park",
-        "lodging",
+        "seafood_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJzddxq6_MNBMRYQHIOf_tS2A",
-      "keyword": "camping rv parks",
+      "place_id": "ChIJY3DZuYJ2-4gRNb4y_x2GoNU",
+      "keyword": "restaurants",
       "location": "Sava, Hrvatska",
-      "user_ratings_total": 1074,
-      "price_level": null,
+      "user_ratings_total": 2333,
+      "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 43.9304765,
-          "lng": 15.509645899999997
+          "lat": 31.985331699999996,
+          "lng": -81.07341699999999
         }
       }
     },
@@ -680,13 +650,13 @@
         "restaurant",
         "motel",
         "lodging",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJx15Cp0NbZ0cRiLfYuAO-NOM",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 504,
+      "user_ratings_total": 505,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -719,6 +689,32 @@
           "lng": 17.3112448
         }
       }
+    },
+    {
+      "name": "Tanger Outlets Savannah",
+      "address": "200 Tanger Outlets Blvd, Pooler, GA 31322, USA",
+      "rating": 4.5,
+      "types": [
+        "shopping_mall",
+        "shoe_store",
+        "home_goods_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJza37Jk-h-4gR4qsN9Ps8neQ",
+      "keyword": "shopping retail stores",
+      "location": "Sava, Hrvatska",
+      "user_ratings_total": 10797,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.1346497,
+          "lng": -81.2432264
+        }
+      }
     }
   ],
   "events": [
@@ -730,19 +726,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Sava, Hrvatska. Explore the mysterious Sava River, where numerous reports of UFO sightings have been documented over the years. Visit th",
+    "meta_description": "Explore historical mysteries in Sava, Hrvatska. Explore the mysterious history of Sava, Hrvatska, from ancient civilizations to modern-day legends. Visit historical sit",
     "title": "Historical Mysteries in Sava, Hrvatska - Tours & Services",
-    "description": "Explore the mysterious Sava River, where numerous reports of UFO sightings have been documented over the years. Visit the Think Your Student Can Pass an AI Literacy Test? exhibit at the PEEK&POKE Computer Museum to learn more about the phenomenon.",
+    "description": "Explore the mysterious history of Sava, Hrvatska, from ancient civilizations to modern-day legends. Visit historical sites like the Paklenica National Park and Northern Velebit National Park, and uncover secrets hidden in the region.",
     "keywords": [
-      "ufo tours",
-      "alien encounters",
-      "space museums"
+      "Sava",
+      "Hrvatska",
+      "historical landmarks",
+      "mysterious past"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:11:12.199649"
+    "last_updated": "2025-07-25T10:56:04.831342"
   }
 }

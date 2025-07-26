@@ -208,15 +208,37 @@
                 
                 console.log('✅ Base map created');
                 
-                // Add markers for events
+                // Create custom icons for different marker types
+                const businessIcon = L.icon({
+                    iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA5QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjNjNBNEZGIi8+Cjwvc3ZnPgo=',
+                    iconSize: [25, 35],
+                    iconAnchor: [12, 35],
+                    popupAnchor: [1, -34]
+                });
+                
+                const sightingIcon = L.icon({
+                    iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA5QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjREMxNDE0Ii8+Cjwvc3ZnPgo=',
+                    iconSize: [25, 35],
+                    iconAnchor: [12, 35],
+                    popupAnchor: [1, -34]
+                });
+                
+                const locationIcon = L.icon({
+                    iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA5QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2QjM1Ii8+Cjwvc3ZnPgo=',
+                    iconSize: [30, 40],
+                    iconAnchor: [15, 40],
+                    popupAnchor: [1, -34]
+                });
+                
+                // Add markers for events with dark red color
                 LOCATION_DATA.events.forEach((event, index) => {
                     console.log(`📍 Processing event ${index + 1}:`, event);
                     
                     if (event.coordinates && Array.isArray(event.coordinates) && event.coordinates.length === 2) {
-                        const marker = L.marker(event.coordinates).addTo(locationSightingsMap);
+                        const marker = L.marker(event.coordinates, {icon: sightingIcon}).addTo(locationSightingsMap);
                         marker.bindPopup(`
                             <div class="sighting-popup">
-                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <h6 style="color: #DC1414; font-weight: bold;">${event.name || 'Unknown Event'}</h6>
                                 <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
                                 <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
                             </div>
@@ -224,10 +246,10 @@
                         console.log(`✅ Added event marker: ${event.name}`);
                     } else if (LOCATION_DATA.coordinates) {
                         // If event has no coordinates, place it at the general location
-                        const marker = L.marker(LOCATION_DATA.coordinates).addTo(locationSightingsMap);
+                        const marker = L.marker(LOCATION_DATA.coordinates, {icon: sightingIcon}).addTo(locationSightingsMap);
                         marker.bindPopup(`
                             <div class="sighting-popup">
-                                <h6>${event.name || 'Unknown Event'}</h6>
+                                <h6 style="color: #DC1414; font-weight: bold;">${event.name || 'Unknown Event'}</h6>
                                 <p><strong>Type:</strong> ${event.event_type || event.type || 'Unknown'}</p>
                                 <p><strong>Description:</strong> ${(event.description || 'No description available').substring(0, 200)}${event.description && event.description.length > 200 ? '...' : ''}</p>
                                 <p><em>General location</em></p>
@@ -237,7 +259,7 @@
                     }
                 });
                 
-                // Add businesses to the map
+                // Add businesses to the map with light blue color
                 LOCATION_DATA.businesses.forEach((business, index) => {
                     console.log(`🏢 Processing business ${index + 1}:`, business);
                     
@@ -245,13 +267,19 @@
                     const location = geometry.location || {};
                     
                     if (location.lat && location.lng) {
-                        const businessMarker = L.marker([location.lat, location.lng]).addTo(locationSightingsMap);
+                        const businessMarker = L.marker([location.lat, location.lng], {icon: businessIcon}).addTo(locationSightingsMap);
+                        
+                        const websiteLink = business.website ? 
+                            `<p><a href="${business.website}" target="_blank" style="color: #63A4FF; text-decoration: none;">🔗 Visit Website</a></p>` : '';
+                        
                         businessMarker.bindPopup(`
                             <div class="business-popup">
-                                <h6>${business.name || 'Unknown Business'}</h6>
+                                <h6 style="color: #63A4FF; font-weight: bold;">${business.name || 'Unknown Business'}</h6>
                                 <p><strong>Type:</strong> ${business.keyword || business.types?.[0] || 'Service'}</p>
                                 <p><strong>Address:</strong> ${business.address || business.formatted_address || 'No address available'}</p>
-                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
+                                ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5 ⭐</p>` : ''}
+                                ${business.phone ? `<p><strong>Phone:</strong> ${business.phone}</p>` : ''}
+                                ${websiteLink}
                             </div>
                         `);
                         console.log(`✅ Added business marker: ${business.name}`);
@@ -260,18 +288,11 @@
                 
                 // If we have coordinates, add a general location marker
                 if (LOCATION_DATA.coordinates) {
-                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {
-                        icon: L.icon({
-                            iconUrl: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDOC4xMyAyIDUgNS4xMyA1IDlDNSAxNC4yNSAxMiAyMiAxMiAyMkMxMiAyMiAxOSAxNC4yNSAxOSA5QzE5IDUuMTMgMTUuODcgMiAxMiAyWk0xMiAxMS41QzEwLjYyIDExLjUgOS41IDEwLjM4IDkuNSA9QzkuNSA3LjYyIDEwLjYyIDYuNSAxMiA2LjVDMTMuMzggNi41IDE0LjUgNy42MiAxNC41IDlDMTQuNSAxMC4zOCAxMy4zOCAxMS41IDEyIDExLjVaIiBmaWxsPSIjRkY2B0E0Ii8+Cjwvc3ZnPgo=',
-                            iconSize: [30, 30],
-                            iconAnchor: [15, 30],
-                            popupAnchor: [1, -34]
-                        })
-                    }).addTo(locationSightingsMap);
+                    const locationMarker = L.marker(LOCATION_DATA.coordinates, {icon: locationIcon}).addTo(locationSightingsMap);
                     
                     locationMarker.bindPopup(`
                         <div class="location-popup">
-                            <h6>${LOCATION_DATA.name}</h6>
+                            <h6 style="color: #FF6B35; font-weight: bold;">${LOCATION_DATA.name}</h6>
                             <p><strong>Category:</strong> ${LOCATION_DATA.category.toUpperCase()}</p>
                             <p><strong>Reports:</strong> ${LOCATION_DATA.events.length}</p>
                             <p><strong>Services:</strong> ${LOCATION_DATA.businesses.length}</p>
@@ -316,7 +337,7 @@
                     <div class="event-item mb-3 p-3 border rounded">
                         <div class="event-header d-flex justify-content-between align-items-start mb-2">
                             <h6 class="event-name mb-0">${eventName}</h6>
-                            <span class="badge bg-primary event-type">${eventType}</span>
+                            <span class="badge bg-danger event-type">${eventType}</span>
                         </div>
                         <p class="event-description mb-2">${eventDescription.substring(0, 150)}${eventDescription.length > 150 ? '...' : ''}</p>
                         <small class="event-date text-muted">${eventDate}</small>
@@ -355,16 +376,31 @@
                 const businessName = business.name || 'Unknown Business';
                 const businessType = business.keyword || (business.types && business.types[0]) || 'Service';
                 
+                // Create website link with proper styling
+                const websiteButton = business.website ? 
+                    `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link me-2" style="border-color: #63A4FF; color: #63A4FF;">
+                        🔗 Visit Website
+                    </a>` : '';
+                
+                // Create phone link if available
+                const phoneButton = business.phone ? 
+                    `<a href="tel:${business.phone}" class="btn btn-sm btn-outline-secondary phone-link">
+                        📞 Call
+                    </a>` : '';
+                
                 return `
-                    <div class="business-card mb-3 p-3 border rounded">
+                    <div class="business-card mb-3 p-3 border rounded" style="border-left: 4px solid #63A4FF;">
                         <div class="business-header d-flex justify-content-between align-items-start mb-2">
-                            <h5 class="business-name mb-0">${businessName}</h5>
+                            <h5 class="business-name mb-0" style="color: #63A4FF;">${businessName}</h5>
                             ${rating}
                         </div>
                         <p class="business-type text-muted mb-2">${businessType}</p>
-                        ${address ? `<p class="address mb-2"><small>${address}</small></p>` : ''}
-                        ${business.website ? `<a href="${business.website}" target="_blank" class="btn btn-sm btn-outline-primary business-link">Visit Website</a>` : ''}
-                        ${business.phone ? `<p class="phone mb-0"><small>📞 ${business.phone}</small></p>` : ''}
+                        ${address ? `<p class="address mb-2"><small><i class="fas fa-map-marker-alt"></i> ${address}</small></p>` : ''}
+                        ${business.phone ? `<p class="phone mb-2"><small><i class="fas fa-phone"></i> ${business.phone}</small></p>` : ''}
+                        <div class="business-actions mt-3">
+                            ${websiteButton}
+                            ${phoneButton}
+                        </div>
                     </div>
                 `;
             }).join('');
@@ -428,11 +464,11 @@
                 const eventDescription = event.description || 'No description available';
                 
                 return `
-                    <div class="report-card mb-4 p-4 border rounded">
+                    <div class="report-card mb-4 p-4 border rounded" style="border-left: 4px solid #DC1414;">
                         <div class="report-header mb-3">
-                            <h5 class="report-title">${eventName}</h5>
+                            <h5 class="report-title" style="color: #DC1414;">${eventName}</h5>
                             <div class="report-meta">
-                                <span class="badge bg-secondary me-2">${eventType}</span>
+                                <span class="badge bg-danger me-2">${eventType}</span>
                                 <span class="text-muted">${eventDate}</span>
                             </div>
                         </div>

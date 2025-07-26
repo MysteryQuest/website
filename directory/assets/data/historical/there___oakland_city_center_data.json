@@ -1,7 +1,7 @@
 {
   "location_name": "There!, Oakland City Center",
   "category": "historical",
-  "timestamp": "20250722_121313",
+  "timestamp": "20250725_105817",
   "businesses": [
     {
       "name": "Oakland Temple Visitors' Center",
@@ -20,7 +20,7 @@
       "place_id": "ChIJ1_MnpLeHj4ARGEK0TWqDoD4",
       "keyword": "museums visitor centers",
       "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 1110,
+      "user_ratings_total": 1111,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -64,9 +64,9 @@
         "establishment"
       ],
       "place_id": "ChIJpWOH5tWHj4ARSdxsJ0uiqe0",
-      "keyword": "camping rv parks",
+      "keyword": "parks recreation outdoor",
       "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 889,
+      "user_ratings_total": 891,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -77,19 +77,40 @@
       }
     },
     {
+      "name": "Bubble Planet: An Immersive Experience - Oakland",
+      "address": "10 10th St, Oakland, CA 94607, USA",
+      "rating": 4.8,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs7AKWumHj4ARGydscLRhMKI",
+      "keyword": "entertainment activities",
+      "location": "Oakland City Center, Downtown Oakland",
+      "user_ratings_total": 1618,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.797787,
+          "lng": -122.26149
+        }
+      }
+    },
+    {
       "name": "Golden Gate Bridge",
       "address": "Golden Gate Brg, San Francisco, CA, USA",
       "rating": 4.8,
       "types": [
-        "tourist_attraction",
         "historical_landmark",
         "historical_place",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJw____96GhYARCVVwg5cT7c0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 82436,
+      "user_ratings_total": 82494,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -106,8 +127,8 @@
       "types": [
         "museum",
         "garden",
-        "park",
         "cafe",
+        "park",
         "food",
         "point_of_interest",
         "establishment"
@@ -115,7 +136,7 @@
       "place_id": "ChIJD9KbIzWHj4AR1Mp5x7ZVBWs",
       "keyword": "things to do attractions tours",
       "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 3478,
+      "user_ratings_total": 3480,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -163,7 +184,7 @@
       ],
       "place_id": "ChIJ_T25cNd_j4ARehGmHe0pT84",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 30210,
+      "user_ratings_total": 30237,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -179,14 +200,14 @@
       "rating": 4.7,
       "types": [
         "park",
-        "tourist_attraction",
         "garden",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJY_dFYHKHhYARMKc772iLvnE",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 42944,
+      "user_ratings_total": 42967,
       "price_level": "PRICE_LEVEL_FREE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -197,22 +218,71 @@
       }
     },
     {
+      "name": "Temescal Regional Recreation Area",
+      "address": "6500 Broadway, Oakland, CA 94618, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnZjC6pl9hYARrekcAH6CTP4",
+      "keyword": "parks recreation outdoor",
+      "location": "Oakland City Center, Downtown Oakland",
+      "user_ratings_total": 1312,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.847859299999996,
+          "lng": -122.233447
+        }
+      }
+    },
+    {
+      "name": "MAMA Oakland",
+      "address": "388 Grand Ave, Oakland, CA 94610, USA",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "wine_bar",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJP3byt5iHj4ARj2K4nYYLMco",
+      "keyword": "restaurants",
+      "location": "Oakland City Center, Downtown Oakland",
+      "user_ratings_total": 533,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.8090835,
+          "lng": -122.25451029999999
+        }
+      }
+    },
+    {
       "name": "In-N-Out Burger",
       "address": "555 Willie Stargell Ave, Alameda, CA 94501, USA",
       "rating": 4.6,
       "types": [
         "hamburger_restaurant",
-        "fast_food_restaurant",
         "diner",
+        "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ8fUUctqAj4ARKbAfWkBEU8Q",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 4021,
+      "user_ratings_total": 4029,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -228,16 +298,16 @@
       "rating": 4.6,
       "types": [
         "tourist_attraction",
-        "shopping_mall",
         "historical_landmark",
         "historical_place",
+        "shopping_mall",
         "marina",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJHSGzi_yAhYARnrPmDWAx9ro",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 131283,
+      "user_ratings_total": 131352,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -253,18 +323,18 @@
       "rating": 4.6,
       "types": [
         "historical_landmark",
-        "market",
         "historical_place",
+        "market",
         "grocery_store",
         "food_store",
-        "store",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJWTGPjmaAhYARxz6l1hOj92w",
       "keyword": "nearby_store",
-      "user_ratings_total": 35703,
+      "user_ratings_total": 35735,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -282,14 +352,14 @@
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJFbAoCLiAj4AR5PvBifjo6vg",
       "keyword": "restaurants food dining",
       "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 1323,
+      "user_ratings_total": 1324,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -300,41 +370,16 @@
       }
     },
     {
-      "name": "Brotzeit Lokal",
-      "address": "1000 Embarcadero, Oakland, CA 94606, USA",
-      "rating": 4.5,
-      "types": [
-        "brunch_restaurant",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ6TOJJyaHj4ARR5WoSytkThY",
-      "keyword": "restaurants food dining",
-      "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 1491,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 37.787730599999996,
-          "lng": -122.2540222
-        }
-      }
-    },
-    {
       "name": "Jack London Square",
       "address": "472 Water St, Oakland, CA 94607, USA",
       "rating": 4.5,
       "types": [
         "marina",
+        "hotel",
         "community_center",
         "apartment_complex",
-        "hotel",
-        "lodging",
         "event_venue",
+        "lodging",
         "restaurant",
         "food",
         "point_of_interest",
@@ -343,13 +388,36 @@
       "place_id": "ChIJh4bticiAj4ARWq51mwQd95E",
       "keyword": "things to do attractions tours",
       "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 7444,
+      "user_ratings_total": 7446,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 37.7938992,
           "lng": -122.27706320000001
+        }
+      }
+    },
+    {
+      "name": "Dimond Park",
+      "address": "3860 Hanly Rd, Oakland, CA 94602, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVxwEKamHj4ARstmb8KaGdOQ",
+      "keyword": "parks recreation outdoor",
+      "location": "Oakland City Center, Downtown Oakland",
+      "user_ratings_total": 1165,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.8053434,
+          "lng": -122.2152264
         }
       }
     },
@@ -367,7 +435,7 @@
       ],
       "place_id": "ChIJN2S4EI2AhYAR9J4Qeh1U8Aw",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 6968,
+      "user_ratings_total": 6972,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -385,13 +453,13 @@
         "pizza_restaurant",
         "italian_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJHXHcEvGAhYARQPuHNN78s78",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 9060,
+      "user_ratings_total": 9070,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -412,7 +480,7 @@
       ],
       "place_id": "ChIJcT8ml-d4hYARF8jIrym3ILc",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 761,
+      "user_ratings_total": 764,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -433,7 +501,7 @@
       ],
       "place_id": "ChIJfy7bemSFj4ARzsPf08OcMjc",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 925,
+      "user_ratings_total": 926,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -449,19 +517,19 @@
       "rating": 4.5,
       "types": [
         "chocolate_shop",
-        "ice_cream_shop",
         "candy_store",
+        "ice_cream_shop",
         "dessert_shop",
         "confectionery",
         "food_store",
-        "store",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJvXl2weCAhYARjSxnhzrBfNc",
       "keyword": "nearby_store",
-      "user_ratings_total": 28558,
+      "user_ratings_total": 28571,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -480,20 +548,71 @@
         "event_venue",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJc5ERRVOHj4ARu2mIe7m3x-E",
       "keyword": "restaurants food dining",
       "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 1707,
+      "user_ratings_total": 1706,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 37.8141056,
           "lng": -122.26454170000001
+        }
+      }
+    },
+    {
+      "name": "Agave Uptown",
+      "address": "2135 Franklin St, Oakland, CA 94612, USA",
+      "rating": 4.4,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJOZEUFa2Aj4ARwzs6znz4YZk",
+      "keyword": "restaurants food dining",
+      "location": "Oakland City Center, Downtown Oakland",
+      "user_ratings_total": 982,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.8107019,
+          "lng": -122.2669054
+        }
+      }
+    },
+    {
+      "name": "Chabot Space & Science Center",
+      "address": "10000 Skyline Blvd, Oakland, CA 94619, USA",
+      "rating": 4.5,
+      "types": [
+        "planetarium",
+        "observation_deck",
+        "wedding_venue",
+        "tourist_attraction",
+        "event_venue",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMyjumCuGj4ARA0zS-YtL_tU",
+      "keyword": "things to do attractions tours",
+      "location": "Oakland City Center, Downtown Oakland",
+      "user_ratings_total": 490,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 37.8187474,
+          "lng": -122.18072169999999
         }
       }
     },
@@ -524,34 +643,6 @@
       }
     },
     {
-      "name": "Portal",
-      "address": "1611 2nd Ave, Oakland, CA 94606, USA",
-      "rating": 4.4,
-      "types": [
-        "brunch_restaurant",
-        "hamburger_restaurant",
-        "breakfast_restaurant",
-        "bar",
-        "american_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ3Q_0UDeHj4ARf1lF1WZa6BI",
-      "keyword": "restaurants",
-      "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 1401,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 37.7993577,
-          "lng": -122.25455899999999
-        }
-      }
-    },
-    {
       "name": "Hyatt Regency San Francisco",
       "address": "5 Embarcadero Ctr, San Francisco, CA 94111, USA",
       "rating": 4.4,
@@ -563,7 +654,7 @@
       ],
       "place_id": "ChIJX2AfTWGAhYARK51ADFAMZoQ",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 7001,
+      "user_ratings_total": 7003,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -580,20 +671,20 @@
       "types": [
         "american_restaurant",
         "coffee_shop",
-        "breakfast_restaurant",
         "cafe",
+        "meal_takeaway",
+        "breakfast_restaurant",
         "bar",
         "food_store",
-        "meal_takeaway",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
       "place_id": "ChIJiZyN7IeAhYARnCn-G6GH73Q",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 4561,
+      "user_ratings_total": 4563,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -609,14 +700,14 @@
       "rating": 4.4,
       "types": [
         "historical_landmark",
-        "tourist_attraction",
         "historical_place",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJuX92JKWAhYARxVmeb8DQIYQ",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 26284,
+      "user_ratings_total": 26306,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -633,121 +724,19 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJC2juwih-j4ARvLq4f6Oyeuc",
       "keyword": "nearby_store",
-      "user_ratings_total": 7311,
+      "user_ratings_total": 7314,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 37.7703137,
           "lng": -122.41092400000001
-        }
-      }
-    },
-    {
-      "name": "Costco Wholesale",
-      "address": "4801 Central Ave, Richmond, CA 94804, USA",
-      "rating": 4.4,
-      "types": [
-        "warehouse_store",
-        "department_store",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJcT8ml-d4hYARcuL5aed2-ao",
-      "keyword": "nearby_store",
-      "user_ratings_total": 6334,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 37.898750299999996,
-          "lng": -122.3202972
-        }
-      }
-    },
-    {
-      "name": "Chabot Space & Science Center",
-      "address": "10000 Skyline Blvd, Oakland, CA 94619, USA",
-      "rating": 4.5,
-      "types": [
-        "observation_deck",
-        "planetarium",
-        "tourist_attraction",
-        "wedding_venue",
-        "museum",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJMyjumCuGj4ARA0zS-YtL_tU",
-      "keyword": "things to do attractions tours",
-      "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 489,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 37.8187474,
-          "lng": -122.18072169999999
-        }
-      }
-    },
-    {
-      "name": "Buttercup",
-      "address": "229 Broadway, Oakland, CA 94607, USA",
-      "rating": 4.3,
-      "types": [
-        "diner",
-        "breakfast_restaurant",
-        "american_restaurant",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJv8B_A8iAj4ARIGwgJlPLnks",
-      "keyword": "restaurants food dining",
-      "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 2846,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 37.79658,
-          "lng": -122.27644679999997
-        }
-      }
-    },
-    {
-      "name": "De Fremery Park",
-      "address": "1651 Adeline St, Oakland, CA 94607, USA",
-      "rating": 4.3,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "playground",
-        "sports_activity_location",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ95wKEqCAj4ARo8x3GrzGs_Y",
-      "keyword": "parks recreation outdoor",
-      "location": "Oakland City Center, Downtown Oakland",
-      "user_ratings_total": 599,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 37.812239,
-          "lng": -122.2868316
         }
       }
     }
@@ -780,6 +769,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-22T12:13:13.445119"
+    "last_updated": "2025-07-25T10:58:17.062348"
   }
 }

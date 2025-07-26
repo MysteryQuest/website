@@ -1,10 +1,35 @@
 {
   "location_name": "Avenida de Gran Breta\u00f1a, El Carrascal",
   "category": "ufo",
-  "timestamp": "20250722_121514",
+  "timestamp": "20250725_110005",
   "businesses": [
     {
-      "name": "Hotel Grande Bretagne, a Luxury Collection Hotel, Athens",
+      "name": "The English Grill",
+      "address": "39 Buckingham Palace Rd, London SW1W 0PS, UK",
+      "rating": 4.9,
+      "types": [
+        "fine_dining_restaurant",
+        "steak_house",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJRUu52yAFdkgRT8l9ZN4Cs6M",
+      "keyword": "restaurants food dining",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 912,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.498245,
+          "lng": -0.1434644
+        }
+      }
+    },
+    {
+      "name": "Hotel Grande Bretagne, a Luxury Collection Hotel",
       "address": "1 Vasileos Georgiou A, Syntagma Square Str, Athina 105 64, Greece",
       "rating": 4.8,
       "types": [
@@ -16,7 +41,7 @@
       "place_id": "ChIJgSMyRUu9oRQRS9UFR1xmJrE",
       "keyword": "hotels accommodation lodging",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 6239,
+      "user_ratings_total": 6244,
       "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -27,27 +52,26 @@
       }
     },
     {
-      "name": "West End Restaurant - Burguers and Steakhouse in Maspalomas",
-      "address": "Av. de Italia, 10, 35100 San Bartolom\u00e9 de Tirajana, Las Palmas, Spain",
+      "name": "Tower of London",
+      "address": "London EC3N 4AB, UK",
       "rating": 4.7,
       "types": [
-        "restaurant",
-        "hamburger_restaurant",
-        "american_restaurant",
-        "food",
+        "tourist_attraction",
+        "landmark",
+        "historical_place",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJe5QQiJNiPwwRL1XrQAgcfpA",
-      "keyword": "restaurants food dining",
+      "place_id": "ChIJ3TgfM0kDdkgRZ2TV4d1Jv6g",
+      "keyword": "things to do attractions tours",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 2481,
-      "price_level": "PRICE_LEVEL_MODERATE",
+      "user_ratings_total": 113606,
+      "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 27.7619194,
-          "lng": -15.5649394
+          "lat": 51.508112399999995,
+          "lng": -0.0759493
         }
       }
     },
@@ -76,26 +100,25 @@
       }
     },
     {
-      "name": "Tower of London",
-      "address": "London EC3N 4AB, UK",
+      "name": "Hyde Park",
+      "address": "London, UK",
       "rating": 4.7,
       "types": [
+        "park",
         "tourist_attraction",
-        "historical_place",
-        "landmark",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ3TgfM0kDdkgRZ2TV4d1Jv6g",
-      "keyword": "things to do attractions tours",
+      "place_id": "ChIJhRoYKUkFdkgRDL20SU9sr9E",
+      "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 113534,
+      "user_ratings_total": 136230,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 51.508112399999995,
-          "lng": -0.0759493
+          "lat": 51.5073638,
+          "lng": -0.1641135
         }
       }
     },
@@ -109,85 +132,15 @@
         "establishment"
       ],
       "place_id": "ChIJieMV9YXHh0gRHsuS82zRSjY",
-      "keyword": "things to do attractions tours",
+      "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 19846,
+      "user_ratings_total": 19892,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 55.9501093,
           "lng": -3.188021
-        }
-      }
-    },
-    {
-      "name": "Hyde Park",
-      "address": "London, UK",
-      "rating": 4.7,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJhRoYKUkFdkgRDL20SU9sr9E",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 136150,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.5073638,
-          "lng": -0.1641135
-        }
-      }
-    },
-    {
-      "name": "The National Gallery",
-      "address": "Trafalgar Square, London WC2N 5DN, UK",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "art_gallery",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJeclqF84EdkgRtKAjTmWFr0I",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 55729,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.508928999999995,
-          "lng": -0.128299
-        }
-      }
-    },
-    {
-      "name": "St James's Park",
-      "address": "London SW1A 2BJ, UK",
-      "rating": 4.7,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJG-CxwNoEdkgRXx26gHZwVf8",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 59949,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.502967,
-          "lng": -0.1339534
         }
       }
     },
@@ -204,7 +157,7 @@
       "place_id": "ChIJB9OTMDIbdkgRp0JWbQGZsS8",
       "keyword": "museums",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 165575,
+      "user_ratings_total": 165695,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -226,7 +179,7 @@
       "place_id": "ChIJFdmwIfas2YgR-_QNr2_AO_c",
       "keyword": "shopping retail stores",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 42128,
+      "user_ratings_total": 42150,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -237,91 +190,13 @@
       }
     },
     {
-      "name": "Britannia Mine Museum",
-      "address": "150 Copper Dr, Britannia Beach, BC V8B 1J1, Canada",
-      "rating": 4.6,
-      "types": [
-        "museum",
-        "historical_landmark",
-        "tourist_attraction",
-        "cafe",
-        "observation_deck",
-        "gift_shop",
-        "historical_place",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJHQvJw6BZhlQRXAISzuezyiw",
-      "keyword": "things to do attractions tours",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 2686,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 49.623740899999994,
-          "lng": -123.20452590000001
-        }
-      }
-    },
-    {
-      "name": "Trafalgar Square",
-      "address": "Trafalgar Sq, London WC2N 5DS, UK",
-      "rating": 4.6,
-      "types": [
-        "plaza",
-        "historical_landmark",
-        "tourist_attraction",
-        "historical_place",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJH-tBOc4EdkgRJ8aJ8P1CUxo",
-      "keyword": "things to do attractions tours",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 131609,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.508039,
-          "lng": -0.128069
-        }
-      }
-    },
-    {
-      "name": "The Royal Yacht Britannia",
-      "address": "Ocean Dr, Leith, Edinburgh EH6 6JJ, UK",
-      "rating": 4.6,
-      "types": [
-        "tourist_attraction",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ7xHasgG4h0gRdMGn6H6V9e8",
-      "keyword": "things to do attractions tours",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 12025,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 55.982155399999996,
-          "lng": -3.1772521
-        }
-      }
-    },
-    {
       "name": "Bloedel Conservatory",
       "address": "4600 Cambie St., Vancouver, BC V5Y 2M4, Canada",
       "rating": 4.6,
       "types": [
         "botanical_garden",
-        "wildlife_refuge",
         "tourist_attraction",
+        "wildlife_refuge",
         "park",
         "point_of_interest",
         "establishment"
@@ -329,7 +204,7 @@
       "place_id": "ChIJnwmhxIpzhlQRr3heOBl69fg",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 7983,
+      "user_ratings_total": 7993,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -340,25 +215,25 @@
       }
     },
     {
-      "name": "lastminute.com London Eye",
-      "address": "Riverside Building, County Hall, London SE1 7PB, UK",
-      "rating": 4.5,
+      "name": "Palace of Westminster",
+      "address": "London SW1A 0AA, UK",
+      "rating": 4.6,
       "types": [
-        "ferris_wheel",
+        "government_office",
         "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJc2nSALkEdkgRkuoJJBfzkUI",
-      "keyword": "things to do attractions tours",
+      "place_id": "ChIJmZuNDMQEdkgRfB9O9456eQc",
+      "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 189902,
+      "user_ratings_total": 4493,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 51.5031864,
-          "lng": -0.11951919999999999
+          "lat": 51.4994794,
+          "lng": -0.1248092
         }
       }
     },
@@ -377,13 +252,36 @@
       "place_id": "ChIJj3idcsfnc0gRMMrgQkB830Y",
       "keyword": "museums visitor centers",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 26176,
+      "user_ratings_total": 26203,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 51.184287499999996,
           "lng": -1.8573686999999999
+        }
+      }
+    },
+    {
+      "name": "Grand Canyon Railway RV Park Office",
+      "address": "601 W Franklin Ave, Williams, AZ 86046, USA",
+      "rating": 4.5,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNcYzKRyfMocRESAba-5ykCc",
+      "keyword": "camping rv parks",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 1066,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.251351299999996,
+          "lng": -112.19435759999999
         }
       }
     },
@@ -402,7 +300,7 @@
       "place_id": "ChIJtV5bzSAFdkgRpwLZFPWrJgo",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 183401,
+      "user_ratings_total": 183510,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -413,78 +311,25 @@
       }
     },
     {
-      "name": "Leicester Square",
-      "address": "Leicester Square, London WC2H 7LU, UK",
-      "rating": 4.5,
-      "types": [
-        "plaza",
-        "cultural_center",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJVX1-GtIEdkgR1n_gGjHQZpI",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 23100,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.510359,
-          "lng": -0.1300625
-        }
-      }
-    },
-    {
-      "name": "Somerset House",
-      "address": "Strand, London WC2R 1LA, UK",
+      "name": "Madame Tussauds London",
+      "address": "Marylebone Rd, London NW1 5LR, UK",
       "rating": 4.4,
       "types": [
         "tourist_attraction",
-        "event_venue",
-        "government_office",
         "museum",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJcWfE87UEdkgRoYClOMTsOQQ",
+      "place_id": "ChIJgZ24Us4adkgRpDNAwNPO_SY",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 1686,
+      "user_ratings_total": 80027,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 51.511058999999996,
-          "lng": -0.11714799999999997
-        }
-      }
-    },
-    {
-      "name": "Buc-ee's",
-      "address": "15901 N Fwy, Fort Worth, TX 76177, USA",
-      "rating": 4.3,
-      "types": [
-        "convenience_store",
-        "gas_station",
-        "deli",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJa3B0lzTaTYYRmVlEqXsTVTU",
-      "keyword": "gas stations convenience stores",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 2102,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.0242887,
-          "lng": -97.278266
+          "lat": 51.5230174,
+          "lng": -0.1543613
         }
       }
     },
@@ -504,7 +349,7 @@
       "place_id": "ChIJczbU8HbEyIARpUpFTXIdAmA",
       "keyword": "gift shops souvenirs",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 10106,
+      "user_ratings_total": 10111,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -521,21 +366,45 @@
       "types": [
         "historical_landmark",
         "tourist_attraction",
-        "landmark",
         "historical_place",
+        "landmark",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ5UDXdTAFdkgR5zUZFsQnBoI",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 422,
+      "user_ratings_total": 424,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 51.5025301,
           "lng": -0.14130779999999998
+        }
+      }
+    },
+    {
+      "name": "Restaurante grill El Gaucho Playa del Ingl\u00e9s",
+      "address": "Av. de Tenerife, s/n, Centro Comercial Kasbah, 35100 Maspalomas, Las Palmas, Spain",
+      "rating": 3.8,
+      "types": [
+        "restaurant",
+        "barbecue_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_048E5ViPwwR7iAUnFJ1Tyo",
+      "keyword": "restaurants",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 1421,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 27.759958500000003,
+          "lng": -15.570362599999997
         }
       }
     },
@@ -551,7 +420,7 @@
       "place_id": "ChIJm4vWkHsnQg0R__4suHpUvo0",
       "keyword": "car rental transportation",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 763,
+      "user_ratings_total": 769,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -585,50 +454,26 @@
       }
     },
     {
-      "name": "The Liberty, Inc",
-      "address": "312 N Virginia Ave, Roswell, NM 88201, USA",
-      "rating": 4.6,
+      "name": "Mercante Restaurant",
+      "address": "Sheraton Grand, Piccadilly, London W1J 7BX, UK",
+      "rating": 4.4,
       "types": [
-        "performing_arts_theater",
+        "italian_restaurant",
         "restaurant",
+        "point_of_interest",
         "food",
-        "event_venue",
-        "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJh7asUNhu4oYRcT0IZFFoqtI",
-      "keyword": "businesses",
-      "location": "Inside",
-      "user_ratings_total": 296,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.3960108,
-          "lng": -104.52144240000001
-        }
-      }
-    },
-    {
-      "name": "Grand Plateau RV Resort",
-      "address": "2550 East US-89, Kanab, UT 84741, USA",
-      "rating": 4.7,
-      "types": [
-        "rv_park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJLdbI_4rRNIcRsbDV4w4cgik",
-      "keyword": "camping rv parks",
+      "place_id": "ChIJ4cYRVy8FdkgRn4jTyDNMU5E",
+      "keyword": "restaurants food dining",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 276,
-      "price_level": null,
+      "user_ratings_total": 279,
+      "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 37.027308399999995,
-          "lng": -112.4721027
+          "lat": 51.504813399999996,
+          "lng": -0.14728919999999998
         }
       }
     },
@@ -656,6 +501,30 @@
       }
     },
     {
+      "name": "Avenida Restaurant",
+      "address": "83-85 Bellegrove Rd, Welling DA16 3PG, UK",
+      "rating": 4.3,
+      "types": [
+        "mediterranean_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJkQTqMtCu2EcRwuBqNRrmmXM",
+      "keyword": "restaurants food dining",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 198,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.463169699999995,
+          "lng": 0.10270399999999999
+        }
+      }
+    },
+    {
       "name": "Leprino Foods Company",
       "address": "5600 Omaha Rd, Roswell, NM 88203, USA",
       "rating": 2.8,
@@ -674,28 +543,6 @@
         "location": {
           "lat": 33.3308197,
           "lng": -104.4800662
-        }
-      }
-    },
-    {
-      "name": "Income Support Services",
-      "address": "1701 S Sunset Ave, Roswell, NM 88203, USA",
-      "rating": 3.8,
-      "types": [
-        "insurance_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ2Y30OTZp4oYRDN3p5t8VnAo",
-      "keyword": "businesses",
-      "location": "Inside",
-      "user_ratings_total": 211,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.371490699999995,
-          "lng": -104.5406333
         }
       }
     },
@@ -721,6 +568,148 @@
           "lng": -0.1433546
         }
       }
+    },
+    {
+      "name": "OfficeMax",
+      "address": "2755 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.1,
+      "types": [
+        "electronics_store",
+        "furniture_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "courier_service",
+        "consultant",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPXKTllVu4oYR-IG7qzyNS10",
+      "keyword": "businesses",
+      "location": "Inside",
+      "user_ratings_total": 175,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4285062,
+          "lng": -104.5213788
+        }
+      }
+    },
+    {
+      "name": "GB Gifts and Souvenirs - Tower Hill",
+      "address": "Byward St, London EC3R 5AS, UK",
+      "rating": 4.7,
+      "types": [
+        "storage",
+        "finance",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJo9syaMUDdkgRkxXgwNq_X74",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 83,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.5097321,
+          "lng": -0.08003829999999999
+        }
+      }
+    },
+    {
+      "name": "The International Business Accelerator [IBA]",
+      "address": "1300 Country Club Rd Suite A, Santa Teresa, NM 88008, USA",
+      "rating": 5,
+      "types": [
+        "finance",
+        "consultant",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe5df5sf73YYR6ouPG6JKSTM",
+      "keyword": "businesses",
+      "location": "Inside",
+      "user_ratings_total": 4,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.846414799999998,
+          "lng": -106.6258144
+        }
+      }
+    },
+    {
+      "name": "Dobra Souvenirs",
+      "address": "C. de la Montera, 2, Centro, 28013 Madrid, Spain",
+      "rating": 4.7,
+      "types": [
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNc5bHH4oQg0RwTft2JMs968",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 31,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.417201899999995,
+          "lng": -3.7029682999999998
+        }
+      }
+    },
+    {
+      "name": "Recreation Outdoor Center (Roc)",
+      "address": "3700 Monterey Dr, St Louis Park, MN 55416, USA",
+      "rating": 4.6,
+      "types": [
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8wBHdrQg9ocRpQhYBTDfDG0",
+      "keyword": "parks recreation outdoor",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 23,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.937338399999994,
+          "lng": -93.3434111
+        }
+      }
+    },
+    {
+      "name": "London Gifts And Souvenirs",
+      "address": "51 Petty France, London SW1H 9ET, UK",
+      "rating": 4.2,
+      "types": [
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJv4hAK9kEdkgRztXOYnMfksI",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 41,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.499250599999996,
+          "lng": -0.13783109999999998
+        }
+      }
     }
   ],
   "events": [
@@ -734,7 +723,7 @@
   "generated_content": {
     "meta_description": "Explore ufo mysteries in Avenida de Gran Breta\u00f1a, El Carrascal. Explore the mysterious Avenida de Gran Breta\u00f1a, El Carrascal, where alleged UFO sightings have been reported. Visit the ",
     "title": "Ufo Mysteries in Avenida de Gran Breta\u00f1a, El Carrascal - Tours & Services",
-    "description": "Explore the mysterious Avenida de Gran Breta\u00f1a, El Carrascal, where alleged UFO sightings have been reported. Visit the Hotel Grande Bretagne, a Luxury Collection Hotel, and experience the thrill of space ice experiments on cold water panspermia origin of life theories.",
+    "description": "Explore the mysterious Avenida de Gran Breta\u00f1a, El Carrascal, where alleged UFO sightings have been reported. Visit the Space Ice experiments and learn about the origin of life theories.",
     "keywords": [
       "ufo tours",
       "alien encounters",
@@ -745,6 +734,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:15:14.483000"
+    "last_updated": "2025-07-25T11:00:05.833997"
   }
 }

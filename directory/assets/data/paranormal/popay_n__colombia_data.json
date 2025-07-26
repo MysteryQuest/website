@@ -1,7 +1,7 @@
 {
   "location_name": "Popay\u00e1n, Colombia",
   "category": "paranormal",
-  "timestamp": "20250722_120317",
+  "timestamp": "20250725_104810",
   "businesses": [
     {
       "name": "Free Walking Tour Medellin - Real City Tours",
@@ -14,7 +14,7 @@
       "place_id": "ChIJ26CAgFQoRI4RXtvbiCry2LM",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 8203,
+      "user_ratings_total": 8227,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -35,7 +35,7 @@
       "place_id": "ChIJJSJ9A_0pRI4Ri0lDbiZSbZ4",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 3898,
+      "user_ratings_total": 3904,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -58,7 +58,7 @@
       "place_id": "ChIJLV8yTKGZP44Rs9yMsKIQ1zI",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 8664,
+      "user_ratings_total": 8678,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -73,8 +73,8 @@
       "address": "Cra. 35 #7 - 24 PISO 2, El Poblado, Medell\u00edn, El Poblado, Medell\u00edn, Antioquia, Colombia",
       "rating": 5,
       "types": [
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJMfJO-tKDRo4R22H177f6_3M",
@@ -103,7 +103,7 @@
       "place_id": "ChIJEQsCQmEv9o4Rts5NnqKt-mU",
       "keyword": "restaurants food dining",
       "location": "n, Colombia",
-      "user_ratings_total": 1164,
+      "user_ratings_total": 1167,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -126,13 +126,39 @@
       "place_id": "ChIJmVKpFlEpRI4Rpb-s3E_AmOk",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 1121,
+      "user_ratings_total": 1124,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 6.2131189,
           "lng": -75.57288779999999
+        }
+      }
+    },
+    {
+      "name": "Colombia Bungee Jumping",
+      "address": "V\u00eda San Gil - Charal\u00e1 #Km 2, San Gil, Santander, Colombia",
+      "rating": 4.9,
+      "types": [
+        "adventure_sports_center",
+        "tour_agency",
+        "travel_agency",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3-BleNHAaY4Rr2Mf_tImxRY",
+      "keyword": "entertainment activities",
+      "location": "n, Colombia",
+      "user_ratings_total": 1095,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 6.5340603999999995,
+          "lng": -73.12589969999999
         }
       }
     },
@@ -149,7 +175,7 @@
       "place_id": "ChIJaXKW8qWZP44Ru0mnIgWNc4U",
       "keyword": "travel services tourism",
       "location": "n, Colombia",
-      "user_ratings_total": 979,
+      "user_ratings_total": 992,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -172,7 +198,7 @@
       "place_id": "ChIJwefoK6SZP44R6NadWCsy-_M",
       "keyword": "restaurants food dining",
       "location": "n, Colombia",
-      "user_ratings_total": 3983,
+      "user_ratings_total": 3985,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -195,7 +221,7 @@
       "place_id": "ChIJo2mkfs8pRI4R26bK_Sq5kqI",
       "keyword": "restaurants food dining",
       "location": "n, Colombia",
-      "user_ratings_total": 1085,
+      "user_ratings_total": 1093,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -219,7 +245,7 @@
       "place_id": "ChIJq9GlZZqCRo4R8x8iH1Fjtaw",
       "keyword": "shopping retail stores",
       "location": "n, Colombia",
-      "user_ratings_total": 35733,
+      "user_ratings_total": 35748,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -237,15 +263,15 @@
         "amusement_park",
         "tourist_attraction",
         "hiking_area",
-        "sports_activity_location",
         "park",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJHSL6JfheOI4RFqGcKwg2U9M",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 67506,
+      "user_ratings_total": 67531,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -262,21 +288,47 @@
       "types": [
         "park",
         "tourist_attraction",
-        "amusement_center",
         "amusement_park",
+        "amusement_center",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJQTQ7VDRxQI4RSSqqjNehbZY",
       "keyword": "entertainment activities",
       "location": "n, Colombia",
-      "user_ratings_total": 25479,
+      "user_ratings_total": 25483,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 4.946866,
           "lng": -73.9606888
+        }
+      }
+    },
+    {
+      "name": "Los Nevados National Park",
+      "address": "Carretera Manizales - Bogot\u00e1 Km. 45, Murillo, Pereira, Tolima, Colombia",
+      "rating": 4.8,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "hiking_area",
+        "sports_activity_location",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtaIKHhuZOI4RVTWZFvRh_U8",
+      "keyword": "camping rv parks",
+      "location": "n, Colombia",
+      "user_ratings_total": 4222,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 4.7896956,
+          "lng": -75.3763646
         }
       }
     },
@@ -288,15 +340,15 @@
         "national_park",
         "tourist_attraction",
         "hiking_area",
-        "sports_activity_location",
         "park",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJWzXFA0qSOI4RJ9qjU3ZCGY0",
       "keyword": "things to do",
       "location": "n, Colombia",
-      "user_ratings_total": 24283,
+      "user_ratings_total": 24293,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -319,7 +371,7 @@
       "place_id": "ChIJzXwPxqaZP44R7VGgkWDNj8E",
       "keyword": "things to do",
       "location": "n, Colombia",
-      "user_ratings_total": 46991,
+      "user_ratings_total": 47007,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -342,7 +394,7 @@
       "place_id": "ChIJrZGCnaiZP44RrOFDQSLfni8",
       "keyword": "museums",
       "location": "n, Colombia",
-      "user_ratings_total": 23241,
+      "user_ratings_total": 23255,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -375,6 +427,29 @@
       }
     },
     {
+      "name": "Claustro de San Agust\u00edn - Universidad Nacional de Colombia",
+      "address": "Cra. 8 #7-21, Bogot\u00e1, Colombia",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUwvolgeZP44R1-KVzmLgCNQ",
+      "keyword": "museums",
+      "location": "n, Colombia",
+      "user_ratings_total": 3529,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 4.5952115,
+          "lng": -74.0785971
+        }
+      }
+    },
+    {
       "name": "Novo Rodeio - Rey do lazo",
       "address": "Av. San Roque Gonzalez de Sta. Cruz, Encarnaci\u00f3n 070124, Paraguay",
       "rating": 4.8,
@@ -386,7 +461,7 @@
       ],
       "place_id": "ChIJgQwWsvS_V5QRTLPCHam-3Ag",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 3469,
+      "user_ratings_total": 3475,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -408,7 +483,7 @@
       ],
       "place_id": "ChIJly8_Aqu_V5QRLBYfaUyOkhU",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 4097,
+      "user_ratings_total": 4118,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -426,16 +501,16 @@
         "tourist_attraction",
         "amusement_park",
         "amusement_center",
+        "event_venue",
         "church",
         "place_of_worship",
-        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJAXt7UCBwQI4RfyOsloFI3wA",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 20101,
+      "user_ratings_total": 20132,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -459,7 +534,7 @@
       "place_id": "ChIJTV_06iKL9I4RL4jby9wjV0g",
       "keyword": "things to do attractions tours",
       "location": "n, Colombia",
-      "user_ratings_total": 24877,
+      "user_ratings_total": 24884,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -482,7 +557,7 @@
       "place_id": "ChIJz3onhISZP44RI5mCru8jqzs",
       "keyword": "museums visitor centers",
       "location": "n, Colombia",
-      "user_ratings_total": 32080,
+      "user_ratings_total": 32089,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -506,7 +581,7 @@
       "place_id": "ChIJU53qpEEmRI4RLHh7IcVt7TM",
       "keyword": "parks recreation outdoor",
       "location": "n, Colombia",
-      "user_ratings_total": 23388,
+      "user_ratings_total": 23398,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -522,25 +597,50 @@
       "rating": 4.7,
       "types": [
         "hotel",
-        "wedding_venue",
         "resort_hotel",
         "extended_stay_hotel",
-        "spa",
+        "wedding_venue",
         "event_venue",
         "lodging",
+        "spa",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJL_vE0UOaP44Rl1Iw7aCFqXo",
       "keyword": "hotels",
       "location": "n, Colombia",
-      "user_ratings_total": 1998,
+      "user_ratings_total": 1997,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 4.652463,
           "lng": -74.056494
+        }
+      }
+    },
+    {
+      "name": "San Felipe de Barajas Fort",
+      "address": "Cielo mar, La Boquilla, Cartagena, Cartagena Province, Bolivar, Colombia",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKykMr4Iv9o4RwbGBeh5eM1Y",
+      "keyword": "things to do",
+      "location": "n, Colombia",
+      "user_ratings_total": 64278,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 10.422506,
+          "lng": -75.539271
         }
       }
     },
@@ -558,7 +658,7 @@
       "place_id": "ChIJKy8crgqbP44RqGHYK0w3TjY",
       "keyword": "things to do",
       "location": "n, Colombia",
-      "user_ratings_total": 57388,
+      "user_ratings_total": 57404,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -577,12 +677,13 @@
         "art_gallery",
         "museum",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJXZ8euP4oRI4Ri2vW-qFyOiE",
       "keyword": "museums",
       "location": "n, Colombia",
-      "user_ratings_total": 8611,
+      "user_ratings_total": 8613,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -605,114 +706,13 @@
       "place_id": "ChIJBzio54uCRo4R1N9ZRtMT2HM",
       "keyword": "museums",
       "location": "n, Colombia",
-      "user_ratings_total": 14294,
+      "user_ratings_total": 14302,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
           "lat": 6.1901037,
           "lng": -75.56945759999999
-        }
-      }
-    },
-    {
-      "name": "La Tertulia Museum",
-      "address": "Oeste, Cra. 1 #5-105, Normandia Sebastian de Belalcazar, Cali, Valle del Cauca, Colombia",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "library",
-        "movie_theater",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJF06VcnmmMI4Razg9LryeTHo",
-      "keyword": "museums",
-      "location": "n, Colombia",
-      "user_ratings_total": 6879,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 3.4502808999999997,
-          "lng": -76.5453033
-        }
-      }
-    },
-    {
-      "name": "Coin and bill Production Museum",
-      "address": "Cl. 11 #4-93, Bogot\u00e1, Colombia",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "historical_landmark",
-        "historical_place",
-        "store",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJEzHjKKaZP44RbWQ9GhaGidY",
-      "keyword": "museums",
-      "location": "n, Colombia",
-      "user_ratings_total": 2389,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 4.5969549999999995,
-          "lng": -74.0735231
-        }
-      }
-    },
-    {
-      "name": "Hiroshima",
-      "address": "25 de Mayo, Encarnaci\u00f3n 070111, Paraguay",
-      "rating": 4.7,
-      "types": [
-        "japanese_restaurant",
-        "sushi_restaurant",
-        "seafood_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ6dc1fkSVV5QRSFGe6wgom4U",
-      "keyword": "nearby_restaurant",
-      "user_ratings_total": 3204,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": -27.328722499999998,
-          "lng": -55.863300599999995
-        }
-      }
-    },
-    {
-      "name": "Diez Hotel",
-      "address": "Cl 10A #34-11, El Poblado, Medell\u00edn, El Poblado, Medell\u00edn, Antioquia, Colombia",
-      "rating": 4.6,
-      "types": [
-        "hotel",
-        "extended_stay_hotel",
-        "lodging",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ61JMUCgoRI4R99B1VyVKxXI",
-      "keyword": "hotels accommodation lodging",
-      "location": "n, Colombia",
-      "user_ratings_total": 3692,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 6.2090524,
-          "lng": -75.5651755
         }
       }
     }
@@ -726,19 +726,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore paranormal mysteries in Popay\u00e1n, Colombia. Explore the mysterious city of Popay\u00e1n, Colombia, where a 1.5 Mile UFO was caught on camera and witnessed by multiple pe",
+    "meta_description": "Explore paranormal mysteries in Popay\u00e1n, Colombia. Explore the mysterious city of Popay\u00e1n, Colombia, where rumors of paranormal activity have long been a part of its folkl",
     "title": "Paranormal Mysteries in Popay\u00e1n, Colombia - Tours & Services",
-    "description": "Explore the mysterious city of Popay\u00e1n, Colombia, where a 1.5 Mile UFO was caught on camera and witnessed by multiple people. Join us for a thrilling tour that will take you to the heart of this paranormal hotspot.",
+    "description": "Explore the mysterious city of Popay\u00e1n, Colombia, where rumors of paranormal activity have long been a part of its folklore. Visit the famous Museo de Antioquia to learn more about the region's rich history and alleged UFO sightings.",
     "keywords": [
-      "Paranormal Tourism",
-      "UFO Sightings",
-      "Popay\u00e1n Colombia"
+      "paranormal tours",
+      "mysterious city",
+      "popay\u00e1n colombia",
+      "ufo sightings"
     ],
     "category": "paranormal"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-22T12:03:17.301856"
+    "last_updated": "2025-07-25T10:48:10.395008"
   }
 }
