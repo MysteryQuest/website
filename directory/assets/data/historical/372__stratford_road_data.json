@@ -1,74 +1,26 @@
 {
   "location_name": "372, Stratford Road",
   "category": "historical",
-  "timestamp": "20250725_105749",
+  "timestamp": "20250727_112002",
   "businesses": [
-    {
-      "name": "The Metropolitan Museum of Art",
-      "address": "1000 5th Ave, New York, NY 10028, USA",
-      "rating": 4.8,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJb8Jg9pZYwokR-qHGtvSkLzs",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 87449,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.7794366,
-          "lng": -73.963244
-        }
-      }
-    },
-    {
-      "name": "Carnegie Museum of Natural History",
-      "address": "4400 Forbes Ave, Pittsburgh, PA 15213, USA",
-      "rating": 4.8,
-      "types": [
-        "historical_landmark",
-        "tourist_attraction",
-        "historical_place",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJwRKe38LzNIgRqMb7UcsjkSI",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 4406,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.443321499999996,
-          "lng": -79.949974
-        }
-      }
-    },
     {
       "name": "Dishoom Birmingham",
       "address": "One Chamberlain Sq, Birmingham B3 3AX, UK",
       "rating": 4.8,
       "types": [
         "indian_restaurant",
+        "cafe",
         "vegan_restaurant",
         "vegetarian_restaurant",
-        "cafe",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJC-lzZm69cEgR5m5syFmhotc",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 9468,
+      "user_ratings_total": 9520,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -76,7 +28,13 @@
           "lat": 52.480196199999995,
           "lng": -1.9047858000000002
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Dishoom Birmingham (Types: indian_restaurant, cafe, vegan_restaurant) Located at One Chamberlain Sq, Birmingham B3 3AX, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Shri Venkateswara (Balaji) Temple, Tividale",
@@ -91,7 +49,7 @@
       ],
       "place_id": "ChIJ7xBFuX-XcEgRoImlH5YoPOA",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 8828,
+      "user_ratings_total": 8835,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -99,7 +57,46 @@
           "lat": 52.513248,
           "lng": -2.0293605
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Shri Venkateswara (Balaji) Temple, Tividale (Types: hindu_temple, tourist_attraction, place_of_worship) Located at Dudley Rd E, Tividale, Oldbury B69 3DU, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "San Antonio River Walk",
+      "address": "San Antonio, TX 78205, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJibxLNatYXIYRyCOuemjZxqI",
+      "keyword": "attractions",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 43007,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.4229737,
+          "lng": -98.48603399999999
+        }
+      },
+      "enhanced_description": "The San Antonio River Walk has been featured as a prominent business in the Banqueting Suite, catering to tourists and locals alike. Located within the heart of the city, this venue offers an elegant setting for special occasions.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "San Antonio River Walk",
+        "Banqueting Suite",
+        "Business in Banqueting Suite"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While the source appears to be a business registration and listing, further investigation is needed to verify its accuracy. Witnesses report seeing high-quality event planners and catering services at this location."
     },
     {
       "name": "Witte Museum",
@@ -111,15 +108,15 @@
         "cafe",
         "gift_shop",
         "food",
+        "store",
         "event_venue",
         "point_of_interest",
-        "store",
         "establishment"
       ],
       "place_id": "ChIJ8SkZWZf1XIYRw1v_mK0j9ss",
       "keyword": "museums",
       "location": "Banqueting Suite, ",
-      "user_ratings_total": 6962,
+      "user_ratings_total": 6968,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -127,81 +124,13 @@
           "lat": 29.461977999999995,
           "lng": -98.46694959999999
         }
-      }
-    },
-    {
-      "name": "Bowers Museum",
-      "address": "2002 N Main St, Santa Ana, CA 92706, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "wedding_venue",
-        "museum",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJpZmO7rDZ3IARsvZQdYOZasw",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 1992,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.7634055,
-          "lng": -117.86814539999997
-        }
-      }
-    },
-    {
-      "name": "Carnegie Museum of Art",
-      "address": "4400 Forbes Ave, Pittsburgh, PA 15213, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJMfTiXCbyNIgRdvqfBv4hy2M",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 1832,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.4437052,
-          "lng": -79.9489727
-        }
-      }
-    },
-    {
-      "name": "Atlanta History Center",
-      "address": "130 W Paces Ferry Rd NW, Atlanta, GA 30305, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "wedding_venue",
-        "library",
-        "museum",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJh_xy_YUF9YgRppRCyz5ezrU",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 1013,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.8418797,
-          "lng": -84.3862534
-        }
-      }
+      },
+      "enhanced_description": "Business in Banqueting Suite, : Witte Museum (Types: museum, tourist_attraction, cafe) Located at 3801 Broadway, San Antonio, TX 78209, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Black Country Living Museum",
@@ -215,7 +144,7 @@
       ],
       "place_id": "ChIJYa2jkvyZcEgR-zg356yQ-4A",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 13089,
+      "user_ratings_total": 13098,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -223,54 +152,13 @@
           "lat": 52.5199169,
           "lng": -2.0754329
         }
-      }
-    },
-    {
-      "name": "Space Center Houston",
-      "address": "1601 E NASA Pkwy, Houston, TX 77058, USA",
-      "rating": 4.6,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJLZlhwACdQIYRFvnVL8mq8BM",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 49137,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 29.551831999999997,
-          "lng": -95.0981044
-        }
-      }
-    },
-    {
-      "name": "The Museum of Modern Art",
-      "address": "11 W 53rd St, New York, NY 10019, USA",
-      "rating": 4.6,
-      "types": [
-        "tourist_attraction",
-        "art_gallery",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJKxDbe_lYwokRVf__s8CPn-o",
-      "keyword": "museums",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 54734,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.7614327,
-          "lng": -73.97762159999999
-        }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Black Country Living Museum (Types: tourist_attraction, museum, point_of_interest) Located at Discovery Wy, Dudley DY1 4AL, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Costco Fuel Station (Members Only)",
@@ -291,7 +179,13 @@
           "lat": 52.5024166,
           "lng": -1.8515056
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Costco Fuel Station (Members Only) (Types: gas_station, point_of_interest, establishment) Located at 100 Watson Rd, Nechells, Birmingham B7 5SA, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "La Villa Restaurant Lounge and Banquets",
@@ -299,12 +193,12 @@
       "rating": 4.5,
       "types": [
         "italian_restaurant",
-        "pizza_restaurant",
         "meal_delivery",
+        "pizza_restaurant",
         "food_delivery",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJfzLcBbDND4gRcHTDuXM-8Tg",
@@ -318,34 +212,13 @@
           "lat": 41.9475591,
           "lng": -87.7277774
         }
-      }
-    },
-    {
-      "name": "Banqueting House",
-      "address": "Whitehall, London SW1A 2ER, UK",
-      "rating": 4.4,
-      "types": [
-        "historical_landmark",
-        "banquet_hall",
-        "historical_place",
-        "tourist_attraction",
-        "wedding_venue",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJvezzr88EdkgRAxHrEPdiLiY",
-      "keyword": "restaurants",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 1399,
-      "price_level": null,
-      "business_status": "CLOSED_TEMPORARILY",
-      "geometry": {
-        "location": {
-          "lat": 51.5045899,
-          "lng": -0.1260055
-        }
-      }
+      },
+      "enhanced_description": "Business in Banqueting Suite, : La Villa Restaurant Lounge and Banquets (Types: italian_restaurant, meal_delivery, pizza_restaurant) Located at 3638 N Pulaski Rd, Chicago, IL 60641, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Belfry Hotel & Resort",
@@ -354,22 +227,22 @@
       "types": [
         "hotel",
         "resort_hotel",
-        "wedding_venue",
         "golf_course",
         "athletic_field",
         "spa",
-        "event_venue",
+        "wedding_venue",
         "lodging",
         "sports_activity_location",
         "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "event_venue",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJr0CR1qqvcEgR14qvtIPPDPM",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 7696,
+      "user_ratings_total": 7701,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -377,7 +250,13 @@
           "lat": 52.553248800000006,
           "lng": -1.7372010999999998
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: The Belfry Hotel & Resort (Types: hotel, resort_hotel, golf_course) Located at Lichfield Rd, Sutton Coldfield B76 9PR, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Peppers Grill & Bar",
@@ -385,12 +264,12 @@
       "rating": 4.3,
       "types": [
         "bar_and_grill",
-        "mexican_restaurant",
         "american_restaurant",
         "bar",
+        "mexican_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJW3l4Otlu4oYR7-2VJXRjiR8",
@@ -404,7 +283,20 @@
           "lat": 33.3981081,
           "lng": -104.5231991
         }
-      }
+      },
+      "enhanced_description": "Peppers Grill & Bar: A Banquet Hall in Roswell, NM, Offering Unique Dining Experiences",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Peppers Grill & Bar",
+        "Roswell, NM",
+        "banqueting suite",
+        "bar_and_grill",
+        "American restaurant",
+        "Bar"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this report provides some valuable information about Peppers Grill & Bar, its authenticity relies on the credibility of its source. Further investigation is recommended to verify details."
     },
     {
       "name": "Hyatt Regency Birmingham",
@@ -418,7 +310,7 @@
       ],
       "place_id": "ChIJEUfiZvS8cEgRzU-BF4xMHkQ",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 3196,
+      "user_ratings_total": 3199,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -426,22 +318,28 @@
           "lat": 52.4780556,
           "lng": -1.9094444
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Hyatt Regency Birmingham (Types: hotel, lodging, point_of_interest) Located at 2 Bridge St, Birmingham B1 2JZ, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Drayton Manor Resort",
       "address": "Drayton Manor Dr, Fazeley, Drayton Bassett, Tamworth B78 3TW, UK",
       "rating": 4.3,
       "types": [
-        "tourist_attraction",
-        "amusement_center",
         "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ882R90mpcEgR-PM2m5CNGbg",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 19904,
+      "user_ratings_total": 19922,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -449,7 +347,13 @@
           "lat": 52.6109142,
           "lng": -1.7154669999999999
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Drayton Manor Resort (Types: amusement_park, amusement_center, tourist_attraction) Located at Drayton Manor Dr, Fazeley, Drayton Bassett, Tamworth B78 3TW, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "IKEA Birmingham",
@@ -459,13 +363,13 @@
         "furniture_store",
         "home_improvement_store",
         "home_goods_store",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ8--j9vKYcEgRTGcJv2PJ7NQ",
       "keyword": "nearby_store",
-      "user_ratings_total": 23316,
+      "user_ratings_total": 23320,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -473,7 +377,13 @@
           "lat": 52.569793499999996,
           "lng": -2.0155537999999997
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: IKEA Birmingham (Types: furniture_store, home_improvement_store, home_goods_store) Located at Park Ln, Wednesbury WS10 9SF, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Costco Birmingham",
@@ -483,13 +393,13 @@
         "warehouse_store",
         "wholesaler",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ8eRf4Di7cEgRYJKxk5TY9Vk",
       "keyword": "nearby_store",
-      "user_ratings_total": 3448,
+      "user_ratings_total": 3451,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -497,31 +407,13 @@
           "lat": 52.5027416,
           "lng": -1.8537488
         }
-      }
-    },
-    {
-      "name": "Boulder Creek by Wedgewood Weddings",
-      "address": "38470 Boulder Canyon Dr, Boulder, CO 80302, USA",
-      "rating": 4.7,
-      "types": [
-        "wedding_venue",
-        "banquet_hall",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ6bgMaePra4cRoOFJE_tNsOQ",
-      "keyword": "things to do attractions tours",
-      "location": "Banqueting Suite, ",
-      "user_ratings_total": 456,
-      "price_level": "PRICE_LEVEL_EXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.009781499999995,
-          "lng": -105.32530650000001
-        }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Costco Birmingham (Types: warehouse_store, wholesaler, food) Located at 100 Watson Rd, Nechells, Birmingham B7 5SA, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Jungle Falls Gift Shop",
@@ -544,32 +436,38 @@
           "lat": 28.333569999999998,
           "lng": -81.49403509999999
         }
-      }
+      },
+      "enhanced_description": "Business in Banqueting Suite, : Jungle Falls Gift Shop (Types: gift_shop, point_of_interest, store) Located at 5265 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Resorts World Birmingham",
       "address": "Pendigo Way, Marston Green, Birmingham B40 1PU, UK",
       "rating": 4.2,
       "types": [
+        "casino",
         "bowling_alley",
         "resort_hotel",
-        "movie_theater",
         "hotel",
-        "casino",
-        "spa",
-        "sports_complex",
+        "movie_theater",
         "shopping_mall",
+        "spa",
         "lodging",
+        "sports_complex",
         "sports_activity_location",
         "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJh6coDCSxcEgRD5AGWRD9Uyo",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 16641,
+      "user_ratings_total": 16645,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -577,7 +475,17 @@
           "lat": 52.4481166,
           "lng": -1.7177816
         }
-      }
+      },
+      "enhanced_description": "Resorts World Birmingham: A Complex Business Landscape",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Birmingham",
+        "Resorts World",
+        "Bilston"
+      ],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Based on available information, the source appears to be credible. However, no concrete evidence is presented."
     },
     {
       "name": "O2 Academy Birmingham",
@@ -586,15 +494,15 @@
       "types": [
         "concert_hall",
         "auditorium",
-        "restaurant",
-        "food",
         "event_venue",
+        "restaurant",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJbeJYcWG8cEgR4jbwFppZ4h4",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 6921,
+      "user_ratings_total": 6924,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -602,7 +510,13 @@
           "lat": 52.473291499999995,
           "lng": -1.8998955000000002
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: O2 Academy Birmingham (Types: concert_hall, auditorium, event_venue) Located at 16-18 Horse Fair, Birmingham B1 1DB, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Wing Yip Superstore Birmingham",
@@ -610,13 +524,13 @@
       "rating": 4.2,
       "types": [
         "supermarket",
-        "chinese_restaurant",
+        "wholesaler",
         "grocery_store",
         "food_store",
-        "wholesaler",
+        "chinese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
@@ -630,31 +544,37 @@
           "lat": 52.4965845,
           "lng": -1.8706638
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Wing Yip Superstore Birmingham (Types: supermarket, wholesaler, grocery_store) Located at Birmingham Superstore & Headquarters, 375 Nechells Park Rd, Nechells, B...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cadbury World",
       "address": "69 Linden Rd, Birmingham B30 1JR, UK",
       "rating": 4.2,
       "types": [
-        "tourist_attraction",
         "chocolate_shop",
         "candy_store",
-        "amusement_center",
         "chocolate_factory",
         "amusement_park",
+        "amusement_center",
+        "tourist_attraction",
         "dessert_shop",
         "confectionery",
         "food_store",
-        "museum",
-        "food",
-        "point_of_interest",
         "store",
+        "food",
+        "museum",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJh7inMXm-cEgR210DGBUXelU",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 22212,
+      "user_ratings_total": 22228,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -662,7 +582,17 @@
           "lat": 52.428794499999995,
           "lng": -1.9314253000000001
         }
-      }
+      },
+      "enhanced_description": "Located in the heart of Birmingham, Cadbury World is a popular tourist destination that has been delighting visitors with its rich history and chocolate-making traditions. This three-story attraction features a world-famous chocolate factory, as well as a sweet shop and museum showcasing the company's iconic treats.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Cadbury World",
+        "Birmingham",
+        "UK"
+      ],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "While the source appears reliable, there are no concrete evidence or witnesses to support the claim that the chocolate factory was built on this exact location without any prior knowledge. The information provided is based on available data."
     },
     {
       "name": "National SEA LIFE Centre Birmingham",
@@ -676,7 +606,7 @@
       ],
       "place_id": "ChIJxdh6tfa8cEgRCe45SOyUX00",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 14481,
+      "user_ratings_total": 14492,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -684,7 +614,13 @@
           "lat": 52.4787122,
           "lng": -1.9132749999999998
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: National SEA LIFE Centre Birmingham (Types: aquarium, tourist_attraction, point_of_interest) Located at The Water's Edge, Brindley Pl, Birmingham B1 2HL, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Primark",
@@ -694,13 +630,13 @@
         "clothing_store",
         "department_store",
         "child_care_agency",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJv8zrIIa8cEgRVwLJJ9S0JTM",
       "keyword": "nearby_store",
-      "user_ratings_total": 12686,
+      "user_ratings_total": 12688,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -708,7 +644,13 @@
           "lat": 52.478779499999995,
           "lng": -1.8941831999999996
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Primark (Types: clothing_store, department_store, child_care_agency) Located at 38 High St, Birmingham B4 7SL, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "TK Maxx",
@@ -716,8 +658,8 @@
       "rating": 4.2,
       "types": [
         "department_store",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJASnmGIq8cEgRtwJKUxvt10A",
@@ -730,37 +672,322 @@
           "lat": 52.4770319,
           "lng": -1.8969833
         }
-      }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: TK Maxx (Types: department_store, store, point_of_interest) Located at Unit DS1 Bullring Link Bullring Shopping Centre, Birmingham B5 4BS, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Mermaid Gift Shop",
-      "address": "7511 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34747, USA",
+      "name": "Leonardo Royal Hotel Birmingham",
+      "address": "245 Broad St, Birmingham B1 2HQ, UK",
       "rating": 4.1,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJf4_mK_S8cEgRR71tteSzhlg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 4860,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.4767624,
+          "lng": -1.9113218999999997
+        }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Leonardo Royal Hotel Birmingham (Types: hotel, lodging, point_of_interest) Located at 245 Broad St, Birmingham B1 2HQ, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Stevens Inn a Howard Johnson by Wyndham",
+      "address": "1829 S Canal St, Carlsbad, NM 88220, USA",
+      "rating": 4,
+      "types": [
+        "hotel",
+        "inn",
+        "motel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJAdu5Qad544YRhyJT8qzimi4",
+      "keyword": "hotels accommodation lodging",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 1101,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4020872,
+          "lng": -104.2236981
+        }
+      },
+      "enhanced_description": "A Local Business Report Raises Questions at Stevens Inn a Howard Johnson by Wyndham in Carlsbad, NM. The hotel features a banqueting suite that has been utilized for various events, including weddings and corporate functions.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Stevens Inn",
+        "Howard Johnson by Wyndham",
+        "Carlsbad",
+        "NM",
+        "USA"
+      ],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "While the report provides useful information, some details seem unexplained or unsubstantiated."
+    },
+    {
+      "name": "Magic Castle Gift Shop",
+      "address": "7646 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34747, USA",
+      "rating": 4,
       "types": [
         "gift_shop",
         "point_of_interest",
         "store",
         "establishment"
       ],
-      "place_id": "ChIJV7jhSLp-3YgR2HAgUBwgiBQ",
+      "place_id": "ChIJSetnV1t_3YgRRuibyAVOMqA",
       "keyword": "gift shops souvenirs",
       "location": "Banqueting Suite, ",
-      "user_ratings_total": 862,
+      "user_ratings_total": 613,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 28.334255199999998,
-          "lng": -81.5886926
+          "lat": 28.336389,
+          "lng": -81.5937847
         }
-      }
+      },
+      "enhanced_description": "Business in Banqueting Suite, : Magic Castle Gift Shop (Types: gift_shop, point_of_interest, store) Located at 7646 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34747, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hilton Birmingham Metropole",
+      "address": "Pendigo Way, Marston Green, Birmingham B40 1PP, UK",
+      "rating": 4,
+      "types": [
+        "hotel",
+        "banquet_hall",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNVQNqDyxcEgRX1lpvt6-gCQ",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2185,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.450582499999996,
+          "lng": -1.715153
+        }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Hilton Birmingham Metropole (Types: hotel, banquet_hall, wedding_venue) Located at Pendigo Way, Marston Green, Birmingham B40 1PP, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Saint Elias Banquet Centre",
+      "address": "750 Ridgewood Ave, Ottawa, ON K1V 6N1, Canada",
+      "rating": 4.4,
+      "types": [
+        "banquet_hall",
+        "wedding_venue",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5d3HRxcGzkwRME8iSAKq7eg",
+      "keyword": "things to do",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 452,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.3673655,
+          "lng": -75.68798249999999
+        }
+      },
+      "enhanced_description": "The Saint Elias Banquet Centre has been a prominent fixture in Ottawa's event planning scene for years. Located at 750 Ridgewood Ave, the venue offers a banquet hall, wedding venue, and event venue space to cater to diverse needs.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Ottawa",
+        "event planning",
+        "banqueting suite"
+      ],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "While this report provides valuable information about the Saint Elias Banquet Centre, its accuracy relies on the reliability of the source and any subsequent investigation or verification."
+    },
+    {
+      "name": "Golden Corral Buffet & Grill",
+      "address": "2624 N Main St, Roswell, NM 88201, USA",
+      "rating": 3.9,
+      "types": [
+        "buffet_restaurant",
+        "banquet_hall",
+        "steak_house",
+        "catering_service",
+        "breakfast_restaurant",
+        "meal_takeaway",
+        "food_delivery",
+        "american_restaurant",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3fwqZ_9u4oYR809hQiZI_qU",
+      "keyword": "restaurants food dining",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 2539,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4264528,
+          "lng": -104.5237093
+        }
+      },
+      "enhanced_description": "Business in Banqueting Suite, : Golden Corral Buffet & Grill (Types: buffet_restaurant, banquet_hall, steak_house) Located at 2624 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Asda Small Heath Superstore",
+      "address": "859 Coventry Rd, Small Heath, Birmingham B10 0HH, UK",
+      "rating": 3.9,
+      "types": [
+        "supermarket",
+        "gas_station",
+        "pharmacy",
+        "cafe",
+        "grocery_store",
+        "clothing_store",
+        "food_store",
+        "store",
+        "health",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkxedUqW7cEgRlat3pF4m5hY",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 3738,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.464267,
+          "lng": -1.8424879999999997
+        }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Asda Small Heath Superstore (Types: supermarket, gas_station, pharmacy) Located at 859 Coventry Rd, Small Heath, Birmingham B10 0HH, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Asda Great Bridge Supercentre",
+      "address": "Brickhouse Ln S, West Bromwich, Tipton DY4 7HW, UK",
+      "rating": 3.8,
+      "types": [
+        "supermarket",
+        "atm",
+        "gas_station",
+        "pharmacy",
+        "cafe",
+        "finance",
+        "grocery_store",
+        "clothing_store",
+        "food_store",
+        "store",
+        "health",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQxt_fjSYcEgRCn1GuLAzDUs",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 998,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.5303563,
+          "lng": -2.0282214
+        }
+      },
+      "enhanced_description": "Business in coordinates [52. 8692099]: Asda Great Bridge Supercentre (Types: supermarket, atm, gas_station) Located at Brickhouse Ln S, West Bromwich, Tipton DY4 7HW, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Farley's Food Fun & Pub",
+      "address": "1315 N Main St, Roswell, NM 88201, USA",
+      "rating": 3.7,
+      "types": [
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkapCEOFu4oYR73UjgBhBJJg",
+      "keyword": "restaurants food dining",
+      "location": "Banqueting Suite, ",
+      "user_ratings_total": 2452,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4079688,
+          "lng": -104.52221879999999
+        }
+      },
+      "enhanced_description": "Business in Banqueting Suite, : Farley's Food Fun & Pub (Types: american_restaurant, bar, restaurant) Located at 1315 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
     {
       "name": "Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. VIDEO!",
       "type": "Historical Mystery",
-      "description": "<div style=\"text-align: left;\"><span style=\"font-size: large;\"><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxyVsiDpwkfylswvN5rSl78yihi8VMGQi8lRb8fYWJTN5dOwZXzAsJHpbanSgNqAH1OAbv-7_HOrq9SxGh95zyjVfb7jj-nvAz1slMe-jLPa05BXSV_Irayb-kZCFnflDFDPfuE207nyYH5u0fY4__IkPMADWjv3X56YmXqJfR0s4ehPHc-cWtrWxDxqA/s1122/UFO_Colorado.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"382\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxyVsiDpwkfylswvN5rSl78yihi8VMGQi8lRb8fYWJTN5dOwZXzAsJHpbanSgNqAH1OAbv-7_HOrq9SxGh95zyjVfb7jj-nvAz1slMe-jLPa05BXSV_Irayb-kZCFnflDFDPfuE207nyYH5u0fY4__IkPMADWjv3X56YmXqJfR0s4ehPHc-cWtrWxDxqA/w640-h382/UFO_Colorado.png\" width=\"640\" /></a></div><br /><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIebWfg16MTjq3_huDxZGc28rVrzF4mjyHX-_x3Ia5nW1Nx_8iaf7R15rT_xaFd6r_w_wdpLezeJ-YtZa7duOInKkiCG50Ei9ViQmoRN96m7DVTqI5Mzz0EvjbkDu1sZ1t2xjH1JHGQKBtztJ0YQ4vuUa_SH9M03zkQiwlH-3ZcirJdwK4SBG4ATsox5E/s1186/UFO_UAP.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"374\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIebWfg16MTjq3_huDxZGc28rVrzF4mjyHX-_x3Ia5nW1Nx_8iaf7R15rT_xaFd6r_w_wdpLezeJ-YtZa7duOInKkiCG50Ei9ViQmoRN96m7DVTqI5Mzz0EvjbkDu1sZ1t2xjH1JHGQKBtztJ0YQ4vuUa_SH9M03zkQiwlH-3ZcirJdwK4SBG4ATsox5E/w640-h374/UFO_UAP.png\" width=\"640\" /></a></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><br /><span style=\"color: red;\"><br /></span></span><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObQeFNbMdBN2qTBYxNNX6Ngv-CIOTLcEpJ-FtOOHjjAkGLqSuTtgL-WmAQwUxZo0GIneJmwOXaEOfFiUJc3O2KbDHEJiV-hjysK8O1_p9bq1vwuBI8jotQyK35USOz39nMTuXWoElpj2n5FQdrx4ag3Gpj2c0L8Z6-rVM9SekGFA5aiQeOgwB1tRkbRw/s980/Screenshot%202025-06-19%20at%2012.22.25%E2%80%AFAM.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" height=\"305\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObQeFNbMdBN2qTBYxNNX6Ngv-CIOTLcEpJ-FtOOHjjAkGLqSuTtgL-WmAQwUxZo0GIneJmwOXaEOfFiUJc3O2KbDHEJiV-hjysK8O1_p9bq1vwuBI8jotQyK35USOz39nMTuXWoElpj2n5FQdrx4ag3Gpj2c0L8Z6-rVM9SekGFA5aiQeOgwB1tRkbRw/s320/Screenshot%202025-06-19%20at%2012.22.25%E2%80%AFAM.png\" width=\"320\" /></a></div><br /></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Date of sighting:</span> June 4, 2025</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Location of sighting: </span>Colorado Springs, Colorado, USA</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><span style=\"color: red;\">Source:</span> NUFORC.org who I&nbsp;assist.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Wow, check out this eyewitness video. I made a close up full screen and a slow motion clip so you can get a better look at it and judge for yourself. This is a pillar UFO also called a cigar UFO. The craft is spinning around as it moves forward and it's just amazing to see it in slow motion! This is undeniable proof that UFOs frequently visit Colorado. Notice that the UFO is not perfectly round, but it seems to be more like two long rectangle attached at the sides. Such a rare catch and although the video is short, it shows us its speed, shape, rotation as it moves, its hight never changes, and its very dark color...all add to the info in the file on this case thanks to the video.&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\">Scott C. Waring - UFO Sightings Daily&nbsp;</span></div><div style=\"text-align: left;\"><span style=\"font-size: large;\"><br /></span></div><div style=\"text-align: left;\"><span style=\"color: red; font-size: large;\">Eyewitness states:&nbsp;</span></div><span style=\"font-size: large;\">Large cigar shaped ufo was incredibly shocking to see\n\nSpotted this cigar shaped UFO after leaving my mom\u2019s house it was probably over a mile away from me when I filmed it and it still looked very large to my eyes. Camera doesn\u2019t do justice how big is was. If I had to guess 3-6 story\u2019s tall.</span><div><br /></div>",
+      "description": "A detailed examination of a June 4, 2025, UFO sighting in Colorado Springs, Colorado, reveals an extraordinary case with unexplained elements.",
       "category": "historical"
     },
     {
@@ -771,20 +998,34 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 372, Stratford Road. Experience the mysterious Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. V",
-    "title": "Historical Mysteries in 372, Stratford Road - Tours & Services",
-    "description": "Experience the mysterious Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. VIDEO!, The Phantom of Popay\u00e1n.",
+    "meta_description": "Discover historical mysteries in 372, Stratford Road. 2 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in 372, Stratford Road - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in 372, Stratford Road. Notable events include Pillar UFO 6 Floors High Over Colorado Springs, Colorado On June 4, 2025, UAP Sighting News. VIDEO!, The Phantom of Popay\u00e1n. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "pillar ufo",
-      "colorado springs",
-      "uap sighting",
-      "alien encounters"
+      "historical 372, Stratford Road",
+      "historical mysteries 372, Stratford Road",
+      "historical tours 372, Stratford Road",
+      "mystery 372, Stratford Road",
+      "unexplained 372, Stratford Road"
     ],
-    "category": "ufo"
+    "services": [
+      "nearby_gas_station",
+      "things to do",
+      "nearby_restaurant",
+      "nearby_tourist_attraction",
+      "hotels accommodation lodging",
+      "attractions",
+      "nearby_store",
+      "gift shops souvenirs",
+      "nearby_lodging",
+      "museums",
+      "restaurants food dining"
+    ],
+    "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-25T10:57:49.879407"
+    "last_updated": "2025-07-27T11:20:02.646115"
   }
 }

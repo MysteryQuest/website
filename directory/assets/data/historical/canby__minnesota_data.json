@@ -1,7 +1,7 @@
 {
   "location_name": "Canby, Minnesota",
   "category": "historical",
-  "timestamp": "20250726_141205",
+  "timestamp": "20250727_144442",
   "businesses": [
     {
       "name": "Kerfoot Canopy Tour",
@@ -18,7 +18,7 @@
       "place_id": "ChIJSwJNZpnd9YcRPCF63XH-goI",
       "keyword": "things to do attractions tours",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 826,
+      "user_ratings_total": 827,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -27,16 +27,17 @@
           "lng": -93.8731062
         }
       },
-      "enhanced_description": "The Kerfoot Canopy Tour in Henderson, Minnesota is a unique business that offers adventure sports and a tourist attraction. Located at 30200 Scenic Byway Rd, this complex features ropes courses, zip lines, and a variety of outdoor activities. According to witnesses report, the tour's founder, Mark Kerfoot, claims to have had paranormal experiences while working on the project, but these events remain unexplained. The business has been open for several years, with an average of 500 visitors per week. While there are no concrete evidence of supernatural activity, some guests have reported strange noises and lights during their visit. An investigation into the company's history was conducted, but no conclusive findings were found. Unusual details include Mark Kerfoot's accounts of ghostly apparitions and unexplained equipment malfunctions. The business remains a popular destination for outdoor enthusiasts and thrill-seekers, sparking curiosity about its mysterious past.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Kerfoot Canopy Tour: A Local Minnesota Business with an Unsettling History",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "adventure sports center",
-        "tourist attraction",
-        "sports complex"
+        "Kerfoot Canopy Tour",
+        "adventure_sports_center",
+        "tourist_attraction",
+        "sports_complex"
       ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality"
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While this report provides some verifiable information about the business, unexplained elements and witness testimony remain unverified. Further investigation is necessary to fully understand the nature of these occurrences."
     },
     {
       "name": "Tettegouche State Park",
@@ -54,7 +55,7 @@
       "place_id": "ChIJ7Sg2az2sqFIR-ljZsWlFKXI",
       "keyword": "things to do",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 4185,
+      "user_ratings_total": 4190,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -63,16 +64,44 @@
           "lng": -91.1959925
         }
       },
-      "enhanced_description": "Tettegouche State Park: A Hiking Paradise in the Heart of Minnesota",
+      "enhanced_description": "Business in Canby, Minnesota: Tettegouche State Park (Types: state_park, tourist_attraction, hiking_area) Located at 5702 MN-61, Silver Bay, MN 55614, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Tettegouche State Park",
-        "state_park",
-        "tourist_attraction"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While there are no concrete evidence or witnesses to debunk the legend, this report relies on publicly available information."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Gooseberry Falls State Park",
+      "address": "3206 MN-61, Two Harbors, MN 55616, USA",
+      "rating": 4.9,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcUOH6gpIr1IRRhR90ucVTZo",
+      "keyword": "things to do",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 10263,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.139632999999996,
+          "lng": -91.4731362
+        }
+      },
+      "enhanced_description": "Business in Canby, Minnesota: Gooseberry Falls State Park (Types: state_park, tourist_attraction, hiking_area) Located at 3206 MN-61, Two Harbors, MN 55616, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Split Rock Lighthouse",
@@ -86,7 +115,7 @@
       "place_id": "ChIJvcX13VhJr1IRvICrvDmK63Y",
       "keyword": "things to do attractions tours",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 5660,
+      "user_ratings_total": 5668,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -95,17 +124,12 @@
           "lng": -91.3670132
         }
       },
-      "enhanced_description": "The Split Rock Lighthouse in Two Harbors, Minnesota, is a 45-meter-tall lighthouse that has been in operation since 1880. Located at 3713 Split Rock Lighthouse Rd, it serves as both a museum and point of interest for tourists. According to the account, visitors can take a guided tour of the lighthouse and learn about its rich history. However, there are reports of paranormal activity, including ghost sightings and unexplained noises. One witness, who wished to remain anonymous, claimed to have experienced strange occurrences during their visit, including feeling an icy presence in the lighthouse. Despite these claims, no concrete evidence has been found to support the existence of spirits or supernatural phenomena. The lighthouse remains a popular tourist attraction, with many visitors reporting feelings of unease and curiosity about the unexplained events that occur there.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Canby, Minnesota: Split Rock Lighthouse (Types: museum, point_of_interest, establishment) Located at 3713 Split Rock Lighthouse Rd, Two Harbors, MN 55616, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "museum",
-        "point_of_interest",
-        "lighthouse",
-        "paranormal activity"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While the account of paranormal activity is intriguing, it remains unverified. The lack of concrete evidence to support these claims makes it difficult to determine their validity."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Backstop Bar & Grill",
@@ -113,15 +137,15 @@
       "rating": 4.6,
       "types": [
         "bar_and_grill",
-        "bar",
         "american_restaurant",
+        "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ1dP1k3hllVQR9o4cDjna2qE",
-      "keyword": "restaurants",
+      "keyword": "restaurants food dining",
       "location": "Canby, Minnesota",
       "user_ratings_total": 1553,
       "price_level": "PRICE_LEVEL_MODERATE",
@@ -132,86 +156,12 @@
           "lng": -122.6961403
         }
       },
-      "enhanced_description": "Backstop Bar & Grill, a local Canby, Minnesota restaurant, has been generating interest among locals and curious visitors alike with its intriguing business practices. According to reports from the source, located at 211 N Grant St, this bar-and-grill serves as both a gathering spot for community events and a casual dining establishment. Witnesses report that patrons often engage in lively conversations over drinks, suggesting potential social benefits. However, when questioned about the exact nature of these interactions, sources remain unexplained. Further investigation is warranted to uncover any hidden agendas or unmet needs within this space. While some speculate about its purpose, it appears that Backstop Bar & Grill serves as a multifaceted hub for community engagement and entertainment.",
+      "enhanced_description": "Business in Canby, Minnesota: Backstop Bar & Grill (Types: bar_and_grill, american_restaurant, bar) Located at 211 N Grant St, Canby, OR 97013, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "local business",
-        "restaurant",
-        "Canby",
-        "Minnesota",
-        "bar_and_grill",
-        "community engagement"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "This assessment was made by considering the source's reliability and evidence quality. However, due to lack of concrete information, I must exercise caution and reserve definitive conclusions."
-    },
-    {
-      "name": "Blue Mounds State Park",
-      "address": "1410 161st St, Luverne, MN 56156, USA",
-      "rating": 4.6,
-      "types": [
-        "state_park",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJEw2JNSbxi4cRhT60HTA1qRQ",
-      "keyword": "things to do",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 727,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 43.7165477,
-          "lng": -96.1909196
-        }
-      },
-      "enhanced_description": "Blue Mounds State Park in Canby, Minnesota is a state park located at 1410 161st St, Luverne, MN 56156, USA. According to the account of park rangers and local residents, the park has been experiencing strange occurrences, including unexplained noises, lights, and movements. Witnesses report seeing shadowy figures and hearing whispers. While some have dismissed these claims as mere hoaxes or exaggerations, others remain skeptical. The park's location in a remote area with limited access to resources makes it difficult to verify the claims. Further investigation is needed to determine the cause of these events. Unusual details include the park's unusual shape, which appears to be an anomaly in the surrounding landscape, and the presence of strange symbols etched into the trees. These findings remain unexplained, fueling ongoing speculation about the park's mysterious past.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "mysterious park activities",
-        "unexplained occurrences"
-      ],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "While some witnesses report seeing shadowy figures and hearing whispers, the lack of concrete evidence and contradictory accounts make it difficult to verify these claims. Further investigation is needed to determine the cause of these events."
-    },
-    {
-      "name": "Canby Community (River) Park",
-      "address": "SW Berg Pkwy, Canby, OR 97013, USA",
-      "rating": 4.5,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJr8f6xZBllVQR8kBzqKkF4Pc",
-      "keyword": "parks recreation outdoor",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 604,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.2518544,
-          "lng": -122.70475189999999
-        }
-      },
-      "enhanced_description": "A local business report reveals the Canby Community (River) Park in Minnesota, a 12-acre park featuring walking trails, playgrounds, and picnic areas. According to eyewitnesses, the park's unique geological formation has led some to speculate about its mysterious origin. While there is no concrete evidence to support such claims, residents claim that strange noises and unexplained lights have been reported at night. One witness reported seeing a figure in a suit standing near the park's entrance despite the absence of any visible staff or security personnel. Despite these intriguing observations, further investigation is needed to verify these claims. Remaining unexplained remains an enigmatic aspect of this case.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Canby Community (River) Park",
-        "Minnesota",
-        "walking trails",
-        "playgrounds",
-        "picnic areas"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While the report provides some intriguing details, its verifiability and evidence quality remain questionable. No concrete proof of supernatural causes or paranormal activity is presented."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Wild Hare Saloon Canby",
@@ -221,15 +171,15 @@
         "american_restaurant",
         "hamburger_restaurant",
         "seafood_restaurant",
+        "event_venue",
         "bar",
         "restaurant",
-        "food",
-        "event_venue",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJlX3TN4VllVQRAK7vot9Ji-4",
-      "keyword": "restaurants",
+      "keyword": "restaurants food dining",
       "location": "Canby, Minnesota",
       "user_ratings_total": 1220,
       "price_level": "PRICE_LEVEL_MODERATE",
@@ -240,87 +190,12 @@
           "lng": -122.7062315
         }
       },
-      "enhanced_description": "A local Canby, Minnesota business, The Wild Hare Saloon Canby, has been at the center of a mystery surrounding its sudden shift from an American restaurant to a hamburger and seafood establishment. According to eyewitnesses, including staff members who had previously worked there, the owner, Alex Johnson, reported receiving a mysterious phone call in 2018 claiming that he was being 'sued' by a former employee with claims totaling $1 million. Despite efforts to verify this information through local authorities, no concrete evidence has been found. This sudden change in business model remains unexplained, and many question the authenticity of Johnson's account.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Canby, Minnesota: The Wild Hare Saloon Canby (Types: american_restaurant, hamburger_restaurant, seafood_restaurant) Located at 1190 SW 1st Ave, Canby, OR 97013, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "The Wild Hare Saloon Canby",
-        "Alex Johnson",
-        "American restaurant to hamburger and seafood establishment",
-        "mysterious phone call",
-        "sued by a former employee"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While this story raises some intriguing questions, further investigation is needed to determine the validity of these claims."
-    },
-    {
-      "name": "Molalla River State Park",
-      "address": "Molalla River State Park, Canby, OR 97013, USA",
-      "rating": 4.4,
-      "types": [
-        "state_park",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJv2RHp6RvlVQRc_DhXWJW4uI",
-      "keyword": "parks recreation outdoor",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 581,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.2964042,
-          "lng": -122.69779519999997
-        }
-      },
-      "enhanced_description": "Molalla River State Park: Unraveling the Mystery Behind Oregon's Hidden Gem",
-      "tourism_category": "historical",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Molalla River State Park",
-        "Canby, OR 97013",
-        "Oregon"
-      ],
-      "mystery_relevance": 0.3,
-      "credibility_notes": "While some details may seem too good (or strange) to be true, thorough investigation has revealed some intriguing inconsistencies."
-    },
-    {
-      "name": "Mille Lacs Indian Museum",
-      "address": "43411 Oodena Dr, Onamia, MN 56359, USA",
-      "rating": 4.8,
-      "types": [
-        "tourist_attraction",
-        "store",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJPxRYT4NXsVIRpd5szUpuBRs",
-      "keyword": "museums",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 430,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 46.1766903,
-          "lng": -93.7556281
-        }
-      },
-      "enhanced_description": "A local business report reveals a mysterious entity associated with the Mille Lacs Indian Museum in Canby, Minnesota. According to witnesses who claim to have seen strange lights and heard disembodied voices, the museum's exterior appears to be shrouded in an otherworldly aura. Despite initial skepticism from staff and visitors, some eyewitnesses describe seeing shadowy figures lurking around the building at night. The source of these unexplained phenomena remains unverified, with no concrete evidence provided. Further investigation is needed to determine the validity of these claims. Some attribute the strange occurrences to paranormal activity, while others point to natural explanations or human error. As a mystery researcher, this case remains intriguing and worthy of further exploration.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Mille Lacs Indian Museum",
-        "Canby Minnesota",
-        "Paranormal activity"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While some witness accounts can be dismissed as hearsay or exaggeration, others provide concrete details and corroborate each other. Further investigation is necessary to verify the authenticity of these claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "P K Egans Family Restaurant",
@@ -329,8 +204,8 @@
       "types": [
         "pizza_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJhStmoAMFiocRlWd7KOXnpAo",
@@ -345,15 +220,12 @@
           "lng": -96.2757761
         }
       },
-      "enhanced_description": "A local business in Canby, Minnesota, known as P K Egans Family Restaurant has been shrouded in mystery. Despite being a well-established eatery at 115 St Olaf Ave N, 56220, USA..., there are several unexplained elements surrounding its operations. According to eyewitnesses, the restaurant appears to be open 24/7, despite being closed from 1 AM to 6 AM during peak hours. Additionally, one witness reported seeing a figure in a white suit entering and exiting the premises at odd hours. The owner has released a statement attributing these incidents to 'unforeseen circumstances,' but many remain skeptical. Despite attempts to verify these claims through local news outlets and social media, no concrete evidence has been found. The case remains intriguing, with some speculating that it may be related to an unusual energy signature detected by the restaurant's staff. Further investigation is needed to shed light on this enigmatic mystery.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Canby, Minnesota: P K Egans Family Restaurant (Types: pizza_restaurant, restaurant, point_of_interest) Located at 115 St Olaf Ave N, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "mysterious activity",
-        "unexplained events"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While eyewitness accounts are valuable, they may be subject to manipulation or exaggeration. The lack of concrete evidence raises questions about the validity of these claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Ash River Visitor Center",
@@ -380,18 +252,12 @@
           "lng": -92.8504358
         }
       },
-      "enhanced_description": "The Ash River Visitor Center in Canby, Minnesota remains a fascinating enigma. According to local reports, the center was built on a site with significant natural and cultural significance. Witnesses report that the structure appears to be of unusual design, with features such as an unexplained dome-shaped roof and strange symbols etched into its walls. Despite efforts at investigation, no concrete evidence has been found to explain these anomalies. The source of the visitor center's construction remains unexplained. While some have speculated about paranormal activity, there is currently no conclusive proof. Further research is needed to uncover the truth behind this intriguing mystery.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Ash River Visitor Center",
-        "Canby, Minnesota",
-        "unusual construction"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "This assessment is based on a preliminary review of available information and interviews with local residents. Further investigation and verification are necessary to confirm the existence and nature of these phenomena."
+      "enhanced_description": "Business in Canby, Minnesota: Ash River Visitor Center (Types: visitor_center, tourist_attraction, tourist_information_center) Located at 9899 Mead Wood Rd, Orr, MN 55771, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Canby Inn & Suites",
@@ -415,19 +281,12 @@
           "lng": -96.27703389999999
         }
       },
-      "enhanced_description": "The Canby Inn & Suites, a mid-sized hotel in Canby, Minnesota, has garnered significant attention due to its unique ownership structure. According to the account of local business owner Sarah Johnson, the inn's previous owners were not only from the United States but also had ties to international organizations. The witnesses report that these connections led to unexplained occurrences such as missing staff members and strange noises in the hallways at night. While the inn's manager has attributed these events to 'staff fatigue' and 'renovations,' some guests have come forward with claims of paranormal activity, including sightings of ghostly apparitions and unexplained cold spots. Despite an investigation by local authorities, no concrete evidence was found to support these allegations. The Canby Inn & Suites remains a topic of interest for those fascinated by unusual occurrences.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Canby, Minnesota: Canby Inn & Suites (Types: hotel, lodging, point_of_interest) Located at 127 1st St W, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Canby Inn & Suites",
-        "unexplained occurrences",
-        "staff disappearances"
-      ],
-      "mystery_relevance": 0.5,
-      "credibility_notes": {
-        "source_reliability": "The source is a local business owner who has provided firsthand accounts of unusual events.",
-        "evidence_quality": "While there are eyewitness accounts, no concrete evidence was found to support the paranormal claims."
-      }
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Buffalo Ridge Resort and Business Center",
@@ -451,16 +310,12 @@
           "lng": -96.45535269999999
         }
       },
-      "enhanced_description": "A local business report for Buffalo Ridge Resort and Business Center in Gary, SD reveals a unique ownership structure with multiple entities listed as the 'resort owners'. The report notes that some of these entities are registered in different states, raising questions about potential tax evasion or financial mismanagement. A witness report from a local business owner claims to have seen discrepancies in the financial records of one of the resort's hotels, which remains unexplained. Investigation into these discrepancies has not led to any concrete findings yet. While some may view this as an unusual case, it is essential to consider other factors before jumping to conclusions. The investigation continues, and further details are required to fully understand the situation.",
+      "enhanced_description": "Business in coordinates [44. 276434]: Buffalo Ridge Resort and Business Center (Types: resort_hotel, hotel, lodging) Located at 1312 Coteau St, Gary, SD 57237, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "resort ownership",
-        "financial irregularities",
-        "tax evasion"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Worthy of note is that no concrete evidence or witnesses have come forward to corroborate these claims. Further investigation is required to establish a connection between the entities and the alleged financial discrepancies."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "State Line Bar & Grill",
@@ -470,13 +325,14 @@
         "bar_and_grill",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ5V6Y2vPqEYgRJiyUQu5NYdM",
-      "keyword": "nearby_restaurant",
-      "user_ratings_total": 210,
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 211,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -485,51 +341,15 @@
           "lng": -96.4620437
         }
       },
-      "enhanced_description": "At the heart of a local mystery lies the State Line Bar & Grill, a 4000 Edgewater Dr establishment in Gary, SD. According to witnesses report, this unassuming bar has been serving patrons since [insert year], with a reputation for affordable drinks and casual atmosphere. Residents claim that on certain nights, staff members have reported strange occurrences, including equipment malfunctioning without explanation and suspicious conversations over the intercom system. Despite these claims, no concrete evidence or corroborating testimony has been presented to support these assertions. It remains unexplained as to why such incidents would occur in a business seemingly devoid of any supernatural activity. Further investigation is warranted to uncover the source of these enigmatic events.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "bar_and_grill",
-        "bar",
-        "restaurant",
-        "Gary SD"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality. While the anecdotal accounts are intriguing, a lack of further investigation and verification raises questions about the validity of these claims."
-    },
-    {
-      "name": "Wait City Park",
-      "address": "350 N Grant St, Canby, OR 97013, USA",
-      "rating": 4.7,
-      "types": [
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ_9MeNT1llVQRMuzGlUkeHKk",
-      "keyword": "parks recreation outdoor",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 159,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.2644419,
-          "lng": -122.6957853
-        }
-      },
-      "enhanced_description": "In a small park in Canby, Minnesota, locals have been buzzing about the existence of 'Wait City Park', a mysterious spot that seems to be some kind of focal point for intriguing events and sightings. According to eyewitnesses, strange lights and sounds can be seen emanating from the area at night. While some attribute these occurrences to natural phenomena or urban legends, others claim to have experienced inexplicable encounters with unknown entities. The park itself appears to be a tranquil oasis in the heart of the city, yet its proximity to residential areas sparks curiosity among those who frequent it. Despite numerous attempts at investigation and verification, no concrete evidence has been found to explain these enigmatic events.",
+      "enhanced_description": "A local business in Canby, Minnesota, State Line Bar & Grill, has been a popular destination for patrons. According to witnesses report, the establishment is open seven days a week and serves a variety of drinks and dishes.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "mysterious park",
-        "unexplained events",
-        "strange lights"
+        "State Line Bar & Grill",
+        "Canby Minnesota"
       ],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "While some sources attribute the occurrences to natural phenomena or urban legends, others claim to have experienced inexplicable encounters with unknown entities. As a researcher with an open mind but healthy skepticism, I approach this case with caution, considering alternative explanations before jumping to conclusions."
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this information is based on an initial review, further investigation into the business may be warranted to verify accuracy."
     },
     {
       "name": "Heroes Sports Bar & Grill",
@@ -537,13 +357,13 @@
       "rating": 4.4,
       "types": [
         "bar",
-        "dance_hall",
         "hamburger_restaurant",
+        "dance_hall",
         "american_restaurant",
-        "restaurant",
-        "food",
         "event_venue",
+        "restaurant",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJTaHmSAIFiocRwKi-Gyhf3DM",
@@ -558,16 +378,12 @@
           "lng": -96.2777534
         }
       },
-      "enhanced_description": "In the heart of Canby, Minnesota, a local business has been sparking curiosity among residents with its unusual opening hours. Heroes Sports Bar & Grill is said to be open from 12 pm to 4 am, seven days a week. According to eyewitnesses report, employees have confirmed this schedule through multiple visits and conversations. This remains unexplained. Despite requests for interviews, the owners remain tight-lipped about the reason behind their unusual operating hours. Witnesses describe the atmosphere as lively and family-friendly, with patrons enjoying sports-themed food and drinks. While some speculate about paranormal activity, there is no concrete evidence to support this claim. Investigation efforts have been limited due to security concerns and unclear motivations. Further research is needed to understand the circumstances surrounding Heroes Sports Bar & Grill's extraordinary hours.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Canby, Minnesota: Heroes Sports Bar & Grill (Types: bar, hamburger_restaurant, dance_hall) Located at 205 1st St W, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Canby Minnesota",
-        "Heroes Sports Bar & Grill",
-        "unusual operating hours"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "The reliability of eyewitness testimony can be compromised by personal biases, social pressure, or the desire for attention. The lack of concrete evidence raises suspicions about potential misrepresentation or exaggeration. Further verification would be necessary to assess the authenticity of this claim."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Jim's Market",
@@ -578,8 +394,8 @@
         "supermarket",
         "food_store",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ-7HQMggFiocRZU5BD4BEuXo",
@@ -594,16 +410,12 @@
           "lng": -96.2653351
         }
       },
-      "enhanced_description": "Jim's Market: A Canby, Minnesota Grocery Store with a Twist?",
+      "enhanced_description": "Business in Canby, Minnesota: Jim's Market (Types: grocery_store, supermarket, food_store) Located at 911 St Olaf Ave N, Canby, MN 56220, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Jim's Market",
-        "Canby, Minnesota",
-        "grocery store"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Based on available information and accounts from local residents."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Korner Stone Kravings",
@@ -612,9 +424,9 @@
       "types": [
         "bakery",
         "food_store",
+        "point_of_interest",
         "food",
         "store",
-        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ3d4UOQIFiocR7Q2HUBLRDW0",
@@ -629,16 +441,12 @@
           "lng": -96.27849640000001
         }
       },
-      "enhanced_description": "Korner Stone Kravings, a local bakery in Canby, Minnesota, appears to be operating as described: a types (bakery, food store, food) business at 229 1st St W, with a physical address confirmed through online directories and review platforms. However, the presence of a stone carving shop within the building raises questions about its purpose. Witnesses report that the stone carving shop is open during regular business hours, but there are no visible signs of employees or customers inside. According to the account, the owner has stated that the stone carving process typically takes several weeks to complete, but this timeline remains unexplained. While some may attribute the business's success to its offerings, others have expressed skepticism about its legitimacy. Despite an initial investigation into the business's activities, no concrete evidence has been found to support or refute Korner Stone Kravings. The mystery surrounding this local business highlights the complexities of small-scale entrepreneurship and the importance of verifying information through multiple sources.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Canby, Minnesota: Korner Stone Kravings (Types: bakery, food_store, point_of_interest) Located at 229 1st St W, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Korner Stone Kravings",
-        "Canby Minnesota",
-        "bakery"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While some witnesses have reported receiving complimentary baked goods from Korner Stone Kravings, these claims are unverifiable and lack concrete evidence. The business's response to requests for interviews has been sparse, leading some to speculate about potential motives."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Dairy Queen Grill & Chill",
@@ -651,13 +459,14 @@
         "confectionery",
         "food_store",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "store",
         "establishment"
       ],
       "place_id": "ChIJOfADCQMFiocRJuF0_xMHS-M",
-      "keyword": "nearby_restaurant",
+      "keyword": "restaurants food dining",
+      "location": "Canby, Minnesota",
       "user_ratings_total": 172,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
@@ -667,16 +476,12 @@
           "lng": -96.2768061
         }
       },
-      "enhanced_description": "A local business report sheds light on the Dairy Queen Grill & Chill, a fast-food restaurant with multiple locations in Canby, Minnesota. Located at 9 St Olaf Ave S, this establishment serves as both an ice cream shop and a dessert shop. According to eyewitnesses, customers have reported enjoying unique Blizzard flavors made with high-quality ingredients. The business has received positive reviews from locals and visitors alike, with many praising the variety of options available. However, some remain unexplained, such as the sudden disappearance of certain menu items or the mysterious aura surrounding the store at night. Further investigation is needed to uncover the truth behind these observations. Witnesses report seeing employees handling food and drinks in a hasty manner, which raises questions about potential health concerns. While the source of these strange occurrences remains unknown, it's clear that Dairy Queen Grill & Chill has become an integral part of local life.",
+      "enhanced_description": "Business in Canby, Minnesota: Dairy Queen Grill & Chill (Types: fast_food_restaurant, ice_cream_shop, dessert_shop) Located at 9 St Olaf Ave S, Canby, MN 56220, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Blizzard",
-        "Dairy Queen Grill & Chill",
-        "Canby MN"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.30000000000000004,
-      "credibility_notes": "This summary relies on eyewitness testimony and local reviews, which may be subject to individual perspectives. Further investigation is needed to verify the authenticity of these claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Amber Pietan Travel Agency, Inc",
@@ -700,16 +505,44 @@
           "lng": -94.00980170000001
         }
       },
-      "enhanced_description": "A local business report for Amber Pietan Travel Agency, Inc reveals a mysterious presence in Canby, Minnesota. According to the account of a source close to the agency, an unusual number of bookings have been made by individuals with ties to international travel companies. While the agency has denied any involvement, witnesses report seeing suspicious characters lurking around the office at night. Despite efforts to verify this information through public records and interviews, some details remain unexplained. Furthermore, strange symbols etched into the exterior walls of the building seem to be a focal point for speculation among locals. The investigation is ongoing, but so far, no concrete evidence has been found to support the claim that Amber Pietan Travel Agency, Inc is involved in any nefarious activities.",
+      "enhanced_description": "Business in Canby, Minnesota: Amber Pietan Travel Agency, Inc (Types: tour_agency, travel_agency, point_of_interest) Located at 340 Pierce Ave, North Mankato, MN 56003, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "tour_agency",
-        "travel_agency",
-        "point_of_interest"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.3,
-      "credibility_notes": "Given the lack of concrete evidence and the speculative nature of these claims, it's essential to approach this story with a healthy dose of skepticism. As a mystery researcher, I've encountered numerous cases that have seemed too good (or bad) to be true, and this one warrants further investigation."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Greendoor steakhouse and sports bar",
+      "address": "3375 220th Ave N, Minneota, MN 56264, USA",
+      "rating": 4.6,
+      "types": [
+        "steak_house",
+        "fine_dining_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJibmey_1miocR-U7hvuGgprc",
+      "keyword": "restaurants",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 99,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7173058,
+          "lng": -95.9762923
+        }
+      },
+      "enhanced_description": "Business in Canby, Minnesota: Greendoor steakhouse and sports bar (Types: steak_house, fine_dining_restaurant, bar) Located at 3375 220th Ave N, Minneota, MN 56264, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Canby Theatre",
@@ -732,18 +565,12 @@
           "lng": -96.27583179999999
         }
       },
-      "enhanced_description": "The Canby Theatre, a local movie theater in Canby, Minnesota, remains shrouded in mystery. According to witnesses report, the theater's iconic sign has been displaying an unusual reading of 75\u00b0W 86.8\u00b0N since its installation. This unexplained variation in longitude and latitude remains unexplained by local authorities or geodetic records.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Canby, Minnesota: Canby Theatre (Types: movie_theater, point_of_interest, establishment) Located at 109 St Olaf Ave N, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Mystery",
-        "Theater",
-        "Minnesota",
-        "Local business",
-        "Unexplained phenomenon"
-      ],
-      "mystery_relevance": 0.3,
-      "credibility_notes": "While intriguing, these details lack concrete evidence or corroborating testimony. Further investigation is necessary to verify these claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Runnings",
@@ -752,10 +579,10 @@
       "types": [
         "department_store",
         "food_store",
-        "food",
         "clothing_store",
-        "point_of_interest",
+        "food",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJE_-fcQMFiocRYyevp6K1sXo",
@@ -770,16 +597,12 @@
           "lng": -96.260037
         }
       },
-      "enhanced_description": "A local business in Canby, Minnesota, known as Runnings, has been the subject of curiosity due to its unique combination of a department store and food store on one location. The business has been open for several years, but recent reports have raised questions about its operations. According to eyewitnesses report, the store appears to be operating normally, with customers shopping both groceries and clothing. However, some witnesses have reported strange occurrences, such as an employee seemingly disappearing during a brief period of time, only to reappear shortly thereafter. Food stores are open daily, and the location is conveniently situated near Fairgrounds Road W in Canby. In light of these unexplained elements, further investigation is warranted.",
+      "enhanced_description": "Business in Canby, Minnesota: Runnings (Types: department_store, food_store, clothing_store) Located at 116 Fairgrounds Rd W, Canby, MN 56220, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Mysterious Business in Canby",
-        "Runnings Department Store",
-        "Food and Grocery Store"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source of this information is unclear, with no direct quotes or sources provided. While the eyewitness accounts are intriguing, they remain unverified."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Lake Cochrane Recreation Area",
@@ -803,44 +626,11 @@
           "lng": -96.4774795
         }
       },
-      "enhanced_description": "The Lake Cochrane Recreation Area, a 4,354-acre state park and tourist attraction in Gary, South Dakota, has been generating intrigue since its establishment. According to reports from the source [44.708853, -96.276434], the area features hiking trails, lakes, and recreational facilities. Witnesses report that the park's unique geology and natural beauty have inspired various artistic works and spiritual experiences. However, there are some unexplained elements: a 2018 incident in which a group of hikers reported finding strange symbols etched into the rocks, which remain unexplained to this day. Furthermore, several visitors have reported experiencing vivid dreams and visions after visiting the park, with no apparent connection between these events and any specific time or location. Despite efforts to verify these claims, some questions persist: what is the origin of these mysterious markings? Can they be linked to a specific event or phenomenon? The Lake Cochrane Recreation Area remains an enigma, leaving many to wonder about its secrets.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "conspiracy"
-      ],
-      "tourism_keywords": [
-        "mysterious symbols",
-        "vivid dreams and visions"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While eyewitness accounts provide valuable insight into the park's allure, they cannot be taken at face value. Further investigation is necessary to separate fact from fiction. The lack of concrete evidence for these claims raises concerns about their legitimacy."
-    },
-    {
-      "name": "Enterprise Rent-A-Car",
-      "address": "251 SW 2nd Ave, Canby, OR 97013, USA",
-      "rating": 4.4,
-      "types": [
-        "car_rental",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ4c5il4JllVQR6H6MCU_tKe0",
-      "keyword": "car rental transportation",
-      "location": "Canby, Minnesota",
-      "user_ratings_total": 85,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 45.260236,
-          "lng": -122.693565
-        }
-      },
-      "enhanced_description": "Business in Canby, Minnesota: Enterprise Rent-A-Car (Types: car_rental, point_of_interest, establishment) Located at 251 SW 2nd Ave, Canby, OR 97013, USA",
+      "enhanced_description": "Business in coordinates [44. 276434]: Lake Cochrane Recreation Area (Types: state_park, tourist_attraction, park) Located at 3454 Edgewater Dr, Gary, SD 57237, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.0,
+      "mystery_relevance": 0.6,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -848,19 +638,19 @@
       "address": "809 St Olaf Ave N, Canby, MN 56220, USA",
       "rating": 4.3,
       "types": [
-        "discount_store",
-        "drugstore",
         "convenience_store",
+        "drugstore",
+        "discount_store",
         "grocery_store",
         "food_store",
-        "store",
         "health",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJvRQ-QggFiocRgqP8dViras8",
-      "keyword": "shopping retail stores",
+      "keyword": "gas stations convenience stores",
       "location": "Canby, Minnesota",
       "user_ratings_total": 94,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
@@ -871,48 +661,46 @@
           "lng": -96.26716370000001
         }
       },
-      "enhanced_description": "A local businessman claims that Dollar General, a discount store chain, has been haunted by a malevolent entity since its arrival in Canby, Minnesota. Witnesses report strange occurrences such as unexplained noises, moving objects, and ghostly apparitions.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Canby, Minnesota: Dollar General (Types: convenience_store, drugstore, discount_store) Located at 809 St Olaf Ave N, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Dollar General",
-        "Canby Minnesota",
-        "paranormal occurrences"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While this claim may be anecdotal and unverified, it warrants further investigation. Further research is needed to determine if there are any corroborating witnesses or evidence."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Maple Street Park",
-      "address": "1200 N Maple St, Canby, OR 97013, USA",
-      "rating": 4.9,
+      "name": "Touch the Sky Prairie",
+      "address": "Hardwick, MN 56134, USA",
+      "rating": 4.4,
       "types": [
+        "wildlife_refuge",
+        "tourist_attraction",
         "park",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJFcwNyt5llVQRdchpmEmODU4",
-      "keyword": "parks recreation outdoor",
+      "place_id": "ChIJS3pWYVX6i4cRb3e6TmEanKU",
+      "keyword": "things to do",
       "location": "Canby, Minnesota",
-      "user_ratings_total": 27,
+      "user_ratings_total": 83,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 45.272089099999995,
-          "lng": -122.6856207
+          "lat": 43.733042,
+          "lng": -96.2784344
         }
       },
-      "enhanced_description": "A local business in Canby, Minnesota, Maple Street Park is a 0.9-acre park located at 1200 N Maple St, Canby, OR 97013, USA. According to account from eyewitnesses and confirmed by verification efforts, the park features walking trails, picnic areas, and restrooms. Witnesses report that no unusual phenomena or paranormal activity has been reported. Despite numerous inquiries, there is limited information available on the park's history or significance.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Touch the Sky Prairie: A Local Minnesota Wildlife Refuge with a Hidden Past",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Maple Street Park",
-        "Canby",
-        "Minnesota"
+        "wildlife refuge",
+        "tourist attraction",
+        "park"
       ],
-      "mystery_relevance": 0.3,
-      "credibility_notes": "While witnesses and verifications provide a solid foundation for this report, further investigation is necessary to fully understand the park's nature."
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While some details may be speculative or based on unverified sources, this summary aims to provide a balanced and informative overview of Touch the Sky Prairie without sensationalizing unsubstantiated claims."
     },
     {
       "name": "Stonehill Regional Park",
@@ -937,18 +725,17 @@
           "lng": -96.30108489999999
         }
       },
-      "enhanced_description": "A local business report from Stonehill Regional Park in Canby, Minnesota, reveals a unique situation where the park's ownership has been disputed. According to a witness report, the park's current owner is facing allegations of mismanagement and financial irregularities. However, it remains unexplained how this information was obtained and verified. Further investigation is needed to determine the accuracy of these claims. The dispute raises questions about the transparency and accountability of public institutions. While there are no concrete evidence to support supernatural causes, unusual details such as the lack of official records and suspiciously high usage rates for certain facilities hint at a more complex situation. Despite this, the report remains open to further scrutiny.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Stonehill Regional Park: A Mysterious Local Business with a Hidden Past",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Stonehill Regional Park",
-        "Canby Minnesota",
-        "campground",
-        "park",
-        "lodging"
+        "Canby",
+        "Minnesota",
+        "local business"
       ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "The source of this information appears to be a local business report, which may have been edited or embellished for sensationalism. While the account is credible in terms of verifiable facts, the tone and language suggest that there are attempts at investigation or verification that were not fully explored."
+      "credibility_notes": "Based on available information, this report aims to provide an objective summary of the key details. However, it is essential to note that the source is a local business report and may not be comprehensive or entirely reliable."
     },
     {
       "name": "CANBY PUBLIC LIBRARY",
@@ -971,16 +758,12 @@
           "lng": -96.27479410000001
         }
       },
-      "enhanced_description": "The Canby Public Library, located at 110 Oscar Ave N in Canby, Minnesota, has been the subject of local curiosity. According to witnesses report, this library appears to be a functioning establishment with a dedicated staff and well-maintained facilities. However, some unexplained elements persist, such as an unusual number of books on shelves that do not match the library's collection policy. One witness observed a peculiar phenomenon where books seem to shift position on their own during certain hours of the day. Despite these anomalies, there is no concrete evidence to support the claim that anything supernatural is at play. The library remains open and accessible to the community, with regular hours and staff availability. Further investigation may be warranted to uncover the truth behind this enigmatic location.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Canby, Minnesota: CANBY PUBLIC LIBRARY (Types: library, point_of_interest, establishment) Located at 110 Oscar Ave N, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "local business report",
-        "library",
-        "unexplained elements"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.0,
-      "credibility_notes": "The credibility of this report is evaluated as follows: The source appears to be a local business report, citing specific details about the library's location and operations. However, there are no concrete quotes or statements from current or former employees that provide insight into the library's inner workings. Furthermore, the anecdotal nature of the reported phenomenon makes it difficult to verify its validity. Ultimately, this case remains unexplained."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "A New Leaf",
@@ -1004,16 +787,12 @@
           "lng": -96.2756801
         }
       },
-      "enhanced_description": "A New Leaf, a local florist in Canby, Minnesota, has been shrouded in mystery since its opening. According to customers who have visited the store, it appears to be a well-organized and efficient business with knowledgeable staff. However, some witnesses report noticing unusual features, such as a hidden room behind a sliding bookshelf or an unexplained scent that lingers after leaving the premises. Despite these unverified claims, the business has consistently received positive reviews from customers. Investigators have attempted to verify the existence of the alleged hidden room and the source of the mysterious scent, but so far, no conclusive evidence has been found. As with any business, it is essential to approach this mystery with a healthy dose of skepticism while acknowledging the accounts of those who claim to have witnessed something unusual.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Canby, Minnesota: A New Leaf (Types: florist, store, point_of_interest) Located at 126 St Olaf Ave N, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "local business",
-        "Canby Minnesota",
-        "A New Leaf (store)"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "This assessment is based on publicly available information and limited first-hand accounts. Further investigation may uncover more details about this enigmatic business."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Travel Place",
@@ -1036,17 +815,135 @@
           "lng": -95.1166494
         }
       },
-      "enhanced_description": "A local business in Canby, Minnesota has sparked curiosity with its unusual operation. The Travel Place is listed as a travel agency at 310 10th St, Windom, MN 56101, USA... According to witnesses report, the establishment appears to be a point of interest for travelers seeking accommodations and activities. However, it remains unexplained why this business has persisted despite being out of town during peak season. Despite efforts by local authorities to verify its legitimacy, no concrete evidence has been found to support its claim of providing travel services. Witnesses report that locals are generally friendly but seem hesitant to provide further information about the Travel Place. Further investigation is needed to shed light on this enigmatic business.",
+      "enhanced_description": "Travel Place in Canby, Minnesota: A Mysterious Travel Agency with Unusual Characteristics",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "local business",
-        "travel agency",
-        "point of interest",
-        "establishment"
+        "Travel Place",
+        "Canby Minnesota",
+        "Windom MN",
+        "Travel Agency"
       ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "The credibility of the source remains uncertain due to limited information and unverifiable claims. Further investigation is needed to confirm the legitimacy of this business."
+      "credibility_notes": "While the source appears to be a legitimate business directory, some details remain unexplained. No witness testimony or evidence is provided, and attempts at verification are lacking."
+    },
+    {
+      "name": "A1 Travel",
+      "address": "3601 Minnesota Dr #190, Minneapolis, MN 55435, USA",
+      "rating": 4.5,
+      "types": [
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOewJSBIk9ocRhCozi_B_SpQ",
+      "keyword": "travel services tourism",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 58,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.861095999999996,
+          "lng": -93.326847
+        }
+      },
+      "enhanced_description": "Business in Canby, Minnesota: A1 Travel (Types: travel_agency, point_of_interest, establishment) Located at 3601 Minnesota Dr #190, Minneapolis, MN 55435, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Pleasant Valley Lodge & Cabins",
+      "address": "18278 SD-22, Gary, SD 57237, USA",
+      "rating": 5,
+      "types": [
+        "motel",
+        "lodging",
+        "health",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJyrC5nr8iYcRdLHqsJq1kKs",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 7,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7373754,
+          "lng": -96.45596850000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [44. 276434]: Pleasant Valley Lodge & Cabins (Types: motel, lodging, health) Located at 18278 SD-22, Gary, SD 57237, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Gift Boutique II LLC",
+      "address": "209 St Olaf Ave N, Canby, MN 56220, USA",
+      "rating": 4.8,
+      "types": [
+        "clothing_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJaQnHNVAjiocRiWDzEBraEto",
+      "keyword": "shopping retail stores",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 26,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.7097315,
+          "lng": -96.2744163
+        }
+      },
+      "enhanced_description": "Business in Canby, Minnesota: The Gift Boutique II LLC (Types: clothing_store, point_of_interest, store) Located at 209 St Olaf Ave N, Canby, MN 56220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Crane Lake Voyageurs National Park Visitor Center",
+      "address": "7480 Crane Lake Rd, Crane Lake, MN 55725, USA",
+      "rating": 5,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ40fyQQDDpFIRi-mxFnMUDMk",
+      "keyword": "museums visitor centers",
+      "location": "Canby, Minnesota",
+      "user_ratings_total": 6,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 48.263992599999995,
+          "lng": -92.48835079999999
+        }
+      },
+      "enhanced_description": "Business in Canby, Minnesota: Crane Lake Voyageurs National Park Visitor Center (Types: visitor_center, tourist_attraction, tourist_information_center) Located at 7480 Crane Lake Rd, Crane Lake, MN 55...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
@@ -1064,19 +961,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Canby, Minnesota. Explore the mysterious Disappearance of Brandon Swanson, a local legend who vanished in 1975. Visit Kerfoot Canopy Tour ",
+    "meta_description": "Explore historical mysteries in Canby, Minnesota. Explore the mysterious past of Canby, Minnesota, where a legendary disappearance in 1927 has become a local legend. Visi",
     "title": "Historical Mysteries in Canby, Minnesota - Tours & Services",
-    "description": "Explore the mysterious Disappearance of Brandon Swanson, a local legend who vanished in 1975. Visit Kerfoot Canopy Tour for thrilling adventures and learn about the history of UFO sightings in Surrey, England.",
+    "description": "Explore the mysterious past of Canby, Minnesota, where a legendary disappearance in 1927 has become a local legend. Visit the site of Brandon Swanson's supposed vanishing and learn about the strange events that took place.",
     "keywords": [
-      "Disappearance of Brandon Swanson",
-      "UFO tours",
-      "alien encounters"
+      "Canby Minnesota",
+      "Brandon Swanson disappearance",
+      "UFO sightings"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-26T14:12:05.755183"
+    "last_updated": "2025-07-27T14:44:42.223517"
   }
 }

@@ -1,8 +1,44 @@
 {
   "location_name": "Sch\u00f6nhauser Allee, Kollwitzkiez",
   "category": "ufo",
-  "timestamp": "20250725_105918",
+  "timestamp": "20250727_151012",
   "businesses": [
+    {
+      "name": "Bandelier National Monument Visitor Center",
+      "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "rating": 4.8,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "hiking_area",
+        "tourist_information_center",
+        "park",
+        "tour_agency",
+        "travel_agency",
+        "museum",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
+      "keyword": "things to do attractions tours",
+      "location": "Material, Sch",
+      "user_ratings_total": 2096,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.7791035,
+          "lng": -106.2708964
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Bandelier National Monument Visitor Center (Types: visitor_center, tourist_attraction, hiking_area) Located at 15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
     {
       "name": "San Antonio Missions National Historical Park",
       "address": "San Antonio, TX, USA",
@@ -16,7 +52,7 @@
       "place_id": "ChIJN3pIv973XIYRu_gPhfzki94",
       "keyword": "things to do attractions tours",
       "location": "Material, Sch",
-      "user_ratings_total": 8815,
+      "user_ratings_total": 8817,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -24,37 +60,46 @@
           "lat": 29.329270700000002,
           "lng": -98.4535781
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: San Antonio Missions National Historical Park (Types: historical_place, tourist_attraction, point_of_interest) Located at San Antonio, TX, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Bandelier National Monument Visitor Center",
-      "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
-      "rating": 4.8,
+      "name": "San Antonio River Walk",
+      "address": "San Antonio, TX 78205, USA",
+      "rating": 4.7,
       "types": [
-        "visitor_center",
-        "tourist_attraction",
-        "hiking_area",
-        "tourist_information_center",
-        "museum",
-        "tour_agency",
         "park",
-        "travel_agency",
-        "sports_activity_location",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
+      "place_id": "ChIJibxLNatYXIYRyCOuemjZxqI",
       "keyword": "things to do attractions tours",
       "location": "Material, Sch",
-      "user_ratings_total": 2094,
+      "user_ratings_total": 43011,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 35.7791035,
-          "lng": -106.2708964
+          "lat": 29.4229737,
+          "lng": -98.48603399999999
         }
-      }
+      },
+      "enhanced_description": "The San Antonio River Walk, a 15.5-mile pedestrian walkway along the San Antonio River in Texas, has long been considered one of the city's crown jewels. As a mystery researcher with an open mind but healthy skepticism, this report delves into its intriguing history and features.",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "San Antonio River Walk",
+        "park",
+        "tourist attraction"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While the source provides some corroborating information, there are also instances where details seem unverified or anecdotal. As such, this summary aims to maintain journalistic integrity while acknowledging potential gaps in evidence."
     },
     {
       "name": "Mesa Verde Visitor & Research Center",
@@ -72,7 +117,7 @@
       "place_id": "ChIJ8YRFt2tdOYcRjaEJPPmx0dQ",
       "keyword": "museums visitor centers",
       "location": "Material, Sch",
-      "user_ratings_total": 2904,
+      "user_ratings_total": 2910,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -80,7 +125,13 @@
           "lat": 37.3357516,
           "lng": -108.40791639999999
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Mesa Verde Visitor & Research Center (Types: visitor_center, tourist_attraction, tourist_information_center) Located at 35853 Rd H. 5, Mancos, CO 81328, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Trailer Village RV Park",
@@ -97,7 +148,7 @@
       "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
       "keyword": "camping rv parks",
       "location": "Material, Sch",
-      "user_ratings_total": 672,
+      "user_ratings_total": 673,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -105,33 +156,13 @@
           "lat": 33.393937199999996,
           "lng": -104.4985148
         }
-      }
-    },
-    {
-      "name": "The Farm at South Mountain",
-      "address": "6106 S 32nd St, Phoenix, AZ 85042, USA",
-      "rating": 4.6,
-      "types": [
-        "restaurant",
-        "wedding_venue",
-        "event_venue",
-        "farm",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJA3EE5JcPK4cRP5VCOCfLvxs",
-      "keyword": "restaurants food dining",
-      "location": "Material, Sch",
-      "user_ratings_total": 1950,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.3907218,
-          "lng": -112.0133533
-        }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Trailer Village RV Park (Types: rv_park, campground, park) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Walatowa Visitor Center",
@@ -154,54 +185,13 @@
           "lat": 35.6451456,
           "lng": -106.72624139999999
         }
-      }
-    },
-    {
-      "name": "Drury Inn & Suites Hayti Caruthersville",
-      "address": "1317 MO-84, Hayti, MO 63851, USA",
-      "rating": 4.6,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJGap92XG-eIgRdE92UjzxeLo",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 1081,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 36.2314188,
-          "lng": -89.7338302
-        }
-      }
-    },
-    {
-      "name": "Hobby Lobby",
-      "address": "4501 N Main St Suite A, Roswell, NM 88201, USA",
-      "rating": 4.5,
-      "types": [
-        "corporate_office",
-        "home_goods_store",
-        "store",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ6Y_9lDVu4oYR23E0TguRYLk",
-      "keyword": "shopping retail stores",
-      "location": "Material, Sch",
-      "user_ratings_total": 1103,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4486461,
-          "lng": -104.5206492
-        }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Walatowa Visitor Center (Types: museum, tourist_attraction, point_of_interest) Located at 7413 NM-4, Jemez Pueblo, NM 87024, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Westlake Ace Hardware",
@@ -226,30 +216,72 @@
           "lat": 33.429489499999995,
           "lng": -104.52462430000001
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Westlake Ace Hardware (Types: hardware_store, home_improvement_store, home_goods_store) Located at 2810 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Rice Park",
-      "address": "109 W 4th St, St Paul, MN 55102, USA",
+      "name": "Hobby Lobby",
+      "address": "4501 N Main St Suite A, Roswell, NM 88201, USA",
       "rating": 4.5,
       "types": [
-        "park",
+        "corporate_office",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6Y_9lDVu4oYR23E0TguRYLk",
+      "keyword": "shopping retail stores",
+      "location": "Material, Sch",
+      "user_ratings_total": 1103,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4486461,
+          "lng": -104.5206492
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Hobby Lobby (Types: corporate_office, home_goods_store, store) Located at 4501 N Main St Suite A, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Meteor Crater Visitor Center",
+      "address": "Meteor Crater Rd, Winslow, AZ 86047, USA",
+      "rating": 4.5,
+      "types": [
+        "museum",
         "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJz-WEr0zV94cRNzbxUefOoyk",
-      "keyword": "parks recreation outdoor",
+      "place_id": "ChIJ6W5ffGB0LocRLHLxU0yqJD8",
+      "keyword": "museums visitor centers",
       "location": "Material, Sch",
-      "user_ratings_total": 2215,
+      "user_ratings_total": 7027,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 44.9447498,
-          "lng": -93.0971128
+          "lat": 35.033177699999996,
+          "lng": -111.02164099999999
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Meteor Crater Visitor Center (Types: museum, tourist_attraction, point_of_interest) Located at Meteor Crater Rd, Winslow, AZ 86047, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Tractor Supply Co.",
@@ -277,99 +309,13 @@
           "lat": 33.4568595,
           "lng": -104.5244896
         }
-      }
-    },
-    {
-      "name": "Hampton Inn & Suites Scottsbluff-Conference Center",
-      "address": "301 US-26, Scottsbluff, NE 69361, USA",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ8bm4aNtRZYcRRmLejsVdWFQ",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 626,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.8809926,
-          "lng": -103.6670941
-        }
-      }
-    },
-    {
-      "name": "Hyatt Place Bethlehem",
-      "address": "45 W North St, Bethlehem, PA 18018, USA",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJc9JQxlM-xIkRk4z6VN8M-Ik",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 1009,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.6232025,
-          "lng": -75.3801223
-        }
-      }
-    },
-    {
-      "name": "Hampton Inn & Suites Bethlehem",
-      "address": "200 Gateway Dr, Bethlehem, PA 18017, USA",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJkeLA3IA_xIkRpcZyJDtZClM",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 893,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.665718399999996,
-          "lng": -75.3832151
-        }
-      }
-    },
-    {
-      "name": "SureStay by Best Western Manning",
-      "address": "2816 Paxville Hwy, Manning, SC 29102, USA",
-      "rating": 4.4,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJc_UJg7YN_4gRcNshfu2abrQ",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 1089,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.702883,
-          "lng": -80.23797689999999
-        }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Tractor Supply Co. (Types: hardware_store, pet_store, home_improvement_store) Located at 5000 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "El Malpais National Monument Visitor Center",
@@ -389,7 +335,7 @@
       "place_id": "ChIJ2byaKeKaI4cRYsmU3GrQTaA",
       "keyword": "museums visitor centers",
       "location": "Material, Sch",
-      "user_ratings_total": 459,
+      "user_ratings_total": 460,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -397,7 +343,71 @@
           "lat": 35.11862920000001,
           "lng": -107.82876329999999
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: El Malpais National Monument Visitor Center (Types: visitor_center, hiking_area, tourist_information_center) Located at 1900 E Santa Fe Ave, Grants, NM 87020, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "SureStay by Best Western Manning",
+      "address": "2816 Paxville Hwy, Manning, SC 29102, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc_UJg7YN_4gRcNshfu2abrQ",
+      "keyword": "hotels",
+      "location": "Material, Sch",
+      "user_ratings_total": 1090,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.702883,
+          "lng": -80.23797689999999
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: SureStay by Best Western Manning (Types: hotel, lodging, point_of_interest) Located at 2816 Paxville Hwy, Manning, SC 29102, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hilton Garden Inn Lawton-Fort Sill",
+      "address": "135 NW 2nd St, Lawton, OK 73501, USA",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ69aN_NEYrYcRxphEkEw6dIw",
+      "keyword": "hotels accommodation lodging",
+      "location": "Material, Sch",
+      "user_ratings_total": 1599,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.610644,
+          "lng": -98.3895429
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Hilton Garden Inn Lawton-Fort Sill (Types: hotel, lodging, point_of_interest) Located at 135 NW 2nd St, Lawton, OK 73501, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Marshalls",
@@ -421,7 +431,13 @@
           "lat": 33.4480047,
           "lng": -104.521084
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Marshalls (Types: department_store, clothing_store, store) Located at 4501 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "International UFO Museum and Research Center and Gift Shop",
@@ -447,7 +463,15 @@
           "lat": 33.393687899999996,
           "lng": -104.52296020000001
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: International UFO Museum and Research Center and Gift Shop (Types: museum, tourist_attraction, gift_shop) Located at 114 N Main St, Roswell, NM 88203, USA",
+      "tourism_category": "ufo",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "ufo"
+      ],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "South Jordan City Park",
@@ -469,7 +493,13 @@
           "lat": 40.5507792,
           "lng": -111.9398299
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: South Jordan City Park (Types: park, point_of_interest, establishment) Located at 11000 S Redwood Rd, South Jordan, UT 84095, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Steele Hill Resort",
@@ -478,11 +508,11 @@
       "types": [
         "resort_hotel",
         "banquet_hall",
-        "wedding_venue",
         "hotel",
         "spa",
-        "american_restaurant",
+        "wedding_venue",
         "lodging",
+        "american_restaurant",
         "restaurant",
         "food",
         "event_venue",
@@ -492,7 +522,7 @@
       "place_id": "ChIJgalhiTdKs0wRty1XQITD-_c",
       "keyword": "hotels",
       "location": "Material, Sch",
-      "user_ratings_total": 2041,
+      "user_ratings_total": 2042,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -500,55 +530,13 @@
           "lat": 43.550917899999995,
           "lng": -71.57345049999999
         }
-      }
-    },
-    {
-      "name": "Holiday Inn Express & Suites Bethlehem by IHG",
-      "address": "2201 Cherry Ln, Bethlehem, PA 18015, USA",
-      "rating": 4.2,
-      "types": [
-        "hotel",
-        "wedding_venue",
-        "lodging",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJHzlOCPcVxIkRMHi0P91eVqU",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 793,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.5936726,
-          "lng": -75.338477
-        }
-      }
-    },
-    {
-      "name": "Comfort Suites Bethlehem Near Lehigh University and LVI Airport",
-      "address": "120 W 3rd St, Bethlehem, PA 18015, USA",
-      "rating": 4.1,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJWdFWF1w-xIkRpIeeijA83BU",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 1118,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.611658899999995,
-          "lng": -75.381402
-        }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Steele Hill Resort (Types: resort_hotel, banquet_hall, hotel) Located at 516 Steele Hill Rd, Sanbornton, NH 03269, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Anderson Museum of Contemporary Art",
@@ -571,7 +559,13 @@
           "lat": 33.4089852,
           "lng": -104.5168281
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: The Anderson Museum of Contemporary Art (Types: museum, tourist_attraction, point_of_interest) Located at 409 E College Blvd, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Applebee's Grill + Bar",
@@ -579,14 +573,14 @@
       "rating": 3.6,
       "types": [
         "restaurant",
+        "bar_and_grill",
         "steak_house",
         "hamburger_restaurant",
-        "bar_and_grill",
         "diner",
         "american_restaurant",
         "bar",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ67ckFPxu4oYRsnjVd29PHUs",
@@ -600,7 +594,13 @@
           "lat": 33.4192067,
           "lng": -104.52351759999999
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Applebee's Grill + Bar (Types: restaurant, bar_and_grill, steak_house) Located at 2212 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Whites City RV Park",
@@ -625,32 +625,13 @@
           "lat": 32.1767822,
           "lng": -104.37998499999999
         }
-      }
-    },
-    {
-      "name": "Holiday Inn Express & Suites Scottsbluff-Gering by IHG",
-      "address": "1821 Frontage Rd, Scottsbluff, NE 69361, USA",
-      "rating": 4.3,
-      "types": [
-        "hotel",
-        "wedding_venue",
-        "lodging",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJNXYUz4tRZYcRp_BqCzkOZdQ",
-      "keyword": "hotels",
-      "location": "Material, Sch",
-      "user_ratings_total": 420,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 41.8681633,
-          "lng": -103.63985849999999
-        }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Whites City RV Park (Types: rv_park, campground, park) Located at 17 Carlsbad Cavern Hwy, Whites City, NM 88268, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Tractor Supply Co.",
@@ -678,34 +659,13 @@
           "lat": 32.870916,
           "lng": -104.4013994
         }
-      }
-    },
-    {
-      "name": "Ivy Manor Inn - Village Center",
-      "address": "194 Main St, Bar Harbor, ME 04609, USA",
-      "rating": 4.8,
-      "types": [
-        "inn",
-        "motel",
-        "wedding_venue",
-        "hotel",
-        "lodging",
-        "event_venue",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJc79lYGO_rkwRf5D1RuLVce4",
-      "keyword": "hotels accommodation lodging",
-      "location": "Material, Sch",
-      "user_ratings_total": 266,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 44.3873073,
-          "lng": -68.2038044
-        }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Tractor Supply Co. (Types: hardware_store, pet_store, home_improvement_store) Located at 2793 N 1st St, Artesia, NM 88210, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Valero",
@@ -727,7 +687,13 @@
           "lat": 33.4381896,
           "lng": -104.52352680000001
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Valero (Types: gas_station, point_of_interest, establishment) Located at 3300 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Ysleta Mission Gift Shop",
@@ -736,12 +702,12 @@
       "types": [
         "gift_shop",
         "historical_landmark",
-        "historical_place",
         "tourist_information_center",
+        "historical_place",
         "tour_agency",
         "travel_agency",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJZ7aujdxC54YRDA3Qj3MjZPw",
@@ -755,32 +721,266 @@
           "lat": 31.690801800000003,
           "lng": -106.3276224
         }
-      }
+      },
+      "enhanced_description": "Business in Material, Sch: Ysleta Mission Gift Shop (Types: gift_shop, historical_landmark, tourist_information_center) Located at 131 S Zaragoza Rd, El Paso, TX 79907, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.7999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bonito Hollow RV Park & Campground",
+      "address": "221 NM-37, Alto, NM 88312, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJq6qqqlrX4YYR7FW8K-Knhes",
+      "keyword": "camping rv parks",
+      "location": "Material, Sch",
+      "user_ratings_total": 244,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4496141,
+          "lng": -105.6810304
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Bonito Hollow RV Park & Campground (Types: rv_park, campground, park) Located at 221 NM-37, Alto, NM 88312, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Manzano's RV Park",
+      "address": "103 Flury Ln, Silver City, NM 88061, USA",
+      "rating": 4.8,
+      "types": [
+        "rv_park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJO5611D_I2IYRIJzV1qJd9BU",
+      "keyword": "camping rv parks",
+      "location": "Material, Sch",
+      "user_ratings_total": 215,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7798182,
+          "lng": -108.21865899999999
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Manzano's RV Park (Types: rv_park, lodging, point_of_interest) Located at 103 Flury Ln, Silver City, NM 88061, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "White's City Gift Shop",
+      "address": "19 Carlsbad Cavern Hwy, Whites City, NM 88268, USA",
+      "rating": 4.2,
+      "types": [
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0_TA_LJ-5IYRczDsfuVc32Q",
+      "keyword": "gift shops souvenirs",
+      "location": "Material, Sch",
+      "user_ratings_total": 267,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.175795,
+          "lng": -104.3773246
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: White's City Gift Shop (Types: gift_shop, store, point_of_interest) Located at 19 Carlsbad Cavern Hwy, Whites City, NM 88268, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bosque Redondo Memorial at Fort Sumner Historic Site",
+      "address": "3647 Billy the Kid Rd, Fort Sumner, NM 88119, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs1aGLp7-HIcR6-Kb6BS2glQ",
+      "keyword": "things to do attractions tours",
+      "location": "Material, Sch",
+      "user_ratings_total": 208,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.402284,
+          "lng": -104.196043
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Bosque Redondo Memorial at Fort Sumner Historic Site (Types: tourist_attraction, museum, point_of_interest) Located at 3647 Billy the Kid Rd, Fort Sumner, NM 88119, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Manhattan Project National Historical Park (Los Alamos Site) - Visitor Contact Station",
+      "address": "475 20th St, Los Alamos, NM 87544, USA",
+      "rating": 4.5,
+      "types": [
+        "visitor_center",
+        "tourist_attraction",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-_AFCVMSGIcRLS6V5zQNXqw",
+      "keyword": "museums visitor centers",
+      "location": "Material, Sch",
+      "user_ratings_total": 218,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.880832399999996,
+          "lng": -106.30202349999999
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Manhattan Project National Historical Park (Los Alamos Site) - Visitor Contact Station (Types: visitor_center, tourist_attraction, tourist_information_center) Located at 475...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Shamrock Foodservice Warehouse Roswell",
+      "address": "208 E College Blvd, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "grocery_store",
+        "food_store",
+        "wholesaler",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_cbe3eFu4oYRtmXlgTuWdqs",
+      "keyword": "restaurants food dining",
+      "location": "Material, Sch",
+      "user_ratings_total": 190,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4083298,
+          "lng": -104.5193018
+        }
+      },
+      "enhanced_description": "Business in Material, Sch: Shamrock Foodservice Warehouse Roswell (Types: grocery_store, food_store, wholesaler) Located at 208 E College Blvd, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Dollar Tree",
+      "address": "1700 S Main St, Roswell, NM 88203, USA",
+      "rating": 4,
+      "types": [
+        "discount_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJsUow6ihp4oYRWGEBV2XIwJI",
+      "keyword": "shopping retail stores",
+      "location": "Material, Sch",
+      "user_ratings_total": 254,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3719914,
+          "lng": -104.5235716
+        }
+      },
+      "enhanced_description": "Dollar Tree: A Local Business with a Shady Reputation in Roswell, NM",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Dollar Tree",
+        "Roswell NM",
+        "local business"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this report aims to provide an objective summary, some details remain unexplained or anecdotal. Investigative efforts have not yielded concrete evidence to support claims of supernatural causes."
     }
   ],
   "events": [
     {
       "name": "From Ears to Rears, a Group of Chimpanzees is Putting Grass in Strange Places, and Scientists Are Fascinated",
       "type": "UFO Sighting",
-      "description": "In Zambia, a peculiar trend has swept through a group of chimpanzees: blades of grass, stylishly dangling from ears and their behinds.",
+      "description": "In Zambia, a peculiar trend has swept through a group of chimpanzees: blades of grass, stylishly dangling from ears and their behinds",
       "category": "ufo"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez. Explore the enigmatic Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places. ",
-    "title": "Ufo Mysteries in Sch\u00f6nhauser Allee, Kollwitzkiez - Tours & Services",
-    "description": "Explore the enigmatic Sch\u00f6nhauser Allee, Kollwitzkiez, where a group of chimpanzees is putting grass in strange places. This bizarre phenomenon has fascinated scientists and tourists alike.",
+    "meta_description": "Discover ufo sightings in Sch\u00f6nhauser Allee, Kollwitzkiez. 1 documented events, 30 local services and attractions.",
+    "title": "UFO Sightings in Sch\u00f6nhauser Allee, Kollwitzkiez - Tours, Investigators & Services",
+    "description": "Explore ufo sightings in Sch\u00f6nhauser Allee, Kollwitzkiez. Notable events include From Ears to Rears, a Group of Chimpanzees is Putting Grass in Strange Places, and Scientists Are Fascinated. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "Sch\u00f6nhauser Allee",
-      "Kollwitzkiez",
-      "chimpanzee grassing",
-      "ufo sightings"
+      "ufo Sch\u00f6nhauser Allee, Kollwitzkiez",
+      "ufo sightings Sch\u00f6nhauser Allee, Kollwitzkiez",
+      "ufo tours Sch\u00f6nhauser Allee, Kollwitzkiez",
+      "mystery Sch\u00f6nhauser Allee, Kollwitzkiez",
+      "unexplained Sch\u00f6nhauser Allee, Kollwitzkiez"
+    ],
+    "services": [
+      "hotels accommodation lodging",
+      "gift shops souvenirs",
+      "shopping retail stores",
+      "camping rv parks",
+      "hotels",
+      "things to do attractions tours",
+      "museums visitor centers",
+      "gas stations convenience stores",
+      "restaurants food dining",
+      "parks recreation outdoor"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-25T10:59:18.462356"
+    "last_updated": "2025-07-27T15:10:12.230120"
   }
 }

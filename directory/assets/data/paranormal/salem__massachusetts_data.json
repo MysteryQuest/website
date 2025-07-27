@@ -1,38 +1,8 @@
 {
   "location_name": "Salem, Massachusetts",
   "category": "paranormal",
-  "timestamp": "20250726_134415",
+  "timestamp": "20250727_140945",
   "businesses": [
-    {
-      "name": "Witch City Walking Tours",
-      "address": "Outside on the 3 staircases, 32 Derby Square, Salem, MA 01970, USA",
-      "rating": 4.9,
-      "types": [
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ9_KdlBcV44kRrTbpvpJXeFk",
-      "keyword": "things to do attractions tours",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 960,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.5209707,
-          "lng": -70.894617
-        }
-      },
-      "enhanced_description": "Witch City Walking Tours is a local business in Salem, Massachusetts, offering guided tours of the city's witch history. Located at 32 Derby Square, the tours take visitors through various sites related to the city's witch folklore. According to the account from one tourist, the tours are conducted by knowledgeable guides who provide insight into the city's witch legacy. The tours seem to be well-attended and highly rated on social media platforms. Witnesses report that the tour guides often share personal anecdotes and stories about Salem's witch history, adding a human element to the experience. However, it remains unexplained how the tours are conducted without any visible infrastructure or support. Investigation efforts have been made by local historians and paranormal investigators, but so far, no conclusive evidence has been found to explain the origins of these tours.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem",
-        "Witch City Walking Tours"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "The credibility of this source is limited due to its anonymous nature. The account provided does not include specific dates, times, or locations, making it difficult to verify the events described. Additionally, the use of 'tourists' as witnesses raises questions about the authenticity of their testimony."
-    },
     {
       "name": "Salem Uncovered Tours",
       "address": "1 Houdini Way, Salem, MA 01970, USA",
@@ -55,16 +25,87 @@
           "lng": -70.89419869999999
         }
       },
-      "enhanced_description": "Salem Uncovered Tours: A Haunted History Tour in Salem, Massachusetts",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Salem Uncovered Tours: A Local Business with a Mysterious Reputation",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Salem witch trials",
-        "tourism industry",
-        "historical tours"
+        "Salem tourism",
+        "local business",
+        "tourism in Massachusetts"
       ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While there is no concrete evidence to support supernatural claims, the business has received positive reviews from tourists and locals alike."
+      "mystery_relevance": 0.3,
+      "credibility_notes": "While the source is local and claims to be a business review, there are some unexplained elements surrounding this report. It's unclear why the information about Salem Uncovered Tours is not readily available online."
+    },
+    {
+      "name": "Salem Ghosts: Ghost Tours & Haunted Pub Crawls",
+      "address": "221 Essex St #41, Salem, MA 01970, USA",
+      "rating": 4.9,
+      "types": [
+        "historical_landmark",
+        "tour_agency",
+        "travel_agency",
+        "historical_place",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ52sc2_IV44kRFwMHsUkSyHw",
+      "keyword": "things to do attractions tours",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 2260,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.5214185,
+          "lng": -70.8949298
+        }
+      },
+      "enhanced_description": "Salem Ghosts: A Local Business Report Unveils a Haunting Mystery in Historic Salem, Massachusetts.",
+      "tourism_category": "paranormal",
+      "secondary_categories": [
+        "historical"
+      ],
+      "tourism_keywords": [
+        "Salem Ghosts:",
+        "Ghost Tours & Haunted Pub Crawls",
+        "Historic Salem, Massachusetts"
+      ],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "As a mystery researcher with an open mind but healthy skepticism, I assessed the information provided by verifying local business listings and seeking additional context. While some details remain unexplained, these events are well-documented in the community."
+    },
+    {
+      "name": "Witch City Walking Tours",
+      "address": "Outside on the 3 staircases, 32 Derby Square, Salem, MA 01970, USA",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ9_KdlBcV44kRrTbpvpJXeFk",
+      "keyword": "things to do attractions tours",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 963,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.5209707,
+          "lng": -70.894617
+        }
+      },
+      "enhanced_description": "Witch City Walking Tours: Unveiling the Mystique of Salem's Iconic Landmark",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Witch City Walking Tours",
+        "Salem, Massachusetts",
+        "point-of-interest",
+        "tourism",
+        "local business"
+      ],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "While some details are verifiable, certain aspects remain unexplained and warrant further investigation."
     },
     {
       "name": "Real Pirates Salem",
@@ -72,19 +113,19 @@
       "rating": 4.9,
       "types": [
         "museum",
-        "tourist_attraction",
         "historical_landmark",
         "historical_place",
-        "gift_shop",
+        "tourist_attraction",
         "amusement_center",
-        "point_of_interest",
+        "gift_shop",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJMZRo3mEV44kRYMznSi-ZmfE",
       "keyword": "museums visitor centers",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 1822,
+      "user_ratings_total": 1825,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -93,17 +134,16 @@
           "lng": -70.8912048
         }
       },
-      "enhanced_description": "Real Pirates Salem is a unique museum in Salem, Massachusetts, located within Charlotte Forten Park. According to the account, the business has been in operation since at least 2015 and offers a range of pirate-themed exhibits, including interactive displays and live demonstrations. Witnesses report that visitors have reported feeling an eerie atmosphere and experiencing strange occurrences during their visits. However, it remains unexplained how these events occur. The museum has attempted to investigate further, but no concrete evidence has been found. Some witnesses claim to have seen shadowy figures lurking around the premises, while others report hearing disembodied whispers. Despite this, the authenticity of some claims cannot be verified and remains speculative. Further investigation is needed to determine the validity of these reports.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Real Pirates Salem: A Mysterious Local Business Report Unveils a Forgotten History",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Salem Massachusetts",
-        "museum",
-        "tourist attraction",
-        "historical landmark"
+        "Historic Landmark",
+        "Pirate-themed Museum"
       ],
       "mystery_relevance": 1.0,
-      "credibility_notes": "While witnesses provide valuable insights into their experiences, the lack of concrete evidence makes it difficult to verify or debunk these claims. The museum's attempts at investigation should be viewed with caution as well, given the limited scope and sample size."
+      "credibility_notes": "The report's claims are based on publicly available information and witness testimony."
     },
     {
       "name": "The Salem Inn",
@@ -118,7 +158,7 @@
       "place_id": "ChIJYyEOoHsU44kR6b4DtlwrFrE",
       "keyword": "hotels accommodation lodging",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 938,
+      "user_ratings_total": 940,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -127,16 +167,12 @@
           "lng": -70.8984753
         }
       },
-      "enhanced_description": "The Salem Inn, a historic hotel in Salem, Massachusetts, has been touted as one of the most haunted places in the country. Located at 7 Summer St, Salem, MA 01970, USA, this 17-story building dates back to 1630 and is said to be home to numerous paranormal occurrences. According to eyewitness accounts, ghostly apparitions have been spotted by staff and visitors alike, including the alleged spirit of a young girl who died in one of the rooms. However, not all reports can be verified through official channels or investigation. The hotel's management has attempted to explain away these claims, citing the hotel's rich history and the natural settling of the building over time. Despite these efforts, some paranormal enthusiasts continue to investigate and report further unexplained occurrences. As with any reported ghost sightings, it remains unclear what is causing these events.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Salem, Massachusetts: The Salem Inn (Types: hotel, lodging, point_of_interest) Located at 7 Summer St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Inn",
-        "haunted hotels",
-        "paranormal activity"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While the hotel's management has attempted to provide explanations for these claims, some witnesses report experiencing unusual phenomena that cannot be easily attributed to known causes. As such, this case remains unexplained."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Peabody Essex Museum",
@@ -150,7 +186,7 @@
       "place_id": "ChIJ0Wj6DGUU44kRXhCZNXF-geM",
       "keyword": "museums visitor centers",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 4145,
+      "user_ratings_total": 4146,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -159,17 +195,12 @@
           "lng": -70.89222629999999
         }
       },
-      "enhanced_description": "The Peabody Essex Museum, a renowned cultural institution in Salem, Massachusetts, has been operating for over a century. Located at 161 Essex St, Salem, MA 01970, USA, this museum is dedicated to showcasing art and culture from around the world. According to accounts from local business owners and patrons, the museum was founded by a group of merchants who donated significant sums of money to support its construction. One witness reported that a former employee came forward claiming that the museum's founder had made a pact with the spirit of a local sailor to ensure the museum's success. However, these claims remain unverified and are not supported by concrete evidence. The Peabody Essex Museum remains one of the most visited cultural institutions in the region, attracting over 1 million visitors each year.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Salem, Massachusetts: Peabody Essex Museum (Types: museum, point_of_interest, establishment) Located at 161 Essex St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Peabody Essex Museum",
-        "Salem Massachusetts",
-        "museum",
-        "cultural institution"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.3,
-      "credibility_notes": "While these claims are intriguing, they lack concrete evidence to support them. Further investigation and verification are necessary to confirm the authenticity of these reports."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Middlesex Fells Reservation",
@@ -188,7 +219,7 @@
       ],
       "place_id": "ChIJ1RRsiI5z44kRUfMgHDQYOBE",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 5394,
+      "user_ratings_total": 5395,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -197,16 +228,12 @@
           "lng": -71.0911043
         }
       },
-      "enhanced_description": "A local business report sheds light on the Middlesex Fells Reservation, a state park and wildlife refuge in Massachusetts. Located at [42.5195292, -70.8967226], this protected area is known for its hiking trails, fishing ponds, and diverse wildlife. According to eyewitnesses, the reservation has been experiencing an unusual surge in wildlife sightings over the past year, with some reports of rare bird species and unexplained animal behavior. While the exact cause of these events remains unexplained, park officials have confirmed that no significant changes to the environment or infrastructure have been made since the beginning of 2022. Despite this, many residents and visitors continue to report strange occurrences, sparking curiosity and skepticism about the true nature of the reservation.",
+      "enhanced_description": "Business in coordinates [42. 8967226]: Middlesex Fells Reservation (Types: state_park, wildlife_refuge, fishing_pond) Located at 4 Woodland Rd, Stoneham, MA 02180, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "wildlife refuge",
-        "state park",
-        "fishing pond"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While eyewitness accounts are anecdotal and difficult to verify, park officials have stated that no conclusive evidence has been found to explain these unusual events. The investigation into the matter is ongoing, but so far, no definitive answers can be provided."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Ledger Restaurant",
@@ -232,17 +259,12 @@
           "lng": -70.8953537
         }
       },
-      "enhanced_description": "Ledger Restaurant in Salem, Massachusetts: A Local Business with a Complex History",
+      "enhanced_description": "Business in Salem, Massachusetts: Ledger Restaurant (Types: bar, american_restaurant, restaurant) Located at 125 Washington St, Salem, MA 01970, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Ledger Restaurant",
-        "Salem Massachusetts",
-        "local business",
-        "American restaurant"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "This report is based on publicly available information and should be treated as an open-source analysis. While I've made every effort to verify facts, some details remain unexplained or disputed."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Turner's Seafood at Lyceum Hall -Salem",
@@ -258,7 +280,7 @@
       "place_id": "ChIJJw8mtXoU44kRqG-oHlJjgb8",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 3811,
+      "user_ratings_total": 3814,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -267,16 +289,12 @@
           "lng": -70.895253
         }
       },
-      "enhanced_description": "Turner's Seafood at Lyceum Hall -Salem is a seafood restaurant located in Salem, Massachusetts. Witnesses report that the business has been serving high-quality seafood dishes for over 20 years. According to the account of a local food critic, Turner's has maintained its reputation through consistent service and a wide variety of seafood options. However, some customers have reported unusual occurrences, including unexplained odors and an unsettling feeling upon entering the premises. Despite these incidents, no concrete evidence has been found to explain the strange experiences. Further investigation is needed to determine the cause of these events. As with any business, it's essential to remain open-minded and consider alternative explanations before making definitive claims about supernatural causes.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Salem, Massachusetts: Turner's Seafood at Lyceum Hall -Salem (Types: seafood_restaurant, restaurant, food) Located at 43 Church St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Turner's Seafood",
-        "Lyceum Hall",
-        "Salem Massachusetts"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality"
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Mercy Tavern",
@@ -303,51 +321,44 @@
           "lng": -70.8857819
         }
       },
-      "enhanced_description": "The Mercy Tavern, a local restaurant in Salem, Massachusetts, appears to have been the site of a mysterious occurrence involving food poisoning. According to eyewitnesses, several employees and customers reported experiencing symptoms similar to salmonella after consuming food from the restaurant's barbecue menu. The source of the contamination remains unexplained, with no clear link to the restaurant or its suppliers. An investigation by local health officials found that the affected food was likely contaminated during preparation, rather than at the restaurant itself. Witnesses report that the restaurant's staff seemed to be working in a vacuum, with few visible signs of employee fatigue or stress. Further inquiry into the matter reveals no concrete evidence linking the restaurant to any larger issues. The incident serves as a reminder of the importance of proper food handling and preparation procedures, particularly for establishments serving high-risk foods like barbecue.",
+      "enhanced_description": "Business in Salem, Massachusetts: Mercy Tavern (Types: american_restaurant, barbecue_restaurant, bar) Located at 148 Derby St, Salem, MA 01970, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "salem massachusetts",
-        "mercytavern",
-        "barbecue restaurant"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "This summary is based on publicly available information, including eyewitness accounts and health official reports. While some details may be unverified or disputed, the overall narrative presents a plausible scenario."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Count Orlok's Nightmare Gallery Monster Museum",
-      "address": "217 Essex St, Salem, MA 01970, USA",
+      "name": "The House of the Seven Gables",
+      "address": "115 Derby St, Salem, MA 01970, USA",
       "rating": 4.6,
       "types": [
+        "historical_landmark",
+        "community_center",
+        "historical_place",
         "museum",
-        "tourist_attraction",
-        "amusement_center",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJr2HhRWQU44kR4hCbwLM_K_g",
+      "place_id": "ChIJYza_FmgU44kRoW-cra6Ow0Y",
       "keyword": "things to do attractions tours",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 920,
+      "user_ratings_total": 4516,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 42.5213235,
-          "lng": -70.8948752
+          "lat": 42.5216942,
+          "lng": -70.8834888
         }
       },
-      "enhanced_description": "Count Orlok's Nightmare Gallery Monster Museum is a local business in Salem, Massachusetts, that operates as both a museum and an amusement center. According to the account of a tourist who visited the museum, they reported encountering a mysterious figure with glowing eyes while exploring the exhibits. However, the investigation into these claims reveals some discrepancies. Witnesses report seeing multiple people matching the description during peak hours, but no concrete evidence was found to support the existence of any supernatural entities. The source remains unexplained, and it's unclear what could have caused the reported sightings. This case highlights the challenges of verifying paranormal claims without concrete evidence.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "cryptid"
-      ],
-      "tourism_keywords": [
-        "Count Orlok",
-        "Salem Massachusetts"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While this report aims to provide an objective summary of the situation, it's essential to acknowledge that eyewitness accounts can be unreliable. The lack of concrete evidence supporting supernatural causes makes it difficult to confirm or deny the reported sightings."
+      "enhanced_description": "Business in Salem, Massachusetts: The House of the Seven Gables (Types: historical_landmark, community_center, historical_place) Located at 115 Derby St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Salem Maritime National Historic Site",
@@ -356,11 +367,11 @@
       "types": [
         "historical_landmark",
         "historical_place",
-        "gift_shop",
         "museum",
+        "gift_shop",
         "government_office",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJS19dTWYU44kROIYHLCK5R3A",
@@ -375,16 +386,12 @@
           "lng": -70.8869
         }
       },
-      "enhanced_description": "The Salem Maritime National Historic Site has been a hub for maritime history in Salem, Massachusetts. Located at 160 Derby St, the site is situated near the Charles River and offers tours that take visitors through its historic buildings and exhibits. According to witnesses report, the site's proximity to the waterfront and the presence of historical landmarks like the Custom House have contributed to its popularity. However, remains unexplained are the rumors surrounding the site's ghostly apparitions, which some claim to have experienced. Despite this, the site has undergone renovations and restorations in recent years to ensure visitor safety and accessibility. The National Park Service is responsible for managing the site, and efforts have been made to preserve its historical significance while ensuring public access.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Salem, Massachusetts: Salem Maritime National Historic Site (Types: historical_landmark, historical_place, museum) Located at 160 Derby St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Maritime National Historic Site",
-        "Historic landmark",
-        "Custom House"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While there are no definitive explanations for unexplained phenomena at the site, witnesses' accounts and historical context suggest that it may be attributed to the presence of old buildings, decay, or other factors."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.7999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Forest River Park",
@@ -399,7 +406,7 @@
       "place_id": "ChIJ8SOn6owU44kRAVmQ_rvjfmE",
       "keyword": "parks recreation outdoor",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 777,
+      "user_ratings_total": 779,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -408,18 +415,12 @@
           "lng": -70.8855729
         }
       },
-      "enhanced_description": "Forest River Park, a popular tourist attraction in Salem, Massachusetts, is shrouded in mystery. Located at 32 Clifton Ave, this park and point of interest has been the subject of various reports and investigations. According to eyewitnesses, strange occurrences have been reported, including unexplained noises, movements, and apparitions. While some claim to have seen shadowy figures or heard disembodied voices, others report feeling an intense sense of unease when visiting the site. Despite numerous attempts at investigation and verification, no concrete evidence has been found to explain these phenomena. The source of these events remains unexplained, leaving many to wonder if there's more to Forest River Park than meets the eye. While some have speculated about paranormal activity, a thorough examination of available data suggests that other explanations are possible.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Forest River Park",
-        "Salem Massachusetts",
-        "tourist attraction"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "The source's reliability is questionable due to the lack of concrete evidence, making it difficult to verify claims."
+      "enhanced_description": "Business in Salem, Massachusetts: Forest River Park (Types: park, tourist_attraction, point_of_interest) Located at 32 Clifton Ave, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Salem Willows Park",
@@ -434,7 +435,7 @@
       "place_id": "ChIJw_Im7zAU44kRh5NjuwXNOQw",
       "keyword": "parks recreation outdoor",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 3676,
+      "user_ratings_total": 3683,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -443,19 +444,73 @@
           "lng": -70.870159
         }
       },
-      "enhanced_description": "The enigmatic Salem Willows Park: A local business in Salem, Massachusetts, that has piqued the interest of mystery researchers. Located at 165 Fort Ave, Salem, MA 01970, USA, this park is a type of tourist attraction and point of interest. According to witnesses report, the park's unusual architecture and lush greenery have been attracting visitors for decades. However, some argue that the park's mysterious energy remains unexplained, with reports of strange occurrences and sightings from various sources. Despite these claims, attempts at investigation have yielded limited results. Some speculate that the park's reputation as a hub for paranormal activity may be due to local folklore and historical events. While there is no concrete evidence to support supernatural causes, it is clear that Salem Willows Park remains a fascinating enigma. The mystery continues to captivate researchers and visitors alike.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
+      "enhanced_description": "Business in Salem, Massachusetts: Salem Willows Park (Types: park, tourist_attraction, point_of_interest) Located at 165 Fort Ave, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Count Orlok's Nightmare Gallery Monster Museum",
+      "address": "217 Essex St, Salem, MA 01970, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
       ],
+      "place_id": "ChIJr2HhRWQU44kR4hCbwLM_K_g",
+      "keyword": "entertainment activities",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 923,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.5213235,
+          "lng": -70.8948752
+        }
+      },
+      "enhanced_description": "Business in Salem, Massachusetts: Count Orlok's Nightmare Gallery Monster Museum (Types: museum, tourist_attraction, amusement_center) Located at 217 Essex St, Salem, MA 01970, USA",
+      "tourism_category": "cryptid",
+      "secondary_categories": [],
       "tourism_keywords": [
-        "Salem Willows Park",
-        "Mysterious Energy",
-        "Paranormal Activity",
-        "Local History"
+        "monster"
       ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While this report strives for journalistic integrity, some sources are anecdotal or rely on hearsay. The lack of concrete evidence makes it challenging to verify the claims."
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Salem Witch Trials Memorial",
+      "address": "24 Liberty St, Salem, MA 01970, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJo15HrGUU44kREi4broJXhBE",
+      "keyword": "entertainment activities",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 3012,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.520865099999995,
+          "lng": -70.8917515
+        }
+      },
+      "enhanced_description": "Business in Salem, Massachusetts: Salem Witch Trials Memorial (Types: tourist_attraction, park, point_of_interest) Located at 24 Liberty St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Winter Island/Waikiki Beach",
@@ -479,122 +534,12 @@
           "lng": -70.8676783
         }
       },
-      "enhanced_description": "A local business report sheds light on the Winter Island/Waikiki Beach park in Salem, Massachusetts. According to eyewitnesses, a mysterious 'ghost tour' has been operating on the island since 2018, attracting tourists and locals alike. While the tour's purpose remains unclear, some witnesses claim it features unexplained interactions with a local resident who claims to be a descendant of a Native American tribe. The park's management has not commented on the incident, fueling speculation about the source of these events. Despite an investigation into the sightings, no concrete evidence has been found. As such, the true nature and origins of this phenomenon remain unexplained.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Ghost tour",
-        "Mysterious events",
-        "Unexplained phenomena"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "The report's reliance on eyewitness accounts raises concerns about the reliability of information. While the witnesses' descriptions are consistent, there is no concrete evidence to support the claims of supernatural or paranormal activity."
-    },
-    {
-      "name": "Salisbury Beach State Reservation",
-      "address": "1 Beach Rd, Salisbury, MA 01952, USA",
-      "rating": 4.6,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "campground",
-        "park",
-        "lodging",
-        "sports_activity_location",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ7a86bFHn4okRlcv2qSekLIc",
-      "keyword": "camping rv parks",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 7158,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.8343182,
-          "lng": -70.8184189
-        }
-      },
-      "enhanced_description": "A local business report sheds light on the Salisbury Beach State Reservation in Salem, Massachusetts. Located at 1 Beach Rd, this state park and tourist attraction features a campground. According to eyewitnesses, strange lights were spotted over the beach during peak season. The account remains unexplained. Attempts have been made to investigate, but so far, no conclusive evidence has been found. Witnesses report hearing an unusual humming noise coming from the area around midnight. This mysterious phenomenon has sparked curiosity among locals and visitors alike. Further investigation is warranted to uncover the truth behind these enigmatic events.",
+      "enhanced_description": "Business in Salem, Massachusetts: Winter Island/Waikiki Beach (Types: park, tourist_attraction, point_of_interest) Located at 60 Winter Island Rd, Salem, MA 01970, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Massachusetts",
-        "Salisbury Beach State Reservation",
-        "state park"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While this report provides valuable information about the Salisbury Beach State Reservation, its verifiable facts are limited by the source's unexplained nature. Further investigation is necessary to verify these claims."
-    },
-    {
-      "name": "Salem Witch Trials Memorial",
-      "address": "24 Liberty St, Salem, MA 01970, USA",
-      "rating": 4.6,
-      "types": [
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJo15HrGUU44kREi4broJXhBE",
-      "keyword": "things to do",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 3005,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.520865099999995,
-          "lng": -70.8917515
-        }
-      },
-      "enhanced_description": "A Local Business Report on the Salem Witch Trials Memorial in Massachusetts, a site where many infamous events occurred. The memorial honors the victims and their families with a park featuring various exhibits and artifacts. According to witnesses report, the memorial is well-maintained and clearly marked for visitors. However, some unexplained elements remain, such as an eerie atmosphere that can't be fully explained by known factors.",
-      "tourism_category": "historical",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Witch Trials Memorial",
-        "tourist attraction",
-        "park"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While the memorial is a well-known and respected site, its history remains unexplained. Further investigation may be warranted to uncover possible factors contributing to this phenomenon."
-    },
-    {
-      "name": "The House of the Seven Gables",
-      "address": "115 Derby St, Salem, MA 01970, USA",
-      "rating": 4.6,
-      "types": [
-        "historical_landmark",
-        "community_center",
-        "event_venue",
-        "historical_place",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJYza_FmgU44kRoW-cra6Ow0Y",
-      "keyword": "things to do",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 4513,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.5216942,
-          "lng": -70.8834888
-        }
-      },
-      "enhanced_description": "In the historic town of Salem, Massachusetts, a mysterious business report surfaces with hints of intrigue. The House of the Seven Gables, a prominent landmark and community center, is listed as an event venue in the local business directory. According to the account, the property has been home to various businesses over the years, including a well-known department store chain that closed its Salem location several decades ago. However, there remains unexplained elements regarding this report, such as why it was included in the business directory and what exactly constitutes an 'event venue' for this specific location. Witnesses report inconsistencies in the information presented, citing discrepancies between online listings and historical records. As with any local business report, further investigation is warranted to uncover more details.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Massachusetts",
-        "House of the Seven Gables",
-        "Department store chain"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Chick-fil-A",
@@ -602,8 +547,8 @@
       "rating": 4.6,
       "types": [
         "fast_food_restaurant",
-        "catering_service",
         "breakfast_restaurant",
+        "catering_service",
         "food_delivery",
         "restaurant",
         "food",
@@ -612,7 +557,7 @@
       ],
       "place_id": "ChIJF5RoWDt144kR08YEMOvBZS0",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2277,
+      "user_ratings_total": 2278,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -621,17 +566,12 @@
           "lng": -71.12588500000001
         }
       },
-      "enhanced_description": "In a small, unassuming building in Woburn, Massachusetts, Chick-fil-A has been operating for nearly two decades. This local fast-food chain offers a variety of menu items, including chicken sandwiches and breakfast options. According to eyewitnesses, the restaurant's exterior appears ordinary, with no noticeable signs of paranormal activity or unusual features.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [42. 8967226]: Chick-fil-A (Types: fast_food_restaurant, breakfast_restaurant, catering_service) Located at 375 Washington St, Woburn, MA 01801, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "local business",
-        "fast-food restaurant",
-        "catering service",
-        "breakfast restaurant"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While there may be some unexplained elements to the story, it's essential to approach this with a healthy dose of skepticism. Without further investigation or verification, any claims about paranormal activity can't be substantiated."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hammond Castle Museum",
@@ -640,16 +580,16 @@
       "types": [
         "museum",
         "historical_landmark",
-        "historical_place",
-        "tourist_attraction",
         "wedding_venue",
+        "tourist_attraction",
         "event_venue",
+        "historical_place",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ2WUuLTY744kRaiaxfImWNsQ",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 2528,
+      "user_ratings_total": 2533,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -658,53 +598,12 @@
           "lng": -70.6926558
         }
       },
-      "enhanced_description": "Hammond Castle Museum, a 16th-century castle in Gloucester, Massachusetts, is the subject of a local business report. According to eyewitnesses, the museum has been experiencing strange occurrences and unexplained events since its renovation. Some visitors have reported seeing ghostly apparitions, hearing disembodied whispers, and feeling an eerie atmosphere despite being well-maintained. The museum's management team attributes these incidents to 'human error' or 'an unusual resonance in the building.' However, witnesses report that some areas of the castle remain unexplained, with many experiencing inexplicable cold spots or drafts. Further investigation is needed to uncover the source of these phenomena. Remains unexplained.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [42. 8967226]: Hammond Castle Museum (Types: museum, historical_landmark, wedding_venue) Located at 80 Hesperus Ave, Gloucester, MA 01930, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Hammond Castle Museum",
-        "Ghost sightings",
-        "Unexplained events"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 1.0,
-      "credibility_notes": "Sources are local business reports and eyewitness accounts, which may have limited credibility due to potential biases or lack of transparency."
-    },
-    {
-      "name": "Hawthorne Hotel",
-      "address": "18 Washington Square W, Salem, MA 01970, USA",
-      "rating": 4.5,
-      "types": [
-        "hotel",
-        "wedding_venue",
-        "event_venue",
-        "lodging",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJXVmVVm8U44kRX7zxpwqxuLs",
-      "keyword": "hotels accommodation lodging",
-      "location": "Salem, Massachusetts",
-      "user_ratings_total": 2143,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 42.5226821,
-          "lng": -70.89032259999999
-        }
-      },
-      "enhanced_description": "The Hawthorne Hotel, a historic hotel in Salem, Massachusetts, has been the subject of local speculation regarding its paranormal activity. According to eyewitnesses, strange noises and movements have been reported by staff and guests alike. However, these claims remain unexplained. Despite efforts to verify the sightings through interviews with staff and witnesses, no concrete evidence has been found to support the existence of supernatural entities. The hotel's history and reputation as a popular wedding and event venue may also contribute to its mystique. Further investigation is needed to uncover the truth behind this enigmatic establishment.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Hawthorne Hotel",
-        "Salem Massachusetts",
-        "paranormal activity"
-      ],
-      "mystery_relevance": 0.7999999999999999,
-      "credibility_notes": "While the eyewitness testimony is intriguing, it should be considered as one piece of evidence among many. The lack of concrete proof and potential explanations for the reported phenomena make this case difficult to dismiss."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Finz Salem",
@@ -722,7 +621,7 @@
       "place_id": "ChIJi9vgiWYU44kROrAeXfkOn6o",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 3101,
+      "user_ratings_total": 3104,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -731,18 +630,12 @@
           "lng": -70.8877248
         }
       },
-      "enhanced_description": "Finz Salem, a seafood restaurant in the heart of Salem, Massachusetts, has been making waves with its unique blend of ocean-inspired cuisine and craft cocktails. Located at 86 Wharf St, Salem, MA 01970, USA, Finz is a popular spot for both locals and visitors alike. According to witnesses report, the business's popularity can be attributed to its cozy atmosphere, attentive service, and exceptional food offerings. However, some patrons have noted that the restaurant's decor seems to shift between various themes, leaving some to wonder if it's intentionally designed to spark curiosity. Remains unexplained is the question of how Finz Salem manages to maintain such a distinctive look while still catering to diverse tastes. Furthermore, some customers have reported experiencing strange occurrences outside the restaurant, including faint whispers and a strong sense of d\u00e9j\u00e0 vu. Investigation into these claims has yielded limited results. Unusual details that make this case interesting include the fact that the restaurant's logo appears to change every few months, creating an air of mystery around its identity. Credibility notes: This report is based on publicly available information, including online reviews and social media posts. While some patrons have shared their experiences with Finz Salem, it remains unclear whether these accounts are genuine or anecdotal. Further investigation is warranted to verify the authenticity of these claims.",
-      "tourism_category": "ufo",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Salem Massachusetts",
-        "Finz Salem",
-        "seafood restaurant"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality, with a focus on verifiable facts and witness testimony. Unexplained elements include the restaurant's logo changes and patrons' experiences with strange occurrences."
+      "enhanced_description": "Business in Salem, Massachusetts: Finz Salem (Types: seafood_restaurant, bar_and_grill, bar) Located at 86 Wharf St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Salem Armory Regional Visitor Center",
@@ -759,7 +652,7 @@
       "place_id": "ChIJPfprgWUU44kR_9t2pmeChVM",
       "keyword": "museums visitor centers",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 853,
+      "user_ratings_total": 854,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -768,17 +661,12 @@
           "lng": -70.8922331
         }
       },
-      "enhanced_description": "The Salem Armory Regional Visitor Center in Massachusetts remains a local business with an enigmatic presence. According to accounts from various sources, including the Business Owners Association and local residents, the center seems to attract tourists seeking information on historical sites and armories. However, some witnesses report receiving strange phone calls and emails claiming to be from the center's management or staff, while others claim to have seen unexplained lights or shadows around the building at night. Despite these reports, there is no concrete evidence to support these claims. Investigation has revealed that the center may indeed attract tourists, but its seemingly eerie atmosphere could be attributed to factors such as the presence of a local historical society or the natural environment. While some people remain skeptical about supernatural explanations for the strange occurrences, others see it as a genuine attempt to capitalize on tourist interest. As with any mysterious phenomenon, more information is needed to fully understand this case.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Salem, Massachusetts: Salem Armory Regional Visitor Center (Types: visitor_center, tourist_information_center, tour_agency) Located at 2 New Liberty St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Armory",
-        "Visitor Center",
-        "Tourist Information Center",
-        "Historical Society"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "The Business Owners Association and local residents provide information on the center's activities and operations."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Winter Island Park",
@@ -809,16 +697,45 @@
           "lng": -70.8691812
         }
       },
-      "enhanced_description": "Winter Island Park, a 50-acre campground in Salem, Massachusetts, is the only historical landmark to be designated as a National Historic Landmark (NHL) and an RV park. Located at 50 Winter Island Rd, this site has been home to various businesses over the years. A witness report from a local resident suggests that the area may have experienced unusual occurrences, including unexplained noises and movements. However, these claims are not supported by concrete evidence or credible sources. Investigation into the matter is ongoing, with no definitive explanations provided. The park's status as an NHL has been well-documented, and its RV parking facilities seem to be in use year-round. While some details remain unclear, it appears that Winter Island Park holds a unique place in Salem's history.",
+      "enhanced_description": "Business in Salem, Massachusetts: Winter Island Park (Types: campground, historical_landmark, rv_park) Located at 50 Winter Island Rd, Salem, MA 01970, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "National Historic Landmark (NHL)",
-        "RV park",
-        "Salem, Massachusetts"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.3,
-      "credibility_notes": "{\"Brief assessment of source reliability and evidence quality: While the witness report is intriguing, it lacks concrete evidence to support unusual occurrences. Further investigation is necessary to determine the validity of these claims.\"}"
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hawthorne Hotel",
+      "address": "18 Washington Square W, Salem, MA 01970, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "restaurant",
+        "food",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJXVmVVm8U44kRX7zxpwqxuLs",
+      "keyword": "hotels",
+      "location": "Salem, Massachusetts",
+      "user_ratings_total": 2144,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.5226821,
+          "lng": -70.89032259999999
+        }
+      },
+      "enhanced_description": "Business in Salem, Massachusetts: Hawthorne Hotel (Types: hotel, wedding_venue, lodging) Located at 18 Washington Square W, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "MarketStreet Lynnfield",
@@ -827,16 +744,16 @@
       "types": [
         "shopping_mall",
         "fitness_center",
-        "gym",
         "grocery_store",
+        "gym",
+        "sports_activity_location",
         "food_store",
         "health",
+        "clothing_store",
         "restaurant",
         "food",
-        "clothing_store",
-        "sports_activity_location",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJpUwWPzwN44kR_lVTL7LqYbI",
@@ -850,16 +767,12 @@
           "lng": -71.0351043
         }
       },
-      "enhanced_description": "MarketStreet Lynnfield, a 600 Market St location in the heart of Lynnfield, MA, appears to be a typical shopping mall with a fitness center and gym. According to witnesses report, the business has been operational for several years, with no notable disruptions or issues reported. However, it remains unexplained why the building's address is listed as 600 Market St, whereas its physical location at 600 Main St suggests an error in mapping. Attempts have been made to verify this discrepancy through online directories and mapping services. While some sources suggest that a typographical error may be the cause of the confusion, others propose alternative explanations such as a mistake in the address database. The investigation continues, with further research and inquiry planned to uncover more information about this enigmatic business.",
+      "enhanced_description": "Business in coordinates [42. 8967226]: MarketStreet Lynnfield (Types: shopping_mall, fitness_center, grocery_store) Located at 600 Market St, Lynnfield, MA 01940, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "MA",
-        "Lynnfield",
-        "shopping_mall"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.30000000000000004,
-      "credibility_notes": "The source of the report is a local business publication, which suggests a level of reliability. However, as with any reported incident, further investigation is necessary to confirm or rule out alternative explanations."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Costco Wholesale",
@@ -883,17 +796,12 @@
           "lng": -71.0714924
         }
       },
-      "enhanced_description": "At the heart of this mystery lies a local business report that describes Costco Wholesale as a 'warehouse store' located in Everett, MA. According to witnesses, customers can find everything from groceries to electronics here. However, there are also reports of strange occurrences such as unexplained noises and movements within the warehouse. Despite these unexplained elements, the report remains unexplained, leaving many to wonder if there is more to this business than meets the eye. Attempts have been made to investigate further, including reviewing security footage and interviewing employees. While some details remain unclear, it's clear that Costco Wholesale continues to be a topic of fascination for those who dare to explore its mysteries.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in coordinates [42. 8967226]: Costco Wholesale (Types: warehouse_store, department_store, store) Located at 2 Mystic View Rd, Everett, MA 02149, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Costco Wholesale",
-        "Everett",
-        "MA",
-        "warehouse store"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "The reliability of this source is limited due to the anonymous nature of the witnesses. However, the account remains consistent with other reports of unexplained occurrences in the area. Further verification would be necessary to confirm or deny these claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Costco Wholesale",
@@ -908,7 +816,7 @@
       ],
       "place_id": "ChIJC4M4sSIS44kRw5BXF6-erk0",
       "keyword": "nearby_store",
-      "user_ratings_total": 3049,
+      "user_ratings_total": 3050,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -917,16 +825,12 @@
           "lng": -70.9771935
         }
       },
-      "enhanced_description": "In the heart of Danvers, Massachusetts, a local business has been puzzling residents with its intriguing presence. Costco Wholesale, a large warehouse and department store chain, occupies a prime location at [42.5195292, -70.8967226]. According to witnesses report, the store appears to be operating as usual, with employees going about their daily tasks without incident. However, some have raised questions about the store's unusual signage, which includes a peculiar-looking logo resembling an ancient Celtic knotwork design. While no concrete evidence has been found to explain these strange markings, local business owners and residents remain unexplained in their comments. Despite attempts at investigation, no definitive answers have emerged from this enigmatic case. The mystery surrounding Costco Wholesale continues to captivate the imagination of those around it.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in coordinates [42. 8967226]: Costco Wholesale (Types: warehouse_store, department_store, store) Located at 11 Newbury St, Danvers, MA 01923, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Costco Wholesale",
-        "Danvers, Massachusetts",
-        "Celtic knotwork"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While some may speculate about possible explanations, such as the store being a front for a new business venture or an unusual architectural feature, the lack of concrete evidence makes it difficult to pinpoint a definitive cause. The source relies on personal observations and hearsay, which can lead to speculation. Further investigation is needed to uncover the truth behind Costco Wholesale's mysterious presence."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Market Basket",
@@ -952,16 +856,12 @@
           "lng": -71.0422492
         }
       },
-      "enhanced_description": "Market Basket is a local business that operates as a grocery store in Chelsea, Massachusetts. Located at 170 Everett Ave, this supermarket has been serving the community for over a decade. According to eyewitnesses, Market Basket's operations are typically uneventful, with employees stocking shelves and handling customer transactions efficiently. However, there have been reports of unusual occurrences surrounding the business. One witness came forward claiming that they saw strange lights outside the store on several occasions. Another employee reported receiving a mysterious package containing an unknown substance in the break room. Despite these incidents, Market Basket remains unexplained.",
+      "enhanced_description": "Business in coordinates [42. 8967226]: Market Basket (Types: grocery_store, supermarket, food_store) Located at 170 Everett Ave, Chelsea, MA 02150, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "local business",
-        "supermarket",
-        "community support"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While eyewitness accounts can be valuable, it's essential to consider alternative explanations for unexplained events. In this case, some witnesses have reported seeing strange lights or receiving mysterious packages. However, these claims remain unverified and may not necessarily be related to Market Basket."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Sea Level Oyster Bar",
@@ -977,7 +877,7 @@
       "place_id": "ChIJG0J0XWYU44kRYH0-R6Wu5Lc",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 2956,
+      "user_ratings_total": 2959,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -986,15 +886,12 @@
           "lng": -70.88772519999999
         }
       },
-      "enhanced_description": "A local seafood restaurant in Salem, Massachusetts, known as Sea Level Oyster Bar, has been reported to have an unusual business history. Located at 94 Wharf St, Salem, MA 01970, USA...",
+      "enhanced_description": "Business in Salem, Massachusetts: Sea Level Oyster Bar (Types: seafood_restaurant, restaurant, food) Located at 94 Wharf St, Salem, MA 01970, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Massachusetts",
-        "Sea Level Oyster Bar"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While there are unexplained elements in this case, such as the exact date of renovation and potential discrepancies in witness testimonies, further investigation is necessary to verify these claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Dire Wolf Tavern",
@@ -1012,7 +909,7 @@
       "place_id": "ChIJM3EBMnsU44kRz7C1booV8rA",
       "keyword": "restaurants food dining",
       "location": "Salem, Massachusetts",
-      "user_ratings_total": 1781,
+      "user_ratings_total": 1784,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -1021,16 +918,12 @@
           "lng": -70.8955716
         }
       },
-      "enhanced_description": "A local business in Salem, Massachusetts, known as Dire Wolf Tavern, has been a staple for over two decades. Located at 87 Washington St, the establishment offers various dining options, including restaurant and sushi_restaurant spaces, catering to a diverse range of customers. According to account from a source close to the location (the owner), this business is a popular gathering spot for locals and tourists alike. However, it remains unexplained why some patrons report experiencing paranormal occurrences during their visits, such as strange noises or ghostly apparitions. Witnesses report seeing shadowy figures lurking around the premises at night, yet no concrete evidence has been found to substantiate these claims. Investigation into this matter continues, with the owner stating that they have taken steps to mitigate any potential risks and ensure a safe environment for all customers. Further investigation is warranted to uncover the truth behind this enigmatic business.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Salem, Massachusetts: Dire Wolf Tavern (Types: restaurant, sushi_restaurant, japanese_restaurant) Located at 87 Washington St, Salem, MA 01970, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Salem Massachusetts",
-        "Dire Wolf Tavern",
-        "restaurant"
-      ],
-      "mystery_relevance": 0.7,
-      "credibility_notes": "The source of this information has not been verified, and some details may be anecdotal or unsubstantiated. However, the owner's account provides a plausible explanation for the reported paranormal occurrences."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Rockingham Plaza",
@@ -1053,16 +946,12 @@
           "lng": -71.2198604
         }
       },
-      "enhanced_description": "A local business report reveals the Rockingham Plaza, a shopping mall in Salem, Massachusetts. Located at 92 Cluff Crossing Rd, this establishment appears to be a typical retail complex with various stores and services. According to the account of an eyewitness, who claims to have visited the mall on multiple occasions, the building seems well-maintained and there are no visible signs of unusual activity or anomalies. However, some witnesses report strange occurrences such as unexplained noises and shadows in certain areas of the mall. Despite these findings, no concrete evidence has been collected to explain the cause of these events. The source of this information remains unexplained.",
+      "enhanced_description": "Business in Salem, Massachusetts: Rockingham Plaza (Types: shopping_mall, point_of_interest, establishment) Located at 92 Cluff Crossing Rd, Salem, NH 03079, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Rockingham Plaza",
-        "Salem",
-        "Massachusetts"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality"
+      "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
@@ -1074,19 +963,35 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore paranormal mysteries in Salem, Massachusetts. Explore the dark history of Salem, where the infamous Salem Witch Trials took place in 1692. Join Witch City Walking Tou",
-    "title": "Paranormal Mysteries in Salem, Massachusetts - Tours & Services",
-    "description": "Explore the dark history of Salem, where the infamous Salem Witch Trials took place in 1692. Join Witch City Walking Tours to uncover the secrets behind this infamous event and experience the city's eerie atmosphere.",
+    "meta_description": "Discover paranormal activity in Salem, Massachusetts. 1 documented events, 30 local services and attractions.",
+    "title": "Paranormal Activity in Salem, Massachusetts - Tours, Investigators & Services",
+    "description": "Explore paranormal activity in Salem, Massachusetts. Notable events include Salem Witch Trials. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "Salem Witch Trials",
-      "paranormal tours",
-      "witch city walking tours"
+      "paranormal Salem, Massachusetts",
+      "paranormal activity Salem, Massachusetts",
+      "paranormal tours Salem, Massachusetts",
+      "mystery Salem, Massachusetts",
+      "unexplained Salem, Massachusetts"
+    ],
+    "services": [
+      "parks recreation outdoor",
+      "nearby_restaurant",
+      "nearby_tourist_attraction",
+      "hotels accommodation lodging",
+      "camping rv parks",
+      "museums visitor centers",
+      "restaurants food dining",
+      "nearby_store",
+      "shopping retail stores",
+      "things to do attractions tours",
+      "entertainment activities",
+      "hotels"
     ],
     "category": "paranormal"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-26T13:44:15.061032"
+    "last_updated": "2025-07-27T14:09:45.301920"
   }
 }
