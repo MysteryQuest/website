@@ -120,7 +120,7 @@
             color: #0056b3;
         }
         .event-description {
-            max-width: 200px;
+            max-width: 400px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -283,7 +283,7 @@
             }
             
             .event-description {
-                max-width: 150px;
+                max-width: 250px;
             }
             
             /* Pagination responsive */
@@ -379,7 +379,7 @@
             }
             
             .event-description {
-                max-width: 120px;
+                max-width: 180px;
             }
             
             .pagination-container {
@@ -605,22 +605,31 @@
         }
 
         function highlightAndZoomToEvent(eventId) {
-            // Find the marker for this event
-            const marker = markers.find(m => m.eventId === eventId);
-            if (marker) {
-                // Zoom to marker
-                map.setView(marker.getLatLng(), 10);
-                // Open popup
-                marker.openPopup();
-                // Highlight the marker temporarily
-                const originalIcon = marker.options.icon;
-                // You can customize this highlight effect
-                setTimeout(() => {
+            // First scroll to the map smoothly
+            document.getElementById('map').scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'center' 
+            });
+            
+            // Wait a moment for the scroll to complete, then zoom to marker
+            setTimeout(() => {
+                // Find the marker for this event
+                const marker = markers.find(m => m.eventId === eventId);
+                if (marker) {
+                    // Zoom to marker
+                    map.setView(marker.getLatLng(), 10);
+                    // Open popup
                     marker.openPopup();
-                }, 100);
-            }
-            // Also highlight the table row
-            highlightRow(eventId);
+                    // Highlight the marker temporarily
+                    const originalIcon = marker.options.icon;
+                    // You can customize this highlight effect
+                    setTimeout(() => {
+                        marker.openPopup();
+                    }, 100);
+                }
+                // Also highlight the table row
+                highlightRow(eventId);
+            }, 500); // Wait for scroll animation to complete
         }
 
         function highlightRow(index) {
@@ -648,8 +657,8 @@
                 
                 // Truncate description if too long
                 const description = event.description || event.name || '';
-                const truncatedDescription = description.length > 100 ? 
-                    description.substring(0, 97) + '...' : description;
+                const truncatedDescription = description.length > 300 ? 
+                    description.substring(0, 297) + '...' : description;
                 
                 row.innerHTML = `
                     <td>${event.date}</td>
