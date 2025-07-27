@@ -465,7 +465,6 @@
                         <th>Location</th>
                         <th>Votes</th>
                         <th>Investigation Status</th>
-                        <th>Verdict</th>
                         <th>Details</th>
                         <th>Credibility Score</th>
                         <th>Vote</th>
@@ -668,7 +667,6 @@
                     <td>${event.location}</td>
                     <td>${event.votes || 0}</td>
                     <td>${event.investigation_status || "Open"}</td>
-                    <td>${event.verdict || "Unknown"}</td>
                     <td><a href='detail.html?name=${encodeURIComponent(event.name)}' target='_blank'>Details</a></td>
                     <td>${event.credibility_score || "N/A"}</td>
                     <td><button onclick="voteForEvent(${event.id})">👍</button></td>
