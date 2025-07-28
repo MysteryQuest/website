@@ -15,6 +15,9 @@ function initLocationMap() {
     if (!mapElement) return;
 
     locationMap = L.map('map').setView(LOCATION_DATA.coordinates, 10);
+    
+    // Make locationMap accessible globally for dynamic updates
+    window.locationMap = locationMap;
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
