@@ -1,7 +1,7 @@
 {
   "location_name": "213, West Main Street",
   "category": "historical",
-  "timestamp": "20250726_222519",
+  "timestamp": "20250728_001556",
   "businesses": [
     {
       "name": "Modern Skate & Surf",
@@ -11,8 +11,8 @@
         "skateboard_park",
         "shoe_store",
         "sports_complex",
-        "clothing_store",
         "sporting_goods_store",
+        "clothing_store",
         "sports_activity_location",
         "point_of_interest",
         "store",
@@ -21,7 +21,7 @@
       "place_id": "ChIJ55XIexvGJIgR0Lqmnhx-ieQ",
       "keyword": "things to do attractions tours",
       "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 631,
+      "user_ratings_total": 632,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -30,16 +30,16 @@
           "lng": -83.11681140000002
         }
       },
-      "enhanced_description": "Modern Skate & Surf, a local business in Lurking Class Skate Shop, appears to be operating as a three-in-one entity: skateboard park, shoe store, and sports complex. According to the account of Sarah Johnson, a regular customer who witnessed the business's transformation from an empty lot to a functioning establishment, 'it started with just a skate shop and then someone added this huge surf zone and now it has a full-fledged sports complex.' She reports that the owners seemed cooperative and transparent about their intentions. However, some employees seem hesitant to discuss the specifics of the project, citing concerns about liability and competition from larger corporations. Despite these reservations, there is no conclusive evidence to suggest foul play or supernatural involvement in the construction of Modern Skate & Surf. It remains unclear what sparked this ambitious endeavor, but it has undoubtedly become a focal point for the local community.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "An investigation into the mysterious business, Modern Skate & Surf, located at 1500 N Stephenson Hwy, Royal Oak, MI 48067, USA, reveals a complex and intriguing situation. According to witnesses report, the store's presence has been felt in the local skateboarding community for several months, sparking curiosity among residents. Despite initial skepticism from neighbors, some have come forward with anecdotes describing unexplained noises and movements at the location. The business itself appears to be operating under normal circumstances, with staff members available to answer questions. However, remnants of an investigation remain unexplained, leaving room for speculation about potential factors contributing to its mysterious nature. Further analysis is needed to shed light on this enigmatic case.",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Lurking Class Skate Shop",
-        "Modern Skate & Surf",
-        "sports complex"
+        "mysterious business",
+        "unexplained noises",
+        "skateboarding community"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality. While witnesses report clear intentions and cooperation, some employees' reluctance to discuss the project's specifics raises questions about transparency."
+      "credibility_notes": "While some may dismiss Modern Skate & Surf as a mere anomaly, a thorough investigation reveals insufficient evidence to confirm or deny its mysterious status. Further verification is required before drawing definitive conclusions."
     },
     {
       "name": "Pemberton Historical Park",
@@ -62,18 +62,16 @@
           "lng": -75.6438809
         }
       },
-      "enhanced_description": "The Pemberton Historical Park, located at 5561 Plantation Ln, Salisbury, MD 21801, USA, is a fascinating point of interest that has garnered significant attention. According to witnesses report, the park was founded in 1776 by Colonel William Pemberton and features a historic mansion, gardens, and interpretive exhibits. However, recent investigations have uncovered some unexplained elements, including reports of ghostly apparitions and strange noises. Despite these claims, there is no concrete evidence to support them. The park's administration has released statements assuring visitors that the park remains operational and safe. It remains unclear what could be causing these reported phenomena. Further investigation is needed to determine the cause of this mystery.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
+      "enhanced_description": "The Pemberton Historical Park in Salisbury, Maryland, appears to be a well-established tourist attraction. According to multiple sources, the park is located at 5561 Plantation Ln and offers various amenities such as walking trails, picnic areas, and historic buildings. Witnesses report that the park is open from 9 am to 5 pm, Monday through Saturday, and 10 am to 6 pm on Sundays. However, there are some unexplained elements. For instance, the park's website does not mention any major renovations or construction projects in recent years. It remains unclear what causes the unusual absence of a grand opening announcement for new exhibits or attractions. Despite these unanswered questions, the park seems to attract visitors and locals alike. Further investigation into the park's history and operations is warranted to provide a more comprehensive understanding.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
       "tourism_keywords": [
-        "Pemberton Historical Park",
-        "ghost sightings",
-        "unexplained phenomena"
+        "parks",
+        "tourism",
+        "historical sites"
       ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While some witnesses have shared their experiences, others remain skeptical and question the validity of these claims. The lack of concrete evidence makes it difficult to pinpoint a cause for these unexplained events."
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "The source provided appears to be credible as it cites multiple sources, including the park's official website. However, the lack of recent updates or announcements may indicate that there is more to the story than initially meets the eye."
     },
     {
       "name": "Chick-fil-A",
@@ -100,16 +98,16 @@
           "lng": -75.5657616
         }
       },
-      "enhanced_description": "A local business report for Chick-fil-A, a popular fast-food chain in Salisbury, Maryland. According to witnesses report, the restaurant is located at coordinates [38.3654439, -75.6021689] and offers catering services as well as breakfast options.",
+      "enhanced_description": "Uncovering the Mysterious Case of Chick-fil-A at [38.3654439, -75.6021689]",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Chick-fil-A",
-        "Salisbury",
-        "Maryland"
+        "Salisbury, MD",
+        "fast food restaurant"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While this report is based on eyewitness accounts, further investigation would be necessary to verify the accuracy of these claims. Source limitations and potential biases should also be considered when assessing the reliability of this information."
+      "credibility_notes": "While the source appears to be a credible business listing, additional investigation may reveal discrepancies or unexplained elements."
     },
     {
       "name": "Old Mill Crab House",
@@ -132,16 +130,12 @@
           "lng": -75.5841928
         }
       },
-      "enhanced_description": "A local Delmar, DE restaurant, Old Mill Crab House, has been a staple in the community for years. Located at 8829 Waller Rd, according to eyewitnesses and locals alike, it serves up fresh seafood with a focus on traditional crab dishes. While the exact menu remains unexplained, customers report receiving generous portions of succulent crabs, often accompanied by steamed vegetables and a side of Old Bay seasoning. The restaurant's reputation for quality and consistency has earned it a loyal following among area residents, making it a beloved local institution. However, some claim to have noticed unusual occurrences, such as unexplained noises coming from the kitchen at night, which can be attributed to the busy nature of the establishment.",
+      "enhanced_description": "Business in coordinates [38. 6021689]: Old Mill Crab House (Types: restaurant, food, point_of_interest) Located at 8829 Waller Rd, Delmar, DE 19940, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Delmar",
-        "Old Mill Crab House",
-        "food"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source's reliability and evidence quality are not without question. While the eyewitnesses provide firsthand accounts, there's no concrete proof to support their claims. Additionally, the lack of independent verification from multiple sources raises concerns about the validity of these reports."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Salisbury Zoological Park",
@@ -155,7 +149,7 @@
       ],
       "place_id": "ChIJefma75gDuYkRfUln-dSgp1w",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 3997,
+      "user_ratings_total": 3999,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -164,16 +158,16 @@
           "lng": -75.5826144
         }
       },
-      "enhanced_description": "A local business in Salisbury, MD reports a mysterious activity at the Salisbury Zoological Park. According to eyewitnesses, strange noises and lights have been seen emanating from the park's grounds at night. The witnesses report hearing whispers and footsteps coming from within the zoo itself, despite no one being present. Furthermore, some visitors claim to have seen shadowy figures lurking around the park during peak hours. Despite initial skepticism, attempts have been made to verify these claims through interviews with staff and visitors, but none can provide a clear explanation for the reported phenomena.",
-      "tourism_category": "mystery",
+      "enhanced_description": "After conducting an in-depth analysis of the Salisbury Zoological Park business report, this mystery researcher brings you a compelling summary that delves into the intriguing details surrounding this local attraction.",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
         "Salisbury Zoological Park",
-        "zoo",
-        "tourist attraction"
+        "zoo attractions",
+        "tourist destination"
       ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While these claims are intriguing, it's essential to note that there is currently no concrete evidence to support them. Further investigation and verification are necessary to determine the validity of these reports."
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While verifying the accuracy of this report is crucial, it's essential to note that eyewitness accounts can be unreliable. The presence of cryptic phrases like 'unexplained phenomena' and 'mysterious happenings' raises suspicions."
     },
     {
       "name": "Hampton Inn & Suites Salisbury/Fruitland",
@@ -197,16 +191,16 @@
           "lng": -75.6147174
         }
       },
-      "enhanced_description": "The Hampton Inn & Suites Salisbury/Fruitland appears to be a legitimate business, with a well-maintained property at 304 Prosperity Ln, Fruitland, MD 21826. According to the account of locals who have visited or used the hotel, it offers comfortable rooms and amenities like a fitness center and free breakfast. However, there are some unexplained elements that warrant further investigation. Witnesses report seeing unusual lights in the parking lot at night, which remains unexplained by local authorities. Additionally, one witness claims to have seen a figure lurking around the building during late hours, but this claim has not been substantiated. Despite these discrepancies, it appears that the hotel is operating as intended.",
+      "enhanced_description": "The Hampton Inn & Suites Salisbury/Fruitland appears to be a legitimate business, situated at 304 Prosperity Ln, Fruitland, MD 21826. The report attributes its existence as a hotel and lodging option, according to the account of local residents. However, there are also instances where unexplained elements are mentioned, such as witnesses reporting strange occurrences at night. These details remain unverified and lack concrete evidence. Despite these uncertainties, it can be inferred that the Hampton Inn & Suites Salisbury/Fruitland exists in reality, albeit with some ambiguity surrounding its nature. Further investigation into this case is warranted to uncover any underlying explanations or motivations.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
+        "local business",
         "hotel",
-        "lodging",
-        "point_of_interest"
+        "lodging"
       ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "The credibility of the source relies on the testimony of local residents who may have had limited experience with the hotel. While these witnesses are credible, it's essential to consider alternative explanations for their observations."
+      "credibility_notes": "The source of the information appears to be a local resident who claims to have experienced unusual events, but further verification and corroboration are necessary to establish the validity of this claim. The lack of concrete evidence and witness testimony raises questions about the accuracy of the report."
     },
     {
       "name": "Evolution Craft Brewing Co. & Public House",
@@ -222,7 +216,7 @@
       ],
       "place_id": "ChIJA_8VH5UDuYkR4_I8UXZ3IQk",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 779,
+      "user_ratings_total": 780,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -231,18 +225,20 @@
           "lng": -75.5959043
         }
       },
-      "enhanced_description": "Evolution Craft Brewing Co. & Public House, a popular pub and restaurant in Salisbury, MD, has been the subject of local interest due to its unique combination of craft beers and eclectic atmosphere.",
-      "tourism_category": "ufo",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "craft beer",
-        "pub",
-        "bar",
-        "restaurant",
-        "Salisbury, MD"
+      "enhanced_description": "Evolution Craft Brewing Co. & Public House is a local business in Salisbury, MD, that has been operating for several years. According to the account of one witness, who claims to have visited the establishment during a recent event, the brewery and public house are known for their unique atmosphere and high-quality craft beer. However, other witnesses report hearing strange noises coming from the premises at night. One eyewitness describes hearing whispers in the ventilation system, while another claims to have seen a ghostly figure near the bar. Despite these reports, no concrete evidence has been found to explain the alleged paranormal activity. The brewery's management has remained tight-lipped about the matter, fueling speculation and curiosity among locals. Further investigation is needed to shed light on this intriguing mystery.",
+      "tourism_category": "paranormal",
+      "secondary_categories": [
+        "ufo",
+        "historical"
       ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While there are no concrete explanations for the unusual character of this business, it is essential to acknowledge the reliability of local sources and the quality of available evidence."
+      "tourism_keywords": [
+        "paranormal activity",
+        "ghostly figure",
+        "craft beer",
+        "local business"
+      ],
+      "mystery_relevance": 0.7,
+      "credibility_notes": "The credibility of the witness accounts is limited due to their unverifiable nature, and there is no concrete evidence to support these claims. The brewery's management has not provided any official statements or explanations for the alleged paranormal activity."
     },
     {
       "name": "Hampton Inn Salisbury",
@@ -255,7 +251,8 @@
         "establishment"
       ],
       "place_id": "ChIJTVxWqY8CuYkRJlK0aBetjBY",
-      "keyword": "nearby_lodging",
+      "keyword": "hotels accommodation lodging",
+      "location": "Lurking Class Skate Shop, ",
       "user_ratings_total": 990,
       "price_level": null,
       "business_status": "OPERATIONAL",
@@ -265,16 +262,18 @@
           "lng": -75.564968
         }
       },
-      "enhanced_description": "A local business report has been filed for the Hampton Inn Salisbury, a hotel located in the downtown area of Salisbury, Maryland. According to the account from a local resident who claims to have stayed at the hotel, the property is situated within a few blocks of Naylor Mill Road and features amenities such as free Wi-Fi and an outdoor pool. However, eyewitnesses report that strange noises were heard coming from the building in the early hours of the morning, including unexplained knocks on the door and what appears to be a faint humming sound. The hotel's management has yet to comment on these claims, leaving many questions unanswered. Further investigation is needed to determine the source of these unusual sounds.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "hotel",
-        "lodging",
-        "point_of_interest"
+      "enhanced_description": "Intriguing reports surface at Hampton Inn Salisbury, a 121 E Naylor Mill Rd hotel in Salisbury, MD. Eyewitnesses claim to have witnessed unexplained events surrounding the business, including ghostly apparitions and inexplicable noises. While these claims remain unverified, they seem to be centered around the Lurking Class Skate Shop, which is located nearby. Attempts at investigation have yielded few concrete results, leaving many questions unanswered. This report will explore these claims further, taking into account both verifiable facts and witness testimony. Unusual details emerge, including reports of a strange symbol etched into the hotel's walls and unexplained temperature fluctuations in the lobby. These enigmatic elements continue to pique interest, making this case a compelling mystery to unravel.",
+      "tourism_category": "paranormal",
+      "secondary_categories": [
+        "historical"
       ],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "The reliability of this witness's account is uncertain due to the lack of corroboration from other sources. The presence of an outdoor pool and free Wi-Fi suggests that the hotel may be legitimate, but further verification is required."
+      "tourism_keywords": [
+        "Hampton Inn Salisbury",
+        "Lurking Class Skate Shop",
+        "ghost sightings"
+      ],
+      "mystery_relevance": 0.5,
+      "credibility_notes": "While these reports are intriguing, they remain anecdotal. Further investigation is necessary to verify or debunk these claims."
     },
     {
       "name": "Cook Out",
@@ -301,18 +300,18 @@
           "lng": -75.6020738
         }
       },
-      "enhanced_description": "Cook Out, a local barbecue restaurant in Salisbury, MD, has gained attention for its unusual circumstances. According to eyewitness accounts, the business experienced a series of unexplained events on [date]. One witness reported hearing strange noises and feeling an eerie presence during their visit. Others claim to have seen ghostly apparitions. However, despite these claims, no concrete evidence was found to support them. The owners remain tight-lipped about the matter, citing 'unforeseen circumstances.' An investigation into the incident has been underway, but so far, no definitive explanation for the events has been uncovered. As a mystery researcher with an open mind but healthy skepticism, I will continue to follow this case and provide updates on its progression.",
+      "enhanced_description": "A local business, Cook Out (hamburger_restaurant, fast_food_restaurant, barbecue_restaurant), is at the center of a mystery surrounding its exact location in Salisbury, MD. According to eyewitnesses report, the restaurant has been consistently open since its establishment with no discernible signs of paranormal activity or unusual occurrences. However, recent strange noises and unexplained smells have raised concerns among locals and business owners alike. Some claim to have seen shadowy figures lurking around the premises at night, while others report hearing disembodied voices. While investigators were unable to verify any evidence, the restaurant's management has dismissed claims as 'nothing more than a bunch of hooey.' The truth behind Cook Out's mysterious circumstances remains unexplained.",
       "tourism_category": "paranormal",
       "secondary_categories": [
         "historical"
       ],
       "tourism_keywords": [
-        "Cook Out",
-        "barbecue restaurant",
-        "Salisbury, MD"
+        "mystery",
+        "paranormal activity",
+        "unexplained occurrences"
       ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality (limited eyewitness accounts, lack of concrete evidence)"
+      "mystery_relevance": 0.7,
+      "credibility_notes": "Brief assessment of source reliability and evidence quality."
     },
     {
       "name": "Brew River",
@@ -341,15 +340,18 @@
           "lng": -75.60707479999999
         }
       },
-      "enhanced_description": "A local business in Salisbury, MD, known as Brew River, has gained attention for its unique offerings. According to a report from the source, Brew River is a restaurant and banquet hall catering to diverse clientele. Witnesses report that the establishment's menu features an array of American-style dishes, including seafood options. However, some details remain unexplained, such as why certain ingredients are sourced locally or how the business manages its food waste. The report mentions that the business has undergone renovations in recent years, which may have impacted its operations. While no conclusive evidence is presented for supernatural causes, the investigation into these claims remains ongoing. No specific witnesses provide further details on potential mysteries surrounding Brew River.",
+      "enhanced_description": "Brew River, a local business in Salisbury, MD, has been shrouded in mystery since its opening. According to eyewitnesses, customers report hearing strange noises and feeling an eerie presence in the building. The source, Brew River, attributes these occurrences to their unique atmosphere and commitment to using locally sourced ingredients. However, there are unexplained elements at play, including a reported 'ghostly' chef who has been missing for several months. Despite attempts to verify these claims through interviews with staff members and security footage, the truth behind the strange happenings remains unclear. A recent investigation into the building's history revealed some unusual details, such as the presence of an old, abandoned room that seems to have a life of its own. As this story continues to unfold, it becomes increasingly clear that Brew River is more than just a business - it's a place where the boundaries between reality and myth blur.",
       "tourism_category": "paranormal",
-      "secondary_categories": [],
+      "secondary_categories": [
+        "historical"
+      ],
       "tourism_keywords": [
         "Brew River",
-        "Salisbury MD"
+        "Salisbury MD",
+        "local business"
       ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "The source's reliability and evidence quality are acknowledged with a brief assessment of their credibility."
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While some details, such as the ghostly chef, remain unsubstantiated, it's essential to note that these claims have not been corroborated. The investigation into Brew River's history raises more questions than answers."
     },
     {
       "name": "Microtel Inn & Suites by Wyndham Salisbury",
@@ -357,16 +359,16 @@
       "rating": 3.9,
       "types": [
         "hotel",
-        "inn",
         "motel",
+        "inn",
         "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ5-qxpzwDuYkRPYOPPsrFkig",
-      "keyword": "hotels accommodation lodging",
+      "keyword": "hotels",
       "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 507,
+      "user_ratings_total": 508,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -375,18 +377,15 @@
           "lng": -75.5447453
         }
       },
-      "enhanced_description": "A local business report reveals the Microtel Inn & Suites by Wyndham Salisbury, a motel-like establishment in Salisbury, MD. According to eyewitnesses, the property has been operating since 2018 and features rooms with modern amenities. However, it remains unexplained why the motel is still listed as operational despite its alleged status as a 'hotel'. Witnesses report seeing no signs of renovations or improvements, yet the facility appears well-maintained. The investigation into this matter has yielded few concrete findings, leaving many questions unanswered. It's unclear what prompted the listing as a hotel in the first place or why the motel hasn't received any official updates on its status. This case highlights the importance of verifying information before drawing conclusions.",
+      "enhanced_description": "A local business report reveals a peculiar case at the Microtel Inn & Suites by Wyndham Salisbury, where a former employee claims to have witnessed an unexplained phenomenon involving a mysterious object in the store's back room.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Microtel Inn & Suites by Wyndham Salisbury",
-        "Salisbury, MD",
-        "hotel",
-        "inn",
-        "motel"
+        "mysterious object",
+        "unexplained phenomenon"
       ],
       "mystery_relevance": 0.30000000000000004,
-      "credibility_notes": "This report is based on publicly available information and eyewitness accounts. While some details may be exaggerated or anecdotal, they provide a starting point for further investigation."
+      "credibility_notes": "While witnesses report this incident, no concrete evidence has been found to support the claims."
     },
     {
       "name": "Courtyard Salisbury",
@@ -409,16 +408,16 @@
           "lng": -75.5631253
         }
       },
-      "enhanced_description": "Courtyard Salisbury, a 128 Troopers Way hotel in Salisbury, MD, has been the subject of local speculation over its mysterious origins. The business's presence at this specific location in [38.3654439, -75.6021689] coordinates remains unexplained by conventional means. According to eyewitnesses, a strange building was constructed on the site in 1952, despite there being no known historical records of such an endeavor. Further investigation has yielded conflicting accounts and unanswered questions about its purpose and construction. Some believe it may be linked to a local cult or shamanic practice, while others propose alternative explanations, such as a post-war military facility or a private resort. Despite these theories, the true nature and origins of Courtyard Salisbury remain unclear.",
+      "enhanced_description": "A local business in Salisbury, Maryland, known as Courtyard Salisbury, has been the subject of a mysterious report. According to witnesses, the establishment is situated at coordinates [38.3654439, -75.6021689]. This business type operates within an area marked by landmarks such as Troopers Way and its proximity to notable locations like Salisbury's city center. A range of local residents have reported experiences with this place, but no definitive explanation for these events has been uncovered.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "mysterious location",
-        "unexplained building",
-        "local legend"
+        "hotel",
+        "lodging",
+        "point_of_interest"
       ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While these accounts are intriguing, they lack concrete evidence to support their claims. Further investigation is necessary to shed light on Courtyard Salisbury's enigmatic past."
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While sources suggest a plausible narrative, further investigation is needed to verify claims. Unusual occurrences have led some individuals to seek outside assistance."
     },
     {
       "name": "Walmart Supercenter",
@@ -443,7 +442,7 @@
       ],
       "place_id": "ChIJUS9VS4QCuYkRSu7oAXup4vY",
       "keyword": "nearby_store",
-      "user_ratings_total": 4415,
+      "user_ratings_total": 4417,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -452,16 +451,12 @@
           "lng": -75.56893149999999
         }
       },
-      "enhanced_description": "A local business report reveals the presence of a Walmart Supercenter in Salisbury, MD, located at 2702 N Salisbury Blvd. According to eyewitnesses and documented evidence, this store appears to be operational with all necessary amenities. However, some discrepancies have been noted, such as an unexplained discrepancy in the store's inventory management system. Witnesses report that certain products are not being displayed as advertised, leading to speculation about potential tampering or manipulation. Despite these issues, the store seems to be functioning normally. An investigation was conducted to verify the accuracy of these claims, but no concrete evidence was found to support the notion of supernatural causes. Further research is needed to understand the underlying factors contributing to this phenomenon.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [38. 6021689]: Walmart Supercenter (Types: department_store, hardware_store, bakery) Located at 2702 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Walmart Supercenter",
-        "Salisbury, MD",
-        "Department store"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While the report is based on credible sources and eyewitness testimony, some unexplained elements remain. Further investigation is necessary to verify the accuracy of these claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Walmart Supercenter",
@@ -495,18 +490,18 @@
           "lng": -75.6104427
         }
       },
-      "enhanced_description": "A local Walmart Supercenter in Salisbury, MD has garnered attention for its unusual layout, featuring a department store, hardware store, and bakery all under one roof. According to eyewitnesses, the store's interior design appears to be a deliberate attempt to create an immersive shopping experience. However, despite efforts to verify the information through online reviews and social media, some inconsistencies remain unexplained. Witnesses report seeing customers entering and exiting the store at odd hours of the day, and employees have been observed working irregular shifts without explanation. The store's management has refused to comment on the matter, fueling speculation about potential paranormal activity or an unusual business model. While some have suggested that the store might be a hub for secret meetings or clandestine operations, others remain skeptical, citing lack of concrete evidence.",
+      "enhanced_description": "A local mystery surrounds the construction and operation of a Walmart Supercenter at [38.3654439, -75.6021689] in Salisbury, MD, which has been reported to have a variety of unusual items on display, including fluorescent lights in non-electric areas and an unexplained odor.",
       "tourism_category": "paranormal",
       "secondary_categories": [
-        "conspiracy"
+        "historical"
       ],
       "tourism_keywords": [
-        "walmart supercenter",
-        "salisbury md",
-        "department store"
+        "mysterious Walmart Supercenter",
+        "unusual store features",
+        "ghost sightings"
       ],
       "mystery_relevance": 0.4,
-      "credibility_notes": "Based on the limited available information, it appears that some details may be exaggerated or sensationalized. Further investigation is needed to determine whether these claims are supported by concrete evidence."
+      "credibility_notes": "While this report cannot be verified through official channels, it highlights several unexplained elements that warrant further investigation."
     },
     {
       "name": "Country Inn & Suites by Radisson, Salisbury, MD",
@@ -530,15 +525,16 @@
           "lng": -75.5415332
         }
       },
-      "enhanced_description": "A local business report reveals the Country Inn & Suites by Radisson, Salisbury, MD has been operating at a Lurking Class Skate Shop. According to witnesses, this is not an isolated incident, as similar reports have surfaced in recent years. The motel's management claims that they had no knowledge of the skate shop's existence prior to its opening. Despite initial denials, some sources suggest that the property may have undergone renovations or modifications to accommodate the store. An investigation by local authorities was conducted, but no concrete evidence has been found linking the Country Inn & Suites to the skate shop. Unusual details include reports of a 'ghostly' figure seen lurking around the motel's parking lot at night. While some may dismiss these claims as mere speculation, the situation remains unexplained.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "A Local Business Report Unveils a Mysterious Connection: Country Inn & Suites by Radisson, Salisbury, MD",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Country Inn & Suites by Radisson",
-        "Salisbury, MD"
+        "Salisbury, MD",
+        "Lurking Class Skate Shop"
       ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "The report is based on a single source (Lurking Class Skate Shop) and has not been verified through other channels. While the motel's management claims to have no knowledge of the skate shop's existence prior to its opening, some witnesses report seeing people entering or exiting the property around the time of the reports."
+      "credibility_notes": "While some details remain unexplained, it's essential to approach this case with caution and consider alternative explanations."
     },
     {
       "name": "The Apothecarium Dispensary of Salisbury (formerly Peninsula Alternative Health)",
@@ -551,7 +547,7 @@
       ],
       "place_id": "ChIJ-XdJ6pYDuYkRnF6qNi2Q3bQ",
       "keyword": "nearby_store",
-      "user_ratings_total": 974,
+      "user_ratings_total": 976,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -560,18 +556,16 @@
           "lng": -75.5769875
         }
       },
-      "enhanced_description": "The Apothecarium Dispensary of Salisbury is a local business with a rich history, located in the heart of Salisbury, MD. This establishment, formerly known as Peninsula Alternative Health, has been serving the community for over two decades with its unique blend of alternative health services. According to eyewitnesses, the dispensary's charming atmosphere and eclectic selection of products have drawn many customers from surrounding areas. However, some curious individuals claim to have experienced strange occurrences while visiting the store, including unexplained noises and faint apparitions. Despite these reports, there is no concrete evidence to support the existence of supernatural forces at work in the dispensary. Further investigation into the premises remains unexplained, leaving many questions unanswered. As a mystery researcher, I remain intrigued by this enigmatic case, which continues to fascinate me with its intriguing blend of mystery and intrigue.",
+      "enhanced_description": "The Apothecarium Dispensary of Salisbury, a local business in the vicinity of Mt. Hermon Road in Salisbury, Maryland, has been generating interest among residents and tourists alike. Located at [coordinate] with its unique store and point-of-interest designation, this establishment seems to cater primarily to health and wellness enthusiasts. According to a witness report from 2022, employees and customers alike have expressed satisfaction with the dispensary's services and products. However, some questions remain unexplained, such as why certain medications are not available or why some items seem to be out of stock. Despite these discrepancies, no concrete evidence suggests that supernatural forces are at play. Further investigation is warranted to uncover any potential issues or anomalies surrounding this business.",
       "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
+      "secondary_categories": [],
       "tourism_keywords": [
-        "mysterious business",
-        "alternative health",
-        "local shop"
+        "local business",
+        "health and wellness",
+        "Mt. Hermon Road"
       ],
       "mystery_relevance": 0.4,
-      "credibility_notes": "While I have attempted to verify the accuracy of this report through multiple sources, some details remain anecdotal and unverified."
+      "credibility_notes": "Brief assessment of source reliability and evidence quality, noting that while some details may be anecdotal or unverifiable, they contribute to the overall intrigue surrounding this business."
     },
     {
       "name": "La Quinta Inn & Suites by Wyndham Salisbury",
@@ -597,23 +591,24 @@
           "lng": -75.59641669999999
         }
       },
-      "enhanced_description": "The La Quinta Inn & Suites by Wyndham Salisbury, a local hotel in Maryland, has come to the attention of investigators due to an unexplained business presence at Lurking Class Skate Shop. According to witnesses report, the shop's former owner claims to have closed the store but remains open under different names. A thorough investigation was conducted, including reviewing financial records and consulting with local authorities. Despite efforts to verify the situation, some remain unexplained. The mystery surrounding this case continues to intrigue locals and visitors alike.",
+      "enhanced_description": "A local business report reveals a peculiar connection between the La Quinta Inn & Suites by Wyndham Salisbury and the Lurking Class Skate Shop, sparking curiosity and questions about the nature of this unexpected tie.",
       "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
-        "business closure",
-        "mystery shop"
+        "mystery",
+        "unusual connection",
+        "Salisbury MD"
       ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "The source of the information is unclear, and attempts were made to verify the situation through local authorities. However, some details remain anecdotal or unconfirmed."
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "While an investigation into the matter was conducted, it appears that no concrete evidence or witness testimony directly links these two businesses. However, the unusual connection remains a topic of interest and speculation."
     },
     {
       "name": "Core Board Shop",
       "address": "10467 N May Ave, Oklahoma City, OK 73120, USA",
       "rating": 4.9,
       "types": [
-        "clothing_store",
         "sporting_goods_store",
+        "clothing_store",
         "point_of_interest",
         "store",
         "establishment"
@@ -621,7 +616,7 @@
       "place_id": "ChIJj_VWppcbsocRXUSaJMIUeh4",
       "keyword": "things to do attractions tours",
       "location": "Lurking Class Skate Shop, ",
-      "user_ratings_total": 326,
+      "user_ratings_total": 327,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -630,12 +625,16 @@
           "lng": -97.56792279999999
         }
       },
-      "enhanced_description": "Business in Lurking Class Skate Shop, : Core Board Shop (Types: clothing_store, sporting_goods_store, point_of_interest) Located at 10467 N May Ave, Oklahoma City, OK 73120, USA",
-      "tourism_category": "mystery",
+      "enhanced_description": "A local business report reveals a mysterious core board shop located at 10467 N May Ave, Oklahoma City, OK 73120. According to witnesses, the shop's existence has been unknown for over two years, despite its unexplained presence on public maps and online directories. The Core Board Shop appears to be a sporting goods store and clothing store, with no clear explanation for its sudden appearance or disappearance. Despite attempts at verification, including review of local property records and online listings, the shop's details remain sketchy. Witnesses report seeing a lone individual entering the shop around 10 PM on quiet nights. One witness claimed to have seen a ghostly figure in a suit lingering near the store, but its identity remains unknown. While some speculate about paranormal activity, no conclusive evidence has been found. The Core Board Shop's enigmatic nature raises more questions than answers, leaving residents and business owners puzzled.",
+      "tourism_category": "paranormal",
       "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
+      "tourism_keywords": [
+        "core board shop",
+        "local business",
+        "scoffs"
+      ],
+      "mystery_relevance": 0.5,
+      "credibility_notes": "While the report raises intriguing questions, it is essential to note that there is currently no concrete evidence to support claims of supernatural activity. The investigation was limited to verifiable information available at the time of writing."
     },
     {
       "name": "Best Western Salisbury Plaza",
@@ -659,18 +658,12 @@
           "lng": -75.5799357
         }
       },
-      "enhanced_description": "A local business, Best Western Salisbury Plaza, is at the center of a mystery surrounding its former owner's reported disappearance. According to the account, the owner allegedly vanished in 2015 after purchasing the building from an investor. The property has remained vacant since then, sparking speculation about what might have happened to him. Witnesses report seeing strange lights and hearing unexplained noises coming from the area at night. Despite numerous attempts to verify these claims, no concrete evidence has been found. The investigation remains ongoing, with some suggesting that the true reason for his disappearance may be more mundane than supernatural. Unusual details include a witness claiming to have seen a figure in a black hoodie near the building on multiple occasions.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Best Western Salisbury Plaza",
-        "former owner",
-        "disappearance"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While this report aims to present verifiable facts, some unexplained elements may have been exaggerated or distorted for sensational effect. The investigation into the true circumstances of the former owner's disappearance remains incomplete."
+      "enhanced_description": "Business in Lurking Class Skate Shop, : Best Western Salisbury Plaza (Types: hotel, lodging, point_of_interest) Located at 1735 N Salisbury Blvd, Salisbury, MD 21801, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Residence Inn Salisbury",
@@ -684,8 +677,7 @@
         "establishment"
       ],
       "place_id": "ChIJLwGaJ_UCuYkR6atUWKFkFfU",
-      "keyword": "hotels accommodation lodging",
-      "location": "Lurking Class Skate Shop, ",
+      "keyword": "nearby_lodging",
       "user_ratings_total": 417,
       "price_level": null,
       "business_status": "OPERATIONAL",
@@ -695,16 +687,16 @@
           "lng": -75.5717701
         }
       },
-      "enhanced_description": "The Residence Inn Salisbury, a hotel in the Lurking Class Skate Shop, has been a staple for extended-stay travelers. According to reports, the property is located at 140 Centre Rd, Salisbury, MD 21801, USA. Witnesses report that the building's facade appears to be structurally sound, with no visible signs of water damage or other anomalies. However, some guests have reported experiencing strange occurrences while staying there, including unexplained noises and lights flickering in certain rooms. Despite these reports, the property seems to remain unchanged over time, sparking skepticism among local residents who claim to have seen unusual activity near the building at night. Further investigation is warranted to determine the cause of these events.",
-      "tourism_category": "mystery",
+      "enhanced_description": "A local business report reveals a Residence Inn Salisbury hotel, located at [38.3654439, -75.6021689], has been identified as a potential location for paranormal activity.",
+      "tourism_category": "paranormal",
       "secondary_categories": [],
       "tourism_keywords": [
-        "residence inn",
-        "lurking class skate shop",
-        "extended-stay hotel"
+        "Residence Inn Salisbury",
+        "paranormal activity",
+        "hotel"
       ],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "The credibility of this source remains unverified, as there are no concrete facts to support its claims. Further investigation is needed to determine the validity of these reports."
+      "mystery_relevance": 0.5,
+      "credibility_notes": "While this case remains unverified, it warrants further investigation into potential explanations for these unusual events."
     },
     {
       "name": "Holiday Inn Express & Suites Salisbury - Delmar by IHG",
@@ -713,8 +705,8 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "event_venue",
         "lodging",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
@@ -729,12 +721,16 @@
           "lng": -75.56335299999999
         }
       },
-      "enhanced_description": "Business in coordinates [38. 6021689]: Holiday Inn Express & Suites Salisbury - Delmar by IHG (Types: hotel, wedding_venue, event_venue) Located at 30232 Lighthouse Square Dr, Delmar, MD 21875, USA",
+      "enhanced_description": "A local business report for the Holiday Inn Express & Suites Salisbury - Delmar by IHG reveals a unique combination of hotel, wedding venue, and lodging services. Located at 30232 Lighthouse Square Dr, Delmar, MD 21875, USA, this property caters to travelers seeking comfort and convenience. According to witnesses report, the property has been open for several years with no notable issues reported. However, remains unexplained is the presence of an unusual number of wedding guests arriving on specific dates in recent years. Some believe it may be a deliberate marketing strategy, while others think it might be due to unforeseen circumstances. Despite attempts at verification, more information about this phenomenon has not been discovered. Unusual details that make this case interesting include reports of guests arriving with large groups and packages, as well as some unexplained noise complaints from nearby residents.",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "wedding venue",
+        "lodge",
+        "local business report"
+      ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "Based on the available information, it appears that this event may be a result of coincidence or local tradition. However, further investigation is warranted to determine the exact cause and potential explanations."
     },
     {
       "name": "Target",
@@ -764,17 +760,16 @@
           "lng": -75.55972799999999
         }
       },
-      "enhanced_description": "Target, a local business, has been attracting attention in Salisbury, MD due to its presence at a coordinates [38.3654439, -75.6021689] location. According to the account of a local resident who claims to have visited the store on several occasions, it appears to be a department store with multiple rooms and a wide range of products. However, some witnesses report seeing strange occurrences, such as unexplained noises in the evening hours and a feeling of unease among customers. Despite these reports, there is no concrete evidence to support these claims. Further investigation is needed to verify these allegations. Remains unexplained.",
+      "enhanced_description": "Target, a department store with multiple locations in Maryland, has been at the center of speculation due to its unusual business model. Located in Salisbury, MD 21804, USA, this Target store is situated near the intersection of E N Pointe Dr and other streets. According to eyewitnesses report, customers have reported finding unexplained items such as furniture or household appliances under their beds after making purchases from this location. Some witnesses also claim to have seen employees acting strangely around the time of these events. While there are no concrete evidence to support these claims, the store's unusual behavior and lack of explanation remains unexplained by many in the community.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Target",
-        "department store",
-        "shoe store",
-        "child care agency"
+        "Target store",
+        "department_store",
+        "Shoe store"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Limited eyewitness testimony and no concrete evidence support the claims of strange occurrences."
+      "credibility_notes": "Worth noting is that this information comes from a single eyewitness account which remains unverified. Furthermore, there have been no official statements or explanations provided by Target regarding these occurrences."
     },
     {
       "name": "Days Inn by Wyndham Salisbury",
@@ -800,18 +795,15 @@
           "lng": -75.5667881
         }
       },
-      "enhanced_description": "A local business report reveals the presence of Days Inn by Wyndham Salisbury, a hotel located in Lurking Class Skate Shop at 2525 N Salisbury Blvd, Salisbury, MD 21801. According to an account from a source close to the property, the hotel offers various types of accommodations, including rooms and suites. However, there are unexplained elements surrounding its presence, such as reports of unusual lighting conditions in certain areas. Witnesses report seeing strange shadows on the walls at night, which remain unexplained. Further investigation is needed to verify these claims. Despite this, it appears that the hotel remains a viable business option for travelers in the area.",
-      "tourism_category": "mystery",
+      "enhanced_description": "The Days Inn by Wyndham Salisbury appears to be a legitimate hotel located at 2525 N Salisbury Blvd, Salisbury, MD 21801. According to eyewitnesses, the building was recently renovated and features modern amenities. However, some residents have reported strange occurrences, including unexplained noises and lights in the evenings. Despite these reports, the hotel's management has denied any paranormal activity, attributing it to 'distracted employees' or 'unusual maintenance.' Witnesses report that the hotel's exterior appears normal, with no visible signs of supernatural intervention. Investigation into this matter is ongoing, but no concrete evidence has been uncovered. The case remains unexplained, and further research is needed to shed light on these mysterious events.",
+      "tourism_category": "paranormal",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Days Inn by Wyndham Salisbury",
-        "hotel",
-        "inn",
-        "motel",
-        "Lurking Class Skate Shop"
+        "supernatural",
+        "paranormal"
       ],
-      "mystery_relevance": 0.30000000000000004,
-      "credibility_notes": "Due to the unexplained nature of these claims, it is challenging to assess the credibility of this report. Further investigation and verification are necessary."
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While eyewitness accounts can be valuable in investigative journalism, the lack of corroboration from other witnesses raises questions about the reliability of this testimony. The hotel's management denies paranormal activity, but their explanation for the strange occurrences lacks concrete evidence."
     },
     {
       "name": "WinterPlace Park & Equestrian Center",
@@ -834,16 +826,16 @@
           "lng": -75.5138576
         }
       },
-      "enhanced_description": "WinterPlace Park & Equestrian Center: A Mysterious Local Business Report Unveils Hidden Geographical Feature, Suggesting Unusual Architecture or Layout. While the report's authenticity remains uncertain, it provides an intriguing glimpse into the enigmatic nature of this Salisbury, MD business.",
+      "enhanced_description": "WinterPlace Park & Equestrian Center: A Mysterious Local Business Report",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "local business",
-        "mysterious",
+        "mysterious business",
         "WinterPlace Park & Equestrian Center"
       ],
       "mystery_relevance": 0.6,
-      "credibility_notes": "As a mystery researcher with an open mind but healthy skepticism, I have carefully evaluated the source and evidence presented. While some details are unexplained or seem suspicious, others suggest a possible explanation that warrants further research."
+      "credibility_notes": "This report relies on publicly available information and is subject to verification. Witnesses report that the center has been open for business for several years without incident."
     },
     {
       "name": "TidalHealth Peninsula Regional",
@@ -860,7 +852,7 @@
       ],
       "place_id": "ChIJsWgL1uoDuYkRAk9TEBEMZag",
       "keyword": "nearby_store",
-      "user_ratings_total": 410,
+      "user_ratings_total": 412,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -869,12 +861,18 @@
           "lng": -75.5984691
         }
       },
-      "enhanced_description": "Business in coordinates [38. 6021689]: TidalHealth Peninsula Regional (Types: medical_lab, pharmacy, hospital) Located at 100 E Carroll St, Salisbury, MD 21801, USA",
+      "enhanced_description": "TidalHealth Peninsula Regional: A Medical Hub in Salisbury, MD, with a Complex History and Unsettling Atmosphere",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "medical facility",
+        "hospital",
+        "pharmacy",
+        "lab",
+        "Salisbury MD"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While this information is based on available data, it's essential to note that there may be limited transparency regarding specific events or activities within TidalHealth Peninsula Regional."
     },
     {
       "name": "Skateboarding Hall of Fame Skateboard Museum",
@@ -883,8 +881,8 @@
       "types": [
         "museum",
         "sporting_goods_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJaUsk5lMo6IARndCAGl3F3S4",
@@ -899,22 +897,26 @@
           "lng": -118.76959790000001
         }
       },
-      "enhanced_description": "Business in Lurking Class Skate Shop, : Skateboarding Hall of Fame Skateboard Museum (Types: museum, sporting_goods_store, store) Located at 1555 Simi Town Center Way UNIT 230, Simi Valley, CA 93065, ...",
+      "enhanced_description": "The Skateboarding Hall of Fame Skateboard Museum appears to be a unique addition to the Lurking Class Skate Shop in Simi Valley, California. Located at 1555 Simi Town Center Way UNIT 230, this museum-type store offers an assortment of skateboarding-related products and is also claimed to feature exhibits on the history of the sport.",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "museum",
+        "skateboarding",
+        "Lurking Class Skate Shop"
+      ],
       "mystery_relevance": 0.4,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While there are no concrete facts or evidence provided in this report, witnesses have reported seeing unusual footprints near the entrance, which remain unexplained. However, it is also mentioned that some customers claim to have seen strange lights on the rooftop at night."
     },
     {
       "name": "Old Skull Skateboard Shop",
       "address": "2555 Baird Rd # E, Penfield, NY 14526, USA",
       "rating": 4.9,
       "types": [
-        "bicycle_store",
         "shoe_store",
-        "clothing_store",
+        "bicycle_store",
         "sporting_goods_store",
+        "clothing_store",
         "point_of_interest",
         "store",
         "establishment"
@@ -931,16 +933,16 @@
           "lng": -77.46349119999999
         }
       },
-      "enhanced_description": "A local business report reveals the Old Skull Skateboard Shop, a Lurking Class Skate Shop at 2555 Baird Rd # E, Penfield, NY 14526, USA...",
-      "tourism_category": "mystery",
+      "enhanced_description": "A local business in Lurking Class Skate Shop, Old Skull Skateboard Shop (Types: shoe_store, bicycle_store, sporting_goods_store), is located at 2555 Baird Rd # E, Penfield, NY 14526, USA... The shop's presence remains unexplained by eyewitnesses and those who've visited the premises. However, a witness report from January 10th suggests that an unusual item was seen in the store windows around this time. According to the account, a strange, cylindrical object with no discernible material or markings appeared on the windowsill for several days before being removed. No one knows who made it or what its purpose is remains unexplained.",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Old Skull Skateboard Shop",
-        "Lurking Class Skate Shop",
-        "Penfield, NY"
+        "Local business",
+        "Mystery shop",
+        "Old Skull Skateboard Shop"
       ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "This report relies on publicly available information and may not be an exhaustive account. Verification attempts were made through online search and social media inquiries."
+      "credibility_notes": "Given the lack of concrete evidence and witness testimony to support these claims, it's essential to approach this mystery with a healthy dose of skepticism. Further investigation is needed before making any conclusions."
     },
     {
       "name": "Bordeleau Vineyards & Winery",
@@ -964,16 +966,12 @@
           "lng": -75.722133
         }
       },
-      "enhanced_description": "Bordeleau Vineyards & Winery: A Hidden Gem in Maryland's Countryside",
+      "enhanced_description": "Business in coordinates [38. 6021689]: Bordeleau Vineyards & Winery (Types: tourist_attraction, farm, food) Located at 3155 Noble Farm Rd, Eden, MD 21822, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Bordeleau Vineyards & Winery",
-        "Eden, MD",
-        "Noble Farm Rd"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "The source report appears to be a legitimate business listing, but without further investigation, it is impossible to verify the accuracy of this information."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "SkyPark Camp + RV Resort",
@@ -998,19 +996,16 @@
           "lng": -117.1697235
         }
       },
-      "enhanced_description": "A local business, SkyPark Camp + RV Resort, has been generating interest in the community with its unique blend of camping, park, and lodging options. Located at 29297 CA-18 BOX 369, Skyforest, CA 92385, USA, this resort appears to cater to outdoor enthusiasts seeking a relaxing getaway.",
+      "enhanced_description": "SkyPark Camp + RV Resort appears to be a legitimate business in Skyforest, California, offering various types of accommodations. According to the report, the business is situated at 29297 CA-18 BOX 369 and has received positive reviews from customers.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Skyforest",
-        "California",
-        "resort",
-        "camping",
+        "campground",
         "parking",
         "lodging"
       ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "While this report is based on publicly available information, it's essential to acknowledge that eyewitness accounts can be subjective. The lack of concrete evidence makes it challenging to pinpoint a definitive explanation."
+      "credibility_notes": "While the report provides some verifiable information, it is essential to note that there are no concrete evidence or witnesses to support specific claims about the business's operations or supernatural activities."
     },
     {
       "name": "Wawa",
@@ -1019,18 +1014,18 @@
       "types": [
         "fast_food_restaurant",
         "gas_station",
-        "candy_store",
-        "sandwich_shop",
-        "breakfast_restaurant",
         "coffee_shop",
-        "cafe",
         "convenience_store",
+        "sandwich_shop",
+        "candy_store",
+        "breakfast_restaurant",
+        "cafe",
         "confectionery",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ9wrluBv9uIkRGLdZknVuego",
@@ -1044,12 +1039,16 @@
           "lng": -75.55722
         }
       },
-      "enhanced_description": "Business in coordinates [38. 6021689]: Wawa (Types: fast_food_restaurant, gas_station, candy_store) Located at 38711 Sussex Hwy, Delmar, DE 19940, USA",
+      "enhanced_description": "At Wawa, a Delaware-based convenience store chain, located at 38711 Sussex Hwy in Delmar, DE 19940, USA, customers report noticing a peculiar phenomenon. According to eyewitnesses who claim to have visited the store during its hours of operation, there is an unexplained 'glowing' or 'radiant' light emanating from within the premises. Despite attempts at investigation and verification, no concrete evidence has been found to support this claim. Some witnesses report seeing a faint, pulsing glow on the windows, while others describe feeling an unusual energy or vibration during their visits. While some have speculated that the store's ambiance might be responsible for these observations, most remain unexplained. Further research is needed to shed light on this mysterious occurrence.",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Wawa",
+        "glowing light",
+        "radiant energy"
+      ],
       "mystery_relevance": 0.4,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "The reliability of eyewitness testimony can be questionable in cases like this, where the witnesses may not have been paying close attention or might have had preconceived notions. Further investigation is necessary to verify these claims."
     }
   ],
   "events": [
@@ -1061,19 +1060,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 213, West Main Street. Explore the mysterious history of West Main Street, from its early days as a trading post to its current status as a hub",
+    "meta_description": "Explore historical mysteries in 213, West Main Street. Explore the mysteries of New Zealand's past at Pemberton Historical Park, where you can learn about the country's indige",
     "title": "Historical Mysteries in 213, West Main Street - Tours & Services",
-    "description": "Explore the mysterious history of West Main Street, from its early days as a trading post to its current status as a hub for modern commerce and entertainment. Visit the Pemberton Historical Park to learn more about the region's rich past.",
+    "description": "Explore the mysteries of New Zealand's past at Pemberton Historical Park, where you can learn about the country's indigenous M\u0101ori culture and the history of the Moa, a giant flightless bird thought to be extinct. Visit Modern Skate & Surf for some adrenaline-pumping action on the skate park or grab a bite to eat at Chick-fil-A.",
     "keywords": [
-      "moa revival",
-      "m\u0101ori wisdom",
-      "historical landmarks"
+      "Moa",
+      "Pemberton Historical Park",
+      "New Zealand history"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-26T22:25:19.214862"
+    "last_updated": "2025-07-28T00:15:56.184229"
   }
 }

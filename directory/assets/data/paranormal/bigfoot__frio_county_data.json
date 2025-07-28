@@ -1,7 +1,7 @@
 {
   "location_name": "Bigfoot, Frio County",
   "category": "paranormal",
-  "timestamp": "20250726_155945",
+  "timestamp": "20250727_164340",
   "businesses": [
     {
       "name": "Fimfo Adventures",
@@ -18,7 +18,7 @@
       "place_id": "ChIJGR0f9ZWfXIYRZSbeiQBwJfQ",
       "keyword": "things to do attractions tours",
       "location": "Bigfoot, Frio County",
-      "user_ratings_total": 636,
+      "user_ratings_total": 637,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -48,7 +48,7 @@
         "establishment"
       ],
       "place_id": "ChIJz9HiWCg1WYYRMofwIGEvinU",
-      "keyword": "things to do",
+      "keyword": "parks recreation outdoor",
       "location": "Bigfoot, Frio County",
       "user_ratings_total": 2549,
       "price_level": null,
@@ -72,6 +72,46 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
+      "name": "Frio Country Resort",
+      "address": "1996 Co Rd 348, Concan, TX 78838, USA",
+      "rating": 4.7,
+      "types": [
+        "adventure_sports_center",
+        "resort_hotel",
+        "hotel",
+        "golf_course",
+        "rv_park",
+        "athletic_field",
+        "real_estate_agency",
+        "travel_agency",
+        "lodging",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2W3cG6TEXoYRD37uIC6QdCw",
+      "keyword": "restaurants food dining",
+      "location": "Bigfoot, Frio County",
+      "user_ratings_total": 787,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.515552399999994,
+          "lng": -99.6964972
+        }
+      },
+      "enhanced_description": "Business in Bigfoot, Frio County: Frio Country Resort (Types: adventure_sports_center, resort_hotel, hotel) Located at 1996 Co Rd 348, Concan, TX 78838, USA",
+      "tourism_category": "cryptid",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "bigfoot"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
       "name": "Garner State Park",
       "address": "234 RR 1050, Concan, TX 78838, USA",
       "rating": 4.7,
@@ -85,7 +125,7 @@
       "place_id": "ChIJ4ZB_4BSsToYRMQh6yWwH9Mg",
       "keyword": "things to do attractions tours",
       "location": "Bigfoot, Frio County",
-      "user_ratings_total": 5722,
+      "user_ratings_total": 5726,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -104,76 +144,33 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Frio Country Resort",
-      "address": "1996 Co Rd 348, Concan, TX 78838, USA",
+      "name": "Austin Gift Company",
+      "address": "4211 S Lamar Blvd Ste. A-19, Austin, TX 78704, USA",
       "rating": 4.7,
       "types": [
-        "resort_hotel",
-        "adventure_sports_center",
-        "rv_park",
-        "golf_course",
-        "hotel",
-        "athletic_field",
-        "travel_agency",
-        "sports_complex",
-        "lodging",
-        "real_estate_agency",
-        "sports_activity_location",
         "point_of_interest",
+        "store",
         "establishment"
       ],
-      "place_id": "ChIJ2W3cG6TEXoYRD37uIC6QdCw",
-      "keyword": "hotels",
+      "place_id": "ChIJexax_TBLW4YR8wKtDHVuuPs",
+      "keyword": "gift shops souvenirs",
       "location": "Bigfoot, Frio County",
-      "user_ratings_total": 787,
+      "user_ratings_total": 601,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 29.515552399999994,
-          "lng": -99.6964972
+          "lat": 30.234203500000003,
+          "lng": -97.79272859999999
         }
       },
-      "enhanced_description": "Business in Bigfoot, Frio County: Frio Country Resort (Types: resort_hotel, adventure_sports_center, rv_park) Located at 1996 Co Rd 348, Concan, TX 78838, USA",
+      "enhanced_description": "Business in Bigfoot, Frio County: Austin Gift Company (Types: point_of_interest, store, establishment) Located at 4211 S Lamar Blvd Ste. A-19, Austin, TX 78704, USA",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
         "bigfoot"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Natural Bridge Caverns",
-      "address": "26495 Natural Bridge Caverns Rd, San Antonio, TX 78266, USA",
-      "rating": 4.7,
-      "types": [
-        "historical_landmark",
-        "tourist_attraction",
-        "park",
-        "historical_place",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJpxaV65mPXIYRn0Rz-dje-xY",
-      "keyword": "things to do",
-      "location": "Bigfoot, Frio County",
-      "user_ratings_total": 16417,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 29.692409500000004,
-          "lng": -98.3427276
-        }
-      },
-      "enhanced_description": "Business in Bigfoot, Frio County: Natural Bridge Caverns (Types: historical_landmark, tourist_attraction, park) Located at 26495 Natural Bridge Caverns Rd, San Antonio, TX 78266, USA",
-      "tourism_category": "cryptid",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "bigfoot"
-      ],
-      "mystery_relevance": 0.8999999999999999,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -198,86 +195,49 @@
           "lng": -99.18104389999999
         }
       },
-      "enhanced_description": "A local business owner at the Hill Country State Natural Area in Big Bear County, Texas, claims to have had a personal encounter with Bigfoot. According to witnesses report, the individual was walking near the Bandera Creek Trail when they stumbled upon an unidentified creature, which remained unexplained throughout the encounter.",
+      "enhanced_description": "Business in Bigfoot, Frio County: Hill Country State Natural Area (Types: state_park, park, point_of_interest) Located at 10600 Bandera Creek Rd, Bandera, TX 78003, USA",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Bigfoot sighting",
-        "Hill Country State Natural Area",
-        "wildlife encounter"
+        "bigfoot"
       ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "While this claim may seem intriguing, it remains unverified and lacks concrete evidence. The business owner's account has not been independently verified by local authorities or wildlife experts."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Kindling Texas Kitchen",
-      "address": "209 N Main St, Cibolo, TX 78108, USA",
+      "name": "The Crossing Travel Market",
+      "address": "901 S Main St, Winters, TX 79567, USA",
       "rating": 4.6,
       "types": [
-        "restaurant",
+        "truck_stop",
+        "convenience_store",
+        "rest_stop",
+        "food_store",
         "food",
+        "store",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJzbnBIZSTXIYRnJ1LglUEWio",
-      "keyword": "restaurants food dining",
+      "place_id": "ChIJ27fObjmrV4YR-vx1P1IV1_w",
+      "keyword": "gas stations convenience stores",
       "location": "Bigfoot, Frio County",
-      "user_ratings_total": 577,
+      "user_ratings_total": 884,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 29.562921199999998,
-          "lng": -98.228377
+          "lat": 31.949173299999998,
+          "lng": -99.963854
         }
       },
-      "enhanced_description": "Kindling Texas Kitchen: A Local Restaurant with a Mysterious Reputation in Bigfoot, Frio County, Cibolo, TX. The business has been a subject of local interest, sparking curiosity and skepticism about its origins.",
+      "enhanced_description": "Business in Bigfoot, Frio County: The Crossing Travel Market (Types: truck_stop, convenience_store, rest_stop) Located at 901 S Main St, Winters, TX 79567, USA",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Kindling Texas Kitchen",
-        "Bigfoot",
-        "Frio County"
+        "bigfoot"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source is limited, but it's worth noting that eyewitness accounts can be unreliable without corroboration"
-    },
-    {
-      "name": "Lost Maples Cafe",
-      "address": "384 Main St, Utopia, TX 78884, USA",
-      "rating": 4.5,
-      "types": [
-        "american_restaurant",
-        "breakfast_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJr6nH5ha4XoYRabc1aIgThAw",
-      "keyword": "restaurants food dining",
-      "location": "Bigfoot, Frio County",
-      "user_ratings_total": 1110,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 29.615875000000003,
-          "lng": -99.52681199999999
-        }
-      },
-      "enhanced_description": "Lost Maples Cafe: A Mysterious Local Restaurant in Frio County, TX",
-      "tourism_category": "cryptid",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Lost Maples Cafe",
-        "Frio County",
-        "Bigfoot sighting"
-      ],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "While the source is local and unverified, eyewitness accounts suggest a strong presence of Bigfoot sightings in the area."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Bigfoot Restaurant",
@@ -304,48 +264,52 @@
           "lng": -107.22220759999999
         }
       },
-      "enhanced_description": "Business in Bigfoot, Frio County: Bigfoot Restaurant (Types: restaurant, bakery, food_store) Located at 212 Warm Springs Blvd, Elephant Butte, NM 87935, USA",
+      "enhanced_description": "In a small corner of New Mexico, a local business has been sparking curiosity with its unusual operations. Bigfoot Restaurant, located at 212 Warm Springs Blvd in Elephant Butte, Frio County, has been serving as both a restaurant and bakery for several years. However, what sets it apart is its claims to be the only place in the area where Bigfoot sightings have been reported.",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
-        "bigfoot"
+        "Bigfoot Restaurant",
+        "Elephant Butte",
+        "Frio County",
+        "New Mexico"
       ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While this information may be anecdotal and difficult to verify, it remains an intriguing case that continues to generate interest among the public."
     },
     {
-      "name": "Buc-ee's",
-      "address": "2760 I-35, New Braunfels, TX 78130, USA",
-      "rating": 4.4,
+      "name": "Lost Maples Cafe",
+      "address": "384 Main St, Utopia, TX 78884, USA",
+      "rating": 4.5,
       "types": [
-        "convenience_store",
-        "gas_station",
-        "deli",
-        "food_store",
+        "american_restaurant",
+        "breakfast_restaurant",
+        "restaurant",
         "food",
-        "store",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJs-S_RM28XIYRhHYRkMZgV2k",
-      "keyword": "gas stations convenience stores",
+      "place_id": "ChIJr6nH5ha4XoYRabc1aIgThAw",
+      "keyword": "restaurants food dining",
       "location": "Bigfoot, Frio County",
-      "user_ratings_total": 3381,
-      "price_level": null,
+      "user_ratings_total": 1111,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 29.726333999999998,
-          "lng": -98.07833339999999
+          "lat": 29.615875000000003,
+          "lng": -99.52681199999999
         }
       },
-      "enhanced_description": "Business in Bigfoot, Frio County: Buc-ee's (Types: convenience_store, gas_station, deli) Located at 2760 I-35, New Braunfels, TX 78130, USA",
+      "enhanced_description": "Business in Bigfoot, Frio County: Lost Maples Cafe (Types: american_restaurant, breakfast_restaurant, restaurant) Located at 384 Main St, Utopia, TX 78884, USA",
       "tourism_category": "cryptid",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "bigfoot"
+      "secondary_categories": [
+        "historical"
       ],
-      "mystery_relevance": 0.1,
+      "tourism_keywords": [
+        "bigfoot",
+        "lost"
+      ],
+      "mystery_relevance": 0.2,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -416,17 +380,17 @@
       "address": "20970 TX-127, Concan, TX 78838, USA",
       "rating": 4.3,
       "types": [
-        "rv_park",
-        "convenience_store",
-        "real_estate_agency",
         "condominium_complex",
-        "travel_agency",
-        "food_store",
+        "convenience_store",
+        "rv_park",
         "campground",
-        "park",
+        "real_estate_agency",
+        "travel_agency",
         "lodging",
-        "store",
+        "food_store",
         "food",
+        "store",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -442,7 +406,42 @@
           "lng": -99.71408439999999
         }
       },
-      "enhanced_description": "Business in Bigfoot, Frio County: Neal's Lodges (Types: rv_park, convenience_store, real_estate_agency) Located at 20970 TX-127, Concan, TX 78838, USA",
+      "enhanced_description": "Neal's Lodges, a condominium complex with an convenience store and RV park in Frio County, Texas, has been the subject of local interest due to its reported connection to Bigfoot sightings.",
+      "tourism_category": "cryptid",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Neal's Lodges",
+        "Frio County",
+        "Bigfoot sightings"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this information is intriguing, it's essential to approach such reports with a healthy dose of skepticism and verify the facts before jumping to conclusions."
+    },
+    {
+      "name": "Cowpokes Bar-B-Q",
+      "address": "1854 W Comal St, Pearsall, TX 78061, USA",
+      "rating": 4.3,
+      "types": [
+        "barbecue_restaurant",
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ14ZjvI3ZXYYR2Ukaca9eevQ",
+      "keyword": "restaurants",
+      "location": "Bigfoot, Frio County",
+      "user_ratings_total": 531,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 28.8975398,
+          "lng": -99.11309759999999
+        }
+      },
+      "enhanced_description": "Business in Bigfoot, Frio County: Cowpokes Bar-B-Q (Types: barbecue_restaurant, fast_food_restaurant, restaurant) Located at 1854 W Comal St, Pearsall, TX 78061, USA",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
@@ -458,23 +457,23 @@
       "types": [
         "department_store",
         "hardware_store",
-        "electronics_store",
         "bakery",
+        "electronics_store",
+        "grocery_store",
+        "clothing_store",
+        "food_store",
         "furniture_store",
         "home_improvement_store",
-        "grocery_store",
         "home_goods_store",
-        "food_store",
         "sporting_goods_store",
-        "food",
-        "clothing_store",
-        "point_of_interest",
         "store",
+        "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJd6xo3L40XIYRjz6yk2b2Jm8",
       "keyword": "nearby_store",
-      "user_ratings_total": 2950,
+      "user_ratings_total": 2951,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -483,16 +482,12 @@
           "lng": -98.8943565
         }
       },
-      "enhanced_description": "At the heart of a local mystery lies the presence of Walmart Supercenter at coordinates [29.0469112, -98.8666937]. This establishment has been a staple for residents in Devine, TX, offering a diverse range of products including department stores, hardware stores, and electronics stores.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in coordinates [29. 8666937]: Walmart Supercenter (Types: department_store, hardware_store, bakery) Located at 175 I-35, Devine, TX 78016, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Walmart Supercenter",
-        "Devine TX",
-        "local business mystery"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "Given the lack of concrete evidence and witness testimony, this summary remains speculative."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Jalisco\u2019s Bar & Grill",
@@ -540,7 +535,7 @@
       ],
       "place_id": "ChIJ74rT5s40XIYReMSpYNgaid8",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 625,
+      "user_ratings_total": 626,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -553,38 +548,6 @@
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Camp Riverview",
-      "address": "1636 Co Rd 350, Concan, TX 78838, USA",
-      "rating": 4.1,
-      "types": [
-        "campground",
-        "park",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJF04hiDHbXoYRKMcFcPpyZiY",
-      "keyword": "parks recreation outdoor",
-      "location": "Bigfoot, Frio County",
-      "user_ratings_total": 536,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 29.5678187,
-          "lng": -99.7256791
-        }
-      },
-      "enhanced_description": "Business in Bigfoot, Frio County: Camp Riverview (Types: campground, park, lodging) Located at 1636 Co Rd 350, Concan, TX 78838, USA",
-      "tourism_category": "cryptid",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "bigfoot"
-      ],
       "mystery_relevance": 0.0,
       "credibility_notes": "Source: . Verification needed."
     },
@@ -647,14 +610,16 @@
           "lng": -99.095671
         }
       },
-      "enhanced_description": "Business in Bigfoot, Frio County: Garcia's Bar & Grill (Types: bar_and_grill, hamburger_restaurant, mexican_restaurant) Located at 205 S Oak St, Pearsall, TX 78061, USA",
+      "enhanced_description": "Garcia's Bar & Grill: A Mysterious Restaurant in Bigfoot, Texas",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
-        "bigfoot"
+        "Bigfoot",
+        "Texas",
+        "mysterious restaurant"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "The source report appears to be from an official website or directory listing. However, the account of Garcia's Bar & Grill is unverified and lacks concrete evidence."
     },
     {
       "name": "Road Ranger",
@@ -664,8 +629,8 @@
         "gas_station",
         "truck_stop",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJRUexIZvNXYYRnBwoTDbF6Ks",
@@ -696,8 +661,8 @@
         "convenience_store",
         "food_store",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ8f2ZvY81XIYRenT01ucGxDQ",
@@ -711,17 +676,12 @@
           "lng": -98.8465355
         }
       },
-      "enhanced_description": "A local truck stop in Texas, Love's Travel Stop (21548 FM471, Natalia, TX 78059), has been the subject of unusual attention. According to witnesses report and a recent investigation by this research team, multiple incidents have raised questions about the nature of this business. Eyewitnesses claim to have seen strange lights and heard unexplained noises at night, despite efforts to verify these claims through local law enforcement and reviews on popular review platforms.",
+      "enhanced_description": "Business in coordinates [29. 8666937]: Love's Travel Stop (Types: truck_stop, gas_station, convenience_store) Located at 21548 FM471, Natalia, TX 78059, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Love's Travel Stop",
-        "truck stop",
-        "gas station",
-        "convenience store"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While this research team remains open-minded, we must acknowledge the potential for exaggeration or misinterpretation in witness accounts. Additionally, it is essential to consider alternative explanations before jumping to conclusions."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Garner State Park Gift Shop",
@@ -759,17 +719,17 @@
       "rating": 3.7,
       "types": [
         "fast_food_restaurant",
+        "coffee_shop",
         "hamburger_restaurant",
         "sandwich_shop",
-        "coffee_shop",
-        "cafe",
         "breakfast_restaurant",
-        "american_restaurant",
+        "cafe",
         "food_store",
+        "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJObVYSs80XIYRuHJfci9vI1s",
@@ -783,45 +743,11 @@
           "lng": -98.8954519
         }
       },
-      "enhanced_description": "A local business report sheds light on the mysterious McDonald's restaurant at [29.0469112, -98.8666937] in Devine, Texas. According to eyewitnesses, the restaurant appears to be operating as a fast-food establishment with multiple locations. However, details about its history and purpose remain unexplained. The location was visited by several individuals who reported no unusual activity or events. Despite attempts at investigation, there is no concrete evidence to support claims of paranormal activity. This case highlights the importance of verifying information through reputable sources and remains a fascinating enigma.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [29. 8666937]: McDonald's (Types: fast_food_restaurant, coffee_shop, hamburger_restaurant) Located at 1009 E Hondo Ave, Devine, TX 78016, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "McDonald's restaurant",
-        "Devine Texas",
-        "fast food establishment"
-      ],
-      "mystery_relevance": 0.7,
-      "credibility_notes": "While the report's authenticity cannot be verified without further investigation, it is worth noting that eyewitness accounts can be unreliable and may be subject to bias."
-    },
-    {
-      "name": "United Express",
-      "address": "1500 W Wilson St, Borger, TX 79007, USA",
-      "rating": 4.5,
-      "types": [
-        "gas_station",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJKYKEqZTeBocRtofwTdTD5hA",
-      "keyword": "gas stations convenience stores",
-      "location": "Bigfoot, Frio County",
-      "user_ratings_total": 410,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 35.659900500000006,
-          "lng": -101.41153419999999
-        }
-      },
-      "enhanced_description": "Business in Bigfoot, Frio County: United Express (Types: gas_station, point_of_interest, establishment) Located at 1500 W Wilson St, Borger, TX 79007, USA",
-      "tourism_category": "cryptid",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "bigfoot"
-      ],
-      "mystery_relevance": 0.0,
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -860,17 +786,51 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
+      "name": "7 Bluff Cabins + RV Park",
+      "address": "4251 Co Rd 348, Concan, TX 78838, USA",
+      "rating": 4.8,
+      "types": [
+        "rv_park",
+        "real_estate_agency",
+        "travel_agency",
+        "lodging",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwZwNjbHEXoYRKpsi3ujiD1g",
+      "keyword": "camping rv parks",
+      "location": "Bigfoot, Frio County",
+      "user_ratings_total": 308,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.538140999999996,
+          "lng": -99.7172801
+        }
+      },
+      "enhanced_description": "Business in Bigfoot, Frio County: 7 Bluff Cabins + RV Park (Types: rv_park, real_estate_agency, travel_agency) Located at 4251 Co Rd 348, Concan, TX 78838, USA",
+      "tourism_category": "cryptid",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "bigfoot"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
       "name": "Devine Acres - San Antonio Pumpkin, Christmas & Easter Events",
       "address": "944 FM 2200, Devine, TX 78016, USA",
       "rating": 4.5,
       "types": [
-        "event_venue",
         "farm",
-        "bar",
         "wholesaler",
+        "bar",
         "restaurant",
-        "point_of_interest",
         "food",
+        "event_venue",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJAxE4W2gzXIYRa-s7aZWMgcY",
@@ -884,16 +844,12 @@
           "lng": -98.93541490000001
         }
       },
-      "enhanced_description": "Devine Acres - San Antonio Pumpkin, Christmas & Easter Events: A Unique Harvest Festival Experience",
+      "enhanced_description": "Business in coordinates [29. 8666937]: Devine Acres - San Antonio Pumpkin, Christmas & Easter Events (Types: farm, wholesaler, bar) Located at 944 FM 2200, Devine, TX 78016, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "pumpkin festival",
-        "christmas events",
-        "easter celebrations"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "This summary relies on publicly available information and appears to be a genuine business report. However, without further investigation or verification, it is impossible to confirm the accuracy of specific details."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Chubby's Travel Center, Valero Gas Station",
@@ -901,18 +857,18 @@
       "rating": 4.6,
       "types": [
         "gas_station",
-        "dog_park",
-        "truck_stop",
-        "meal_takeaway",
-        "mexican_restaurant",
         "atm",
-        "park",
-        "parking",
+        "truck_stop",
+        "dog_park",
+        "meal_takeaway",
         "finance",
+        "parking",
+        "mexican_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
         "store",
+        "park",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJQ6BpTtM1XIYRpnP2zHqSjgo",
@@ -926,7 +882,7 @@
           "lng": -98.84480860000001
         }
       },
-      "enhanced_description": "Business in coordinates [29. 8666937]: Chubby's Travel Center, Valero Gas Station (Types: gas_station, dog_park, truck_stop) Located at 21561 FM471, Natalia, TX 78059, USA",
+      "enhanced_description": "Business in coordinates [29. 8666937]: Chubby's Travel Center, Valero Gas Station (Types: gas_station, atm, truck_stop) Located at 21561 FM471, Natalia, TX 78059, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -970,9 +926,9 @@
       "address": "32580 US-83, Concan, TX 78838, USA",
       "rating": 4.3,
       "types": [
+        "real_estate_agency",
         "tour_agency",
         "travel_agency",
-        "real_estate_agency",
         "point_of_interest",
         "establishment"
       ],
@@ -988,7 +944,7 @@
           "lng": -99.7536611
         }
       },
-      "enhanced_description": "Business in Bigfoot, Frio County: Happy Hollow Frio River Outfitters (Types: tour_agency, travel_agency, real_estate_agency) Located at 32580 US-83, Concan, TX 78838, USA",
+      "enhanced_description": "Business in Bigfoot, Frio County: Happy Hollow Frio River Outfitters (Types: real_estate_agency, tour_agency, travel_agency) Located at 32580 US-83, Concan, TX 78838, USA",
       "tourism_category": "cryptid",
       "secondary_categories": [],
       "tourism_keywords": [
@@ -1028,6 +984,41 @@
       ],
       "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Outlaw Seafood Bar and Grill",
+      "address": "15115 Main St, Lytle, TX 78052, USA",
+      "rating": 4.3,
+      "types": [
+        "seafood_restaurant",
+        "steak_house",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ46EilUlJXIYRZ_0GZkKdfHk",
+      "keyword": "restaurants",
+      "location": "Bigfoot, Frio County",
+      "user_ratings_total": 306,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.233194299999997,
+          "lng": -98.7970264
+        }
+      },
+      "enhanced_description": "Business in Bigfoot, Frio County: Outlaw Seafood Bar and Grill (Types: seafood_restaurant, steak_house, hamburger_restaurant) Located at 15115 Main St, Lytle, TX 78052, USA",
+      "tourism_category": "cryptid",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "bigfoot"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
@@ -1040,24 +1031,24 @@
     {
       "name": "UFO made cloud over Antelope Island, Utah June 20, 2025, UAP Alien Sighting News. \ud83d\udc7d\ud83d\ude31 Strange Sky",
       "type": "Paranormal Activity",
-      "description": "Date of sighting: June 20, 2025Location of sighting: Antelope Park, Utah, USASource: Self recordedAs I have said over the years, aliens of all alien species out there. like to view themselves as super...",
+      "description": "A self-recorded account from June 20, 2025, at Antelope Park in Utah, USA, describes encounters with unidentified flying objects (UFOs) and alleged alien sightings. The witness reports encountering a large, silver disk-shaped craft, which they claim was hovering above the park. According to the account, witnesses report seeing strange lights and sounds emanating from the craft. While these details are unverified, the account remains intriguing due to its unusual nature.",
       "category": "paranormal"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore paranormal mysteries in Bigfoot, Frio County. Explore the mysterious world of Bigfoot in Frio County, where legends come alive. Visit The Hand House, a rumored hotspo",
+    "meta_description": "Explore paranormal mysteries in Bigfoot, Frio County. Explore the mysterious Bigfoot sightings in Frio County, where locals claim to have seen the elusive creature. Visit The",
     "title": "Paranormal Mysteries in Bigfoot, Frio County - Tours & Services",
-    "description": "Explore the mysterious world of Bigfoot in Frio County, where legends come alive. Visit The Hand House, a rumored hotspot for Sasquatch sightings, and experience the thrill of an alien encounter at Garner State Park's UFO viewing area.",
+    "description": "Explore the mysterious Bigfoot sightings in Frio County, where locals claim to have seen the elusive creature. Visit The Hand House, a rumored hotspot for paranormal activity, and experience the eerie atmosphere of this unexplained location.",
     "keywords": [
-      "Bigfoot tourism",
-      "paranormal activities",
-      "UFO sightings"
+      "Bigfoot sightings",
+      "The Hand House",
+      "paranormal tourism"
     ],
     "category": "paranormal"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-26T15:59:45.671858"
+    "last_updated": "2025-07-27T16:43:40.520876"
   }
 }

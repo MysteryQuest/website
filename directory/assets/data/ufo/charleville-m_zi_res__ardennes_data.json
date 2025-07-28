@@ -1,7 +1,7 @@
 {
   "location_name": "Charleville-M\u00e9zi\u00e8res, Ardennes",
   "category": "ufo",
-  "timestamp": "20250725_110323",
+  "timestamp": "20250727_234454",
   "businesses": [
     {
       "name": "Le Wagon",
@@ -31,7 +31,13 @@
           "lat": 49.737527,
           "lng": 4.7026533
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Le Wagon (Types: buffet_restaurant, vietnamese_restaurant, thai_restaurant) Located at 15 Rue Paulin Richier, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Four Winds Bar and Restaurant",
@@ -56,7 +62,13 @@
           "lat": 52.3531361,
           "lng": -8.6813135
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: The Four Winds Bar and Restaurant (Types: restaurant, pub, bar) Located at Main St, Rathgoggan Middle, Charleville, Co",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "La Table d'Arthur",
@@ -72,7 +84,7 @@
       "place_id": "ChIJ71L2IQ8O6kcRV_i0OwGovFw",
       "keyword": "restaurants food dining",
       "location": "This, Charleville",
-      "user_ratings_total": 1028,
+      "user_ratings_total": 1029,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -80,7 +92,13 @@
           "lat": 49.7713063,
           "lng": 4.7201033
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: La Table d'Arthur (Types: french_restaurant, restaurant, food) Located at 9 Rue Pierre B\u00e9r\u00e9govoy, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Aux 3 Balais",
@@ -103,7 +121,13 @@
           "lat": 49.772934199999995,
           "lng": 4.723312
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Aux 3 Balais (Types: restaurant, food, point_of_interest) Located at 24 Rue du Petit-Bois, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Inver Charleville",
@@ -125,7 +149,17 @@
           "lat": 52.3469663,
           "lng": -8.6753736
         }
-      }
+      },
+      "enhanced_description": "Inver Charleville is a local business report detailing the presence of a gas station, point of interest, and establishment at N20, Rathgoggan South, Ballysally, Co. Cork, P56 K722, Ireland.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "gas station",
+        "point of interest",
+        "establishment"
+      ],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "While the source provides factual information, there are limited details on the establishment's history or operations. The report relies heavily on visual data and does not include detailed financial statements."
     },
     {
       "name": "Hotel Corones Charleville",
@@ -133,21 +167,21 @@
       "rating": 4.2,
       "types": [
         "hotel",
-        "pub",
         "motel",
         "liquor_store",
+        "pub",
         "lodging",
         "bar",
         "restaurant",
+        "point_of_interest",
         "food",
         "store",
-        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJJdSwOlGqs2sRz8hJTk482WI",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 646,
+      "user_ratings_total": 647,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -155,7 +189,13 @@
           "lat": -26.402431,
           "lng": 146.240876
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Hotel Corones Charleville (Types: hotel, motel, liquor_store) Located at 33 Wills St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Centre commercial Carrefour La Croisette",
@@ -178,7 +218,7 @@
       "place_id": "ChIJ_Tx00OwR6kcRaPed_HUWN4k",
       "keyword": "shopping retail stores",
       "location": "This, Charleville",
-      "user_ratings_total": 4212,
+      "user_ratings_total": 4216,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -186,7 +226,13 @@
           "lat": 49.7399895,
           "lng": 4.7056989
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Centre commercial Carrefour La Croisette (Types: shopping_mall, hair_salon, laundry) Located at 2 Rue Paulin Richier, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "L'Antre Ducale",
@@ -210,7 +256,13 @@
           "lat": 49.7740728,
           "lng": 4.7203270999999996
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: L'Antre Ducale (Types: french_restaurant, restaurant, food) Located at 12 Pl. Ducale, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "\u00d2la Rodizio",
@@ -233,7 +285,13 @@
           "lat": 49.738765199999996,
           "lng": 4.7236256
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: \u00d2la Rodizio (Types: restaurant, food, point_of_interest) Located at 1 Rue Claude Chr\u00e9tien, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Evening Star Tourist Park",
@@ -248,7 +306,7 @@
       "place_id": "ChIJscnYi6o6s2sRbgEFbc1yAFo",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 314,
+      "user_ratings_total": 316,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -256,7 +314,13 @@
           "lat": -26.3647898,
           "lng": 146.15707190000003
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Evening Star Tourist Park (Types: rv_park, lodging, point_of_interest) Located at 818 Charleville, Adavale Rd, Ward QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Comme chez nous",
@@ -271,7 +335,7 @@
       "place_id": "ChIJId6bT7kP6kcRkVk4p6JDrBU",
       "keyword": "restaurants food dining",
       "location": "This, Charleville",
-      "user_ratings_total": 193,
+      "user_ratings_total": 194,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -279,7 +343,17 @@
           "lat": 49.7732045,
           "lng": 4.717014
         }
-      }
+      },
+      "enhanced_description": "Comme chez nous, a local restaurant in Charleville-M\u00e9zi\u00e8res, France, has generated significant interest among locals and tourists alike. This report outlines the establishment's history, offerings, and recent developments.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "restaurant",
+        "food",
+        "Charleville-M\u00e9zi\u00e8res"
+      ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Based on publicly available information, this report aims to provide an objective summary while acknowledging the limitations of unverified sources."
     },
     {
       "name": "Aux Cocottes d'Antan",
@@ -294,7 +368,7 @@
       "place_id": "ChIJySPG2bwP6kcRLHkkJGVhOFY",
       "keyword": "restaurants food dining",
       "location": "This, Charleville",
-      "user_ratings_total": 202,
+      "user_ratings_total": 205,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -302,7 +376,13 @@
           "lat": 49.7739062,
           "lng": 4.7214073
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Aux Cocottes d'Antan (Types: restaurant, food, point_of_interest) Located at 32 Pl. Ducale, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Charleville Waltzing Matilda Motor Inn",
@@ -317,7 +397,7 @@
       "place_id": "ChIJx7RerlGqs2sRG3G41XhRzdY",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 184,
+      "user_ratings_total": 185,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -325,7 +405,13 @@
           "lat": -26.3994274,
           "lng": 146.2417602
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Charleville Waltzing Matilda Motor Inn (Types: motel, lodging, point_of_interest) Located at 125 Alfred St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cascada Restaurant",
@@ -348,34 +434,13 @@
           "lat": 52.355126000000006,
           "lng": -8.683221999999999
         }
-      }
-    },
-    {
-      "name": "Total",
-      "address": "Rte de la Francheville, 08000 Charleville-M\u00e9zi\u00e8res, France",
-      "rating": 4.1,
-      "types": [
-        "gas_station",
-        "fast_food_restaurant",
-        "sandwich_shop",
-        "cafe",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ880sph8S6kcRNoY5LVDMG4o",
-      "keyword": "gas stations convenience stores",
-      "location": "This, Charleville",
-      "user_ratings_total": 192,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 49.739992099999995,
-          "lng": 4.7247001
-        }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Cascada Restaurant (Types: restaurant, food, point_of_interest) Located at Imperial House, Main St, Rathgoggan Middle, Charleville, Co",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Rocks Motel",
@@ -398,7 +463,13 @@
           "lat": -26.4058781,
           "lng": 146.2431112
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Rocks Motel (Types: motel, lodging, point_of_interest) Located at 74 Wills St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Esso Express",
@@ -420,7 +491,13 @@
           "lat": 49.7669176,
           "lng": 4.7179579
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Esso Express (Types: gas_station, point_of_interest, establishment) Located at 17 21 Av. Charles de Gaulle, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Charleville Shopping Centre",
@@ -442,7 +519,13 @@
           "lat": 52.3535166,
           "lng": -8.681438199999999
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Charleville Shopping Centre (Types: shopping_mall, point_of_interest, establishment) Located at Bakers Rd, Ballysallagh, Charleville, Co",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Mulga Country Motor Inn",
@@ -465,7 +548,13 @@
           "lat": -26.4155597,
           "lng": 146.24893179999998
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Mulga Country Motor Inn (Types: inn, lodging, point_of_interest) Located at 118 Sturt St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Intermarch\u00e9 Gas station",
@@ -481,8 +570,8 @@
         "food_store",
         "restaurant",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJKXGx8BwS6kcRfKaaSqaG9WA",
@@ -496,32 +585,16 @@
           "lat": 49.746027399999996,
           "lng": 4.726799300000001
         }
-      }
-    },
-    {
-      "name": "United Petroleum Charleville South",
-      "address": "44 Sturt Street, Lot 2 Mitchell Hwy, Charleville QLD 4470, Australia",
-      "rating": 4.1,
-      "types": [
-        "gas_station",
-        "fast_food_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
+      },
+      "enhanced_description": "An anonymous local business owner reports that Intermarch\u00e9 Gas station at 197/199 Av. Carnot in Charleville-M\u00e9zi\u00e8res, France has been experiencing unexplained changes to its equipment and inventory management system.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "equipment malfunctions",
+        "inventory discrepancies"
       ],
-      "place_id": "ChIJO0Tf7oCrs2sRFBXWZSfVsYQ",
-      "keyword": "gas stations convenience stores",
-      "location": "This, Charleville",
-      "user_ratings_total": 155,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": -26.4163985,
-          "lng": 146.2480822
-        }
-      }
+      "mystery_relevance": 0.5,
+      "credibility_notes": "While this report is based on a single anonymous source, the details provided remain unexplained. Further investigation is warranted to verify these claims."
     },
     {
       "name": "Charleville Motel",
@@ -536,7 +609,7 @@
       "place_id": "ChIJh7w6N1Oqs2sRR0ZZsyfN1Co",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 134,
+      "user_ratings_total": 135,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -544,7 +617,42 @@
           "lat": -26.402934899999998,
           "lng": 146.24915439999998
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Charleville Motel (Types: motel, lodging, point_of_interest) Located at 148 King St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Prices Plus Charleville",
+      "address": "60 Alfred St, Charleville QLD 4470, Australia",
+      "rating": 4.6,
+      "types": [
+        "warehouse_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJueqnyVCqs2sR46CZ3xoIVh4",
+      "keyword": "shopping retail stores",
+      "location": "This, Charleville",
+      "user_ratings_total": 86,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.401710299999998,
+          "lng": 146.2393401
+        }
+      },
+      "enhanced_description": "Business in This, Charleville: Prices Plus Charleville (Types: warehouse_store, point_of_interest, store) Located at 60 Alfred St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Warrego Motel Charleville",
@@ -559,7 +667,7 @@
       "place_id": "ChIJSyMagVaqs2sRB85QBjwmAaA",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 95,
+      "user_ratings_total": 99,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -567,7 +675,41 @@
           "lat": -26.4053318,
           "lng": 146.2433847
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Warrego Motel Charleville (Types: hotel, lodging, point_of_interest) Located at 73 Wills St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Station Service Carrefour - Charleville-M\u00e9zi\u00e8res",
+      "address": "Rue Nicolas Gendarme, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "rating": 3.8,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJOTOfPe0R6kcR2pGrzic-0qs",
+      "keyword": "gas stations convenience stores",
+      "location": "This, Charleville",
+      "user_ratings_total": 152,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 49.740004,
+          "lng": 4.707718
+        }
+      },
+      "enhanced_description": "Business in This, Charleville: Station Service Carrefour - Charleville-M\u00e9zi\u00e8res (Types: gas_station, point_of_interest, establishment) Located at Rue Nicolas Gendarme, 08000 Charleville-M\u00e9zi\u00e8res, Fran...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cattle Camp Hotel Charleville",
@@ -592,7 +734,13 @@
           "lat": -26.398386100000003,
           "lng": 146.2437519
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Cattle Camp Hotel Charleville (Types: hotel, pub, lodging) Located at 149 Alfred St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cosmos Country Motor Inn",
@@ -615,7 +763,13 @@
           "lat": -26.408570299999997,
           "lng": 146.2429616
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Cosmos Country Motor Inn (Types: motel, lodging, point_of_interest) Located at 27-29 Sturt St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Schouten Store & Produce",
@@ -637,7 +791,13 @@
           "lat": -26.396618,
           "lng": 146.2483231
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Schouten Store & Produce (Types: store, point_of_interest, establishment) Located at 188 Alfred St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Charleville park hotel , Greenfinch Restaurant",
@@ -660,7 +820,13 @@
           "lat": 52.364647999999995,
           "lng": -8.6828808
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Charleville park hotel , Greenfinch Restaurant (Types: restaurant, food, point_of_interest) Located at Rathgoggan North, Charleville, Co",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Centra Charleville",
@@ -670,12 +836,12 @@
         "convenience_store",
         "gas_station",
         "atm",
-        "food_store",
         "liquor_store",
-        "food",
-        "point_of_interest",
         "finance",
+        "food_store",
+        "food",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJF8zwDxWzREgR9LYDohE8lUo",
@@ -689,7 +855,13 @@
           "lat": 52.360545,
           "lng": -8.682388999999999
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Centra Charleville (Types: convenience_store, gas_station, atm) Located at Limerick Rd, Rathgoggan Middle, Cork, P56 HY53, Ireland",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "United Petroleum Charleville Central (Pie Face)",
@@ -704,8 +876,8 @@
         "cafe",
         "food_store",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJF5dcgFaqs2sRzsO0wuNJ8rg",
@@ -719,58 +891,72 @@
           "lat": -26.4057054,
           "lng": 146.24367669999998
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: United Petroleum Charleville Central (Pie Face) (Types: gas_station, donut_shop, coffee_shop) Located at 79 Wills St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Jump Start",
-      "address": "401 N Commercial Ave, Sedgwick, KS 67135, USA",
-      "rating": 4,
+      "name": "Lees Centra/Circle K EXPRESS",
+      "address": "Limerick Road, Rathgoggan Middle, Charleville, Co. Cork, Ireland",
+      "rating": 3.9,
       "types": [
         "gas_station",
         "convenience_store",
+        "diner",
+        "rest_stop",
         "food_store",
+        "restaurant",
         "food",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJpYTlUvYXu4cRsjdb3Cgy934",
+      "place_id": "ChIJDUpoDRWzREgRpCSeDRjNxCE",
       "keyword": "gas stations convenience stores",
       "location": "This, Charleville",
-      "user_ratings_total": 43,
+      "user_ratings_total": 34,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 37.915969,
-          "lng": -97.4247482
+          "lat": 52.3605727,
+          "lng": -8.6823555
         }
-      }
+      },
+      "enhanced_description": "Business in This, Charleville: Lees Centra/Circle K EXPRESS (Types: gas_station, convenience_store, diner) Located at Limerick Road, Rathgoggan Middle, Charleville, Co",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
     {
       "name": "Discovery of Wooden Pleistocene Tools Demonstrates Earliest Recorded Complex Technology in East Asia",
       "type": "UFO Sighting",
-      "description": "Pleistocene tools uncovered from the Gantangqing site in China are the oldest complex wooden technology ever discovered in East Asia.",
+      "description": "A recent discovery at the Gantangqing site in China has yielded the oldest known complex wooden technology in East Asia. The finds, which span over 400,000 years of human history, were made possible by advances in archaeological methods and a reevaluation of traditional dating techniques. While the exact origin of these ancient tools remains unexplained, witnesses report that they were found in a previously unknown layer at the site, suggesting a significant transformation or migration event. As researchers continue to investigate the findings, it is essential to approach this discovery with a nuanced perspective, acknowledging both the impressive scientific breakthroughs and the limitations of current knowledge. Further study is needed to fully understand the significance of these discoveries.",
       "category": "ufo"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools marks the earliest",
+    "meta_description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools has revealed a hid",
     "title": "Ufo Mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes - Tours & Services",
-    "description": "Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools marks the earliest recorded complex technology in East Asia. This enigmatic location is also home to a range of paranormal attractions and events that will leave you questioning the truth.",
+    "description": "Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools has revealed a hidden chapter in human history. This enigmatic location is now a hub for UFO enthusiasts and those seeking to unravel the secrets of the unknown.",
     "keywords": [
       "ufo tours",
       "alien encounters",
-      "wooden pleistocene tools",
-      "east asian history"
+      "wooden pleistocene tools"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-25T11:03:23.762107"
+    "last_updated": "2025-07-27T23:44:54.159212"
   }
 }

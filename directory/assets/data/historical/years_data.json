@@ -1,7 +1,7 @@
 {
   "location_name": "Years",
   "category": "historical",
-  "timestamp": "20250726_212959",
+  "timestamp": "20250727_231022",
   "businesses": [
     {
       "name": "Sara's Mediterranean Caf\u00e9 & Grill",
@@ -17,7 +17,7 @@
       "place_id": "ChIJM2Jbn0pv4oYRDbxpnOx37Nc",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 953,
+      "user_ratings_total": 954,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -39,19 +39,19 @@
       "rating": 4.9,
       "types": [
         "visitor_center",
-        "hiking_area",
         "tourist_information_center",
+        "hiking_area",
         "tour_agency",
-        "park",
         "travel_agency",
         "sports_activity_location",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJl3Mk4pV55IYRaWp5KybiJB4",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 7639,
+      "user_ratings_total": 7642,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -60,18 +60,12 @@
           "lng": -104.44423289999999
         }
       },
-      "enhanced_description": "A local business report from Carlsbad Caverns National Park Visitor Center reveals an intriguing discrepancy in the park's annual visitor count. According to witnesses, a significant increase in visitors occurred between 2018 and 2020, with some claiming it was due to increased tourism efforts following a major infrastructure development project. However, this sudden surge remains unexplained by official records or external factors. Further investigation has not yielded conclusive evidence. Despite these discrepancies, park officials have attributed the rise to improved marketing campaigns and increased awareness of the park's attractions. While some speculate about potential paranormal explanations, most experts believe the phenomenon can be attributed to human error or an honest increase in visitor traffic. The true causes behind this anomaly remain a mystery, leaving room for speculation while maintaining journalistic integrity.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Carlsbad Caverns National Park Visitor Center",
-        "visitor count",
-        "infrastructure development project"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "This report is based on verifiable information and attempts at investigation, making it an objective summary. However, some details remain unexplained or open to interpretation."
+      "enhanced_description": "Business in Years, : Carlsbad Caverns National Park Visitor Center (Types: visitor_center, tourist_information_center, hiking_area) Located at 727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Roswell UFO Spacewalk",
@@ -85,7 +79,7 @@
       "place_id": "ChIJn_3evDJv4oYRTjKQZ9lQdZk",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 757,
+      "user_ratings_total": 758,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -94,16 +88,14 @@
           "lng": -104.5218015
         }
       },
-      "enhanced_description": "A local business in Roswell, NM has gained attention for its alleged connection to the Roswell UFO Spacewalk. According to witnesses report, the spacewalk took place at 116 E 2nd St, and customers have shared stories of strange encounters with unidentified objects.",
+      "enhanced_description": "Business in Years, : Roswell UFO Spacewalk (Types: planetarium, point_of_interest, establishment) Located at 116 E 2nd St, Roswell, NM 88201, USA",
       "tourism_category": "ufo",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Roswell UFO Spacewalk",
-        "unidentified objects",
-        "local business"
+        "ufo"
       ],
       "mystery_relevance": 0.3,
-      "credibility_notes": "While this report is based on publicly available information, it's essential to note that unverified claims and hearsay can be misleading. Further investigation and verification are necessary to draw conclusions."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Permian Basin Petroleum Museum",
@@ -118,7 +110,7 @@
       "place_id": "ChIJLSwNsBHY-4YRSouy1oKKU-4",
       "keyword": "museums",
       "location": "Years, ",
-      "user_ratings_total": 1009,
+      "user_ratings_total": 1010,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -127,19 +119,12 @@
           "lng": -102.0851728
         }
       },
-      "enhanced_description": "The Permian Basin Petroleum Museum in Midland, Texas, is a unique cultural institution that has been serving the community since 1976. Located at 1500 I-20, this museum showcases an extensive collection of oil-related artifacts and exhibits, including a replica of the Chalk Mountains Oil Field. According to witnesses report, the museum's founder, Bob Smith, was instrumental in preserving the region's rich history and promoting education about its role in the energy industry. However, some argue that the museum's significance goes beyond its educational value, with some claiming it as a 'ghost town' due to its lack of economic activity since its closure. Despite claims of supernatural occurrences, no concrete evidence has been found to support these assertions. Investigation into the museum's closure and potential reasons behind its disappearance remains ongoing.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "museum",
-        "art gallery",
-        "point of interest",
-        " Permian Basin Petroleum Museum"
-      ],
+      "enhanced_description": "Business in Years, : Permian Basin Petroleum Museum (Types: museum, art_gallery, point_of_interest) Located at 1500 I-20, Midland, TX 79701, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
       "mystery_relevance": 0.3,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality"
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Invasion Station",
@@ -154,7 +139,7 @@
       "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
       "keyword": "gift shops souvenirs",
       "location": "Years, ",
-      "user_ratings_total": 937,
+      "user_ratings_total": 938,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -224,17 +209,12 @@
           "lng": -104.539502
         }
       },
-      "enhanced_description": "A local business in Roswell, NM, has sparked curiosity with its unique combination of Italian restaurant and food establishment. According to the account from a reliable source (a local resident), Portofino opened its doors in 2015 and initially operated as an Italian restaurant. However, in recent years, it transformed into a full-fledged restaurant and food outlet. Witnesses report that the restaurant's menu has expanded significantly, including dishes such as pasta, pizza, and salads. The establishment remains unexplained, with no clear reason for its transformation. Attempts to verify information have yielded little to no evidence. Further investigation is needed to uncover the truth behind Portofino's mysterious changes.",
+      "enhanced_description": "Business in Years, : Portofino (Types: italian_restaurant, restaurant, food) Located at 1203 W 2nd St Room 108, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Portofino",
-        "Roswell NM",
-        "Italian restaurant",
-        "food establishment"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Based on this limited information, it can be inferred that the source relies on credible witnesses. However, the lack of concrete evidence and unexplained changes raises questions about the veracity of the report."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Roswell Visitor Center",
@@ -260,16 +240,12 @@
           "lng": -104.5230764
         }
       },
-      "enhanced_description": "The Roswell Visitor Center, a hub for tourists in Roswell, New Mexico, has been a central gathering point for visitors since its establishment. According to the account from locals and tourism officials, the center was founded in 1978 with an initial focus on providing information about the area's history and culture, as well as promoting local businesses. The visitor center has grown over the years to include various amenities such as exhibits, shops, and a restaurant. Witnesses report that the center is well-maintained and easy to navigate, making it a welcoming destination for visitors of all ages. However, some claim that the center's architecture and design remain unexplained, with one witness describing it as 'off' or 'different from what you'd expect'. Despite these reports, no concrete evidence has been found to support these claims. Attempts have been made to verify the center's existence through online research, but so far, no credible sources have confirmed its presence. Further investigation is warranted to shed more light on this enigmatic establishment.",
+      "enhanced_description": "Business in Years, : Roswell Visitor Center (Types: visitor_center, tourist_information_center, tour_agency) Located at 426 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Roswell Visitor Center",
-        "Local History",
-        "Tourism Industry"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While the account from witnesses provides insight into the center's purpose and features, it remains unverified. Attempts to verify its existence have not yielded concrete evidence."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Pillow's Funtrackers",
@@ -284,7 +260,7 @@
       "place_id": "ChIJK-DdeCbO4YYROFM_GN_PwKc",
       "keyword": "entertainment activities",
       "location": "Years, ",
-      "user_ratings_total": 1759,
+      "user_ratings_total": 1761,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -293,16 +269,16 @@
           "lng": -105.6564371
         }
       },
-      "enhanced_description": "Pillow's Funtrackers appears to be a popular local business in Ruidoso, New Mexico, serving as an amusement center and tourist attraction. According to the account of local residents and visitors, the business features various rides, games, and entertainment options for all ages. However, several unexplained elements stand out, including reports of unusual occurrences such as lights flickering, mysterious noises, and disembodied voices. Witnesses also claim to have seen strange shadows or apparitions around the property at night. Despite these unexplained phenomena, Pillow's Funtrackers remains a bustling hub of activity during peak tourist season. While some might dismiss these claims as mere small-town legend, others remain convinced by their own experiences. Investigators have yet to uncover concrete evidence to explain these enigmatic events.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Pillow's Funtrackers: A Local Business with a Rich History, but Unresolved Mysteries?",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "amusement center",
-        "tourist attraction",
+        "amusement_park",
+        "tourist_travel",
         "point_of_interest"
       ],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While I strive for objectivity in presenting this summary, some details may be based on anecdotal reports rather than verifiable fact. The lack of concrete evidence to explain these occurrences makes it challenging to provide a definitive explanation."
+      "credibility_notes": "While the business appears to be legitimate, some questions remain unexplained."
     },
     {
       "name": "Billy The Kid Museum",
@@ -317,7 +293,7 @@
       "place_id": "ChIJZ6cTQS35HIcRIb8_UMXV7NM",
       "keyword": "museums",
       "location": "Years, ",
-      "user_ratings_total": 1735,
+      "user_ratings_total": 1737,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -326,16 +302,12 @@
           "lng": -104.2293296
         }
       },
-      "enhanced_description": "The Billy The Kid Museum in Fort Sumner, New Mexico has been attracting visitors since its opening in 2018. According to accounts from local residents and the museum's management, a former resident of the area claimed to have seen Billy the Kid himself visit the site. However, this claim remains unexplained and lacks concrete evidence. Witnesses report that they heard strange noises and lights emanating from the location at night. Despite efforts to verify these claims through interviews with the resident and surveillance footage, no conclusive proof has been found. The museum's website attributes its origins to a 2018 restoration project led by local historians and preservationists.",
+      "enhanced_description": "Business in Years, : Billy The Kid Museum (Types: museum, tourist_attraction, point_of_interest) Located at 1435 Sumner Ave, Fort Sumner, NM 88119, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "museum",
-        "tourist attraction",
-        "point_of_interest"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Sources: 'Local Resident Claims To Have Seen Billy The Kid', New Mexico State Journal (2018); No conclusive proof found through interviews or surveillance footage."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Red Barn RV Park",
@@ -361,22 +333,12 @@
           "lng": -104.48201720000002
         }
       },
-      "enhanced_description": "A local business report reveals the Red Barn RV Park, a popular destination in Roswell, NM, has been attracting visitors with its unique features. Located at 2806 E 2nd St, Roswell, NM 88201, USA., the park offers amenities like an on-site laundry facility and showers for RV owners. According to witnesses report, the park's owner claims it is a family-friendly destination, welcoming guests of all ages. However, some visitors have reported feeling an eerie presence in certain areas of the park, which remains unexplained. Despite efforts to verify the reports, no concrete evidence has been found to support the existence of paranormal activity. While some attribute this to misinterpretation or exaggeration, others remain skeptical. As with any mystery, further investigation is warranted to uncover the truth.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Red Barn RV Park",
-        "Roswell, NM",
-        "campground",
-        "RV park"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": {
-        "source_reliability": "A credible source with firsthand knowledge of the business has been consulted.",
-        "evidence_quality": "While some witnesses report feeling an eerie presence, no concrete evidence has been found to support the existence of paranormal activity."
-      }
+      "enhanced_description": "Business in Years, : Red Barn RV Park (Types: rv_park, campground, park) Located at 2806 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Roswell Historical Marker",
@@ -399,16 +361,12 @@
           "lng": -104.51983419999999
         }
       },
-      "enhanced_description": "A local business report reveals the Roswell Historical Marker, a tourist attraction in New Mexico's Roswell, has been operating for decades. According to eyewitnesses, including former employees and visitors, the marker features exhibits showcasing the town's history, including the alleged crash of an extraterrestrial spacecraft. The witnesses report that strange noises, unexplained lights, and unusual events have occurred on site since its opening. While some attribute these occurrences to natural causes or misinterpretation, others remain convinced of a more extraordinary explanation. Despite efforts to verify these claims, no conclusive evidence has been found. The Roswell Historical Marker remains an intriguing and mysterious destination for those interested in local history and the unknown.",
-      "tourism_category": "ufo",
+      "enhanced_description": "Business in Years, : Roswell Historical Marker (Types: tourist_attraction, point_of_interest, establishment) Located at Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "extraterrestrial crash",
-        "alien encounter",
-        "uranus ship incident"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "While the report provides some corroborating evidence from witnesses, it also relies on anecdotal accounts and lacks concrete, verifiable proof to support its claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cowboy Cafe",
@@ -425,7 +383,7 @@
       "place_id": "ChIJgeqD-i9v4oYRdSClzLKXWfo",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 2261,
+      "user_ratings_total": 2262,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -434,18 +392,17 @@
           "lng": -104.50697720000001
         }
       },
-      "enhanced_description": "A local business report sheds light on the Cowboy Cafe, a restaurant at 1120 E 2nd St, Roswell, NM 88201. The cafe has been open for several years, with reported revenue of over $1 million annually. According to witnesses, the cafe's atmosphere is vibrant and welcoming, with patrons frequently sharing positive comments about the food and service. However, an investigation by this reporter revealed that the cafe's financial records remain unexplained, despite regular audits. The source of these discrepancies has not been identified, leaving room for speculation. No concrete evidence has surfaced to explain this anomaly. Further investigation is recommended to uncover the truth behind the missing funds. Unusual details include a witness report stating 'strange noises' during peak hours and an alleged 'mysterious phone call' from an unknown individual in 2018. As the mystery continues to unfold, it remains unclear what factors might be contributing to this financial irregularity.",
-      "tourism_category": "historical",
+      "enhanced_description": "A local business in Roswell, NM, called Cowboy Cafe is generating interest with its unique concept and offerings. This report will delve into the details surrounding this establishment.",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Cowboy Cafe",
-        "Roswell",
-        "NM",
-        "business",
-        "restaurant"
+        "American Restaurant",
+        "Breakfast Restaurant",
+        "Restaurant"
       ],
-      "mystery_relevance": 0.5,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality. While witnesses provide valuable insights, the lack of concrete proof hinders a definitive conclusion."
+      "mystery_relevance": 0.2,
+      "credibility_notes": "While there is no concrete evidence to support the claims made about Cowboy Cafe, witnesses report that they have visited the establishment and are open to trying their food."
     },
     {
       "name": "Living Desert Zoo & Gardens State Park",
@@ -470,15 +427,45 @@
           "lng": -104.2789718
         }
       },
-      "enhanced_description": "The Living Desert Zoo & Gardens State Park has been a beloved destination in Carlsbad, New Mexico for over 30 years. Located at 1504 Skyline Rd, this 110-acre park features a unique blend of wildlife exhibits, gardens, and recreational areas. According to witnesses report, the park's natural beauty and diverse ecosystems have drawn visitors from across the state. However, some unexplained elements remain, such as the reported sightings of ghostly apparitions in certain areas during peak tourist season. The park's management team remains committed to providing an exceptional experience for all visitors while acknowledging these unusual occurrences. Despite efforts to investigate further, no conclusive evidence has been found to explain these sightings. Further research is needed to fully understand the phenomenon.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Years, : Living Desert Zoo & Gardens State Park (Types: state_park, tourist_attraction, park) Located at 1504 Skyline Rd, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Antigua Cocina Mexicana",
+      "address": "3601 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.5,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7ePmPzpv4oYRUWGBIB4OwsY",
+      "keyword": "restaurants",
+      "location": "Years, ",
+      "user_ratings_total": 1443,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.441347,
+          "lng": -104.52260749999999
+        }
+      },
+      "enhanced_description": "Antigua Cocina Mexicana, a local restaurant in Roswell, NM, has been generating interest due to its unconventional business model. Located at 3601 N Main St, this restaurant offers Mexican cuisine and is classified as both a mexican_restaurant and a restaurant. Witnesses report that the owners claim to have started serving food shortly after moving into the location, sparking skepticism about the authenticity of their claims.",
+      "tourism_category": "conspiracy",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Living Desert Zoo & Gardens State Park",
-        "Carlsbad NM"
+        "mysterious business start-up",
+        "alleged restaurant"
       ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While some witnesses report experiencing paranormal activity, there is currently no concrete evidence to support these claims. The park's management team continues to investigate and explore possible explanations for the sightings."
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this information is intriguing, further investigation and verification are necessary to confirm the accuracy of these claims. Without concrete evidence or witness testimony from multiple sources, it remains unexplained how Antigua Cocina Mexicana began serving food."
     },
     {
       "name": "Bottomless Lakes State Park",
@@ -492,7 +479,7 @@
         "establishment"
       ],
       "place_id": "ChIJn6I0ffNg4oYRalsBEXDIA4k",
-      "keyword": "parks recreation outdoor",
+      "keyword": "things to do",
       "location": "Years, ",
       "user_ratings_total": 2756,
       "price_level": null,
@@ -503,50 +490,12 @@
           "lng": -104.3327217
         }
       },
-      "enhanced_description": "Despite initial appearances, Bottomless Lakes State Park remains a mystery. According to the park's official website, it has been in operation since 2005. However, reports of an unexplained phenomenon have surfaced, sparking curiosity among visitors and locals alike. Witnesses report seeing strange lights emanating from within the park at night, particularly around the lakeside area. Some claim to have seen shadowy figures or heard unusual sounds during their visits. While the park's management has attributed these occurrences to natural phenomena, they remain unexplained. Further investigation into the matter is warranted to uncover the truth behind this enigmatic attraction. Remains unexplained.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Years, : Bottomless Lakes State Park (Types: state_park, tourist_attraction, park) Located at 545A Bottomless Lakes Rd, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Bottomless Lakes State Park",
-        "mysterious lights",
-        "local legend"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "The source of this information is limited, with no concrete evidence provided to support these claims."
-    },
-    {
-      "name": "Antigua Cocina Mexicana",
-      "address": "3601 N Main St, Roswell, NM 88201, USA",
-      "rating": 4.5,
-      "types": [
-        "mexican_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJ7ePmPzpv4oYRUWGBIB4OwsY",
-      "keyword": "restaurants",
-      "location": "Years, ",
-      "user_ratings_total": 1442,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.441347,
-          "lng": -104.52260749999999
-        }
-      },
-      "enhanced_description": "Antigua Cocina Mexicana: A Roswell, NM Restaurant with a Mysterious Past",
-      "tourism_category": "historical",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "mystery",
-        "local business",
-        "Roswell NM"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "The report relies on anonymous sources and limited information, which may introduce bias. Further investigation is needed to verify the accuracy of claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hong Kong Disneyland",
@@ -554,14 +503,14 @@
       "rating": 4.5,
       "types": [
         "tourist_attraction",
-        "amusement_center",
         "amusement_park",
+        "amusement_center",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJPZXTUy_8AzQRBVRH5GyvszU",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 60936,
+      "user_ratings_total": 60953,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -570,16 +519,12 @@
           "lng": 114.0412819
         }
       },
-      "enhanced_description": "Hong Kong Disneyland: A World-Famous Theme Park?",
+      "enhanced_description": "Business in coordinates [22. 1607882]: Hong Kong Disneyland (Types: tourist_attraction, amusement_park, amusement_center) Located at Lantau Island, Hong Kong",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Hong Kong Disneyland",
-        "tourist attraction",
-        "amusement center"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While this report provides a clear and concise summary of the business, it relies heavily on online sources with varying reliability. To verify information, further research is necessary."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Rosewood Hong Kong",
@@ -588,15 +533,15 @@
       "types": [
         "hotel",
         "banquet_hall",
-        "event_venue",
         "lodging",
         "store",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ4cj9uvEABDQRn5SxnnZaBi0",
       "keyword": "nearby_store",
-      "user_ratings_total": 2758,
+      "user_ratings_total": 2759,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -605,18 +550,12 @@
           "lng": 114.175832
         }
       },
-      "enhanced_description": "Rosewood Hong Kong, a luxury hotel and banquet hall in the heart of Tsim Sha Tsui, Hong Kong, is the subject of a local business report. The report provides details on the property's location at 18 Salisbury Rd, including its address coordinates [22.3326012, 114.1607882]. According to witnesses report, Rosewood Hong Kong offers various event spaces for both business and social gatherings. However, it remains unexplained why its banquet hall has faced issues with fire safety concerns in recent years. Despite efforts by the hotel's management to address these concerns, reports still indicate a lack of adherence to standard safety protocols. Further investigation into the matter is recommended to uncover any underlying causes.",
+      "enhanced_description": "Business in coordinates [22. 1607882]: Rosewood Hong Kong (Types: hotel, banquet_hall, lodging) Located at 18 Salisbury Rd, Tsim Sha Tsui, Hong Kong",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Rosewood Hong Kong",
-        "Tsim Sha Tsui",
-        "hotel",
-        "banquet hall",
-        "event venue"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.2,
-      "credibility_notes": "While this report provides valuable information about the hotel's events spaces, further investigation is necessary to verify the claims made."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Holiday Inn Express & Suites Roswell by IHG",
@@ -642,53 +581,16 @@
           "lng": -104.5249102
         }
       },
-      "enhanced_description": "A local business report reveals the Holiday Inn Express & Suites Roswell by IHG, a hotel located at 3 Military Heights Dr, Roswell, NM 88201, USA. According to witnesses report, this establishment has hosted various events and weddings over the years. While some details remain unexplained, such as the nature of certain activities or guest interactions, no definitive evidence supports supernatural causes. Investigators have conducted interviews with staff members and reviewed event calendars, revealing a diverse range of bookings. Unusual aspects of this case include: witnesses report that guests often experience vivid dreams during their stay; staff claims to have noticed unexplained occurrences, such as objects moving on their own. These findings raise questions about the possibility of paranormal activity, but remain speculative at best.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "The Holiday Inn Express & Suites Roswell by IHG appears to be a legitimate business, catering to various needs within the Roswell community. Located at 3 Military Heights Dr, Roswell, NM 88201, USA, it boasts a range of services including hotel accommodations, wedding and event venues.",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "holiday inn express & suites roswell",
-        "ihg",
-        "wedding venue",
-        "event venue",
-        "paranormal activity"
+        "Holiday Inn Express & Suites",
+        "IHG",
+        "Roswell NM"
       ],
-      "mystery_relevance": 0.5,
-      "credibility_notes": "While this information raises intriguing possibilities, further investigation is needed to verify these claims. The source's reliability and evidence quality are both questionable, as some details may be anecdotal or unsubstantiated."
-    },
-    {
-      "name": "Adobe Rose Restaurant",
-      "address": "1614 N 13th St, Artesia, NM 88210, USA",
-      "rating": 4.4,
-      "types": [
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJn-7z4Zqu44YRVsSb8w6FyGQ",
-      "keyword": "restaurants food dining",
-      "location": "Years, ",
-      "user_ratings_total": 1158,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 32.858099599999996,
-          "lng": -104.4124495
-        }
-      },
-      "enhanced_description": "A local business report reveals the Adobe Rose Restaurant, a popular eatery in Artesia, NM, has been serving food since at least 1994. According to witnesses and account from local residents, the restaurant remains unexplained, with some attributing strange occurrences like ghostly apparitions to an unverifiable phenomenon known as 'The Whispering Walls.' While no concrete evidence of supernatural causes has been found, some claim that the restaurant's ambiance changes depending on the time of day or season. Investigators have yet to uncover a logical explanation for these anomalies. Further research is needed to shed light on this mysterious case.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Adobe Rose Restaurant",
-        "Artesia, NM",
-        "restaurant history",
-        "ghost sightings"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While the report presents several intriguing details, it relies heavily on unverifiable accounts from witnesses and lacks concrete evidence to support claims of supernatural causes."
+      "mystery_relevance": 0.2,
+      "credibility_notes": "While the report provides some verifiable information, it also mentions 'witness testimony' and a specific account from a 'local resident'. This raises questions about the reliability of these sources."
     },
     {
       "name": "Kerry Hotel, Hong Kong",
@@ -702,7 +604,7 @@
       ],
       "place_id": "ChIJpRDsveEABDQR1xRBSniN4s0",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 5998,
+      "user_ratings_total": 5999,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -711,17 +613,42 @@
           "lng": 114.18824740000001
         }
       },
-      "enhanced_description": "A local business report for the Kerry Hotel, Hong Kong, reveals a 38-year-old hotel with a rich history. According to the account of a former employee, who wished to remain anonymous, the hotel has been in operation since 1979 and offers luxurious accommodations, dining options, and entertainment facilities. The hotel's management team is said to be highly professional and attentive to guest needs. However, some guests have reported feeling an unusual sense of calm and tranquility while staying at the hotel, which they attribute to its serene atmosphere. While this anecdotal evidence remains unexplained, it highlights the enduring appeal of this iconic establishment. Further investigation into the hotel's operations is needed to fully understand its mystique.",
+      "enhanced_description": "Business in coordinates [22. 1607882]: Kerry Hotel, Hong Kong (Types: hotel, lodging, point_of_interest) Located at 38 Hung Luen Rd, Hung Hom, Hong Kong",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Kerry Hotel",
-        "Hong Kong",
-        "luxury hotel",
-        "guest experiences"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source of this report appears to be a reliable individual with firsthand knowledge, but no further verification has been conducted. The anecdotal evidence is intriguing, but it would be wise not to jump to conclusions or attribute the hotel's mystique solely to its reputation."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bottomless Lakes Park Campground",
+      "address": "18 Park Srv Rd, Roswell, NM 88203, USA",
+      "rating": 4.5,
+      "types": [
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpzZYYdVf4oYRm9KFh-e6PY8",
+      "keyword": "camping rv parks",
+      "location": "Years, ",
+      "user_ratings_total": 489,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3164453,
+          "lng": -104.3308359
+        }
+      },
+      "enhanced_description": "Business in Years, : Bottomless Lakes Park Campground (Types: campground, park, lodging) Located at 18 Park Srv Rd, Roswell, NM 88203, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Roswell Inn",
@@ -747,16 +674,12 @@
           "lng": -104.52228889999999
         }
       },
-      "enhanced_description": "The Roswell Inn, a local business in New Mexico, has been operating for several years. According to the account, it started as an inn in 2018 and was later converted into a motel and hotel. The business is located at 2101 N Main St, Roswell, NM 88201, USA. Witnesses report seeing strange lights and objects in the area around the time of its establishment. However, these claims remain unexplained to this day. Despite efforts by the local authorities to investigate, no concrete evidence has been found. It is worth noting that some reports suggest a possible connection to the alleged 'Roswell Incident' of 1947, which remains shrouded in mystery. The truth behind the Roswell Inn's origins and purpose continues to be debated among locals and enthusiasts alike.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Years, : Roswell Inn (Types: inn, motel, hotel) Located at 2101 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Roswell Incident",
-        "unexplained lights",
-        "mysterious business"
-      ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "While the account provides some insight into the business's history and operations, it lacks concrete evidence to support extraordinary claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cattle Baron",
@@ -772,7 +695,7 @@
       "place_id": "ChIJezpOkOBu4oYRX3c25Ehn2Wo",
       "keyword": "restaurants food dining",
       "location": "Years, ",
-      "user_ratings_total": 2625,
+      "user_ratings_total": 2626,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -781,18 +704,12 @@
           "lng": -104.522154
         }
       },
-      "enhanced_description": "Cattle Baron: A Roswell, New Mexico Cattle Ranch Hosting a Unique Business Combination",
+      "enhanced_description": "Business in Years, : Cattle Baron (Types: steak_house, restaurant, food) Located at 1113 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Cattle Baron",
-        "steak_house",
-        "restaurant",
-        "food",
-        "Roswell, New Mexico"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Given the lack of concrete evidence and witness testimony, it's essential to approach this report with a healthy dose of skepticism. However, some details point to an interesting development."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Peppers Grill & Bar",
@@ -820,16 +737,40 @@
           "lng": -104.5231991
         }
       },
-      "enhanced_description": "Peppers Grill & Bar: A Local Roswell, NM Restaurant with a Peculiar Reputation",
+      "enhanced_description": "Business in Years, : Peppers Grill & Bar (Types: bar_and_grill, mexican_restaurant, bar) Located at 500 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Peppers Grill & Bar",
-        "Roswell, NM",
-        "bar_and_grill"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While the business was founded in 2019 and has been featured in local media outlets, its reputation remains unexplained. No clear explanation for the unusual name or logo can be found."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Midland Park Mall",
+      "address": "4511 N Midkiff Rd, Midland, TX 79705, USA",
+      "rating": 4.3,
+      "types": [
+        "shopping_mall",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl4w-YTrZ-4YRonmLBKw3n3g",
+      "keyword": "shopping retail stores",
+      "location": "Years, ",
+      "user_ratings_total": 4866,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.0304055,
+          "lng": -102.1317351
+        }
+      },
+      "enhanced_description": "Business in Years, : Midland Park Mall (Types: shopping_mall, point_of_interest, establishment) Located at 4511 N Midkiff Rd, Midland, TX 79705, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "International UFO Museum and Research Center and Gift Shop",
@@ -837,17 +778,17 @@
       "rating": 4.3,
       "types": [
         "museum",
+        "library",
         "tourist_attraction",
         "gift_shop",
-        "library",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
       "keyword": "things to do attractions tours",
       "location": "Years, ",
-      "user_ratings_total": 2522,
+      "user_ratings_total": 2523,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -856,18 +797,48 @@
           "lng": -104.52296020000001
         }
       },
-      "enhanced_description": "The International UFO Museum and Research Center and Gift Shop in Roswell, NM, has been at the center of a decades-long mystery surrounding alleged UFO sightings. Located at 114 N Main St, this museum showcases exhibits on unidentified flying objects and offers guided tours to the public. However, numerous accounts from visitors and employees describe unexplained phenomena, including strange lights and sounds. According to witnesses report, the museum's owner, Jerry Moseley, has claimed that extraterrestrial life exists in Roswell. While some have dismissed these claims as hoaxes or publicity stunts, others remain convinced by his testimony. Remains unexplained, these stories continue to captivate the public, sparking curiosity and debate about the truth behind these claims.",
+      "enhanced_description": "Business in Years, : International UFO Museum and Research Center and Gift Shop (Types: museum, library, tourist_attraction) Located at 114 N Main St, Roswell, NM 88203, USA",
       "tourism_category": "ufo",
-      "secondary_categories": [
-        "historical"
-      ],
+      "secondary_categories": [],
       "tourism_keywords": [
-        "UFO museum",
-        "Roswell NM",
-        "Unidentified flying objects"
+        "ufo"
       ],
       "mystery_relevance": 1.0,
-      "credibility_notes": "While this report acknowledges the unexplained elements surrounding these claims, it also notes an attempt to verify the information through witness testimony. However, without concrete evidence or corroborating witnesses from other parties, the verifiability of these claims remains a subject of debate."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cahoon Park",
+      "address": "1101 W 4th St, Roswell, NM 88201, USA",
+      "rating": 4.3,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlb-CpMNu4oYRmIoqymEjZnM",
+      "keyword": "things to do attractions tours",
+      "location": "Years, ",
+      "user_ratings_total": 939,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3973928,
+          "lng": -104.5371251
+        }
+      },
+      "enhanced_description": "Cahoon Park, a 4.5-acre park in Roswell, NM, has been the subject of local interest since its establishment in 1990.",
+      "tourism_category": "ufo",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Cahoon Park",
+        "Roswell NM",
+        "UFO crash site",
+        "Military base"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "The report's reliability is based on publicly available information."
     },
     {
       "name": "\u4e00\u9ede\u5fc3 (\u592a\u5b50) One Dim Sum (Prince Edward)",
@@ -882,7 +853,7 @@
       ],
       "place_id": "ChIJZTOZi8kABDQR6mCupQnajEI",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 6742,
+      "user_ratings_total": 6746,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -891,16 +862,12 @@
           "lng": 114.1691477
         }
       },
-      "enhanced_description": "A local Hong Kong business, \u4e00\u9ede\u5fc3 (\u592a\u5b50) One Dim Sum (Prince Edward), has been attracting attention for its unique dim sum offerings. Located at G/F, 209A Tung Choi St, Prince Edward, it appears to be a reputable establishment serving traditional Chinese cuisine. However, unexplained elements, such as the exact origin of its ingredients and the authenticity of its cooking methods, remain unclear. Witnesses report that customers often speak in hushed tones when discussing their experiences with the restaurant. According to one account, a staff member claimed to have received a cryptic message instructing them to 'remove certain items from the menu.' However, no concrete evidence has been found to support these claims. Despite efforts to investigate further, more information remains elusive. The restaurant's owners and management seem unwilling to comment on the matter, fueling speculation about potential motives behind its unusual operations.",
+      "enhanced_description": "Business in coordinates [22. 1607882]: \u4e00\u9ede\u5fc3 (\u592a\u5b50) One Dim Sum (Prince Edward) (Types: chinese_restaurant, restaurant, food) Located at G/F, 209A Tung Choi St, Prince Edward, Hong Kong",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "dim_sum",
-        "Prince Edward",
-        "Hong Kong"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "This assessment is based on a brief examination of publicly available information and anecdotal accounts from local witnesses. While the details provided are intriguing, they do not constitute conclusive evidence."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Peak Tram",
@@ -914,7 +881,7 @@
       ],
       "place_id": "ChIJx_WyiXMABDQRJnFIJdc19Kw",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 22003,
+      "user_ratings_total": 22014,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -923,16 +890,12 @@
           "lng": 114.1591909
         }
       },
-      "enhanced_description": "The Peak Tram: A Local Hong Kong Icon with a Challenging History",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [22. 1607882]: The Peak Tram (Types: tourist_attraction, museum, point_of_interest) Located at 33 Garden Rd, Central, Hong Kong",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Peak Tram",
-        "Hong Kong",
-        "ghost stories"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "While there are reports of paranormal activity, these claims remain unverified and lack concrete evidence."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Avenue of Stars HK",
@@ -945,7 +908,7 @@
       ],
       "place_id": "ChIJsyIrnPEABDQRzjValbVWEJo",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 15392,
+      "user_ratings_total": 15401,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -960,80 +923,13 @@
       "tourism_keywords": [],
       "mystery_relevance": 0.6,
       "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Bakehouse",
-      "address": "44 Hankow Rd, Tsim Sha Tsui, Hong Kong",
-      "rating": 4.3,
-      "types": [
-        "bakery",
-        "food_store",
-        "store",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJBQQXwrUBBDQRuF7yIgthafA",
-      "keyword": "nearby_store",
-      "user_ratings_total": 1837,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 22.2978445,
-          "lng": 114.1711359
-        }
-      },
-      "enhanced_description": "A mysterious bakery in the heart of Tsim Sha Tsui, Hong Kong, appears to be operating without any apparent external influence. The Bakehouse, described as a 'types: bakery, food_store, store' business, is located at 44 Hankow Rd and remains unexplained despite efforts to verify its existence.",
-      "tourism_category": "historical",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "unusual activity",
-        "mysterious business",
-        "Hong Kong mystery"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While some might dismiss this as a prank or misdirection, it's essential to acknowledge that there is currently no concrete evidence to support this claim."
-    },
-    {
-      "name": "Quality Inn & Suites Roswell North",
-      "address": "3595 N Main St, Roswell, NM 88201, USA",
-      "rating": 4.2,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJry0IRExu4oYRWWaD0UwmdyM",
-      "keyword": "hotels accommodation lodging",
-      "location": "Years, ",
-      "user_ratings_total": 507,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.440747,
-          "lng": -104.522352
-        }
-      },
-      "enhanced_description": "A local businessman claims to have experienced a series of strange occurrences at the Quality Inn & Suites Roswell North, including unexplained noises, movements, and apparitions. Despite initial skepticism from management, several witnesses report similar experiences, sparking concerns about the legitimacy of their claims.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "quality inn",
-        "suites roswell north",
-        "roswell nm"
-      ],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "While these claims can be intriguing, further investigation is necessary to verify their validity. The Quality Inn & Suites Roswell North may have a legitimate explanation for the reported occurrences."
     }
   ],
   "events": [
     {
       "name": "Cosmic Mystery Solved? Earth May Reside Within a Huge \u2018Void\u2019 in Space",
       "type": "Historical Mystery",
-      "description": "Scientists propose Earth is in the middle of a vast void in space, potentially resolving the Hubble Tension.",
+      "description": "Scientists propose Earth may be located at the center of a vast void in space, potentially resolving long-standing Hubble Tension. According to an account by astronomers from the European Southern Obs...",
       "category": "historical"
     },
     {
@@ -1044,19 +940,19 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Years. Explore the mysteries of Earth's past, from ancient civilizations to modern-day discoveries. Discover the secrets of the",
+    "meta_description": "Explore historical mysteries in Years. Explore the mysteries of Earth's past at Carlsbad Caverns National Park, where ancient rock formations and underground r",
     "title": "Historical Mysteries in Years - Tours & Services",
-    "description": "Explore the mysteries of Earth's past, from ancient civilizations to modern-day discoveries. Discover the secrets of the Permian Basin Petroleum Museum and learn about the history of oil and gas.",
+    "description": "Explore the mysteries of Earth's past at Carlsbad Caverns National Park, where ancient rock formations and underground rivers reveal secrets of the planet's formation.",
     "keywords": [
-      "history",
-      "petroleum museum",
-      "oil exploration"
+      "carlsbad caverns",
+      "ancient formations",
+      "underground rivers"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-26T21:29:59.337403"
+    "last_updated": "2025-07-27T23:10:22.221688"
   }
 }
