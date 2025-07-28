@@ -154,6 +154,115 @@
             font-family: 'Orbitron', monospace !important;
         }
 
+        /* YouTube Widget Styles */
+        .youtube-widget {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 320px;
+            background: rgba(25, 25, 35, 0.95);
+            border-radius: 15px;
+            padding: 15px;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            max-height: 80vh;
+            overflow-y: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .youtube-widget:hover {
+            transform: translateY(-2px);
+        }
+
+        .youtube-widget h3 {
+            font-family: 'Orbitron', monospace;
+            color: #00ffff;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        .youtube-video-item {
+            background: rgba(35, 35, 45, 0.8);
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 8px;
+            border-left: 3px solid #00ffff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .youtube-video-item:hover {
+            background: rgba(45, 45, 55, 0.9);
+            border-left-color: #ff6b6b;
+            transform: translateX(5px);
+        }
+
+        .youtube-video-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .youtube-video-title {
+            color: #ffffff;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 4px;
+            line-height: 1.2;
+            text-decoration: none;
+            display: block;
+        }
+
+        .youtube-video-title:hover {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        .youtube-video-stats {
+            color: #aaaaaa;
+            font-size: 0.7rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .youtube-video-views {
+            color: #00ffff;
+            font-weight: 500;
+        }
+
+        .youtube-video-date {
+            color: #888888;
+        }
+
+        .youtube-widget-section {
+            margin-bottom: 15px;
+        }
+
+        .youtube-widget-section:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Mobile responsiveness for widget */
+        @media (max-width: 768px) {
+            .youtube-widget {
+                position: relative;
+                top: auto;
+                left: auto;
+                width: 100%;
+                margin: 20px 0;
+                max-height: none;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .youtube-widget {
+                width: 280px;
+            }
+        }
+
         /* Navigation styling consistency */
         .navbar-brand .brand-text {
             font-family: 'Orbitron', monospace;
@@ -429,6 +538,34 @@
 
     <!-- Main Content -->
     <div class="container py-5">
+        <!-- YouTube Widget -->
+        <div class="youtube-widget" id="youtube-widget">
+            <div class="youtube-widget-section">
+                <h3>🔥 Most Popular</h3>
+                <div id="popular-videos">
+                    <div class="youtube-video-item">
+                        <a href="#" class="youtube-video-title">Loading popular videos...</a>
+                        <div class="youtube-video-stats">
+                            <span class="youtube-video-views">-</span>
+                            <span class="youtube-video-date">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="youtube-widget-section">
+                <h3>📅 Latest Videos</h3>
+                <div id="recent-videos">
+                    <div class="youtube-video-item">
+                        <a href="#" class="youtube-video-title">Loading recent videos...</a>
+                        <div class="youtube-video-stats">
+                            <span class="youtube-video-views">-</span>
+                            <span class="youtube-video-date">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Mystery Lists Section -->
         <div class="row mb-5">
             <div class="col-lg-6 mb-4">
@@ -698,7 +835,133 @@
         // Load top mysteries when page loads
         document.addEventListener('DOMContentLoaded', function() {
             fetchTopMysteries();
+            loadYouTubeWidget();
         });
+
+        // YouTube Widget Functions
+        async function loadYouTubeWidget() {
+            try {
+                // Try to fetch real YouTube data
+                const response = await fetch('/api/youtube/widget');
+                if (response.ok) {
+                    const data = await response.json();
+                    displayYouTubeVideos(data.popular, data.recent);
+                } else {
+                    throw new Error('API not available');
+                }
+            } catch (error) {
+                console.warn('Using mock YouTube data:', error);
+                loadMockYouTubeData();
+            }
+        }
+
+        function loadMockYouTubeData() {
+            // Mock data with view counts for testing
+            const mockVideos = [
+                {
+                    video_id: 'sample_video_5',
+                    title: 'Ancient Mysteries and Lost Civilizations',
+                    url: 'https://www.youtube.com/watch?v=sample_video_5',
+                    view_count: 298000,
+                    published_at: '2023-12-20T14:30:00Z'
+                },
+                {
+                    video_id: 'sample_video_1',
+                    title: 'UFO Sighting Analysis - Phoenix Lights Investigation',
+                    url: 'https://www.youtube.com/watch?v=sample_video_1',
+                    view_count: 245000,
+                    published_at: '2024-01-15T10:00:00Z'
+                },
+                {
+                    video_id: 'sample_video_2',
+                    title: 'Roswell Incident - What Really Happened?',
+                    url: 'https://www.youtube.com/watch?v=sample_video_2',
+                    view_count: 189000,
+                    published_at: '2024-01-10T15:30:00Z'
+                },
+                {
+                    video_id: 'sample_video_3',
+                    title: 'Area 51 Mysteries and UFO Secrets',
+                    url: 'https://www.youtube.com/watch?v=sample_video_3',
+                    view_count: 156000,
+                    published_at: '2024-01-05T12:00:00Z'
+                },
+                {
+                    video_id: 'sample_video_4',
+                    title: 'Paranormal Activity in Salem Massachusetts',
+                    url: 'https://www.youtube.com/watch?v=sample_video_4',
+                    view_count: 134000,
+                    published_at: '2024-01-01T18:00:00Z'
+                },
+                {
+                    video_id: 'sample_video_6',
+                    title: 'Bigfoot Encounters in Washington State',
+                    url: 'https://www.youtube.com/watch?v=sample_video_6',
+                    view_count: 87000,
+                    published_at: '2023-12-15T16:45:00Z'
+                }
+            ];
+
+            // Sort by view count for popular
+            const popular = [...mockVideos].sort((a, b) => b.view_count - a.view_count).slice(0, 5);
+            
+            // Sort by date for recent
+            const recent = [...mockVideos].sort((a, b) => new Date(b.published_at) - new Date(a.published_at)).slice(0, 5);
+
+            displayYouTubeVideos(popular, recent);
+        }
+
+        function displayYouTubeVideos(popularVideos, recentVideos) {
+            displayVideoSection('popular-videos', popularVideos);
+            displayVideoSection('recent-videos', recentVideos);
+        }
+
+        function displayVideoSection(containerId, videos) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+
+            container.innerHTML = '';
+
+            videos.forEach(video => {
+                const videoItem = document.createElement('div');
+                videoItem.className = 'youtube-video-item';
+                
+                const publishedDate = new Date(video.published_at);
+                const formattedDate = publishedDate.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+
+                const viewCount = formatViewCount(video.view_count);
+
+                videoItem.innerHTML = `
+                    <a href="${video.url}" target="_blank" class="youtube-video-title">
+                        ${truncateTitle(video.title, 50)}
+                    </a>
+                    <div class="youtube-video-stats">
+                        <span class="youtube-video-views">${viewCount} views</span>
+                        <span class="youtube-video-date">${formattedDate}</span>
+                    </div>
+                `;
+
+                container.appendChild(videoItem);
+            });
+        }
+
+        function formatViewCount(count) {
+            if (count >= 1000000) {
+                return (count / 1000000).toFixed(1) + 'M';
+            } else if (count >= 1000) {
+                return (count / 1000).toFixed(1) + 'K';
+            }
+            return count.toString();
+        }
+
+        function truncateTitle(title, maxLength) {
+            if (title.length <= maxLength) return title;
+            return title.substring(0, maxLength - 3) + '...';
+        }
 
         function validateCaptcha() {
             const captcha = document.getElementById('captcha').value;
