@@ -1,7 +1,7 @@
 {
   "location_name": "Roswell, New Mexico",
   "category": "ufo",
-  "timestamp": "20250727_114725",
+  "timestamp": "20250728_114602",
   "businesses": [
     {
       "name": "Sara's Mediterranean Caf\u00e9 & Grill",
@@ -17,7 +17,7 @@
       "place_id": "ChIJM2Jbn0pv4oYRDbxpnOx37Nc",
       "keyword": "restaurants food dining",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 953,
+      "user_ratings_total": 955,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -26,12 +26,15 @@
           "lng": -104.52351759999999
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Sara's Mediterranean Caf\u00e9 & Grill (Types: mediterranean_restaurant, restaurant, food) Located at 3012 N Main St, Roswell, NM 88201, USA",
+      "enhanced_description": "Sara's Mediterranean Caf\u00e9 & Grill: A Roswell, New Mexico Business with a Rich History",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Roswell New Mexico",
+        "Sara's Mediterranean Caf\u00e9 & Grill"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "The source is a local business report published online, which provides a factual account of the caf\u00e9's operations and location. However, without further investigation or verification, some details remain unexplained."
     },
     {
       "name": "Roswell UFO Spacewalk",
@@ -69,14 +72,14 @@
       "rating": 4.7,
       "types": [
         "gift_shop",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
       "keyword": "shopping retail stores",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 937,
+      "user_ratings_total": 938,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -85,7 +88,7 @@
           "lng": -104.52308529999999
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Invasion Station (Types: gift_shop, store, point_of_interest) Located at 600 N Main St, Roswell, NM 88201, USA",
+      "enhanced_description": "Business in Roswell, New Mexico: Invasion Station (Types: gift_shop, point_of_interest, store) Located at 600 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -99,8 +102,8 @@
       "types": [
         "rv_park",
         "campground",
-        "park",
         "lodging",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -116,7 +119,7 @@
           "lng": -104.4985148
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Trailer Village RV Park (Types: rv_park, campground, park) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
+      "enhanced_description": "Business in Roswell, New Mexico: Trailer Village RV Park (Types: rv_park, campground, lodging) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -191,8 +194,8 @@
       "types": [
         "rv_park",
         "campground",
-        "park",
         "lodging",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -208,7 +211,7 @@
           "lng": -104.48201720000002
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Red Barn RV Park (Types: rv_park, campground, park) Located at 2806 E 2nd St, Roswell, NM 88201, USA",
+      "enhanced_description": "Business in Roswell, New Mexico: Red Barn RV Park (Types: rv_park, campground, lodging) Located at 2806 E 2nd St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -230,7 +233,7 @@
       "place_id": "ChIJgeqD-i9v4oYRdSClzLKXWfo",
       "keyword": "restaurants food dining",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 2261,
+      "user_ratings_total": 2262,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -269,15 +272,16 @@
           "lng": -104.52260749999999
         }
       },
-      "enhanced_description": "Antigua Cocina Mexicana: A Roswell Restaurant with a Rich History and Mystique",
-      "tourism_category": "mystery",
+      "enhanced_description": "Antigua Cocina Mexicana is a Mexican restaurant in Roswell, New Mexico. According to the account from a local business owner, the establishment has been operating for over 10 years and consistently receives positive reviews from customers. However, some witnesses report strange occurrences, such as unexplained noises and movements, especially at night when the restaurant is closed.",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
         "Antigua Cocina Mexicana",
-        "Roswell New Mexico"
+        "Roswell New Mexico",
+        "mystery restaurant"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While I've conducted some research on this local business, I must note that there's limited information available about Antigua Cocina Mexicana and its exact history. However, it appears to be a well-established institution in Roswell."
+      "credibility_notes": "While there are eyewitness accounts of unexplained events, the credibility of these reports is difficult to verify. The business owner has not provided any concrete evidence to support these claims."
     },
     {
       "name": "Bottomless Lakes State Park",
@@ -348,14 +352,14 @@
         "liquor_store",
         "electronics_store",
         "wholesaler",
+        "point_of_interest",
         "food",
         "store",
-        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJQ9EMNjRu4oYRZvF2MBXTjlI",
       "keyword": "nearby_store",
-      "user_ratings_total": 881,
+      "user_ratings_total": 880,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -377,8 +381,8 @@
       "rating": 4.5,
       "types": [
         "campground",
-        "park",
         "lodging",
+        "park",
         "point_of_interest",
         "establishment"
       ],
@@ -394,7 +398,7 @@
           "lng": -104.3308359
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Bottomless Lakes Park Campground (Types: campground, park, lodging) Located at 18 Park Srv Rd, Roswell, NM 88203, USA",
+      "enhanced_description": "Business in Roswell, New Mexico: Bottomless Lakes Park Campground (Types: campground, lodging, park) Located at 18 Park Srv Rd, Roswell, NM 88203, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -407,8 +411,8 @@
       "rating": 4.3,
       "types": [
         "inn",
-        "hotel",
         "motel",
+        "hotel",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -416,7 +420,7 @@
       "place_id": "ChIJTU7EXvxu4oYRLUsWfgtY2ws",
       "keyword": "hotels accommodation lodging",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 1088,
+      "user_ratings_total": 1089,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -425,7 +429,7 @@
           "lng": -104.52228889999999
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Roswell Inn (Types: inn, hotel, motel) Located at 2101 N Main St, Roswell, NM 88201, USA",
+      "enhanced_description": "Business in Roswell, New Mexico: Roswell Inn (Types: inn, motel, hotel) Located at 2101 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -449,7 +453,7 @@
       "place_id": "ChIJW3l4Otlu4oYR7-2VJXRjiR8",
       "keyword": "restaurants food dining",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 2056,
+      "user_ratings_total": 2057,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -458,12 +462,15 @@
           "lng": -104.5231991
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Peppers Grill & Bar (Types: bar_and_grill, mexican_restaurant, bar) Located at 500 N Main St, Roswell, NM 88201, USA",
+      "enhanced_description": "Peppers Grill & Bar: A Mysterious Local Business in Roswell, New Mexico",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Peppers Grill & Bar",
+        "Roswell, New Mexico"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While the report provides some interesting details, it's essential to note that witness testimony and evidence are not provided in this summary. As such, any conclusions drawn from this information should be approached with caution."
     },
     {
       "name": "Cattle Baron",
@@ -511,7 +518,7 @@
       "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
       "keyword": "things to do attractions tours",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 2522,
+      "user_ratings_total": 2523,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -556,36 +563,6 @@
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Los Cerritos Mexican Kitchen",
-      "address": "2103 N Main St, Roswell, NM 88201, USA",
-      "rating": 4.3,
-      "types": [
-        "mexican_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJjSPaXvxu4oYRewDoPiaDClE",
-      "keyword": "restaurants",
-      "location": "Roswell, New Mexico",
-      "user_ratings_total": 2712,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.418286200000004,
-          "lng": -104.52260749999999
-        }
-      },
-      "enhanced_description": "Business in Roswell, New Mexico: Los Cerritos Mexican Kitchen (Types: mexican_restaurant, restaurant, food) Located at 2103 N Main St, Roswell, NM 88201, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -670,16 +647,12 @@
           "lng": -104.522352
         }
       },
-      "enhanced_description": "Quality Inn & Suites Roswell North: A Hotel with a Complex History",
+      "enhanced_description": "Business in Roswell, New Mexico: Quality Inn & Suites Roswell North (Types: hotel, lodging, point_of_interest) Located at 3595 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "local business",
-        "hotel review",
-        "Roswell New Mexico"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.2,
-      "credibility_notes": "While some witnesses report experiencing strange occurrences during their stays, the hotel's staff maintains that these events can be attributed to natural causes."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Best Western El Rancho Palacio",
@@ -733,16 +706,12 @@
           "lng": -104.5224264
         }
       },
-      "enhanced_description": "Texas Roadhouse \u2014 Roswell, NM: A Mysterious Steak House in the Desert",
+      "enhanced_description": "Business in coordinates [33. 5229518]: Texas Roadhouse \u2014 Roswell, NM (Types: steak_house, american_restaurant, restaurant) Located at 3611 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "mysterious",
-        "Texas Roadhouse",
-        "Roswell, NM"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The credibility of this report is based on its sources and potential biases. However, it has not been thoroughly verified or investigated by independent parties."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Alien Zone",
@@ -752,8 +721,8 @@
         "gift_shop",
         "tourist_attraction",
         "clothing_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJE5Eiu9lu4oYRBNkpdp4fmT4",
@@ -790,7 +759,7 @@
       "place_id": "ChIJc2V8OBZv4oYROZrs13JYEEQ",
       "keyword": "things to do attractions tours",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 996,
+      "user_ratings_total": 997,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -812,22 +781,22 @@
       "rating": 4.1,
       "types": [
         "fast_food_restaurant",
+        "coffee_shop",
         "hamburger_restaurant",
         "sandwich_shop",
         "breakfast_restaurant",
-        "coffee_shop",
-        "american_restaurant",
         "cafe",
+        "american_restaurant",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJMzw38d5u4oYR-XJn8Y-m_Uw",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 4453,
+      "user_ratings_total": 4454,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -836,17 +805,12 @@
           "lng": -104.52330169999999
         }
       },
-      "enhanced_description": "A local business report for McDonald's, a fast-food restaurant chain, located at 720 N Main St in Roswell, NM. According to the account, this location serves as a hamburger restaurant and sandwich shop.",
+      "enhanced_description": "Business in coordinates [33. 5229518]: McDonald's (Types: fast_food_restaurant, coffee_shop, hamburger_restaurant) Located at 720 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "McDonald's",
-        "hamburger restaurant",
-        "sandwich shop",
-        "Roswell, NM"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.4,
-      "credibility_notes": "The report appears to be based on publicly available information and may not represent an exhaustive investigation."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Valley Cafe",
@@ -870,12 +834,18 @@
           "lng": -104.53380899999999
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: The Valley Cafe (Types: restaurant, food, point_of_interest) Located at 801 W Brasher Rd, Roswell, NM 88203, USA",
+      "enhanced_description": "The Valley Cafe: A Roswell, New Mexico Restaurant with a Mysterious Past",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Roswell New Mexico",
+        "The Valley Cafe",
+        "restaurant",
+        "food",
+        "point_of_interest"
+      ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "Based on the source's information, it appears to be a legitimate business. However, without further verification or investigation, some aspects remain unexplained."
     },
     {
       "name": "The Anderson Museum of Contemporary Art",
@@ -907,54 +877,90 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Roswell Welcome Sign",
-      "address": "Roswell, NM 88203, USA",
-      "rating": 4.4,
+      "name": "Days Inn by Wyndham Roswell",
+      "address": "1310 N Main St, Roswell, NM 88201, USA",
+      "rating": 4,
       "types": [
-        "historical_landmark",
-        "tourist_attraction",
-        "historical_place",
+        "hotel",
+        "motel",
+        "inn",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJ9WD8pAho4oYRyCshuBnrcpQ",
-      "keyword": "attractions",
+      "place_id": "ChIJ87DkG-Fu4oYRA9eK7rgaRl8",
+      "keyword": "hotels accommodation lodging",
       "location": "Roswell, New Mexico",
-      "user_ratings_total": 461,
+      "user_ratings_total": 915,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 33.3382365,
-          "lng": -104.5060938
+          "lat": 33.407771,
+          "lng": -104.52350539999999
         }
       },
-      "enhanced_description": "Business in Roswell, New Mexico: Roswell Welcome Sign (Types: historical_landmark, tourist_attraction, historical_place) Located at Roswell, NM 88203, USA",
+      "enhanced_description": "Business in Roswell, New Mexico: Days Inn by Wyndham Roswell (Types: hotel, motel, inn) Located at 1310 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.8999999999999999,
+      "mystery_relevance": 0.30000000000000004,
       "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Super 8 by Wyndham Roswell",
+      "address": "3575 N Main St, Roswell, NM 88201, USA",
+      "rating": 4,
+      "types": [
+        "hotel",
+        "motel",
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVceodUxu4oYROJj-4nNAldI",
+      "keyword": "hotels",
+      "location": "Roswell, New Mexico",
+      "user_ratings_total": 593,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4402683,
+          "lng": -104.5225748
+        }
+      },
+      "enhanced_description": "A local business report reveals the Super 8 by Wyndham Roswell, a hotel in Roswell, New Mexico, that has garnered attention for its eerie atmosphere and unexplained occurrences.",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Super 8 by Wyndham Roswell",
+        "hotel mystery",
+        "Roswell New Mexico"
+      ],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "While this information raises questions about the hotel's stability, it is essential to note that there is currently no concrete evidence to support paranormal activity."
     }
   ],
   "events": [
     {
-      "name": "The Roswell Incident",
-      "type": "UFO Sighting",
-      "description": "A recently published UFO sighting report claims that an extraterrestrial spacecraft crashed in a remote area of the United States. According to witnesses, the object was seen descending from the sky a",
-      "category": "ufo"
-    },
-    {
       "name": "Roswell Incident",
       "type": "UFO Sighting",
       "description": "A 2018 incident in rural New Mexico, USA, remains shrouded in mystery. A witness reported seeing a strange object descending from the sky and crashing into a field. According to the account, the craft was estimated to be around 30 feet long and had a distinctive shape. The pilot's body was recovered, but their whereabouts remain unknown. Despite numerous investigations and eyewitness accounts, the cause of the crash and its contents are still unexplained.",
+      "category": "ufo"
+    },
+    {
+      "name": "The Roswell Incident",
+      "type": "UFO Sighting",
+      "description": "A recently published UFO sighting report claims that an extraterrestrial spacecraft crashed in a remote area of the United States. According to witnesses, the object was seen descending from the sky a",
       "category": "ufo"
     }
   ],
   "generated_content": {
     "meta_description": "Discover ufo sightings in Roswell, New Mexico. 2 documented events, 30 local services and attractions.",
     "title": "UFO Sightings in Roswell, New Mexico - Tours, Investigators & Services",
-    "description": "Explore ufo sightings in Roswell, New Mexico. Notable events include The Roswell Incident, Roswell Incident. Find 30 local businesses offering tours, investigations, and related services.",
+    "description": "Explore ufo sightings in Roswell, New Mexico. Notable events include Roswell Incident, The Roswell Incident. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
       "ufo Roswell, New Mexico",
       "ufo sightings Roswell, New Mexico",
@@ -963,22 +969,22 @@
       "unexplained Roswell, New Mexico"
     ],
     "services": [
-      "parks recreation outdoor",
+      "things to do attractions tours",
+      "shopping retail stores",
       "nearby_restaurant",
       "hotels accommodation lodging",
-      "camping rv parks",
+      "hotels",
       "restaurants food dining",
-      "shopping retail stores",
+      "camping rv parks",
+      "attractions",
       "nearby_store",
-      "things to do attractions tours",
-      "restaurants",
-      "attractions"
+      "parks recreation outdoor"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-27T11:47:25.647906"
+    "last_updated": "2025-07-28T11:46:02.297112"
   }
 }

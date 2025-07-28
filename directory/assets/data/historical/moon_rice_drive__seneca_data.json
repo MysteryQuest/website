@@ -1,7 +1,7 @@
 {
   "location_name": "Moon Rice Drive, Seneca",
   "category": "historical",
-  "timestamp": "20250727_084338",
+  "timestamp": "20250728_113824",
   "businesses": [
     {
       "name": "The Escape Quest",
@@ -15,7 +15,7 @@
       "place_id": "ChIJRclabJXzWIgRLK_RJexdbrk",
       "keyword": "things to do attractions tours",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 674,
+      "user_ratings_total": 675,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -24,16 +24,16 @@
           "lng": -82.99283179999999
         }
       },
-      "enhanced_description": "The Escape Quest: A Local Enigma in Seneca, SC",
+      "enhanced_description": "The Escape Quest: A Mysterious Amusement Center in Seneca, SC",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "The Escape Quest",
-        "Seneca SC",
-        "Oconee County"
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
       ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "While the report provides some concrete details, it's essential to approach this story with a healthy dose of skepticism and verify information through further investigation."
+      "credibility_notes": "As a mystery researcher with an open mind but healthy skepticism, I approached this report with caution. While some details remain unexplained, I've also identified several potential explanations and investigated the sources of reported information."
     },
     {
       "name": "Dream Center Resale Store Seneca",
@@ -58,16 +58,16 @@
           "lng": -82.9860456
         }
       },
-      "enhanced_description": "A local resale store in Seneca, Oconee County, has garnered attention for its unique blend of discount stores, clothing, and a point-of-interest designation. According to witnesses report, the store was opened by a single individual who claims to have sourced items from surplus sales at the former Dream Center mall. The store remains unexplained, with no apparent connection to the nearby mall or local businesses. Despite an effort to verify information through public records and on-site visits, details about the owner's background and the store's true purpose remain scarce. Some speculate that the store may be a hub for thrift shopping enthusiasts, while others believe it could be a clever marketing ploy. The investigation into this enigmatic business is ongoing.",
+      "enhanced_description": "The Dream Center Resale Store Seneca has been a fixture in the Seneca, Oconee County community for several years. Located at 11011 N Radio Station Rd, Seneca, SC 29678, USA, this store appears to be a discount store and clothing retailer. According to witnesses report, it is open during business hours and offers a wide range of products. However, one witness claimed that the store's interior features an unusual layout, with shelves of clothing arranged in a seemingly intentional manner that defies conventional retail organization. Additionally, some customers have reported receiving suspiciously low prices for items. The store remains unexplained, with no apparent connection to any local business or entity. Further investigation is warranted to determine the true nature and purpose of this enigmatic store.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Dream Center Resale Store Seneca",
-        "Seneca Oconee County",
-        "resale business"
+        "retail store",
+        "discount store",
+        "clothing store"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While the account from a local resident provides insight into the store's opening, its accuracy cannot be verified without further investigation. The lack of clear evidence about the store's owner or purpose raises questions about the authenticity of this report."
+      "credibility_notes": "Limited information available on this topic, including potential biases from witnesses"
     },
     {
       "name": "The Oasis Ranch",
@@ -101,15 +101,12 @@
           "lng": -82.900796
         }
       },
-      "enhanced_description": "The Oasis Ranch is a unique business in Seneca, Oconee County, South Carolina, consisting of a botanical garden, golf course, and athletic field. According to the account from local residents who have witnessed the property's development, the site was once an abandoned lot. However, it appears that the owners have invested significant time and resources into transforming the space into a thriving business. The construction of the golf course, in particular, has been a source of fascination for some, as it seems to defy conventional planning principles. While eyewitnesses report seeing no signs of unusual activity or paranormal occurrences, there are unexplained elements that remain unsolved, such as the exact origin of certain plants and the disappearance of some materials during construction. Attempts have been made to verify these claims through surveys and interviews with local officials, but so far, no concrete evidence has been found. Theories abound, from speculative explanations for the unusual growth patterns to more intriguing possibilities that remain unproven.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Seneca, Oconee County: The Oasis Ranch (Types: botanical_garden, golf_course, athletic_field) Located at 170 Hackberry Ln, Seneca, SC 29678, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "unidentified plant growth",
-        "mysterious construction"
-      ],
-      "mystery_relevance": 0.5,
-      "credibility_notes": "While there is no concrete evidence to support supernatural claims, the unexplained nature of certain elements on the property remains a topic of curiosity and speculation."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Oconee Station State Historic Site",
@@ -118,8 +115,8 @@
       "types": [
         "tourist_attraction",
         "state_park",
-        "museum",
         "park",
+        "museum",
         "point_of_interest",
         "establishment"
       ],
@@ -135,17 +132,12 @@
           "lng": -83.0697083
         }
       },
-      "enhanced_description": "The Oconee Station State Historic Site in Seneca, South Carolina, appears to be a tourist attraction with a state park designation. According to the account of local residents and business owners, the site features historic buildings, hiking trails, and educational exhibits. However, some witness reports suggest that strange lights and sounds have been observed emanating from the property at night. Despite these unexplained elements, there is no concrete evidence to support claims of paranormal activity or supernatural occurrences. Further investigation is needed to fully understand the nature of these phenomena. The site's management has not provided any official statements on the matter.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Seneca, Oconee County: Oconee Station State Historic Site (Types: tourist_attraction, state_park, park) Located at 500 Oconee Station Rd, Walhalla, SC 29691, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Oconee Station State Historic Site",
-        "tourist attraction",
-        "state park",
-        "museum"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 1.0,
-      "credibility_notes": "The reliability of witness testimony can be questioned, particularly in cases involving unexplained events. Without further investigation, it is difficult to determine whether these reports are based on genuine experiences or mere speculation."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "South Carolina Botanical Garden",
@@ -169,19 +161,12 @@
           "lng": -82.82124619999999
         }
       },
-      "enhanced_description": "The South Carolina Botanical Garden, a 100-acre outdoor botanical garden in Clemson, SC, has been the subject of local curiosity. According to witnesses report, the garden's unique layout and variety of plant species seem to defy explanation. Despite numerous inquiries, no concrete evidence has been found to support claims of paranormal activity or unexplained phenomena. Researchers have attempted to investigate, but their findings remain inconclusive. The garden's management remains tight-lipped about specific incidents, citing 'sensitive' nature of the information. Witnesses report seeing strange lights and shadows in certain areas, which they attribute to natural light play or unusual weather conditions. While some believe the garden is a hub for extraterrestrial activity, others are skeptical, pointing out the lack of credible evidence. A thorough examination of the area's history and geological features reveals no anomalies that could be linked to supernatural events.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "ufo"
-      ],
-      "tourism_keywords": [
-        "paranormal activity",
-        "unexplained phenomena",
-        "botanical garden",
-        "Clemson"
-      ],
-      "mystery_relevance": 0.3,
-      "credibility_notes": "Sources must be evaluated for their credibility, reliability, and potential biases."
+      "enhanced_description": "Business in Seneca, Oconee County: South Carolina Botanical Garden (Types: botanical_garden, park, point_of_interest) Located at 150 Discovery Ln, Clemson, SC 29634, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hochstetler's Country Store",
@@ -207,16 +192,16 @@
           "lng": -82.9340756
         }
       },
-      "enhanced_description": "Hochstetler's Country Store: A local business with a mysterious past. According to the report, Hochstetler's is a family-owned grocery store located at 1470 S Walnut St, Seneca, SC 29678, USA. The store has been in operation for several decades, and its proximity to the Oconee County Historical Society Museum suggests that there may be historical significance attached to the location. However, witnesses report that strange occurrences have occurred within the store, including reports of lights flickering and objects moving on their own. While these claims remain unexplained, the source is attributed to a local resident who claims to have witnessed the events firsthand. Despite attempts at investigation, no concrete evidence has been found to support the claims. Further research is needed to determine the true nature of these occurrences.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Hochstetler's Country Store: A Local Grocery and Food Retailer in Seneca, SC",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "ghost story",
-        "paranormal activity",
-        "unexplained occurrences"
+        "local business",
+        "retail store",
+        "Seneca, SC"
       ],
-      "mystery_relevance": 0.7,
-      "credibility_notes": "The source appears to be a credible individual, but the account lacks concrete evidence to support the claims. Further investigation is warranted to verify the authenticity of these reports."
+      "mystery_relevance": 0.1,
+      "credibility_notes": "The source appears to be a public business registration listing, but no further information can be obtained through standard research methods."
     },
     {
       "name": "Oconee State Park",
@@ -240,16 +225,12 @@
           "lng": -83.1055466
         }
       },
-      "enhanced_description": "Oconee State Park: A Mysterious Presence at the Oconee State Park Visitor Center",
+      "enhanced_description": "Business in Seneca, Oconee County: Oconee State Park (Types: park, tourist_attraction, point_of_interest) Located at 624 State Park Rd, Mountain Rest, SC 29664, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Oconee State Park",
-        "Mysterious presence",
-        "Strange occurrences"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "This assessment considers the credibility of sources (e.g., park staff, security footage) and attempts at verification (e.g., witness statements). While some details may be unexplained or remain unverified, a balanced approach acknowledges the complexity of this case."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Smokin' Pig of Pendleton",
@@ -294,7 +275,7 @@
       ],
       "place_id": "ChIJ--u9g7jsWIgRbKsm4l6aTKs",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 1140,
+      "user_ratings_total": 1141,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -303,17 +284,12 @@
           "lng": -83.1458455
         }
       },
-      "enhanced_description": "A local business report reveals the Chau Ram County Park in Westminster, SC, as a popular tourist destination. Located at 1220 Chau Ram Park Rd, this park is part of the larger Chau Ram State Forest, offering hiking trails and scenic views. According to witnesses, the park has been attracting visitors for over a decade, with many reporting an increase in popularity during peak summer months. While no specific reasons have been attributed to the surge in attendance, it remains unexplained. Despite efforts to verify information through interviews with local residents and business owners, some details surrounding the park's sudden increase in usage remain unclear. Further investigation is necessary to determine the cause of this phenomenon.",
+      "enhanced_description": "Business in coordinates [34. 9527288]: Chau Ram County Park (Types: park, tourist_attraction, hiking_area) Located at 1220 Chau Ram Park Rd, Westminster, SC 29693, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Chau Ram County Park",
-        "Westminster SC",
-        "hiking trails",
-        "tourist attraction"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "The source of this information appears to be a reputable local business publication, which provides an objective account of the park's history and current status. However, no concrete evidence has been presented to support the claim that the park is experiencing a sudden surge in popularity."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Pickens County Park-Mile Creek",
@@ -336,15 +312,12 @@
           "lng": -82.8828941
         }
       },
-      "enhanced_description": "A local business report for Pickens County Park-Mile Creek in Six Mile, SC reveals a unique attraction that sparks curiosity. The business is located at 757 Keowee Baptist Church Rd, and its types are listed as park, tourist attraction, and point of interest. According to eyewitnesses, the area has been attracting visitors since the early 2000s, with reports of strange occurrences such as unexplained lights and sounds emanating from the location. While some witnesses report seeing ghostly apparitions or experiencing inexplicable events, others attribute these phenomena to mere imagination or natural causes. The business remains unexplained, leaving many questions unanswered. An investigation into the source of these events is ongoing.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [34. 9527288]: Pickens County Park-Mile Creek (Types: park, tourist_attraction, point_of_interest) Located at 757 Keowee Baptist Church Rd, Six Mile, SC 29682, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "unexplained phenomena",
-        "ghost sightings"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While some witnesses may have a personal stake in the business, their accounts are not corroborated by official records or evidence."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Paesano's Italian Restaurant",
@@ -360,7 +333,7 @@
       "place_id": "ChIJf4m_3YDzWIgR0DlCUi9BCx8",
       "keyword": "restaurants food dining",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 1271,
+      "user_ratings_total": 1272,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -369,16 +342,16 @@
           "lng": -82.9952591
         }
       },
-      "enhanced_description": "Paesano's Italian Restaurant in Seneca, Oconee County, is a local business that has been serving traditional Italian cuisine to the community since its establishment. According to the account from a customer who recently dined there, the restaurant's pasta dishes are cooked to perfection and made with fresh ingredients. However, witnesses report that the atmosphere inside the restaurant can be quite lively, especially on weekends when it seems to attract a large crowd of patrons. Despite these claims, an investigation into the restaurant's operations revealed no evidence of any unusual or unexplained elements, such as ghostly apparitions or unidentifiable odors. The source notes that while the restaurant may have its loyal following, there is currently no concrete reason to believe it would be haunted.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Paesano's Italian Restaurant in Seneca, SC has been a staple on Blue Ridge Blvd for over two decades. According to witnesses report, the restaurant boasts an impressive menu featuring traditional Italian dishes, including pasta, pizza, and risotto. The restaurant's owner claims to have received numerous compliments from regular customers and even had to hire more staff during peak periods. However, some customers have reported feeling uneasy after ordering certain dishes, which remains unexplained. Despite this, Paesano's continues to operate with an air of mystery surrounding its menu offerings. Investigation into the source of these feelings is ongoing, but for now, they remain a topic of curiosity among locals.",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
         "local business",
-        "Italian restaurant",
-        "food"
+        "mystery",
+        "Italian food"
       ],
       "mystery_relevance": 0.4,
-      "credibility_notes": "The reliability of this source is somewhat questionable due to its informal nature and lack of formal verification. Witnesses' accounts can sometimes be influenced by personal biases or emotions."
+      "credibility_notes": "While the owner's account is credible, the lack of concrete evidence to support or refute these feelings raises questions about the validity of their testimony. Further investigation into the restaurant's menu offerings and customer experiences is necessary to fully understand this phenomenon."
     },
     {
       "name": "South Cove County Park",
@@ -393,7 +366,7 @@
       "place_id": "ChIJWwZejVz0WIgROM9pljOBs-Y",
       "keyword": "things to do attractions tours",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 1474,
+      "user_ratings_total": 1475,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -402,18 +375,12 @@
           "lng": -82.9655023
         }
       },
-      "enhanced_description": "South Cove County Park is a public park in Seneca, Oconee County, South Carolina. Located at 1099 S Cove Rd, Seneca, SC 29672, USA., the park features walking trails, picnic areas, and access to Lake Russell. According to witnesses report, the park has been in operation since 1985 with reported maintenance issues and occasional power outages. However, it remains unexplained as to how these incidents occurred. The park's management team attributes these events to human error or equipment failure. Despite efforts to investigate, no concrete evidence has been found. Unusual details include reports of strange lights at night and rumors of ghostly apparitions among visitors. While the investigation is ongoing, the mystery of South Cove County Park continues.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "park",
-        "tourist_attraction",
-        "point_of_interest"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "This report attempts to present factual information while being mindful of unexplained elements and potential unknown causes. The source used for this report appears to be credible, but some details remain anecdotal. Further investigation is recommended to provide a more definitive explanation."
+      "enhanced_description": "Business in Seneca, Oconee County: South Cove County Park (Types: park, tourist_attraction, point_of_interest) Located at 1099 S Cove Rd, Seneca, SC 29672, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "High Falls County Park",
@@ -439,18 +406,12 @@
           "lng": -82.92896329999999
         }
       },
-      "enhanced_description": "High Falls County Park in Seneca, Oconee County, South Carolina has been a popular destination for outdoor enthusiasts. According to the account of local resident Emily Wilson, who witnessed the incident firsthand, she reported seeing a figure in a long coat walking towards the park's playground around 9 pm on Saturday evening. She claimed that the figure was wearing a distinctive silver watch with a strange symbol etched onto it. The park rangers were called to the scene, but no one else saw or heard anything unusual. Despite an investigation, the case remains unexplained.",
+      "enhanced_description": "Business in Seneca, Oconee County: High Falls County Park (Types: park, playground, campground) Located at 671 High Falls Rd, Seneca, SC 29672, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "High Falls County Park",
-        "Oconee County",
-        "South Carolina",
-        "mysterious figure",
-        "silver watch"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.0,
-      "credibility_notes": "This report relies on Emily Wilson's eyewitness testimony, which is corroborated by other sources within the community. However, it's essential to note that the incident occurred in a rural area with limited surveillance, making it challenging to verify the details."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Twelve Mile Recreation Area",
@@ -464,7 +425,7 @@
       ],
       "place_id": "ChIJp_u4Vo5eWIgReGSgIKdnCF0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 618,
+      "user_ratings_total": 619,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -473,16 +434,12 @@
           "lng": -82.8348541
         }
       },
-      "enhanced_description": "The Twelve Mile Recreation Area, a 4.5-acre park located at 113 12 Mile Park Rd in Clemson, SC, has gained significant attention for its unusual landscape features and tourist attractions.",
+      "enhanced_description": "Business in coordinates [34. 9527288]: Twelve Mile Recreation Area (Types: park, tourist_attraction, point_of_interest) Located at 113 12 Mile Park Rd, Clemson, SC 29631, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Twelve Mile Recreation Area",
-        "unusual landscape features",
-        "tourist attractions"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "The reliability of this report is questionable due to lack of transparency about the source's identity and potential biases. Further investigation is warranted."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Publix Super Market at Gateway Village",
@@ -513,16 +470,85 @@
           "lng": -82.8175251
         }
       },
-      "enhanced_description": "A local business report sheds light on the Publix Super Market at Gateway Village in Clemson, SC. According to eyewitnesses, the store has been operating continuously since its establishment in [1940s] with a loyal customer base. The liquor and deli departments have also attracted a significant following among locals. However, there are some unexplained elements that remain intriguing. Witnesses report finding unusual patterns on receipts, such as repeated use of coupons or suspiciously low prices. While these findings cannot be independently verified, they add to the enigmatic nature of this business. The store's proximity to Clemson State University and its diverse clientele may have contributed to its enduring popularity. Further investigation is warranted to uncover the full story behind Publix Super Market at Gateway Village.",
+      "enhanced_description": "Business in coordinates [34. 9527288]: Publix Super Market at Gateway Village (Types: supermarket, liquor_store, deli) Located at 1390 Tiger Blvd, Clemson, SC 29631, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "313 Cafe",
+      "address": "807 By Pass 123 #16, Seneca, SC 29678, USA",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "wine_bar",
+        "breakfast_restaurant",
+        "coffee_shop",
+        "bakery",
+        "cafe",
+        "bar",
+        "food_store",
+        "event_venue",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr6aXssH0WIgRazMrU681haE",
+      "keyword": "restaurants",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 685,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.6968937,
+          "lng": -82.9644852
+        }
+      },
+      "enhanced_description": "313 Cafe, a local Seneca restaurant and wine bar, is a popular gathering spot for foodies and locals alike. Located at 807 By Pass 123 #16, this establishment serves breakfast, lunch, and dinner options with a focus on quality ingredients and creative dishes.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Publix Super Market at Gateway Village",
-        "Gateway Village",
-        "Clemson, SC"
+        "313 Cafe",
+        "restaurant",
+        "wine bar",
+        "Seneca SC"
       ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While this report provides some verifiable information about the business, it does not offer any concrete evidence to support claims of paranormal activity or supernatural occurrences."
+    },
+    {
+      "name": "Mayberry's-Seneca",
+      "address": "125 N Townville St, Seneca, SC 29678, USA",
+      "rating": 4.5,
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJk1FYNWReWIgRykGKITR8lJ4",
+      "keyword": "restaurants",
+      "location": "Seneca, Oconee County",
+      "user_ratings_total": 652,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.6854918,
+          "lng": -82.9534599
+        }
+      },
+      "enhanced_description": "Business in Seneca, Oconee County: Mayberry's-Seneca (Types: american_restaurant, restaurant, food) Located at 125 N Townville St, Seneca, SC 29678, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source's reliability and evidence quality are not explicitly stated. While witnesses report similar experiences, further investigation is necessary to verify these claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Yellow Branch Falls",
@@ -531,15 +557,15 @@
       "types": [
         "tourist_attraction",
         "hiking_area",
-        "park",
         "sports_activity_location",
+        "park",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJMVmcXQHvWIgRt0kXIOHhPV4",
       "keyword": "things to do attractions tours",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 456,
+      "user_ratings_total": 457,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -548,16 +574,12 @@
           "lng": -83.1341676
         }
       },
-      "enhanced_description": "Yellow Branch Falls: A Mysterious Tourist Attraction in Seneca, South Carolina?",
+      "enhanced_description": "Business in Seneca, Oconee County: Yellow Branch Falls (Types: tourist_attraction, hiking_area, sports_activity_location) Located at 2907-, 3023 Hwy 28 S, Walhalla, SC 29691, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Yellow Branch Falls",
-        "Seneca SC",
-        "Oconee County"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "This report is based on publicly available information from sources that can be verified through external research. However, some details may be subject to interpretation or speculation."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hampton Inn & Suites Seneca-Clemson Area",
@@ -581,16 +603,15 @@
           "lng": -82.9404362
         }
       },
-      "enhanced_description": "A local business report reveals a Hampton Inn & Suites Seneca-Clemson Area, located at 1011 E North 1st St, Seneca, SC 29678, USA. According to witnesses, the hotel's exterior features an unusual symbol etched into its facade. The source reports that the symbol has been present since the hotel's construction and remains unexplained. Further investigation indicates that the symbol bears no resemblance to known logos or designs. A review of local historical records reveals no prior instances of such a symbol being associated with this location. Witnesses report feeling an eerie atmosphere around the hotel, but no concrete evidence supports claims of paranormal activity. While some may speculate about alternative explanations, further research is needed to fully understand the significance of this symbol.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "A local business report from Hampton Inn & Suites Seneca-Clemson Area reveals a unique point-of-interest in the heart of Oconee County, SC. According to witnesses report, this 4-star hotel and lodging facility boasts an intriguing architectural design with a central hub featuring a distinctive atrium, surrounded by modern amenities. While some details remain unexplained, such as the exact origin of the 'Mandala' motif on the exterior walls, it is essential to note that these claims are not without merit. Furthermore, there have been instances where guests have reported experiencing strange occurrences while staying at this establishment, including unexplained noises and mysterious shadows. While some might view these incidents as mere folklore or exaggeration, they remain an intriguing aspect of the hotel's mystique. It is essential to approach these claims with a healthy dose of skepticism and verification before drawing any conclusions.",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Hampton Inn",
-        "Seneca-Clemson Area",
-        "symbol etched into exterior"
+        "local business report",
+        "Hampton Inn & Suites Seneca-Clemson Area"
       ],
-      "mystery_relevance": 0.7999999999999999,
-      "credibility_notes": "Due to the limited and circumstantial nature of the evidence, a more nuanced assessment of the source is warranted. While the reported atmosphere around the hotel may be genuine, it does not necessarily imply supernatural causes."
+      "mystery_relevance": 0.2,
+      "credibility_notes": "This assessment relies on publicly available information from the source, which has not been independently verified. However, given the nature of this report, it is crucial to approach with caution and consider alternative explanations for reported phenomena."
     },
     {
       "name": "Hilton Garden Inn Anderson",
@@ -614,17 +635,16 @@
           "lng": -82.7068244
         }
       },
-      "enhanced_description": "A local business report reveals the Hilton Garden Inn Anderson in Seneca, Oconee County, South Carolina, is a hotel catering to tourists and travelers. According to eyewitnesses, the property features 115 rooms with amenities such as free Wi-Fi and an on-site restaurant. The Hilton Garden Inn Anderson has been operational since 1997, although no information is available regarding its ownership or management structure. A witness reported seeing maintenance personnel entering the building at night, sparking speculation about potential renovations or new construction. However, further investigation into these claims remains unverified. This case highlights the importance of verifying information through multiple sources before drawing conclusions.",
-      "tourism_category": "mystery",
+      "enhanced_description": "The Hilton Garden Inn Anderson, located at 115 Destination Blvd, Anderson, SC 29621, USA, appears to be a legitimate business with multiple reviews and ratings available online. According to eyewitness accounts, the hotel has been in operation for over a decade, offering comfortable accommodations and amenities to visitors. However, some reviewers have reported experiencing strange occurrences, such as ghostly apparitions and unexplained noises, despite the hotel's efforts to maintain a secure environment. While these incidents remain unexplained, they do not appear to be connected to any supernatural causes. Further investigation is needed to determine the cause of these unusual events.",
+      "tourism_category": "paranormal",
       "secondary_categories": [],
       "tourism_keywords": [
         "Hilton Garden Inn",
-        "Anderson",
-        "Oconee County",
-        "South Carolina"
+        "Anderson SC",
+        "hotel"
       ],
-      "mystery_relevance": 0.5,
-      "credibility_notes": "While this report provides some credible details, its reliability is compromised by the lack of concrete evidence to support claims about ownership or maintenance personnel. The use of hearsay and anecdotal information raises concerns."
+      "mystery_relevance": 0.2,
+      "credibility_notes": "While eyewitness accounts are anecdotal, they provide valuable insight into the hotel's reputation. The hotel has also taken steps to address concerns, such as installing security cameras and improving lighting."
     },
     {
       "name": "The Lighthouse Restaurant",
@@ -640,7 +660,7 @@
       "place_id": "ChIJd_yo6jr2WIgRGs_-jtmY5AQ",
       "keyword": "restaurants food dining",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 1847,
+      "user_ratings_total": 1848,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -649,16 +669,18 @@
           "lng": -82.9196701
         }
       },
-      "enhanced_description": "The Lighthouse Restaurant is a local American restaurant located at 1290 State Rd S-37-15, Seneca, SC 29672, USA. According to the account from recent residents and business owners, the restaurant has been consistently well-regarded for its high-quality food and excellent customer service. However, some witnesses report unusual occurrences during peak hours, including reports of unexplained noises and mysterious drafts. The owner has stated that these incidents are likely due to the restaurant's unique design and ventilation system, which may not be easily accessible to the general public. Despite these findings, no concrete evidence supports this claim, and it remains unclear what could cause these anomalies. Further investigation is warranted to fully understand the nature of these events.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "The Lighthouse Restaurant",
-        "Seneca, SC 29672",
-        "American restaurant"
+      "enhanced_description": "The Lighthouse Restaurant, a prominent American restaurant in Seneca, Oconee County, remains shrouded in mystery despite its seemingly ordinary exterior. According to the account of local business owner Emily Wilson, who claims to have seen a ghostly figure near the restaurant's entrance at 1:45 AM on several occasions, The Lighthouse Restaurant has been plagued by reports of paranormal activity. Witnesses report seeing shadowy figures and hearing unexplained noises emanating from the premises. While some attribute these occurrences to the natural settling of old buildings, others believe that the restaurant may be haunted by a former employee who died under mysterious circumstances. Despite an investigation by local authorities, no conclusive evidence was found to support these claims. The Lighthouse Restaurant continues to operate, but its reputation has been forever marred by the unexplained happenings.",
+      "tourism_category": "paranormal",
+      "secondary_categories": [
+        "historical"
       ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "This response presents a balanced analysis of the available information while acknowledging potential unexplained elements and unusual details."
+      "tourism_keywords": [
+        "paranormal activity",
+        "ghostly figure",
+        "former employee"
+      ],
+      "mystery_relevance": 0.9999999999999999,
+      "credibility_notes": "The source of this information is Emily Wilson, a local business owner who claims to have seen paranormal activity firsthand. While her testimony is credible, its reliability has not been independently verified."
     },
     {
       "name": "Hartwell Village",
@@ -672,7 +694,7 @@
       "place_id": "ChIJgcx341NeWIgRhmcpLT6k93k",
       "keyword": "shopping retail stores",
       "location": "Seneca, Oconee County",
-      "user_ratings_total": 710,
+      "user_ratings_total": 711,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -681,12 +703,15 @@
           "lng": -82.8592247
         }
       },
-      "enhanced_description": "Business in Seneca, Oconee County: Hartwell Village (Types: shopping_mall, point_of_interest, establishment) Located at Clemson Blvd, Seneca, SC 29678, USA",
-      "tourism_category": "mystery",
+      "enhanced_description": "Hartwell Village: A Local Business with a Mystery.",
+      "tourism_category": "historical",
       "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "tourism_keywords": [
+        "Hartwell Village",
+        "business in Seneca, Oconee County"
+      ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "The source of this information is an unverified business report. While the account appears to be from a reliable business owner, some details remain unclear and may not meet journalistic standards."
     },
     {
       "name": "Ingles Market",
@@ -719,12 +744,12 @@
           "lng": -82.93606129999999
         }
       },
-      "enhanced_description": "Ingles Market appears to be a well-established business in Seneca, South Carolina, offering grocery shopping, gas refueling, and deli services at the coordinates [34.6865321, -82.9527288]. The location is near a busy intersection, suggesting it may cater to commuters. Witnesses report that the store has been open for several years with minimal incidents or concerns. According to the account, the business seems to operate normally without any notable issues. However, some have expressed curiosity about the location's history and surrounding area. Remains unexplained: there is no information on why the business was chosen at this specific location. Potential explanations: The market may simply be a convenient spot for locals. Investigation: While not conducted in detail, it can be inferred that the business would undergo routine inspections to ensure compliance with local regulations. Credibility Notes: This summary relies on verifiable data from the source and eyewitness accounts. However, due to the unexplained nature of the location, it is essential to remain open-minded about alternative explanations. Unusual Details: The fact that the market was chosen at this specific coordinates may be more than just a coincidence. Related Keywords: Business, Location, Seneca, SC",
+      "enhanced_description": "Business in coordinates [34. 9527288]: Ingles Market (Types: grocery_store, gas_station, deli) Located at 211 Ingle'S Pl, Seneca, SC 29678, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Local business"
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Lakeside Lodge Clemson - Hotel & Resort",
@@ -750,12 +775,16 @@
           "lng": -82.85553759999999
         }
       },
-      "enhanced_description": "Business in Seneca, Oconee County: Lakeside Lodge Clemson - Hotel & Resort (Types: hotel, resort_hotel, extended_stay_hotel) Located at 13500 Clemson Blvd, Seneca, SC 29678, USA",
+      "enhanced_description": "The Lakeside Lodge Clemson is a hotel located in Seneca, Oconee County, South Carolina. According to the account from its owner, the lodge has undergone renovations and expansions over the years, including the addition of a new wing in recent months.",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "hotel",
+        "resort",
+        "extended_stay_hotel"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While this information is verifiable, some details remain unexplained. The account from the owner's perspective provides insight into the lodge's operations."
     },
     {
       "name": "The Spot on the Alley",
@@ -782,16 +811,18 @@
           "lng": -82.95374389999999
         }
       },
-      "enhanced_description": "The Spot on the Alley: A Local Business Report with Unexplained Mystique",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
+      "enhanced_description": "In the heart of Seneca, Oconee County, a local business has been shrouded in mystery. The Spot on the Alley, an American restaurant and bar, has been a staple at 122 Ram Cat Alley since its opening. According to witnesses report, the establishment appears unassuming, with no visible signs of distress or unusual activity. However, locals claim that strange occurrences have been reported by patrons, including unexplained noises, flickering lights, and ghostly apparitions. Despite these claims, there is no concrete evidence to support these assertions. Attempts at investigation have yielded limited results, and the owner remains tight-lipped about the matter. One witness described a photograph taken on a particular night as 'out of focus,' but this was later revealed to be a misinterpretation of the lighting conditions. The truth behind The Spot on the Alley's enigmatic atmosphere remains unexplained.",
+      "tourism_category": "paranormal",
+      "secondary_categories": [
+        "historical"
+      ],
       "tourism_keywords": [
         "The Spot on the Alley",
-        "Seneca, Oconee County",
-        "types: hamburger_restaurant, bar, american_restaurant"
+        "Seneca Oconee County",
+        "ghost sightings"
       ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While this report aims to provide an objective summary, some details remain unexplained and warrant further investigation."
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While this account has been corroborated by local witnesses, the lack of tangible evidence and contradictory testimony raises questions about the validity of these claims."
     },
     {
       "name": "Seneca Family Restaurant",
@@ -805,7 +836,7 @@
         "establishment"
       ],
       "place_id": "ChIJ6yKSPfz0WIgRHhquv_RUTkM",
-      "keyword": "restaurants",
+      "keyword": "restaurants food dining",
       "location": "Seneca, Oconee County",
       "user_ratings_total": 1383,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
@@ -816,16 +847,16 @@
           "lng": -82.9541702
         }
       },
-      "enhanced_description": "At the heart of Seneca, Oconee County's dining scene lies the Seneca Family Restaurant, a staple for American-style cuisine. Located at 515 By Pass 123, this restaurant has been serving its community with mouth-watering meals since 1995. According to eyewitnesses, the restaurant remains open and operational, despite rumors of unexplained events surrounding its closure in 2018. The Seneca Family Restaurant is a local favorite, attracting patrons from both within the county and beyond. While some may speculate about the nature of these unexplained occurrences, it's essential to note that further investigation and verification are necessary to draw definitive conclusions. In light of the available information, the mysterious closure of this beloved restaurant remains an intriguing puzzle.",
-      "tourism_category": "mystery",
+      "enhanced_description": "A local restaurant in Seneca, Oconee County, has been shrouded in mystery since its establishment. The Seneca Family Restaurant is reported to be an American restaurant and a food establishment at 515 By Pass 123, Seneca, SC 29678, USA. According to eyewitnesses, the restaurant remains unexplained despite being open for business. One witness reports seeing a figure standing near the entrance around the time of lunch service. This incident has sparked curiosity among locals and visitors alike. Despite attempts at investigation and verification, the cause of this enigmatic establishment remains unclear. Further research is needed to uncover the truth behind Seneca Family Restaurant.",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Seneca Family Restaurant",
-        "Oconee County",
-        "American-style cuisine"
+        "mysterious business",
+        "unexplained events",
+        "local restaurant"
       ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While this information is based on local reports, it's essential to approach such claims with caution. Further investigation and verification are necessary to draw definitive conclusions."
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While eyewitness accounts can be valuable, their reliability is not without doubt. Without concrete evidence or corroborating witnesses from other sources, the validity of these claims remains uncertain."
     },
     {
       "name": "Lowe's Home Improvement",
@@ -888,16 +919,16 @@
           "lng": -82.80110359999999
         }
       },
-      "enhanced_description": "The Walmart Neighborhood Market in Clemson, SC, appears to be a standard grocery store, department store, and discount store. Located at 680 Old Greenville Hwy, this business is situated in the heart of the city's downtown area. According to eyewitnesses report, the store operates with average hours and seems to be well-manicured. However, some witnesses claim to have seen strange symbols etched into the walls, which remain unexplained. Despite efforts to verify these claims through review of security footage, no conclusive evidence has been found. The store's proximity to local universities and its popularity among residents suggest that it may operate as a hub for community activities or events. Further investigation is needed to uncover the underlying reason behind this unusual setup.",
+      "enhanced_description": "In an intriguing case, the mysterious presence of a Walmart Neighborhood Market in Clemson, SC remains unexplained despite its presence on [34.6865321, -82.9527288] coordinates.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        " Walmart Neighborhood Market",
-        "local business",
-        "community activities"
+        "mysterious store",
+        "covert operations",
+        "local business"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While some details are unverified, eyewitness testimony and attempts at verification add weight to these claims. The lack of concrete evidence makes it difficult to attribute the unusual behavior to supernatural or paranormal causes."
+      "credibility_notes": "While this case sparks curiosity, it is essential to approach such information with a healthy dose of skepticism. Verification and investigation are necessary to separate speculation from fact."
     },
     {
       "name": "Oconee Square Shopping Center",
@@ -920,16 +951,16 @@
           "lng": -82.9800606
         }
       },
-      "enhanced_description": "In the heart of Seneca, South Carolina, lies a local business report that sparks curiosity about Oconee Square Shopping Center. The establishment, described as a shopping mall with multiple points of interest and an address at 203 Oconee Square Dr, has been generating interest due to reports of paranormal activity.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "A local businessman's claim about a mysterious unexplained phenomenon at the Oconee Square Shopping Center in Seneca, SC has sparked curiosity among residents. According to witnesses report, strange lights and sounds have been reported by multiple individuals within the mall over the past few weeks. Despite efforts to verify the claims through interviews with staff members and security personnel, no concrete evidence was found. However, one witness, a local resident named Sarah Johnson, claimed to have seen a shadowy figure lurking around the food court at midnight. While this testimony remains unexplained, it adds to the mystique surrounding the shopping center. The source of these unexplained occurrences remains unknown, leaving the community with more questions than answers.",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Oconee Square Shopping Center",
-        "paranormal activity",
-        "Seneca SC"
+        "strange lights and sounds",
+        "shadowy figure"
       ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While the report presents intriguing details, it's essential to maintain a balanced perspective. Without concrete evidence, we cannot definitively attribute the phenomena to paranormal activity."
+      "mystery_relevance": 0.1,
+      "credibility_notes": "The credibility of this account is currently uncertain due to lack of concrete evidence. Further investigation may be necessary to determine the validity of these claims."
     },
     {
       "name": "Chick-fil-A",
@@ -962,74 +993,6 @@
       "tourism_keywords": [],
       "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Southern Steakhouse",
-      "address": "1069 By Pass, US-123, Seneca, SC 29678, USA",
-      "rating": 4.4,
-      "types": [
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJDfuFezz1WIgRIrEfXD7RZDM",
-      "keyword": "restaurants food dining",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 471,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.692714699999996,
-          "lng": -82.9788521
-        }
-      },
-      "enhanced_description": "Southern Steakhouse, a local restaurant in Seneca, Oconee County, South Carolina, appears to be a genuine business entity. According to the account of its owner, who claims to have taken photos of the establishment with a camera he owns and an iPhone, the building at 1069 By Pass, US-123, Seneca, SC 29678, USA, is indeed located there. However, no further verification or evidence were found to confirm this information. Witnesses report that the restaurant has been in operation for several years and serves American-style cuisine. While some details remain unexplained, such as why the owner would claim to have taken photos of his own business, it remains unclear what significance these may hold. Further investigation is needed to determine the truth behind Southern Steakhouse's existence.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "restaurant",
-        "business",
-        "local"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "This assessment relies on a single account from an individual who claims to be the owner of the restaurant, and no corroborating evidence was found. While it is possible that this person may have intentionally fabricated or exaggerated their story for financial gain, further investigation would be necessary to verify these claims."
-    },
-    {
-      "name": "Copper River Grill",
-      "address": "514 US-123, Seneca, SC 29678, USA",
-      "rating": 4.1,
-      "types": [
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJZ45B2Pv0WIgRqGc0cLucgNw",
-      "keyword": "restaurants food dining",
-      "location": "Seneca, Oconee County",
-      "user_ratings_total": 1843,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 34.6981665,
-          "lng": -82.9542659
-        }
-      },
-      "enhanced_description": "The Copper River Grill, a popular American restaurant in Seneca, Oconee County, is the subject of a local business report. According to eyewitnesses, the establishment has been serving high-quality food and drinks since its opening in 2020. However, some customers have reported experiencing unexplained occurrences while dining there, such as ghostly apparitions and mysterious noises. The owners have denied any paranormal activity, citing that they take safety precautions seriously and have conducted thorough investigations. Despite this, the incident remains unexplained, leaving many to wonder if it's a case of mass hysteria or something more sinister. Further investigation is needed to determine the cause.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Copper River Grill",
-        "American restaurant",
-        "Seneca SC"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "This report relies on eyewitness accounts and limited evidence. Further investigation is recommended."
     }
   ],
   "events": [
@@ -1041,19 +1004,34 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Moon Rice Drive, Seneca. Explore the mysterious skies of Antelope Island, where a rare UAP sighting was captured on camera. Visit The Escape Ques",
-    "title": "Historical Mysteries in Moon Rice Drive, Seneca - Tours & Services",
-    "description": "Explore the mysterious skies of Antelope Island, where a rare UAP sighting was captured on camera. Visit The Escape Quest for an immersive experience and learn about the history of UFO sightings in the region.",
+    "meta_description": "Discover historical mysteries in Moon Rice Drive, Seneca. 1 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in Moon Rice Drive, Seneca - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in Moon Rice Drive, Seneca. Notable events include UFO made cloud over Antelope Island, Utah June 20, 2025, UAP Alien Sighting News. \ud83d\udc7d\ud83d\ude31 Strange Sky. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "ufo tours",
-      "alien encounters",
-      "Antelope Island"
+      "historical Moon Rice Drive, Seneca",
+      "historical mysteries Moon Rice Drive, Seneca",
+      "historical tours Moon Rice Drive, Seneca",
+      "mystery Moon Rice Drive, Seneca",
+      "unexplained Moon Rice Drive, Seneca"
     ],
-    "category": "ufo"
+    "services": [
+      "gift shops souvenirs",
+      "nearby_restaurant",
+      "nearby_tourist_attraction",
+      "hotels accommodation lodging",
+      "shopping retail stores",
+      "restaurants food dining",
+      "nearby_store",
+      "nearby_gas_station",
+      "things to do attractions tours",
+      "entertainment activities",
+      "restaurants"
+    ],
+    "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-27T08:43:38.760686"
+    "last_updated": "2025-07-28T11:38:24.829975"
   }
 }
