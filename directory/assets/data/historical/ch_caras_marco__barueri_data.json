@@ -1,7 +1,7 @@
 {
   "location_name": "Ch\u00e1caras Marco, Barueri",
   "category": "historical",
-  "timestamp": "20250727_104405",
+  "timestamp": "20250728_140056",
   "businesses": [
     {
       "name": "Sara's Mediterranean Caf\u00e9 & Grill",
@@ -17,7 +17,7 @@
       "place_id": "ChIJM2Jbn0pv4oYRDbxpnOx37Nc",
       "keyword": "restaurants food dining",
       "location": "Work, ",
-      "user_ratings_total": 953,
+      "user_ratings_total": 955,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -26,17 +26,16 @@
           "lng": -104.52351759999999
         }
       },
-      "enhanced_description": "A local business in Roswell, NM, Sara's Mediterranean Caf\u00e9 & Grill has been attracting customers with its Mediterranean-inspired menu. According to witnesses report, the caf\u00e9 is open daily from 8am-10pm and serves a variety of dishes, including gyros, falafel, and shawarma. The business remains unexplained, as there are no clear sources or evidence to support claims about its origins. While some customers have reported encountering unusual individuals near the location, these sightings remain anecdotal. It's worth noting that the caf\u00e9 has been in operation for several years without any significant incidents or complaints. Despite this lack of concrete information, Sara's Mediterranean Caf\u00e9 & Grill continues to draw curious patrons.",
-      "tourism_category": "mystery",
+      "enhanced_description": "Sara's Mediterranean Caf\u00e9 & Grill: A Local Restaurant with a Unique History",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
         "Sara's Mediterranean Caf\u00e9 & Grill",
-        "Mediterranean restaurant",
-        "Restaurant in Roswell",
-        "Food business"
+        "mystery restaurant",
+        "new mexico"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source of this information is unclear and lacks concrete evidence to support claims about Sara's Mediterranean Caf\u00e9 & Grill."
+      "credibility_notes": "While this report provides some verifiable information about the business, it relies on a single source and lacks concrete evidence to support certain claims. Further investigation is recommended."
     },
     {
       "name": "Carlsbad Caverns National Park Visitor Center",
@@ -46,8 +45,8 @@
         "visitor_center",
         "hiking_area",
         "tourist_information_center",
-        "park",
         "tour_agency",
+        "park",
         "travel_agency",
         "sports_activity_location",
         "point_of_interest",
@@ -56,7 +55,7 @@
       "place_id": "ChIJl3Mk4pV55IYRaWp5KybiJB4",
       "keyword": "things to do attractions tours",
       "location": "Work, ",
-      "user_ratings_total": 7639,
+      "user_ratings_total": 7645,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -65,19 +64,42 @@
           "lng": -104.44423289999999
         }
       },
-      "enhanced_description": "A local business report reveals the mysterious circumstances surrounding the Carlsbad Caverns National Park Visitor Center. According to witnesses, strange lights were seen entering and exiting the building on several nights in January 2023. Despite attempts at investigation, no concrete evidence has been found to explain these occurrences. Some claim to have experienced unexplained noises, temperature fluctuations, and an unusual odor within the center. While some attribute these events to paranormal activity, others believe they might be related to a recent construction project or natural phenomena. One witness reported seeing shadows moving around the visitor center, which remains unexplained. The park's management has not commented on the incidents, fueling speculation about the true cause of these strange happenings.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Work, : Carlsbad Caverns National Park Visitor Center (Types: visitor_center, hiking_area, tourist_information_center) Located at 727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Carlsbad Caverns National Park Visitor Center",
-        "strange lights",
-        "unexplained noises",
-        "temperature fluctuations",
-        "unusual odor",
-        "paranormal activity"
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Carlsbad Caverns National Park",
+      "address": "Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
       ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Based on a brief assessment of source reliability, this report relies on eyewitness accounts and limited investigation attempts. While some details remain unexplained, others are subjective or anecdotal."
+      "place_id": "ChIJW9e4xBN544YRvbI7vfc91G4",
+      "keyword": "things to do attractions tours",
+      "location": "Work, ",
+      "user_ratings_total": 16813,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.137045,
+          "lng": -104.5437529
+        }
+      },
+      "enhanced_description": "Business in Work, : Carlsbad Caverns National Park (Types: national_park, tourist_attraction, park) Located at Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Roswell UFO Spacewalk",
@@ -100,16 +122,14 @@
           "lng": -104.5218015
         }
       },
-      "enhanced_description": "A local business in Roswell, New Mexico has been reported to have hosted a UFO spacewalk, which sparks curiosity and raises questions about the nature of this alleged event. According to witnesses, an unidentified flying object (UFO) was seen hovering over the Roswell Space Museum, where it allegedly detached and escaped into space during a live observation session at 11:45 AM local time on June 14th. The incident remains unexplained, with no conclusive evidence found to support its authenticity. While some claim to have captured footage of the event, many experts consider it a hoax or misidentification. Despite this, the Roswell UFO Spacewalk continues to fascinate those interested in the unknown, leaving us with more questions than answers.",
+      "enhanced_description": "Business in Work, : Roswell UFO Spacewalk (Types: planetarium, point_of_interest, establishment) Located at 116 E 2nd St, Roswell, NM 88201, USA",
       "tourism_category": "ufo",
       "secondary_categories": [],
       "tourism_keywords": [
-        "UFO",
-        "Roswell",
-        "Space Museum"
+        "ufo"
       ],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Based on limited sources, including eyewitness accounts and unverified footage, I have assessed this information with a healthy dose of skepticism. While the incident is intriguing, it remains unclear what actually occurred."
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Sitting Bull Falls Recreation Area",
@@ -135,15 +155,19 @@
           "lng": -104.6974211
         }
       },
-      "enhanced_description": "A local business report sheds light on the Sitting Bull Falls Recreation Area, a type of picnic ground, campground, and park in Carlsbad, NM. According to eyewitnesses, the area has been open for recreational activities, including fishing and hiking. However, there have been some unexplained occurrences, such as strange noises and lights reported by visitors. Despite these incidents, the majority of witnesses report a peaceful and enjoyable experience. The recreation area remains unexplained, with no concrete evidence or investigation to suggest supernatural causes. As with any local business, it's essential to approach this topic with an open mind while acknowledging potential explanations for unusual events.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "The Sitting Bull Falls Recreation Area has been a popular destination for outdoor enthusiasts in Carlsbad, NM. Located at 742 Sitting Bull Falls Rd, this park features picnic grounds, a campground, and a scenic park with stunning views of the nearby waterfall.",
+      "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "Sitting Bull Falls Recreation Area",
-        "Carlsbad, NM"
+        "Sitting Bull Falls",
+        "Recreation Area",
+        "Waterfall",
+        "Carlsbad",
+        "NM",
+        "USA"
       ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "While the report provides some interesting details, it's essential to note that eyewitness accounts can be subjective and influenced by personal experiences. Without concrete evidence or investigation, it's challenging to verify these claims."
+      "credibility_notes": "While this anecdotal evidence adds to the mystery, it remains unverified and lacks concrete proof."
     },
     {
       "name": "Permian Basin Petroleum Museum",
@@ -158,7 +182,7 @@
       "place_id": "ChIJLSwNsBHY-4YRSouy1oKKU-4",
       "keyword": "museums",
       "location": "Work, ",
-      "user_ratings_total": 1009,
+      "user_ratings_total": 1010,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -175,56 +199,19 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Tiny's Burger Barn",
-      "address": "503 W Broadway St, Tatum, NM 88267, USA",
-      "rating": 4.7,
-      "types": [
-        "hamburger_restaurant",
-        "fast_food_restaurant",
-        "coffee_shop",
-        "mexican_restaurant",
-        "cafe",
-        "american_restaurant",
-        "food_store",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJs0_HitI6_YYRPh2l9Vq_5zs",
-      "keyword": "restaurants food dining",
-      "location": "Work, ",
-      "user_ratings_total": 912,
-      "price_level": "PRICE_LEVEL_INEXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.2566126,
-          "lng": -103.32280809999999
-        }
-      },
-      "enhanced_description": "Business in Work, : Tiny's Burger Barn (Types: hamburger_restaurant, fast_food_restaurant, coffee_shop) Located at 503 W Broadway St, Tatum, NM 88267, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Invasion Station",
       "address": "600 N Main St, Roswell, NM 88201, USA",
       "rating": 4.7,
       "types": [
         "gift_shop",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
       "keyword": "gift shops souvenirs",
       "location": "Work, ",
-      "user_ratings_total": 937,
+      "user_ratings_total": 938,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -233,7 +220,7 @@
           "lng": -104.52308529999999
         }
       },
-      "enhanced_description": "Business in Work, : Invasion Station (Types: gift_shop, point_of_interest, store) Located at 600 N Main St, Roswell, NM 88201, USA",
+      "enhanced_description": "Business in Work, : Invasion Station (Types: gift_shop, store, point_of_interest) Located at 600 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -247,15 +234,15 @@
       "types": [
         "rv_park",
         "campground",
-        "lodging",
         "park",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
       "keyword": "camping rv parks",
       "location": "Work, ",
-      "user_ratings_total": 673,
+      "user_ratings_total": 675,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -264,19 +251,12 @@
           "lng": -104.4985148
         }
       },
-      "enhanced_description": "A local business report from Trailer Village RV Park reveals a complex situation at the Roswell, NM location. According to witnesses, employees have reported strange occurrences, including unexplained noises and movements. Despite these reports, there is no concrete evidence to support the claims of paranormal activity. The business owner has stated that they take all allegations seriously but cannot provide further details. Investigation efforts have been made, but no clear explanations have emerged. Unusual details, such as an eyewitness claiming to have seen a UFO in the area, add to the mystery. While it is essential to consider unusual events, this case remains unexplained.",
-      "tourism_category": "ufo",
-      "secondary_categories": [
-        "paranormal",
-        "historical"
-      ],
-      "tourism_keywords": [
-        "paranormal activity",
-        "UFO sighting",
-        "Roswell, NM"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "The source of the information is not explicitly stated, raising questions about reliability. However, it is noted that witnesses report their experiences without fear or intimidation."
+      "enhanced_description": "Business in Work, : Trailer Village RV Park (Types: rv_park, campground, park) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Roswell Visitor Center",
@@ -302,18 +282,12 @@
           "lng": -104.5230764
         }
       },
-      "enhanced_description": "The Roswell Visitor Center has been at the center of a decades-long mystery surrounding its establishment, fueled by unexplained events and sightings. Located in downtown Roswell, New Mexico, the visitor center is also home to the alleged alien crash site where the Wright brothers are said to have made their first powered flight in 1903. According to witnesses, strange occurrences such as inexplicable noises, lights, and even UFO sightings continue to be reported by visitors. Despite numerous investigations and verifications, the truth behind these claims remains unexplained. Some attribute these phenomena to misinterpretation or exaggeration, while others propose alternative explanations for the alleged alien encounters. The Roswell Visitor Center remains a topic of fascination and speculation, with many questions still unanswered.",
-      "tourism_category": "ufo",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Roswell",
-        "alien crash site",
-        "Wright brothers"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "Based on available sources, this summary attempts to provide an objective overview of the Roswell Visitor Center's history and reported incidents. However, due to the nature of the subject matter, some aspects may be considered speculative or open to interpretation."
+      "enhanced_description": "Business in Work, : Roswell Visitor Center (Types: visitor_center, tourist_information_center, tour_agency) Located at 426 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Walatowa Visitor Center",
@@ -328,7 +302,7 @@
       "place_id": "ChIJx9JFE4SQIocREFq5R6KoQOk",
       "keyword": "museums visitor centers",
       "location": "Work, ",
-      "user_ratings_total": 703,
+      "user_ratings_total": 704,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -337,16 +311,50 @@
           "lng": -106.72624139999999
         }
       },
-      "enhanced_description": "The Walatowa Visitor Center, a museum and tourist attraction in Jemez Pueblo, New Mexico, is a local business with a rich history. Located at 7413 NM-4, Jemez Pueblo, NM 87024, USA, the center offers insight into the region's cultural heritage. According to account from a visitor, the center was established by the Jemez Pueblo tribe and serves as a hub for community events and educational programs. However, some witnesses report unusual occurrences, such as strange noises and unexplained movements. Despite these claims, no concrete evidence has been found to support these allegations. The Visitor Center remains an important cultural institution in the region, offering a glimpse into the lives of the Jemez Pueblo people.",
+      "enhanced_description": "Business in Work, : Walatowa Visitor Center (Types: museum, tourist_attraction, point_of_interest) Located at 7413 NM-4, Jemez Pueblo, NM 87024, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Wahatowa Visitor Center",
-        "Jemez Pueblo cultural center",
-        "museum and tourist attractions"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 1.0,
-      "credibility_notes": "While this report is based on available information, some details may be unverified or anecdotal. The authenticity of these claims cannot be confirmed without further investigation."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Kith+Kin Roasting Co",
+      "address": "105 N 5th St, Artesia, NM 88210, USA",
+      "rating": 4.6,
+      "types": [
+        "coffee_shop",
+        "ice_cream_shop",
+        "dessert_shop",
+        "bakery",
+        "confectionery",
+        "deli",
+        "cafe",
+        "food_store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJBazj1cGu44YRIsbKrFDFQP4",
+      "keyword": "restaurants",
+      "location": "Work, ",
+      "user_ratings_total": 533,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.8426043,
+          "lng": -104.4024602
+        }
+      },
+      "enhanced_description": "Business in Work, : Kith+Kin Roasting Co (Types: coffee_shop, ice_cream_shop, dessert_shop) Located at 105 N 5th St, Artesia, NM 88210, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Pillow's Funtrackers",
@@ -370,16 +378,12 @@
           "lng": -105.6564371
         }
       },
-      "enhanced_description": "Pillow's Funtrackers, a local business in Ruidoso, NM, operates as an amusement center, tourist attraction, and point of interest. Located at 101 Carrizo Canyon Rd, the business attracts visitors from across the region. According to witnesses report, customers have reported experiencing strange occurrences such as unexplained noises, moving shadows, and faint lights within the premises. While these claims remain unexplained, some employees seem hesitant to discuss them openly. Despite efforts to verify the reports through interviews with staff members, no concrete evidence has been found. The source of these events remains unclear, leaving many to speculate about potential paranormal explanations or misinterpretation of natural phenomena. Further investigation is needed to determine the validity of these claims.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Work, : Pillow's Funtrackers (Types: amusement_center, tourist_attraction, point_of_interest) Located at 101 Carrizo Canyon Rd, Ruidoso, NM 88345, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "amusement center",
-        "tourist attraction",
-        "point of interest"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "The reliability of this source is questionable due to lack of concrete evidence and anonymous statements from employees. The account lacks corroboration from multiple witnesses, raising suspicions about the potential for confirmation bias or fabrication."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Billy The Kid Museum",
@@ -394,7 +398,7 @@
       "place_id": "ChIJZ6cTQS35HIcRIb8_UMXV7NM",
       "keyword": "museums",
       "location": "Work, ",
-      "user_ratings_total": 1736,
+      "user_ratings_total": 1737,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -403,18 +407,12 @@
           "lng": -104.2293296
         }
       },
-      "enhanced_description": "The Billy The Kid Museum in Fort Sumner, New Mexico is a unique attraction that combines history and entertainment. Located at 1435 Sumner Ave, this museum showcases the life of the infamous outlaw Billy The Kid through interactive exhibits and artifacts. According to witnesses report, the museum has been open for several years and receives an average of 500 visitors per month. However, there are reports of ghostly apparitions and unexplained occurrences within the museum's walls. Despite these incidents, the museum remains a popular tourist destination, with many visitors reporting positive experiences. Investigation into the source of these paranormal events is ongoing, but so far, no conclusive evidence has been found. As such, it remains unclear what causes these reported phenomena. Further research and analysis are needed to fully understand this phenomenon.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "museum",
-        "tourist attraction",
-        "point_of_interest"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While there are unexplained occurrences reported by witnesses, the museum's management has not provided any evidence to support these claims."
+      "enhanced_description": "Business in Work, : Billy The Kid Museum (Types: museum, tourist_attraction, point_of_interest) Located at 1435 Sumner Ave, Fort Sumner, NM 88119, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Blue Tree Premium Alphaville",
@@ -428,7 +426,7 @@
       ],
       "place_id": "ChIJ75p0_zhXzpQRJt8W3B7u4oo",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 4840,
+      "user_ratings_total": 4844,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -452,15 +450,15 @@
         "restaurant",
         "steak_house",
         "hamburger_restaurant",
-        "bar",
         "american_restaurant",
-        "food",
+        "bar",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJu8NXERgCz5QRQM_JS3uWBYc",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 10645,
+      "user_ratings_total": 10646,
       "price_level": "PRICE_LEVEL_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -489,7 +487,7 @@
       ],
       "place_id": "ChIJfV4al_pWzpQR0a3ayQ6Oa28",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 110388,
+      "user_ratings_total": 110414,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -517,7 +515,7 @@
       ],
       "place_id": "ChIJv7npCbgDz5QRj-iOCyGLDpo",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 24373,
+      "user_ratings_total": 24374,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -526,16 +524,12 @@
           "lng": -46.8746739
         }
       },
-      "enhanced_description": "Located in the heart of Barueri, Parque Municipal Dom Jos\u00e9 - Barueri is a bustling park and tourist attraction that has been a staple in the community for decades. This report aims to provide an objective summary of this local business, highlighting its unique features and notable characteristics. While no concrete evidence supports supernatural claims, witnesses report that the park's lush gardens and vibrant flora are truly remarkable, making it a must-visit destination for nature enthusiasts. However, some details remain unexplained, such as the exact origin of certain plant species. Despite these unanswered questions, this report remains committed to uncovering verifiable facts and shedding light on the fascinating world around us.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [-23. 8862958]: Parque Municipal Dom Jos\u00e9 - Barueri (Types: park, tourist_attraction, point_of_interest) Located at Rua \u00c2ngela Mirella, 500 - Jardim Maria Tereza, Barueri - SP,...",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "park",
-        "tourist attraction",
-        "point_of_interest"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality"
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Red Barn RV Park",
@@ -544,8 +538,8 @@
       "types": [
         "rv_park",
         "campground",
-        "lodging",
         "park",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
@@ -561,7 +555,7 @@
           "lng": -104.48201720000002
         }
       },
-      "enhanced_description": "Business in Work, : Red Barn RV Park (Types: rv_park, campground, lodging) Located at 2806 E 2nd St, Roswell, NM 88201, USA",
+      "enhanced_description": "Business in Work, : Red Barn RV Park (Types: rv_park, campground, park) Located at 2806 E 2nd St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -578,7 +572,7 @@
         "establishment"
       ],
       "place_id": "ChIJiSurDx1x4oYReAAac9B_9Zo",
-      "keyword": "attractions",
+      "keyword": "things to do attractions tours",
       "location": "Work, ",
       "user_ratings_total": 493,
       "price_level": null,
@@ -589,16 +583,12 @@
           "lng": -104.51983419999999
         }
       },
-      "enhanced_description": "The Roswell Historical Marker, a local tourist attraction in Roswell, New Mexico, remains shrouded in mystery. Located at 88201, USA, this establishment appears to be a working historical marker, offering information about the area's history. According to eyewitness accounts, visitors can find out more about the region's past and its significance through various exhibits and displays. However, there are unexplained elements that remain within the site. For instance, some witnesses report seeing unusual lights in the night sky during their visits. The exact nature of these sightings is unclear. Despite efforts to investigate further, no conclusive evidence has been found. As a result, the mystery surrounding this historical marker continues to intrigue visitors and locals alike.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Work, : Roswell Historical Marker (Types: tourist_attraction, point_of_interest, establishment) Located at Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Roswell New Mexico",
-        "Historical Marker",
-        "Tourist Attraction"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "The credibility of the source is limited due to the unverified nature of eyewitness accounts. The authenticity of some exhibits and displays remains uncertain, raising questions about the reliability of the information presented."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cowboy Cafe",
@@ -615,7 +605,7 @@
       "place_id": "ChIJgeqD-i9v4oYRdSClzLKXWfo",
       "keyword": "restaurants food dining",
       "location": "Work, ",
-      "user_ratings_total": 2261,
+      "user_ratings_total": 2262,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -624,47 +614,41 @@
           "lng": -104.50697720000001
         }
       },
-      "enhanced_description": "The Cowboy Cafe, a local Roswell, NM restaurant, has been shrouded in mystery since its opening. The business appears to operate as a standard American restaurant and breakfast establishment, yet whispers of paranormal activity have long circulated among the community.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Cowboy Cafe",
-        "paranormal activity",
-        "Roswell NM"
-      ],
-      "mystery_relevance": 0.7999999999999999,
-      "credibility_notes": "While some eyewitnesses claim to have experienced unexplained occurrences within the cafe, these claims remain anecdotal and lack concrete evidence. Further investigation is necessary to verify these reports."
-    },
-    {
-      "name": "Living Desert Zoo & Gardens State Park",
-      "address": "1504 Skyline Rd, Carlsbad, NM 88220, USA",
-      "rating": 4.5,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJUdU9m_h344YRZ5ETrmASLG0",
-      "keyword": "things to do attractions tours",
-      "location": "Work, ",
-      "user_ratings_total": 1523,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 32.4417945,
-          "lng": -104.2789718
-        }
-      },
-      "enhanced_description": "Business in Work, : Living Desert Zoo & Gardens State Park (Types: state_park, tourist_attraction, park) Located at 1504 Skyline Rd, Carlsbad, NM 88220, USA",
+      "enhanced_description": "Business in Work, : Cowboy Cafe (Types: american_restaurant, breakfast_restaurant, restaurant) Located at 1120 E 2nd St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.6,
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Antigua Cocina Mexicana",
+      "address": "3601 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.5,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7ePmPzpv4oYRUWGBIB4OwsY",
+      "keyword": "restaurants food dining",
+      "location": "Work, ",
+      "user_ratings_total": 1443,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.441347,
+          "lng": -104.52260749999999
+        }
+      },
+      "enhanced_description": "Business in Work, : Antigua Cocina Mexicana (Types: mexican_restaurant, restaurant, food) Located at 3601 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -679,7 +663,7 @@
         "establishment"
       ],
       "place_id": "ChIJn6I0ffNg4oYRalsBEXDIA4k",
-      "keyword": "things to do attractions tours",
+      "keyword": "parks recreation outdoor",
       "location": "Work, ",
       "user_ratings_total": 2756,
       "price_level": null,
@@ -690,17 +674,12 @@
           "lng": -104.3327217
         }
       },
-      "enhanced_description": "A local business report for Bottomless Lakes State Park reveals a unique feature that has piqued the interest of tourists: seemingly bottomless lakes. According to witnesses, one lake appears to be without visible boundaries or edges, prompting curiosity and speculation. While some claim it's an optical illusion, others report experiencing strange occurrences while visiting the park. The state's official website lists the park as a 'state park' with no mention of its unusual feature. Attempts at investigation have yielded conflicting accounts, leaving many wondering if this phenomenon is truly inexplicable. Further research is needed to uncover the truth behind these mystifying lakes.",
+      "enhanced_description": "Business in Work, : Bottomless Lakes State Park (Types: state_park, tourist_attraction, park) Located at 545A Bottomless Lakes Rd, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "lakes",
-        "state park",
-        "tourism",
-        "skeptical"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While some details seem unverifiable, it's essential to approach claims with a healthy dose of skepticism and consider alternative explanations before jumping to conclusions."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Green Meadow Park",
@@ -724,16 +703,42 @@
           "lng": -103.1668467
         }
       },
-      "enhanced_description": "Green Meadow Park, a 27-acre park located at Green Meadow Lake in Hobbs, New Mexico, appears to be a legitimate business catering to tourists and locals alike. According to the account of local resident Emily Wilson, who witnessed the establishment's opening on a fateful morning, the park has been operating since 2015. The park features various activities such as walking trails, picnic areas, and a playground for children. However, it remains unexplained how this business was able to maintain its operations without significant investment or infrastructure. Despite attempts at investigation, no concrete evidence supports the claim that Green Meadow Park is not a genuine business. Witnesses report seeing staff members and maintenance workers in various locations throughout the day, which suggests a high level of operational activity. The park's owner has also provided statements confirming their involvement in the establishment and operations of the facility. While some details may be unverifiable, it is clear that Green Meadow Park is a legitimate business operating at Green Meadow Lake.",
+      "enhanced_description": "Business in Work, : Green Meadow Park (Types: park, tourist_attraction, point_of_interest) Located at Green Meadow Lake, Hobbs, NM 88240, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Green Meadow Park",
-        "Hobbs, New Mexico",
-        "Green Meadow Lake"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality. While eyewitness testimony from a local resident is credible, further investigation is needed to verify the claims."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Living Desert Zoo & Gardens State Park",
+      "address": "1504 Skyline Rd, Carlsbad, NM 88220, USA",
+      "rating": 4.5,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUdU9m_h344YRZ5ETrmASLG0",
+      "keyword": "things to do",
+      "location": "Work, ",
+      "user_ratings_total": 1523,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4417945,
+          "lng": -104.2789718
+        }
+      },
+      "enhanced_description": "Business in Work, : Living Desert Zoo & Gardens State Park (Types: state_park, tourist_attraction, park) Located at 1504 Skyline Rd, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Adobe Rose Restaurant",
@@ -742,8 +747,8 @@
       "types": [
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJn-7z4Zqu44YRVsSb8w6FyGQ",
@@ -758,18 +763,12 @@
           "lng": -104.4124495
         }
       },
-      "enhanced_description": "The enigmatic Adobe Rose Restaurant in Artesia, New Mexico, has been puzzling locals and foodies alike with its unexplained dining hours. According to the account of a source close to the establishment, the restaurant operates on a 10pm to 2am schedule that appears to defy conventional business practices. Despite numerous attempts at investigation, no conclusive evidence has been uncovered to explain this anomaly. Witnesses report receiving cryptic messages and strange phone calls after attempting to inquire about the hours. This mystery remains unexplained, leaving patrons to wonder if there's more to Adobe Rose than meets the eye.",
-      "tourism_category": "historical",
-      "secondary_categories": [
-        "conspiracy"
-      ],
-      "tourism_keywords": [
-        "mystery restaurant",
-        "unusual hours",
-        "conspiracy theory"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While this information is intriguing, it relies on a single unverified source. Further investigation and verification are necessary to separate fact from speculation."
+      "enhanced_description": "Business in Work, : Adobe Rose Restaurant (Types: bar, restaurant, point_of_interest) Located at 1614 N 13th St, Artesia, NM 88210, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Parque Cidade de Toronto",
@@ -783,7 +782,7 @@
       ],
       "place_id": "ChIJJ1OeQuT4zpQRH2L4pbYolGY",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 10297,
+      "user_ratings_total": 10298,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -792,24 +791,20 @@
           "lng": -46.727620099999996
         }
       },
-      "enhanced_description": "Parque Cidade de Toronto: A Local Business Report with Unsettling Claims",
+      "enhanced_description": "Business in coordinates [-23. 8862958]: Parque Cidade de Toronto (Types: tourist_attraction, park, point_of_interest) Located at Av",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "tourist attraction",
-        "park",
-        "point_of_interest"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "This report relies on publicly available information and attempts to verify the existence of the business through online directories. However, some details remain unexplained or lack concrete evidence."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Parque Anhanguera",
       "address": "Avenida Fortunata Tadiello Natucci, 1000 - Antiga - Estr. de Perus - Jardim Santa F\u00e9, S\u00e3o Paulo - SP, 05181-070, Brazil",
       "rating": 4.4,
       "types": [
-        "tourist_attraction",
         "state_park",
+        "tourist_attraction",
         "park",
         "point_of_interest",
         "establishment"
@@ -825,7 +820,7 @@
           "lng": -46.7813905
         }
       },
-      "enhanced_description": "Business in coordinates [-23. 8862958]: Parque Anhanguera (Types: tourist_attraction, state_park, park) Located at Avenida Fortunata Tadiello Natucci, 1000 - Antiga - Estr",
+      "enhanced_description": "Business in coordinates [-23. 8862958]: Parque Anhanguera (Types: state_park, tourist_attraction, park) Located at Avenida Fortunata Tadiello Natucci, 1000 - Antiga - Estr",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -838,8 +833,8 @@
       "rating": 4.3,
       "types": [
         "inn",
-        "hotel",
         "motel",
+        "hotel",
         "lodging",
         "point_of_interest",
         "establishment"
@@ -847,7 +842,7 @@
       "place_id": "ChIJTU7EXvxu4oYRLUsWfgtY2ws",
       "keyword": "hotels accommodation lodging",
       "location": "Work, ",
-      "user_ratings_total": 1088,
+      "user_ratings_total": 1089,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -856,20 +851,12 @@
           "lng": -104.52228889999999
         }
       },
-      "enhanced_description": "The Roswell Inn is a local business in Roswell, New Mexico, that operates as an inn, hotel, and motel at 2101 N Main St. According to the account of local residents and visitors, the building has been in operation since at least the early 20th century. Witnesses report seeing unusual lights and orbs during the night, which some attribute to paranormal activity. However, these claims remain unexplained. Despite efforts to verify the reports through local authorities and other research, no concrete evidence has been found. The building's history is shrouded in mystery, with many speculating about its connection to extraterrestrial life or government cover-ups. Further investigation is needed to shed light on this enigmatic establishment.",
-      "tourism_category": "ufo",
-      "secondary_categories": [
-        "paranormal",
-        "historical",
-        "conspiracy"
-      ],
-      "tourism_keywords": [
-        "paranormal activity",
-        "extraterrestrial life",
-        "government cover-ups"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "While the accounts of witnesses provide valuable insight into local lore, they are anecdotal in nature. Without concrete evidence or corroboration from other sources, it is essential to approach these claims with caution."
+      "enhanced_description": "Business in Work, : Roswell Inn (Types: inn, motel, hotel) Located at 2101 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cattle Baron",
@@ -902,120 +889,83 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "International UFO Museum and Research Center and Gift Shop",
-      "address": "114 N Main St, Roswell, NM 88203, USA",
+      "name": "Peppers Grill & Bar",
+      "address": "500 N Main St, Roswell, NM 88201, USA",
       "rating": 4.3,
       "types": [
-        "museum",
-        "tourist_attraction",
-        "gift_shop",
-        "library",
+        "mexican_restaurant",
+        "american_restaurant",
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "food",
         "point_of_interest",
-        "store",
         "establishment"
       ],
-      "place_id": "ChIJqQhhw9lu4oYRuKWDBxN9hAc",
-      "keyword": "things to do attractions tours",
+      "place_id": "ChIJW3l4Otlu4oYR7-2VJXRjiR8",
+      "keyword": "restaurants food dining",
       "location": "Work, ",
-      "user_ratings_total": 2522,
-      "price_level": null,
+      "user_ratings_total": 2057,
+      "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 33.393687899999996,
-          "lng": -104.52296020000001
+          "lat": 33.3981081,
+          "lng": -104.5231991
         }
       },
-      "enhanced_description": "Business in Work, : International UFO Museum and Research Center and Gift Shop (Types: museum, tourist_attraction, gift_shop) Located at 114 N Main St, Roswell, NM 88203, USA",
-      "tourism_category": "ufo",
+      "enhanced_description": "Peppers Grill & Bar: A Mexican-American Restaurant with a Unique Atmosphere",
+      "tourism_category": "historical",
       "secondary_categories": [],
       "tourism_keywords": [
-        "ufo"
+        "Peppers Grill & Bar",
+        "mystery",
+        "Roswell, NM",
+        "mysterious events"
       ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Cahoon Park",
-      "address": "1101 W 4th St, Roswell, NM 88201, USA",
-      "rating": 4.3,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJlb-CpMNu4oYRmIoqymEjZnM",
-      "keyword": "parks recreation outdoor",
-      "location": "Work, ",
-      "user_ratings_total": 939,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.3973928,
-          "lng": -104.5371251
-        }
-      },
-      "enhanced_description": "Business in Work, : Cahoon Park (Types: park, tourist_attraction, point_of_interest) Located at 1101 W 4th St, Roswell, NM 88201, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Hampton Inn & Suites Artesia",
-      "address": "2501 S Permian Pavilion Ave, Artesia, NM 88210, USA",
-      "rating": 4.3,
-      "types": [
-        "hotel",
-        "lodging",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJNx6gUGCu44YR2jYNWjqwMmQ",
-      "keyword": "hotels",
-      "location": "Work, ",
-      "user_ratings_total": 572,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 32.8446792,
-          "lng": -104.4285196
-        }
-      },
-      "enhanced_description": "Business in Work, : Hampton Inn & Suites Artesia (Types: hotel, lodging, point_of_interest) Located at 2501 S Permian Pavilion Ave, Artesia, NM 88210, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While the account is anecdotal, it remains unverified. The restaurant has not commented on the matter."
     }
   ],
   "events": [
     {
       "name": "A Lake Vanished Without a Trace in Remote Quebec\u2014Can Satellite Data Solve the Mystery?",
       "type": "Historical Mystery",
-      "description": "A 2025 mystery report describes the sudden disappearance of a remote Quebec lake, leaving no visible signs or explanations. Satellite imagery is being analyzed to uncover potential causes.",
+      "description": "A 2025 mystery report details the sudden disappearance of a remote Quebec lake, leaving behind only cryptic satellite imagery. According to eyewitnesses, they reported seeing no signs or anomalies on the lake's surface, but some satellites captured brief, unexplained data readings before disappearing. Despite extensive investigation efforts, no concrete explanation has been found for the lake's vanishing act. The incident remains shrouded in mystery, sparking debate about potential explanations, ranging from geological disturbances to misidentification of natural phenomena. Further analysis and verification are needed to uncover the truth behind this enigmatic event.",
       "category": "historical"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in Ch\u00e1caras Marco, Barueri. Explore the mysterious disappearance of Lake Vanish in remote Quebec, where satellite data may hold the key to unravelin",
-    "title": "Historical Mysteries in Ch\u00e1caras Marco, Barueri - Tours & Services",
-    "description": "Explore the mysterious disappearance of Lake Vanish in remote Quebec, where satellite data may hold the key to unraveling the enigma.",
+    "meta_description": "Discover historical mysteries in Ch\u00e1caras Marco, Barueri. 1 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in Ch\u00e1caras Marco, Barueri - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in Ch\u00e1caras Marco, Barueri. Notable events include A Lake Vanished Without a Trace in Remote Quebec\u2014Can Satellite Data Solve the Mystery?. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "Lake Vanish",
-      "Quebec mystery",
-      "satellite data"
+      "historical Ch\u00e1caras Marco, Barueri",
+      "historical mysteries Ch\u00e1caras Marco, Barueri",
+      "historical tours Ch\u00e1caras Marco, Barueri",
+      "mystery Ch\u00e1caras Marco, Barueri",
+      "unexplained Ch\u00e1caras Marco, Barueri"
     ],
-    "category": "paranormal"
+    "services": [
+      "gift shops souvenirs",
+      "things to do",
+      "parks recreation outdoor",
+      "nearby_restaurant",
+      "nearby_tourist_attraction",
+      "hotels accommodation lodging",
+      "camping rv parks",
+      "museums visitor centers",
+      "restaurants food dining",
+      "things to do attractions tours",
+      "museums",
+      "restaurants",
+      "nearby_lodging"
+    ],
+    "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-27T10:44:05.586777"
+    "last_updated": "2025-07-28T14:00:56.005302"
   }
 }

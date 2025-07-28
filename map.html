@@ -105,9 +105,9 @@
         
         .table-container {
             margin: 20px 0;
-            overflow-x: auto;
             border-radius: 12px;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            max-width: 100%;
         }
         
         table {
@@ -415,16 +415,13 @@
             <table id="eventsTable">
                 <thead>
                     <tr>
-                        <th>Date</th>
-                        <th>Event Type</th>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Location</th>
-                        <th>Votes</th>
-                        <th>Investigation Status</th>
-                        <th>Details</th>
-                        <th>Credibility Score</th>
-                        <th>Vote</th>
+                        <th onclick="sortTable(0)">Date</th>
+                        <th onclick="sortTable(1)">Event Type</th>
+                        <th onclick="sortTable(2)">Name</th>
+                        <th onclick="sortTable(3)">Description</th>
+                        <th onclick="sortTable(4)" class="descending">Votes</th>
+                        <th onclick="sortTable(5)">Investigation Status</th>
+                        <th onclick="sortTable(6)">Vote</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -518,6 +515,13 @@
                     if (filters.endDate) {
                         filteredEvents = filteredEvents.filter(event => new Date(event.date) <= new Date(filters.endDate));
                     }
+
+                    // Default sort by votes (descending)
+                    filteredEvents.sort((a, b) => {
+                        const votesA = parseInt(a.votes) || 0;
+                        const votesB = parseInt(b.votes) || 0;
+                        return votesB - votesA;
+                    });
 
                     currentPage = 1;
                     populateFilters(allEvents);
@@ -669,11 +673,8 @@
                     <td>${event.event_type || 'Unknown'}</td>
                     <td><span class="map-link" onclick="highlightAndZoomToEvent(${event.id})" title="Click to view on map">${event.name || 'Unnamed Event'}</span></td>
                     <td class="event-description" title="${description}">${truncatedDescription}</td>
-                    <td>${event.location || 'Unknown'}</td>
                     <td>${event.votes || 0}</td>
                     <td>${event.investigation_status || "Open"}</td>
-                    <td><a href='detail.html?name=${encodeURIComponent(event.name || '')}' target='_blank'>Details</a></td>
-                    <td>${event.credibility_score || "N/A"}</td>
                     <td><button onclick="voteForEvent(${event.id})" style="background: none; border: none; font-size: 1.2em; cursor: pointer;">👍</button></td>
                 `;
                 tableBody.appendChild(row);
@@ -789,12 +790,20 @@
             }
         }
 
-        function sortTable(columnIndex, ascending) {
-            const startIndex = (currentPage - 1) * pageSize;
-            const endIndex = startIndex + pageSize;
-            let pageEvents = filteredEvents.slice(startIndex, endIndex);
-
-            pageEvents.sort((a, b) => {
+        function sortTable(columnIndex) {
+            // Toggle sort direction for the same column
+            const header = document.querySelectorAll("#eventsTable th")[columnIndex];
+            const isAscending = header.classList.contains('ascending');
+            
+            // Clear all sorting classes
+            document.querySelectorAll("#eventsTable th").forEach(th => {
+                th.classList.remove('ascending', 'descending');
+            });
+            
+            // Set new sorting class
+            header.classList.add(isAscending ? 'descending' : 'ascending');
+            
+            filteredEvents.sort((a, b) => {
                 let aValue, bValue;
                 
                 switch(columnIndex) {
@@ -810,17 +819,17 @@
                         aValue = a.name || '';
                         bValue = b.name || '';
                         break;
-                    case 4: // Location
-                        aValue = a.location || '';
-                        bValue = b.location || '';
+                    case 3: // Description
+                        aValue = a.description || '';
+                        bValue = b.description || '';
                         break;
-                    case 5: // Votes
+                    case 4: // Votes
                         aValue = parseInt(a.votes) || 0;
                         bValue = parseInt(b.votes) || 0;
                         break;
-                    case 8: // Credibility Score
-                        aValue = parseFloat(a.credibility_score) || 0;
-                        bValue = parseFloat(b.credibility_score) || 0;
+                    case 5: // Investigation Status
+                        aValue = a.investigation_status || '';
+                        bValue = b.investigation_status || '';
                         break;
                     default:
                         aValue = String(Object.values(a)[columnIndex] || '');
@@ -828,19 +837,19 @@
                 }
 
                 if (typeof aValue === 'number' && typeof bValue === 'number') {
-                    return ascending ? aValue - bValue : bValue - aValue;
+                    return isAscending ? bValue - aValue : aValue - bValue;
                 } else if (aValue instanceof Date && bValue instanceof Date) {
-                    return ascending ? aValue - bValue : bValue - aValue;
+                    return isAscending ? bValue - aValue : aValue - bValue;
                 } else {
-                    return ascending ? 
-                        String(aValue).localeCompare(String(bValue)) : 
-                        String(bValue).localeCompare(String(aValue));
+                    return isAscending ? 
+                        String(bValue).localeCompare(String(aValue)) : 
+                        String(aValue).localeCompare(String(bValue));
                 }
             });
 
-            // Update the filtered events for this page
-            filteredEvents.splice(startIndex, pageEvents.length, ...pageEvents);
+            currentPage = 1; // Reset to first page after sorting
             updateTable();
+            updatePaginationInfo();
         }
 
         // Event Listeners
@@ -859,15 +868,6 @@
             currentPage = 1;
             updateTable();
             updatePaginationInfo();
-        });
-
-        document.querySelectorAll("#eventsTable th").forEach((header, index) => {
-            header.addEventListener("click", () => {
-                const ascending = !header.classList.contains("ascending");
-                document.querySelectorAll("#eventsTable th").forEach(th => th.classList.remove("ascending", "descending"));
-                header.classList.add(ascending ? "ascending" : "descending");
-                sortTable(index, ascending);
-            });
         });
 
         document.addEventListener("DOMContentLoaded", function() {
