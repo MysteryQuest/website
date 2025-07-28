@@ -18,7 +18,7 @@ body {
 /* Large Badge-Style Logo */
 .logo-badge {
     position: relative !important;
-    z-index: 1050;
+    z-index: 1060 !important; /* Higher than navbar to overlap */
     padding: 0 !important;
     margin-right: 2rem !important;
 }
@@ -27,82 +27,108 @@ body {
     display: flex;
     align-items: center;
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f1419 100%);
-    border: 2px solid #00ffff;
-    border-radius: 20px;
-    padding: 8px 16px;
+    border: 3px solid #00ffff;
+    border-radius: 25px;
+    padding: 12px 20px;
     box-shadow: 
-        0 0 20px rgba(0, 255, 255, 0.4),
-        inset 0 0 20px rgba(0, 255, 255, 0.1);
+        0 0 25px rgba(0, 255, 255, 0.5),
+        inset 0 0 25px rgba(0, 255, 255, 0.1),
+        0 4px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
-    position: relative;
-    top: -10px;
-    height: 80px;
-    min-width: 200px;
+    position: absolute;
+    top: -25px; /* Overlap above navbar */
+    height: 100px; /* Much larger badge */
+    min-width: 240px;
+    left: 20px;
 }
 
 .logo-container:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     box-shadow: 
-        0 0 30px rgba(0, 255, 255, 0.6),
-        inset 0 0 25px rgba(0, 255, 255, 0.15);
+        0 0 35px rgba(0, 255, 255, 0.7),
+        inset 0 0 30px rgba(0, 255, 255, 0.15),
+        0 6px 20px rgba(0, 0, 0, 0.4);
     border-color: #00ccff;
 }
 
 .logo-image {
-    width: 60px !important;
-    height: 60px !important;
-    margin-right: 12px;
-    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.3));
+    width: 75px !important; /* Even bigger logo */
+    height: 75px !important;
+    margin-right: 15px;
+    filter: drop-shadow(0 0 12px rgba(0, 255, 255, 0.4));
     transition: all 0.3s ease;
 }
 
 .logo-container:hover .logo-image {
-    filter: drop-shadow(0 0 15px rgba(0, 255, 255, 0.5));
+    filter: drop-shadow(0 0 18px rgba(0, 255, 255, 0.6));
     transform: scale(1.05);
 }
 
 .logo-container .brand-text {
     font-family: 'Orbitron', monospace !important;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #00ffff !important;
-    text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    text-shadow: 0 0 18px rgba(0, 255, 255, 0.6);
     white-space: nowrap;
 }
 
-/* Adjust navbar height to accommodate large logo */
+/* Keep navbar normal size */
 .navbar {
-    min-height: 80px !important;
-    padding: 10px 0 !important;
+    min-height: 60px !important; /* Back to normal navbar height */
+    padding: 8px 0 !important;
+    margin-top: 15px; /* Add spacer from browser top */
 }
 
-/* Ensure navbar content aligns properly with larger logo */
+/* Ensure navbar content aligns properly and leaves space for overlapping logo */
 .navbar-nav {
     margin-left: auto;
     align-items: center;
 }
 
+.navbar .container-fluid {
+    padding-left: 280px; /* Make room for the overlapping badge */
+}
+
 /* Mobile responsiveness for logo */
 @media (max-width: 768px) {
     .logo-container {
-        height: 60px;
-        min-width: 160px;
-        padding: 6px 12px;
-        top: -8px;
+        height: 80px;
+        min-width: 180px;
+        padding: 8px 16px;
+        top: -20px;
+        left: 10px;
     }
     
     .logo-image {
-        width: 45px !important;
-        height: 45px !important;
-        margin-right: 8px;
+        width: 60px !important;
+        height: 60px !important;
+        margin-right: 10px;
     }
     
     .logo-container .brand-text {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
     .navbar {
-        min-height: 70px !important;
+        margin-top: 10px;
+    }
+    
+    .navbar .container-fluid {
+        padding-left: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .container-fluid {
+        padding-left: 10px;
+        padding-top: 60px; /* Stack navigation below logo on very small screens */
+    }
+    
+    .logo-container {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30px;
     }
 }
 
@@ -111,15 +137,21 @@ body {
     font-weight: 400;
 }
 
-/* Adjust body padding for larger navbar */
+/* Adjust body padding for navbar with overlapping badge */
 body {
-    padding-top: 100px !important; /* Account for larger navbar */
+    padding-top: 90px !important; /* Account for navbar + spacer + badge overlap */
 }
 
 /* Adjust for mobile */
 @media (max-width: 768px) {
     body {
-        padding-top: 85px !important;
+        padding-top: 80px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 110px !important; /* Extra space for stacked layout */
     }
 }
 
