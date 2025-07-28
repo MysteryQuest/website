@@ -139,9 +139,36 @@
             font-family: 'Orbitron', monospace;
             color: #00ffff;
             font-size: 1.8rem;
+            font-weight: 700;
             margin-bottom: 1.5rem;
             text-align: center;
-            text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+            letter-spacing: 1px;
+        }
+
+        /* Ensure all headings use Orbitron font */
+        h1, h2, h3, h4, h5, h6,
+        .navbar-brand,
+        .footer-title,
+        .footer-section-title {
+            font-family: 'Orbitron', monospace !important;
+        }
+
+        /* Navigation styling consistency */
+        .navbar-brand .brand-text {
+            font-family: 'Orbitron', monospace;
+            font-weight: 700;
+            color: #00ffff !important;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        /* Feature box headings */
+        .feature-box h5 {
+            font-family: 'Orbitron', monospace;
+            color: #00ffff;
+            font-weight: 600;
+            text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+            margin-bottom: 1rem;
         }
 
         /* Mystery Lists - Enhanced */
@@ -243,6 +270,13 @@
             border: 1px solid rgba(0, 255, 255, 0.1);
         }
 
+        .form-container h2 {
+            font-family: 'Orbitron', monospace;
+            color: #00ffff;
+            font-weight: 700;
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+
         .form-container input,
         .form-container textarea {
             width: 100%;
@@ -277,7 +311,9 @@
         .social-links h2 {
             font-family: 'Orbitron', monospace;
             color: #00ffff;
+            font-weight: 700;
             margin-bottom: 1.5rem;
+            text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
         }
 
         .social-links a {
