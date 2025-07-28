@@ -9,8 +9,25 @@
     <title>Mystery Quest Map - Explore Mysterious Events</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin        });
+
+        document.querySelectorAll("#eventsTable th").forEach((header, index) => {
+            header.addEventListener("click", () => {
+                const ascending = !header.classList.contains("ascending");
+                document.querySelectorAll("#eventsTable th").forEach(th => th.classList.remove("ascending", "descending"));
+                header.classList.add(ascending ? "ascending" : "descending");
+                sortTable(index, ascending);
+            });
+        });
+    </script>
+    
+    <!-- Dynamic Footer -->
+    <div id="dynamic-footer"></div>
+    
+    <!-- Navigation Management -->
+    <script src="js/navigation.js"></script>
+</body>
+</html>ref="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
     <link href="styles.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
@@ -394,28 +411,15 @@
     </style>
 </head>
 <body>
-    <header class="bg-dark p-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <img src="logo.png" alt="MystiQst Logo" height="90">
-            <ul class="nav nav-tabs ms-auto">
-                <li class="nav-item">
-                    <div id="google_translate_element" style="margin-top: 8px;"></div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="map.html">Map</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hoax.html">Is it a Hoax?</a>
-                </li>
-            </ul>
-        </div>
-    </header>
+    <!-- Dynamic Header -->
+    <div id="dynamic-header"></div>
 
-    <div class="container">
-        <h1>Mystery Quest Map</h1>
+    <div class="container py-4 mt-4">
+        <div class="text-center mb-4">
+            <h1 class="display-4 text-cyan">Mystery Quest Map</h1>
+            <p class="lead">Explore mysterious events, historical oddities, and UAP sightings worldwide</p>
+        </div>
+        
         <div class="filters">
             <form id="filtersForm">
                 <label for="eventType">Event Type:</label>

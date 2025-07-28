@@ -1,8 +1,53 @@
+/* Global Styles */
 body {
     margin: 0;
     font-family: "Orbitron", serif;
     background-color: #121212;
     color: #ffffff;
+}
+
+/* Utility Classes */
+.text-cyan {
+    color: #00ffff !important;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.bg-gradient-dark {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+/* Enhanced Feature Boxes */
+.feature-box {
+    padding: 1.5rem;
+    border-radius: 10px;
+    background: rgba(25, 25, 35, 0.6);
+    border: 1px solid rgba(0, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 255, 255, 0.2);
+    border-color: rgba(0, 255, 255, 0.3);
+}
+
+.feature-box h5 {
+    color: #00ffff;
+    margin-bottom: 1rem;
+}
+
+/* Enhanced Category Cards */
+.category-card {
+    background: rgba(25, 25, 35, 0.9) !important;
+    border: 1px solid rgba(0, 255, 255, 0.2) !important;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 255, 255, 0.2);
+    border-color: rgba(0, 255, 255, 0.4) !important;
 }
 .nav-tabs {
     background-color: rgb(109, 81, 112);

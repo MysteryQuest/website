@@ -7,190 +7,341 @@
     <meta name="keywords" content="Mystery Quest, MystiQst, ancient myths, modern mysteries, paranormal, unexplained phenomena, debunk myths, explore unknown">
     <meta name="author" content="Mystery Quest Team">
     <title>Mystery Quest - Explore Mysteries and the Unexplained | MystiQst</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap and Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
     <link href="styles.css" rel="stylesheet">
-    <!-- robots.txt and ads.txt links for search engines and ad networks -->
+    
+    <!-- SEO and Verification -->
     <link rel="robots" href="/robots.txt">
     <link rel="ads.txt" href="/ads.txt">
+    <link rel="canonical" href="https://mystiqst.com/" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mystery Quest - Explore Mysteries and the Unexplained">
+    <meta property="og:description" content="Join our community of mystery enthusiasts and skeptics. Explore ancient myths, modern enigmas, and the unexplained with an open mind.">
+    <meta property="og:image" content="https://mystiqst.com/splash.webp">
+    <meta property="og:url" content="https://mystiqst.com/">
+    <meta property="og:type" content="website">
+    
+    <!-- Modernized Styles -->
     <style>
-        .mystery-list {
-            background: #1f1f1f;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            margin-bottom: 20px;
-        }
-        .mystery-item {
-            background: #333;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border-left: 3px solid #007bff;
-        }
-        .mystery-item h4 {
-            margin: 0 0 5px 0;
-            color: #fff;
-            font-size: 1.1em;
-        }
-        .mystery-item p {
-            margin: 5px 0;
-            color: #ccc;
-            font-size: 0.9em;
-        }
-        .mystery-item a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .mystery-item a:hover {
-            text-decoration: underline;
-        }
-        .vote-count {
-            color: #28a745;
-            font-weight: bold;
-        }
-        .hoax-count {
-            color: #dc3545;
-            font-weight: bold;
-        }
-        /* Google Translate Widget Styling */
-        #google_translate_element {
-            margin-right: 15px;
-        }
-        
-        .goog-te-gadget {
-            font-family: inherit !important;
-            font-size: 12px !important;
-        }
-        
-        .goog-te-gadget-simple {
-            background-color: #333 !important;
-            border: 1px solid #555 !important;
-            padding: 5px 8px !important;
-            border-radius: 4px !important;
-            color: #fffff !important;
-        }
-        
-        .goog-te-gadget-simple .goog-te-menu-value {
-            color: #fffff !important;
-        }
-        
-        .goog-te-gadget-simple .goog-te-menu-value:hover {
-            text-decoration: none !important;
-        }
-        
-        .goog-te-gadget-icon {
-            display: none !important;
-        }
-        
-        .goog-te-gadget-simple .goog-te-menu-value span {
-            color: #fff !important;
+        /* Main Layout & Typography */
+        body {
+            font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e8e8e8;
+            margin: 0;
+            padding: 0;
         }
 
-        .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
-            background: none !important;
-            border: none !important;
-            color: #fff !important;
-        }
-        
-        /* Hide the Google Translate banner */
-        .goog-te-banner-frame {
-            display: none !important;
-        }
-        
-        body {
-            top: 0 !important;
-        }
-        
-        /* Video container styling */
-        .video-container {
+        /* Hero Section - Modernized */
+        .hero {
+            position: relative;
             text-align: center;
-            margin: 20px 0;
-            padding: 0 20px;
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+            padding: 60px 20px;
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
         }
-        
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('splash.webp') center/cover no-repeat;
+            z-index: -2;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at center, rgba(0,255,255,0.1) 0%, rgba(0,0,0,0.7) 70%);
+            z-index: -1;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+            /* Move content down to avoid covering the investigator's head - increased from 15vh to 25vh */
+            margin-top: 25vh;
+        }
+
+        .hero h1 {
+            font-family: 'Orbitron', monospace;
+            font-weight: 700;
+            font-size: 3.5rem;
+            color: #00ffff;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #ffffff;
+            margin-bottom: 2rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+            font-weight: 300;
+        }
+
+        /* Video Container - Enhanced */
+        .video-container {
+            margin: 2rem 0;
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 255, 255, 0.2);
+        }
+
         .video-container iframe {
-            max-width: 100%;
-            height: auto;
-            aspect-ratio: 16/9;
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 15px;
         }
-        
-        /* Mobile responsive styles for index page */
+
+        /* Content Sections - Improved Readability */
+        .content-section {
+            background: rgba(25, 25, 35, 0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(0, 255, 255, 0.1);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+        }
+
+        .content-section h2 {
+            font-family: 'Orbitron', monospace;
+            color: #00ffff;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+        }
+
+        /* Mystery Lists - Enhanced */
+        .mystery-list {
+            background: rgba(15, 15, 25, 0.9);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid rgba(0, 255, 255, 0.15);
+        }
+
+        .mystery-item {
+            background: linear-gradient(135deg, rgba(35, 35, 45, 0.9) 0%, rgba(25, 25, 35, 0.9) 100%);
+            border-radius: 10px;
+            padding: 1.25rem;
+            margin: 1rem 0;
+            border-left: 4px solid #00ffff;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .mystery-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 255, 255, 0.2);
+            border-left-color: #ff6b6b;
+        }
+
+        .mystery-item h4 {
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .mystery-item p {
+            color: #b8b8b8;
+            font-size: 0.95rem;
+            margin: 0.5rem 0;
+            line-height: 1.5;
+        }
+
+        .mystery-item a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .mystery-item a:hover {
+            color: #ff6b6b;
+            text-shadow: 0 0 5px rgba(255, 107, 107, 0.3);
+        }
+
+        .vote-count {
+            color: #4ecdc4;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .hoax-count {
+            color: #ff6b6b;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* Action Buttons */
+        .action-buttons {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .button, .btn-primary {
+            background: linear-gradient(45deg, #00ffff, #0099cc);
+            border: none;
+            color: #000;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+        }
+
+        .button:hover, .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 255, 255, 0.4);
+            color: #000;
+            text-decoration: none;
+        }
+
+        /* Contact Form - Enhanced */
+        .form-container {
+            background: rgba(25, 25, 35, 0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            border: 1px solid rgba(0, 255, 255, 0.1);
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 12px 16px;
+            margin: 0.75rem 0;
+            background: rgba(40, 40, 50, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: #ffffff;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-container input:focus,
+        .form-container textarea:focus {
+            outline: none;
+            border-color: #00ffff;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+        }
+
+        .form-container input::placeholder,
+        .form-container textarea::placeholder {
+            color: #888;
+        }
+
+        /* Social Links */
+        .social-links {
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .social-links h2 {
+            font-family: 'Orbitron', monospace;
+            color: #00ffff;
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0.5rem 1rem;
+            padding: 12px 24px;
+            background: rgba(40, 40, 50, 0.9);
+            color: #00ffff;
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: rgba(0, 255, 255, 0.1);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+        }
+
+        /* Responsive Design */
         @media (max-width: 768px) {
-            /* Google Translate element mobile positioning */
-            #google_translate_element {
-                margin-right: 0;
-                margin-top: 5px !important;
+            .hero h1 {
+                font-size: 2.5rem;
             }
             
-            /* Mystery sections mobile layout */
-            .mystery-list {
-                padding: 12px;
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .hero-content {
+                padding: 30px 20px;
+                margin: 0 20px;
+            }
+            
+            .content-section {
+                padding: 1.5rem;
+                margin: 1.5rem 0;
             }
             
             .mystery-item {
-                padding: 8px;
-                margin: 8px 0;
-            }
-            
-            .mystery-item h4 {
-                font-size: 1em;
-                margin-bottom: 8px;
-            }
-            
-            .mystery-item p {
-                font-size: 0.85em;
-                margin: 3px 0;
-            }
-            
-            /* Top mysteries section responsive */
-            .col-md-6 {
-                margin-bottom: 20px;
-            }
-            
-            /* Video responsive */
-            .video-container {
-                padding: 0 10px;
+                padding: 1rem;
             }
             
             .video-container iframe {
-                width: 100%;
                 height: 250px;
-                max-width: 450px;
-            }
-            
-            /* Hero text improvements */
-            .hero p {
-                background: rgba(0, 0, 0, 0.6);
-                padding: 10px 15px;
-                border-radius: 5px;
-                margin: 15px auto;
-                max-width: 90%;
             }
         }
-        
+
         @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-content {
+                padding: 25px 15px;
+            }
+            
+            .content-section {
+                padding: 1rem;
+            }
+            
             .video-container iframe {
                 height: 200px;
-            }
-            
-            .mystery-item h4 {
-                font-size: 0.95em;
-            }
-            
-            .mystery-item p {
-                font-size: 0.8em;
-            }
-            
-            .hero h1 {
-                font-size: 1.6em;
-            }
-            
-            .hero p {
-                font-size: 0.85em;
-                padding: 8px 12px;
             }
         }
     </style>
@@ -219,120 +370,134 @@
 
 </head>
 <body>
-    <header class="bg-dark p-3">
-        <div class="container d-flex justify-content-between align-items-center">
-            <img src="logo.png" alt="MystiQst Logo" height="90">
-            <ul class="nav nav-tabs ms-auto">
-                <li class="nav-item">
-                    <div id="google_translate_element" style="margin-top: 8px;"></div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="map.html#submitAMystery">Submit a Mystery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="map.html">Mystery Map</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="directory/index.html">Directory</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hoax.html">Is it a Hoax?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link youtube-btn" href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style="vertical-align:middle;margin-right:6px;" viewBox="0 0 24 24">
-                            <path fill="#fff" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                        </svg>
-                        YouTube Investigations
-                    </a>
-                </li>
-                <style>
-                    .youtube-btn {
-                        background: #ff0000 !important;
-                        color: #fff !important;
-                        border-radius: 4px;
-                        font-weight: bold;
-                        margin-left: 10px;
-                        padding: 8px 16px !important;
-                        display: flex;
-                        align-items: center;
-                        transition: background 0.2s, box-shadow 0.2s;
-                        box-shadow: 0 2px 8px rgba(255,0,0,0.10);
-                        border: none !important;
-                    }
-                    .youtube-btn:hover, .youtube-btn:focus {
-                        background: #cc0000 !important;
-                        color: #fff !important;
-                        text-decoration: none !important;
-                        box-shadow: 0 4px 16px rgba(255,0,0,0.18);
-                    }
-                </style>
-            </ul>
-        </div>
-    </header>
+    <!-- Dynamic Header -->
+    <div id="dynamic-header"></div>
 
-    <div class="hero">
-        <img src="splash.webp" alt="Mystery Quest Splash">
-        <h1>Welcome to Mystery Quest <br/>www.mystiqst.com</h1>
-        <br/>
-        <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Top 5 Most Believed Mysteries</h2>
-                <div id="topMysteries" class="mystery-list">
-                    <!-- Top mysteries will be loaded here -->
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h2>Top 5 Most Voted Hoaxes</h2>
-                <div id="topHoaxes" class="mystery-list">
-                    <!-- Top hoaxes will be loaded here -->
-                </div>
-            </div>
-            <div class="col-12">
-                <p><a class="button" href="hoax.html">Is it a Hoax?</a></p>
-                <p>We investigate the most popular mysteries and hoaxes, providing insights and evidence to help you form your own opinion.</p>
-                <p>Join our community of mystery enthusiasts and skeptics. Share your thoughts, vote on mysteries, and help us uncover the truth.</p>
-                <p>Check out our <a href="map.html">Mystery Map</a> to explore mysteries around the world.</p>
-                <p>Have a mystery you want us to investigate? <a href="#submit-mystery">Submit it here</a>!</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Mystery Quest</h1>
+            <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
+                        title="Mystery Quest YouTube Investigations" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                </iframe>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="submit-mystery" class="container">
-        <h2>Get in Touch with the Team</h2>
-        <div class="form-container">
-            <form id="mysteryForm">
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <textarea id="mystery" name="mystery" rows="5" placeholder="Describe the mystery you want us to investigate..." required></textarea>
-                <div class="captcha-container">
-                    <input type="text" id="captcha" placeholder="What is 3 + 4?" required>
-                    <button type="button" onclick="validateCaptcha()">Submit</button>
+    <!-- Main Content -->
+    <div class="container py-5">
+        <!-- Mystery Lists Section -->
+        <div class="row mb-5">
+            <div class="col-lg-6 mb-4">
+                <div class="content-section">
+                    <h2>🔮 Top 5 Most Believed Mysteries</h2>
+                    <div id="topMysteries" class="mystery-list">
+                        <!-- Loading placeholder -->
+                        <div class="mystery-item">
+                            <h4>Loading mysteries...</h4>
+                            <p>Fetching the most intriguing cases from our database.</p>
+                        </div>
+                    </div>
                 </div>
-            </form>
+            </div>
+            
+            <div class="col-lg-6 mb-4">
+                <div class="content-section">
+                    <h2>🕵️ Top 5 Most Voted Hoaxes</h2>
+                    <div id="topHoaxes" class="mystery-list">
+                        <!-- Loading placeholder -->
+                        <div class="mystery-item">
+                            <h4>Loading hoax investigations...</h4>
+                            <p>Analyzing cases marked as potential hoaxes by our community.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action Section -->
+        <div class="content-section text-center">
+            <h2>🔍 Join the Investigation</h2>
+            <p class="mb-4">We investigate the most popular mysteries and hoaxes, providing insights and evidence to help you form your own opinion. Join our community of mystery enthusiasts and skeptics.</p>
+            
+            <div class="action-buttons">
+                <a class="button" href="hoax.html">Is it a Hoax?</a>
+                <a class="button" href="map.html">Explore Mystery Map</a>
+                <a class="button" href="directory/">Browse Directory</a>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-md-4 text-center mb-3">
+                    <div class="feature-box">
+                        <h5>🗺️ Interactive Map</h5>
+                        <p>Explore mysteries around the world with our comprehensive mystery mapping system.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="feature-box">
+                        <h5>🎭 Real or Hoax?</h5>
+                        <p>Vote on mysteries and help our community separate fact from fiction.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="feature-box">
+                        <h5>📁 Comprehensive Directory</h5>
+                        <p>Browse our extensive database of documented mysterious phenomena.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="content-section" id="submit-mystery">
+            <h2>📧 Submit Your Mystery</h2>
+            <p class="text-center mb-4">Have a mystery you want us to investigate? Share it with our team!</p>
+            
+            <div class="form-container">
+                <form id="mysteryForm" class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="col-12">
+                        <textarea id="mystery" name="mystery" rows="5" placeholder="Describe the mystery you want us to investigate..." required></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="captcha-container d-inline-flex align-items-center gap-3">
+                            <input type="text" id="captcha" placeholder="What is 3 + 4?" required style="width: 150px;">
+                            <button type="button" class="btn btn-primary" onclick="validateCaptcha()">Submit Mystery</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
-    <div class="links">
-        <h2>Follow Us</h2>
-        <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">YouTube</a>
-        <a href="https://www.tiktok.com/@mysteryquest01" target="_blank">TikTok</a>
-        <a href="#">Watch Our Livestream (Coming Soon!)</a>
+    <!-- Social Links Section -->
+    <div class="social-links">
+        <h2>🌐 Follow Our Investigations</h2>
+        <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">
+            📺 YouTube Channel
+        </a>
+        <a href="https://www.tiktok.com/@mysteryquest01" target="_blank">
+            🎵 TikTok
+        </a>
+        <a href="#" onclick="alert('Livestream coming soon!')">
+            📡 Livestream (Coming Soon!)
+        </a>
     </div>
-    <footer class="bg-dark text-white text-center p-3">
-        <p>&copy; 2025 Mystery Quest. All rights reserved.</p>
-        <p>Contact us at <a href="mailto:mystyqst@gmail.com">Mystery Team</a></p>
-    </footer>
+
+    <!-- Dynamic Footer -->
+    <div id="dynamic-footer"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-YQbZmoymVstIjXJucC6YFSF6u1sL64wMg2xuRQwql1EpQJb8p8HewQqIF8vZ4keE" crossorigin="anonymous"></script>
     <script>
@@ -344,6 +509,11 @@
             try {
                 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
                 const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`Google Sheets API error: ${response.status}`);
+                }
+                
                 const data = await response.json();
 
                 if (data.values && data.values.length > 1) {
@@ -372,10 +542,85 @@
 
                     displayTopMysteries(topByVotes);
                     displayTopHoaxes(topByHoax);
+                } else {
+                    showFallbackContent();
                 }
             } catch (error) {
-                console.error('Error fetching mysteries:', error);
+                console.warn('Unable to load live mystery data:', error);
+                showFallbackContent();
             }
+        }
+
+        function showFallbackContent() {
+            // Show sample content when API is unavailable
+            const sampleMysteries = [
+                {
+                    name: "The Roswell Incident",
+                    location: "Roswell, New Mexico, USA",
+                    date: "July 1947",
+                    votes: 156
+                },
+                {
+                    name: "Bermuda Triangle Disappearances",
+                    location: "Atlantic Ocean",
+                    date: "Various dates",
+                    votes: 134
+                },
+                {
+                    name: "Loch Ness Monster Sightings",
+                    location: "Scotland, UK",
+                    date: "Various dates",
+                    votes: 98
+                },
+                {
+                    name: "Phoenix Lights",
+                    location: "Phoenix, Arizona, USA",
+                    date: "March 1997",
+                    votes: 87
+                },
+                {
+                    name: "Stonehenge Purpose",
+                    location: "Wiltshire, England",
+                    date: "3100-1600 BC",
+                    votes: 76
+                }
+            ];
+
+            const sampleHoaxes = [
+                {
+                    name: "War of the Worlds Broadcast",
+                    location: "New Jersey, USA",
+                    date: "October 1938",
+                    hoax: 45
+                },
+                {
+                    name: "Crop Circle Formations",
+                    location: "Various locations",
+                    date: "1970s-present",
+                    hoax: 38
+                },
+                {
+                    name: "Bigfoot Footprint Casts",
+                    location: "Pacific Northwest, USA",
+                    date: "1958",
+                    hoax: 32
+                },
+                {
+                    name: "Alien Autopsy Film",
+                    location: "Roswell, New Mexico",
+                    date: "1995",
+                    hoax: 29
+                },
+                {
+                    name: "Piltdown Man Discovery",
+                    location: "England",
+                    date: "1912",
+                    hoax: 24
+                }
+            ];
+
+            displayTopMysteries(sampleMysteries);
+            displayTopHoaxes(sampleHoaxes);
         }
 
         function displayTopMysteries(mysteries) {
@@ -424,7 +669,8 @@
             if (captcha.trim() === '7') {
                 sendEmail();
             } else {
-                alert('Respuesta incorrecta en el captcha. Por favor, inténtalo de nuevo.');
+                alert('Incorrect captcha answer. The answer is 7 (3 + 4 = 7). Please try again.');
+                document.getElementById('captcha').focus();
             }
         }
 
@@ -432,10 +678,34 @@
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const mystery = document.getElementById('mystery').value;
+            
+            const subject = encodeURIComponent('New Mystery Submission from ' + name);
+            const body = encodeURIComponent(`
+Name: ${name}
+Email: ${email}
+Mystery: ${mystery}
 
-            const mailtoLink = `mailto:mystiqst@gmail.com?subject=Mystery%20Submission%20from%20${encodeURIComponent(name)}&body=Email:%20${encodeURIComponent(email)}%0A%0AMystery:%0A${encodeURIComponent(mystery)}`;
-
-            window.location.href = mailtoLink;
+Submitted via Mystery Quest website.
+            `);
+            
+            window.location.href = `mailto:mystyqst@gmail.com?subject=${subject}&body=${body}`;
+            
+            // Reset form
+            document.getElementById('mysteryForm').reset();
+            alert('Thank you for your submission! Your default email client should open with the mystery details.');
+        }
+    </script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Navigation Management -->
+    <script src="js/navigation.js"></script>
+    
+    <!-- Google Translate -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            // Will be handled by navigation.js
         }
     </script>
 </body>
