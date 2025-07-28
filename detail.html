@@ -34,26 +34,37 @@
         let map;
 
         async function fetchEventDetails(eventName) {
-            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
-            const response = await fetch(url);
-            const data = await response.json();
+            try {
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const response = await fetch(url);
+                const data = await response.json();
 
-            if (data.values && data.values.length > 1) {
-            const headers = data.values[0];
-            const rows = data.values.slice(1);
+                if (data.values && data.values.length > 1) {
+                    const headers = data.values[0];
+                    const rows = data.values.slice(1);
 
-            const event = rows.find(row => row[headers.indexOf('name')] === eventName);
-            if (event) {
-                const eventDetails = {};
-                headers.forEach((header, i) => {
-                eventDetails[header] = event[i] || '';
-                });
+                    const event = rows.find(row => row[headers.indexOf('name')] === eventName);
+                    if (event) {
+                        const eventDetails = {};
+                        headers.forEach((header, i) => {
+                            eventDetails[header] = event[i] || '';
+                        });
 
-                displayEventDetails(eventDetails);
-                updateMap(eventDetails);
-            } else {
-                alert('Event not found.');
-            }
+                        displayEventDetails(eventDetails);
+                        updateMap(eventDetails);
+                        return eventDetails;
+                    } else {
+                        alert('Event not found.');
+                        return null;
+                    }
+                } else {
+                    alert('No data found.');
+                    return null;
+                }
+            } catch (error) {
+                console.error('Error fetching event details:', error);
+                alert('Error loading event details.');
+                return null;
             }
         }
 
@@ -132,15 +143,19 @@
             let youtubeSection = '';
             if (youtubeVideos && youtubeVideos.length > 0) {
                 youtubeSection = `
-                    <div class="youtube-section mt-4">
+                    <div class="youtube-section mt-4" id="videos">
                         <h5><i class="fab fa-youtube text-danger"></i> Related Videos</h5>
                         <div class="row">
                 `;
                 
-                youtubeVideos.forEach(video => {
+                youtubeVideos.forEach((video, index) => {
                     const publishedDate = new Date(video.published_at || Date.now()).toLocaleDateString();
+                    // Extract video ID from URL for highlighting
+                    const videoIdMatch = video.url ? video.url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
+                    const videoId = videoIdMatch ? videoIdMatch[1] : `video-${index}`;
+                    
                     youtubeSection += `
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-6 mb-3" id="video-${videoId}">
                             <div class="card h-100">
                                 <img src="${video.thumbnail}" class="card-img-top" alt="${video.title}" loading="lazy">
                                 <div class="card-body d-flex flex-column">
@@ -268,8 +283,36 @@
         document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
             const eventName = urlParams.get('name');
+            const videoId = urlParams.get('video');
+            const anchor = window.location.hash;
+            
             if (eventName) {
-                fetchEventDetails(eventName);
+                fetchEventDetails(eventName).then(() => {
+                    // Handle video-specific navigation
+                    if (videoId || anchor) {
+                        setTimeout(() => {
+                            if (anchor === '#videos' || videoId) {
+                                const videoSection = document.querySelector('.youtube-section');
+                                if (videoSection) {
+                                    videoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                    
+                                    // Highlight specific video if videoId provided
+                                    if (videoId) {
+                                        const videoCards = document.querySelectorAll('.youtube-section .card');
+                                        videoCards.forEach(card => {
+                                            const youtubeLink = card.querySelector('a[href*="youtube.com"]');
+                                            if (youtubeLink && youtubeLink.href.includes(videoId)) {
+                                                card.style.border = '2px solid #007bff';
+                                                card.style.boxShadow = '0 0 15px rgba(0, 123, 255, 0.5)';
+                                                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                        }, 500);
+                    }
+                });
             } else {
                 alert('No event name provided.');
             }

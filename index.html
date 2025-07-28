@@ -155,102 +155,130 @@
         }
 
         /* YouTube Widget Styles */
-        .youtube-widget {
-            background: rgba(25, 25, 35, 0.95);
-            border-radius: 15px;
-            padding: 15px;
+        .social-widgets-container {
+            border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+        }
+        
+        .widget-videos-section {
             margin-bottom: 20px;
-            border: 1px solid rgba(0, 255, 255, 0.2);
-            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s ease;
-            max-width: 400px;
-            margin-left: auto;
-            margin-right: auto;
         }
-
-        .youtube-widget:hover {
-            transform: translateY(-2px);
-        }
-
-        .youtube-widget h3 {
-            font-family: 'Orbitron', monospace;
-            color: #00ffff;
+        
+        .widget-videos-section h4 {
             font-size: 1rem;
+            color: #00ffff;
             margin-bottom: 15px;
-            text-align: center;
-            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        
+        .youtube-widget, .tiktok-widget {
+            background: rgba(25, 25, 35, 0.9);
+            border-radius: 15px;
+            padding: 25px;
+            height: 100%;
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
         }
 
-        .youtube-video-item {
-            background: rgba(35, 35, 45, 0.8);
-            border-radius: 8px;
-            padding: 8px;
-            margin-bottom: 8px;
-            border-left: 3px solid #00ffff;
-            transition: all 0.3s ease;
-            cursor: pointer;
+        .youtube-widget:hover, .tiktok-widget:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
+            border-color: rgba(0, 255, 255, 0.4);
+        }
+
+        .youtube-widget h3, .tiktok-widget h3 {
+            font-family: 'Orbitron', monospace;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #00ffff;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+        }
+
+        .youtube-video-item, .tiktok-video-item {
             display: flex;
             align-items: center;
-            gap: 10px;
+            padding: 12px;
+            margin-bottom: 12px;
+            background: rgba(15, 15, 25, 0.8);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
         }
 
-        .youtube-video-item:hover {
-            background: rgba(45, 45, 55, 0.9);
-            border-left-color: #ff6b6b;
+        .youtube-video-item:hover, .tiktok-video-item:hover {
+            background: rgba(0, 255, 255, 0.1);
+            border-color: rgba(0, 255, 255, 0.3);
             transform: translateX(5px);
         }
 
-        .youtube-video-item:last-child {
+        .youtube-video-item:last-child, .tiktok-video-item:last-child {
             margin-bottom: 0;
         }
 
-        .youtube-video-thumbnail {
+        .youtube-video-thumbnail, .tiktok-video-thumbnail {
             width: 60px;
             height: 45px;
-            border-radius: 4px;
             object-fit: cover;
+            border-radius: 6px;
+            margin-right: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
             flex-shrink: 0;
         }
 
-        .youtube-video-content {
+        .tiktok-video-thumbnail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #ff0050, #00ffff);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .youtube-video-content, .tiktok-video-content {
             flex: 1;
             min-width: 0;
         }
 
-        .youtube-video-title {
-            color: #ffffff;
-            font-size: 0.85rem;
-            font-weight: 500;
-            margin-bottom: 4px;
-            line-height: 1.2;
-            text-decoration: none;
+        .youtube-video-title, .tiktok-video-title {
             display: block;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            line-height: 1.3;
+            margin-bottom: 6px;
+            transition: color 0.3s ease;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
 
-        .youtube-video-title:hover {
+        .youtube-video-item:hover .youtube-video-title,
+        .tiktok-video-item:hover .tiktok-video-title {
             color: #00ffff;
-            text-decoration: none;
+            text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
         }
 
-        .youtube-video-stats {
-            color: #aaaaaa;
-            font-size: 0.7rem;
+        .youtube-video-stats, .tiktok-video-stats {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            gap: 15px;
+            font-size: 0.8rem;
+            color: #888;
         }
 
-        .youtube-video-views {
-            color: #00ffff;
+        .youtube-video-views, .tiktok-video-views {
+            color: #4ecdc4;
             font-weight: 500;
         }
 
-        .youtube-video-date {
-            color: #888888;
+        .youtube-video-date, .tiktok-video-date {
+            color: #999;
         }
 
         /* TikTok Widget Styles */
@@ -363,16 +391,37 @@
             .youtube-widget, .tiktok-widget {
                 max-width: 100%;
                 margin: 15px auto;
-                padding: 12px;
+                padding: 20px 15px;
+            }
+            
+            .youtube-widget h3, .tiktok-widget h3 {
+                font-size: 1rem;
+                margin-bottom: 15px;
             }
             
             .youtube-video-thumbnail, .tiktok-video-thumbnail {
                 width: 50px;
                 height: 37px;
+                margin-right: 10px;
             }
             
             .youtube-video-title, .tiktok-video-title {
                 font-size: 0.8rem;
+                line-height: 1.2;
+            }
+            
+            .youtube-video-stats, .tiktok-video-stats {
+                font-size: 0.75rem;
+                gap: 8px;
+            }
+            
+            .widget-videos-section h4 {
+                font-size: 0.9rem;
+                margin-bottom: 10px;
+            }
+            
+            .social-widgets-container {
+                padding: 20px 0;
             }
         }
 
@@ -631,58 +680,74 @@
     <!-- Dynamic Header -->
     <div id="dynamic-header"></div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Mystery Quest</h1>
-            <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
-            
-            <!-- Social Media Widgets positioned directly under logo -->
-            <div style="margin-top: 30px;">
-                <div class="youtube-widget" id="youtube-widget">
-                    <h3>🎬 Latest from Our YouTube Channel</h3>
-                    <div id="popular-videos">
-                        <div class="youtube-video-item">
-                            <a href="#" class="youtube-video-title">Loading popular videos...</a>
-                            <div class="youtube-video-stats">
-                                <span class="youtube-video-views">-</span>
-                                <span class="youtube-video-date">-</span>
+    <!-- Social Media Widgets positioned directly under the logo -->
+    <div class="social-widgets-container" style="padding: 30px 0; background: rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="youtube-widget" id="youtube-widget">
+                                <h3>🎬 Latest from Our YouTube Channel</h3>
+                                <div id="popular-videos" class="widget-videos-section">
+                                    <h4 style="font-size: 1rem; color: #00ffff; margin-bottom: 15px;">Most Popular</h4>
+                                    <div class="youtube-video-item">
+                                        <span class="youtube-video-title">Loading popular videos...</span>
+                                        <div class="youtube-video-stats">
+                                            <span class="youtube-video-views">-</span>
+                                            <span class="youtube-video-date">-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="recent-videos" class="widget-videos-section">
+                                    <h4 style="font-size: 1rem; color: #00ffff; margin-bottom: 15px;">Most Recent</h4>
+                                    <div class="youtube-video-item">
+                                        <span class="youtube-video-title">Loading recent videos...</span>
+                                        <div class="youtube-video-stats">
+                                            <span class="youtube-video-views">-</span>
+                                            <span class="youtube-video-date">-</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="recent-videos">
-                        <div class="youtube-video-item">
-                            <a href="#" class="youtube-video-title">Loading recent videos...</a>
-                            <div class="youtube-video-stats">
-                                <span class="youtube-video-views">-</span>
-                                <span class="youtube-video-date">-</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tiktok-widget" id="tiktok-widget">
-                    <h3>📱 Latest from Our TikTok @mysteryquest01</h3>
-                    <div id="popular-tiktoks">
-                        <div class="tiktok-video-item">
-                            <a href="#" class="tiktok-video-title">Loading popular TikToks...</a>
-                            <div class="tiktok-video-stats">
-                                <span class="tiktok-video-views">-</span>
-                                <span class="tiktok-video-date">-</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="recent-tiktoks">
-                        <div class="tiktok-video-item">
-                            <a href="#" class="tiktok-video-title">Loading recent TikToks...</a>
-                            <div class="tiktok-video-stats">
-                                <span class="tiktok-video-views">-</span>
-                                <span class="tiktok-video-date">-</span>
+                        
+                        <div class="col-md-6 mb-4">
+                            <div class="tiktok-widget" id="tiktok-widget">
+                                <h3>📱 Latest from Our TikTok @mysteryquest01</h3>
+                                <div id="popular-tiktoks" class="widget-videos-section">
+                                    <h4 style="font-size: 1rem; color: #00ffff; margin-bottom: 15px;">Most Popular</h4>
+                                    <div class="tiktok-video-item">
+                                        <span class="tiktok-video-title">Loading popular TikToks...</span>
+                                        <div class="tiktok-video-stats">
+                                            <span class="tiktok-video-views">-</span>
+                                            <span class="tiktok-video-date">-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="recent-tiktoks" class="widget-videos-section">
+                                    <h4 style="font-size: 1rem; color: #00ffff; margin-bottom: 15px;">Most Recent</h4>
+                                    <div class="tiktok-video-item">
+                                        <span class="tiktok-video-title">Loading recent TikToks...</span>
+                                        <div class="tiktok-video-stats">
+                                            <span class="tiktok-video-views">-</span>
+                                            <span class="tiktok-video-date">-</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Mystery Quest</h1>
+            <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
             
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
@@ -1126,7 +1191,7 @@
 
             container.innerHTML = '';
 
-            videos.forEach(video => {
+            videos.slice(0, 3).forEach(video => {
                 const videoItem = document.createElement('div');
                 videoItem.className = 'youtube-video-item';
                 
@@ -1138,19 +1203,27 @@
                 });
 
                 const viewCount = formatViewCount(video.view_count);
+                
+                // Create a detail page URL (anchor link to video section)
+                const detailUrl = `/detail.html#video-${video.id || video.title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}`;
 
                 videoItem.innerHTML = `
                     <img src="${video.thumbnail_url}" alt="${video.title}" class="youtube-video-thumbnail" onerror="this.style.display='none'">
                     <div class="youtube-video-content">
-                        <a href="${video.url}" target="_blank" class="youtube-video-title">
-                            ${truncateTitle(video.title, 40)}
-                        </a>
+                        <span class="youtube-video-title" onclick="navigateToDetail('${detailUrl}', '${video.url}')" style="cursor: pointer;">
+                            ${truncateTitle(video.title, 45)}
+                        </span>
                         <div class="youtube-video-stats">
                             <span class="youtube-video-views">${viewCount} views</span>
                             <span class="youtube-video-date">${formattedDate}</span>
                         </div>
                     </div>
                 `;
+
+                // Add click handler to the entire item
+                videoItem.addEventListener('click', () => {
+                    navigateToDetail(detailUrl, video.url);
+                });
 
                 container.appendChild(videoItem);
             });
@@ -1162,7 +1235,7 @@
 
             container.innerHTML = '';
 
-            videos.forEach(video => {
+            videos.slice(0, 3).forEach(video => {
                 const videoItem = document.createElement('div');
                 videoItem.className = 'tiktok-video-item';
                 
@@ -1174,13 +1247,16 @@
                 });
 
                 const viewCount = formatViewCount(video.view_count);
+                
+                // Create a detail page URL (anchor link to video section)
+                const detailUrl = `/detail.html#tiktok-${video.id || video.title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}`;
 
                 videoItem.innerHTML = `
                     <div class="tiktok-video-thumbnail">📱</div>
                     <div class="tiktok-video-content">
-                        <a href="${video.url}" target="_blank" class="tiktok-video-title">
-                            ${truncateTitle(video.title, 40)}
-                        </a>
+                        <span class="tiktok-video-title" onclick="navigateToDetail('${detailUrl}', '${video.url}')" style="cursor: pointer;">
+                            ${truncateTitle(video.title, 45)}
+                        </span>
                         <div class="tiktok-video-stats">
                             <span class="tiktok-video-views">${viewCount} views</span>
                             <span class="tiktok-video-date">${formattedDate}</span>
@@ -1188,8 +1264,38 @@
                     </div>
                 `;
 
+                // Add click handler to the entire item
+                videoItem.addEventListener('click', () => {
+                    navigateToDetail(detailUrl, video.url);
+                });
+
                 container.appendChild(videoItem);
             });
+        }
+        
+        function navigateToDetail(detailUrl, videoUrl) {
+            try {
+                // Extract video ID from YouTube URL for navigation
+                const videoIdMatch = videoUrl ? videoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
+                const videoId = videoIdMatch ? videoIdMatch[1] : null;
+                
+                // Enhance detail URL with video parameter and anchor
+                let enhancedDetailUrl = detailUrl;
+                if (videoId) {
+                    const separator = detailUrl.includes('?') ? '&' : '?';
+                    enhancedDetailUrl = `${detailUrl}${separator}video=${videoId}#videos`;
+                } else {
+                    // If no video ID, just add anchor to videos section
+                    enhancedDetailUrl = `${detailUrl}#videos`;
+                }
+                
+                // Navigate to enhanced detail URL
+                window.location.href = enhancedDetailUrl;
+            } catch (error) {
+                console.error('Error navigating to detail page:', error);
+                // Fallback to direct video URL
+                window.open(videoUrl, '_blank');
+            }
         }
 
         function formatViewCount(count) {
