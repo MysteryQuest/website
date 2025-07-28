@@ -9,8 +9,8 @@
     <meta name="publisher" content="Mystery Quest">
     
     <!-- Open Graph for social sharing and search engines -->
-    <meta property="og:title" content="Historical Mysteries in Česko - museums, entertainment activities & More">
-    <meta property="og:description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find museums, entertainment activities, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in Česko - entertainment activities, museums & More">
+    <meta property="og:description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/esko/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mystery Quest">
@@ -19,18 +19,19 @@
     
     <!-- Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Historical Mysteries in Česko - museums, entertainment activities & More">
-    <meta name="twitter:description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find museums, entertainment activities, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="twitter:title" content="Historical Mysteries in Česko - entertainment activities, museums & More">
+    <meta name="twitter:description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta name="twitter:image" content="https://mystiqst.com/logo.png">
     <meta name="twitter:site" content="@mysteryquest">
-    <meta name="description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find museums, entertainment activities, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
-    <meta name="keywords" content="historical Česko, Česko historical tours, Česko historical guide, historical investigators Česko, things to do Česko, Česko mystery tours, Česko paranormal, museums Česko, Česko museums, entertainment activities Česko, Česko entertainment activities, car rental transportation Česko, Česko car rental transportation">
-    <title>Historical Mysteries in Česko - museums, entertainment activities & More</title>
+    <meta name="description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="keywords" content="historical Česko, Česko historical tours, Česko historical guide, historical investigators Česko, things to do Česko, Česko mystery tours, Česko paranormal, entertainment activities Česko, Česko entertainment activities, museums Česko, Česko museums, car rental transportation Česko, Česko car rental transportation">
+    <title>Historical Mysteries in Česko - entertainment activities, museums & More</title>
     
     <!-- Bootstrap and Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     
     <!-- Leaflet Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -40,8 +41,8 @@
     <link rel="canonical" href="https://mystiqst.com/directory/historical/česko/" />
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Historical Mysteries in Česko - museums, entertainment activities & More">
-    <meta property="og:description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find museums, entertainment activities, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in Česko - entertainment activities, museums & More">
+    <meta property="og:description" content="Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/česko/">
     <meta property="og:type" content="article">
     
@@ -59,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": ["TouristDestination", "Place"],
         "name": "Česko",
-        "description": "Explore historical mysteries in Česko. 2 recent historical reports. Find museums, entertainment activities, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.",
+        "description": "Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.",
         "url": "https://mystiqst.com/directory/historical/esko/",
         "category": "Historical Mysteries",
         "touristType": ["Historical Mysteries Enthusiast", "Paranormal Investigator"],
@@ -91,7 +92,7 @@
         <div class="location-header mb-4 text-center">
             <h1 class="display-4 text-cyan">Česko</h1>
             <h2 class="h4 text-light">Historical Mysteries Guide</h2>
-            <p class="lead">Explore historical mysteries in Česko. 2 recent historical reports. Find museums, entertainment activities, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.</p>
+            <p class="lead">Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.</p>
             
             <div class="location-stats row">
                 <div class="col-md-4">
@@ -122,13 +123,14 @@
                     <h2>Location Map</h2>
                     <div id="locationMap" style="height: 400px; border-radius: 10px; border: 2px solid rgba(0, 255, 255, 0.3);"></div>
                     <p class="text-muted mt-2">
-                        <small>📍 Showing Česko and nearby Historical Mysteries locations</small>
+                        <small>📍 Showing Česko and nearby Historical Mysteries locations with color-coded service markers</small>
                     </p>
                 </section>
                 
                 <section class="events-section mb-4">
                     <h2>Recent Historical Mysteries Activity</h2>
-                    
+                    <div id="sightingsList">
+                        
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">NASA Reveals New Images of Oddly Shaped Asteroid ‘Donaldjohanson’ Captured by Lucy Spacecraft</h4>
                 <p class="event-meta text-muted">Unknown date</p>
@@ -141,225 +143,409 @@
                 <p class="event-description">Scientists studying the universe's expansion rate have found a possible slowdown in its growth, with some attributing this to an increase in dark energy. According to the account of Dr. Maria Rodrigue...</p>
                 
             </div>
-                </section>
-                
-                <section class="services-section mb-4">
-                    <h2>Local Services & Tours</h2>
-                    
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Chamber</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">Petrské nám. 1186/1, 110 00 Praha 1-Nové Město, Czechia</p>
-                <p class="business-rating">⭐ 5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Thrill Park Prague</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">Provaznická 399/11, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Car Rental Prague | Carlove</h4>
-                <p class="business-type text-primary">car rental transportation</p>
-                <p class="business-address text-muted">Pobřežní 311/1, Karlín, 186 00 Praha-Praha 8, Czechia</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Express Rent</h4>
-                <p class="business-type text-primary">car rental transportation</p>
-                <p class="business-address text-muted">Na Příkopě 12/853, 110 00 Praha 1, Czechia</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Veterans Museum</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">Vídeňská 136, 378 33 Nová Bystřice, Czechia</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Bockem</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">Elišky Peškové 1095/5, Smíchov, 150 00 Praha-Praha 5, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Eatery</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">U Uranie 18, 170 00 Praha 7-Holešovice, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">AffordableTours.Com</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">11150 Cash Rd, Stafford, TX 77477, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Bohemian Switzerland National Park</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Park Průhonice</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">Zámek 1, 252 43 Průhonice, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Státní hrad a zámek Český Krumlov</h4>
-                <p class="business-type text-primary">things to do</p>
-                <p class="business-address text-muted">Zámek 59, 381 01 Český Krumlov-Český Krumlov 1, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Charles Bridge</h4>
-                <p class="business-type text-primary">things to do</p>
-                <p class="business-address text-muted">Karlův most, 110 00 Praha 1, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Steel Art Museum</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">Celetná 15, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Story of Prague - Museum</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">Křižovnické nám. 194/1, 110 00 Praha 1-Staré Město, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Old Town Square</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">Staroměstské nám., 110 00 Praha 1-Staré Město, Czechia</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Restaurant Mlýnec</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">Novotného lávka 9, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Czech Slovak Restaurant</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">20, Újezd 423, 118 00 Praha 1-Malá Strana, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Prague Astronomical Clock</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">Staroměstské nám. 1, 110 00 Praha 1-Staré Město, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Na Pomezí Caves</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">Vápenná 152, 790 64 Vápenná, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Koněpruské Caves</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">266 01 Koněprusy-Beroun 1, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Theresa valley</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">374 01 Trhové Sviny, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Obora Holedná</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">Žebětínská, 623 00 Brno-Žebětín, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Action Park</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">Výpadová 157, Lahovice, 159 00 Praha-Zbraslav, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Questerland</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">54, Mánesova 1613, Vinohrady, 120 00 Praha-Praha 2, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Memories of New York</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">206 5th Ave, New York, NY 10010, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Cafe Prague</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">6710 W Belmont Ave, Chicago, IL 60634, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Czech-American Restaurant</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">220 N Main St, West, TX 76691, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Sad Man's Tongue Bar & Bistro</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">Konviktská 7, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Prague Castle</h4>
-                <p class="business-type text-primary">things to do</p>
-                <p class="business-address text-muted">119 08 Prague 1, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Pravčická Archway</h4>
-                <p class="business-type text-primary">things to do</p>
-                <p class="business-address text-muted">Hřensko 82, 407 17 Hřensko, Czechia</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
+                <!-- Services Sidebar -->
+                <aside class="services-sidebar mb-4">
+                    <h3>Local Services & Tours</h3>
+                    <div id="localServices" class="services-list">
+                        
+            <div class="service-item clickable" data-business-index="0" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Chamber</h6>
+                    <span class="service-rating">⭐ 5</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 Petrské nám. 1186/1, 110 00 Praha 1-Nové Město, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="1" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Thrill Park Prague</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 Provaznická 399/11, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="2" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Car Rental Prague | Carlove</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">car rental transportation</p>
+                <p class="service-address">📍 Pobřežní 311/1, Karlín, 186 00 Praha-Praha 8, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="3" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Express Rent</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">car rental transportation</p>
+                <p class="service-address">📍 Na Příkopě 12/853, 110 00 Praha 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="4" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Veterans Museum</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 Vídeňská 136, 378 33 Nová Bystřice, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="5" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Bockem</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 Elišky Peškové 1095/5, Smíchov, 150 00 Praha-Praha 5, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="6" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Eatery</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 U Uranie 18, 170 00 Praha 7-Holešovice, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="7" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">AffordableTours.Com</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 11150 Cash Rd, Stafford, TX 77477, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="8" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Bohemian Switzerland National Park</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="9" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Park Průhonice</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 Zámek 1, 252 43 Průhonice, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="10" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Státní hrad a zámek Český Krumlov</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do</p>
+                <p class="service-address">📍 Zámek 59, 381 01 Český Krumlov-Český Krumlov 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="11" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Charles Bridge</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do</p>
+                <p class="service-address">📍 Karlův most, 110 00 Praha 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="12" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Steel Art Museum</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 Celetná 15, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="13" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Story of Prague - Museum</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 Křižovnické nám. 194/1, 110 00 Praha 1-Staré Město, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="14" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Old Town Square</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 Staroměstské nám., 110 00 Praha 1-Staré Město, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="15" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Restaurant Mlýnec</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 Novotného lávka 9, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="16" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Czech Slovak Restaurant</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 20, Újezd 423, 118 00 Praha 1-Malá Strana, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="17" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Prague Astronomical Clock</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 Staroměstské nám. 1, 110 00 Praha 1-Staré Město, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="18" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Na Pomezí Caves</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 Vápenná 152, 790 64 Vápenná, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="19" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Koněpruské Caves</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 266 01 Koněprusy-Beroun 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="20" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Theresa valley</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 374 01 Trhové Sviny, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="21" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Obora Holedná</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 Žebětínská, 623 00 Brno-Žebětín, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="22" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Action Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 Výpadová 157, Lahovice, 159 00 Praha-Zbraslav, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="23" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Questerland</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 54, Mánesova 1613, Vinohrady, 120 00 Praha-Praha 2, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="24" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Memories of New York</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 206 5th Ave, New York, NY 10010, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="25" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Cafe Prague</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 6710 W Belmont Ave, Chicago, IL 60634, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="26" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Czech-American Restaurant</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 220 N Main St, West, TX 76691, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="27" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Sad Man's Tongue Bar & Bistro</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 Konviktská 7, Staré Město, 110 00 Praha-Praha 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="28" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Prague Castle</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do</p>
+                <p class="service-address">📍 119 08 Prague 1, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="29" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Pravčická Archway</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do</p>
+                <p class="service-address">📍 Hřensko 82, 407 17 Hřensko, Czechia</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+                    </div>
+                </aside>
+                
                 <aside class="sidebar">
                     <div class="quick-actions mb-4 p-3 border rounded">
                         <h3>Quick Actions</h3>
@@ -373,6 +559,7 @@
                         <p><strong>Category:</strong> Historical Mysteries</p>
                         <p><strong>Reports:</strong> 2 documented</p>
                         <p><strong>Services:</strong> 30 available</p>
+                        <small class="text-muted">💡 Click on services to view them on the map</small>
                     </div>
                 </aside>
             </div>
@@ -387,28 +574,955 @@
     <!-- Navigation Management -->
     <script src="/js/navigation.js"></script>
     
-    <!-- Location Map JavaScript -->
+    <!-- Location Data -->
     <script>
-        // Initialize map for Česko
+        // Location data for dynamic map functionality
+        const LOCATION_DATA = {
+            name: "Česko",
+            category: "historical",
+            coordinates: null, // Will be geocoded
+            events: [
+        {
+                "name": "NASA Reveals New Images of Oddly Shaped Asteroid \u2018Donaldjohanson\u2019 Captured by Lucy Spacecraft",
+                "type": "Historical Mystery",
+                "description": "NASA Releases New Images of Unusual Asteroid Shape, Donaldjohanson",
+                "category": "historical"
+        },
+        {
+                "name": "Is Cosmic Expansion Losing Steam? Scientists Say Dark Energy\u2019s Grip May Be Weakening",
+                "type": "Historical Mystery",
+                "description": "Scientists studying the universe's expansion rate have found a possible slowdown in its growth, with some attributing this to an increase in dark energy. According to the account of Dr. Maria Rodriguez from NASA, 'we've observed significant fluctuations in the rate of expansion over the past few years.' However, remains unexplained. The researchers are conducting further investigation, including analyzing data from multiple telescopes and conducting detailed simulations. Some experts speculate that this slowdown could be due to changes in the distribution of dark energy, while others believe it may be related to new discoveries about the universe's fundamental laws.",
+                "category": "historical"
+        }
+],
+            businesses: [
+        {
+                "name": "The Chamber",
+                "address": "Petrsk\u00e9 n\u00e1m. 1186/1, 110 00 Praha 1-Nov\u00e9 M\u011bsto, Czechia",
+                "rating": 5,
+                "types": [
+                        "amusement_park",
+                        "amusement_center",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWzprcsCUC0cRJVbE4TcY4JA",
+                "keyword": "entertainment activities",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3939,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0917071,
+                                "lng": 14.4316673
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: The Chamber (Types: amusement_park, amusement_center, tourist_attraction) Located at Petrsk\u00e9 n\u00e1m. 1186/1, 110 00 Praha 1-Nov\u00e9 M\u011bsto, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Thrill Park Prague",
+                "address": "Provaznick\u00e1 399/11, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "amusement_park",
+                        "amusement_center",
+                        "tourist_attraction",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJwXr1VYyUC0cRGg30s_5Xygo",
+                "keyword": "entertainment activities",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 2303,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.085277399999995,
+                                "lng": 14.4239226
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Thrill Park Prague (Types: amusement_park, amusement_center, tourist_attraction) Located at Provaznick\u00e1 399/11, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Car Rental Prague | Carlove",
+                "address": "Pob\u0159e\u017en\u00ed 311/1, Karl\u00edn, 186 00 Praha-Praha 8, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "car_rental",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJYwezu26TC0cRMZ44b7bkbVw",
+                "keyword": "car rental transportation",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1517,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0931016,
+                                "lng": 14.4395358
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Car Rental Prague | Carlove (Types: car_rental, point_of_interest, establishment) Located at Pob\u0159e\u017en\u00ed 311/1, Karl\u00edn, 186 00 Praha-Praha 8, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Express Rent",
+                "address": "Na P\u0159\u00edkop\u011b 12/853, 110 00 Praha 1, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "car_rental",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ9dXD5VaTC0cRNKd2ON-2SRk",
+                "keyword": "car rental transportation",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 875,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.085077999999996,
+                                "lng": 14.425320800000001
+                        }
+                },
+                "enhanced_description": "A local business report, Express Rent, has sparked curiosity in the community. Located at Na P\u0159\u00edkop\u011b 12/853, 110 00 Praha 1, Czechia, this establishment offers car rentals and is situated near a point of interest. According to accounts from witnesses report, customers can find various services within the premises. However, some unexplained elements have arisen. The report remains unverified and warrants further investigation.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Business report",
+                        "Local business",
+                        "Czechia"
+                ],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "While there are unverified claims about the establishment's operations, it is essential to note that similar businesses often face scrutiny over unexplained occurrences. Further research is necessary to verify the information."
+        },
+        {
+                "name": "Veterans Museum",
+                "address": "V\u00edde\u0148sk\u00e1 136, 378 33 Nov\u00e1 Byst\u0159ice, Czechia",
+                "rating": 4.9,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJjVa7fSkrc0cRXLNZWf_zb0E",
+                "keyword": "museums",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3402,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.018529699999995,
+                                "lng": 15.106134399999998
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Veterans Museum (Types: museum, tourist_attraction, point_of_interest) Located at V\u00edde\u0148sk\u00e1 136, 378 33 Nov\u00e1 Byst\u0159ice, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Bockem",
+                "address": "Eli\u0161ky Pe\u0161kov\u00e9 1095/5, Sm\u00edchov, 150 00 Praha-Praha 5, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ84NXbW-VC0cRbLgZps6JxqY",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 579,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.077304399999996,
+                                "lng": 14.405223699999999
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Bockem (Types: restaurant, food, point_of_interest) Located at Eli\u0161ky Pe\u0161kov\u00e9 1095/5, Sm\u00edchov, 150 00 Praha-Praha 5, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "The Eatery",
+                "address": "U Uranie 18, 170 00 Praha 7-Hole\u0161ovice, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJuz0vRzuVC0cRSfvtawq3UPk",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1482,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.1074694,
+                                "lng": 14.450756399999998
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: The Eatery (Types: restaurant, food, point_of_interest) Located at U Uranie 18, 170 00 Praha 7-Hole\u0161ovice, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "AffordableTours.Com",
+                "address": "11150 Cash Rd, Stafford, TX 77477, USA",
+                "rating": 4.8,
+                "types": [
+                        "travel_agency",
+                        "tour_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJXZd3I8nnQIYRLAYZgmiQv4Q",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 2983,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 29.628603099999996,
+                                "lng": -95.57260769999999
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: AffordableTours. Com (Types: travel_agency, tour_agency, point_of_interest) Located at 11150 Cash Rd, Stafford, TX 77477, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Bohemian Switzerland National Park",
+                "address": "Czechia",
+                "rating": 4.8,
+                "types": [
+                        "national_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIyy2doEOCUcRDosWXH1sUvA",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 18085,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.8784035,
+                                "lng": 14.3715503
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Bohemian Switzerland National Park (Types: national_park, tourist_attraction, park) Located at Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Park Pr\u016fhonice",
+                "address": "Z\u00e1mek 1, 252 43 Pr\u016fhonice, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "park",
+                        "historical_landmark",
+                        "botanical_garden",
+                        "event_venue",
+                        "historical_place",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJvbeYxT-OC0cRekLReBPO3wc",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 8213,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.98997120000001,
+                                "lng": 14.5525763
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Park Pr\u016fhonice (Types: park, historical_landmark, botanical_garden) Located at Z\u00e1mek 1, 252 43 Pr\u016fhonice, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "St\u00e1tn\u00ed hrad a z\u00e1mek \u010cesk\u00fd Krumlov",
+                "address": "Z\u00e1mek 59, 381 01 \u010cesk\u00fd Krumlov-\u010cesk\u00fd Krumlov 1, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "historical_place",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJV71mh51dc0cRhlWWvtEL6_8",
+                "keyword": "things to do",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 27119,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.812849799999995,
+                                "lng": 14.3139887
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: St\u00e1tn\u00ed hrad a z\u00e1mek \u010cesk\u00fd Krumlov (Types: historical_place, tourist_attraction, point_of_interest) Located at Z\u00e1mek 59, 381 01 \u010cesk\u00fd Krumlov-\u010cesk\u00fd Krumlov 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Charles Bridge",
+                "address": "Karl\u016fv most, 110 00 Praha 1, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJn7WO5eWUC0cRJrHT0TiXIHU",
+                "keyword": "things to do",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 179408,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0864771,
+                                "lng": 14.411436600000002
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Charles Bridge (Types: tourist_attraction, point_of_interest, establishment) Located at Karl\u016fv most, 110 00 Praha 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Steel Art Museum",
+                "address": "Celetn\u00e1 15, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJU_ZMUfeVC0cREB7z5jLUC_I",
+                "keyword": "museums",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 5782,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0873378,
+                                "lng": 14.4243285
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Steel Art Museum (Types: museum, point_of_interest, establishment) Located at Celetn\u00e1 15, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Story of Prague - Museum",
+                "address": "K\u0159i\u017eovnick\u00e9 n\u00e1m. 194/1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJG43hyJuVC0cRDFWoWlt9MBE",
+                "keyword": "museums",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 4427,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0859877,
+                                "lng": 14.414236099999998
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Story of Prague - Museum (Types: museum, point_of_interest, establishment) Located at K\u0159i\u017eovnick\u00e9 n\u00e1m. 194/1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Old Town Square",
+                "address": "Starom\u011bstsk\u00e9 n\u00e1m., 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "rating": 4.8,
+                "types": [
+                        "plaza",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIfpRNOmUC0cRxHIewgck75c",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 113030,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0875692,
+                                "lng": 14.421187399999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [50. 4011932]: Old Town Square (Types: plaza, tourist_attraction, point_of_interest) Located at Starom\u011bstsk\u00e9 n\u00e1m",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Restaurant Ml\u00fdnec",
+                "address": "Novotn\u00e9ho l\u00e1vka 9, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "fine_dining_restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJq8Kqk-WUC0cR1qKYFrCBV84",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 4455,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.085420899999995,
+                                "lng": 14.413601
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Restaurant Ml\u00fdnec (Types: restaurant, fine_dining_restaurant, food) Located at Novotn\u00e9ho l\u00e1vka 9, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Czech Slovak Restaurant",
+                "address": "20, \u00dajezd 423, 118 00 Praha 1-Mal\u00e1 Strana, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJCWZ8ovyUC0cRUDz-RPxkU50",
+                "keyword": "restaurants food dining",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1995,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0817729,
+                                "lng": 14.4046314
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Czech Slovak Restaurant (Types: restaurant, food, point_of_interest) Located at 20, \u00dajezd 423, 118 00 Praha 1-Mal\u00e1 Strana, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Prague Astronomical Clock",
+                "address": "Starom\u011bstsk\u00e9 n\u00e1m. 1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJSS_AOemUC0cRlgaiWrJEe_E",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 81297,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0870215,
+                                "lng": 14.420706500000001
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Prague Astronomical Clock (Types: tourist_attraction, point_of_interest, establishment) Located at Starom\u011bstsk\u00e9 n\u00e1m. 1, 110 00 Praha 1-Star\u00e9 M\u011bsto, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Na Pomez\u00ed Caves",
+                "address": "V\u00e1penn\u00e1 152, 790 64 V\u00e1penn\u00e1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "park",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJewAAAMTxEUcR4mA0fTTHo_c",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3481,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.246096099999995,
+                                "lng": 17.1381843
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Na Pomez\u00ed Caves (Types: tourist_attraction, hiking_area, park) Located at V\u00e1penn\u00e1 152, 790 64 V\u00e1penn\u00e1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Kon\u011bprusk\u00e9 Caves",
+                "address": "266 01 Kon\u011bprusy-Beroun 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "park",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJU11nLtClC0cRa4tBSZeElEg",
+                "keyword": "things to do attractions tours",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 5859,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.9161284,
+                                "lng": 14.068791099999999
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Kon\u011bprusk\u00e9 Caves (Types: tourist_attraction, hiking_area, park) Located at 266 01 Kon\u011bprusy-Beroun 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Theresa valley",
+                "address": "374 01 Trhov\u00e9 Sviny, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "national_park",
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJW7OfowE9c0cRxzhKV4XvTWg",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 3901,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 48.780319299999995,
+                                "lng": 14.7580111
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Theresa valley (Types: national_park, tourist_attraction, hiking_area) Located at 374 01 Trhov\u00e9 Sviny, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Obora Holedn\u00e1",
+                "address": "\u017deb\u011bt\u00ednsk\u00e1, 623 00 Brno-\u017deb\u011bt\u00edn, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7zhEB2CWEkcRQAmHtLlcqsA",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 2399,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.1998812,
+                                "lng": 16.519603699999998
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Obora Holedn\u00e1 (Types: park, tourist_attraction, point_of_interest) Located at \u017deb\u011bt\u00ednsk\u00e1, 623 00 Brno-\u017deb\u011bt\u00edn, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Action Park",
+                "address": "V\u00fdpadov\u00e1 157, Lahovice, 159 00 Praha-Zbraslav, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "amusement_center",
+                        "athletic_field",
+                        "sports_complex",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWSIH-9mWC0cRMmslrTaP2kM",
+                "keyword": "parks recreation outdoor",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 748,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 49.994552399999996,
+                                "lng": 14.3956349
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Action Park (Types: amusement_center, athletic_field, sports_complex) Located at V\u00fdpadov\u00e1 157, Lahovice, 159 00 Praha-Zbraslav, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Questerland",
+                "address": "54, M\u00e1nesova 1613, Vinohrady, 120 00 Praha-Praha 2, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "amusement_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIXwBMIWUC0cRFFb3ettNK0I",
+                "keyword": "entertainment activities",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1045,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0775833,
+                                "lng": 14.4425991
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Questerland (Types: amusement_center, point_of_interest, establishment) Located at 54, M\u00e1nesova 1613, Vinohrady, 120 00 Praha-Praha 2, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Memories of New York",
+                "address": "206 5th Ave, New York, NY 10010, USA",
+                "rating": 4.7,
+                "types": [
+                        "gift_shop",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJpeIVgqZZwokRid4iTxivVhM",
+                "keyword": "gift shops souvenirs",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 1196,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.74321,
+                                "lng": -73.988793
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Memories of New York (Types: gift_shop, point_of_interest, store) Located at 206 5th Ave, New York, NY 10010, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Cafe Prague",
+                "address": "6710 W Belmont Ave, Chicago, IL 60634, USA",
+                "rating": 4.7,
+                "types": [
+                        "coffee_shop",
+                        "cafe",
+                        "bar",
+                        "food_store",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ92we1J_LD4gRwiCwLl4y1AE",
+                "keyword": "restaurants",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 803,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.938317999999995,
+                                "lng": -87.79383700000001
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Cafe Prague (Types: coffee_shop, cafe, bar) Located at 6710 W Belmont Ave, Chicago, IL 60634, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Czech-American Restaurant",
+                "address": "220 N Main St, West, TX 76691, USA",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJzVXix6kKT4YRJiMNlReIFWY",
+                "keyword": "restaurants",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 685,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 31.8032456,
+                                "lng": -97.0917614
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Czech-American Restaurant (Types: restaurant, point_of_interest, food) Located at 220 N Main St, West, TX 76691, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Sad Man's Tongue Bar & Bistro",
+                "address": "Konviktsk\u00e1 7, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "bar_and_grill",
+                        "hamburger_restaurant",
+                        "american_restaurant",
+                        "bar",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJiePSuu-UC0cR3V69VGKIsi0",
+                "keyword": "restaurants",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 8128,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0835158,
+                                "lng": 14.416132900000001
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Sad Man's Tongue Bar & Bistro (Types: bar_and_grill, hamburger_restaurant, american_restaurant) Located at Konviktsk\u00e1 7, Star\u00e9 M\u011bsto, 110 00 Praha-Praha 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Prague Castle",
+                "address": "119 08 Prague 1, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "historical_place",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJw7ckbB6VC0cRnyUSr4g8zyo",
+                "keyword": "things to do",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 183920,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.0910966,
+                                "lng": 14.4016165
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Prague Castle (Types: historical_place, tourist_attraction, point_of_interest) Located at 119 08 Prague 1, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Prav\u010dick\u00e1 Archway",
+                "address": "H\u0159ensko 82, 407 17 H\u0159ensko, Czechia",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "tourist_information_center",
+                        "tour_agency",
+                        "travel_agency",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbek7bUWgCUcROqeYeMZK90g",
+                "keyword": "things to do",
+                "location": "\u010cesko, USA",
+                "user_ratings_total": 14370,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 50.8839207,
+                                "lng": 14.2815093
+                        }
+                },
+                "enhanced_description": "Business in \u010cesko, USA: Prav\u010dick\u00e1 Archway (Types: tourist_attraction, tourist_information_center, tour_agency) Located at H\u0159ensko 82, 407 17 H\u0159ensko, Czechia",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.7,
+                "credibility_notes": "Source: . Verification needed."
+        }
+],
+            stats: {
+                total_events: 2,
+                total_businesses: 30,
+                category: "historical"
+            },
+            metadata: {
+                page_description: "Explore historical mysteries in Česko. 2 recent historical reports. Find entertainment activities, museums, car rental transportation. Complete guide to mystery tours, local investigators, and paranormal services.",
+                canonical_url: "https://mystiqst.com/directory/historical/esko/",
+                keywords: "['historical Česko', 'Česko historical tours', 'Česko historical guide', 'historical investigators Česko', 'things to do Česko', 'Česko mystery tours', 'Česko paranormal', 'entertainment activities Česko', 'Česko entertainment activities', 'museums Česko', 'Česko museums', 'car rental transportation Česko', 'Česko car rental transportation']"
+            }
+        };
+    </script>
+    
+    <!-- Location Detail Script -->
+    <script src="/directory/location-detail.js"></script>
+    
+    <!-- Initialize Dynamic Map -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Create map centered on location (we'll use a default center for now)
-            const map = L.map('locationMap').setView([39.8283, -98.5795], 6); // Default US center
+            // Initialize location map with enhanced functionality
+            if (typeof initLocationMap === 'function') {
+                initLocationMap();
+            }
             
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors',
-                maxZoom: 18
-            }).addTo(map);
+            // Load location content
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
+            }
             
-            // Custom icon for mystery locations
-            const mysteryIcon = L.divIcon({
-                className: 'mystery-marker',
-                html: '<div style="background: #00ffff; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px rgba(0,255,255,0.5);"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
-            });
-            
-            // Try to geocode the location and add markers
+            // Geocode location for coordinates
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent('Česko')}`)
                 .then(response => response.json())
                 .then(data => {
@@ -416,18 +1530,17 @@
                         const lat = parseFloat(data[0].lat);
                         const lon = parseFloat(data[0].lon);
                         
-                        // Center map on location
-                        map.setView([lat, lon], 10);
+                        // Update LOCATION_DATA with coordinates
+                        LOCATION_DATA.coordinates = [lat, lon];
                         
-                        // Add marker for main location
-                        L.marker([lat, lon], {icon: mysteryIcon})
-                            .addTo(map)
-                            .bindPopup(`<b>Česko</b><br>Historical Mysteries Location<br>2 reports, 30 services`);
+                        // Re-initialize map with actual coordinates
+                        if (typeof initLocationMap === 'function' && window.locationMap) {
+                            window.locationMap.setView([lat, lon], 12);
+                        }
                     }
                 })
                 .catch(error => {
                     console.log('Geocoding failed:', error);
-                    // Keep default view if geocoding fails
                 });
         });
     </script>

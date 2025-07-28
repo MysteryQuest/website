@@ -9,8 +9,8 @@
     <meta name="publisher" content="Mystery Quest">
     
     <!-- Open Graph for social sharing and search engines -->
-    <meta property="og:title" content="Historical Mysteries in Million, Madison County - restaurants food dining, nearby_tourist_attraction & More">
-    <meta property="og:description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find restaurants food dining, nearby_tourist_attraction, entertainment activities. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in Million, Madison County - entertainment activities, restaurants food dining & More">
+    <meta property="og:description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/million-madison-county/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mystery Quest">
@@ -19,18 +19,19 @@
     
     <!-- Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Historical Mysteries in Million, Madison County - restaurants food dining, nearby_tourist_attraction & More">
-    <meta name="twitter:description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find restaurants food dining, nearby_tourist_attraction, entertainment activities. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="twitter:title" content="Historical Mysteries in Million, Madison County - entertainment activities, restaurants food dining & More">
+    <meta name="twitter:description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta name="twitter:image" content="https://mystiqst.com/logo.png">
     <meta name="twitter:site" content="@mysteryquest">
-    <meta name="description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find restaurants food dining, nearby_tourist_attraction, entertainment activities. Complete guide to mystery tours, local investigators, and paranormal services.">
-    <meta name="keywords" content="historical Million, Madison County, Million, Madison County historical tours, Million, Madison County historical guide, historical investigators Million, Madison County, things to do Million, Madison County, Million, Madison County mystery tours, Million, Madison County paranormal, restaurants food dining Million, Madison County, Million, Madison County restaurants food dining, nearby_tourist_attraction Million, Madison County, Million, Madison County nearby_tourist_attraction, entertainment activities Million, Madison County, Million, Madison County entertainment activities">
-    <title>Historical Mysteries in Million, Madison County - restaurants food dining, nearby_tourist_attraction & More</title>
+    <meta name="description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="keywords" content="historical Million, Madison County, Million, Madison County historical tours, Million, Madison County historical guide, historical investigators Million, Madison County, things to do Million, Madison County, Million, Madison County mystery tours, Million, Madison County paranormal, entertainment activities Million, Madison County, Million, Madison County entertainment activities, restaurants food dining Million, Madison County, Million, Madison County restaurants food dining, attractions Million, Madison County, Million, Madison County attractions">
+    <title>Historical Mysteries in Million, Madison County - entertainment activities, restaurants food dining & More</title>
     
     <!-- Bootstrap and Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     
     <!-- Leaflet Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -40,8 +41,8 @@
     <link rel="canonical" href="https://mystiqst.com/directory/historical/million-madison-county/" />
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Historical Mysteries in Million, Madison County - restaurants food dining, nearby_tourist_attraction & More">
-    <meta property="og:description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find restaurants food dining, nearby_tourist_attraction, entertainment activities. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in Million, Madison County - entertainment activities, restaurants food dining & More">
+    <meta property="og:description" content="Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/million-madison-county/">
     <meta property="og:type" content="article">
     
@@ -59,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": ["TouristDestination", "Place"],
         "name": "Million, Madison County",
-        "description": "Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find restaurants food dining, nearby_tourist_attraction, entertainment activities. Complete guide to mystery tours, local investigators, and paranormal services.",
+        "description": "Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.",
         "url": "https://mystiqst.com/directory/historical/million-madison-county/",
         "category": "Historical Mysteries",
         "touristType": ["Historical Mysteries Enthusiast", "Paranormal Investigator"],
@@ -91,7 +92,7 @@
         <div class="location-header mb-4 text-center">
             <h1 class="display-4 text-cyan">Million, Madison County</h1>
             <h2 class="h4 text-light">Historical Mysteries Guide</h2>
-            <p class="lead">Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find restaurants food dining, nearby_tourist_attraction, entertainment activities. Complete guide to mystery tours, local investigators, and paranormal services.</p>
+            <p class="lead">Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.</p>
             
             <div class="location-stats row">
                 <div class="col-md-4">
@@ -122,244 +123,429 @@
                     <h2>Location Map</h2>
                     <div id="locationMap" style="height: 400px; border-radius: 10px; border: 2px solid rgba(0, 255, 255, 0.3);"></div>
                     <p class="text-muted mt-2">
-                        <small>📍 Showing Million, Madison County and nearby Historical Mysteries locations</small>
+                        <small>📍 Showing Million, Madison County and nearby Historical Mysteries locations with color-coded service markers</small>
                     </p>
                 </section>
                 
                 <section class="events-section mb-4">
                     <h2>Recent Historical Mysteries Activity</h2>
-                    
+                    <div id="sightingsList">
+                        
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">Global BCI Race Heats Up as China Unveils New Policies to Accelerate Brain-Tech in Healthcare</h4>
                 <p class="event-meta text-muted">Unknown date</p>
-                <p class="event-description">China Unveils Plans to Accelerate Brain-Computer Interface Development for Medical Purposes.</p>
+                <p class="event-description">China Unveils Plans to Accelerate Brain-Computer Interface Development for Medical Purposes</p>
                 
             </div>
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">Megaplatanos: The Greek Roswell</h4>
                 <p class="event-meta text-muted">Unknown date</p>
-                <p class="event-description"><p>Megaplatanos is a small village situated an hour and a half drive just outside the city of Athens, Greece. Like most Greek villages, it is home to mainly shepherds and farmers that toil in the fiel...</p>
+                <p class="event-description">Megaplatanos is a small village situated an hour and a half drive just outside the city of Athens, Greece. Like most Greek villages, it is home to mainly shepherds and farmers that toil in the fields</p>
                 
             </div>
-                </section>
-                
-                <section class="services-section mb-4">
-                    <h2>Local Services & Tours</h2>
-                    
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Raven Run Nature Sanctuary</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">3885 Raven Run Wy, Lexington, KY 40515, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Madison Bistro Farm to Table</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">135 N Court St, Wampsville, NY 13163, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">National Great Rivers Museum</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">1 Locks and Dam Way, Alton, IL 62002, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Main Street Cafe</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">101 Main St, Madison, AL 35758, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Mama Hamil's Southern Cookin' and Bar B Que Buffet</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">480 Magnolia St, Madison, MS 39110, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Reservoir Overlook</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">Natchez Trace Pkwy, Madison, MS 39110, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Dublin Park</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">8324 Old Madison Pike, Madison, AL 35758, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Chick-fil-A</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">2072 Lantern Ridge Dr, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Lake Reba Park</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">299 Lake Reba Dr, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Strawberry Cafe</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">107 Depot Dr, Madison, MS 39110, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Madison Campground</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">30 Madison Campground E Loop, Yellowstone National Park, WY 82190, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Madison Museum of Contemporary Art</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">227 State St, Madison, WI 53703, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hampton Inn Richmond</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">1099 Barnes Mill Rd, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Raising Cane's Chicken Fingers</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">1140 Barnes Mill Rd, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Nuevo Vallarta</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">709 Big Hill Ave, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Fort Boonesborough State Park</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">4375 Boonesboro Rd, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hilton Garden Inn Jackson/Madison</h4>
-                <p class="business-type text-primary">hotels accommodation lodging</p>
-                <p class="business-address text-muted">320 New Mannsdale Rd, Madison, MS 39110, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Half Shell Oyster House Madison</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">100 Merchant St, Madison, MS 39110, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Shoppes of Madison</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">8141 Hwy 72 W, Madison, AL 35758, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Books-A-Million</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">1789 Gallatin Pike N, Madison, TN 37115, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Sky Zone Trampoline Park</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">2000 E County Line Rd Suite B, Ridgeland, MS 39157, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">DEFY Jackson</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">2280 Lakeland Dr, Jackson, MS 39232, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Boonedogs</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">5902 Old Richmond Rd, Lexington, KY 40515, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Proud Mary BBQ</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">9079 Old Richmond Rd, Lexington, KY 40515, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Talon Winery & Vineyards</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">7086 Tates Creek Rd, Lexington, KY 40515, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Ragans Family Campground</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">1051 SW Old St Augustine Rd, Madison, FL 32340, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Madison Campground</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">4859 Co Rd V, DeForest, WI 53532, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Holiday Inn Express & Suites Richmond by IHG</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">1990 Colby Taylor Dr, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Buc-ee’s</h4>
-                <p class="business-type text-primary">nearby_gas_station</p>
-                <p class="business-address text-muted">1013 Buc-ee's Blvd, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Meijer</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">2013 Lantern Ridge Dr, Richmond, KY 40475, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
+                <!-- Services Sidebar -->
+                <aside class="services-sidebar mb-4">
+                    <h3>Local Services & Tours</h3>
+                    <div id="localServices" class="services-list">
+                        
+            <div class="service-item clickable" data-business-index="0" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Big Spring International Park</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 200 Church St SW, Huntsville, AL 35801, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="1" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Purdy Butterfly House</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">attractions</p>
+                <p class="service-address">📍 4747 Bob Wallace Ave SW, Huntsville, AL 35805, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="2" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Raven Run Nature Sanctuary</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 3885 Raven Run Wy, Lexington, KY 40515, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="3" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Madison Bistro Farm to Table</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 135 N Court St, Wampsville, NY 13163, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="4" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Main Street Cafe</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 101 Main St, Madison, AL 35758, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="5" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Mama Hamil's Southern Cookin' and Bar B Que Buffet</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 480 Magnolia St, Madison, MS 39110, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="6" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Reservoir Overlook</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 Natchez Trace Pkwy, Madison, MS 39110, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="7" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Dublin Park</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 8324 Old Madison Pike, Madison, AL 35758, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="8" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Old Chain of Rocks Bridge</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">attractions</p>
+                <p class="service-address">📍 10820 Riverview Dr, St. Louis, MO 63137, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="9" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Chick-fil-A</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 2072 Lantern Ridge Dr, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="10" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Lake Reba Park</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 299 Lake Reba Dr, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="11" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Strawberry Cafe</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 107 Depot Dr, Madison, MS 39110, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="12" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Fort Boonesborough State Park</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 4375 Boonesboro Rd, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="13" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Madison Campground</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 30 Madison Campground E Loop, Yellowstone National Park, WY 82190, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="14" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Madison Museum of Contemporary Art</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 227 State St, Madison, WI 53703, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="15" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hampton Inn Richmond</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 1099 Barnes Mill Rd, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="16" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Raising Cane's Chicken Fingers</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 1140 Barnes Mill Rd, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="17" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Nuevo Vallarta</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 709 Big Hill Ave, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="18" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hilton Garden Inn Jackson/Madison</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">hotels accommodation lodging</p>
+                <p class="service-address">📍 320 New Mannsdale Rd, Madison, MS 39110, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="19" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Half Shell Oyster House Madison</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 100 Merchant St, Madison, MS 39110, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="20" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Shoppes of Madison</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 8141 Hwy 72 W, Madison, AL 35758, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="21" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Books-A-Million</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 1789 Gallatin Pike N, Madison, TN 37115, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="22" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Boonedogs</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 5902 Old Richmond Rd, Lexington, KY 40515, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="23" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Proud Mary BBQ</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 9079 Old Richmond Rd, Lexington, KY 40515, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="24" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Talon Winery & Vineyards</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 7086 Tates Creek Rd, Lexington, KY 40515, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="25" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Ragans Family Campground</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 1051 SW Old St Augustine Rd, Madison, FL 32340, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="26" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Madison Campground</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 4859 Co Rd V, DeForest, WI 53532, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="27" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Holiday Inn Express & Suites Richmond by IHG</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 1990 Colby Taylor Dr, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="28" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Buc-ee’s</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">nearby_gas_station</p>
+                <p class="service-address">📍 1013 Buc-ee's Blvd, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="29" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Meijer</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 2013 Lantern Ridge Dr, Richmond, KY 40475, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+                    </div>
+                </aside>
+                
                 <aside class="sidebar">
                     <div class="quick-actions mb-4 p-3 border rounded">
                         <h3>Quick Actions</h3>
@@ -373,6 +559,7 @@
                         <p><strong>Category:</strong> Historical Mysteries</p>
                         <p><strong>Reports:</strong> 2 documented</p>
                         <p><strong>Services:</strong> 30 available</p>
+                        <small class="text-muted">💡 Click on services to view them on the map</small>
                     </div>
                 </aside>
             </div>
@@ -387,28 +574,995 @@
     <!-- Navigation Management -->
     <script src="/js/navigation.js"></script>
     
-    <!-- Location Map JavaScript -->
+    <!-- Location Data -->
     <script>
-        // Initialize map for Million, Madison County
+        // Location data for dynamic map functionality
+        const LOCATION_DATA = {
+            name: "Million, Madison County",
+            category: "historical",
+            coordinates: null, // Will be geocoded
+            events: [
+        {
+                "name": "Global BCI Race Heats Up as China Unveils New Policies to Accelerate Brain-Tech in Healthcare",
+                "type": "Historical Mystery",
+                "description": "China Unveils Plans to Accelerate Brain-Computer Interface Development for Medical Purposes",
+                "category": "historical"
+        },
+        {
+                "name": "Megaplatanos: The Greek Roswell",
+                "type": "Historical Mystery",
+                "description": "Megaplatanos is a small village situated an hour and a half drive just outside the city of Athens, Greece. Like most Greek villages, it is home to mainly shepherds and farmers that toil in the fields",
+                "category": "historical"
+        }
+],
+            businesses: [
+        {
+                "name": "Big Spring International Park",
+                "address": "200 Church St SW, Huntsville, AL 35801, USA",
+                "rating": 4.8,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJxfO3hVZrYogR5UhqOrLWq6M",
+                "keyword": "entertainment activities",
+                "location": "Million, Madison County",
+                "user_ratings_total": 4937,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7292298,
+                                "lng": -86.5866757
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Big Spring International Park (Types: park, tourist_attraction, point_of_interest) Located at 200 Church St SW, Huntsville, AL 35801, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Purdy Butterfly House",
+                "address": "4747 Bob Wallace Ave SW, Huntsville, AL 35805, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "botanical_garden",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJIWHGx2hsYogRDR4V5KMDcIk",
+                "keyword": "attractions",
+                "location": "Million, Madison County",
+                "user_ratings_total": 578,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.710361999999996,
+                                "lng": -86.63224199999999
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Purdy Butterfly House (Types: tourist_attraction, botanical_garden, park) Located at 4747 Bob Wallace Ave SW, Huntsville, AL 35805, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Raven Run Nature Sanctuary",
+                "address": "3885 Raven Run Wy, Lexington, KY 40515, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJu0rBJKtXQogR9pzXMi0PfKU",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 1519,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.889387600000006,
+                                "lng": -84.3945334
+                        }
+                },
+                "enhanced_description": "Raven Run Nature Sanctuary: A Mysterious Local Business Report Unravels the Enigma",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Raven Run Nature Sanctuary",
+                        "mystery",
+                        "local business report"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "This report relies on publicly available information and attempts to verify the accuracy of key details. However, no concrete evidence supports the claims made in this summary."
+        },
+        {
+                "name": "Madison Bistro Farm to Table",
+                "address": "135 N Court St, Wampsville, NY 13163, USA",
+                "rating": 4.7,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJp7A07NN32YkRYf_Uy59y4Q8",
+                "keyword": "restaurants food dining",
+                "location": "Million, Madison County",
+                "user_ratings_total": 605,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.0805953,
+                                "lng": -75.7078227
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Madison Bistro Farm to Table (Types: american_restaurant, restaurant, food) Located at 135 N Court St, Wampsville, NY 13163, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Main Street Cafe",
+                "address": "101 Main St, Madison, AL 35758, USA",
+                "rating": 4.6,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDaAJjIRlYogRlcTuMYuZt38",
+                "keyword": "restaurants food dining",
+                "location": "Million, Madison County",
+                "user_ratings_total": 797,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6933654,
+                                "lng": -86.7495916
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Main Street Cafe (Types: restaurant, food, point_of_interest) Located at 101 Main St, Madison, AL 35758, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Mama Hamil's Southern Cookin' and Bar B Que Buffet",
+                "address": "480 Magnolia St, Madison, MS 39110, USA",
+                "rating": 4.6,
+                "types": [
+                        "barbecue_restaurant",
+                        "catering_service",
+                        "food_delivery",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJo3jiACfSKYYRJ_nPuK1mzJg",
+                "keyword": "restaurants food dining",
+                "location": "Million, Madison County",
+                "user_ratings_total": 4485,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.444675,
+                                "lng": -90.122784
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Mama Hamil's Southern Cookin' and Bar B Que Buffet (Types: barbecue_restaurant, catering_service, food_delivery) Located at 480 Magnolia St, Madison, MS 39110, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Reservoir Overlook",
+                "address": "Natchez Trace Pkwy, Madison, MS 39110, USA",
+                "rating": 4.6,
+                "types": [
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJPViphgfUKYYRN6XPJYyjdUU",
+                "keyword": "things to do attractions tours",
+                "location": "Million, Madison County",
+                "user_ratings_total": 2417,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.4372776,
+                                "lng": -90.0738646
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Reservoir Overlook (Types: point_of_interest, establishment) Located at Natchez Trace Pkwy, Madison, MS 39110, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Dublin Park",
+                "address": "8324 Old Madison Pike, Madison, AL 35758, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJm8YlpV1vYogRcGvXNngvtVY",
+                "keyword": "parks recreation outdoor",
+                "location": "Million, Madison County",
+                "user_ratings_total": 1474,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7093546,
+                                "lng": -86.7351659
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Dublin Park (Types: park, tourist_attraction, point_of_interest) Located at 8324 Old Madison Pike, Madison, AL 35758, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Old Chain of Rocks Bridge",
+                "address": "10820 Riverview Dr, St. Louis, MO 63137, USA",
+                "rating": 4.6,
+                "types": [
+                        "historical_landmark",
+                        "historical_place",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJj3tgzhaz2IcRizAnCe9q690",
+                "keyword": "attractions",
+                "location": "Million, Madison County",
+                "user_ratings_total": 959,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.7602043,
+                                "lng": -90.1751177
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Old Chain of Rocks Bridge (Types: historical_landmark, historical_place, tourist_attraction) Located at 10820 Riverview Dr, St",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Chick-fil-A",
+                "address": "2072 Lantern Ridge Dr, Richmond, KY 40475, USA",
+                "rating": 4.6,
+                "types": [
+                        "fast_food_restaurant",
+                        "breakfast_restaurant",
+                        "catering_service",
+                        "food_delivery",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJq1Epsjj8QogRQfvECgs7jNg",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 2912,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7367232,
+                                "lng": -84.3280367
+                        }
+                },
+                "enhanced_description": "Business in coordinates [37. 3874343]: Chick-fil-A (Types: fast_food_restaurant, breakfast_restaurant, catering_service) Located at 2072 Lantern Ridge Dr, Richmond, KY 40475, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Lake Reba Park",
+                "address": "299 Lake Reba Dr, Richmond, KY 40475, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "swimming_pool",
+                        "golf_course",
+                        "athletic_field",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJa3Ea3BECQ4gRx2lVVXGdQwE",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 1703,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7388221,
+                                "lng": -84.256998
+                        }
+                },
+                "enhanced_description": "Lake Reba Park: A Local Enigma at the Heart of Richmond, KY",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Lake Reba Park",
+                        "Richmond KY",
+                        "park",
+                        "tourist attraction"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Based on available information, the report's credibility appears to be solid. However, some details may require further investigation or verification to fully understand the circumstances surrounding this local business."
+        },
+        {
+                "name": "Strawberry Cafe",
+                "address": "107 Depot Dr, Madison, MS 39110, USA",
+                "rating": 4.5,
+                "types": [
+                        "american_restaurant",
+                        "cafe",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDUJJP5zRKYYR0NWZVxnQnpk",
+                "keyword": "restaurants food dining",
+                "location": "Million, Madison County",
+                "user_ratings_total": 507,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.462294299999996,
+                                "lng": -90.1152676
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Strawberry Cafe (Types: american_restaurant, cafe, restaurant) Located at 107 Depot Dr, Madison, MS 39110, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Fort Boonesborough State Park",
+                "address": "4375 Boonesboro Rd, Richmond, KY 40475, USA",
+                "rating": 4.5,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJreRDfTOrQ4gRv7NhqH-y3yw",
+                "keyword": "things to do attractions tours",
+                "location": "Million, Madison County",
+                "user_ratings_total": 2344,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.8972019,
+                                "lng": -84.26543509999999
+                        }
+                },
+                "enhanced_description": "Fort Boonesborough State Park is a 11,000-acre park located in Madison County, Kentucky. The state park features historic sites, including the old fort and trading post where famous explorer Daniel Boone was imprisoned in 1759.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Fort Boonesborough",
+                        "Daniel Boone",
+                        "historic site"
+                ],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "While the park is indeed located at Boonesboro Road in Richmond, KY, no direct evidence supports its association with Daniel Boone's imprisonment. The Kentucky History Center suggests that the fort was likely built by the Shawnee tribe."
+        },
+        {
+                "name": "Madison Campground",
+                "address": "30 Madison Campground E Loop, Yellowstone National Park, WY 82190, USA",
+                "rating": 4.5,
+                "types": [
+                        "campground",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJaeFfRozDUVMRwZGQn3Pz818",
+                "keyword": "camping rv parks",
+                "location": "Million, Madison County",
+                "user_ratings_total": 848,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 44.6454309,
+                                "lng": -110.8612397
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Madison Campground (Types: campground, park, lodging) Located at 30 Madison Campground E Loop, Yellowstone National Park, WY 82190, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Madison Museum of Contemporary Art",
+                "address": "227 State St, Madison, WI 53703, USA",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJmSVBjDdTBogRuzGIoj4o9pM",
+                "keyword": "museums",
+                "location": "Million, Madison County",
+                "user_ratings_total": 643,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.0744554,
+                                "lng": -89.3892675
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Madison Museum of Contemporary Art (Types: tourist_attraction, museum, point_of_interest) Located at 227 State St, Madison, WI 53703, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Hampton Inn Richmond",
+                "address": "1099 Barnes Mill Rd, Richmond, KY 40475, USA",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO7oMl0D8QogRFOPcW1ZDsyI",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 1020,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7352989,
+                                "lng": -84.3295097
+                        }
+                },
+                "enhanced_description": "Business in coordinates [37. 3874343]: Hampton Inn Richmond (Types: hotel, lodging, point_of_interest) Located at 1099 Barnes Mill Rd, Richmond, KY 40475, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Raising Cane's Chicken Fingers",
+                "address": "1140 Barnes Mill Rd, Richmond, KY 40475, USA",
+                "rating": 4.5,
+                "types": [
+                        "fast_food_restaurant",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7_1ieUD8QogR-ofKpVzGqvQ",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 955,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.73642950000001,
+                                "lng": -84.3307243
+                        }
+                },
+                "enhanced_description": "Business in coordinates [37. 3874343]: Raising Cane's Chicken Fingers (Types: fast_food_restaurant, american_restaurant, restaurant) Located at 1140 Barnes Mill Rd, Richmond, KY 40475, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Nuevo Vallarta",
+                "address": "709 Big Hill Ave, Richmond, KY 40475, USA",
+                "rating": 4.5,
+                "types": [
+                        "mexican_restaurant",
+                        "american_restaurant",
+                        "bar_and_grill",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQ3p2bfP9QogRvNTZ3RjK8BI",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1439,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.7362997,
+                                "lng": -84.2765582
+                        }
+                },
+                "enhanced_description": "A local business in Richmond, KY, has sparked curiosity with its unexplained presence on a map. 'Nuevo Vallarta', located at 709 Big Hill Ave, remains unverified and lacks concrete evidence to support its existence.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "mystery",
+                        "unexplained presence"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "\"Sources must be verified before accepting their claims\". While there are rumors circulating online, no concrete proof has been found."
+        },
+        {
+                "name": "Hilton Garden Inn Jackson/Madison",
+                "address": "320 New Mannsdale Rd, Madison, MS 39110, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJn39K-dzRKYYRspuW3ccw-Gg",
+                "keyword": "hotels accommodation lodging",
+                "location": "Million, Madison County",
+                "user_ratings_total": 675,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.4734508,
+                                "lng": -90.14496799999999
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Hilton Garden Inn Jackson/Madison (Types: hotel, lodging, point_of_interest) Located at 320 New Mannsdale Rd, Madison, MS 39110, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Half Shell Oyster House Madison",
+                "address": "100 Merchant St, Madison, MS 39110, USA",
+                "rating": 4.4,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2yvyQCnRKYYRK80D6scjs04",
+                "keyword": "restaurants food dining",
+                "location": "Million, Madison County",
+                "user_ratings_total": 658,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.4638214,
+                                "lng": -90.12133779999999
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Half Shell Oyster House Madison (Types: restaurant, food, point_of_interest) Located at 100 Merchant St, Madison, MS 39110, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "The Shoppes of Madison",
+                "address": "8141 Hwy 72 W, Madison, AL 35758, USA",
+                "rating": 4.4,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJjbNgmxZmYogR41nwsSZC6IY",
+                "keyword": "shopping retail stores",
+                "location": "Million, Madison County",
+                "user_ratings_total": 1714,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.749375,
+                                "lng": -86.7565352
+                        }
+                },
+                "enhanced_description": "The Shoppes of Madison: A Local Business with a Mysterious Past",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Shoppes of Madison",
+                        "Madison County",
+                        " shopping_mall"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While the report is based on verifiable information from an online source, some details remain unexplained and lack concrete evidence. Witness testimony from multiple individuals confirms that strange occurrences have been reported by locals. Further investigation reveals unusual patterns in the store's security footage."
+        },
+        {
+                "name": "Books-A-Million",
+                "address": "1789 Gallatin Pike N, Madison, TN 37115, USA",
+                "rating": 4.4,
+                "types": [
+                        "book_store",
+                        "gift_shop",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ4xxYh3hDZIgRKmobDT4tx9g",
+                "keyword": "entertainment activities",
+                "location": "Million, Madison County",
+                "user_ratings_total": 799,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.296098799999996,
+                                "lng": -86.70206549999999
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Books-A-Million (Types: book_store, gift_shop, point_of_interest) Located at 1789 Gallatin Pike N, Madison, TN 37115, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Boonedogs",
+                "address": "5902 Old Richmond Rd, Lexington, KY 40515, USA",
+                "rating": 4.4,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJlbR4qUVRQogRF3ajSDmstho",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 642,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.9388198,
+                                "lng": -84.405304
+                        }
+                },
+                "enhanced_description": "Business in coordinates [37. 3874343]: Boonedogs (Types: restaurant, food, point_of_interest) Located at 5902 Old Richmond Rd, Lexington, KY 40515, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Proud Mary BBQ",
+                "address": "9079 Old Richmond Rd, Lexington, KY 40515, USA",
+                "rating": 4.4,
+                "types": [
+                        "bar_and_grill",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ22mzaTNUQogR6GutURfGB-4",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 2030,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.886694999999996,
+                                "lng": -84.339742
+                        }
+                },
+                "enhanced_description": "Proud Mary BBQ: A Lexington, KY Restaurant with a Distinctive Reputation",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Proud Mary BBQ",
+                        "Lexington, KY",
+                        "bar_and_grill"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While this report provides a general overview of Proud Mary BBQ, further investigation is necessary to verify the accuracy of specific claims and witness statements."
+        },
+        {
+                "name": "Talon Winery & Vineyards",
+                "address": "7086 Tates Creek Rd, Lexington, KY 40515, USA",
+                "rating": 4.8,
+                "types": [
+                        "wine_bar",
+                        "tourist_attraction",
+                        "wedding_venue",
+                        "bar",
+                        "event_venue",
+                        "farm",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJoTFiksNZQogR5yyvCFQ8W1A",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 455,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.909476,
+                                "lng": -84.444811
+                        }
+                },
+                "enhanced_description": "Talon Winery & Vineyards: A Local Lexington Gem",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Kentucky wine industry",
+                        "wineries in Lexington",
+                        "wine bars"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "While the report provides valuable information about the winery's location and offerings, it remains unexplained why some tourists have reported feeling an inexplicable sense of calm or nostalgia when visiting the site"
+        },
+        {
+                "name": "Ragans Family Campground",
+                "address": "1051 SW Old St Augustine Rd, Madison, FL 32340, USA",
+                "rating": 4.3,
+                "types": [
+                        "campground",
+                        "rv_park",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJx15Dk7KX7ogRQQOmcwNFhaQ",
+                "keyword": "camping rv parks",
+                "location": "Million, Madison County",
+                "user_ratings_total": 1977,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 30.3963628,
+                                "lng": -83.36816759999999
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Ragans Family Campground (Types: campground, rv_park, park) Located at 1051 SW Old St Augustine Rd, Madison, FL 32340, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Madison Campground",
+                "address": "4859 Co Rd V, DeForest, WI 53532, USA",
+                "rating": 4.3,
+                "types": [
+                        "campground",
+                        "rv_park",
+                        "childrens_camp",
+                        "park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJSZHk4Hf-BogRHbcQmw04FkA",
+                "keyword": "camping rv parks",
+                "location": "Million, Madison County",
+                "user_ratings_total": 744,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 43.248674799999996,
+                                "lng": -89.3700138
+                        }
+                },
+                "enhanced_description": "Business in Million, Madison County: Madison Campground (Types: campground, rv_park, childrens_camp) Located at 4859 Co Rd V, DeForest, WI 53532, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Holiday Inn Express & Suites Richmond by IHG",
+                "address": "1990 Colby Taylor Dr, Richmond, KY 40475, USA",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "wedding_venue",
+                        "lodging",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJR9btUOr9QogRgdj0gbGtpyQ",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 578,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.734545,
+                                "lng": -84.32852559999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [37. 3874343]: Holiday Inn Express & Suites Richmond by IHG (Types: hotel, wedding_venue, lodging) Located at 1990 Colby Taylor Dr, Richmond, KY 40475, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Buc-ee\u2019s",
+                "address": "1013 Buc-ee's Blvd, Richmond, KY 40475, USA",
+                "rating": 4.3,
+                "types": [
+                        "convenience_store",
+                        "gas_station",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJrd-3ZF39QogRPS8uqNQSEEo",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 2874,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.6731207,
+                                "lng": -84.3080863
+                        }
+                },
+                "enhanced_description": "Buc-ee's: A Convenience Store with a Mysterious Presence?",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "mysterious",
+                        "Buc-ee's",
+                        "convenience store"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While this report remains unverified, eyewitness accounts suggest a possible connection to an unusual anomaly in the area. Further investigation is warranted."
+        },
+        {
+                "name": "Meijer",
+                "address": "2013 Lantern Ridge Dr, Richmond, KY 40475, USA",
+                "rating": 4.3,
+                "types": [
+                        "supermarket",
+                        "department_store",
+                        "electronics_store",
+                        "grocery_store",
+                        "food_store",
+                        "point_of_interest",
+                        "food",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJq1Epsjj8QogR-8IgFwczuG4",
+                "keyword": "nearby_store",
+                "user_ratings_total": 2912,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.737932199999996,
+                                "lng": -84.3337067
+                        }
+                },
+                "enhanced_description": "Business in coordinates [37. 3874343]: Meijer (Types: supermarket, department_store, electronics_store) Located at 2013 Lantern Ridge Dr, Richmond, KY 40475, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        }
+],
+            stats: {
+                total_events: 2,
+                total_businesses: 30,
+                category: "historical"
+            },
+            metadata: {
+                page_description: "Explore historical mysteries in Million, Madison County. 2 recent historical reports. Find entertainment activities, restaurants food dining, attractions. Complete guide to mystery tours, local investigators, and paranormal services.",
+                canonical_url: "https://mystiqst.com/directory/historical/million-madison-county/",
+                keywords: "['historical Million, Madison County', 'Million, Madison County historical tours', 'Million, Madison County historical guide', 'historical investigators Million, Madison County', 'things to do Million, Madison County', 'Million, Madison County mystery tours', 'Million, Madison County paranormal', 'entertainment activities Million, Madison County', 'Million, Madison County entertainment activities', 'restaurants food dining Million, Madison County', 'Million, Madison County restaurants food dining', 'attractions Million, Madison County', 'Million, Madison County attractions']"
+            }
+        };
+    </script>
+    
+    <!-- Location Detail Script -->
+    <script src="/directory/location-detail.js"></script>
+    
+    <!-- Initialize Dynamic Map -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Create map centered on location (we'll use a default center for now)
-            const map = L.map('locationMap').setView([39.8283, -98.5795], 6); // Default US center
+            // Initialize location map with enhanced functionality
+            if (typeof initLocationMap === 'function') {
+                initLocationMap();
+            }
             
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors',
-                maxZoom: 18
-            }).addTo(map);
+            // Load location content
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
+            }
             
-            // Custom icon for mystery locations
-            const mysteryIcon = L.divIcon({
-                className: 'mystery-marker',
-                html: '<div style="background: #00ffff; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px rgba(0,255,255,0.5);"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
-            });
-            
-            // Try to geocode the location and add markers
+            // Geocode location for coordinates
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent('Million, Madison County')}`)
                 .then(response => response.json())
                 .then(data => {
@@ -416,18 +1570,17 @@
                         const lat = parseFloat(data[0].lat);
                         const lon = parseFloat(data[0].lon);
                         
-                        // Center map on location
-                        map.setView([lat, lon], 10);
+                        // Update LOCATION_DATA with coordinates
+                        LOCATION_DATA.coordinates = [lat, lon];
                         
-                        // Add marker for main location
-                        L.marker([lat, lon], {icon: mysteryIcon})
-                            .addTo(map)
-                            .bindPopup(`<b>Million, Madison County</b><br>Historical Mysteries Location<br>2 reports, 30 services`);
+                        // Re-initialize map with actual coordinates
+                        if (typeof initLocationMap === 'function' && window.locationMap) {
+                            window.locationMap.setView([lat, lon], 12);
+                        }
                     }
                 })
                 .catch(error => {
                     console.log('Geocoding failed:', error);
-                    // Keep default view if geocoding fails
                 });
         });
     </script>

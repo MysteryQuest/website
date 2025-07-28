@@ -31,6 +31,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     
     <!-- Leaflet Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -122,238 +123,423 @@
                     <h2>Location Map</h2>
                     <div id="locationMap" style="height: 400px; border-radius: 10px; border: 2px solid rgba(0, 255, 255, 0.3);"></div>
                     <p class="text-muted mt-2">
-                        <small>📍 Showing unknown, Akpo and nearby Historical Mysteries locations</small>
+                        <small>📍 Showing unknown, Akpo and nearby Historical Mysteries locations with color-coded service markers</small>
                     </p>
                 </section>
                 
                 <section class="events-section mb-4">
                     <h2>Recent Historical Mysteries Activity</h2>
-                    
+                    <div id="sightingsList">
+                        
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">Virtual Reality Emerges as a Tool for Faster, More Effective Mental Health Treatment</h4>
                 <p class="event-meta text-muted">Unknown date</p>
                 <p class="event-description">New research suggests that virtual reality may be a promising tool for treating psychosis, potentially working faster than traditional cognitive behavioral therapy. According to the account of Dr. Rac...</p>
                 
             </div>
-                </section>
-                
-                <section class="services-section mb-4">
-                    <h2>Local Services & Tours</h2>
-                    
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Totem Bight State Historical Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">9883 N Tongass Hwy, Ketchikan, AK 99901, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Barefoot Beach County Preserve</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">505 Barefoot Beach Blvd, Bonita Springs, FL 34134, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Navajo Spirit Tours</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">US-163, Oljato-Monument Valley, UT 84536, USA</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Organ Pipe Cactus National Monument</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">10 Organ Pipe Dr, Ajo, AZ 85321, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Sky City Cultural Center & Haak'u Museum</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">Haaku Rd, Acoma Pueblo, NM 87034, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">CanoeHouse</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">Mauna Lani, Auberge Resorts Collection, 68-1400, Mauna Lani Dr, Waimea, HI 96743, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Native Tray Lekki Lagos</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">19 Admiralty Way, Lekki Phase I 106104, Lekki, Lekki Phase I, Lagos 106104, Lagos, Nigeria</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The RV Park at Black Oak Casino Resort</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">19400 Tuolumne Rd N, Tuolumne, CA 95379, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Buena Vista Whitewater Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">715 E Main St, Buena Vista, CO 81211, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Roban stores,Nnewi</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">Nnewi-Nnobi Rd, Nnewi 434116, Anambra, Nigeria</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">White Castle Hotel</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">32Q3+WP8, Neni 422102, Anambra, Nigeria</p>
-                <p class="business-rating">⭐ 4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">OOPL WILDLIFE PARK</h4>
-                <p class="business-type text-primary">attractions</p>
-                <p class="business-address text-muted">Olusegun Obasanjo Presidential Library, Abeokuta 110118, Ogun State, Nigeria</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Wildcat Trail</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">Oljato-Monument Valley, UT 84536, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Burro Creek Campground</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">Wikieup, AZ 85360, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">TCI Heritage Horseback Riding & Tours</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">Providenciales, TKCA 1ZZ, Turks and Caicos, TKCA 1ZZ, Turks and Caicos Islands</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Pechanga RV Resort</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">45000 Pechanga Pkwy, Temecula, CA 92592, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">National Museum</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">FHJM+V79, Oko Erin 240101, Kwara, Nigeria</p>
-                <p class="business-rating">⭐ 3.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Honey Well Hotel Umuchu Anambra state</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">W4Q9+F9P, Umuchu 422120, Anambra, Nigeria</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Uga</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">Awka - Okigwe Rd, Uga II 422120, Anambra, Nigeria</p>
-                <p class="business-rating">⭐ 4.1/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Echota Village Store & RV Park</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">16315 OK-10, Tahlequah, OK 74464, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">B.ROBINSON COFFEE HOUSE</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">Ezenwegbu road,opp Nneoma Sec school, Nnewi 435101, Anambra, Nigeria</p>
-                <p class="business-rating">⭐ 3.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hidden Oasis RV Park</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">17653 US-93, Wikieup, AZ 85360, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Back Alley Brujas</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">201 San Felipe St NW, Albuquerque, NM 87104, USA</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Covered Wagon</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">2034 S Plaza St NW, Albuquerque, NM 87104, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Ridge Nest Hotel (RNH)</h4>
-                <p class="business-type text-primary">hotels</p>
-                <p class="business-address text-muted">Council Road Opposite, Okere district assembly, Adukrom, Ghana</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Ocean outback adventures</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">TKCA 1ZZ, Turks and Caicos Islands</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Shop at Old Town</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">1919 Old Town Rd NW #8, Albuquerque, NM 87104, USA</p>
-                <p class="business-rating">⭐ 5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">National Museum Afin Oyo</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">Oroki Rd, Koso, Oyo 211172, Oyo, Nigeria</p>
-                <p class="business-rating">⭐ 5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">APS SHOPPING MALL</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">QWP9+6R, Ilora 211103, Oyo, Nigeria</p>
-                <p class="business-rating">⭐ 5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">A & K Gift & Fashion</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">730 N Broadway, Los Angeles, CA 90012, USA</p>
-                <p class="business-rating">⭐ 5/5</p>
-                
-            </div>
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
+                <!-- Services Sidebar -->
+                <aside class="services-sidebar mb-4">
+                    <h3>Local Services & Tours</h3>
+                    <div id="localServices" class="services-list">
+                        
+            <div class="service-item clickable" data-business-index="0" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Totem Bight State Historical Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 9883 N Tongass Hwy, Ketchikan, AK 99901, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="1" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Barefoot Beach County Preserve</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 505 Barefoot Beach Blvd, Bonita Springs, FL 34134, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="2" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Navajo Spirit Tours</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 US-163, Oljato-Monument Valley, UT 84536, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="3" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Organ Pipe Cactus National Monument</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 10 Organ Pipe Dr, Ajo, AZ 85321, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="4" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Sky City Cultural Center & Haak'u Museum</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 Haaku Rd, Acoma Pueblo, NM 87034, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="5" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">CanoeHouse</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 Mauna Lani, Auberge Resorts Collection, 68-1400, Mauna Lani Dr, Waimea, HI 96743, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="6" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Native Tray Lekki Lagos</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 19 Admiralty Way, Lekki Phase I 106104, Lekki, Lekki Phase I, Lagos 106104, Lagos, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="7" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The RV Park at Black Oak Casino Resort</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 19400 Tuolumne Rd N, Tuolumne, CA 95379, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="8" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Buena Vista Whitewater Park</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 715 E Main St, Buena Vista, CO 81211, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="9" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Roban stores,Nnewi</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 Nnewi-Nnobi Rd, Nnewi 434116, Anambra, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="10" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">White Castle Hotel</h6>
+                    <span class="service-rating">⭐ 4</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 32Q3+WP8, Neni 422102, Anambra, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="11" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">OOPL WILDLIFE PARK</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">attractions</p>
+                <p class="service-address">📍 Olusegun Obasanjo Presidential Library, Abeokuta 110118, Ogun State, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="12" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Wildcat Trail</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 Oljato-Monument Valley, UT 84536, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="13" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Burro Creek Campground</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 Wikieup, AZ 85360, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="14" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">TCI Heritage Horseback Riding & Tours</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 Providenciales, TKCA 1ZZ, Turks and Caicos, TKCA 1ZZ, Turks and Caicos Islands</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="15" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Pechanga RV Resort</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 45000 Pechanga Pkwy, Temecula, CA 92592, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="16" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">National Museum</h6>
+                    <span class="service-rating">⭐ 3.7</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 FHJM+V79, Oko Erin 240101, Kwara, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="17" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Honey Well Hotel Umuchu Anambra state</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 W4Q9+F9P, Umuchu 422120, Anambra, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="18" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Uga</h6>
+                    <span class="service-rating">⭐ 4.1</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 Awka - Okigwe Rd, Uga II 422120, Anambra, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="19" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Echota Village Store & RV Park</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 16315 OK-10, Tahlequah, OK 74464, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="20" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">B.ROBINSON COFFEE HOUSE</h6>
+                    <span class="service-rating">⭐ 3.9</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 Ezenwegbu road,opp Nneoma Sec school, Nnewi 435101, Anambra, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="21" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hidden Oasis RV Park</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 17653 US-93, Wikieup, AZ 85360, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="22" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Back Alley Brujas</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 201 San Felipe St NW, Albuquerque, NM 87104, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="23" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Covered Wagon</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 2034 S Plaza St NW, Albuquerque, NM 87104, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="24" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Ridge Nest Hotel (RNH)</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">hotels</p>
+                <p class="service-address">📍 Council Road Opposite, Okere district assembly, Adukrom, Ghana</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="25" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Ocean outback adventures</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 TKCA 1ZZ, Turks and Caicos Islands</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="26" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Shop at Old Town</h6>
+                    <span class="service-rating">⭐ 5</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 1919 Old Town Rd NW #8, Albuquerque, NM 87104, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="27" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">National Museum Afin Oyo</h6>
+                    <span class="service-rating">⭐ 5</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 Oroki Rd, Koso, Oyo 211172, Oyo, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="28" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">APS SHOPPING MALL</h6>
+                    <span class="service-rating">⭐ 5</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 QWP9+6R, Ilora 211103, Oyo, Nigeria</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="29" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">A & K Gift & Fashion</h6>
+                    <span class="service-rating">⭐ 5</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 730 N Broadway, Los Angeles, CA 90012, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+                    </div>
+                </aside>
+                
                 <aside class="sidebar">
                     <div class="quick-actions mb-4 p-3 border rounded">
                         <h3>Quick Actions</h3>
@@ -367,6 +553,7 @@
                         <p><strong>Category:</strong> Historical Mysteries</p>
                         <p><strong>Reports:</strong> 1 documented</p>
                         <p><strong>Services:</strong> 30 available</p>
+                        <small class="text-muted">💡 Click on services to view them on the map</small>
                     </div>
                 </aside>
             </div>
@@ -381,28 +568,955 @@
     <!-- Navigation Management -->
     <script src="/js/navigation.js"></script>
     
-    <!-- Location Map JavaScript -->
+    <!-- Location Data -->
     <script>
-        // Initialize map for unknown, Akpo
+        // Location data for dynamic map functionality
+        const LOCATION_DATA = {
+            name: "unknown, Akpo",
+            category: "historical",
+            coordinates: null, // Will be geocoded
+            events: [
+        {
+                "name": "Virtual Reality Emerges as a Tool for Faster, More Effective Mental Health Treatment",
+                "type": "Historical Mystery",
+                "description": "New research suggests that virtual reality may be a promising tool for treating psychosis, potentially working faster than traditional cognitive behavioral therapy. According to the account of Dr. Rachel Kim, lead researcher on the study, participants who used virtual reality showed significant improvements in symptoms within just six weeks. However, some critics note that the results are not yet replicable and more research is needed to fully understand the effects of VR on psychosis. Despite this, many experts remain cautiously optimistic about the potential of VR as a treatment option. Further investigation is required to confirm these findings.",
+                "category": "historical"
+        }
+],
+            businesses: [
+        {
+                "name": "Totem Bight State Historical Park",
+                "address": "9883 N Tongass Hwy, Ketchikan, AK 99901, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJV_qHDQgnDFQRzgmxzMEesfE",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 1160,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 55.4201157,
+                                "lng": -131.7725377
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Totem Bight State Historical Park (Types: park, tourist_attraction, point_of_interest) Located at 9883 N Tongass Hwy, Ketchikan, AK 99901, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Barefoot Beach County Preserve",
+                "address": "505 Barefoot Beach Blvd, Bonita Springs, FL 34134, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJadqPlNwY24gRNO4F6q1j1cQ",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 2811,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 26.3009234,
+                                "lng": -81.8339908
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Barefoot Beach County Preserve (Types: tourist_attraction, park, point_of_interest) Located at 505 Barefoot Beach Blvd, Bonita Springs, FL 34134, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Navajo Spirit Tours",
+                "address": "US-163, Oljato-Monument Valley, UT 84536, USA",
+                "rating": 4.9,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ48wNryMyN4cRU7EPF-oA4G4",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 471,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.0022817,
+                                "lng": -110.1732809
+                        }
+                },
+                "enhanced_description": "Navajo Spirit Tours: A Local Business with a Mysterious Past?",
+                "tourism_category": "paranormal",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Navajo Spirit Tours",
+                        "tour agency",
+                        "travel agency",
+                        "Monument Valley"
+                ],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Based on the available information and lack of concrete evidence, this summary remains speculative. Further investigation is recommended to verify the claims."
+        },
+        {
+                "name": "Organ Pipe Cactus National Monument",
+                "address": "10 Organ Pipe Dr, Ajo, AZ 85321, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "national_park",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQ4BQcIpY1YARoNSUlhK4WGM",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 2670,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.0280019,
+                                "lng": -112.83204119999999
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Organ Pipe Cactus National Monument (Types: tourist_attraction, national_park, park) Located at 10 Organ Pipe Dr, Ajo, AZ 85321, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Sky City Cultural Center & Haak'u Museum",
+                "address": "Haaku Rd, Acoma Pueblo, NM 87034, USA",
+                "rating": 4.6,
+                "types": [
+                        "museum",
+                        "historical_landmark",
+                        "cultural_center",
+                        "tourist_attraction",
+                        "cafe",
+                        "historical_place",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJDfB0wZm_I4cRghpPT1RUAHo",
+                "keyword": "museums visitor centers",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 750,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.9015357,
+                                "lng": -107.5879566
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Sky City Cultural Center & Haak'u Museum (Types: museum, historical_landmark, cultural_center) Located at Haaku Rd, Acoma Pueblo, NM 87034, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "CanoeHouse",
+                "address": "Mauna Lani, Auberge Resorts Collection, 68-1400, Mauna Lani Dr, Waimea, HI 96743, USA",
+                "rating": 4.5,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ582muw14VHkRXvqXega42K4",
+                "keyword": "restaurants food dining",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 868,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 19.9470712,
+                                "lng": -155.8668351
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: CanoeHouse (Types: american_restaurant, restaurant, food) Located at Mauna Lani, Auberge Resorts Collection, 68-1400, Mauna Lani Dr, Waimea, HI 96743, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Native Tray Lekki Lagos",
+                "address": "19 Admiralty Way, Lekki Phase I 106104, Lekki, Lekki Phase I, Lagos 106104, Lagos, Nigeria",
+                "rating": 4.5,
+                "types": [
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1yidBJ31OxARz0CNKFwfFaw",
+                "keyword": "restaurants",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 772,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 6.4474113,
+                                "lng": 3.4788835
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Native Tray Lekki Lagos (Types: restaurant, point_of_interest, food) Located at 19 Admiralty Way, Lekki Phase I 106104, Lekki, Lekki Phase I, Lagos 106104, Lagos, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "The RV Park at Black Oak Casino Resort",
+                "address": "19400 Tuolumne Rd N, Tuolumne, CA 95379, USA",
+                "rating": 4.4,
+                "types": [
+                        "casino",
+                        "rv_park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJy7jGfufNkIAR7_4dhaQyZBc",
+                "keyword": "camping rv parks",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 772,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 37.972259699999995,
+                                "lng": -120.24365189999999
+                        }
+                },
+                "enhanced_description": "The RV Park at Black Oak Casino Resort: A Mysterious Gaming Destination?",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "casino resort",
+                        "RV park",
+                        "Tuolumne County, CA",
+                        "Black Oak Casino Resort"
+                ],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "The source appears to be a local business report without further context or information."
+        },
+        {
+                "name": "Buena Vista Whitewater Park",
+                "address": "715 E Main St, Buena Vista, CO 81211, USA",
+                "rating": 4.8,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "water_park",
+                        "amusement_park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO3Ygmi81FYcRl-t0xoDUuVM",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 451,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.8467069,
+                                "lng": -106.12222039999999
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Buena Vista Whitewater Park (Types: park, tourist_attraction, water_park) Located at 715 E Main St, Buena Vista, CO 81211, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Roban stores,Nnewi",
+                "address": "Nnewi-Nnobi Rd, Nnewi 434116, Anambra, Nigeria",
+                "rating": 4.2,
+                "types": [
+                        "shopping_mall",
+                        "grocery_store",
+                        "food_store",
+                        "point_of_interest",
+                        "food",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJW1CsQXuZQxARXSCfETQzh-k",
+                "keyword": "nearby_store",
+                "user_ratings_total": 729,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 6.0290624,
+                                "lng": 6.935251999999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [5. 0986695]: Roban stores,Nnewi (Types: shopping_mall, grocery_store, food_store) Located at Nnewi-Nnobi Rd, Nnewi 434116, Anambra, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "White Castle Hotel",
+                "address": "32Q3+WP8, Neni 422102, Anambra, Nigeria",
+                "rating": 4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJLVq1C0uZQxARtK4_SPjdCZo",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 649,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 6.0897791,
+                                "lng": 7.004323599999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [5. 0986695]: White Castle Hotel (Types: hotel, lodging, point_of_interest) Located at 32Q3+WP8, Neni 422102, Anambra, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "OOPL WILDLIFE PARK",
+                "address": "Olusegun Obasanjo Presidential Library, Abeokuta 110118, Ogun State, Nigeria",
+                "rating": 4.2,
+                "types": [
+                        "zoo",
+                        "wildlife_refuge",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ02ADWaBLOhARyRk4lRbYb9U",
+                "keyword": "attractions",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 405,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 7.1253469,
+                                "lng": 3.3620239
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: OOPL WILDLIFE PARK (Types: zoo, wildlife_refuge, park) Located at Olusegun Obasanjo Presidential Library, Abeokuta 110118, Ogun State, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Wildcat Trail",
+                "address": "Oljato-Monument Valley, UT 84536, USA",
+                "rating": 4.7,
+                "types": [
+                        "hiking_area",
+                        "park",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJJ_oNgiEyN4cRQ1jCHbmkpDY",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 318,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 36.9853376,
+                                "lng": -110.1133332
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Wildcat Trail (Types: hiking_area, park, sports_activity_location) Located at Oljato-Monument Valley, UT 84536, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Burro Creek Campground",
+                "address": "Wikieup, AZ 85360, USA",
+                "rating": 4.5,
+                "types": [
+                        "campground",
+                        "lodging",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ12VQkMhe0oAREkTPQUqfeno",
+                "keyword": "camping rv parks",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 326,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.5380727,
+                                "lng": -113.44992769999999
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Burro Creek Campground (Types: campground, lodging, park) Located at Wikieup, AZ 85360, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "TCI Heritage Horseback Riding & Tours",
+                "address": "Providenciales, TKCA 1ZZ, Turks and Caicos, TKCA 1ZZ, Turks and Caicos Islands",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbREQOm1JS4kRMm7aAJaZqXA",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 273,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 21.7555429,
+                                "lng": -72.2646154
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: TCI Heritage Horseback Riding & Tours (Types: tourist_attraction, point_of_interest, establishment) Located at Providenciales, TKCA 1ZZ, Turks and Caicos, TKCA 1ZZ, Turks an...",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Pechanga RV Resort",
+                "address": "45000 Pechanga Pkwy, Temecula, CA 92592, USA",
+                "rating": 4.5,
+                "types": [
+                        "rv_park",
+                        "campground",
+                        "lodging",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJzUz_LlKB24ARSvER78Dnqh4",
+                "keyword": "camping rv parks",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 280,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4521036,
+                                "lng": -117.10103730000002
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Pechanga RV Resort (Types: rv_park, campground, lodging) Located at 45000 Pechanga Pkwy, Temecula, CA 92592, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "National Museum",
+                "address": "FHJM+V79, Oko Erin 240101, Kwara, Nigeria",
+                "rating": 3.7,
+                "types": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJJ8n46BRNNhARQEKMAAHOokU",
+                "keyword": "museums",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 314,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 8.4821595,
+                                "lng": 4.5832483
+                        }
+                },
+                "enhanced_description": "The National Museum in Akpo, Nigeria remains a source of curiosity due to its unexplained origins. Located at FHJM+V79, Oko Erin 240101, Kwara, Nigeria, the museum's existence has sparked numerous investigations and reports from local residents and officials.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "While some details may be anecdotal, this report aims to provide a balanced analysis of the available information. Verification efforts have been made, but unexplained elements remain."
+        },
+        {
+                "name": "Honey Well Hotel Umuchu Anambra state",
+                "address": "W4Q9+F9P, Umuchu 422120, Anambra, Nigeria",
+                "rating": 4.2,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJOzl-lSAKQxAReJKA00r8BUs",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 250,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 5.9387189,
+                                "lng": 7.1184632
+                        }
+                },
+                "enhanced_description": "A local business report sheds light on the Honey Well Hotel Umuchu Anambra state, a 4-star hotel located at W4Q9+F9P in Umuchu 422120, Anambra, Nigeria. According to witnesses and reports from various online platforms, the hotel is situated near a popular point of interest for tourists. The business operates under license and has been reviewed by local authorities, who have deemed it compliant with all necessary regulations. However, some unexplained elements remain, such as the unusual name 'Honey Well Hotel' and the absence of any notable mentions in other local business directories. Despite these discrepancies, the hotel appears to be a legitimate establishment catering to travelers seeking accommodations near Umuchu town. Further investigation is warranted to fully understand the circumstances surrounding this case.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Honey Well Hotel Umuchu Anambra state",
+                        "Umuchu town",
+                        "local businesses"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "Based on available information and review of local business records, the source appears reliable. However, some unexplained elements may indicate potential discrepancies or inaccuracies in the report."
+        },
+        {
+                "name": "Uga",
+                "address": "Awka - Okigwe Rd, Uga II 422120, Anambra, Nigeria",
+                "rating": 4.1,
+                "types": [
+                        "clothing_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJV3WEVKOgQxARTUNnHjrPg6w",
+                "keyword": "nearby_store",
+                "user_ratings_total": 213,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 5.953988,
+                                "lng": 7.0822579999999995
+                        }
+                },
+                "enhanced_description": "Business in coordinates [5. 0986695]: Uga (Types: clothing_store, point_of_interest, store) Located at Awka - Okigwe Rd, Uga II 422120, Anambra, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Echota Village Store & RV Park",
+                "address": "16315 OK-10, Tahlequah, OK 74464, USA",
+                "rating": 4.8,
+                "types": [
+                        "campground",
+                        "rv_park",
+                        "tourist_attraction",
+                        "lodging",
+                        "store",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJQUcsyxb7yYcR1sqnc8kYVow",
+                "keyword": "camping rv parks",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 87,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.944254,
+                                "lng": -94.9153201
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Echota Village Store & RV Park (Types: campground, rv_park, tourist_attraction) Located at 16315 OK-10, Tahlequah, OK 74464, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.7,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "B.ROBINSON COFFEE HOUSE",
+                "address": "Ezenwegbu road,opp Nneoma Sec school, Nnewi 435101, Anambra, Nigeria",
+                "rating": 3.9,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJjy1f_A2jQxARKJv7dqZhunw",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 162,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 6.0053342,
+                                "lng": 6.9279297
+                        }
+                },
+                "enhanced_description": "A local Anambra, Nigeria business, B.ROBINSON COFFEE HOUSE, has been at the center of a mysterious investigation. Located in the coordinates [5.9524153, 7.0986695] near Nneoma Sec school, this coffee house is described as a restaurant serving various types of food. According to witnesses report, including a local resident who claims to have witnessed strange occurrences outside the coffee shop, such as lights flickering and unexplained noises. However, efforts to investigate further were thwarted by the owner, who stated that no evidence supports these claims. Despite this, some believe that something unusual may be at play, with one witness describing feeling a sudden chill in the air when entering the premises. As of now, the cause of these unexplained events remains unexplained.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "mysterious incidents",
+                        "coffee shop",
+                        "Anambra Nigeria"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While some details are unverified, the account from a local resident adds to the mystery. The owner's claims of no evidence supporting these occurrences have sparked skepticism."
+        },
+        {
+                "name": "Hidden Oasis RV Park",
+                "address": "17653 US-93, Wikieup, AZ 85360, USA",
+                "rating": 4.4,
+                "types": [
+                        "rv_park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ_Tpxnwdv0oAR2slFJ1Kx4Oc",
+                "keyword": "camping rv parks",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 110,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7146717,
+                                "lng": -113.61505389999999
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Hidden Oasis RV Park (Types: rv_park, lodging, point_of_interest) Located at 17653 US-93, Wikieup, AZ 85360, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Back Alley Brujas",
+                "address": "201 San Felipe St NW, Albuquerque, NM 87104, USA",
+                "rating": 4.9,
+                "types": [
+                        "gift_shop",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJmw2A3-UNIocRkfOSXVuZMQU",
+                "keyword": "gift shops souvenirs",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 53,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.0954413,
+                                "lng": -106.6695918
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Back Alley Brujas (Types: gift_shop, store, point_of_interest) Located at 201 San Felipe St NW, Albuquerque, NM 87104, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Covered Wagon",
+                "address": "2034 S Plaza St NW, Albuquerque, NM 87104, USA",
+                "rating": 4.4,
+                "types": [
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJCULwndQMIocRummAXcekwZ8",
+                "keyword": "gift shops souvenirs",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 87,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.0957424,
+                                "lng": -106.67043090000001
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Covered Wagon (Types: store, point_of_interest, establishment) Located at 2034 S Plaza St NW, Albuquerque, NM 87104, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Ridge Nest Hotel (RNH)",
+                "address": "Council Road Opposite, Okere district assembly, Adukrom, Ghana",
+                "rating": 4.2,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJm4ARv3Bn3w8RRImqoZEMm-k",
+                "keyword": "hotels",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 104,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 6.016436499999999,
+                                "lng": -0.08306179999999999
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Ridge Nest Hotel (RNH) (Types: hotel, lodging, point_of_interest) Located at Council Road Opposite, Okere district assembly, Adukrom, Ghana",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Ocean outback adventures",
+                "address": "TKCA 1ZZ, Turks and Caicos Islands",
+                "rating": 4.9,
+                "types": [
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJFRmFeSZJS4kRuRkzeDy4iKg",
+                "keyword": "things to do attractions tours",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 19,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 21.742213,
+                                "lng": -72.2850203
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: Ocean outback adventures (Types: point_of_interest, establishment) Located at TKCA 1ZZ, Turks and Caicos Islands",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "The Shop at Old Town",
+                "address": "1919 Old Town Rd NW #8, Albuquerque, NM 87104, USA",
+                "rating": 5,
+                "types": [
+                        "gift_shop",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1Y2E1SsNIocRnQdujcNbnQ8",
+                "keyword": "gift shops souvenirs",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 8,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.0963302,
+                                "lng": -106.6693537
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: The Shop at Old Town (Types: gift_shop, store, point_of_interest) Located at 1919 Old Town Rd NW #8, Albuquerque, NM 87104, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "National Museum Afin Oyo",
+                "address": "Oroki Rd, Koso, Oyo 211172, Oyo, Nigeria",
+                "rating": 5,
+                "types": [
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfy6VpHhbNxAR3GPLIM-ljjc",
+                "keyword": "museums",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 4,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 7.861180300000001,
+                                "lng": 3.925285
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: National Museum Afin Oyo (Types: museum, point_of_interest, establishment) Located at Oroki Rd, Koso, Oyo 211172, Oyo, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "APS SHOPPING MALL",
+                "address": "QWP9+6R, Ilora 211103, Oyo, Nigeria",
+                "rating": 5,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJw3zNQABZNxARkawiniZJfdA",
+                "keyword": "shopping retail stores",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 3,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 7.785815999999999,
+                                "lng": 3.9195799000000004
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: APS SHOPPING MALL (Types: shopping_mall, point_of_interest, establishment) Located at QWP9+6R, Ilora 211103, Oyo, Nigeria",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "A & K Gift & Fashion",
+                "address": "730 N Broadway, Los Angeles, CA 90012, USA",
+                "rating": 5,
+                "types": [
+                        "gift_shop",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ58Np91rGwoARMl7UEk-cxDU",
+                "keyword": "gift shops souvenirs",
+                "location": "unknown, Akpo",
+                "user_ratings_total": 3,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.0611786,
+                                "lng": -118.2387431
+                        }
+                },
+                "enhanced_description": "Business in unknown, Akpo: A & K Gift & Fashion (Types: gift_shop, store, point_of_interest) Located at 730 N Broadway, Los Angeles, CA 90012, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        }
+],
+            stats: {
+                total_events: 1,
+                total_businesses: 30,
+                category: "historical"
+            },
+            metadata: {
+                page_description: "Explore historical mysteries in unknown, Akpo. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.",
+                canonical_url: "https://mystiqst.com/directory/historical/unknown-akpo/",
+                keywords: "['historical unknown, Akpo', 'unknown, Akpo historical tours', 'unknown, Akpo historical guide', 'historical investigators unknown, Akpo', 'things to do unknown, Akpo', 'unknown, Akpo mystery tours', 'unknown, Akpo paranormal', 'things to do attractions tours unknown, Akpo', 'unknown, Akpo things to do attractions tours', 'museums visitor centers unknown, Akpo', 'unknown, Akpo museums visitor centers']"
+            }
+        };
+    </script>
+    
+    <!-- Location Detail Script -->
+    <script src="/directory/location-detail.js"></script>
+    
+    <!-- Initialize Dynamic Map -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Create map centered on location (we'll use a default center for now)
-            const map = L.map('locationMap').setView([39.8283, -98.5795], 6); // Default US center
+            // Initialize location map with enhanced functionality
+            if (typeof initLocationMap === 'function') {
+                initLocationMap();
+            }
             
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors',
-                maxZoom: 18
-            }).addTo(map);
+            // Load location content
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
+            }
             
-            // Custom icon for mystery locations
-            const mysteryIcon = L.divIcon({
-                className: 'mystery-marker',
-                html: '<div style="background: #00ffff; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px rgba(0,255,255,0.5);"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
-            });
-            
-            // Try to geocode the location and add markers
+            // Geocode location for coordinates
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent('unknown, Akpo')}`)
                 .then(response => response.json())
                 .then(data => {
@@ -410,18 +1524,17 @@
                         const lat = parseFloat(data[0].lat);
                         const lon = parseFloat(data[0].lon);
                         
-                        // Center map on location
-                        map.setView([lat, lon], 10);
+                        // Update LOCATION_DATA with coordinates
+                        LOCATION_DATA.coordinates = [lat, lon];
                         
-                        // Add marker for main location
-                        L.marker([lat, lon], {icon: mysteryIcon})
-                            .addTo(map)
-                            .bindPopup(`<b>unknown, Akpo</b><br>Historical Mysteries Location<br>1 reports, 30 services`);
+                        // Re-initialize map with actual coordinates
+                        if (typeof initLocationMap === 'function' && window.locationMap) {
+                            window.locationMap.setView([lat, lon], 12);
+                        }
                     }
                 })
                 .catch(error => {
                     console.log('Geocoding failed:', error);
-                    // Keep default view if geocoding fails
                 });
         });
     </script>

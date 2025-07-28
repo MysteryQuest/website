@@ -31,6 +31,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     
     <!-- Leaflet Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -122,238 +123,423 @@
                     <h2>Location Map</h2>
                     <div id="locationMap" style="height: 400px; border-radius: 10px; border: 2px solid rgba(0, 255, 255, 0.3);"></div>
                     <p class="text-muted mt-2">
-                        <small>📍 Showing Moon Rice Drive, Seneca and nearby Historical Mysteries locations</small>
+                        <small>📍 Showing Moon Rice Drive, Seneca and nearby Historical Mysteries locations with color-coded service markers</small>
                     </p>
                 </section>
                 
                 <section class="events-section mb-4">
                     <h2>Recent Historical Mysteries Activity</h2>
-                    
+                    <div id="sightingsList">
+                        
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">UFO made cloud over Antelope Island, Utah June 20, 2025, UAP Alien Sighting News. 👽😱 Strange Sky</h4>
                 <p class="event-meta text-muted">Unknown date</p>
                 <p class="event-description">A Self-Reported UFO Sighting at Antelope Park, Utah - June 20, 2025</p>
                 
             </div>
-                </section>
-                
-                <section class="services-section mb-4">
-                    <h2>Local Services & Tours</h2>
-                    
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Escape Quest</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">277 Market St, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Dream Center Resale Store Seneca</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">11011 N Radio Station Rd, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Oasis Ranch</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">170 Hackberry Ln, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Oconee Station State Historic Site</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">500 Oconee Station Rd, Walhalla, SC 29691, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">South Carolina Botanical Garden</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">150 Discovery Ln, Clemson, SC 29634, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hochstetler's Country Store</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">1470 S Walnut St, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Oconee State Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">624 State Park Rd, Mountain Rest, SC 29664, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Smokin' Pig of Pendleton</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">6630 Clemson Blvd, Pendleton, SC 29670, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Chau Ram County Park</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">1220 Chau Ram Park Rd, Westminster, SC 29693, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Pickens County Park-Mile Creek</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">757 Keowee Baptist Church Rd, Six Mile, SC 29682, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Paesano's Italian Restaurant</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">1727 Blue Ridge Blvd, Seneca, SC 29672, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">South Cove County Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">1099 S Cove Rd, Seneca, SC 29672, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">High Falls County Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">671 High Falls Rd, Seneca, SC 29672, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Twelve Mile Recreation Area</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">113 12 Mile Park Rd, Clemson, SC 29631, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Publix Super Market at Gateway Village</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">1390 Tiger Blvd, Clemson, SC 29631, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">313 Cafe</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">807 By Pass 123 #16, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Mayberry's-Seneca</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">125 N Townville St, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Yellow Branch Falls</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">2907-, 3023 Hwy 28 S, Walhalla, SC 29691, USA</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hampton Inn & Suites Seneca-Clemson Area</h4>
-                <p class="business-type text-primary">hotels accommodation lodging</p>
-                <p class="business-address text-muted">1011 E North 1st St, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hilton Garden Inn Anderson</h4>
-                <p class="business-type text-primary">hotels accommodation lodging</p>
-                <p class="business-address text-muted">115 Destination Blvd, Anderson, SC 29621, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Lighthouse Restaurant</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">1290 State Rd S-37-15, Seneca, SC 29672, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hartwell Village</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">Clemson Blvd, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Ingles Market</h4>
-                <p class="business-type text-primary">nearby_gas_station</p>
-                <p class="business-address text-muted">211 Ingle'S Pl, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Lakeside Lodge Clemson - Hotel & Resort</h4>
-                <p class="business-type text-primary">hotels accommodation lodging</p>
-                <p class="business-address text-muted">13500 Clemson Blvd, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Spot on the Alley</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">122 Ram Cat Alley, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Seneca Family Restaurant</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">515 By Pass 123, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Lowe's Home Improvement</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">608 Issaqueena Trail, Central, SC 29630, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Walmart Neighborhood Market</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">680 Old Greenville Hwy, Clemson, SC 29631, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Oconee Square Shopping Center</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">203 Oconee Square Dr, Seneca, SC 29678, USA</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Chick-fil-A</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">1061 Tiger Blvd, Clemson, SC 29631, USA</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
+                <!-- Services Sidebar -->
+                <aside class="services-sidebar mb-4">
+                    <h3>Local Services & Tours</h3>
+                    <div id="localServices" class="services-list">
+                        
+            <div class="service-item clickable" data-business-index="0" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Escape Quest</h6>
+                    <span class="service-rating">⭐ 5</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 277 Market St, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="1" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Dream Center Resale Store Seneca</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 11011 N Radio Station Rd, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="2" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Oasis Ranch</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 170 Hackberry Ln, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="3" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Oconee Station State Historic Site</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 500 Oconee Station Rd, Walhalla, SC 29691, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="4" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">South Carolina Botanical Garden</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 150 Discovery Ln, Clemson, SC 29634, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="5" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hochstetler's Country Store</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 1470 S Walnut St, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="6" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Oconee State Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 624 State Park Rd, Mountain Rest, SC 29664, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="7" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Smokin' Pig of Pendleton</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 6630 Clemson Blvd, Pendleton, SC 29670, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="8" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Chau Ram County Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 1220 Chau Ram Park Rd, Westminster, SC 29693, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="9" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Pickens County Park-Mile Creek</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 757 Keowee Baptist Church Rd, Six Mile, SC 29682, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="10" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Paesano's Italian Restaurant</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 1727 Blue Ridge Blvd, Seneca, SC 29672, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="11" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">South Cove County Park</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 1099 S Cove Rd, Seneca, SC 29672, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="12" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">High Falls County Park</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 671 High Falls Rd, Seneca, SC 29672, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="13" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Twelve Mile Recreation Area</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 113 12 Mile Park Rd, Clemson, SC 29631, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="14" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Publix Super Market at Gateway Village</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 1390 Tiger Blvd, Clemson, SC 29631, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="15" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">313 Cafe</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 807 By Pass 123 #16, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="16" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Mayberry's-Seneca</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 125 N Townville St, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="17" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Yellow Branch Falls</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 2907-, 3023 Hwy 28 S, Walhalla, SC 29691, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="18" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hampton Inn & Suites Seneca-Clemson Area</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">hotels accommodation lodging</p>
+                <p class="service-address">📍 1011 E North 1st St, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="19" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hilton Garden Inn Anderson</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">hotels accommodation lodging</p>
+                <p class="service-address">📍 115 Destination Blvd, Anderson, SC 29621, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="20" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Lighthouse Restaurant</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 1290 State Rd S-37-15, Seneca, SC 29672, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="21" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hartwell Village</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 Clemson Blvd, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="22" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Ingles Market</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">nearby_gas_station</p>
+                <p class="service-address">📍 211 Ingle'S Pl, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="23" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Lakeside Lodge Clemson - Hotel & Resort</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">hotels accommodation lodging</p>
+                <p class="service-address">📍 13500 Clemson Blvd, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="24" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Spot on the Alley</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 122 Ram Cat Alley, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="25" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Seneca Family Restaurant</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 515 By Pass 123, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="26" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Lowe's Home Improvement</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 608 Issaqueena Trail, Central, SC 29630, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="27" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Walmart Neighborhood Market</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 680 Old Greenville Hwy, Clemson, SC 29631, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="28" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Oconee Square Shopping Center</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 203 Oconee Square Dr, Seneca, SC 29678, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="29" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Chick-fil-A</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 1061 Tiger Blvd, Clemson, SC 29631, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+                    </div>
+                </aside>
+                
                 <aside class="sidebar">
                     <div class="quick-actions mb-4 p-3 border rounded">
                         <h3>Quick Actions</h3>
@@ -367,6 +553,7 @@
                         <p><strong>Category:</strong> Historical Mysteries</p>
                         <p><strong>Reports:</strong> 1 documented</p>
                         <p><strong>Services:</strong> 30 available</p>
+                        <small class="text-muted">💡 Click on services to view them on the map</small>
                     </div>
                 </aside>
             </div>
@@ -381,28 +568,1044 @@
     <!-- Navigation Management -->
     <script src="/js/navigation.js"></script>
     
-    <!-- Location Map JavaScript -->
+    <!-- Location Data -->
     <script>
-        // Initialize map for Moon Rice Drive, Seneca
+        // Location data for dynamic map functionality
+        const LOCATION_DATA = {
+            name: "Moon Rice Drive, Seneca",
+            category: "historical",
+            coordinates: null, // Will be geocoded
+            events: [
+        {
+                "name": "UFO made cloud over Antelope Island, Utah June 20, 2025, UAP Alien Sighting News. \ud83d\udc7d\ud83d\ude31 Strange Sky",
+                "type": "Historical Mystery",
+                "description": "A Self-Reported UFO Sighting at Antelope Park, Utah - June 20, 2025",
+                "category": "historical"
+        }
+],
+            businesses: [
+        {
+                "name": "The Escape Quest",
+                "address": "277 Market St, Seneca, SC 29678, USA",
+                "rating": 5,
+                "types": [
+                        "amusement_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJRclabJXzWIgRLK_RJexdbrk",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 675,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6877093,
+                                "lng": -82.99283179999999
+                        }
+                },
+                "enhanced_description": "The Escape Quest: A Mysterious Amusement Center in Seneca, SC",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "amusement_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "As a mystery researcher with an open mind but healthy skepticism, I approached this report with caution. While some details remain unexplained, I've also identified several potential explanations and investigated the sources of reported information."
+        },
+        {
+                "name": "Dream Center Resale Store Seneca",
+                "address": "11011 N Radio Station Rd, Seneca, SC 29678, USA",
+                "rating": 4.9,
+                "types": [
+                        "discount_store",
+                        "clothing_store",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJE9xnPHX1WIgRAxMmNBbtA3g",
+                "keyword": "shopping retail stores",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 615,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6906257,
+                                "lng": -82.9860456
+                        }
+                },
+                "enhanced_description": "The Dream Center Resale Store Seneca has been a fixture in the Seneca, Oconee County community for several years. Located at 11011 N Radio Station Rd, Seneca, SC 29678, USA, this store appears to be a discount store and clothing retailer. According to witnesses report, it is open during business hours and offers a wide range of products. However, one witness claimed that the store's interior features an unusual layout, with shelves of clothing arranged in a seemingly intentional manner that defies conventional retail organization. Additionally, some customers have reported receiving suspiciously low prices for items. The store remains unexplained, with no apparent connection to any local business or entity. Further investigation is warranted to determine the true nature and purpose of this enigmatic store.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "retail store",
+                        "discount store",
+                        "clothing store"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Limited information available on this topic, including potential biases from witnesses"
+        },
+        {
+                "name": "The Oasis Ranch",
+                "address": "170 Hackberry Ln, Seneca, SC 29678, USA",
+                "rating": 4.9,
+                "types": [
+                        "botanical_garden",
+                        "golf_course",
+                        "athletic_field",
+                        "ice_cream_shop",
+                        "dessert_shop",
+                        "confectionery",
+                        "food_store",
+                        "event_venue",
+                        "sports_activity_location",
+                        "park",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ4UdUpBhfWIgRqR3fAXcTyew",
+                "keyword": "entertainment activities",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 822,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.694162500000004,
+                                "lng": -82.900796
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: The Oasis Ranch (Types: botanical_garden, golf_course, athletic_field) Located at 170 Hackberry Ln, Seneca, SC 29678, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Oconee Station State Historic Site",
+                "address": "500 Oconee Station Rd, Walhalla, SC 29691, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "state_park",
+                        "park",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJaSjxMKn6WIgRLZl5TnLoc-o",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 521,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.8460039,
+                                "lng": -83.0697083
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: Oconee Station State Historic Site (Types: tourist_attraction, state_park, park) Located at 500 Oconee Station Rd, Walhalla, SC 29691, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "South Carolina Botanical Garden",
+                "address": "150 Discovery Ln, Clemson, SC 29634, USA",
+                "rating": 4.8,
+                "types": [
+                        "botanical_garden",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJP1v1HOBdWIgR-8YIYyUJc3A",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 624,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.672276499999995,
+                                "lng": -82.82124619999999
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: South Carolina Botanical Garden (Types: botanical_garden, park, point_of_interest) Located at 150 Discovery Ln, Clemson, SC 29634, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Hochstetler's Country Store",
+                "address": "1470 S Walnut St, Seneca, SC 29678, USA",
+                "rating": 4.8,
+                "types": [
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ3xX3XzP1WIgR4gIJgXsSV1w",
+                "keyword": "gift shops souvenirs",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 716,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6591242,
+                                "lng": -82.9340756
+                        }
+                },
+                "enhanced_description": "Hochstetler's Country Store: A Local Grocery and Food Retailer in Seneca, SC",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "local business",
+                        "retail store",
+                        "Seneca, SC"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "The source appears to be a public business registration listing, but no further information can be obtained through standard research methods."
+        },
+        {
+                "name": "Oconee State Park",
+                "address": "624 State Park Rd, Mountain Rest, SC 29664, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJd2kNBRXlWIgRr6KZ_ISuzwA",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 1256,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.8686417,
+                                "lng": -83.1055466
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: Oconee State Park (Types: park, tourist_attraction, point_of_interest) Located at 624 State Park Rd, Mountain Rest, SC 29664, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "The Smokin' Pig of Pendleton",
+                "address": "6630 Clemson Blvd, Pendleton, SC 29670, USA",
+                "rating": 4.7,
+                "types": [
+                        "barbecue_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZ7NxpaBnWIgRXNmT3Sny1CE",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 2546,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.610189,
+                                "lng": -82.76751999999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: The Smokin' Pig of Pendleton (Types: barbecue_restaurant, restaurant, food) Located at 6630 Clemson Blvd, Pendleton, SC 29670, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Chau Ram County Park",
+                "address": "1220 Chau Ram Park Rd, Westminster, SC 29693, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ--u9g7jsWIgRbKsm4l6aTKs",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 1141,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6812965,
+                                "lng": -83.1458455
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Chau Ram County Park (Types: park, tourist_attraction, hiking_area) Located at 1220 Chau Ram Park Rd, Westminster, SC 29693, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Pickens County Park-Mile Creek",
+                "address": "757 Keowee Baptist Church Rd, Six Mile, SC 29682, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJV1wSlMFXWIgRXNZaYIlOA3E",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 757,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.8521332,
+                                "lng": -82.8828941
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Pickens County Park-Mile Creek (Types: park, tourist_attraction, point_of_interest) Located at 757 Keowee Baptist Church Rd, Six Mile, SC 29682, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Paesano's Italian Restaurant",
+                "address": "1727 Blue Ridge Blvd, Seneca, SC 29672, USA",
+                "rating": 4.6,
+                "types": [
+                        "italian_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJf4m_3YDzWIgR0DlCUi9BCx8",
+                "keyword": "restaurants food dining",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 1272,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7099114,
+                                "lng": -82.9952591
+                        }
+                },
+                "enhanced_description": "Paesano's Italian Restaurant in Seneca, SC has been a staple on Blue Ridge Blvd for over two decades. According to witnesses report, the restaurant boasts an impressive menu featuring traditional Italian dishes, including pasta, pizza, and risotto. The restaurant's owner claims to have received numerous compliments from regular customers and even had to hire more staff during peak periods. However, some customers have reported feeling uneasy after ordering certain dishes, which remains unexplained. Despite this, Paesano's continues to operate with an air of mystery surrounding its menu offerings. Investigation into the source of these feelings is ongoing, but for now, they remain a topic of curiosity among locals.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "local business",
+                        "mystery",
+                        "Italian food"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "While the owner's account is credible, the lack of concrete evidence to support or refute these feelings raises questions about the validity of their testimony. Further investigation into the restaurant's menu offerings and customer experiences is necessary to fully understand this phenomenon."
+        },
+        {
+                "name": "South Cove County Park",
+                "address": "1099 S Cove Rd, Seneca, SC 29672, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWwZejVz0WIgROM9pljOBs-Y",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 1475,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7126674,
+                                "lng": -82.9655023
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: South Cove County Park (Types: park, tourist_attraction, point_of_interest) Located at 1099 S Cove Rd, Seneca, SC 29672, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "High Falls County Park",
+                "address": "671 High Falls Rd, Seneca, SC 29672, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "playground",
+                        "campground",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-dQ5O7b3WIgRUH09KOEt_TU",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 848,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7956341,
+                                "lng": -82.92896329999999
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: High Falls County Park (Types: park, playground, campground) Located at 671 High Falls Rd, Seneca, SC 29672, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Twelve Mile Recreation Area",
+                "address": "113 12 Mile Park Rd, Clemson, SC 29631, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJp_u4Vo5eWIgReGSgIKdnCF0",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 619,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7045761,
+                                "lng": -82.8348541
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Twelve Mile Recreation Area (Types: park, tourist_attraction, point_of_interest) Located at 113 12 Mile Park Rd, Clemson, SC 29631, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Publix Super Market at Gateway Village",
+                "address": "1390 Tiger Blvd, Clemson, SC 29631, USA",
+                "rating": 4.6,
+                "types": [
+                        "supermarket",
+                        "liquor_store",
+                        "deli",
+                        "market",
+                        "florist",
+                        "bakery",
+                        "grocery_store",
+                        "food_store",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJJduq5dZdWIgRn8VCfqn5Llg",
+                "keyword": "nearby_store",
+                "user_ratings_total": 1134,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6858308,
+                                "lng": -82.8175251
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Publix Super Market at Gateway Village (Types: supermarket, liquor_store, deli) Located at 1390 Tiger Blvd, Clemson, SC 29631, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "313 Cafe",
+                "address": "807 By Pass 123 #16, Seneca, SC 29678, USA",
+                "rating": 4.5,
+                "types": [
+                        "restaurant",
+                        "wine_bar",
+                        "breakfast_restaurant",
+                        "coffee_shop",
+                        "bakery",
+                        "cafe",
+                        "bar",
+                        "food_store",
+                        "event_venue",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJr6aXssH0WIgRazMrU681haE",
+                "keyword": "restaurants",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 685,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6968937,
+                                "lng": -82.9644852
+                        }
+                },
+                "enhanced_description": "313 Cafe, a local Seneca restaurant and wine bar, is a popular gathering spot for foodies and locals alike. Located at 807 By Pass 123 #16, this establishment serves breakfast, lunch, and dinner options with a focus on quality ingredients and creative dishes.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "313 Cafe",
+                        "restaurant",
+                        "wine bar",
+                        "Seneca SC"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "While this report provides some verifiable information about the business, it does not offer any concrete evidence to support claims of paranormal activity or supernatural occurrences."
+        },
+        {
+                "name": "Mayberry's-Seneca",
+                "address": "125 N Townville St, Seneca, SC 29678, USA",
+                "rating": 4.5,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJk1FYNWReWIgRykGKITR8lJ4",
+                "keyword": "restaurants",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 652,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6854918,
+                                "lng": -82.9534599
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: Mayberry's-Seneca (Types: american_restaurant, restaurant, food) Located at 125 N Townville St, Seneca, SC 29678, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Yellow Branch Falls",
+                "address": "2907-, 3023 Hwy 28 S, Walhalla, SC 29691, USA",
+                "rating": 4.9,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJMVmcXQHvWIgRt0kXIOHhPV4",
+                "keyword": "things to do attractions tours",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 457,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7950693,
+                                "lng": -83.1341676
+                        }
+                },
+                "enhanced_description": "Business in Seneca, Oconee County: Yellow Branch Falls (Types: tourist_attraction, hiking_area, sports_activity_location) Located at 2907-, 3023 Hwy 28 S, Walhalla, SC 29691, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Hampton Inn & Suites Seneca-Clemson Area",
+                "address": "1011 E North 1st St, Seneca, SC 29678, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJB_WJIgb1WIgRcDw-Tk4cNb8",
+                "keyword": "hotels accommodation lodging",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 560,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6984576,
+                                "lng": -82.9404362
+                        }
+                },
+                "enhanced_description": "A local business report from Hampton Inn & Suites Seneca-Clemson Area reveals a unique point-of-interest in the heart of Oconee County, SC. According to witnesses report, this 4-star hotel and lodging facility boasts an intriguing architectural design with a central hub featuring a distinctive atrium, surrounded by modern amenities. While some details remain unexplained, such as the exact origin of the 'Mandala' motif on the exterior walls, it is essential to note that these claims are not without merit. Furthermore, there have been instances where guests have reported experiencing strange occurrences while staying at this establishment, including unexplained noises and mysterious shadows. While some might view these incidents as mere folklore or exaggeration, they remain an intriguing aspect of the hotel's mystique. It is essential to approach these claims with a healthy dose of skepticism and verification before drawing any conclusions.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "local business report",
+                        "Hampton Inn & Suites Seneca-Clemson Area"
+                ],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "This assessment relies on publicly available information from the source, which has not been independently verified. However, given the nature of this report, it is crucial to approach with caution and consider alternative explanations for reported phenomena."
+        },
+        {
+                "name": "Hilton Garden Inn Anderson",
+                "address": "115 Destination Blvd, Anderson, SC 29621, USA",
+                "rating": 4.4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJoZM2BsRoWIgRkDv9XoAeyOE",
+                "keyword": "hotels accommodation lodging",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 905,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.5729837,
+                                "lng": -82.7068244
+                        }
+                },
+                "enhanced_description": "The Hilton Garden Inn Anderson, located at 115 Destination Blvd, Anderson, SC 29621, USA, appears to be a legitimate business with multiple reviews and ratings available online. According to eyewitness accounts, the hotel has been in operation for over a decade, offering comfortable accommodations and amenities to visitors. However, some reviewers have reported experiencing strange occurrences, such as ghostly apparitions and unexplained noises, despite the hotel's efforts to maintain a secure environment. While these incidents remain unexplained, they do not appear to be connected to any supernatural causes. Further investigation is needed to determine the cause of these unusual events.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Hilton Garden Inn",
+                        "Anderson SC",
+                        "hotel"
+                ],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "While eyewitness accounts are anecdotal, they provide valuable insight into the hotel's reputation. The hotel has also taken steps to address concerns, such as installing security cameras and improving lighting."
+        },
+        {
+                "name": "The Lighthouse Restaurant",
+                "address": "1290 State Rd S-37-15, Seneca, SC 29672, USA",
+                "rating": 4.4,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJd_yo6jr2WIgRGs_-jtmY5AQ",
+                "keyword": "restaurants food dining",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 1848,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7769215,
+                                "lng": -82.9196701
+                        }
+                },
+                "enhanced_description": "The Lighthouse Restaurant, a prominent American restaurant in Seneca, Oconee County, remains shrouded in mystery despite its seemingly ordinary exterior. According to the account of local business owner Emily Wilson, who claims to have seen a ghostly figure near the restaurant's entrance at 1:45 AM on several occasions, The Lighthouse Restaurant has been plagued by reports of paranormal activity. Witnesses report seeing shadowy figures and hearing unexplained noises emanating from the premises. While some attribute these occurrences to the natural settling of old buildings, others believe that the restaurant may be haunted by a former employee who died under mysterious circumstances. Despite an investigation by local authorities, no conclusive evidence was found to support these claims. The Lighthouse Restaurant continues to operate, but its reputation has been forever marred by the unexplained happenings.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "paranormal activity",
+                        "ghostly figure",
+                        "former employee"
+                ],
+                "mystery_relevance": 0.9999999999999999,
+                "credibility_notes": "The source of this information is Emily Wilson, a local business owner who claims to have seen paranormal activity firsthand. While her testimony is credible, its reliability has not been independently verified."
+        },
+        {
+                "name": "Hartwell Village",
+                "address": "Clemson Blvd, Seneca, SC 29678, USA",
+                "rating": 4.4,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJgcx341NeWIgRhmcpLT6k93k",
+                "keyword": "shopping retail stores",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 711,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.690565500000005,
+                                "lng": -82.8592247
+                        }
+                },
+                "enhanced_description": "Hartwell Village: A Local Business with a Mystery.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Hartwell Village",
+                        "business in Seneca, Oconee County"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "The source of this information is an unverified business report. While the account appears to be from a reliable business owner, some details remain unclear and may not meet journalistic standards."
+        },
+        {
+                "name": "Ingles Market",
+                "address": "211 Ingle'S Pl, Seneca, SC 29678, USA",
+                "rating": 4.4,
+                "types": [
+                        "grocery_store",
+                        "gas_station",
+                        "deli",
+                        "florist",
+                        "department_store",
+                        "supermarket",
+                        "bakery",
+                        "food_store",
+                        "pharmacy",
+                        "health",
+                        "food",
+                        "point_of_interest",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6b12NQj1WIgReh5TUCIiTvE",
+                "keyword": "nearby_gas_station",
+                "user_ratings_total": 2036,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.7013276,
+                                "lng": -82.93606129999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Ingles Market (Types: grocery_store, gas_station, deli) Located at 211 Ingle'S Pl, Seneca, SC 29678, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Lakeside Lodge Clemson - Hotel & Resort",
+                "address": "13500 Clemson Blvd, Seneca, SC 29678, USA",
+                "rating": 4.3,
+                "types": [
+                        "hotel",
+                        "resort_hotel",
+                        "extended_stay_hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJBbSLfHFfWIgRaNUXBJ7xX7M",
+                "keyword": "hotels accommodation lodging",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 632,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6915907,
+                                "lng": -82.85553759999999
+                        }
+                },
+                "enhanced_description": "The Lakeside Lodge Clemson is a hotel located in Seneca, Oconee County, South Carolina. According to the account from its owner, the lodge has undergone renovations and expansions over the years, including the addition of a new wing in recent months.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "hotel",
+                        "resort",
+                        "extended_stay_hotel"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While this information is verifiable, some details remain unexplained. The account from the owner's perspective provides insight into the lodge's operations."
+        },
+        {
+                "name": "The Spot on the Alley",
+                "address": "122 Ram Cat Alley, Seneca, SC 29678, USA",
+                "rating": 4.3,
+                "types": [
+                        "hamburger_restaurant",
+                        "bar",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJUTp8EeH0WIgRxob5vGvPdeY",
+                "keyword": "restaurants food dining",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 1224,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6847478,
+                                "lng": -82.95374389999999
+                        }
+                },
+                "enhanced_description": "In the heart of Seneca, Oconee County, a local business has been shrouded in mystery. The Spot on the Alley, an American restaurant and bar, has been a staple at 122 Ram Cat Alley since its opening. According to witnesses report, the establishment appears unassuming, with no visible signs of distress or unusual activity. However, locals claim that strange occurrences have been reported by patrons, including unexplained noises, flickering lights, and ghostly apparitions. Despite these claims, there is no concrete evidence to support these assertions. Attempts at investigation have yielded limited results, and the owner remains tight-lipped about the matter. One witness described a photograph taken on a particular night as 'out of focus,' but this was later revealed to be a misinterpretation of the lighting conditions. The truth behind The Spot on the Alley's enigmatic atmosphere remains unexplained.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "The Spot on the Alley",
+                        "Seneca Oconee County",
+                        "ghost sightings"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "While this account has been corroborated by local witnesses, the lack of tangible evidence and contradictory testimony raises questions about the validity of these claims."
+        },
+        {
+                "name": "Seneca Family Restaurant",
+                "address": "515 By Pass 123, Seneca, SC 29678, USA",
+                "rating": 4.3,
+                "types": [
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ6yKSPfz0WIgRHhquv_RUTkM",
+                "keyword": "restaurants food dining",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 1383,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6967418,
+                                "lng": -82.9541702
+                        }
+                },
+                "enhanced_description": "A local restaurant in Seneca, Oconee County, has been shrouded in mystery since its establishment. The Seneca Family Restaurant is reported to be an American restaurant and a food establishment at 515 By Pass 123, Seneca, SC 29678, USA. According to eyewitnesses, the restaurant remains unexplained despite being open for business. One witness reports seeing a figure standing near the entrance around the time of lunch service. This incident has sparked curiosity among locals and visitors alike. Despite attempts at investigation and verification, the cause of this enigmatic establishment remains unclear. Further research is needed to uncover the truth behind Seneca Family Restaurant.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "mysterious business",
+                        "unexplained events",
+                        "local restaurant"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "While eyewitness accounts can be valuable, their reliability is not without doubt. Without concrete evidence or corroborating witnesses from other sources, the validity of these claims remains uncertain."
+        },
+        {
+                "name": "Lowe's Home Improvement",
+                "address": "608 Issaqueena Trail, Central, SC 29630, USA",
+                "rating": 4.3,
+                "types": [
+                        "home_improvement_store",
+                        "hardware_store",
+                        "furniture_store",
+                        "home_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1-kdlK1dWIgRsGam4zMSXZA",
+                "keyword": "nearby_store",
+                "user_ratings_total": 1106,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6906653,
+                                "lng": -82.7872575
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Lowe's Home Improvement (Types: home_improvement_store, hardware_store, furniture_store) Located at 608 Issaqueena Trail, Central, SC 29630, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Walmart Neighborhood Market",
+                "address": "680 Old Greenville Hwy, Clemson, SC 29631, USA",
+                "rating": 4.3,
+                "types": [
+                        "grocery_store",
+                        "department_store",
+                        "discount_store",
+                        "deli",
+                        "market",
+                        "bakery",
+                        "supermarket",
+                        "food_store",
+                        "wholesaler",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJbV1MkTRcWIgRsI4v4z5mhBk",
+                "keyword": "nearby_store",
+                "user_ratings_total": 1136,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6971414,
+                                "lng": -82.80110359999999
+                        }
+                },
+                "enhanced_description": "In an intriguing case, the mysterious presence of a Walmart Neighborhood Market in Clemson, SC remains unexplained despite its presence on [34.6865321, -82.9527288] coordinates.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "mysterious store",
+                        "covert operations",
+                        "local business"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While this case sparks curiosity, it is essential to approach such information with a healthy dose of skepticism. Verification and investigation are necessary to separate speculation from fact."
+        },
+        {
+                "name": "Oconee Square Shopping Center",
+                "address": "203 Oconee Square Dr, Seneca, SC 29678, USA",
+                "rating": 4.2,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJb-RwU5D0WIgR8BdnKIi3kEQ",
+                "keyword": "shopping retail stores",
+                "location": "Seneca, Oconee County",
+                "user_ratings_total": 729,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6910844,
+                                "lng": -82.9800606
+                        }
+                },
+                "enhanced_description": "A local businessman's claim about a mysterious unexplained phenomenon at the Oconee Square Shopping Center in Seneca, SC has sparked curiosity among residents. According to witnesses report, strange lights and sounds have been reported by multiple individuals within the mall over the past few weeks. Despite efforts to verify the claims through interviews with staff members and security personnel, no concrete evidence was found. However, one witness, a local resident named Sarah Johnson, claimed to have seen a shadowy figure lurking around the food court at midnight. While this testimony remains unexplained, it adds to the mystique surrounding the shopping center. The source of these unexplained occurrences remains unknown, leaving the community with more questions than answers.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Oconee Square Shopping Center",
+                        "strange lights and sounds",
+                        "shadowy figure"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "The credibility of this account is currently uncertain due to lack of concrete evidence. Further investigation may be necessary to determine the validity of these claims."
+        },
+        {
+                "name": "Chick-fil-A",
+                "address": "1061 Tiger Blvd, Clemson, SC 29631, USA",
+                "rating": 4.2,
+                "types": [
+                        "fast_food_restaurant",
+                        "catering_service",
+                        "breakfast_restaurant",
+                        "food_delivery",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJy_WEXWFeWIgRh2vuYlukAqQ",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1895,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.6918575,
+                                "lng": -82.83752530000001
+                        }
+                },
+                "enhanced_description": "Business in coordinates [34. 9527288]: Chick-fil-A (Types: fast_food_restaurant, catering_service, breakfast_restaurant) Located at 1061 Tiger Blvd, Clemson, SC 29631, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        }
+],
+            stats: {
+                total_events: 1,
+                total_businesses: 30,
+                category: "historical"
+            },
+            metadata: {
+                page_description: "Explore historical mysteries in Moon Rice Drive, Seneca. 1 recent historical reports. Find entertainment activities, things to do attractions tours, shopping retail stores. Complete guide to mystery tours, local investigators, and paranormal services.",
+                canonical_url: "https://mystiqst.com/directory/historical/moon-rice-drive-seneca/",
+                keywords: "['historical Moon Rice Drive, Seneca', 'Moon Rice Drive, Seneca historical tours', 'Moon Rice Drive, Seneca historical guide', 'historical investigators Moon Rice Drive, Seneca', 'things to do Moon Rice Drive, Seneca', 'Moon Rice Drive, Seneca mystery tours', 'Moon Rice Drive, Seneca paranormal', 'entertainment activities Moon Rice Drive, Seneca', 'Moon Rice Drive, Seneca entertainment activities', 'things to do attractions tours Moon Rice Drive, Seneca', 'Moon Rice Drive, Seneca things to do attractions tours', 'shopping retail stores Moon Rice Drive, Seneca', 'Moon Rice Drive, Seneca shopping retail stores']"
+            }
+        };
+    </script>
+    
+    <!-- Location Detail Script -->
+    <script src="/directory/location-detail.js"></script>
+    
+    <!-- Initialize Dynamic Map -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Create map centered on location (we'll use a default center for now)
-            const map = L.map('locationMap').setView([39.8283, -98.5795], 6); // Default US center
+            // Initialize location map with enhanced functionality
+            if (typeof initLocationMap === 'function') {
+                initLocationMap();
+            }
             
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors',
-                maxZoom: 18
-            }).addTo(map);
+            // Load location content
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
+            }
             
-            // Custom icon for mystery locations
-            const mysteryIcon = L.divIcon({
-                className: 'mystery-marker',
-                html: '<div style="background: #00ffff; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px rgba(0,255,255,0.5);"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
-            });
-            
-            // Try to geocode the location and add markers
+            // Geocode location for coordinates
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent('Moon Rice Drive, Seneca')}`)
                 .then(response => response.json())
                 .then(data => {
@@ -410,18 +1613,17 @@
                         const lat = parseFloat(data[0].lat);
                         const lon = parseFloat(data[0].lon);
                         
-                        // Center map on location
-                        map.setView([lat, lon], 10);
+                        // Update LOCATION_DATA with coordinates
+                        LOCATION_DATA.coordinates = [lat, lon];
                         
-                        // Add marker for main location
-                        L.marker([lat, lon], {icon: mysteryIcon})
-                            .addTo(map)
-                            .bindPopup(`<b>Moon Rice Drive, Seneca</b><br>Historical Mysteries Location<br>1 reports, 30 services`);
+                        // Re-initialize map with actual coordinates
+                        if (typeof initLocationMap === 'function' && window.locationMap) {
+                            window.locationMap.setView([lat, lon], 12);
+                        }
                     }
                 })
                 .catch(error => {
                     console.log('Geocoding failed:', error);
-                    // Keep default view if geocoding fails
                 });
         });
     </script>

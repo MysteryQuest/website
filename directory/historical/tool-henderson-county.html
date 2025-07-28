@@ -9,8 +9,8 @@
     <meta name="publisher" content="Mystery Quest">
     
     <!-- Open Graph for social sharing and search engines -->
-    <meta property="og:title" content="Historical Mysteries in Tool, Henderson County - restaurants food dining, things to do attractions tours & More">
-    <meta property="og:description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find restaurants food dining, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in Tool, Henderson County - things to do attractions tours, restaurants food dining & More">
+    <meta property="og:description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/tool-henderson-county/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mystery Quest">
@@ -19,18 +19,19 @@
     
     <!-- Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Historical Mysteries in Tool, Henderson County - restaurants food dining, things to do attractions tours & More">
-    <meta name="twitter:description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find restaurants food dining, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="twitter:title" content="Historical Mysteries in Tool, Henderson County - things to do attractions tours, restaurants food dining & More">
+    <meta name="twitter:description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta name="twitter:image" content="https://mystiqst.com/logo.png">
     <meta name="twitter:site" content="@mysteryquest">
-    <meta name="description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find restaurants food dining, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
-    <meta name="keywords" content="historical Tool, Henderson County, Tool, Henderson County historical tours, Tool, Henderson County historical guide, historical investigators Tool, Henderson County, things to do Tool, Henderson County, Tool, Henderson County mystery tours, Tool, Henderson County paranormal, restaurants food dining Tool, Henderson County, Tool, Henderson County restaurants food dining, things to do attractions tours Tool, Henderson County, Tool, Henderson County things to do attractions tours">
-    <title>Historical Mysteries in Tool, Henderson County - restaurants food dining, things to do attractions tours & More</title>
+    <meta name="description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="keywords" content="historical Tool, Henderson County, Tool, Henderson County historical tours, Tool, Henderson County historical guide, historical investigators Tool, Henderson County, things to do Tool, Henderson County, Tool, Henderson County mystery tours, Tool, Henderson County paranormal, things to do attractions tours Tool, Henderson County, Tool, Henderson County things to do attractions tours, restaurants food dining Tool, Henderson County, Tool, Henderson County restaurants food dining">
+    <title>Historical Mysteries in Tool, Henderson County - things to do attractions tours, restaurants food dining & More</title>
     
     <!-- Bootstrap and Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     
     <!-- Leaflet Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -40,8 +41,8 @@
     <link rel="canonical" href="https://mystiqst.com/directory/historical/tool-henderson-county/" />
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Historical Mysteries in Tool, Henderson County - restaurants food dining, things to do attractions tours & More">
-    <meta property="og:description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find restaurants food dining, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in Tool, Henderson County - things to do attractions tours, restaurants food dining & More">
+    <meta property="og:description" content="Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/tool-henderson-county/">
     <meta property="og:type" content="article">
     
@@ -59,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": ["TouristDestination", "Place"],
         "name": "Tool, Henderson County",
-        "description": "Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find restaurants food dining, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.",
+        "description": "Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.",
         "url": "https://mystiqst.com/directory/historical/tool-henderson-county/",
         "category": "Historical Mysteries",
         "touristType": ["Historical Mysteries Enthusiast", "Paranormal Investigator"],
@@ -91,7 +92,7 @@
         <div class="location-header mb-4 text-center">
             <h1 class="display-4 text-cyan">Tool, Henderson County</h1>
             <h2 class="h4 text-light">Historical Mysteries Guide</h2>
-            <p class="lead">Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find restaurants food dining, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.</p>
+            <p class="lead">Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.</p>
             
             <div class="location-stats row">
                 <div class="col-md-4">
@@ -122,238 +123,423 @@
                     <h2>Location Map</h2>
                     <div id="locationMap" style="height: 400px; border-radius: 10px; border: 2px solid rgba(0, 255, 255, 0.3);"></div>
                     <p class="text-muted mt-2">
-                        <small>📍 Showing Tool, Henderson County and nearby Historical Mysteries locations</small>
+                        <small>📍 Showing Tool, Henderson County and nearby Historical Mysteries locations with color-coded service markers</small>
                     </p>
                 </section>
                 
                 <section class="events-section mb-4">
                     <h2>Recent Historical Mysteries Activity</h2>
-                    
+                    <div id="sightingsList">
+                        
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">New DNA Evidence Suggests First Australians May Have Arrived Later Than Previously Thought</h4>
                 <p class="event-meta text-muted">Unknown date</p>
                 <p class="event-description">A new study has challenged the conventional narrative that humans arrived in Sahul 65,000 years ago. Instead, researchers suggest a later migration. While the findings are intriguing, this conclusion ...</p>
                 
             </div>
-                </section>
-                
-                <section class="services-section mb-4">
-                    <h2>Local Services & Tours</h2>
-                    
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Appalachian Pinball Museum</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">538 N Main St, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.9/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Jump Off Rock</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">4501 Laurel Park Hwy, Laurel Park, NC 28739, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Elijah Mountain Gem Mine And Crystal Store</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">2120 Brevard Rd, Hendersonville, NC 28791, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Postero</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">401 N Main St, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Carl Sandburg Home National Historic Site</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">1800 Little River Rd, Flat Rock, NC 28731, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">East Texas Arboretum</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">1601 Patterson Rd, Athens, TX 75751, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Bergfeld Park</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">1510 S College Ave, Tyler, TX 75702, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Grandad's Apples</h4>
-                <p class="business-type text-primary">entertainment activities</p>
-                <p class="business-address text-muted">2951 Chimney Rock Rd, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Purtis Creek State Park</h4>
-                <p class="business-type text-primary">things to do</p>
-                <p class="business-address text-muted">14225 FM 316 N, Eustace, TX 75124, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Kosta's Fireside Restaurant & Pancake Inn</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">295 Sugarloaf Rd, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Jackson Park</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">801 4th Ave E, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Mast General Store Hendersonville</h4>
-                <p class="business-type text-primary">gift shops souvenirs</p>
-                <p class="business-address text-muted">527 N Main St, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Hands On! Children's Museum</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">318 N Main St, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Needful Things & Antiques</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">10 Francis Rd, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Fairfield Inn & Suites Van Canton Area</h4>
-                <p class="business-type text-primary">hotels</p>
-                <p class="business-address text-muted">3064 Interstate 20 W, Van, TX 75790, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Brookshire's</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">1200 S 3rd St, Mabank, TX 75147, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Moonshine Mountain Snow Tubing Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">5865 Willow Rd, Hendersonville, NC 28739, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Patton Park</h4>
-                <p class="business-type text-primary">parks recreation outdoor</p>
-                <p class="business-address text-muted">1730 Asheville Hwy, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Burntshirt Vineyards</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">2695 Sugarloaf Road Vintners Table, Hendersonville, NC 28792, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Shelly's McClains Restaurant</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">115 N Seven Points Blvd, Seven Points, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Big Daddy's Flea Market</h4>
-                <p class="business-type text-primary">things to do</p>
-                <p class="business-address text-muted">2513 N Tool Dr, Tool, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Henderson Plaza Shopping Center</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">2313 US-79, Henderson, TX 75654, USA</p>
-                <p class="business-rating">⭐ 4.3/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Blue Sky Cedar Creek Lake RV Park</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">201 Main Place Blvd, Seven Points, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">El Jacalito</h4>
-                <p class="business-type text-primary">restaurants food dining</p>
-                <p class="business-address text-muted">127 E Cedar Creek Pkwy, Seven Points, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Vernons Lakeside</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">2101 E Cedar Creek Pkwy, Seven Points, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Whatz-Up Fun Park</h4>
-                <p class="business-type text-primary">attractions</p>
-                <p class="business-address text-muted">700 E Cedar Creek Pkwy, Seven Points, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.2/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Athens Village Shopping Center</h4>
-                <p class="business-type text-primary">shopping retail stores</p>
-                <p class="business-address text-muted">1111 E Tyler St, Athens, TX 75751, USA</p>
-                <p class="business-rating">⭐ 4.1/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Yellow Rose Cafe</h4>
-                <p class="business-type text-primary">restaurants</p>
-                <p class="business-address text-muted">229 N Seven Points Blvd, Seven Points, TX 75143, USA</p>
-                <p class="business-rating">⭐ 4.1/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Kilgore College East Texas Oil Museum</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">1301 S Henderson Blvd, Kilgore, TX 75662, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Quality Suites Near Cedar Creek Lake</h4>
-                <p class="business-type text-primary">hotels</p>
-                <p class="business-address text-muted">TX-198 #175, Mabank, TX 75147, USA</p>
-                <p class="business-rating">⭐ 4/5</p>
-                
-            </div>
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
+                <!-- Services Sidebar -->
+                <aside class="services-sidebar mb-4">
+                    <h3>Local Services & Tours</h3>
+                    <div id="localServices" class="services-list">
+                        
+            <div class="service-item clickable" data-business-index="0" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Appalachian Pinball Museum</h6>
+                    <span class="service-rating">⭐ 4.9</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 538 N Main St, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="1" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Jump Off Rock</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 4501 Laurel Park Hwy, Laurel Park, NC 28739, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="2" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Elijah Mountain Gem Mine And Crystal Store</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 2120 Brevard Rd, Hendersonville, NC 28791, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="3" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Postero</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 401 N Main St, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="4" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Carl Sandburg Home National Historic Site</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 1800 Little River Rd, Flat Rock, NC 28731, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="5" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">East Texas Arboretum</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 1601 Patterson Rd, Athens, TX 75751, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="6" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Bergfeld Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 1510 S College Ave, Tyler, TX 75702, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="7" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Grandad's Apples</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">entertainment activities</p>
+                <p class="service-address">📍 2951 Chimney Rock Rd, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="8" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Purtis Creek State Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do</p>
+                <p class="service-address">📍 14225 FM 316 N, Eustace, TX 75124, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="9" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Kosta's Fireside Restaurant & Pancake Inn</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 295 Sugarloaf Rd, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="10" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Jackson Park</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 801 4th Ave E, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="11" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Mast General Store Hendersonville</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">gift shops souvenirs</p>
+                <p class="service-address">📍 527 N Main St, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="12" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Hands On! Children's Museum</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 318 N Main St, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="13" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Needful Things & Antiques</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 10 Francis Rd, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="14" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Fairfield Inn & Suites Van Canton Area</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">hotels</p>
+                <p class="service-address">📍 3064 Interstate 20 W, Van, TX 75790, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="15" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Brookshire's</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 1200 S 3rd St, Mabank, TX 75147, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="16" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Moonshine Mountain Snow Tubing Park</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 5865 Willow Rd, Hendersonville, NC 28739, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="17" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Patton Park</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">parks recreation outdoor</p>
+                <p class="service-address">📍 1730 Asheville Hwy, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="18" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Burntshirt Vineyards</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 2695 Sugarloaf Road Vintners Table, Hendersonville, NC 28792, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="19" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Shelly's McClains Restaurant</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 115 N Seven Points Blvd, Seven Points, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="20" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Big Daddy's Flea Market</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">things to do</p>
+                <p class="service-address">📍 2513 N Tool Dr, Tool, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="21" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Henderson Plaza Shopping Center</h6>
+                    <span class="service-rating">⭐ 4.3</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 2313 US-79, Henderson, TX 75654, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="22" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Blue Sky Cedar Creek Lake RV Park</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 201 Main Place Blvd, Seven Points, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="23" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">El Jacalito</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">restaurants food dining</p>
+                <p class="service-address">📍 127 E Cedar Creek Pkwy, Seven Points, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="24" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Vernons Lakeside</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 2101 E Cedar Creek Pkwy, Seven Points, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="25" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Whatz-Up Fun Park</h6>
+                    <span class="service-rating">⭐ 4.2</span>
+                </div>
+                <p class="service-type">attractions</p>
+                <p class="service-address">📍 700 E Cedar Creek Pkwy, Seven Points, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="26" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Athens Village Shopping Center</h6>
+                    <span class="service-rating">⭐ 4.1</span>
+                </div>
+                <p class="service-type">shopping retail stores</p>
+                <p class="service-address">📍 1111 E Tyler St, Athens, TX 75751, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="27" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Yellow Rose Cafe</h6>
+                    <span class="service-rating">⭐ 4.1</span>
+                </div>
+                <p class="service-type">restaurants</p>
+                <p class="service-address">📍 229 N Seven Points Blvd, Seven Points, TX 75143, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="28" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Kilgore College East Texas Oil Museum</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 1301 S Henderson Blvd, Kilgore, TX 75662, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="29" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Quality Suites Near Cedar Creek Lake</h6>
+                    <span class="service-rating">⭐ 4</span>
+                </div>
+                <p class="service-type">hotels</p>
+                <p class="service-address">📍 TX-198 #175, Mabank, TX 75147, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+                    </div>
+                </aside>
+                
                 <aside class="sidebar">
                     <div class="quick-actions mb-4 p-3 border rounded">
                         <h3>Quick Actions</h3>
@@ -367,6 +553,7 @@
                         <p><strong>Category:</strong> Historical Mysteries</p>
                         <p><strong>Reports:</strong> 1 documented</p>
                         <p><strong>Services:</strong> 30 available</p>
+                        <small class="text-muted">💡 Click on services to view them on the map</small>
                     </div>
                 </aside>
             </div>
@@ -381,28 +568,967 @@
     <!-- Navigation Management -->
     <script src="/js/navigation.js"></script>
     
-    <!-- Location Map JavaScript -->
+    <!-- Location Data -->
     <script>
-        // Initialize map for Tool, Henderson County
+        // Location data for dynamic map functionality
+        const LOCATION_DATA = {
+            name: "Tool, Henderson County",
+            category: "historical",
+            coordinates: null, // Will be geocoded
+            events: [
+        {
+                "name": "New DNA Evidence Suggests First Australians May Have Arrived Later Than Previously Thought",
+                "type": "Historical Mystery",
+                "description": "A new study has challenged the conventional narrative that humans arrived in Sahul 65,000 years ago. Instead, researchers suggest a later migration. While the findings are intriguing, this conclusion is based on DNA evidence and remains unexplained.",
+                "category": "historical"
+        }
+],
+            businesses: [
+        {
+                "name": "Appalachian Pinball Museum",
+                "address": "538 N Main St, Hendersonville, NC 28792, USA",
+                "rating": 4.9,
+                "types": [
+                        "video_arcade",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJf8CK6RHCWYgRLj4PJljjjSg",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 659,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3184867,
+                                "lng": -82.4603358
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Appalachian Pinball Museum (Types: video_arcade, museum, point_of_interest) Located at 538 N Main St, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Jump Off Rock",
+                "address": "4501 Laurel Park Hwy, Laurel Park, NC 28739, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJc8B4MjbAWYgRiXS5O4Ml6j8",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 2136,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.313676400000006,
+                                "lng": -82.52729880000001
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Jump Off Rock (Types: tourist_attraction, hiking_area, sports_activity_location) Located at 4501 Laurel Park Hwy, Laurel Park, NC 28739, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Elijah Mountain Gem Mine And Crystal Store",
+                "address": "2120 Brevard Rd, Hendersonville, NC 28791, USA",
+                "rating": 4.8,
+                "types": [
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJKV9Aa9vBWYgR3LAwCIcRkp4",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1305,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3244604,
+                                "lng": -82.50380539999999
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Elijah Mountain Gem Mine And Crystal Store (Types: store, point_of_interest, establishment) Located at 2120 Brevard Rd, Hendersonville, NC 28791, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Postero",
+                "address": "401 N Main St, Hendersonville, NC 28792, USA",
+                "rating": 4.7,
+                "types": [
+                        "restaurant",
+                        "american_restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ7ZbBCxHCWYgRmQ5Nw4nOqRk",
+                "keyword": "restaurants food dining",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 870,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.316857,
+                                "lng": -82.4606529
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Postero (Types: restaurant, american_restaurant, food) Located at 401 N Main St, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Carl Sandburg Home National Historic Site",
+                "address": "1800 Little River Rd, Flat Rock, NC 28731, USA",
+                "rating": 4.7,
+                "types": [
+                        "historical_landmark",
+                        "tourist_attraction",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "historical_place",
+                        "park",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJb6YfHb_DWYgRJz-hD8UqK9s",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1700,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.273462599999995,
+                                "lng": -82.4454825
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Carl Sandburg Home National Historic Site (Types: historical_landmark, tourist_attraction, hiking_area) Located at 1800 Little River Rd, Flat Rock, NC 28731, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "East Texas Arboretum",
+                "address": "1601 Patterson Rd, Athens, TX 75751, USA",
+                "rating": 4.7,
+                "types": [
+                        "botanical_garden",
+                        "tourist_attraction",
+                        "picnic_ground",
+                        "hiking_area",
+                        "sports_activity_location",
+                        "park",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO0cO8F39SIYRQ8MGyomt0aE",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 591,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.213401,
+                                "lng": -95.878196
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: East Texas Arboretum (Types: botanical_garden, tourist_attraction, picnic_ground) Located at 1601 Patterson Rd, Athens, TX 75751, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Bergfeld Park",
+                "address": "1510 S College Ave, Tyler, TX 75702, USA",
+                "rating": 4.7,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ994Z4wLMSYYRmNLR9tAeBzg",
+                "keyword": "parks recreation outdoor",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1618,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3333941,
+                                "lng": -95.3018012
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Bergfeld Park (Types: park, tourist_attraction, point_of_interest) Located at 1510 S College Ave, Tyler, TX 75702, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Grandad's Apples",
+                "address": "2951 Chimney Rock Rd, Hendersonville, NC 28792, USA",
+                "rating": 4.7,
+                "types": [
+                        "bakery",
+                        "food_store",
+                        "farm",
+                        "store",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1ertgl3oWYgRkmzUMWTS1x4",
+                "keyword": "entertainment activities",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1632,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3642756,
+                                "lng": -82.411042
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Grandad's Apples (Types: bakery, food_store, farm) Located at 2951 Chimney Rock Rd, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Purtis Creek State Park",
+                "address": "14225 FM 316 N, Eustace, TX 75124, USA",
+                "rating": 4.7,
+                "types": [
+                        "state_park",
+                        "hiking_area",
+                        "campground",
+                        "park",
+                        "lodging",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJRe5wFY4ZSYYRwPWc79aTG78",
+                "keyword": "things to do",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1259,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3548639,
+                                "lng": -95.99372509999999
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Purtis Creek State Park (Types: state_park, hiking_area, campground) Located at 14225 FM 316 N, Eustace, TX 75124, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Kosta's Fireside Restaurant & Pancake Inn",
+                "address": "295 Sugarloaf Rd, Hendersonville, NC 28792, USA",
+                "rating": 4.6,
+                "types": [
+                        "breakfast_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJjwGcZdLpWYgRfa8_wYLymOc",
+                "keyword": "restaurants food dining",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1695,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3391722,
+                                "lng": -82.4351889
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Kosta's Fireside Restaurant & Pancake Inn (Types: breakfast_restaurant, restaurant, food) Located at 295 Sugarloaf Rd, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Jackson Park",
+                "address": "801 4th Ave E, Hendersonville, NC 28792, USA",
+                "rating": 4.6,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJF8sZPG7CWYgR5osI2xHTUTw",
+                "keyword": "parks recreation outdoor",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1340,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.315055199999996,
+                                "lng": -82.4432087
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Jackson Park (Types: park, tourist_attraction, point_of_interest) Located at 801 4th Ave E, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Mast General Store Hendersonville",
+                "address": "527 N Main St, Hendersonville, NC 28792, USA",
+                "rating": 4.6,
+                "types": [
+                        "candy_store",
+                        "department_store",
+                        "shoe_store",
+                        "clothing_store",
+                        "confectionery",
+                        "food_store",
+                        "point_of_interest",
+                        "food",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJpyyuvhHCWYgRfVu1UDJMYg4",
+                "keyword": "gift shops souvenirs",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1660,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.318148799999996,
+                                "lng": -82.4608885
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Mast General Store Hendersonville (Types: candy_store, department_store, shoe_store) Located at 527 N Main St, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Hands On! Children's Museum",
+                "address": "318 N Main St, Hendersonville, NC 28792, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJK0hSQxHCWYgRVachp45awds",
+                "keyword": "museums",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 517,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3163019,
+                                "lng": -82.459475
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Hands On. Children's Museum (Types: tourist_attraction, museum, point_of_interest) Located at 318 N Main St, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Needful Things & Antiques",
+                "address": "10 Francis Rd, Hendersonville, NC 28792, USA",
+                "rating": 4.5,
+                "types": [
+                        "home_goods_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJoyGnCMzpWYgRGt6B3bCNXC0",
+                "keyword": "shopping retail stores",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 636,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3452775,
+                                "lng": -82.436683
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Needful Things & Antiques (Types: home_goods_store, store, point_of_interest) Located at 10 Francis Rd, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Fairfield Inn & Suites Van Canton Area",
+                "address": "3064 Interstate 20 W, Van, TX 75790, USA",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJHx6d6_2jSYYR0do1WYZnm1k",
+                "keyword": "hotels",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 691,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.5083807,
+                                "lng": -95.644818
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Fairfield Inn & Suites Van Canton Area (Types: hotel, lodging, point_of_interest) Located at 3064 Interstate 20 W, Van, TX 75790, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Brookshire's",
+                "address": "1200 S 3rd St, Mabank, TX 75147, USA",
+                "rating": 4.5,
+                "types": [
+                        "grocery_store",
+                        "food_store",
+                        "point_of_interest",
+                        "food",
+                        "store",
+                        "establishment"
+                ],
+                "place_id": "ChIJRcvpkuQiSYYRk9bA2pBIIdk",
+                "keyword": "nearby_store",
+                "user_ratings_total": 1702,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.354794,
+                                "lng": -96.10547
+                        }
+                },
+                "enhanced_description": "Business in coordinates [32. 1732728]: Brookshire's (Types: grocery_store, food_store, point_of_interest) Located at 1200 S 3rd St, Mabank, TX 75147, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Moonshine Mountain Snow Tubing Park",
+                "address": "5865 Willow Rd, Hendersonville, NC 28739, USA",
+                "rating": 4.4,
+                "types": [
+                        "ski_resort",
+                        "tourist_attraction",
+                        "sports_activity_location",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJBxyBsO_AWYgR4F0xhUxndxI",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 512,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.2787806,
+                                "lng": -82.5314192
+                        }
+                },
+                "enhanced_description": "Moonshine Mountain Snow Tubing Park: A Local Business Report with a Twist",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Moonshine Mountain Snow Tubing Park",
+                        "Hendersonville NC",
+                        "local business"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "While the business is real and located in Henderson County, this report's sensational claims and unverifiable details require a healthy dose of skepticism."
+        },
+        {
+                "name": "Patton Park",
+                "address": "1730 Asheville Hwy, Hendersonville, NC 28792, USA",
+                "rating": 4.4,
+                "types": [
+                        "park",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJR9D7kP3pWYgRxt2zJteyVmI",
+                "keyword": "parks recreation outdoor",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 512,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3329212,
+                                "lng": -82.4681679
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Patton Park (Types: park, tourist_attraction, point_of_interest) Located at 1730 Asheville Hwy, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Burntshirt Vineyards",
+                "address": "2695 Sugarloaf Road Vintners Table, Hendersonville, NC 28792, USA",
+                "rating": 4.3,
+                "types": [
+                        "liquor_store",
+                        "wedding_venue",
+                        "event_venue",
+                        "farm",
+                        "store",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJe5Oi0Q3oWYgRPBUKlY67X3g",
+                "keyword": "things to do attractions tours",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 729,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 35.3444711,
+                                "lng": -82.3979412
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Burntshirt Vineyards (Types: liquor_store, wedding_venue, event_venue) Located at 2695 Sugarloaf Road Vintners Table, Hendersonville, NC 28792, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Shelly's McClains Restaurant",
+                "address": "115 N Seven Points Blvd, Seven Points, TX 75143, USA",
+                "rating": 4.3,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWdqWS04kSYYRtQyPeV9apZ0",
+                "keyword": "restaurants",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 534,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3215395,
+                                "lng": -96.2134641
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Shelly's McClains Restaurant (Types: restaurant, food, point_of_interest) Located at 115 N Seven Points Blvd, Seven Points, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Big Daddy's Flea Market",
+                "address": "2513 N Tool Dr, Tool, TX 75143, USA",
+                "rating": 4.3,
+                "types": [
+                        "market",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ5YExAZQmSYYRyibflk8-39Q",
+                "keyword": "things to do",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 798,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3097099,
+                                "lng": -96.20315060000001
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Big Daddy's Flea Market (Types: market, point_of_interest, establishment) Located at 2513 N Tool Dr, Tool, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Henderson Plaza Shopping Center",
+                "address": "2313 US-79, Henderson, TX 75654, USA",
+                "rating": 4.3,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJn4G7MCrJN4YRlK4a8nmjOok",
+                "keyword": "shopping retail stores",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 499,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.1308456,
+                                "lng": -94.8061269
+                        }
+                },
+                "enhanced_description": "A local business report details the Henderson Plaza Shopping Center, a 2313 US-79 location in Henderson, Texas. As a mystery researcher with an open mind but healthy skepticism, this case requires careful analysis to uncover the truth behind its mysterious status.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Henderson Plaza Shopping Center",
+                        "mysterious business"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "While the source appears to be reliable, further investigation is needed to verify the accuracy of certain claims. Witnesses report seeing a suspicious figure lingering around the mall's entrance on multiple occasions."
+        },
+        {
+                "name": "Blue Sky Cedar Creek Lake RV Park",
+                "address": "201 Main Place Blvd, Seven Points, TX 75143, USA",
+                "rating": 4.8,
+                "types": [
+                        "rv_park",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJZdJ33CslSYYRiRJMzm-38G4",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 448,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.324176099999995,
+                                "lng": -96.2065573
+                        }
+                },
+                "enhanced_description": "Business in coordinates [32. 1732728]: Blue Sky Cedar Creek Lake RV Park (Types: rv_park, lodging, point_of_interest) Located at 201 Main Place Blvd, Seven Points, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "El Jacalito",
+                "address": "127 E Cedar Creek Pkwy, Seven Points, TX 75143, USA",
+                "rating": 4.2,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJl8pAt74lSYYRxiRx3-iwfQo",
+                "keyword": "restaurants food dining",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 864,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3208459,
+                                "lng": -96.21161149999999
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: El Jacalito (Types: restaurant, food, point_of_interest) Located at 127 E Cedar Creek Pkwy, Seven Points, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Vernons Lakeside",
+                "address": "2101 E Cedar Creek Pkwy, Seven Points, TX 75143, USA",
+                "rating": 4.2,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ1bPnifQlSYYRkKdgV0gM4UE",
+                "keyword": "restaurants",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 882,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3285213,
+                                "lng": -96.1758593
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Vernons Lakeside (Types: restaurant, food, point_of_interest) Located at 2101 E Cedar Creek Pkwy, Seven Points, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Whatz-Up Fun Park",
+                "address": "700 E Cedar Creek Pkwy, Seven Points, TX 75143, USA",
+                "rating": 4.2,
+                "types": [
+                        "amusement_center",
+                        "water_park",
+                        "amusement_park",
+                        "athletic_field",
+                        "sports_complex",
+                        "sports_activity_location",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJj8zk2LAlSYYRBIw7raubW7w",
+                "keyword": "attractions",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 1049,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.324982,
+                                "lng": -96.202596
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Whatz-Up Fun Park (Types: amusement_center, water_park, amusement_park) Located at 700 E Cedar Creek Pkwy, Seven Points, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Athens Village Shopping Center",
+                "address": "1111 E Tyler St, Athens, TX 75751, USA",
+                "rating": 4.1,
+                "types": [
+                        "shopping_mall",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJFVNe1ez9SIYRyuEbXJoFqgQ",
+                "keyword": "shopping retail stores",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 589,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.207437899999995,
+                                "lng": -95.83572240000001
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Athens Village Shopping Center (Types: shopping_mall, point_of_interest, establishment) Located at 1111 E Tyler St, Athens, TX 75751, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Yellow Rose Cafe",
+                "address": "229 N Seven Points Blvd, Seven Points, TX 75143, USA",
+                "rating": 4.1,
+                "types": [
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJN5_MuU0kSYYRV21GH8rqrkA",
+                "keyword": "restaurants",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 611,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3235983,
+                                "lng": -96.21528620000001
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Yellow Rose Cafe (Types: restaurant, food, point_of_interest) Located at 229 N Seven Points Blvd, Seven Points, TX 75143, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Kilgore College East Texas Oil Museum",
+                "address": "1301 S Henderson Blvd, Kilgore, TX 75662, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ41fkqr8xNoYRDRxNjVj5DRY",
+                "keyword": "museums",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 425,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.3770275,
+                                "lng": -94.8696219
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Kilgore College East Texas Oil Museum (Types: tourist_attraction, museum, point_of_interest) Located at 1301 S Henderson Blvd, Kilgore, TX 75662, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Quality Suites Near Cedar Creek Lake",
+                "address": "TX-198 #175, Mabank, TX 75147, USA",
+                "rating": 4,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJuRrWWcQiSYYRhRnNCfbn63M",
+                "keyword": "hotels",
+                "location": "Tool, Henderson County",
+                "user_ratings_total": 561,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 32.375574,
+                                "lng": -96.09711039999999
+                        }
+                },
+                "enhanced_description": "Business in Tool, Henderson County: Quality Suites Near Cedar Creek Lake (Types: hotel, lodging, point_of_interest) Located at TX-198 #175, Mabank, TX 75147, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        }
+],
+            stats: {
+                total_events: 1,
+                total_businesses: 30,
+                category: "historical"
+            },
+            metadata: {
+                page_description: "Explore historical mysteries in Tool, Henderson County. 1 recent historical reports. Find things to do attractions tours, restaurants food dining. Complete guide to mystery tours, local investigators, and paranormal services.",
+                canonical_url: "https://mystiqst.com/directory/historical/tool-henderson-county/",
+                keywords: "['historical Tool, Henderson County', 'Tool, Henderson County historical tours', 'Tool, Henderson County historical guide', 'historical investigators Tool, Henderson County', 'things to do Tool, Henderson County', 'Tool, Henderson County mystery tours', 'Tool, Henderson County paranormal', 'things to do attractions tours Tool, Henderson County', 'Tool, Henderson County things to do attractions tours', 'restaurants food dining Tool, Henderson County', 'Tool, Henderson County restaurants food dining']"
+            }
+        };
+    </script>
+    
+    <!-- Location Detail Script -->
+    <script src="/directory/location-detail.js"></script>
+    
+    <!-- Initialize Dynamic Map -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Create map centered on location (we'll use a default center for now)
-            const map = L.map('locationMap').setView([39.8283, -98.5795], 6); // Default US center
+            // Initialize location map with enhanced functionality
+            if (typeof initLocationMap === 'function') {
+                initLocationMap();
+            }
             
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors',
-                maxZoom: 18
-            }).addTo(map);
+            // Load location content
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
+            }
             
-            // Custom icon for mystery locations
-            const mysteryIcon = L.divIcon({
-                className: 'mystery-marker',
-                html: '<div style="background: #00ffff; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px rgba(0,255,255,0.5);"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
-            });
-            
-            // Try to geocode the location and add markers
+            // Geocode location for coordinates
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent('Tool, Henderson County')}`)
                 .then(response => response.json())
                 .then(data => {
@@ -410,18 +1536,17 @@
                         const lat = parseFloat(data[0].lat);
                         const lon = parseFloat(data[0].lon);
                         
-                        // Center map on location
-                        map.setView([lat, lon], 10);
+                        // Update LOCATION_DATA with coordinates
+                        LOCATION_DATA.coordinates = [lat, lon];
                         
-                        // Add marker for main location
-                        L.marker([lat, lon], {icon: mysteryIcon})
-                            .addTo(map)
-                            .bindPopup(`<b>Tool, Henderson County</b><br>Historical Mysteries Location<br>1 reports, 30 services`);
+                        // Re-initialize map with actual coordinates
+                        if (typeof initLocationMap === 'function' && window.locationMap) {
+                            window.locationMap.setView([lat, lon], 12);
+                        }
                     }
                 })
                 .catch(error => {
                     console.log('Geocoding failed:', error);
-                    // Keep default view if geocoding fails
                 });
         });
     </script>

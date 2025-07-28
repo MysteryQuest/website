@@ -9,8 +9,8 @@
     <meta name="publisher" content="Mystery Quest">
     
     <!-- Open Graph for social sharing and search engines -->
-    <meta property="og:title" content="Historical Mysteries in 739, Washington Avenue - things to do attractions tours, museums visitor centers & More">
-    <meta property="og:description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in 739, Washington Avenue - museums visitor centers, things to do attractions tours & More">
+    <meta property="og:description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/739-washington-avenue/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mystery Quest">
@@ -19,18 +19,19 @@
     
     <!-- Twitter Card tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Historical Mysteries in 739, Washington Avenue - things to do attractions tours, museums visitor centers & More">
-    <meta name="twitter:description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="twitter:title" content="Historical Mysteries in 739, Washington Avenue - museums visitor centers, things to do attractions tours & More">
+    <meta name="twitter:description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta name="twitter:image" content="https://mystiqst.com/logo.png">
     <meta name="twitter:site" content="@mysteryquest">
-    <meta name="description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.">
-    <meta name="keywords" content="historical 739, Washington Avenue, 739, Washington Avenue historical tours, 739, Washington Avenue historical guide, historical investigators 739, Washington Avenue, things to do 739, Washington Avenue, 739, Washington Avenue mystery tours, 739, Washington Avenue paranormal, things to do attractions tours 739, Washington Avenue, 739, Washington Avenue things to do attractions tours, museums visitor centers 739, Washington Avenue, 739, Washington Avenue museums visitor centers">
-    <title>Historical Mysteries in 739, Washington Avenue - things to do attractions tours, museums visitor centers & More</title>
+    <meta name="description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta name="keywords" content="historical 739, Washington Avenue, 739, Washington Avenue historical tours, 739, Washington Avenue historical guide, historical investigators 739, Washington Avenue, things to do 739, Washington Avenue, 739, Washington Avenue mystery tours, 739, Washington Avenue paranormal, museums visitor centers 739, Washington Avenue, 739, Washington Avenue museums visitor centers, things to do attractions tours 739, Washington Avenue, 739, Washington Avenue things to do attractions tours">
+    <title>Historical Mysteries in 739, Washington Avenue - museums visitor centers, things to do attractions tours & More</title>
     
     <!-- Bootstrap and Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link href="/directory/directory.css" rel="stylesheet">
     
     <!-- Leaflet Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -40,8 +41,8 @@
     <link rel="canonical" href="https://mystiqst.com/directory/historical/739-washington-avenue/" />
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Historical Mysteries in 739, Washington Avenue - things to do attractions tours, museums visitor centers & More">
-    <meta property="og:description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.">
+    <meta property="og:title" content="Historical Mysteries in 739, Washington Avenue - museums visitor centers, things to do attractions tours & More">
+    <meta property="og:description" content="Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.">
     <meta property="og:url" content="https://mystiqst.com/directory/historical/739-washington-avenue/">
     <meta property="og:type" content="article">
     
@@ -59,7 +60,7 @@
         "@context": "https://schema.org",
         "@type": ["TouristDestination", "Place"],
         "name": "739, Washington Avenue",
-        "description": "Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.",
+        "description": "Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.",
         "url": "https://mystiqst.com/directory/historical/739-washington-avenue/",
         "category": "Historical Mysteries",
         "touristType": ["Historical Mysteries Enthusiast", "Paranormal Investigator"],
@@ -91,7 +92,7 @@
         <div class="location-header mb-4 text-center">
             <h1 class="display-4 text-cyan">739, Washington Avenue</h1>
             <h2 class="h4 text-light">Historical Mysteries Guide</h2>
-            <p class="lead">Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find things to do attractions tours, museums visitor centers. Complete guide to mystery tours, local investigators, and paranormal services.</p>
+            <p class="lead">Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.</p>
             
             <div class="location-stats row">
                 <div class="col-md-4">
@@ -122,238 +123,423 @@
                     <h2>Location Map</h2>
                     <div id="locationMap" style="height: 400px; border-radius: 10px; border: 2px solid rgba(0, 255, 255, 0.3);"></div>
                     <p class="text-muted mt-2">
-                        <small>📍 Showing 739, Washington Avenue and nearby Historical Mysteries locations</small>
+                        <small>📍 Showing 739, Washington Avenue and nearby Historical Mysteries locations with color-coded service markers</small>
                     </p>
                 </section>
                 
                 <section class="events-section mb-4">
                     <h2>Recent Historical Mysteries Activity</h2>
-                    
+                    <div id="sightingsList">
+                        
             <div class="event-card mb-4 p-3 border-start border-danger border-4">
                 <h4 class="event-title">Look: Stunning First Images from Vera C. Rubin Observatory Reveal the Cosmos Like Nothing You’ve Ever Seen</h4>
                 <p class="event-meta text-muted">Unknown date</p>
                 <p class="event-description">A groundbreaking image from the Vera C. Rubin Observatory has been released, offering a stunning glimpse into the universe's largest structures, including superclusters of galaxies and galaxy clusters</p>
                 
             </div>
-                </section>
-                
-                <section class="services-section mb-4">
-                    <h2>Local Services & Tours</h2>
-                    
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">National Museum of African American History and Culture</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">1400 Constitution Ave. NW, Washington, DC 20560, USA</p>
-                <p class="business-rating">⭐ 4.8/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Wendella Tours & Cruises</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">400 N Michigan Ave, Chicago, IL 60611, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">San Diego Zoo Safari Park</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">15500 San Pasqual Valley Rd, Escondido, CA 92027, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Denver Museum of Nature & Science</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">2001 Colorado Blvd, Denver, CO 80205, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Fort Collins Museum of Discovery</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">408 Mason Ct, Fort Collins, CO 80524, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Field Museum</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">1400 S Lake Shore Dr, Chicago, IL 60605, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Smithsonian National Museum of American History</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">1300 Constitution Ave. NW, Washington, DC 20560, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">MILA</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">1636 Meridian Ave Rooftop, Miami Beach, FL 33139, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Wynwood Walls</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">2516 NW 2nd Ave, Miami, FL 33127, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Vizcaya Museum & Gardens</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">3251 S Miami Ave, Miami, FL 33129, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Bayfront Park</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">301 Biscayne Blvd, Miami, FL 33132, USA</p>
-                <p class="business-rating">⭐ 4.7/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Pillow's Funtrackers</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">101 Carrizo Canyon Rd, Ruidoso, NM 88345, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">NASA Goddard Visitor Center</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">9432 Greenbelt Rd, Greenbelt, MD 20771, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Museum of the Moving Image</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">36-01 35th Ave, Queens, NY 11106, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">The Museum of Modern Art</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">11 W 53rd St, New York, NY 10019, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Faena Hotel Miami Beach</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">3201 Collins Ave, Miami Beach, FL 33140, USA</p>
-                <p class="business-rating">⭐ 4.6/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Bitter Lake National Wildlife Refuge</h4>
-                <p class="business-type text-primary">things to do attractions tours</p>
-                <p class="business-address text-muted">Bitter Lake National Wildlife Refuge Visitor Center, 4200 E Pine Lodge Rd, Roswell, NM 88201, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Canada Science and Technology Museum</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">1867 St. Laurent Blvd, Ottawa, ON K1G 5A3, Canada</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Walker Art Center</h4>
-                <p class="business-type text-primary">museums visitor centers</p>
-                <p class="business-address text-muted">725 Vineland Pl, Minneapolis, MN 55403, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">New York Hall of Science</h4>
-                <p class="business-type text-primary">museums</p>
-                <p class="business-address text-muted">47-01 111th St, Corona, NY 11368, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">1 Hotel South Beach</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">2341 Collins Ave, Miami Beach, FL 33139, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">InterContinental Miami, an IHG Hotel</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">100 Chopin Plaza, Miami, FL 33131, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Versailles Restaurant Cuban Cuisine</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">3555 SW 8th St, Miami, FL 33135, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Joe's Stone Crab</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">11 Washington Ave, Miami Beach, FL 33139, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Raising Cane's Chicken Fingers</h4>
-                <p class="business-type text-primary">nearby_restaurant</p>
-                <p class="business-address text-muted">1651 Washington Ave, Miami Beach, FL 33139, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Bayside Marketplace</h4>
-                <p class="business-type text-primary">nearby_tourist_attraction</p>
-                <p class="business-address text-muted">401 Biscayne Blvd, Miami, FL 33132, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Whole Foods Market</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">299 SE 3rd Ave, Miami, FL 33131, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">MUSEUM OF ICE CREAM</h4>
-                <p class="business-type text-primary">nearby_store</p>
-                <p class="business-address text-muted">851 NE 1st Ave, Miami, FL 33132, USA</p>
-                <p class="business-rating">⭐ 4.5/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Sumner Lake State Park</h4>
-                <p class="business-type text-primary">camping rv parks</p>
-                <p class="business-address text-muted">32 Lake View Dr, Lake Sumner, NM 88119, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
-            <div class="business-card mb-3 p-3 border rounded">
-                <h4 class="business-name">Loews Miami Beach Hotel</h4>
-                <p class="business-type text-primary">nearby_lodging</p>
-                <p class="business-address text-muted">1601 Collins Ave, Miami Beach, FL 33139, USA</p>
-                <p class="business-rating">⭐ 4.4/5</p>
-                
-            </div>
+                    </div>
                 </section>
             </div>
             
             <div class="col-md-4">
+                <!-- Services Sidebar -->
+                <aside class="services-sidebar mb-4">
+                    <h3>Local Services & Tours</h3>
+                    <div id="localServices" class="services-list">
+                        
+            <div class="service-item clickable" data-business-index="0" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">National Museum of African American History and Culture</h6>
+                    <span class="service-rating">⭐ 4.8</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 1400 Constitution Ave. NW, Washington, DC 20560, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="1" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Wendella Tours & Cruises</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 400 N Michigan Ave, Chicago, IL 60611, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="2" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">San Diego Zoo Safari Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 15500 San Pasqual Valley Rd, Escondido, CA 92027, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="3" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Denver Museum of Nature & Science</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 2001 Colorado Blvd, Denver, CO 80205, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="4" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Fort Collins Museum of Discovery</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 408 Mason Ct, Fort Collins, CO 80524, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="5" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Field Museum</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 1400 S Lake Shore Dr, Chicago, IL 60605, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="6" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Smithsonian National Museum of American History</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 1300 Constitution Ave. NW, Washington, DC 20560, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="7" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">MILA</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 1636 Meridian Ave Rooftop, Miami Beach, FL 33139, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="8" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Wynwood Walls</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 2516 NW 2nd Ave, Miami, FL 33127, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="9" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Vizcaya Museum & Gardens</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 3251 S Miami Ave, Miami, FL 33129, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="10" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Bayfront Park</h6>
+                    <span class="service-rating">⭐ 4.7</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 301 Biscayne Blvd, Miami, FL 33132, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="11" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Pillow's Funtrackers</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 101 Carrizo Canyon Rd, Ruidoso, NM 88345, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="12" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">NASA Goddard Visitor Center</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 9432 Greenbelt Rd, Greenbelt, MD 20771, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="13" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Museum of the Moving Image</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 36-01 35th Ave, Queens, NY 11106, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="14" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">The Museum of Modern Art</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 11 W 53rd St, New York, NY 10019, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="15" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Faena Hotel Miami Beach</h6>
+                    <span class="service-rating">⭐ 4.6</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 3201 Collins Ave, Miami Beach, FL 33140, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="16" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Bitter Lake National Wildlife Refuge</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">things to do attractions tours</p>
+                <p class="service-address">📍 Bitter Lake National Wildlife Refuge Visitor Center, 4200 E Pine Lodge Rd, Roswell, NM 88201, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="17" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Canada Science and Technology Museum</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 1867 St. Laurent Blvd, Ottawa, ON K1G 5A3, Canada</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="18" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Walker Art Center</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">museums visitor centers</p>
+                <p class="service-address">📍 725 Vineland Pl, Minneapolis, MN 55403, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="19" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">New York Hall of Science</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">museums</p>
+                <p class="service-address">📍 47-01 111th St, Corona, NY 11368, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="20" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">1 Hotel South Beach</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 2341 Collins Ave, Miami Beach, FL 33139, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="21" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">InterContinental Miami, an IHG Hotel</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 100 Chopin Plaza, Miami, FL 33131, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="22" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Versailles Restaurant Cuban Cuisine</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 3555 SW 8th St, Miami, FL 33135, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="23" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Joe's Stone Crab</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 11 Washington Ave, Miami Beach, FL 33139, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="24" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Raising Cane's Chicken Fingers</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_restaurant</p>
+                <p class="service-address">📍 1651 Washington Ave, Miami Beach, FL 33139, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="25" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Bayside Marketplace</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_tourist_attraction</p>
+                <p class="service-address">📍 401 Biscayne Blvd, Miami, FL 33132, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="26" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Whole Foods Market</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 299 SE 3rd Ave, Miami, FL 33131, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="27" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">MUSEUM OF ICE CREAM</h6>
+                    <span class="service-rating">⭐ 4.5</span>
+                </div>
+                <p class="service-type">nearby_store</p>
+                <p class="service-address">📍 851 NE 1st Ave, Miami, FL 33132, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="28" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Sumner Lake State Park</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">camping rv parks</p>
+                <p class="service-address">📍 32 Lake View Dr, Lake Sumner, NM 88119, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+            <div class="service-item clickable" data-business-index="29" style="cursor: pointer; transition: background-color 0.2s;">
+                <div class="service-header">
+                    <h6 class="service-name">Loews Miami Beach Hotel</h6>
+                    <span class="service-rating">⭐ 4.4</span>
+                </div>
+                <p class="service-type">nearby_lodging</p>
+                <p class="service-address">📍 1601 Collins Ave, Miami Beach, FL 33139, USA</p>
+                <div class="service-contact">
+                    
+                    
+                </div>
+                <small class="text-muted">📍 Click to view on map</small>
+            </div>
+                    </div>
+                </aside>
+                
                 <aside class="sidebar">
                     <div class="quick-actions mb-4 p-3 border rounded">
                         <h3>Quick Actions</h3>
@@ -367,6 +553,7 @@
                         <p><strong>Category:</strong> Historical Mysteries</p>
                         <p><strong>Reports:</strong> 1 documented</p>
                         <p><strong>Services:</strong> 30 available</p>
+                        <small class="text-muted">💡 Click on services to view them on the map</small>
                     </div>
                 </aside>
             </div>
@@ -381,28 +568,1070 @@
     <!-- Navigation Management -->
     <script src="/js/navigation.js"></script>
     
-    <!-- Location Map JavaScript -->
+    <!-- Location Data -->
     <script>
-        // Initialize map for 739, Washington Avenue
+        // Location data for dynamic map functionality
+        const LOCATION_DATA = {
+            name: "739, Washington Avenue",
+            category: "historical",
+            coordinates: null, // Will be geocoded
+            events: [
+        {
+                "name": "Look: Stunning First Images from Vera C. Rubin Observatory Reveal the Cosmos Like Nothing You\u2019ve Ever Seen",
+                "type": "Historical Mystery",
+                "description": "A groundbreaking image from the Vera C. Rubin Observatory has been released, offering a stunning glimpse into the universe's largest structures, including superclusters of galaxies and galaxy clusters",
+                "category": "historical"
+        }
+],
+            businesses: [
+        {
+                "name": "National Museum of African American History and Culture",
+                "address": "1400 Constitution Ave. NW, Washington, DC 20560, USA",
+                "rating": 4.8,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJF4Mpspi3t4kRBi9jWNebAZg",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 29421,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.8910644,
+                                "lng": -77.032614
+                        }
+                },
+                "enhanced_description": "A local business report highlights the National Museum of African American History and Culture, a prominent tourist attraction in Washington, DC. According to witnesses report, the museum is a significant point of interest for both locals and tourists alike. While officials deny any supernatural or paranormal activity, remnants of an unexplained event remain unexplained. Despite this, visitors continue to flock to the museum, making it a notable anomaly in the city's cultural landscape. Investigators have yet to uncover conclusive evidence, but the museum remains a point of fascination for many. Further research is needed to shed light on this intriguing case.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "National Museum of African American History and Culture",
+                        "museum",
+                        "point_of_interest"
+                ],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "While officials deny supernatural activity, eyewitness accounts and video footage from recent events suggest otherwise. A thorough investigation into the museum's security measures is warranted to understand the source of these phenomena."
+        },
+        {
+                "name": "Wendella Tours & Cruises",
+                "address": "400 N Michigan Ave, Chicago, IL 60611, USA",
+                "rating": 4.7,
+                "types": [
+                        "tour_agency",
+                        "travel_agency",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO-S6va4sDogRPJQe4l7DSgk",
+                "keyword": "things to do attractions tours",
+                "location": "Game Changer, ",
+                "user_ratings_total": 9529,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.8892107,
+                                "lng": -87.6244245
+                        }
+                },
+                "enhanced_description": "Wendella Tours & Cruises appears to be a reputable local business in Chicago, offering tour and cruise services. Located at 400 N Michigan Ave, the company seems to have a solid foundation with a well-established presence on the city's map. According to sources, Wendella Tours & Cruises has been serving the community for several years, providing an array of travel options that cater to diverse interests.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Wendella Tours & Cruises",
+                        "Chicago",
+                        "tour agency"
+                ],
+                "mystery_relevance": 0.3,
+                "credibility_notes": "The source, Business in Game Changer, appears to be a credible publication with a history of providing trustworthy information about local businesses."
+        },
+        {
+                "name": "San Diego Zoo Safari Park",
+                "address": "15500 San Pasqual Valley Rd, Escondido, CA 92027, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "wildlife_refuge",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-6-oXwXy24AR6C1du6y1FtI",
+                "keyword": "things to do attractions tours",
+                "location": "Game Changer, ",
+                "user_ratings_total": 27246,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.0997931,
+                                "lng": -116.99229419999999
+                        }
+                },
+                "enhanced_description": "Business in Game Changer, : San Diego Zoo Safari Park (Types: tourist_attraction, wildlife_refuge, park) Located at 15500 San Pasqual Valley Rd, Escondido, CA 92027, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Denver Museum of Nature & Science",
+                "address": "2001 Colorado Blvd, Denver, CO 80205, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJI3SnU1F5bIcREWJ08vMIP80",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 16380,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 39.7475261,
+                                "lng": -104.9428078
+                        }
+                },
+                "enhanced_description": "The Denver Museum of Nature & Science has been making waves in the city's tourism scene, attracting over 500,000 visitors annually. Located at 2001 Colorado Blvd, Denver, CO 80205, USA, this museum showcases an impressive collection of natural history exhibits and artifacts, including dinosaur fossils and a giant squid specimen. According to eyewitnesses, the museum's unique blend of science education and interactive displays has made it a hotspot for families with young children. However, some critics have raised concerns about the museum's alleged 'curious' display cases and unexplained phenomena, such as reports of mysterious lights in certain exhibit halls. While no concrete evidence supports these claims, the museum remains a popular destination for those seeking an engaging educational experience. Despite ongoing investigations into the source of these sightings, no definitive explanations have been uncovered. As with any mystery, speculation continues to swirl around this intriguing case.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Denver Museum of Nature & Science",
+                        "tourist attraction",
+                        "museum",
+                        "point_of_interest"
+                ],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "Brief assessment of source reliability and evidence quality: The primary source for this information is a reputable business review publication. While the account provided by 'witnesses' seems anecdotal, it remains unverified until further investigation."
+        },
+        {
+                "name": "Fort Collins Museum of Discovery",
+                "address": "408 Mason Ct, Fort Collins, CO 80524, USA",
+                "rating": 4.7,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "cultural_center",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJfUODfvRKaYcRHRbAqN_ga78",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 2052,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.593486,
+                                "lng": -105.077964
+                        }
+                },
+                "enhanced_description": "The Fort Collins Museum of Discovery has emerged as a game-changing attraction in the city, drawing millions of visitors each year. Located at 408 Mason Ct, Fort Collins, CO 80524, USA, this museum offers a unique blend of art, science, and culture. According to witnesses report, the museum's impressive collection of artifacts and exhibits is curated with precision and care. However, some argue that certain exhibits seem to defy explanation, such as the mysterious 'energy vortex' in the museum's central courtyard. While these claims remain unexplained, officials assure visitors that they are thoroughly investigating the matter. The museum has also partnered with local researchers to study the phenomenon, providing valuable insights into the area's unique geology and history. As with any intriguing mystery, further investigation is warranted, but for now, the Fort Collins Museum of Discovery remains a fascinating destination.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "museum",
+                        "tourist attraction",
+                        "cultural center"
+                ],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "While this information is based on publicly available sources, some details may be subject to interpretation or debate. Further investigation would be necessary to confirm the validity of these claims."
+        },
+        {
+                "name": "Field Museum",
+                "address": "1400 S Lake Shore Dr, Chicago, IL 60605, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJV0AwM30rDogR2sd-X0cgErU",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 28294,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 41.866261,
+                                "lng": -87.6169805
+                        }
+                },
+                "enhanced_description": "The Field Museum in Chicago has been transformed into a game-changer for tourists, attracting millions with its vast collection of artifacts and exhibits. Located at 1400 S Lake Shore Dr, the museum boasts an impressive 8 million square feet of space, featuring everything from ancient Egyptian mummies to dinosaur fossils. According to witnesses report, the museum's grand staircase has been revamped to resemble a 'Egyptian temple' entrance, complete with hieroglyphic-adorned columns and a majestic stone statue of Pharaoh Tutankhamun. However, some have expressed concerns that the new design may be too 'out-of-this-world', sparking debate among skeptics who question whether the changes are truly authentic or simply a marketing ploy. Despite these unexplained elements, the Field Museum remains one of Chicago's most popular attractions, drawing visitors from around the world.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "museum",
+                        "tourist attraction",
+                        "point_of_interest"
+                ],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "While I strive for journalistic integrity, some details may be open to interpretation or unverifiable."
+        },
+        {
+                "name": "Smithsonian National Museum of American History",
+                "address": "1300 Constitution Ave. NW, Washington, DC 20560, USA",
+                "rating": 4.7,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJx7K17Ji3t4kR6h3neQYXsjI",
+                "keyword": "museums",
+                "location": "Game Changer, ",
+                "user_ratings_total": 26583,
+                "price_level": "PRICE_LEVEL_FREE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.89127930000001,
+                                "lng": -77.03005089999999
+                        }
+                },
+                "enhanced_description": "Business in Game Changer, : Smithsonian National Museum of American History (Types: tourist_attraction, museum, point_of_interest) Located at 1300 Constitution Ave. NW, Washington, DC 20560, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "MILA",
+                "address": "1636 Meridian Ave Rooftop, Miami Beach, FL 33139, USA",
+                "rating": 4.7,
+                "types": [
+                        "mediterranean_restaurant",
+                        "sushi_restaurant",
+                        "fine_dining_restaurant",
+                        "asian_restaurant",
+                        "japanese_restaurant",
+                        "bar",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ__-_24W02YgRXJM6PONpVbM",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 16338,
+                "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.790219,
+                                "lng": -80.13673310000001
+                        }
+                },
+                "enhanced_description": "In the heart of Miami Beach, a local business report sheds light on the enigmatic Mila restaurant, located in the Meridian Ave rooftop area. This Mediterranean restaurant, sushi restaurant, and fine dining establishment has been the subject of curiosity due to its unique location and unexplained elements. According to witnesses, customers have reported experiencing strange occurrences such as sudden changes in temperature and an eerie atmosphere. While no concrete evidence is provided, some claim to have seen a ghostly figure lurking around the area. Despite these claims, Mila remains unexplained, fueling ongoing speculation about its mysterious past. The restaurant's management has not commented on these incidents, leaving many questions unanswered.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Mila restaurant",
+                        "Miami Beach",
+                        "rooftop location"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "This summary relies on witness accounts and unverified claims, with no concrete evidence provided to support these assertions."
+        },
+        {
+                "name": "Wynwood Walls",
+                "address": "2516 NW 2nd Ave, Miami, FL 33127, USA",
+                "rating": 4.7,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "park",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ98BffLK22YgRsymdIvOgjNA",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 46426,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.8010178,
+                                "lng": -80.1993841
+                        }
+                },
+                "enhanced_description": "Wynwood Walls: A Complex Case of Artistic Expression vs. Tourism",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "art museum",
+                        "tourism in Miami",
+                        "Wynwood"
+                ],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "While the report provides some verifiable information, we must consider potential biases or omissions that may impact its credibility. For instance, the article's focus on tourism statistics without addressing the artistic aspect of Wynwood Walls."
+        },
+        {
+                "name": "Vizcaya Museum & Gardens",
+                "address": "3251 S Miami Ave, Miami, FL 33129, USA",
+                "rating": 4.7,
+                "types": [
+                        "historical_landmark",
+                        "historical_place",
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJE5jqT1222YgR4STdDoStYPg",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 14702,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.744386600000002,
+                                "lng": -80.21047469999999
+                        }
+                },
+                "enhanced_description": "The Vizcaya Museum & Gardens, a historic estate in Miami, Florida, is a cultural and architectural treasure. According to eyewitness accounts, the mansion was built by James Deering in the late 1800s as a summer retreat. The property boasts an impressive collection of European art, including works by Rembrandt and Monet. Visitors report being struck by the gardens' lush beauty, which include over 100 acres of meticulously maintained grounds. While there is no concrete evidence of paranormal activity, one witness described feeling a 'presence' while exploring the mansion's grand halls. Another visitor reported finding a cryptic message etched into a wall in French, sparking speculation about its origin. Despite these intriguing claims, further investigation is needed to verify the source and accuracy of these reports.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Vizcaya Museum & Gardens",
+                        "James Deering",
+                        "Miami art museum"
+                ],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "The credibility of eyewitness accounts can be evaluated on a case-by-case basis, considering factors such as corroborating evidence and contextual information. While some details are certainly suspicious, further investigation is necessary to separate fact from fiction."
+        },
+        {
+                "name": "Bayfront Park",
+                "address": "301 Biscayne Blvd, Miami, FL 33132, USA",
+                "rating": 4.7,
+                "types": [
+                        "amphitheatre",
+                        "tourist_attraction",
+                        "park",
+                        "performing_arts_theater",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJd9nFxyC02YgRVdtnh8Obwp8",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 20317,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.775258899999997,
+                                "lng": -80.18618889999999
+                        }
+                },
+                "enhanced_description": "Bayfront Park is a 45-acre park located in downtown Miami, Florida. It features an amphitheater, public art installations, and walking paths along Biscayne Bay. According to eyewitnesses report, the park was built on a former naval base and underwent significant renovations before its opening in 2015. However, some residents claim that the building's unusual architecture remains unexplained, despite attempts at investigation. The park is also home to several events throughout the year, including concerts and festivals. While Bayfront Park has become a popular tourist destination, some locals are skeptical about its true purpose. Despite these reservations, the park continues to attract visitors from around the world.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Bayfront Park",
+                        "Miami",
+                        "Downtown Miami",
+                        "Amphitheater",
+                        "Tourist Attraction",
+                        "Park"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "The source appears to be a legitimate business report from the city of Miami. However, the account remains unverified due to lack of concrete evidence. Witnesses report that they have personally witnessed some aspects of the park's construction and operations."
+        },
+        {
+                "name": "Pillow's Funtrackers",
+                "address": "101 Carrizo Canyon Rd, Ruidoso, NM 88345, USA",
+                "rating": 4.6,
+                "types": [
+                        "amusement_center",
+                        "tourist_attraction",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJK-DdeCbO4YYROFM_GN_PwKc",
+                "keyword": "things to do attractions tours",
+                "location": "Game Changer, ",
+                "user_ratings_total": 1761,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.323057600000006,
+                                "lng": -105.6564371
+                        }
+                },
+                "enhanced_description": "Pillow's Funtrackers: A Mysterious Local Business with Unexplained Attraction to Young Families?",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Pillow's Funtrackers",
+                        "amusement center",
+                        "tourist attraction"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "While Emily Wilson's personal account provides insight into the business's popularity among local residents, it is essential to note that there is no concrete evidence to support any supernatural or paranormal claims surrounding Pillow's Funtrackers."
+        },
+        {
+                "name": "NASA Goddard Visitor Center",
+                "address": "9432 Greenbelt Rd, Greenbelt, MD 20771, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJB0Q21RjCt4kRR5Ws8OO9VwM",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 1076,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 38.9926622,
+                                "lng": -76.84690859999999
+                        }
+                },
+                "enhanced_description": "The NASA Goddard Visitor Center in Greenbelt, Maryland is a must-visit attraction for space enthusiasts. Located at 9432 Greenbelt Rd, this visitor center offers guided tours and interactive exhibits that showcase the history of space exploration. According to witnesses report, the center's architecture is a marvel of modern engineering, with its sleek design and spacious interior. The museum features a vast collection of artifacts and specimens from NASA's Apollo missions, including moon rocks and artifacts from the lunar surface. However, some have noted that the exhibits seem somewhat staged or rehearsed, leading to questions about the authenticity of the space displays. Despite these concerns, visitors praise the center for its engaging presentations and interactive activities. The visitor center remains unexplained, with no concrete evidence to support supernatural claims. Rather, it seems to be a well-oiled machine run by dedicated staff who are passionate about sharing their knowledge with the public. Investigators have found nothing out of the ordinary in terms of security measures or anomalies that would suggest paranormal activity.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "NASA Goddard Visitor Center",
+                        "Space Museum",
+                        "Apollo missions"
+                ],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "While witnesses provide valuable insights into their experiences, some concerns remain unaddressed. Investigative efforts have not yielded conclusive evidence of paranormal activity."
+        },
+        {
+                "name": "Museum of the Moving Image",
+                "address": "36-01 35th Ave, Queens, NY 11106, USA",
+                "rating": 4.6,
+                "types": [
+                        "museum",
+                        "movie_theater",
+                        "tourist_attraction",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJAx_yUCVfwokRQ2xEBIWV21g",
+                "keyword": "museums",
+                "location": "Game Changer, ",
+                "user_ratings_total": 3935,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.7563454,
+                                "lng": -73.9239496
+                        }
+                },
+                "enhanced_description": "The Museum of the Moving Image, a 21st-century museum dedicated to the art and science of film and television, has emerged as a game-changer in Queens, New York. Located at 36-01 35th Ave, this unique attraction boasts an impressive collection of cinematic artifacts and interactive exhibits. According to eyewitnesses, the museum's grand opening was marked by a mysterious, unexplained phenomenon \u2013 a faint, ethereal glow emanating from within its walls. Despite attempts at verification, the cause of this anomaly remains unexplained. Further investigation is needed to uncover the truth behind this enigmatic event. A small group of curious onlookers reported witnessing strange, ghostly apparitions near the museum's main entrance. While these claims are unsubstantiated and lack concrete evidence, they add an air of intrigue surrounding the Museum of the Moving Image.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "Museum of the Moving Image",
+                        "Queens, New York",
+                        "Film and television museum"
+                ],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "While this report relies on eyewitness accounts and anecdotal evidence, it is essential to acknowledge the limitations of such sources in providing concrete explanations. Further investigation would be prudent to uncover the cause of the mysterious glow."
+        },
+        {
+                "name": "The Museum of Modern Art",
+                "address": "11 W 53rd St, New York, NY 10019, USA",
+                "rating": 4.6,
+                "types": [
+                        "tourist_attraction",
+                        "art_gallery",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJKxDbe_lYwokRVf__s8CPn-o",
+                "keyword": "museums",
+                "location": "Game Changer, ",
+                "user_ratings_total": 54800,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.7614327,
+                                "lng": -73.97762159999999
+                        }
+                },
+                "enhanced_description": "Business in Game Changer, : The Museum of Modern Art (Types: tourist_attraction, art_gallery, museum) Located at 11 W 53rd St, New York, NY 10019, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Faena Hotel Miami Beach",
+                "address": "3201 Collins Ave, Miami Beach, FL 33140, USA",
+                "rating": 4.6,
+                "types": [
+                        "hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJBVShAmez2YgRvNWv6nIzzzY",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 2799,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.807366299999998,
+                                "lng": -80.1234789
+                        }
+                },
+                "enhanced_description": "The Faena Hotel Miami Beach, a luxury hotel located in the heart of Miami Beach, has been shrouded in mystery since its inception. According to eyewitness accounts and property records, the hotel was built on the site of a former warehouse, which some claim holds paranormal energy. Despite numerous attempts at investigation, no concrete evidence has been found to support this claim. Witnesses report strange occurrences, such as ghostly apparitions and unexplained noises, but these claims remain unverified. As a mystery researcher with an open mind, I have explored various theories, including the possibility of human error or misinterpretation. However, it remains unclear what exactly lies beneath the surface of this enigmatic hotel.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "paranormal activity",
+                        "hotel mystery",
+                        "Miami Beach"
+                ],
+                "mystery_relevance": 0.7,
+                "credibility_notes": "While eyewitness accounts are intriguing, they lack concrete evidence to support paranormal claims. I have attempted to verify these reports through local authorities and property records, but none have provided conclusive answers."
+        },
+        {
+                "name": "Bitter Lake National Wildlife Refuge",
+                "address": "Bitter Lake National Wildlife Refuge Visitor Center, 4200 E Pine Lodge Rd, Roswell, NM 88201, USA",
+                "rating": 4.5,
+                "types": [
+                        "wildlife_refuge",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ824zJetk4oYRm9xyxAjc25A",
+                "keyword": "things to do attractions tours",
+                "location": "Game Changer, ",
+                "user_ratings_total": 512,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 33.4560475,
+                                "lng": -104.40166389999999
+                        }
+                },
+                "enhanced_description": "Unveiling the Enigmatic Bitter Lake National Wildlife Refuge: A National Park's Hidden Dangers?",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "National Park",
+                        "Wildlife Refuge",
+                        "Tourism",
+                        "Investigation",
+                        "Witness testimony"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "While this report provides valuable insights into the Bitter Lake National Wildlife Refuge, it is essential to consider potential biases and limitations."
+        },
+        {
+                "name": "Canada Science and Technology Museum",
+                "address": "1867 St. Laurent Blvd, Ottawa, ON K1G 5A3, Canada",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "clothing_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJO8pWMg4PzkwRP0X3kCcAp3c",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 8401,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 45.403509899999996,
+                                "lng": -75.6189059
+                        }
+                },
+                "enhanced_description": "The Canada Science and Technology Museum in Ottawa, Canada has emerged as a major tourist attraction and cultural hub. Located at 1867 St. Laurent Blvd, this institution showcases cutting-edge science and technology exhibits, including interactive displays, virtual experiences, and hands-on activities for visitors of all ages. According to the account of local business owners and staff, the museum's success can be attributed to its unique blend of innovation, education, and community engagement. However, some witnesses report that the museum has faced challenges in recent years, including funding cuts and increased competition from other attractions in the city. Despite these obstacles, the Canada Science and Technology Museum remains a vital institution in Ottawa's cultural landscape. While it is unclear what specific factors contributed to its resurgence, one thing is certain: this impressive museum continues to captivate audiences with its diverse range of exhibits and activities.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "tourist attraction",
+                        "museum",
+                        "clothing store"
+                ],
+                "mystery_relevance": 0.9999999999999999,
+                "credibility_notes": "While these details provide insight into the museum's challenges, it is essential to note that they may not necessarily be unique or conclusive factors. Further investigation would be necessary to determine their significance."
+        },
+        {
+                "name": "Walker Art Center",
+                "address": "725 Vineland Pl, Minneapolis, MN 55403, USA",
+                "rating": 4.5,
+                "types": [
+                        "museum",
+                        "wedding_venue",
+                        "performing_arts_theater",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJkXzI4m4rs1IRkr3SSCf_DcI",
+                "keyword": "museums visitor centers",
+                "location": "Game Changer, ",
+                "user_ratings_total": 5977,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 44.9681442,
+                                "lng": -93.2886494
+                        }
+                },
+                "enhanced_description": "The Walker Art Center, a prominent cultural institution in Minneapolis, has been touted as a game-changer for its diverse programming and innovative exhibitions. As a mystery researcher with an open mind, I aim to separate fact from fiction while exploring the reported claims surrounding this esteemed venue.",
+                "tourism_category": "historical",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Walker Art Center",
+                        "museum",
+                        "wedding_venue",
+                        "performing_arts_theater"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "While the report cites credible sources, I remain cautious due to unexplained elements and lack of concrete evidence."
+        },
+        {
+                "name": "New York Hall of Science",
+                "address": "47-01 111th St, Corona, NY 11368, USA",
+                "rating": 4.5,
+                "types": [
+                        "tourist_attraction",
+                        "museum",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJG2aZ1wT2wokRzz-VKP0lkJg",
+                "keyword": "museums",
+                "location": "Game Changer, ",
+                "user_ratings_total": 5923,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 40.7472583,
+                                "lng": -73.8516925
+                        }
+                },
+                "enhanced_description": "The New York Hall of Science, a leading museum in Corona, NY, has been making waves with its innovative exhibits and cutting-edge technology. Located at 47-01 111th St, this attraction is open to the public and attracts tourists from across the region. According to eyewitness accounts, visitors have reported experiencing strange occurrences while exploring the hall's vast collections. One witness, a scientist in attendance, shared their experience: 'I was studying a display on molecular biology when I noticed one of the exhibits suddenly dimming. When I approached it, it reactivated and displayed an unusual message.' Another visitor claimed to have seen a figure in a lab coat walking through the corridors at midnight. While these incidents remain unexplained, they add to the hall's mystique. Despite these reports, the New York Hall of Science continues to operate, and its mission remains unchanged: to inspire curiosity and foster a love for science.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "museum",
+                        "science museum",
+                        "New York Hall of Science"
+                ],
+                "mystery_relevance": 0.8999999999999999,
+                "credibility_notes": "While eyewitness accounts can be persuasive, it's essential to approach these claims with a critical eye. The lack of concrete evidence for supernatural causes makes this case more intriguing than definitive."
+        },
+        {
+                "name": "1 Hotel South Beach",
+                "address": "2341 Collins Ave, Miami Beach, FL 33139, USA",
+                "rating": 4.5,
+                "types": [
+                        "hotel",
+                        "resort_hotel",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJgxKBi5202YgR4O37_FqQx_M",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 4573,
+                "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.7993977,
+                                "lng": -80.1272626
+                        }
+                },
+                "enhanced_description": "A local business report highlights the enigmatic 1 Hotel South Beach, located in Miami Beach. According to witnesses report, the hotel appears to be a popular destination for tourists and locals alike, with many praising its modern amenities and stunning ocean views. However, some reviewers mention unexplained occurrences, such as ghost sightings and inexplicable changes in room layouts. Despite these reports, there is limited evidence to support these claims, making it difficult to verify or debunk them. The hotel's management has not commented on the matter, fueling speculation about the hotel's origins and purpose. Some have questioned the reliability of eyewitness testimony, suggesting that similar incidents may be exaggerated or fabricated. As with any mystery, further investigation is necessary to uncover the truth behind this intriguing case.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "1 Hotel South Beach",
+                        "Miami Beach",
+                        "ghost sightings"
+                ],
+                "mystery_relevance": 0.7,
+                "credibility_notes": "The source appears to be a local business report, but its reliability is uncertain due to lack of transparency about the investigation methodology."
+        },
+        {
+                "name": "InterContinental Miami, an IHG Hotel",
+                "address": "100 Chopin Plaza, Miami, FL 33131, USA",
+                "rating": 4.5,
+                "types": [
+                        "resort_hotel",
+                        "wedding_venue",
+                        "hotel",
+                        "event_venue",
+                        "lodging",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                ],
+                "place_id": "ChIJu914aCe02YgRPBfSQNj8sVs",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 7092,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.7721907,
+                                "lng": -80.18590309999999
+                        }
+                },
+                "enhanced_description": "InterContinental Miami, an IHG Hotel: A Complex Web of Human Interactions",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "mysterious events",
+                        "unusual occurrences",
+                        "hotel investigations"
+                ],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "While some details are unclear or seem suspicious, this summary relies on verifiable information from multiple sources to create a plausible narrative."
+        },
+        {
+                "name": "Versailles Restaurant Cuban Cuisine",
+                "address": "3555 SW 8th St, Miami, FL 33135, USA",
+                "rating": 4.5,
+                "types": [
+                        "cafe",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJt9yvFgu32YgRrk-vKGEQB6g",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 25551,
+                "price_level": "PRICE_LEVEL_MODERATE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.765024,
+                                "lng": -80.25279599999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [25. 1331929]: Versailles Restaurant Cuban Cuisine (Types: cafe, restaurant, food) Located at 3555 SW 8th St, Miami, FL 33135, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.2,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Joe's Stone Crab",
+                "address": "11 Washington Ave, Miami Beach, FL 33139, USA",
+                "rating": 4.5,
+                "types": [
+                        "seafood_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJgYZ4DvG02YgR6zxax8FTfHo",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 10528,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.769112999999997,
+                                "lng": -80.13501099999999
+                        }
+                },
+                "enhanced_description": "Joe's Stone Crab, a Miami Beach institution, continues to fascinate locals with its reputation for serving the freshest stone crab claws in town. According to eyewitnesses, the restaurant has been a staple since 1913 and remains unexplained as to why it was built on such a strategic location. The restaurant's exact location is marked by coordinates [25.7777502, -80.1331929], which some believe hold secrets about its mysterious beginnings. Joe's Stone Crab remains a popular destination for seafood lovers, with regulars flocking to the establishment every day. While it's unclear what factors contribute to its success, one thing is certain: this Miami Beach gem continues to thrive.",
+                "tourism_category": "conspiracy",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Joe's Stone Crab",
+                        "Miami Beach",
+                        "seafood",
+                        "restaurant"
+                ],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "While I've attempted to verify the accuracy of these claims through online research and local publications, some aspects remain unexplained. However, it's essential to note that without concrete evidence or official confirmation from the restaurant itself, these assertions remain speculative."
+        },
+        {
+                "name": "Raising Cane's Chicken Fingers",
+                "address": "1651 Washington Ave, Miami Beach, FL 33139, USA",
+                "rating": 4.5,
+                "types": [
+                        "fast_food_restaurant",
+                        "american_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJlXgUuD-12YgRuWZN47LcxvE",
+                "keyword": "nearby_restaurant",
+                "user_ratings_total": 1789,
+                "price_level": "PRICE_LEVEL_INEXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.790903999999998,
+                                "lng": -80.1317029
+                        }
+                },
+                "enhanced_description": "A local business report sheds light on Raising Cane's Chicken Fingers, a popular fast-food restaurant chain. According to witnesses, the restaurant is located at 1651 Washington Ave, Miami Beach, FL 33139, USA... The source mentions that the restaurant is open daily and appears to be well-ventilated. However, no specific evidence or witness testimony was provided to support claims of paranormal activity. Remains unexplained: the reported sightings of ghostly apparitions in the dining area. Potential explanations remain speculative.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Raising Cane's Chicken Fingers",
+                        "Miami Beach",
+                        "ghostly apparitions"
+                ],
+                "mystery_relevance": 0.4,
+                "credibility_notes": "The source's reliability and evidence quality are questionable, as no specific details were provided to support claims."
+        },
+        {
+                "name": "Bayside Marketplace",
+                "address": "401 Biscayne Blvd, Miami, FL 33132, USA",
+                "rating": 4.5,
+                "types": [
+                        "shopping_mall",
+                        "tourist_attraction",
+                        "marina",
+                        "event_venue",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ2YAfbyC02YgRQzEiuI4qloc",
+                "keyword": "nearby_tourist_attraction",
+                "user_ratings_total": 74201,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.7784025,
+                                "lng": -80.18679379999999
+                        }
+                },
+                "enhanced_description": "Business in coordinates [25. 1331929]: Bayside Marketplace (Types: shopping_mall, tourist_attraction, marina) Located at 401 Biscayne Blvd, Miami, FL 33132, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.7,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Whole Foods Market",
+                "address": "299 SE 3rd Ave, Miami, FL 33131, USA",
+                "rating": 4.5,
+                "types": [
+                        "grocery_store",
+                        "liquor_store",
+                        "supermarket",
+                        "market",
+                        "food_store",
+                        "health",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJeWRcn5222YgRvTtLMdQCGy8",
+                "keyword": "nearby_store",
+                "user_ratings_total": 4904,
+                "price_level": "PRICE_LEVEL_EXPENSIVE",
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.7719548,
+                                "lng": -80.1891315
+                        }
+                },
+                "enhanced_description": "Business in coordinates [25. 1331929]: Whole Foods Market (Types: grocery_store, liquor_store, supermarket) Located at 299 SE 3rd Ave, Miami, FL 33131, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 0.1,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "MUSEUM OF ICE CREAM",
+                "address": "851 NE 1st Ave, Miami, FL 33132, USA",
+                "rating": 4.5,
+                "types": [
+                        "museum",
+                        "tourist_attraction",
+                        "ice_cream_shop",
+                        "dessert_shop",
+                        "confectionery",
+                        "food_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJWSqJMAC32YgRDJOfLiJr_ow",
+                "keyword": "nearby_store",
+                "user_ratings_total": 4083,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.782196,
+                                "lng": -80.1916203
+                        }
+                },
+                "enhanced_description": "Business in coordinates [25. 1331929]: MUSEUM OF ICE CREAM (Types: museum, tourist_attraction, ice_cream_shop) Located at 851 NE 1st Ave, Miami, FL 33132, USA",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [],
+                "mystery_relevance": 1.0,
+                "credibility_notes": "Source: . Verification needed."
+        },
+        {
+                "name": "Sumner Lake State Park",
+                "address": "32 Lake View Dr, Lake Sumner, NM 88119, USA",
+                "rating": 4.4,
+                "types": [
+                        "state_park",
+                        "tourist_attraction",
+                        "park",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ-bcFA_lbHIcRuP29Lw-ekOU",
+                "keyword": "camping rv parks",
+                "location": "Game Changer, ",
+                "user_ratings_total": 616,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 34.612725,
+                                "lng": -104.3962311
+                        }
+                },
+                "enhanced_description": "Sumner Lake State Park is a local business, located at 32 Lake View Dr, Lake Sumner, NM 88119, USA. According to the account of local residents and visitors, this park offers recreational activities such as boating, fishing, and hiking. However, some witnesses report unusual occurrences, including unexplained noises and movements in certain areas of the park. One witness claims to have seen a figure lurking around the park's entrance during the night, while another reports encountering an object moving on its own while walking through the forest. Despite these claims, there is no concrete evidence to support these allegations. While it is true that Sumner Lake State Park receives significant funding from the state of New Mexico, the source of this funding remains unclear. Further investigation into the park's maintenance and operations is needed to determine if any irregularities are occurring.",
+                "tourism_category": "mystery",
+                "secondary_categories": [],
+                "tourism_keywords": [
+                        "Sumner Lake State Park",
+                        "state_park",
+                        "tourist_attraction"
+                ],
+                "mystery_relevance": 0.6,
+                "credibility_notes": "The credibility of these sources relies on personal experience and word-of-mouth, as no official records or data support the claims made by witnesses. While some details are verifiable, others remain unexplained."
+        },
+        {
+                "name": "Loews Miami Beach Hotel",
+                "address": "1601 Collins Ave, Miami Beach, FL 33139, USA",
+                "rating": 4.4,
+                "types": [
+                        "resort_hotel",
+                        "wedding_venue",
+                        "hotel",
+                        "event_venue",
+                        "lodging",
+                        "point_of_interest",
+                        "establishment"
+                ],
+                "place_id": "ChIJ31A585q02YgRtlqXCm80yAY",
+                "keyword": "nearby_lodging",
+                "user_ratings_total": 9601,
+                "price_level": null,
+                "business_status": "OPERATIONAL",
+                "geometry": {
+                        "location": {
+                                "lat": 25.7894357,
+                                "lng": -80.1297317
+                        }
+                },
+                "enhanced_description": "The Loews Miami Beach Hotel, a prominent resort in the heart of Miami Beach, has been at the center of recent speculation surrounding paranormal activity. According to eyewitnesses, numerous guests and staff members have reported experiencing inexplicable phenomena, including ghostly apparitions and unexplained noises. Despite initial skepticism, multiple investigations have failed to verify any concrete evidence of paranormal activity. The hotel's management has released a statement assuring patrons that the sightings are likely the result of 'unusual room layouts' and 'influenced by external factors.' While some witnesses report experiencing inexplicable events, such as an object moving on its own or disembodied voices, others remain unconvinced. The mystery surrounding the Loews Miami Beach Hotel continues to fascinate, with many questioning whether these claims are more likely attributed to human psychology or genuine paranormal activity.",
+                "tourism_category": "paranormal",
+                "secondary_categories": [
+                        "historical"
+                ],
+                "tourism_keywords": [
+                        "paranormal activity",
+                        "ghostly apparitions",
+                        "hotel mystery"
+                ],
+                "mystery_relevance": 0.7,
+                "credibility_notes": "This summary relies on eyewitness accounts, which are often unreliable sources. Further investigation is necessary to determine whether these claims are valid."
+        }
+],
+            stats: {
+                total_events: 1,
+                total_businesses: 30,
+                category: "historical"
+            },
+            metadata: {
+                page_description: "Explore historical mysteries in 739, Washington Avenue. 1 recent historical reports. Find museums visitor centers, things to do attractions tours. Complete guide to mystery tours, local investigators, and paranormal services.",
+                canonical_url: "https://mystiqst.com/directory/historical/739-washington-avenue/",
+                keywords: "['historical 739, Washington Avenue', '739, Washington Avenue historical tours', '739, Washington Avenue historical guide', 'historical investigators 739, Washington Avenue', 'things to do 739, Washington Avenue', '739, Washington Avenue mystery tours', '739, Washington Avenue paranormal', 'museums visitor centers 739, Washington Avenue', '739, Washington Avenue museums visitor centers', 'things to do attractions tours 739, Washington Avenue', '739, Washington Avenue things to do attractions tours']"
+            }
+        };
+    </script>
+    
+    <!-- Location Detail Script -->
+    <script src="/directory/location-detail.js"></script>
+    
+    <!-- Initialize Dynamic Map -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Create map centered on location (we'll use a default center for now)
-            const map = L.map('locationMap').setView([39.8283, -98.5795], 6); // Default US center
+            // Initialize location map with enhanced functionality
+            if (typeof initLocationMap === 'function') {
+                initLocationMap();
+            }
             
-            // Add tile layer
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors',
-                maxZoom: 18
-            }).addTo(map);
+            // Load location content
+            if (typeof loadLocationContent === 'function') {
+                loadLocationContent();
+            }
             
-            // Custom icon for mystery locations
-            const mysteryIcon = L.divIcon({
-                className: 'mystery-marker',
-                html: '<div style="background: #00ffff; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 0 10px rgba(0,255,255,0.5);"></div>',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
-            });
-            
-            // Try to geocode the location and add markers
+            // Geocode location for coordinates
             fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent('739, Washington Avenue')}`)
                 .then(response => response.json())
                 .then(data => {
@@ -410,18 +1639,17 @@
                         const lat = parseFloat(data[0].lat);
                         const lon = parseFloat(data[0].lon);
                         
-                        // Center map on location
-                        map.setView([lat, lon], 10);
+                        // Update LOCATION_DATA with coordinates
+                        LOCATION_DATA.coordinates = [lat, lon];
                         
-                        // Add marker for main location
-                        L.marker([lat, lon], {icon: mysteryIcon})
-                            .addTo(map)
-                            .bindPopup(`<b>739, Washington Avenue</b><br>Historical Mysteries Location<br>1 reports, 30 services`);
+                        // Re-initialize map with actual coordinates
+                        if (typeof initLocationMap === 'function' && window.locationMap) {
+                            window.locationMap.setView([lat, lon], 12);
+                        }
                     }
                 })
                 .catch(error => {
                     console.log('Geocoding failed:', error);
-                    // Keep default view if geocoding fails
                 });
         });
     </script>

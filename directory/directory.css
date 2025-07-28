@@ -312,3 +312,43 @@
 .category-conspiracy .sightings-map-section {
     border-color: rgba(244, 67, 54, 0.3);
 }
+
+/* Map marker animations and styles */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.business-marker-highlight {
+    animation: pulse 1s infinite;
+}
+
+/* Service item hover and click styles */
+.service-item.clickable {
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease;
+}
+
+.service-item.clickable:hover {
+    background-color: rgba(0, 123, 255, 0.1) !important;
+    border-color: rgba(0, 123, 255, 0.3);
+    transform: translateX(5px);
+}
+
+.service-item.clickable:active {
+    transform: translateX(3px);
+    background-color: rgba(0, 123, 255, 0.2) !important;
+}

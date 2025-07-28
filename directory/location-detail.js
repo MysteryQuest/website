@@ -59,31 +59,71 @@ function initLocationMap() {
         `);
     });
 
-    // Add business markers
-    LOCATION_DATA.businesses.forEach(business => {
+    // Service type color mapping
+    const serviceColors = {
+        'hotels accommodation lodging': '#e74c3c',           // Red
+        'restaurants food dining': '#f39c12',               // Orange  
+        'things to do attractions tours': '#9b59b6',        // Purple
+        'museums visitor centers': '#3498db',               // Blue
+        'parks recreation outdoor': '#27ae60',              // Green
+        'entertainment activities': '#e91e63',              // Pink
+        'nearby_tourist_attraction': '#16a085',             // Teal
+        'shopping retail stores': '#f1c40f',                // Yellow
+        'gas stations fuel': '#95a5a6',                     // Gray
+        'healthcare medical services': '#2ecc71',           // Light Green
+        'transportation services': '#34495e',               // Dark Gray
+        'paranormal investigators': '#8e44ad',              // Dark Purple
+        'default': '#007bff'                                 // Default Blue
+    };
+
+    // Add business markers with color coding
+    LOCATION_DATA.businesses.forEach((business, index) => {
         const geometry = business.geometry || {};
         const location = geometry.location || {};
         
         if (location.lat && location.lng) {
+            const businessType = business.keyword || business.type || 'Service';
+            
+            // Get color for service type
+            const serviceColor = serviceColors[businessType.toLowerCase()] || serviceColors['default'];
+            
+            // Create colored icon for business type
+            const businessIcon = L.divIcon({
+                className: 'business-marker',
+                html: `<div style="background: ${serviceColor}; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.3); cursor: pointer;"></div>`,
+                iconSize: [20, 20],
+                iconAnchor: [10, 10]
+            });
+            
             const businessMarker = L.marker([location.lat, location.lng], {
-                icon: L.icon({
-                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
-                    iconSize: [25, 41],
-                    iconAnchor: [12, 41],
-                    popupAnchor: [1, -34],
-                    shadowSize: [41, 41]
-                })
+                icon: businessIcon
             }).addTo(locationMap);
-
-            businessMarker.bindPopup(`
-                <div class="business-popup">
-                    <h6>${business.name || 'Unknown Business'}</h6>
-                    <p><strong>Type:</strong> ${business.keyword || 'Service'}</p>
-                    <p><strong>Address:</strong> ${business.address || 'No address available'}</p>
-                    ${business.rating ? `<p><strong>Rating:</strong> ${business.rating}/5</p>` : ''}
-                    ${business.phone ? `<p><strong>Phone:</strong> ${business.phone}</p>` : ''}
-                </div>
-            `);
+            
+            // Enhanced popup with website link
+            let popupContent = `<div class="business-popup">
+                <h6>${business.name || 'Unknown Business'}</h6>
+                <p><strong>Type:</strong> ${businessType}</p>
+                <p><strong>Address:</strong> ${business.address || 'No address available'}</p>`;
+                
+            if (business.rating) {
+                popupContent += `<p><strong>Rating:</strong> ⭐ ${business.rating}/5</p>`;
+            }
+            
+            if (business.phone) {
+                popupContent += `<p><strong>Phone:</strong> 📞 ${business.phone}</p>`;
+            }
+            
+            if (business.website) {
+                popupContent += `<p><strong>Website:</strong> <a href="${business.website}" target="_blank" style="color: #007bff; text-decoration: none;">🌐 Visit Website</a></p>`;
+            }
+            
+            popupContent += `</div>`;
+            
+            businessMarker.bindPopup(popupContent);
+            
+            // Store marker reference with business index for click functionality
+            business._markerIndex = index;
+            business._marker = businessMarker;
         }
     });
 }
@@ -184,7 +224,7 @@ function loadLocalServices() {
         return;
     }
 
-    const servicesHtml = LOCATION_DATA.businesses.map(business => {
+    const servicesHtml = LOCATION_DATA.businesses.map((business, index) => {
         const businessName = business.name || 'Unknown Business';
         const businessType = business.keyword || 'Service';
         const businessAddress = business.address || 'No address available';
@@ -193,22 +233,103 @@ function loadLocalServices() {
         const businessWebsite = business.website || null;
 
         return `
-            <div class="service-item">
+            <div class="service-item clickable" data-business-index="${index}" style="cursor: pointer; transition: background-color 0.2s;">
                 <div class="service-header">
                     <h6 class="service-name">${businessName}</h6>
                     ${businessRating ? `<span class="service-rating">⭐ ${businessRating}</span>` : ''}
                 </div>
                 <p class="service-type">${businessType}</p>
-                <p class="service-address">${businessAddress}</p>
+                <p class="service-address">📍 ${businessAddress}</p>
                 <div class="service-contact">
                     ${businessPhone ? `<span class="service-phone">📞 ${businessPhone}</span>` : ''}
-                    ${businessWebsite ? `<a href="${businessWebsite}" target="_blank" class="service-website">🌐 Website</a>` : ''}
+                    ${businessWebsite ? `<a href="${businessWebsite}" target="_blank" class="service-website" onclick="event.stopPropagation();">🌐 Website</a>` : ''}
                 </div>
+                <small class="text-muted">📍 Click to view on map</small>
             </div>
         `;
     }).join('');
 
     localServices.innerHTML = servicesHtml;
+    
+    // Add click event listeners to service items
+    const serviceItems = localServices.querySelectorAll('.service-item.clickable');
+    serviceItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const businessIndex = parseInt(this.getAttribute('data-business-index'));
+            focusOnBusiness(businessIndex);
+        });
+        
+        // Add hover effects
+        item.addEventListener('mouseenter', function() {
+            this.style.backgroundColor = 'rgba(0, 123, 255, 0.1)';
+        });
+        
+        item.addEventListener('mouseleave', function() {
+            this.style.backgroundColor = '';
+        });
+    });
+}
+
+// Function to focus map on a specific business marker
+function focusOnBusiness(businessIndex) {
+    if (!LOCATION_DATA || !LOCATION_DATA.businesses[businessIndex]) return;
+    
+    const business = LOCATION_DATA.businesses[businessIndex];
+    const geometry = business.geometry || {};
+    const location = geometry.location || {};
+    
+    if (location.lat && location.lng && business._marker) {
+        // Center map on business location
+        locationMap.setView([location.lat, location.lng], 15);
+        
+        // Open the business marker popup
+        business._marker.openPopup();
+        
+        // Add a temporary highlight effect
+        const marker = business._marker;
+        const originalIcon = marker.getIcon();
+        
+        // Create highlighted icon
+        const businessType = business.keyword || business.type || 'Service';
+        const serviceColors = {
+            'hotels accommodation lodging': '#e74c3c',
+            'restaurants food dining': '#f39c12',
+            'things to do attractions tours': '#9b59b6',
+            'museums visitor centers': '#3498db',
+            'parks recreation outdoor': '#27ae60',
+            'entertainment activities': '#e91e63',
+            'nearby_tourist_attraction': '#16a085',
+            'shopping retail stores': '#f1c40f',
+            'gas stations fuel': '#95a5a6',
+            'healthcare medical services': '#2ecc71',
+            'transportation services': '#34495e',
+            'paranormal investigators': '#8e44ad',
+            'default': '#007bff'
+        };
+        
+        const serviceColor = serviceColors[businessType.toLowerCase()] || serviceColors['default'];
+        
+        const highlightIcon = L.divIcon({
+            className: 'business-marker-highlight',
+            html: `<div style="background: ${serviceColor}; width: 24px; height: 24px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 0 15px ${serviceColor}; animation: pulse 1s infinite; cursor: pointer;"></div>`,
+            iconSize: [30, 30],
+            iconAnchor: [15, 15]
+        });
+        
+        // Temporarily set highlighted icon
+        marker.setIcon(highlightIcon);
+        
+        // Reset to original icon after 2 seconds
+        setTimeout(() => {
+            const normalIcon = L.divIcon({
+                className: 'business-marker',
+                html: `<div style="background: ${serviceColor}; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.3); cursor: pointer;"></div>`,
+                iconSize: [20, 20],
+                iconAnchor: [10, 10]
+            });
+            marker.setIcon(normalIcon);
+        }, 2000);
+    }
 }
 
 // Search functionality
