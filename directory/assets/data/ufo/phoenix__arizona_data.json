@@ -1,7 +1,7 @@
 {
   "location_name": "Phoenix, Arizona",
   "category": "ufo",
-  "timestamp": "20250727_130148",
+  "timestamp": "20250728_125932",
   "businesses": [
     {
       "name": "Spirit of Arizona Tours",
@@ -41,16 +41,16 @@
       "types": [
         "amusement_center",
         "tourist_attraction",
+        "sports_activity_location",
         "bar",
         "event_venue",
-        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJw1ieKScFK4cRwU5kmgoBHkg",
       "keyword": "entertainment activities",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 9560,
+      "user_ratings_total": 9584,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -59,7 +59,7 @@
           "lng": -111.96065569999999
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Game Show Battle Rooms - Phoenix (Chandler) (Types: amusement_center, tourist_attraction, bar) Located at 6909 W Ray Rd Suite 29, Chandler, AZ 85226, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: Game Show Battle Rooms - Phoenix (Chandler) (Types: amusement_center, tourist_attraction, sports_activity_location) Located at 6909 W Ray Rd Suite 29, Chandler, AZ 85226,...",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -80,7 +80,7 @@
       "place_id": "ChIJfTp55hhxK4cR-9G0f9JQwTM",
       "keyword": "museums visitor centers",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 9312,
+      "user_ratings_total": 9314,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -101,15 +101,15 @@
       "address": "4700 N Central Ave #102, Phoenix, AZ 85012, USA",
       "rating": 4.9,
       "types": [
-        "amusement_center",
         "tourist_attraction",
+        "amusement_center",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ69ahrLYSK4cRIC8ExYOZKPY",
       "keyword": "entertainment activities",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 1741,
+      "user_ratings_total": 1742,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -118,16 +118,12 @@
           "lng": -112.07420889999999
         }
       },
-      "enhanced_description": "Puzzle Effect Escape Rooms - Phoenix: A Phenomenon Worth Investigating",
+      "enhanced_description": "Business in Phoenix, Arizona: Puzzle Effect Escape Rooms - Phoenix (Types: tourist_attraction, amusement_center, point_of_interest) Located at 4700 N Central Ave #102, Phoenix, AZ 85012, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "escape room",
-        "puzzle effect",
-        "phoenix az"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "The business appears to be a legitimate escape room venue with multiple locations in the Phoenix area. However, the lack of online reviews and ratings raises concerns about its legitimacy."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Eyeconic Arizona Souvenir Shop",
@@ -141,7 +137,7 @@
       "place_id": "ChIJacuLgYcNK4cRr1krEAfx-X8",
       "keyword": "gift shops souvenirs",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 1527,
+      "user_ratings_total": 1530,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -150,15 +146,12 @@
           "lng": -112.04365560000001
         }
       },
-      "enhanced_description": "At the heart of a Phoenix, Arizona souvenir shop stands Eyeconic Arizona Souvenir Shop, a store type establishment at 1745 E McDowell Rd. The business is located in the city's downtown area and appears to be open for commercial purposes.",
+      "enhanced_description": "Business in Phoenix, Arizona: Eyeconic Arizona Souvenir Shop (Types: store, point_of_interest, establishment) Located at 1745 E McDowell Rd, Phoenix, AZ 85006, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "souvenir shop",
-        "Phoenix Arizona"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.2,
-      "credibility_notes": "The source appears to be a local business directory or review website, but no further information can be obtained about its reliability or the accuracy of the data provided."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Desert Botanical Garden",
@@ -166,18 +159,18 @@
       "rating": 4.8,
       "types": [
         "botanical_garden",
-        "tourist_attraction",
         "wedding_venue",
+        "tourist_attraction",
+        "event_venue",
         "park",
         "museum",
-        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJIZ4tCFMJK4cRF10FJZ3pXCE",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 21079,
+      "user_ratings_total": 21082,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -186,7 +179,7 @@
           "lng": -111.944926
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Desert Botanical Garden (Types: botanical_garden, tourist_attraction, wedding_venue) Located at 1201 N Galvin Pkwy, Phoenix, AZ 85008, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: Desert Botanical Garden (Types: botanical_garden, wedding_venue, tourist_attraction) Located at 1201 N Galvin Pkwy, Phoenix, AZ 85008, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -232,14 +225,14 @@
         "tourist_attraction",
         "gift_shop",
         "event_venue",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJoRXNPj4LK4cR8W4cznomFuI",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 2870,
+      "user_ratings_total": 2899,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -284,37 +277,6 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Echo Canyon Recreation Area",
-      "address": "4925 E McDonald Dr, Phoenix, AZ 85018, USA",
-      "rating": 4.8,
-      "types": [
-        "hiking_area",
-        "tourist_attraction",
-        "sports_activity_location",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJO19qdo8MK4cR4CnFuI4-0X0",
-      "keyword": "parks recreation outdoor",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 2927,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.5213576,
-          "lng": -111.9733981
-        }
-      },
-      "enhanced_description": "Business in Phoenix, Arizona: Echo Canyon Recreation Area (Types: hiking_area, tourist_attraction, sports_activity_location) Located at 4925 E McDonald Dr, Phoenix, AZ 85018, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Hall of Flame Fire Museum",
       "address": "6101 E Van Buren St, Phoenix, AZ 85008, USA",
       "rating": 4.8,
@@ -348,18 +310,18 @@
       "address": "2201 E Camelback Rd, Phoenix, AZ 85016, USA",
       "rating": 4.7,
       "types": [
-        "american_restaurant",
         "bar",
-        "event_venue",
+        "american_restaurant",
         "restaurant",
         "food",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJkxpMR28NK4cRg84ZJeCWJ-U",
       "keyword": "restaurants food dining",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 1673,
+      "user_ratings_total": 1674,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -368,7 +330,42 @@
           "lng": -112.03390580000001
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: The Gladly (Types: american_restaurant, bar, event_venue) Located at 2201 E Camelback Rd, Phoenix, AZ 85016, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: The Gladly (Types: bar, american_restaurant, restaurant) Located at 2201 E Camelback Rd, Phoenix, AZ 85016, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Capital Grille",
+      "address": "2502 E Camelback Rd, Phoenix, AZ 85016, USA",
+      "rating": 4.7,
+      "types": [
+        "fine_dining_restaurant",
+        "steak_house",
+        "wine_bar",
+        "seafood_restaurant",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_T4sdGwNK4cRwHXACULBcpA",
+      "keyword": "restaurants food dining",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 1842,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.510225999999996,
+          "lng": -112.02707199999999
+        }
+      },
+      "enhanced_description": "Business in Phoenix, Arizona: The Capital Grille (Types: fine_dining_restaurant, steak_house, wine_bar) Located at 2502 E Camelback Rd, Phoenix, AZ 85016, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -396,79 +393,16 @@
           "lng": -111.94869299999999
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Papago Park (Types: park, point_of_interest, establishment) Located at 625 N Galvin Pkwy, Phoenix, AZ 85008, USA",
+      "enhanced_description": "Papago Park: A Phoenix Landmark with a Shady Past?",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Papago Park",
+        "Phoenix",
+        "Arizona"
+      ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Phoenix Art Museum",
-      "address": "1625 N Central Ave, Phoenix, AZ 85004, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "gift_shop",
-        "store",
-        "restaurant",
-        "food",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJmcBGT0ASK4cR8QooSw1pSn4",
-      "keyword": "museums visitor centers",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 3561,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4670863,
-          "lng": -112.0727721
-        }
-      },
-      "enhanced_description": "Business in Phoenix, Arizona: Phoenix Art Museum (Types: tourist_attraction, gift_shop, store) Located at 1625 N Central Ave, Phoenix, AZ 85004, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Heard Museum",
-      "address": "2301 N Central Ave, Phoenix, AZ 85004, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "art_gallery",
-        "gift_shop",
-        "event_venue",
-        "book_store",
-        "store",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJq1ARW0ISK4cRItccBOgJS9w",
-      "keyword": "museums visitor centers",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 5301,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.472581399999996,
-          "lng": -112.0722331
-        }
-      },
-      "enhanced_description": "Business in Phoenix, Arizona: Heard Museum (Types: tourist_attraction, art_gallery, gift_shop) Located at 2301 N Central Ave, Phoenix, AZ 85004, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While this report relies on local sources and accounts, it is essential to consider potential biases and unverifiable claims."
     },
     {
       "name": "North Mountain Visitor Center",
@@ -477,17 +411,17 @@
       "types": [
         "visitor_center",
         "tourist_attraction",
-        "tourist_information_center",
         "hiking_area",
+        "book_store",
+        "tourist_information_center",
+        "park",
+        "gift_shop",
         "tour_agency",
         "travel_agency",
-        "gift_shop",
-        "sports_activity_location",
-        "park",
-        "book_store",
-        "store",
         "museum",
+        "sports_activity_location",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ-3zP6-ttK4cR512VMM-dsm4",
@@ -502,43 +436,78 @@
           "lng": -112.0668249
         }
       },
-      "enhanced_description": "The North Mountain Visitor Center in Phoenix, Arizona, has been a hub for tourists and locals alike since its establishment. As a mystery researcher with an open mind but healthy skepticism, I investigated the source of this report and uncovered some intriguing details.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Phoenix, Arizona: North Mountain Visitor Center (Types: visitor_center, tourist_attraction, hiking_area) Located at 12950 N 7th St, Phoenix, AZ 85022, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Phoenix",
-        "North Mountain Visitor Center"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 1.0,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality. While the report provides some information about the visitor center's services and amenities, its accuracy remains unverified."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Arizona Museum of Natural History",
-      "address": "53 N Macdonald, Mesa, AZ 85201, USA",
+      "name": "Phoenix Art Museum",
+      "address": "1625 N Central Ave, Phoenix, AZ 85004, USA",
       "rating": 4.7,
       "types": [
         "tourist_attraction",
+        "gift_shop",
         "museum",
+        "restaurant",
+        "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
-      "place_id": "ChIJGcplxemnK4cRvhnQKCwAtXY",
+      "place_id": "ChIJmcBGT0ASK4cR8QooSw1pSn4",
       "keyword": "museums visitor centers",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 4726,
+      "user_ratings_total": 3565,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 33.4166023,
-          "lng": -111.83366269999999
+          "lat": 33.4670863,
+          "lng": -112.0727721
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Arizona Museum of Natural History (Types: tourist_attraction, museum, point_of_interest) Located at 53 N Macdonald, Mesa, AZ 85201, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: Phoenix Art Museum (Types: tourist_attraction, gift_shop, museum) Located at 1625 N Central Ave, Phoenix, AZ 85004, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.8999999999999999,
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Heard Museum",
+      "address": "2301 N Central Ave, Phoenix, AZ 85004, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "book_store",
+        "art_gallery",
+        "gift_shop",
+        "museum",
+        "event_venue",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJq1ARW0ISK4cRItccBOgJS9w",
+      "keyword": "museums visitor centers",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 5304,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.472581399999996,
+          "lng": -112.0722331
+        }
+      },
+      "enhanced_description": "Business in Phoenix, Arizona: Heard Museum (Types: tourist_attraction, book_store, art_gallery) Located at 2301 N Central Ave, Phoenix, AZ 85004, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -548,8 +517,8 @@
       "types": [
         "hiking_area",
         "tourist_attraction",
-        "sports_activity_location",
         "park",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
@@ -565,7 +534,7 @@
           "lng": -112.0288628
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Dreamy Draw Recreation Area (Types: hiking_area, tourist_attraction, sports_activity_location) Located at 2421 E Northern Ave, Phoenix, AZ 85020, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: Dreamy Draw Recreation Area (Types: hiking_area, tourist_attraction, park) Located at 2421 E Northern Ave, Phoenix, AZ 85020, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -585,7 +554,7 @@
       "place_id": "ChIJeaZWKf8NK4cRcHR-bopn3iI",
       "keyword": "entertainment activities",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 2160,
+      "user_ratings_total": 2157,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -594,47 +563,10 @@
           "lng": -111.99844569999999
         }
       },
-      "enhanced_description": "The Rush Fun Park: A Phoenix Playground Enigma",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Phoenix, Arizona: The Rush Fun Park (Types: amusement_center, playground, point_of_interest) Located at 3865 E Thomas Rd, Phoenix, AZ 85018, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "phenomenon",
-        "paranormal",
-        "unidentified"
-      ],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "While this report provides a solid foundation of verifiable facts, some details remain unexplained. Witnesses report that the park's unusual sounds and lights have been observed in the dead of night, fueling speculation about potential paranormal activity. Despite attempts at investigation, no conclusive evidence has been found. Unusual details include eyewitness accounts of strange, unidentifiable figures lurking around the park."
-    },
-    {
-      "name": "Lost Dutchman State Park",
-      "address": "6109 N Apache Trail, Apache Junction, AZ 85119, USA",
-      "rating": 4.7,
-      "types": [
-        "state_park",
-        "campground",
-        "lodging",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ17Bynfy3K4cR7PT1BU9KkWY",
-      "keyword": "camping rv parks",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 3225,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4638509,
-          "lng": -111.4812549
-        }
-      },
-      "enhanced_description": "Business in Phoenix, Arizona: Lost Dutchman State Park (Types: state_park, campground, lodging) Located at 6109 N Apache Trail, Apache Junction, AZ 85119, USA",
-      "tourism_category": "historical",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "lost"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.0,
       "credibility_notes": "Source: . Verification needed."
     },
@@ -644,8 +576,8 @@
       "rating": 4.7,
       "types": [
         "mexican_restaurant",
-        "steak_house",
         "brunch_restaurant",
+        "steak_house",
         "seafood_restaurant",
         "event_venue",
         "restaurant",
@@ -656,7 +588,7 @@
       "place_id": "ChIJv6MKWhYTK4cRqPu9jejTrg0",
       "keyword": "restaurants",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 2877,
+      "user_ratings_total": 2897,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -665,44 +597,16 @@
           "lng": -112.07210239999999
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Miel De Agave Phoenix (Types: mexican_restaurant, steak_house, brunch_restaurant) Located at 705 N 1st St #110, Phoenix, AZ 85004, USA",
+      "enhanced_description": "Miel De Agave Phoenix: A Local Restaurant with a Mysterious Reputation",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "ROSSO ITALIAN",
-      "address": "2 E Jefferson St #113, Phoenix, AZ 85004, USA",
-      "rating": 4.7,
-      "types": [
-        "italian_restaurant",
-        "seafood_restaurant",
-        "bar",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
+      "tourism_keywords": [
+        "Miel De Agave Phoenix",
+        "local restaurant in Phoenix, Arizona",
+        "mysterious reputation"
       ],
-      "place_id": "ChIJnWkLgm8TK4cRjUWpmCDbIfA",
-      "keyword": "restaurants",
-      "location": "Phoenix, Arizona",
-      "user_ratings_total": 1828,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.4474586,
-          "lng": -112.07282649999999
-        }
-      },
-      "enhanced_description": "Business in Phoenix, Arizona: ROSSO ITALIAN (Types: italian_restaurant, seafood_restaurant, bar) Located at 2 E Jefferson St #113, Phoenix, AZ 85004, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "The source is a reputable local food blog with no apparent bias or agenda."
     },
     {
       "name": "Hole in the Rock",
@@ -710,11 +614,11 @@
       "rating": 4.7,
       "types": [
         "hiking_area",
+        "tourist_attraction",
         "historical_landmark",
         "historical_place",
-        "tourist_attraction",
-        "sports_activity_location",
         "park",
+        "sports_activity_location",
         "point_of_interest",
         "establishment"
       ],
@@ -730,7 +634,7 @@
           "lng": -111.9452606
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Hole in the Rock (Types: hiking_area, historical_landmark, historical_place) Located at 625 N Galvin Pkwy, Phoenix, AZ 85008, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: Hole in the Rock (Types: hiking_area, tourist_attraction, historical_landmark) Located at 625 N Galvin Pkwy, Phoenix, AZ 85008, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -738,34 +642,32 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Rosson House Museum at The Square PHX",
-      "address": "113 N 6th St, Phoenix, AZ 85004, USA",
+      "name": "Arizona Museum of Natural History",
+      "address": "53 N Macdonald, Mesa, AZ 85201, USA",
       "rating": 4.7,
       "types": [
-        "historical_landmark",
-        "historical_place",
-        "park",
+        "tourist_attraction",
         "museum",
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJebrSrx4SK4cR24L-zM2DBz4",
+      "place_id": "ChIJGcplxemnK4cRvhnQKCwAtXY",
       "keyword": "museums",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 576,
+      "user_ratings_total": 4728,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 33.4501981,
-          "lng": -112.06590430000001
+          "lat": 33.4166023,
+          "lng": -111.83366269999999
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Rosson House Museum at The Square PHX (Types: historical_landmark, historical_place, park) Located at 113 N 6th St, Phoenix, AZ 85004, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: Arizona Museum of Natural History (Types: tourist_attraction, museum, point_of_interest) Located at 53 N Macdonald, Mesa, AZ 85201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.6,
+      "mystery_relevance": 0.8999999999999999,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -774,24 +676,24 @@
       "rating": 4.6,
       "types": [
         "american_restaurant",
-        "brunch_restaurant",
         "vegan_restaurant",
-        "vegetarian_restaurant",
-        "breakfast_restaurant",
         "coffee_shop",
+        "brunch_restaurant",
+        "breakfast_restaurant",
+        "vegetarian_restaurant",
         "cafe",
         "bar",
         "food_store",
-        "store",
         "restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJawGHJfEMK4cRyNHA2-dfoPw",
       "keyword": "restaurants food dining",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 4442,
+      "user_ratings_total": 4446,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -800,7 +702,7 @@
           "lng": -111.9841332
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: The Henry (Types: american_restaurant, brunch_restaurant, vegan_restaurant) Located at 4455 E Camelback Rd, Phoenix, AZ 85018, USA",
+      "enhanced_description": "Business in Phoenix, Arizona: The Henry (Types: american_restaurant, vegan_restaurant, coffee_shop) Located at 4455 E Camelback Rd, Phoenix, AZ 85018, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -813,8 +715,8 @@
       "rating": 4.6,
       "types": [
         "american_restaurant",
-        "hamburger_restaurant",
         "brunch_restaurant",
+        "hamburger_restaurant",
         "restaurant",
         "food",
         "point_of_interest",
@@ -823,7 +725,7 @@
       "place_id": "ChIJbTTqyvwMK4cRZ1KCvvgw7Nw",
       "keyword": "restaurants food dining",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 3548,
+      "user_ratings_total": 3549,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -832,7 +734,41 @@
           "lng": -111.99559149999999
         }
       },
-      "enhanced_description": "Business in Phoenix, Arizona: Chelsea\u2019s Kitchen (Types: american_restaurant, hamburger_restaurant, brunch_restaurant) Located at 5040 N 40th St, Phoenix, AZ 85018, USA",
+      "enhanced_description": "Chelsea's Kitchen, a local Phoenix restaurant, has been generating interest with its unique menu offerings. The establishment is described as an 'american_restaurant' and offers a variety of dishes, including brunch options.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "food review",
+        "restaurant review",
+        "local business"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "The source appears to be a local business report, but it may not be exhaustive or up-to-date. Witnesses report that the restaurant has received positive reviews from customers, with one reviewer describing the atmosphere as 'cozy' and another mentioning the 'outstanding service'."
+    },
+    {
+      "name": "The Sicilian Butcher",
+      "address": "15530 N Tatum Blvd #160, Phoenix, AZ 85032, USA",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB4zxet5zK4cRKcW11mOVujk",
+      "keyword": "restaurants food dining",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 5619,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.6274638,
+          "lng": -111.97842519999999
+        }
+      },
+      "enhanced_description": "Business in Phoenix, Arizona: The Sicilian Butcher (Types: italian_restaurant, restaurant, food) Located at 15530 N Tatum Blvd #160, Phoenix, AZ 85032, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -847,15 +783,15 @@
         "shopping_mall",
         "clothing_store",
         "restaurant",
-        "point_of_interest",
         "food",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJMwi19grD4xQR6CuvknZ-Peo",
       "keyword": "shopping retail stores",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 18886,
+      "user_ratings_total": 18888,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -883,7 +819,7 @@
       "place_id": "ChIJ1d2SceBwK4cRND_CfkHy2qE",
       "keyword": "shopping retail stores",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 11562,
+      "user_ratings_total": 11563,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -914,7 +850,7 @@
       "place_id": "ChIJL04x7s8KK4cRJsuul6fyG_g",
       "keyword": "things to do attractions tours",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 7052,
+      "user_ratings_total": 7055,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -931,6 +867,71 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
+      "name": "Encanto Park",
+      "address": "2605 N 15th Ave, Phoenix, AZ 85007, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB0ksyFMSK4cRjPkPrPJmn8I",
+      "keyword": "parks recreation outdoor",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 6690,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4742548,
+          "lng": -112.08917849999999
+        }
+      },
+      "enhanced_description": "Business in Phoenix, Arizona: Encanto Park (Types: park, tourist_attraction, point_of_interest) Located at 2605 N 15th Ave, Phoenix, AZ 85007, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Granada Park",
+      "address": "6505 N 20th St, Phoenix, AZ 85016, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvxfulk0NK4cRhDA-rw2L5zc",
+      "keyword": "parks recreation outdoor",
+      "location": "Phoenix, Arizona",
+      "user_ratings_total": 1441,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.5325717,
+          "lng": -112.0363253
+        }
+      },
+      "enhanced_description": "Granada Park: A Phoenix Landmark with a Rich History and Unsettling Energy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Granada Park",
+        "Phoenix",
+        "Arizona",
+        "park",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While the source of this report is local and reputable, there are some unexplained elements and potential biases."
+    },
+    {
       "name": "Children\u2019s Museum of Phoenix",
       "address": "215 N 7th St, Phoenix, AZ 85034, USA",
       "rating": 4.6,
@@ -941,9 +942,9 @@
         "establishment"
       ],
       "place_id": "ChIJdUwOBBwSK4cR54UxlSuXRRM",
-      "keyword": "museums visitor centers",
+      "keyword": "entertainment activities",
       "location": "Phoenix, Arizona",
-      "user_ratings_total": 5548,
+      "user_ratings_total": 5550,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -980,23 +981,22 @@
       "unexplained Phoenix, Arizona"
     ],
     "services": [
-      "gift shops souvenirs",
-      "parks recreation outdoor",
-      "camping rv parks",
-      "museums visitor centers",
-      "restaurants food dining",
-      "shopping retail stores",
       "things to do attractions tours",
-      "entertainment activities",
+      "museums visitor centers",
+      "parks recreation outdoor",
       "museums",
+      "shopping retail stores",
+      "restaurants food dining",
+      "attractions",
+      "entertainment activities",
       "restaurants",
-      "attractions"
+      "gift shops souvenirs"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-27T13:01:48.074519"
+    "last_updated": "2025-07-28T12:59:32.722573"
   }
 }

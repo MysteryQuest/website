@@ -156,19 +156,19 @@
 
         /* YouTube Widget Styles */
         .youtube-widget {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            width: 320px;
+            position: relative;
+            top: auto;
+            left: auto;
+            width: 100%;
+            max-width: 800px;
+            margin: 40px auto 20px auto;
             background: rgba(25, 25, 35, 0.95);
             border-radius: 15px;
-            padding: 15px;
+            padding: 20px;
             border: 1px solid rgba(0, 255, 255, 0.2);
             box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
             backdrop-filter: blur(10px);
-            z-index: 1000;
-            max-height: 80vh;
-            overflow-y: auto;
+            z-index: 100;
             transition: transform 0.3s ease;
         }
 
@@ -179,17 +179,29 @@
         .youtube-widget h3 {
             font-family: 'Orbitron', monospace;
             color: #00ffff;
-            font-size: 1rem;
-            margin-bottom: 10px;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
             text-align: center;
             text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        /* Widget Grid Layout */
+        .widget-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .youtube-widget-section {
+            margin-bottom: 0;
         }
 
         .youtube-video-item {
             background: rgba(35, 35, 45, 0.8);
             border-radius: 8px;
-            padding: 8px;
-            margin-bottom: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
             border-left: 3px solid #00ffff;
             transition: all 0.3s ease;
             cursor: pointer;
@@ -207,10 +219,10 @@
 
         .youtube-video-title {
             color: #ffffff;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: 500;
-            margin-bottom: 4px;
-            line-height: 1.2;
+            margin-bottom: 6px;
+            line-height: 1.3;
             text-decoration: none;
             display: block;
         }
@@ -222,7 +234,7 @@
 
         .youtube-video-stats {
             color: #aaaaaa;
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -237,29 +249,92 @@
             color: #888888;
         }
 
-        .youtube-widget-section {
-            margin-bottom: 15px;
+        /* TikTok Widget Styles */
+        .tiktok-widget {
+            background: rgba(25, 25, 35, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255, 20, 147, 0.2);
+            box-shadow: 0 8px 32px rgba(255, 20, 147, 0.1);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
         }
 
-        .youtube-widget-section:last-child {
+        .tiktok-widget:hover {
+            transform: translateY(-2px);
+        }
+
+        .tiktok-widget h3 {
+            font-family: 'Orbitron', monospace;
+            color: #ff1493;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+        }
+
+        .tiktok-video-item {
+            background: rgba(35, 35, 45, 0.8);
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 3px solid #ff1493;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .tiktok-video-item:hover {
+            background: rgba(45, 45, 55, 0.9);
+            border-left-color: #00ffff;
+            transform: translateX(5px);
+        }
+
+        .tiktok-video-item:last-child {
             margin-bottom: 0;
         }
 
-        /* Mobile responsiveness for widget */
-        @media (max-width: 768px) {
-            .youtube-widget {
-                position: relative;
-                top: auto;
-                left: auto;
-                width: 100%;
-                margin: 20px 0;
-                max-height: none;
-            }
+        .tiktok-video-title {
+            color: #ffffff;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 6px;
+            line-height: 1.3;
+            text-decoration: none;
+            display: block;
         }
 
-        @media (max-width: 1200px) {
-            .youtube-widget {
-                width: 280px;
+        .tiktok-video-title:hover {
+            color: #ff1493;
+            text-decoration: none;
+        }
+
+        .tiktok-video-stats {
+            color: #aaaaaa;
+            font-size: 0.75rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .tiktok-video-views {
+            color: #ff1493;
+            font-weight: 500;
+        }
+
+        .tiktok-video-date {
+            color: #888888;
+        }
+
+        /* Mobile responsiveness for widgets */
+        @media (max-width: 768px) {
+            .widget-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .youtube-widget, .tiktok-widget {
+                margin: 15px auto;
+                padding: 15px;
             }
         }
 
@@ -536,36 +611,71 @@
         </div>
     </section>
 
-    <!-- Main Content -->
-    <div class="container py-5">
-        <!-- YouTube Widget -->
+    <!-- Social Media Widgets -->
+    <div class="container">
         <div class="youtube-widget" id="youtube-widget">
-            <div class="youtube-widget-section">
-                <h3>🔥 Most Popular</h3>
-                <div id="popular-videos">
-                    <div class="youtube-video-item">
-                        <a href="#" class="youtube-video-title">Loading popular videos...</a>
-                        <div class="youtube-video-stats">
-                            <span class="youtube-video-views">-</span>
-                            <span class="youtube-video-date">-</span>
+            <h3>🎬 Latest from Our Mystery Quest Channel</h3>
+            <div class="widget-grid">
+                <div class="youtube-widget-section">
+                    <h4 style="color: #00ffff; font-size: 1rem; margin-bottom: 10px; text-align: center;">🔥 Most Popular</h4>
+                    <div id="popular-videos">
+                        <div class="youtube-video-item">
+                            <a href="#" class="youtube-video-title">Loading popular videos...</a>
+                            <div class="youtube-video-stats">
+                                <span class="youtube-video-views">-</span>
+                                <span class="youtube-video-date">-</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="youtube-widget-section">
-                <h3>📅 Latest Videos</h3>
-                <div id="recent-videos">
-                    <div class="youtube-video-item">
-                        <a href="#" class="youtube-video-title">Loading recent videos...</a>
-                        <div class="youtube-video-stats">
-                            <span class="youtube-video-views">-</span>
-                            <span class="youtube-video-date">-</span>
+                <div class="youtube-widget-section">
+                    <h4 style="color: #00ffff; font-size: 1rem; margin-bottom: 10px; text-align: center;">📅 Latest Videos</h4>
+                    <div id="recent-videos">
+                        <div class="youtube-video-item">
+                            <a href="#" class="youtube-video-title">Loading recent videos...</a>
+                            <div class="youtube-video-stats">
+                                <span class="youtube-video-views">-</span>
+                                <span class="youtube-video-date">-</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="tiktok-widget" id="tiktok-widget">
+            <h3>📱 Latest from Our TikTok @mysteryquest01</h3>
+            <div class="widget-grid">
+                <div class="youtube-widget-section">
+                    <h4 style="color: #ff1493; font-size: 1rem; margin-bottom: 10px; text-align: center;">🔥 Popular TikToks</h4>
+                    <div id="popular-tiktoks">
+                        <div class="tiktok-video-item">
+                            <a href="#" class="tiktok-video-title">Loading popular TikToks...</a>
+                            <div class="tiktok-video-stats">
+                                <span class="tiktok-video-views">-</span>
+                                <span class="tiktok-video-date">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="youtube-widget-section">
+                    <h4 style="color: #ff1493; font-size: 1rem; margin-bottom: 10px; text-align: center;">📅 Latest TikToks</h4>
+                    <div id="recent-tiktoks">
+                        <div class="tiktok-video-item">
+                            <a href="#" class="tiktok-video-title">Loading recent TikToks...</a>
+                            <div class="tiktok-video-stats">
+                                <span class="tiktok-video-views">-</span>
+                                <span class="tiktok-video-date">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container py-5">
         <!-- Mystery Lists Section -->
         <div class="row mb-5">
             <div class="col-lg-6 mb-4">
@@ -836,13 +946,14 @@
         document.addEventListener('DOMContentLoaded', function() {
             fetchTopMysteries();
             loadYouTubeWidget();
+            loadTikTokWidget();
         });
 
         // YouTube Widget Functions
         async function loadYouTubeWidget() {
             try {
                 // Try to fetch real YouTube data
-                const response = await fetch('/api/youtube/widget');
+                const response = await fetch('/api/youtube/widget.json');
                 if (response.ok) {
                     const data = await response.json();
                     displayYouTubeVideos(data.popular, data.recent);
@@ -853,6 +964,72 @@
                 console.warn('Using mock YouTube data:', error);
                 loadMockYouTubeData();
             }
+        }
+
+        // TikTok Widget Functions
+        async function loadTikTokWidget() {
+            try {
+                // Try to fetch real TikTok data (placeholder for now)
+                const response = await fetch('/api/tiktok/widget.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    displayTikTokVideos(data.popular, data.recent);
+                } else {
+                    throw new Error('TikTok API not available');
+                }
+            } catch (error) {
+                console.warn('Using mock TikTok data:', error);
+                loadMockTikTokData();
+            }
+        }
+
+        function loadMockTikTokData() {
+            // Mock TikTok data for testing
+            const mockTikToks = [
+                {
+                    video_id: 'tiktok_1',
+                    title: '👻 Salem Witch Trials Investigation',
+                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456789',
+                    view_count: 89000,
+                    published_at: '2024-01-20T10:00:00Z'
+                },
+                {
+                    video_id: 'tiktok_2',
+                    title: '🛸 Phoenix Lights UFO Analysis',
+                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456790',
+                    view_count: 156000,
+                    published_at: '2024-01-18T15:30:00Z'
+                },
+                {
+                    video_id: 'tiktok_3',
+                    title: '🔍 Bigfoot Evidence Breakdown',
+                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456791',
+                    view_count: 67000,
+                    published_at: '2024-01-15T12:00:00Z'
+                },
+                {
+                    video_id: 'tiktok_4',
+                    title: '🌊 Bermuda Triangle Mysteries',
+                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456792',
+                    view_count: 234000,
+                    published_at: '2024-01-12T18:00:00Z'
+                },
+                {
+                    video_id: 'tiktok_5',
+                    title: '👁️ Area 51 Secrets Revealed',
+                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456793',
+                    view_count: 345000,
+                    published_at: '2024-01-10T14:30:00Z'
+                }
+            ];
+
+            // Sort by view count for popular
+            const popular = [...mockTikToks].sort((a, b) => b.view_count - a.view_count).slice(0, 3);
+            
+            // Sort by date for recent
+            const recent = [...mockTikToks].sort((a, b) => new Date(b.published_at) - new Date(a.published_at)).slice(0, 3);
+
+            displayTikTokVideos(popular, recent);
         }
 
         function loadMockYouTubeData() {
@@ -903,10 +1080,10 @@
             ];
 
             // Sort by view count for popular
-            const popular = [...mockVideos].sort((a, b) => b.view_count - a.view_count).slice(0, 5);
+            const popular = [...mockVideos].sort((a, b) => b.view_count - a.view_count).slice(0, 3);
             
             // Sort by date for recent
-            const recent = [...mockVideos].sort((a, b) => new Date(b.published_at) - new Date(a.published_at)).slice(0, 5);
+            const recent = [...mockVideos].sort((a, b) => new Date(b.published_at) - new Date(a.published_at)).slice(0, 3);
 
             displayYouTubeVideos(popular, recent);
         }
@@ -914,6 +1091,44 @@
         function displayYouTubeVideos(popularVideos, recentVideos) {
             displayVideoSection('popular-videos', popularVideos);
             displayVideoSection('recent-videos', recentVideos);
+        }
+
+        function displayTikTokVideos(popularTikToks, recentTikToks) {
+            displayTikTokSection('popular-tiktoks', popularTikToks);
+            displayTikTokSection('recent-tiktoks', recentTikToks);
+        }
+
+        function displayTikTokSection(containerId, videos) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+
+            container.innerHTML = '';
+
+            videos.forEach(video => {
+                const videoItem = document.createElement('div');
+                videoItem.className = 'tiktok-video-item';
+                
+                const publishedDate = new Date(video.published_at);
+                const formattedDate = publishedDate.toLocaleDateString('en-US', { 
+                    month: 'short', 
+                    day: 'numeric',
+                    year: 'numeric'
+                });
+
+                const viewCount = formatViewCount(video.view_count);
+
+                videoItem.innerHTML = `
+                    <a href="${video.url}" target="_blank" class="tiktok-video-title">
+                        ${truncateTitle(video.title, 45)}
+                    </a>
+                    <div class="tiktok-video-stats">
+                        <span class="tiktok-video-views">${viewCount} views</span>
+                        <span class="tiktok-video-date">${formattedDate}</span>
+                    </div>
+                `;
+
+                container.appendChild(videoItem);
+            });
         }
 
         function displayVideoSection(containerId, videos) {
