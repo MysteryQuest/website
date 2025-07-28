@@ -6,6 +6,136 @@ body {
     color: #ffffff;
 }
 
+/* Navigation Styles */
+.navbar-brand .brand-text {
+    font-family: 'Orbitron', monospace !important;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #00ffff !important;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+/* Large Badge-Style Logo */
+.logo-badge {
+    position: relative !important;
+    z-index: 1050;
+    padding: 0 !important;
+    margin-right: 2rem !important;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f1419 100%);
+    border: 2px solid #00ffff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    box-shadow: 
+        0 0 20px rgba(0, 255, 255, 0.4),
+        inset 0 0 20px rgba(0, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    top: -10px;
+    height: 80px;
+    min-width: 200px;
+}
+
+.logo-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        0 0 30px rgba(0, 255, 255, 0.6),
+        inset 0 0 25px rgba(0, 255, 255, 0.15);
+    border-color: #00ccff;
+}
+
+.logo-image {
+    width: 60px !important;
+    height: 60px !important;
+    margin-right: 12px;
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.3));
+    transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-image {
+    filter: drop-shadow(0 0 15px rgba(0, 255, 255, 0.5));
+    transform: scale(1.05);
+}
+
+.logo-container .brand-text {
+    font-family: 'Orbitron', monospace !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #00ffff !important;
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    white-space: nowrap;
+}
+
+/* Adjust navbar height to accommodate large logo */
+.navbar {
+    min-height: 80px !important;
+    padding: 10px 0 !important;
+}
+
+/* Ensure navbar content aligns properly with larger logo */
+.navbar-nav {
+    margin-left: auto;
+    align-items: center;
+}
+
+/* Mobile responsiveness for logo */
+@media (max-width: 768px) {
+    .logo-container {
+        height: 60px;
+        min-width: 160px;
+        padding: 6px 12px;
+        top: -8px;
+    }
+    
+    .logo-image {
+        width: 45px !important;
+        height: 45px !important;
+        margin-right: 8px;
+    }
+    
+    .logo-container .brand-text {
+        font-size: 0.9rem;
+    }
+    
+    .navbar {
+        min-height: 70px !important;
+    }
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Orbitron', monospace !important;
+    font-weight: 400;
+}
+
+/* Adjust body padding for larger navbar */
+body {
+    padding-top: 100px !important; /* Account for larger navbar */
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+    body {
+        padding-top: 85px !important;
+    }
+}
+
+/* Footer Styles */
+.footer-title,
+.footer-section-title {
+    font-family: 'Orbitron', monospace !important;
+    font-weight: 600;
+    color: #00ffff !important;
+}
+
+.footer-text,
+.footer-links a {
+    font-family: 'Inter', sans-serif !important;
+}
+
 /* Utility Classes */
 .text-cyan {
     color: #00ffff !important;

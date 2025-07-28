@@ -27,10 +27,13 @@ class NavigationManager {
         return `
         <!-- Shared Navigation Header -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand d-flex align-items-center" href="/">
-                    <img src="${logoPath}" alt="Mystery Quest Logo" width="40" height="40" class="me-2">
-                    <span class="brand-text">Mystery Quest</span>
+            <div class="container-fluid position-relative">
+                <!-- Large Badge-Style Logo -->
+                <a class="navbar-brand logo-badge" href="/">
+                    <div class="logo-container">
+                        <img src="${logoPath}" alt="Mystery Quest Logo" class="logo-image">
+                        <span class="brand-text">Mystery Quest</span>
+                    </div>
                 </a>
                 
                 <!-- Google Translate Element -->
