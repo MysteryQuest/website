@@ -386,6 +386,17 @@
             color: #888888;
         }
 
+        /* Hero background container - full width */
+        .hero-background-container {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('splash.webp');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            min-height: 100vh;
+            position: relative;
+        }
+
         /* Two-column layout styles */
         .main-layout-container {
             display: flex;
@@ -394,11 +405,14 @@
             max-width: 1400px;
             margin: 0 auto;
             padding: 20px;
+            min-height: 100vh;
+            padding-top: 100px; /* Account for fixed navbar height */
         }
         
         .left-column-widgets {
             flex: 0 0 320px; /* Fixed width matching logo badge size */
             max-width: 320px;
+            padding-top: 20px; /* Spacing from navbar to match spacing between widgets */
         }
         
         .right-column-hero {
@@ -409,17 +423,28 @@
         /* Adjust hero section for the new layout */
         .right-column-hero .hero {
             margin: 0;
+            background: none; /* Remove individual hero background */
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 255, 255, 0.1);
+            min-height: auto;
+            padding: 40px 20px;
+            position: relative; /* Keep for any child positioning */
+        }
+        
+        /* Remove the individual hero background since it's now on the container */
+        .right-column-hero .hero::before {
+            display: none;
+        }
+        
+        .right-column-hero .hero::after {
+            display: none;
         }
         
         /* Enhanced widget styling for sidebar */
         .left-column-widgets .social-widgets-container {
-            padding: 0 !important;
-            margin: 0 !important;
-            background: none !important;
-            backdrop-filter: none !important;
+            padding: 0;
+            margin: 0;
+            background: none;
         }
         
         .left-column-widgets .youtube-widget,
@@ -430,6 +455,7 @@
             padding: 15px;
             backdrop-filter: blur(10px);
             box-shadow: 0 5px 15px rgba(0, 255, 255, 0.1);
+            margin-bottom: 20px; /* Consistent spacing between widgets */
         }
         
         .left-column-widgets .youtube-widget h3,
@@ -443,19 +469,30 @@
         /* Mobile responsiveness for widgets */
         @media (max-width: 768px) {
             /* Two-column responsive adjustments */
+            .hero-background-container {
+                background-attachment: scroll; /* Better mobile performance */
+            }
+            
             .main-layout-container {
                 flex-direction: column;
                 gap: 10px;
+                padding-top: 80px; /* Adjust for mobile navbar */
             }
             
             .left-column-widgets {
                 flex: none;
                 max-width: 100%;
                 order: 2; /* Move widgets below hero on mobile */
+                padding-top: 0;
             }
             
             .right-column-hero {
                 order: 1; /* Hero content first on mobile */
+            }
+            
+            .left-column-widgets .youtube-widget,
+            .left-column-widgets .tiktok-widget {
+                margin-bottom: 15px;
             }
             
             /* Original widget styles */
@@ -751,80 +788,83 @@
     <!-- Dynamic Header -->
     <div id="dynamic-header"></div>
 
-    <!-- Main Layout Container -->
-    <div class="main-layout-container">
-        <!-- Left Column: Social Media Widgets (under logo) -->
-        <div class="left-column-widgets">
-            <div class="social-widgets-container" style="padding: 20px; background: rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); margin: 20px 0;">
-                <div class="youtube-widget" id="youtube-widget" style="margin-bottom: 20px;">
-                    <h3 style="font-size: 1.1rem;">🎬 Latest YouTube</h3>
-                    <div id="popular-videos" class="widget-videos-section">
-                        <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
-                        <div class="youtube-video-item">
-                            <span class="youtube-video-title">Loading popular videos...</span>
-                            <div class="youtube-video-stats">
-                                <span class="youtube-video-views">-</span>
-                                <span class="youtube-video-date">-</span>
+    <!-- Full-width Hero Background Container -->
+    <div class="hero-background-container">
+        <!-- Main Layout Container -->
+        <div class="main-layout-container">
+            <!-- Left Column: Social Media Widgets (under logo) -->
+            <div class="left-column-widgets">
+                <div class="social-widgets-container">
+                    <div class="youtube-widget" id="youtube-widget" style="margin-bottom: 20px;">
+                        <h3 style="font-size: 1.1rem;">🎬 Latest YouTube</h3>
+                        <div id="popular-videos" class="widget-videos-section">
+                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
+                            <div class="youtube-video-item">
+                                <span class="youtube-video-title">Loading popular videos...</span>
+                                <div class="youtube-video-stats">
+                                    <span class="youtube-video-views">-</span>
+                                    <span class="youtube-video-date">-</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="recent-videos" class="widget-videos-section">
+                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
+                            <div class="youtube-video-item">
+                                <span class="youtube-video-title">Loading recent videos...</span>
+                                <div class="youtube-video-stats">
+                                    <span class="youtube-video-views">-</span>
+                                    <span class="youtube-video-date">-</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div id="recent-videos" class="widget-videos-section">
-                        <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
-                        <div class="youtube-video-item">
-                            <span class="youtube-video-title">Loading recent videos...</span>
-                            <div class="youtube-video-stats">
-                                <span class="youtube-video-views">-</span>
-                                <span class="youtube-video-date">-</span>
+                    
+                    <div class="tiktok-widget" id="tiktok-widget">
+                        <h3 style="font-size: 1.1rem;">📱 Latest TikTok</h3>
+                        <div id="popular-tiktoks" class="widget-videos-section">
+                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
+                            <div class="tiktok-video-item">
+                                <span class="tiktok-video-title">Loading popular TikToks...</span>
+                                <div class="tiktok-video-stats">
+                                    <span class="tiktok-video-views">-</span>
+                                    <span class="tiktok-video-date">-</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="tiktok-widget" id="tiktok-widget">
-                    <h3 style="font-size: 1.1rem;">📱 Latest TikTok</h3>
-                    <div id="popular-tiktoks" class="widget-videos-section">
-                        <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
-                        <div class="tiktok-video-item">
-                            <span class="tiktok-video-title">Loading popular TikToks...</span>
-                            <div class="tiktok-video-stats">
-                                <span class="tiktok-video-views">-</span>
-                                <span class="tiktok-video-date">-</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="recent-tiktoks" class="widget-videos-section">
-                        <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
-                        <div class="tiktok-video-item">
-                            <span class="tiktok-video-title">Loading recent TikToks...</span>
-                            <div class="tiktok-video-stats">
-                                <span class="tiktok-video-views">-</span>
-                                <span class="tiktok-video-date">-</span>
+                        <div id="recent-tiktoks" class="widget-videos-section">
+                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
+                            <div class="tiktok-video-item">
+                                <span class="tiktok-video-title">Loading recent TikToks...</span>
+                                <div class="tiktok-video-stats">
+                                    <span class="tiktok-video-views">-</span>
+                                    <span class="tiktok-video-date">-</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Right Column: Hero Section with main content -->
-        <div class="right-column-hero">
-            <!-- Hero Section -->
-            <section class="hero">
-                <div class="hero-content">
-                    <h1>Mystery Quest</h1>
-                    <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
-                    
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
-                                title="Mystery Quest YouTube Investigations" 
-                                frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                referrerpolicy="strict-origin-when-cross-origin" 
-                                allowfullscreen>
-                        </iframe>
+            <!-- Right Column: Hero Section with main content -->
+            <div class="right-column-hero">
+                <!-- Hero Section -->
+                <section class="hero">
+                    <div class="hero-content">
+                        <h1>Mystery Quest</h1>
+                        <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
+                        
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
+                                    title="Mystery Quest YouTube Investigations" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    referrerpolicy="strict-origin-when-cross-origin" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
 
