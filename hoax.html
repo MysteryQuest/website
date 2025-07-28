@@ -341,15 +341,41 @@
                     youtubeSection = `
                         <div class="youtube-section mt-3">
                             <h6><i class="fab fa-youtube text-danger"></i> Related Videos</h6>
-                            <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <div class="row justify-content-center">
                     `;
                     
-                    youtubeVideos.slice(0, 2).forEach(video => {
-                        youtubeSection += `
-                            <a href="${video.url}" target="_blank" class="btn btn-sm btn-outline-light">
-                                <i class="fab fa-youtube"></i> ${video.title.substring(0, 30)}${video.title.length > 30 ? '...' : ''}
-                            </a>
-                        `;
+                    youtubeVideos.slice(0, 1).forEach(video => {
+                        // Extract video ID for embedding
+                        const videoIdMatch = video.url ? video.url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
+                        const videoId = videoIdMatch ? videoIdMatch[1] : null;
+                        
+                        if (videoId) {
+                            youtubeSection += `
+                                <div class="col-md-8 mb-3">
+                                    <div class="ratio ratio-16x9">
+                                        <iframe 
+                                            src="https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1" 
+                                            title="${video.title}"
+                                            frameborder="0" 
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                            allowfullscreen
+                                            loading="lazy">
+                                        </iframe>
+                                    </div>
+                                    <div class="text-center mt-2">
+                                        <small class="text-muted">${video.title}</small>
+                                    </div>
+                                </div>
+                            `;
+                        } else {
+                            youtubeSection += `
+                                <div class="col-md-8 mb-3">
+                                    <a href="${video.url}" target="_blank" class="btn btn-sm btn-outline-light">
+                                        <i class="fab fa-youtube"></i> ${video.title.substring(0, 40)}${video.title.length > 40 ? '...' : ''}
+                                    </a>
+                                </div>
+                            `;
+                        }
                     });
                     
                     youtubeSection += `

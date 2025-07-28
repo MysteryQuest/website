@@ -407,12 +407,17 @@
             padding: 20px;
             min-height: 100vh;
             padding-top: 100px; /* Account for fixed navbar height */
+            padding-left: 20px; /* Consistent left buffer with navbar */
+            padding-right: 20px; /* Consistent right padding */
         }
         
         .left-column-widgets {
             flex: 0 0 320px; /* Fixed width matching logo badge size */
             max-width: 320px;
             padding-top: 20px; /* Spacing from navbar to match spacing between widgets */
+            position: relative;
+            z-index: 1; /* Ensure it stays below navbar */
+            margin-left: 0; /* Align with container padding for consistent left buffer */
         }
         
         .right-column-hero {
@@ -477,6 +482,8 @@
                 flex-direction: column;
                 gap: 10px;
                 padding-top: 80px; /* Adjust for mobile navbar */
+                padding-left: 15px; /* Reduced but consistent buffer */
+                padding-right: 15px;
             }
             
             .left-column-widgets {
@@ -484,6 +491,7 @@
                 max-width: 100%;
                 order: 2; /* Move widgets below hero on mobile */
                 padding-top: 0;
+                margin-left: 0; /* Align with container padding */
             }
             
             .right-column-hero {
@@ -1311,8 +1319,8 @@
 
                 const viewCount = formatViewCount(video.view_count);
                 
-                // Create a detail page URL (anchor link to video section)
-                const detailUrl = `/detail.html#video-${video.id || video.title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}`;
+                // Use the proper detail page URL if available, otherwise create fallback
+                const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.title)}#videos`;
 
                 videoItem.innerHTML = `
                     <img src="${video.thumbnail_url}" alt="${video.title}" class="youtube-video-thumbnail" onerror="this.style.display='none'">
@@ -1355,8 +1363,8 @@
 
                 const viewCount = formatViewCount(video.view_count);
                 
-                // Create a detail page URL (anchor link to video section)
-                const detailUrl = `/detail.html#tiktok-${video.id || video.title.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}`;
+                // Use the proper detail page URL if available, otherwise create fallback
+                const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.title)}#videos`;
 
                 videoItem.innerHTML = `
                     <div class="tiktok-video-thumbnail">📱</div>
@@ -1382,22 +1390,21 @@
         
         function navigateToDetail(detailUrl, videoUrl) {
             try {
-                // Extract video ID from YouTube URL for navigation
+                // Extract video ID from YouTube URL for highlighting
                 const videoIdMatch = videoUrl ? videoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
                 const videoId = videoIdMatch ? videoIdMatch[1] : null;
                 
-                // Enhance detail URL with video parameter and anchor
-                let enhancedDetailUrl = detailUrl;
-                if (videoId) {
+                // If we have a proper detail URL, use it directly with video anchor
+                let finalUrl = detailUrl;
+                if (videoId && !detailUrl.includes('#videos')) {
                     const separator = detailUrl.includes('?') ? '&' : '?';
-                    enhancedDetailUrl = `${detailUrl}${separator}video=${videoId}#videos`;
-                } else {
-                    // If no video ID, just add anchor to videos section
-                    enhancedDetailUrl = `${detailUrl}#videos`;
+                    finalUrl = `${detailUrl}${separator}video=${videoId}#videos`;
+                } else if (!detailUrl.includes('#')) {
+                    finalUrl = `${detailUrl}#videos`;
                 }
                 
-                // Navigate to enhanced detail URL
-                window.location.href = enhancedDetailUrl;
+                // Navigate to the detail page
+                window.location.href = finalUrl;
             } catch (error) {
                 console.error('Error navigating to detail page:', error);
                 // Fallback to direct video URL
