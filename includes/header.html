@@ -1,0 +1,100 @@
+<!-- Shared Navigation Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="/logo.png" alt="Mystery Quest Logo" width="40" height="40" class="me-2">
+            <span class="brand-text">Mystery Quest</span>
+        </a>
+        
+        <!-- Google Translate Element -->
+        <div id="google_translate_element" class="d-none d-lg-block me-3"></div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/" data-page="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/map.html#submitAMystery">Submit a Mystery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/map.html" data-page="map">Mystery Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/directory/" data-page="directory">Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/hoax.html" data-page="hoax">Is it a Hoax?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link youtube-btn" href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style="vertical-align:middle;margin-right:6px;" viewBox="0 0 24 24">
+                            <path fill="#fff" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        YouTube Investigations
+                    </a>
+                </li>
+                <!-- Mobile Google Translate -->
+                <li class="nav-item d-lg-none">
+                    <div id="google_translate_element_mobile" class="mt-2"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<style>
+.navbar-brand .brand-text {
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    color: #00ffff !important;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.youtube-btn {
+    background: #ff0000 !important;
+    color: #fff !important;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 8px 16px !important;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(255,0,0,0.10);
+    border: none !important;
+}
+
+.youtube-btn:hover, .youtube-btn:focus {
+    background: #cc0000 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px rgba(255,0,0,0.18);
+}
+
+#google_translate_element, #google_translate_element_mobile {
+    margin-right: 10px;
+}
+
+.nav-link.active {
+    color: #00ffff !important;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .youtube-btn {
+        margin-left: 0;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    
+    #google_translate_element_mobile {
+        margin-right: 0;
+        margin-top: 5px !important;
+    }
+}
+</style>
