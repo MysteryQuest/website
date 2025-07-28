@@ -1,2 +1,28 @@
 User-agent: *
 Allow: /
+
+# Primary Sitemap
+Sitemap: https://mystiqst.com/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Allow important directories
+Allow: /directory/
+Allow: /images/
+Allow: /styles.css
+Allow: /map.html
+
+# Block unnecessary paths
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /*.json$
+Disallow: /*?*
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
