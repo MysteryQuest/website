@@ -1,7 +1,7 @@
 {
   "location_name": "Avenida de Gran Breta\u00f1a, El Carrascal",
   "category": "ufo",
-  "timestamp": "20250728_164229",
+  "timestamp": "20250728_194543",
   "businesses": [
     {
       "name": "De Vine",
@@ -10,8 +10,8 @@
       "types": [
         "cafe",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ-407j0sDdkgR6p-qL3dUD4I",
@@ -26,52 +26,12 @@
           "lng": -0.07562819999999999
         }
       },
-      "enhanced_description": "De Vine is a unique business in the heart of London's financial district, located under the railway bridge at 19 Vine Street. This 15th-century building has been transformed into a trendy cafe and restaurant serving specialty coffee drinks, artisanal sandwiches, and small plates.",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: De Vine (Types: cafe, restaurant, point_of_interest) Located at 19 Vine st next, under railway bridge, to, 2 America Square, London EC3N 2PX, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "London's financial district",
-        "trendy cafe",
-        "artisanal food"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.2,
-      "credibility_notes": "While this information is based on publicly available sources, further investigation would be needed to confirm these details."
-    },
-    {
-      "name": "The English Grill",
-      "address": "39 Buckingham Palace Rd, London SW1W 0PS, UK",
-      "rating": 4.9,
-      "types": [
-        "fine_dining_restaurant",
-        "steak_house",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJRUu52yAFdkgRT8l9ZN4Cs6M",
-      "keyword": "restaurants food dining",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 924,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.498245,
-          "lng": -0.1434644
-        }
-      },
-      "enhanced_description": "The English Grill: A Fine Dining Experience in the Heart of London",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "The English Grill",
-        "fine dining",
-        "London",
-        "Buckingham Palace Rd"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While there is no concrete evidence to support unexplained claims, the report's focus on verifiable details and witnesses' accounts lends credibility to its narrative."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hotel Grande Bretagne, a Luxury Collection Hotel",
@@ -86,7 +46,7 @@
       "place_id": "ChIJgSMyRUu9oRQRS9UFR1xmJrE",
       "keyword": "hotels accommodation lodging",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 6254,
+      "user_ratings_total": 6255,
       "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -107,16 +67,16 @@
       "address": "London EC3N 4AB, UK",
       "rating": 4.7,
       "types": [
-        "tourist_attraction",
         "landmark",
         "historical_place",
+        "tourist_attraction",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ3TgfM0kDdkgRZ2TV4d1Jv6g",
       "keyword": "things to do attractions tours",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 113687,
+      "user_ratings_total": 113689,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -125,7 +85,7 @@
           "lng": -0.0759493
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Tower of London (Types: tourist_attraction, landmark, historical_place) Located at London EC3N 4AB, UK",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Tower of London (Types: landmark, historical_place, tourist_attraction) Located at London EC3N 4AB, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -163,42 +123,13 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Hyde Park",
-      "address": "London, UK",
-      "rating": 4.7,
-      "types": [
-        "park",
-        "tourist_attraction",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJhRoYKUkFdkgRDL20SU9sr9E",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 136323,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.5073638,
-          "lng": -0.1641135
-        }
-      },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Hyde Park (Types: park, tourist_attraction, point_of_interest) Located at London, UK",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Queen Victoria Memorial",
       "address": "London SW1A 1AA, UK",
       "rating": 4.7,
       "types": [
         "historical_landmark",
-        "monument",
         "tourist_attraction",
+        "monument",
         "historical_place",
         "point_of_interest",
         "establishment"
@@ -206,7 +137,7 @@
       "place_id": "ChIJqXoOftgEdkgRKsU7sw2WX3E",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 3803,
+      "user_ratings_total": 3804,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -215,7 +146,7 @@
           "lng": -0.14062249999999998
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Queen Victoria Memorial (Types: historical_landmark, monument, tourist_attraction) Located at London SW1A 1AA, UK",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Queen Victoria Memorial (Types: historical_landmark, tourist_attraction, monument) Located at London SW1A 1AA, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -243,16 +174,12 @@
           "lng": -3.188021
         }
       },
-      "enhanced_description": "A local business report sheds light on the Royal Mile, a popular tourist attraction in Edinburgh, Scotland. Located at Avenida de Gran Breta (Inside, Avenida de Gran Breta), this establishment appears to be a point of interest and type of tourist attraction.",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Royal Mile (Types: tourist_attraction, point_of_interest, establishment) Located at Edinburgh EH1 1QS, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Royal Mile",
-        "Edinburgh tourism",
-        "Avenida de Gran Breta"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While the report provides factual information about this business, it is essential to consider potential sources of bias and limited evidence. Without further investigation or verification, some details remain unexplained."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The British Museum",
@@ -267,7 +194,7 @@
       "place_id": "ChIJB9OTMDIbdkgRp0JWbQGZsS8",
       "keyword": "museums",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 165832,
+      "user_ratings_total": 165833,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -295,7 +222,7 @@
       "place_id": "ChIJFdmwIfas2YgR-_QNr2_AO_c",
       "keyword": "shopping retail stores",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 42169,
+      "user_ratings_total": 42171,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -304,12 +231,16 @@
           "lng": -80.1427391
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Aventura Mall (Types: shopping_mall, point_of_interest, establishment) Located at 19501 Biscayne Blvd, Aventura, FL 33180, USA",
-      "tourism_category": "mystery",
+      "enhanced_description": "Aventura Mall, a popular shopping destination in Aventura, Florida, is the subject of local speculation. According to eyewitnesses, the mall's interior has undergone significant changes since its renovation. Witnesses report seeing eerie, unexplained markings and symbols etched into walls and floors, sparking concerns about the source of these anomalies.",
+      "tourism_category": "historical",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Aventura Mall",
+        "mystery",
+        "shopping destination"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While eyewitness accounts are intriguing, they lack concrete evidence to support claims. Further investigation is necessary to verify these reports."
     },
     {
       "name": "Big Ben",
@@ -324,7 +255,7 @@
       "place_id": "ChIJ2dGMjMMEdkgRqVqkuXQkj7c",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 84515,
+      "user_ratings_total": 84520,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -334,37 +265,6 @@
         }
       },
       "enhanced_description": "Business in Inside, Avenida de Gran Breta: Big Ben (Types: cultural_landmark, tourist_attraction, point_of_interest) Located at London SW1A 0AA, UK",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Bloedel Conservatory",
-      "address": "4600 Cambie St., Vancouver, BC V5Y 2M4, Canada",
-      "rating": 4.6,
-      "types": [
-        "botanical_garden",
-        "tourist_attraction",
-        "wildlife_refuge",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJnwmhxIpzhlQRr3heOBl69fg",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 8006,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 49.2420477,
-          "lng": -123.11379869999999
-        }
-      },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Bloedel Conservatory (Types: botanical_garden, tourist_attraction, wildlife_refuge) Located at 4600 Cambie St. , Vancouver, BC V5Y 2M4, Canada",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -417,7 +317,7 @@
       "place_id": "ChIJj3idcsfnc0gRMMrgQkB830Y",
       "keyword": "museums visitor centers",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 26238,
+      "user_ratings_total": 26240,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -465,6 +365,35 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
+      "name": "lastminute.com London Eye",
+      "address": "Riverside Building, County Hall, London SE1 7PB, UK",
+      "rating": 4.5,
+      "types": [
+        "ferris_wheel",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc2nSALkEdkgRkuoJJBfzkUI",
+      "keyword": "things to do",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 190167,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.5031864,
+          "lng": -0.11951919999999999
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: lastminute. com London Eye (Types: ferris_wheel, tourist_attraction, point_of_interest) Located at Riverside Building, County Hall, London SE1 7PB, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
       "name": "Buckingham Palace",
       "address": "London SW1A 1AA, UK",
       "rating": 4.5,
@@ -479,7 +408,7 @@
       "place_id": "ChIJtV5bzSAFdkgRpwLZFPWrJgo",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 183648,
+      "user_ratings_total": 183650,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -496,51 +425,22 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Madame Tussauds London",
-      "address": "Marylebone Rd, London NW1 5LR, UK",
-      "rating": 4.4,
-      "types": [
-        "tourist_attraction",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJgZ24Us4adkgRpDNAwNPO_SY",
-      "keyword": "things to do",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 80093,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.5230174,
-          "lng": -0.1543613
-        }
-      },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Madame Tussauds London (Types: tourist_attraction, museum, point_of_interest) Located at Marylebone Rd, London NW1 5LR, UK",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Bonanza Gift Shop",
       "address": "2400 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
       "rating": 4.1,
       "types": [
         "gift_shop",
-        "jewelry_store",
         "liquor_store",
+        "jewelry_store",
         "clothing_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJczbU8HbEyIARpUpFTXIdAmA",
       "keyword": "gift shops souvenirs",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 10116,
+      "user_ratings_total": 10117,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -549,7 +449,7 @@
           "lng": -115.15732169999998
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Bonanza Gift Shop (Types: gift_shop, jewelry_store, liquor_store) Located at 2400 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Bonanza Gift Shop (Types: gift_shop, liquor_store, jewelry_store) Located at 2400 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -557,48 +457,13 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "The Clink Restaurant Brixton",
-      "address": "HMP Brixton, Jebb Ave, Brixton Hill, London SW2 5XF, UK",
-      "rating": 4.8,
-      "types": [
-        "breakfast_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJw557YUcEdkgR7ANv_I8AvE4",
-      "keyword": "restaurants food dining",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 422,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.4519672,
-          "lng": -0.12563159999999998
-        }
-      },
-      "enhanced_description": "The Clink Restaurant Brixton: A Local Eatery with a Rich History, but Questions Remain Unanswered",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "The Clink Restaurant Brixton",
-        "Brixton Hill",
-        "London",
-        "HMP Brixton"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "This report is based on publicly available information and may not be exhaustive. Further investigation is recommended to verify the accuracy of the claims made."
-    },
-    {
       "name": "Canada Gate",
       "address": "S Carriage Dr, London W1J 7NT, UK",
       "rating": 4.7,
       "types": [
         "historical_landmark",
-        "landmark",
         "tourist_attraction",
+        "landmark",
         "historical_place",
         "point_of_interest",
         "establishment"
@@ -606,7 +471,7 @@
       "place_id": "ChIJ5UDXdTAFdkgR5zUZFsQnBoI",
       "keyword": "things to do",
       "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 426,
+      "user_ratings_total": 428,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -615,7 +480,7 @@
           "lng": -0.14130779999999998
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Canada Gate (Types: historical_landmark, landmark, tourist_attraction) Located at S Carriage Dr, London W1J 7NT, UK",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Canada Gate (Types: historical_landmark, tourist_attraction, landmark) Located at S Carriage Dr, London W1J 7NT, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -629,8 +494,8 @@
       "types": [
         "restaurant",
         "barbecue_restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ_048E5ViPwwR7iAUnFJ1Tyo",
@@ -645,39 +510,11 @@
           "lng": -15.570362599999997
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Restaurante grill El Gaucho Playa del Ingl\u00e9s (Types: restaurant, barbecue_restaurant, point_of_interest) Located at Av. de Tenerife, s/n, Centro Comercial Ka...",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Restaurante grill El Gaucho Playa del Ingl\u00e9s (Types: restaurant, barbecue_restaurant, food) Located at Av. de Tenerife, s/n, Centro Comercial Kasbah, 35100 M...",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Enterprise Alquiler de Coches y Furgonetas - Madrid Est. Atocha Ave",
-      "address": "Estacion, Carlos V, Pl. del Emperador Carlos V, S N, Retiro, 28045 Madrid, Spain",
-      "rating": 3.2,
-      "types": [
-        "car_rental",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJm4vWkHsnQg0R__4suHpUvo0",
-      "keyword": "car rental transportation",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 772,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.405592999999996,
-          "lng": -3.6872808
-        }
-      },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Enterprise Alquiler de Coches y Furgonetas - Madrid Est. Atocha Ave (Types: car_rental, point_of_interest, establishment) Located at Estacion, Carlos V, Pl. ...",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.0,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -710,44 +547,13 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "The Liberty, Inc",
-      "address": "312 N Virginia Ave, Roswell, NM 88201, USA",
-      "rating": 4.6,
-      "types": [
-        "performing_arts_theater",
-        "event_venue",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJh7asUNhu4oYRcT0IZFFoqtI",
-      "keyword": "businesses",
-      "location": "Inside",
-      "user_ratings_total": 296,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.3960108,
-          "lng": -104.52144240000001
-        }
-      },
-      "enhanced_description": "Business in Inside: The Liberty, Inc (Types: performing_arts_theater, event_venue, restaurant) Located at 312 N Virginia Ave, Roswell, NM 88201, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Souvenirs barcelona",
       "address": "Av. de Gaud\u00ed, 40, L'Eixample, 08025 Barcelona, Spain",
       "rating": 4.8,
       "types": [
         "shopping_mall",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJAcT1-vijpBIRXwU9mDlzCtk",
@@ -762,7 +568,7 @@
           "lng": 2.1746336
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Souvenirs barcelona (Types: shopping_mall, store, point_of_interest) Located at Av. de Gaud\u00ed, 40, L'Eixample, 08025 Barcelona, Spain",
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Souvenirs barcelona (Types: shopping_mall, point_of_interest, store) Located at Av. de Gaud\u00ed, 40, L'Eixample, 08025 Barcelona, Spain",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -790,78 +596,12 @@
           "lng": -104.4800662
         }
       },
-      "enhanced_description": "A local Roswell, NM business reported a mysterious incident at Leprino Foods Company. The company's employee recalled an unusual experience involving an unexplained presence and equipment malfunction.",
-      "tourism_category": "historical",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Leprino Foods Company",
-        "Roswell",
-        "mystery"
-      ],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "The source provided some details but seemed to be sketchy, requiring further investigation. Witnesses report hearing strange noises and feeling a sense of unease while working nearby."
-    },
-    {
-      "name": "Avenida Restaurant",
-      "address": "83-85 Bellegrove Rd, Welling DA16 3PG, UK",
-      "rating": 4.3,
-      "types": [
-        "mediterranean_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJkQTqMtCu2EcRwuBqNRrmmXM",
-      "keyword": "restaurants food dining",
-      "location": "Inside, Avenida de Gran Breta",
-      "user_ratings_total": 198,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 51.463169699999995,
-          "lng": 0.10270399999999999
-        }
-      },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Avenida Restaurant (Types: mediterranean_restaurant, restaurant, food) Located at 83-85 Bellegrove Rd, Welling DA16 3PG, UK",
+      "enhanced_description": "Business in Inside: Leprino Foods Company (Types: food, point_of_interest, establishment) Located at 5600 Omaha Rd, Roswell, NM 88203, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Income Support Services",
-      "address": "1701 S Sunset Ave, Roswell, NM 88203, USA",
-      "rating": 3.8,
-      "types": [
-        "insurance_agency",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ2Y30OTZp4oYRDN3p5t8VnAo",
-      "keyword": "businesses",
-      "location": "Inside",
-      "user_ratings_total": 211,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 33.371490699999995,
-          "lng": -104.5406333
-        }
-      },
-      "enhanced_description": "A local business report sheds light on a Roswell, NM establishment offering Income Support Services. The business is located at 1701 S Sunset Ave, and according to the account, it provides various types of services for individuals in need. However, some witnesses have reported concerns about the legitimacy of these services, citing unexplained elements such as unusual payment methods and discrepancies in service records. Despite these issues, the establishment remains open for business. Further investigation is necessary to verify the accuracy of this report.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Income Support Services",
-        "Roswell NM",
-        "Local Business Report"
-      ],
       "mystery_relevance": 0.0,
-      "credibility_notes": "The reliability of this source has not been fully assessed due to limited information and lack of concrete evidence. The investigation into this matter is ongoing, but preliminary findings suggest that further research is required to substantiate the claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cool Britannia",
@@ -869,8 +609,8 @@
       "rating": 4.4,
       "types": [
         "gift_shop",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJe1g0sM8EdkgRv78RN8Rji2Q",
@@ -885,12 +625,17 @@
           "lng": -0.1433546
         }
       },
-      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Cool Britannia (Types: gift_shop, store, point_of_interest) Located at 25-27 Buckingham Palace Rd, London SW1W 0PP, UK",
+      "enhanced_description": "Cool Britannia: A Mysterious Business in London's Buckingham Palace Area, Raises Questions About a Local Gift Shop and Point of Interest.",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Cool Britannia",
+        "Buckingham Palace",
+        "gift shop",
+        "point of interest"
+      ],
       "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While the business appears legitimate, some aspects of its existence remain unclear without further investigation."
     },
     {
       "name": "OfficeMax",
@@ -925,6 +670,244 @@
       "tourism_keywords": [],
       "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "GB Gifts and Souvenirs - Tower Hill",
+      "address": "Byward St, London EC3R 5AS, UK",
+      "rating": 4.7,
+      "types": [
+        "storage",
+        "finance",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJo9syaMUDdkgRkxXgwNq_X74",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 83,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 51.5097321,
+          "lng": -0.08003829999999999
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: GB Gifts and Souvenirs - Tower Hill (Types: storage, finance, point_of_interest) Located at Byward St, London EC3R 5AS, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The International Business Accelerator [IBA]",
+      "address": "1300 Country Club Rd Suite A, Santa Teresa, NM 88008, USA",
+      "rating": 5,
+      "types": [
+        "finance",
+        "consultant",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJe5df5sf73YYR6ouPG6JKSTM",
+      "keyword": "businesses",
+      "location": "Inside",
+      "user_ratings_total": 4,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.846414799999998,
+          "lng": -106.6258144
+        }
+      },
+      "enhanced_description": "Business in Inside: The International Business Accelerator [IBA] (Types: finance, consultant, point_of_interest) Located at 1300 Country Club Rd Suite A, Santa Teresa, NM 88008, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Dobra Souvenirs",
+      "address": "C. de la Montera, 2, Centro, 28013 Madrid, Spain",
+      "rating": 4.7,
+      "types": [
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJNc5bHH4oQg0RwTft2JMs968",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 31,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.417201899999995,
+          "lng": -3.7029682999999998
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Dobra Souvenirs (Types: gift_shop, point_of_interest, store) Located at C. de la Montera, 2, Centro, 28013 Madrid, Spain",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "SMILE Originals - Gift Shop & Souvenirs",
+      "address": "Carrer de la Portaferrissa, 11, Ciutat Vella, 08002 Barcelona, Spain",
+      "rating": 4.2,
+      "types": [
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ06IbQ1qjpBIRja4bLtG9np0",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 33,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.383496799999996,
+          "lng": 2.1726429000000005
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: SMILE Originals - Gift Shop & Souvenirs (Types: gift_shop, point_of_interest, store) Located at Carrer de la Portaferrissa, 11, Ciutat Vella, 08002 Barcelona...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Grand Prairie Parks, Arts & Recreation",
+      "address": "400 College St, Grand Prairie, TX 75050, USA",
+      "rating": 4.2,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs9C4hH-GToYRc5DVuXfRIc8",
+      "keyword": "parks recreation outdoor",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 5,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7481001,
+          "lng": -97.00827679999999
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Grand Prairie Parks, Arts & Recreation (Types: point_of_interest, establishment) Located at 400 College St, Grand Prairie, TX 75050, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Getty Food Mart",
+      "address": "1000 Manor St, Lancaster, PA 17603, USA",
+      "rating": 3.8,
+      "types": [
+        "convenience_store",
+        "food_store",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJQ0u9UlEkxokRo3gaocJp9qk",
+      "keyword": "gas stations convenience stores",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 39,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.0290999,
+          "lng": -76.323093
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Getty Food Mart (Types: convenience_store, food_store, point_of_interest) Located at 1000 Manor St, Lancaster, PA 17603, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Madrid Souvenirs Gift",
+      "address": "C. del Arenal, 3, Centro, 28013 Madrid, Spain",
+      "rating": 3.9,
+      "types": [
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJM2NGZn4oQg0RZbPV9v4toq0",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 11,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.416739799999995,
+          "lng": -3.7050547
+        }
+      },
+      "enhanced_description": "Business in Inside, Avenida de Gran Breta: Madrid Souvenirs Gift (Types: gift_shop, point_of_interest, store) Located at C. del Arenal, 3, Centro, 28013 Madrid, Spain",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Dada Gifts",
+      "address": "Gran Via de les Corts Catalanes, 392, L'Eixample, 08015 Barcelona, Spain",
+      "rating": 3.4,
+      "types": [
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJd_6K7nOjpBIRT6_KkpzmJY0",
+      "keyword": "gift shops souvenirs",
+      "location": "Inside, Avenida de Gran Breta",
+      "user_ratings_total": 15,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.376034399999995,
+          "lng": 2.1510659
+        }
+      },
+      "enhanced_description": "Dada Gifts: A Mysterious Local Business in Barcelona's Historic Neighborhoods",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "mystery",
+        "local business",
+        "gift shop",
+        "point of interest"
+      ],
+      "mystery_relevance": 0.5,
+      "credibility_notes": "While there is limited information available about Dada Gifts, it is essential to note that witness testimony and physical evidence should be approached with caution when evaluating unexplained claims."
     }
   ],
   "events": [
@@ -936,19 +919,36 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Avenida de Gran Breta\u00f1a, El Carrascal. Explore the mysterious Avenida de Gran Breta\u00f1a, El Carrascal, where alleged UFO sightings have been reported. Visit De V",
-    "title": "Ufo Mysteries in Avenida de Gran Breta\u00f1a, El Carrascal - Tours & Services",
-    "description": "Explore the mysterious Avenida de Gran Breta\u00f1a, El Carrascal, where alleged UFO sightings have been reported. Visit De Vine, The English Grill, Hotel Grande Bretagne, and Tower of London to uncover the secrets behind this enigmatic location.",
+    "meta_description": "Discover ufo sightings in Avenida de Gran Breta\u00f1a, El Carrascal. 1 documented events, 30 local services and attractions.",
+    "title": "UFO Sightings in Avenida de Gran Breta\u00f1a, El Carrascal - Tours, Investigators & Services",
+    "description": "Explore ufo sightings in Avenida de Gran Breta\u00f1a, El Carrascal. Notable events include \u2018Space Ice\u2019 Experiments Pour Cold Water on Panspermia Origin of Life Theories. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "ufo tours",
-      "alien encounters",
-      "space museums"
+      "ufo Avenida de Gran Breta\u00f1a, El Carrascal",
+      "ufo sightings Avenida de Gran Breta\u00f1a, El Carrascal",
+      "ufo tours Avenida de Gran Breta\u00f1a, El Carrascal",
+      "mystery Avenida de Gran Breta\u00f1a, El Carrascal",
+      "unexplained Avenida de Gran Breta\u00f1a, El Carrascal"
+    ],
+    "services": [
+      "things to do",
+      "gift shops souvenirs",
+      "parks recreation outdoor",
+      "businesses",
+      "hotels accommodation lodging",
+      "camping rv parks",
+      "museums visitor centers",
+      "restaurants food dining",
+      "shopping retail stores",
+      "things to do attractions tours",
+      "museums",
+      "restaurants",
+      "gas stations convenience stores"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-28T16:42:30.133482"
+    "last_updated": "2025-07-28T19:45:43.003971"
   }
 }

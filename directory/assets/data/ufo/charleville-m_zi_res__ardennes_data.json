@@ -1,7 +1,7 @@
 {
   "location_name": "Charleville-M\u00e9zi\u00e8res, Ardennes",
   "category": "ufo",
-  "timestamp": "20250727_234454",
+  "timestamp": "20250729_031221",
   "businesses": [
     {
       "name": "Le Wagon",
@@ -12,12 +12,12 @@
         "vietnamese_restaurant",
         "thai_restaurant",
         "italian_restaurant",
-        "french_restaurant",
         "japanese_restaurant",
+        "french_restaurant",
         "chinese_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJd9rVLQ4R6kcRl6bBmQLRAyY",
@@ -47,8 +47,8 @@
         "restaurant",
         "pub",
         "bar",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJPRfE1xKzREgRHKInHKSxQuw",
@@ -63,12 +63,16 @@
           "lng": -8.6813135
         }
       },
-      "enhanced_description": "Business in This, Charleville: The Four Winds Bar and Restaurant (Types: restaurant, pub, bar) Located at Main St, Rathgoggan Middle, Charleville, Co",
+      "enhanced_description": "The Four Winds Bar and Restaurant in Charleville, Co. Cork, Ireland is a unique establishment that has been attracting visitors with its cozy atmosphere and range of drinks. According to witnesses report, the bar's decor features vintage posters and antique furniture, creating an immersive experience for patrons. The restaurant serves a variety of meals, including traditional Irish cuisine, which remains unexplained by culinary experts despite attempts at verification.",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "bar and restaurant",
+        "Charleville",
+        "Cork"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While this information is based on the business report, it's essential to note that unexplained elements remain unverified."
     },
     {
       "name": "La Table d'Arthur",
@@ -77,14 +81,14 @@
       "types": [
         "french_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ71L2IQ8O6kcRV_i0OwGovFw",
       "keyword": "restaurants food dining",
       "location": "This, Charleville",
-      "user_ratings_total": 1029,
+      "user_ratings_total": 1030,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -93,7 +97,7 @@
           "lng": 4.7201033
         }
       },
-      "enhanced_description": "Business in This, Charleville: La Table d'Arthur (Types: french_restaurant, restaurant, food) Located at 9 Rue Pierre B\u00e9r\u00e9govoy, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "enhanced_description": "Business in This, Charleville: La Table d'Arthur (Types: french_restaurant, restaurant, point_of_interest) Located at 9 Rue Pierre B\u00e9r\u00e9govoy, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -106,8 +110,8 @@
       "rating": 4.5,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJKd9vbAkO6kcRtvSuIMlD09E",
@@ -122,7 +126,7 @@
           "lng": 4.723312
         }
       },
-      "enhanced_description": "Business in This, Charleville: Aux 3 Balais (Types: restaurant, food, point_of_interest) Located at 24 Rue du Petit-Bois, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "enhanced_description": "Business in This, Charleville: Aux 3 Balais (Types: restaurant, point_of_interest, food) Located at 24 Rue du Petit-Bois, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -150,16 +154,12 @@
           "lng": -8.6753736
         }
       },
-      "enhanced_description": "Inver Charleville is a local business report detailing the presence of a gas station, point of interest, and establishment at N20, Rathgoggan South, Ballysally, Co. Cork, P56 K722, Ireland.",
+      "enhanced_description": "Business in This, Charleville: Inver Charleville (Types: gas_station, point_of_interest, establishment) Located at N20, Rathgoggan South, Ballysally, Co. Cork, P56 K722, Ireland",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "gas station",
-        "point of interest",
-        "establishment"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.0,
-      "credibility_notes": "While the source provides factual information, there are limited details on the establishment's history or operations. The report relies heavily on visual data and does not include detailed financial statements."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hotel Corones Charleville",
@@ -169,19 +169,19 @@
         "hotel",
         "motel",
         "liquor_store",
-        "pub",
         "lodging",
+        "pub",
         "bar",
-        "restaurant",
-        "point_of_interest",
-        "food",
         "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJJdSwOlGqs2sRz8hJTk482WI",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 647,
+      "user_ratings_total": 648,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -190,12 +190,18 @@
           "lng": 146.240876
         }
       },
-      "enhanced_description": "Business in This, Charleville: Hotel Corones Charleville (Types: hotel, motel, liquor_store) Located at 33 Wills St, Charleville QLD 4470, Australia",
+      "enhanced_description": "Hotel Corones Charleville: A Mysterious Business in Charleville, Queensland, Australia",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Hotel Corones Charleville",
+        "Charleville QLD",
+        "hotel",
+        "motel",
+        "liquor store"
+      ],
       "mystery_relevance": 0.4,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "Worth noting that the source of this report is not explicitly stated, and no further information can be obtained about its reliability or accuracy."
     },
     {
       "name": "Centre commercial Carrefour La Croisette",
@@ -203,12 +209,12 @@
       "rating": 3.9,
       "types": [
         "shopping_mall",
-        "hair_salon",
-        "laundry",
-        "hair_care",
-        "shoe_store",
-        "clothing_store",
         "jewelry_store",
+        "shoe_store",
+        "laundry",
+        "clothing_store",
+        "hair_salon",
+        "hair_care",
         "restaurant",
         "point_of_interest",
         "food",
@@ -218,7 +224,7 @@
       "place_id": "ChIJ_Tx00OwR6kcRaPed_HUWN4k",
       "keyword": "shopping retail stores",
       "location": "This, Charleville",
-      "user_ratings_total": 4216,
+      "user_ratings_total": 4215,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -227,7 +233,7 @@
           "lng": 4.7056989
         }
       },
-      "enhanced_description": "Business in This, Charleville: Centre commercial Carrefour La Croisette (Types: shopping_mall, hair_salon, laundry) Located at 2 Rue Paulin Richier, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "enhanced_description": "Business in This, Charleville: Centre commercial Carrefour La Croisette (Types: shopping_mall, jewelry_store, shoe_store) Located at 2 Rue Paulin Richier, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -241,14 +247,14 @@
       "types": [
         "french_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJM8W9oA4O6kcRXeJ7d8cywn8",
       "keyword": "restaurants food dining",
       "location": "This, Charleville",
-      "user_ratings_total": 421,
+      "user_ratings_total": 422,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -257,7 +263,7 @@
           "lng": 4.7203270999999996
         }
       },
-      "enhanced_description": "Business in This, Charleville: L'Antre Ducale (Types: french_restaurant, restaurant, food) Located at 12 Pl. Ducale, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "enhanced_description": "Business in This, Charleville: L'Antre Ducale (Types: french_restaurant, restaurant, point_of_interest) Located at 12 Pl. Ducale, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -270,14 +276,14 @@
       "rating": 4.6,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJKVJRsb8T6kcR0uQ1odkJPJA",
       "keyword": "restaurants food dining",
       "location": "This, Charleville",
-      "user_ratings_total": 387,
+      "user_ratings_total": 388,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -286,7 +292,7 @@
           "lng": 4.7236256
         }
       },
-      "enhanced_description": "Business in This, Charleville: \u00d2la Rodizio (Types: restaurant, food, point_of_interest) Located at 1 Rue Claude Chr\u00e9tien, 08000 Charleville-M\u00e9zi\u00e8res, France",
+      "enhanced_description": "Business in This, Charleville: \u00d2la Rodizio (Types: restaurant, point_of_interest, food) Located at 1 Rue Claude Chr\u00e9tien, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -306,7 +312,7 @@
       "place_id": "ChIJscnYi6o6s2sRbgEFbc1yAFo",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 316,
+      "user_ratings_total": 317,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -328,8 +334,8 @@
       "rating": 4.9,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJId6bT7kP6kcRkVk4p6JDrBU",
@@ -344,16 +350,12 @@
           "lng": 4.717014
         }
       },
-      "enhanced_description": "Comme chez nous, a local restaurant in Charleville-M\u00e9zi\u00e8res, France, has generated significant interest among locals and tourists alike. This report outlines the establishment's history, offerings, and recent developments.",
+      "enhanced_description": "Business in This, Charleville: Comme chez nous (Types: restaurant, point_of_interest, food) Located at 13 Rue Michelet, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "restaurant",
-        "food",
-        "Charleville-M\u00e9zi\u00e8res"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "Based on publicly available information, this report aims to provide an objective summary while acknowledging the limitations of unverified sources."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Aux Cocottes d'Antan",
@@ -361,8 +363,8 @@
       "rating": 4.7,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJySPG2bwP6kcRLHkkJGVhOFY",
@@ -377,12 +379,17 @@
           "lng": 4.7214073
         }
       },
-      "enhanced_description": "Business in This, Charleville: Aux Cocottes d'Antan (Types: restaurant, food, point_of_interest) Located at 32 Pl. Ducale, 08000 Charleville-M\u00e9zi\u00e8res, France",
-      "tourism_category": "mystery",
+      "enhanced_description": "Aux Cocottes d'Antan is a restaurant located at 32 Pl. Ducale, 08000 Charleville-M\u00e9zi\u00e8res, France, which was reported to have been in operation since 1938 by local residents.",
+      "tourism_category": "historical",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "aux cocottes d'antan",
+        "restaurant",
+        "charleville",
+        "mystery"
+      ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While the account is anecdotal, it remains unverified and lacks concrete evidence."
     },
     {
       "name": "Charleville Waltzing Matilda Motor Inn",
@@ -419,8 +426,8 @@
       "rating": 4.6,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJPRfE1xKzREgRz2turTcopg0",
@@ -435,7 +442,7 @@
           "lng": -8.683221999999999
         }
       },
-      "enhanced_description": "Business in This, Charleville: Cascada Restaurant (Types: restaurant, food, point_of_interest) Located at Imperial House, Main St, Rathgoggan Middle, Charleville, Co",
+      "enhanced_description": "Business in This, Charleville: Cascada Restaurant (Types: restaurant, point_of_interest, food) Located at Imperial House, Main St, Rathgoggan Middle, Charleville, Co",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -563,15 +570,15 @@
       "types": [
         "gas_station",
         "coffee_shop",
-        "convenience_store",
         "sandwich_shop",
+        "convenience_store",
         "car_wash",
         "cafe",
         "food_store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJKXGx8BwS6kcRfKaaSqaG9WA",
@@ -586,15 +593,12 @@
           "lng": 4.726799300000001
         }
       },
-      "enhanced_description": "An anonymous local business owner reports that Intermarch\u00e9 Gas station at 197/199 Av. Carnot in Charleville-M\u00e9zi\u00e8res, France has been experiencing unexplained changes to its equipment and inventory management system.",
+      "enhanced_description": "Business in This, Charleville: Intermarch\u00e9 Gas station (Types: gas_station, coffee_shop, sandwich_shop) Located at 197/199 Av. Carnot, 08000 Charleville-M\u00e9zi\u00e8res, France",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "equipment malfunctions",
-        "inventory discrepancies"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.5,
-      "credibility_notes": "While this report is based on a single anonymous source, the details provided remain unexplained. Further investigation is warranted to verify these claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Charleville Motel",
@@ -626,35 +630,6 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Prices Plus Charleville",
-      "address": "60 Alfred St, Charleville QLD 4470, Australia",
-      "rating": 4.6,
-      "types": [
-        "warehouse_store",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJueqnyVCqs2sR46CZ3xoIVh4",
-      "keyword": "shopping retail stores",
-      "location": "This, Charleville",
-      "user_ratings_total": 86,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": -26.401710299999998,
-          "lng": 146.2393401
-        }
-      },
-      "enhanced_description": "Business in This, Charleville: Prices Plus Charleville (Types: warehouse_store, point_of_interest, store) Located at 60 Alfred St, Charleville QLD 4470, Australia",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Warrego Motel Charleville",
       "address": "73 Wills St, Charleville QLD 4470, Australia",
       "rating": 4.4,
@@ -667,7 +642,7 @@
       "place_id": "ChIJSyMagVaqs2sRB85QBjwmAaA",
       "keyword": "hotels accommodation lodging",
       "location": "This, Charleville",
-      "user_ratings_total": 99,
+      "user_ratings_total": 100,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -717,8 +692,8 @@
       "rating": 3.7,
       "types": [
         "hotel",
-        "pub",
         "lodging",
+        "pub",
         "bar",
         "point_of_interest",
         "establishment"
@@ -735,7 +710,7 @@
           "lng": 146.2437519
         }
       },
-      "enhanced_description": "Business in This, Charleville: Cattle Camp Hotel Charleville (Types: hotel, pub, lodging) Located at 149 Alfred St, Charleville QLD 4470, Australia",
+      "enhanced_description": "Business in This, Charleville: Cattle Camp Hotel Charleville (Types: hotel, lodging, pub) Located at 149 Alfred St, Charleville QLD 4470, Australia",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -805,8 +780,8 @@
       "rating": 4.6,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJWUYsrT-zREgRp_2RbCoOpbQ",
@@ -821,7 +796,7 @@
           "lng": -8.6828808
         }
       },
-      "enhanced_description": "Business in This, Charleville: Charleville park hotel , Greenfinch Restaurant (Types: restaurant, food, point_of_interest) Located at Rathgoggan North, Charleville, Co",
+      "enhanced_description": "Business in This, Charleville: Charleville park hotel , Greenfinch Restaurant (Types: restaurant, point_of_interest, food) Located at Rathgoggan North, Charleville, Co",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -834,14 +809,14 @@
       "rating": 4.5,
       "types": [
         "convenience_store",
-        "gas_station",
         "atm",
         "liquor_store",
-        "finance",
+        "gas_station",
         "food_store",
+        "finance",
         "food",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJF8zwDxWzREgR9LYDohE8lUo",
@@ -856,7 +831,7 @@
           "lng": -8.682388999999999
         }
       },
-      "enhanced_description": "Business in This, Charleville: Centra Charleville (Types: convenience_store, gas_station, atm) Located at Limerick Rd, Rathgoggan Middle, Cork, P56 HY53, Ireland",
+      "enhanced_description": "Business in This, Charleville: Centra Charleville (Types: convenience_store, atm, liquor_store) Located at Limerick Rd, Rathgoggan Middle, Cork, P56 HY53, Ireland",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -876,8 +851,8 @@
         "cafe",
         "food_store",
         "food",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJF5dcgFaqs2sRzsO0wuNJ8rg",
@@ -906,13 +881,13 @@
       "types": [
         "gas_station",
         "convenience_store",
-        "diner",
         "rest_stop",
+        "diner",
         "food_store",
         "restaurant",
         "food",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJDUpoDRWzREgRpCSeDRjNxCE",
@@ -927,11 +902,40 @@
           "lng": -8.6823555
         }
       },
-      "enhanced_description": "Business in This, Charleville: Lees Centra/Circle K EXPRESS (Types: gas_station, convenience_store, diner) Located at Limerick Road, Rathgoggan Middle, Charleville, Co",
+      "enhanced_description": "Business in This, Charleville: Lees Centra/Circle K EXPRESS (Types: gas_station, convenience_store, rest_stop) Located at Limerick Road, Rathgoggan Middle, Charleville, Co",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Baileybar Motor Inn",
+      "address": "196 King St, Charleville QLD 4470, Australia",
+      "rating": 3.8,
+      "types": [
+        "inn",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCQxOErKrs2sRJglO8lnmo2Q",
+      "keyword": "hotels accommodation lodging",
+      "location": "This, Charleville",
+      "user_ratings_total": 17,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -26.3999588,
+          "lng": 146.25392380000002
+        }
+      },
+      "enhanced_description": "Business in This, Charleville: Baileybar Motor Inn (Types: inn, lodging, point_of_interest) Located at 196 King St, Charleville QLD 4470, Australia",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
     }
   ],
@@ -944,19 +948,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools has revealed a hid",
+    "meta_description": "Explore ufo mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes. Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools marks the earliest",
     "title": "Ufo Mysteries in Charleville-M\u00e9zi\u00e8res, Ardennes - Tours & Services",
-    "description": "Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools has revealed a hidden chapter in human history. This enigmatic location is now a hub for UFO enthusiasts and those seeking to unravel the secrets of the unknown.",
+    "description": "Explore the mysterious world of Charleville-M\u00e9zi\u00e8res, where the discovery of wooden Pleistocene tools marks the earliest recorded complex technology in East Asia. This enigmatic location has long been shrouded in mystery, with numerous reports of paranormal activity and unexplained phenomena.",
     "keywords": [
       "ufo tours",
       "alien encounters",
-      "wooden pleistocene tools"
+      "wooden pleistocene tools",
+      "east asian history"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-27T23:44:54.159212"
+    "last_updated": "2025-07-29T03:12:21.971222"
   }
 }

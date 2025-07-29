@@ -1,7 +1,7 @@
 {
   "location_name": "Over, South Cambridgeshire",
   "category": "ufo",
-  "timestamp": "20250727_220203",
+  "timestamp": "20250729_013314",
   "businesses": [
     {
       "name": "Traditional Punting Cambridge",
@@ -47,7 +47,7 @@
       "place_id": "ChIJy1TdA79w2EcRVRxhmOIljdc",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 4027,
+      "user_ratings_total": 4031,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -75,7 +75,7 @@
       "place_id": "ChIJifDK1uBx2EcR8M_tBDBUr2w",
       "keyword": "entertainment activities",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 668,
+      "user_ratings_total": 670,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -143,16 +143,12 @@
           "lng": 0.12436870000000001
         }
       },
-      "enhanced_description": "Restaurant Twenty Two: A Fine-Dining Gem in South Cambridgeshire?",
+      "enhanced_description": "Business in Over, South Cambridgeshire: Restaurant Twenty Two (Types: fine_dining_restaurant, french_restaurant, restaurant) Located at 22 Chesterton Rd, Cambridge CB4 3AX, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Restaurant Twenty Two",
-        "fine dining",
-        "French restaurant"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While this report provides valuable information about Restaurant Twenty Two, it is essential to note that its authenticity has not been verified. Witnesses report an unusual ambiance and exceptional service, but details remain unexplained."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Rutherford's Punting Cambridge",
@@ -167,7 +163,7 @@
       "place_id": "ChIJgS3TBr9w2EcRQ1g7VefO090",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 765,
+      "user_ratings_total": 768,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -176,16 +172,12 @@
           "lng": 0.1184612
         }
       },
-      "enhanced_description": "Rutherford's Punting Cambridge: A Local Business Report Raises Questions About a Quayside Establishment in South Cambridgeshire.",
+      "enhanced_description": "Business in Over, South Cambridgeshire: Rutherford's Punting Cambridge (Types: tour_agency, travel_agency, point_of_interest) Located at Quayside Boardwalk, Jesus Green Moorings, Cambridge CB5 8AQ, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Rutherford's Punting",
-        "Cambridge CB5 8AQ",
-        "Quayside Boardwalk"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.3,
-      "credibility_notes": "The source appears to be a business directory or local publication, which may not be exhaustive or up-to-date. While the account is based on verifiable facts, some details remain unexplained, and further investigation is needed."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "IWM Duxford",
@@ -202,7 +194,7 @@
       "place_id": "ChIJLYaUOJZw2EcRLTjAoVO_aXw",
       "keyword": "museums visitor centers",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 17495,
+      "user_ratings_total": 17496,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -211,12 +203,17 @@
           "lng": 0.13647979999999998
         }
       },
-      "enhanced_description": "Business in Over, South Cambridgeshire: IWM Duxford (Types: tourist_attraction, tour_agency, travel_agency) Located at IWM Duxford Airfield, Cambridge CB22 4QR, UK",
+      "enhanced_description": "IWM Duxford: A Mysterious Tourist Attraction in South Cambridgeshire?",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "IWM Duxford",
+        "tourist attraction",
+        "airfield",
+        "Cambridge"
+      ],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While the business is real and exists as a tourist attraction, it remains unexplained why it has gained such widespread attention."
     },
     {
       "name": "The Centre for Computing History",
@@ -226,14 +223,14 @@
         "museum",
         "tourist_attraction",
         "visitor_center",
-        "video_arcade",
         "tourist_information_center",
+        "video_arcade",
         "gift_shop",
         "tour_agency",
         "travel_agency",
         "event_venue",
-        "point_of_interest",
         "store",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJcxaXm_Re2EcR6suPYcJwWog",
@@ -297,7 +294,7 @@
       "place_id": "ChIJPW1Ek5dw2EcR8LQhjUUd-4k",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 900,
+      "user_ratings_total": 901,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -321,16 +318,16 @@
         "historical_landmark",
         "visitor_center",
         "tourist_information_center",
+        "historical_place",
         "tour_agency",
         "travel_agency",
-        "historical_place",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJJ8ZORVVu2EcRM-UyHYKMMf4",
       "keyword": "things to do attractions tours",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 7415,
+      "user_ratings_total": 7417,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -359,7 +356,7 @@
       "place_id": "ChIJRSsWo6Jw2EcRLLfAvWgBFLA",
       "keyword": "museums visitor centers",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 8287,
+      "user_ratings_total": 8295,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -373,39 +370,6 @@
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Fields End Water Caravan Park, Glamping Pods, Lodges & Fishery",
-      "address": "Fields End Water, Benwick Rd, Doddington, March PE15 0TY, UK",
-      "rating": 4.7,
-      "types": [
-        "fishing_pond",
-        "rv_park",
-        "campground",
-        "lodging",
-        "store",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ3aPmxUgI2EcRh3mgdCcMEnk",
-      "keyword": "camping rv parks",
-      "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 612,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 52.498319599999995,
-          "lng": 0.0308249
-        }
-      },
-      "enhanced_description": "Business in Over, South Cambridgeshire: Fields End Water Caravan Park, Glamping Pods, Lodges & Fishery (Types: fishing_pond, rv_park, campground) Located at Fields End Water, Benwick Rd, Doddington, M...",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -481,7 +445,7 @@
       ],
       "place_id": "ChIJA_q2yZ1w2EcRSWXADT-R3O0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 7124,
+      "user_ratings_total": 7128,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -502,8 +466,8 @@
       "address": "Chapter House, The College, ELY CB7 4DL, UK",
       "rating": 4.7,
       "types": [
-        "historical_landmark",
         "tourist_attraction",
+        "historical_landmark",
         "historical_place",
         "church",
         "place_of_worship",
@@ -512,7 +476,7 @@
       ],
       "place_id": "ChIJjTzHfQwT2EcRr-Yl3BQS6sA",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 6339,
+      "user_ratings_total": 6345,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -521,7 +485,7 @@
           "lng": 0.263779
         }
       },
-      "enhanced_description": "Business in coordinates [52. 0170499]: Ely Cathedral (Types: historical_landmark, tourist_attraction, historical_place) Located at Chapter House, The College, ELY CB7 4DL, UK",
+      "enhanced_description": "Business in coordinates [52. 0170499]: Ely Cathedral (Types: tourist_attraction, historical_landmark, historical_place) Located at Chapter House, The College, ELY CB7 4DL, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -552,17 +516,12 @@
           "lng": 0.012539
         }
       },
-      "enhanced_description": "La Pergola, a local Italian restaurant in Harlton, Cambridge, appears to be the subject of a mysterious business report. According to the account, La Pergola is listed as an italian_restaurant, pizza_restaurant, and restaurant type, with a location at Cambridge Rd, Harlton, Cambridge CB23 1HA, UK. The report mentions that the owner/manager has confirmed the information through multiple sources.",
+      "enhanced_description": "Business in Over, South Cambridgeshire: La Pergola (Types: italian_restaurant, pizza_restaurant, restaurant) Located at Cambridge Rd, Harlton, Cambridge CB23 1HA, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "La Pergola",
-        "Italian restaurant",
-        "pizza_restaurant",
-        "restaurant"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality. While the report appears to be based on verifiable information, some details remain unexplained."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "South Angle Farm Park",
@@ -616,12 +575,16 @@
           "lng": 0.2912955
         }
       },
-      "enhanced_description": "Business in Over, South Cambridgeshire: National Trust - Wicken Fen Nature Reserve (Types: tourist_attraction, park, point_of_interest) Located at 34 Lode Ln, Wicken, ELY CB7 5XP, UK",
+      "enhanced_description": "Unraveling the Mystique of Wicken Fen Nature Reserve: A Business Report Analysis",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Wicken Fen Nature Reserve",
+        "National Trust",
+        "Ely CB7 5XP"
+      ],
       "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While the National Trust is a reputable organization, its business reports may be subject to selective disclosure. Further investigation and verification are warranted."
     },
     {
       "name": "National Trust - Houghton Mill & Waterclose Meadows",
@@ -675,17 +638,12 @@
           "lng": 0.1874167
         }
       },
-      "enhanced_description": "Wandlebury Country Park: A Mysterious Business Report Unveils Secrets Behind a Cambridgeshire Landmark",
-      "tourism_category": "conspiracy",
+      "enhanced_description": "Business in Over, South Cambridgeshire: Wandlebury Country Park (Types: tourist_attraction, wedding_venue, park) Located at Wandlebury Ring, Gog Magog Hills, Stapleford, Cambridge CB22 3AE, UK",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Wandlebury Country Park",
-        "Cambridgeshire",
-        "South Cambridgeshire",
-        "Gog Magog Hills"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "While this report presents intriguing facts, its reliability is uncertain due to the unverified nature of some witness accounts and claims. Further investigation is necessary to verify these allegations."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "The Polar Museum",
@@ -716,14 +674,72 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
+      "name": "Jesus Green",
+      "address": "Jesus Green, Cambridge CB5 8BL, UK",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "playground",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJP1nbLZVw2EcR4Ux2VAZ3Cmw",
+      "keyword": "parks recreation outdoor",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 4547,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.2112073,
+          "lng": 0.12279359999999999
+        }
+      },
+      "enhanced_description": "Business in Over, South Cambridgeshire: Jesus Green (Types: park, tourist_attraction, playground) Located at Jesus Green, Cambridge CB5 8BL, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cherry Hinton Hall Park",
+      "address": "Cherry Hinton Rd, Cambridge CB1 8DW, UK",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJWSyJ25562EcRNVhezUXwJcU",
+      "keyword": "parks recreation outdoor",
+      "location": "Over, South Cambridgeshire",
+      "user_ratings_total": 1283,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 52.1863976,
+          "lng": 0.1640457
+        }
+      },
+      "enhanced_description": "Business in Over, South Cambridgeshire: Cherry Hinton Hall Park (Types: park, point_of_interest, establishment) Located at Cherry Hinton Rd, Cambridge CB1 8DW, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
       "name": "St Neots Camping and Caravanning Club Site",
       "address": "Hardwick Rd, St. Neots PE19 2PR, UK",
       "rating": 4.6,
       "types": [
         "campground",
         "rv_park",
-        "lodging",
         "park",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
@@ -739,7 +755,7 @@
           "lng": -0.2745991
         }
       },
-      "enhanced_description": "Business in Over, South Cambridgeshire: St Neots Camping and Caravanning Club Site (Types: campground, rv_park, lodging) Located at Hardwick Rd, St",
+      "enhanced_description": "Business in Over, South Cambridgeshire: St Neots Camping and Caravanning Club Site (Types: campground, rv_park, park) Located at Hardwick Rd, St",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -823,7 +839,7 @@
       "place_id": "ChIJMZx6SvXTd0gRM2TaSvaNqOI",
       "keyword": "things to do",
       "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 7198,
+      "user_ratings_total": 7199,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -837,34 +853,6 @@
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Cherry Hinton Hall Park",
-      "address": "Cherry Hinton Rd, Cambridge CB1 8DW, UK",
-      "rating": 4.6,
-      "types": [
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJWSyJ25562EcRNVhezUXwJcU",
-      "keyword": "things to do",
-      "location": "Over, South Cambridgeshire",
-      "user_ratings_total": 1283,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 52.1863976,
-          "lng": 0.1640457
-        }
-      },
-      "enhanced_description": "Business in Over, South Cambridgeshire: Cherry Hinton Hall Park (Types: park, point_of_interest, establishment) Located at Cherry Hinton Rd, Cambridge CB1 8DW, UK",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.0,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -889,16 +877,12 @@
           "lng": 0.11302179999999999
         }
       },
-      "enhanced_description": "The Backs: A Mysterious Local Business in Over, South Cambridgeshire",
+      "enhanced_description": "Business in Over, South Cambridgeshire: The Backs (Types: park, tourist_attraction, point_of_interest) Located at Queen's Rd, Cambridge CB3 9AH, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Cambridgeshire",
-        "South Cambridgeshire",
-        "The Backs"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.6,
-      "credibility_notes": "The quality and verifiability of this information are uncertain due to the anonymous nature of the report."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Johnsons of Old Hurst - Johnsons Zoo",
@@ -906,18 +890,18 @@
       "rating": 4.6,
       "types": [
         "zoo",
-        "tea_house",
         "butcher_shop",
+        "tea_house",
         "food_store",
         "restaurant",
+        "point_of_interest",
         "food",
         "store",
-        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJbflbrLbgd0gRNlYuJxEKn18",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 3878,
+      "user_ratings_total": 3881,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -926,7 +910,7 @@
           "lng": -0.0902183
         }
       },
-      "enhanced_description": "Business in coordinates [52. 0170499]: Johnsons of Old Hurst - Johnsons Zoo (Types: zoo, tea_house, butcher_shop) Located at Church St, Old Hurst, Huntingdon PE28 3AF, UK",
+      "enhanced_description": "Business in coordinates [52. 0170499]: Johnsons of Old Hurst - Johnsons Zoo (Types: zoo, butcher_shop, tea_house) Located at Church St, Old Hurst, Huntingdon PE28 3AF, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -938,7 +922,7 @@
     {
       "name": "Neuralink Hits 7 Users as Global Brain Implant Count Remains Under 100",
       "type": "UFO Sighting",
-      "description": "A recent report from Elon Musk's Neuralink company reveals that the brain-computer interfaces (BCIs) have been implanted in seven individuals, marking a significant advancement in neuroscience and technology. However, as with any unexplained phenomenon, questions arise regarding the validity of this claim. According to witnesses who were part of the initial implantation process, they reported experiencing temporary side effects such as disorientation, hallucinations, and increased sensitivity to light. These symptoms seem to be related to the BCIs' ability to interface with the human brain. While Neuralink has denied any issues with the implants, some experts remain skeptical due to concerns over the long-term safety of such technology. Further investigation is warranted to fully understand the implications of this development.",
+      "description": "A recent report from Elon Musk's Neuralink company reveals that the brain-computer interfaces (BCIs) have been implanted in seven individuals, marking a significant advancement in neuroscience and tec",
       "category": "ufo"
     },
     {
@@ -949,9 +933,9 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Over, South Cambridgeshire. Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigm",
+    "meta_description": "Explore ufo mysteries in Over, South Cambridgeshire. Explore the mysterious Over, South Cambridgeshire, where rumors of alien sightings have long been a part of local folklo",
     "title": "Ufo Mysteries in Over, South Cambridgeshire - Tours & Services",
-    "description": "Explore the mysterious Over, South Cambridgeshire, where a rare stellar discovery has left scientists in awe. This enigmatic location is home to Neuralink's global brain implant program and offers a unique opportunity for citizen scientists to contribute to groundbreaking research.",
+    "description": "Explore the mysterious Over, South Cambridgeshire, where rumors of alien sightings have long been a part of local folklore. This enigmatic location has also been linked to the Neuralink project, a cutting-edge brain-computer interface technology.",
     "keywords": [
       "Over UFO tours",
       "alien encounters",
@@ -962,6 +946,6 @@
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-27T22:02:03.856034"
+    "last_updated": "2025-07-29T01:33:14.439114"
   }
 }

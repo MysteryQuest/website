@@ -1,21 +1,21 @@
 {
   "location_name": "Dark Side, Thornton",
   "category": "ufo",
-  "timestamp": "20250727_203615",
+  "timestamp": "20250729_000818",
   "businesses": [
     {
       "name": "Eyeconic Arizona Souvenir Shop",
       "address": "1745 E McDowell Rd, Phoenix, AZ 85006, USA",
       "rating": 4.9,
       "types": [
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJacuLgYcNK4cRr1krEAfx-X8",
       "keyword": "gift shops souvenirs",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 1527,
+      "user_ratings_total": 1532,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -24,7 +24,7 @@
           "lng": -112.04365560000001
         }
       },
-      "enhanced_description": "Business in Dark Side, Thornton: Eyeconic Arizona Souvenir Shop (Types: store, point_of_interest, establishment) Located at 1745 E McDowell Rd, Phoenix, AZ 85006, USA",
+      "enhanced_description": "Business in Dark Side, Thornton: Eyeconic Arizona Souvenir Shop (Types: point_of_interest, store, establishment) Located at 1745 E McDowell Rd, Phoenix, AZ 85006, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -43,7 +43,7 @@
       ],
       "place_id": "ChIJlZtcWVh9s0wR28Q1X9BuHcw",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 875,
+      "user_ratings_total": 879,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -74,7 +74,7 @@
       "place_id": "ChIJk5zMtRJQE4cRq22_Y1Lf6QQ",
       "keyword": "attractions",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 54457,
+      "user_ratings_total": 54485,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -134,7 +134,7 @@
       ],
       "place_id": "ChIJUeZVG9h2s0wRnHyfVA_Zm1Y",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 621,
+      "user_ratings_total": 622,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -156,8 +156,8 @@
       "rating": 4.8,
       "types": [
         "coffee_shop",
-        "breakfast_restaurant",
         "cafe",
+        "breakfast_restaurant",
         "food_store",
         "restaurant",
         "food",
@@ -176,16 +176,12 @@
           "lng": -71.6406185
         }
       },
-      "enhanced_description": "Mad River Coffee House: A Local Enigma",
+      "enhanced_description": "Business in coordinates [43. 5858518]: Mad River Coffee House (Types: coffee_shop, cafe, breakfast_restaurant) Located at 18 Six Flags Rd, Campton, NH 03223, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Mad River Coffee House",
-        "Campton NH",
-        "coffee shop"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.4,
-      "credibility_notes": "Widely available information suggests the coffee shop is operational, but no concrete evidence confirms its existence."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Haunted ATX Austin Ghost Tours",
@@ -233,7 +229,7 @@
       "place_id": "ChIJV_9gxq52bIcRybUEzaL4YV4",
       "keyword": "parks recreation outdoor",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 2300,
+      "user_ratings_total": 2301,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -257,8 +253,8 @@
         "breakfast_restaurant",
         "brunch_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJOzk6gqF3bIcRDjYM_IrjHBs",
@@ -288,14 +284,14 @@
         "american_restaurant",
         "bar",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJV7ePoniKa4cRqTlww8ql0ak",
       "keyword": "restaurants food dining",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 2080,
+      "user_ratings_total": 2081,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -312,50 +308,20 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Cherry Creek State Park",
-      "address": "4201 S Parker Rd, Aurora, CO 80014, USA",
-      "rating": 4.6,
-      "types": [
-        "state_park",
-        "tourist_attraction",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJO9N8BMGIbIcR53Jr1zP5s3g",
-      "keyword": "camping rv parks",
-      "location": "Dark Side, Thornton",
-      "user_ratings_total": 9336,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.625962,
-          "lng": -104.8424778
-        }
-      },
-      "enhanced_description": "Business in Dark Side, Thornton: Cherry Creek State Park (Types: state_park, tourist_attraction, park) Located at 4201 S Parker Rd, Aurora, CO 80014, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Pete's Cafe",
       "address": "9170 Washington St, Thornton, CO 80229, USA",
       "rating": 4.6,
       "types": [
         "restaurant",
         "breakfast_restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJpYjzTvx2bIcRSj5xT8WPQJM",
       "keyword": "restaurants",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 1268,
+      "user_ratings_total": 1267,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -364,17 +330,12 @@
           "lng": -104.977419
         }
       },
-      "enhanced_description": "Pete's Cafe: A Local Thornton Business with a Mysterious Past?",
+      "enhanced_description": "Business in Dark Side, Thornton: Pete's Cafe (Types: restaurant, breakfast_restaurant, point_of_interest) Located at 9170 Washington St, Thornton, CO 80229, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Pete's Cafe",
-        "Thornton",
-        "CO 80229",
-        "USA"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.2,
-      "credibility_notes": "Based on available information and witness testimony, this summary maintains journalistic integrity while being cautious of unverifiable claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Thornton Hall Country Park",
@@ -382,20 +343,20 @@
       "rating": 4.6,
       "types": [
         "tourist_attraction",
-        "playground",
-        "campground",
         "wedding_venue",
+        "campground",
         "park",
+        "lodging",
+        "playground",
         "event_venue",
         "farm",
-        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJzc6FYKqNe0gRAGkQXCBBYRU",
-      "keyword": "attractions",
+      "keyword": "things to do",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 1736,
+      "user_ratings_total": 1738,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -404,11 +365,40 @@
           "lng": -2.1539463
         }
       },
-      "enhanced_description": "Business in Dark Side, Thornton: Thornton Hall Country Park (Types: tourist_attraction, playground, campground) Located at Thornton-in-Craven, Skipton BD23 3TS, UK",
+      "enhanced_description": "Business in Dark Side, Thornton: Thornton Hall Country Park (Types: tourist_attraction, wedding_venue, campground) Located at Thornton-in-Craven, Skipton BD23 3TS, UK",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Sixth Floor Museum at Dealey Plaza",
+      "address": "411 Elm St, Dallas, TX 75202, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwQTJ3xWZToYRjooryEPLtOw",
+      "keyword": "attractions",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 10237,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7798188,
+          "lng": -96.8084842
+        }
+      },
+      "enhanced_description": "Business in Dark Side, Thornton: The Sixth Floor Museum at Dealey Plaza (Types: tourist_attraction, museum, point_of_interest) Located at 411 Elm St, Dallas, TX 75202, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -417,16 +407,16 @@
       "rating": 4.6,
       "types": [
         "bar_and_grill",
-        "american_restaurant",
         "bar",
+        "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJzeVAq5eBtEwRcHOClaXs6Ps",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 2749,
+      "user_ratings_total": 2752,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -435,7 +425,7 @@
           "lng": -71.65954839999999
         }
       },
-      "enhanced_description": "Business in coordinates [43. 5858518]: The Common Man Lincoln (Types: bar_and_grill, american_restaurant, bar) Located at 10 Pollard Rd, Lincoln, NH 03251, USA",
+      "enhanced_description": "Business in coordinates [43. 5858518]: The Common Man Lincoln (Types: bar_and_grill, bar, american_restaurant) Located at 10 Pollard Rd, Lincoln, NH 03251, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -455,7 +445,7 @@
       ],
       "place_id": "ChIJt6kVGHeBtEwR2NN0wF1ML-0",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 3905,
+      "user_ratings_total": 3908,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -464,12 +454,16 @@
           "lng": -71.6858232
         }
       },
-      "enhanced_description": "Business in coordinates [43. 5858518]: Clark's Bears (Types: tourist_attraction, amusement_park, amusement_center) Located at 110 Daniel Webster Hwy, Lincoln, NH 03251, USA",
-      "tourism_category": "mystery",
+      "enhanced_description": "Clark's Bears: A Local Enigma",
+      "tourism_category": "historical",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "mystery",
+        "local business",
+        "amusement park"
+      ],
       "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "While witness testimony is anecdotal and lacks concrete evidence, the fact that Clark's Bears persists in operation remains unexplained. Further investigation would be necessary to verify the accuracy of this information."
     },
     {
       "name": "Market Basket",
@@ -486,7 +480,7 @@
       ],
       "place_id": "ChIJYdYSW3Zfs0wRnoPYsgg-njs",
       "keyword": "nearby_store",
-      "user_ratings_total": 1117,
+      "user_ratings_total": 1119,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -495,15 +489,12 @@
           "lng": -71.72347429999999
         }
       },
-      "enhanced_description": "At the heart of a mystery lies the unexplained. In this local business report, Market Basket emerges as a prime suspect at [43.9184985, -71.5858518]: Plymouth, NH 03264, USA...",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in coordinates [43. 5858518]: Market Basket (Types: grocery_store, supermarket, food_store) Located at 34 Ridge View Ln, Plymouth, NH 03264, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Market Basket",
-        "Plymouth, NH 03264"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "While an initial instinct might be to jump to conclusions, careful examination reveals a need for further investigation."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Covered Bridge Farm-to-Table",
@@ -511,21 +502,21 @@
       "rating": 4.6,
       "types": [
         "american_restaurant",
+        "event_venue",
         "ice_cream_shop",
         "dessert_shop",
         "confectionery",
-        "bar",
         "food_store",
+        "bar",
         "restaurant",
         "food",
-        "event_venue",
         "point_of_interest",
         "store",
         "establishment"
       ],
       "place_id": "ChIJS5vaQllns0wRT0zlje0R-D4",
       "keyword": "nearby_store",
-      "user_ratings_total": 1599,
+      "user_ratings_total": 1601,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -534,7 +525,7 @@
           "lng": -71.66651379999999
         }
       },
-      "enhanced_description": "Business in coordinates [43. 5858518]: Covered Bridge Farm-to-Table (Types: american_restaurant, ice_cream_shop, dessert_shop) Located at 57 Blair Rd, Campton, NH 03223, USA",
+      "enhanced_description": "Business in coordinates [43. 5858518]: Covered Bridge Farm-to-Table (Types: american_restaurant, event_venue, ice_cream_shop) Located at 57 Blair Rd, Campton, NH 03223, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -549,14 +540,14 @@
         "diner",
         "breakfast_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJgVLMQoBzbIcRMTSwaCmWNhE",
       "keyword": "restaurants food dining",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 1657,
+      "user_ratings_total": 1658,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -566,37 +557,6 @@
         }
       },
       "enhanced_description": "Business in Dark Side, Thornton: Doug's Diner: THORNTON (Types: diner, breakfast_restaurant, restaurant) Located at 4243 E 136th Ave #6918, Thornton, CO 80602, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Texas Roadhouse",
-      "address": "231 W 104th Ave, Northglenn, CO 80234, USA",
-      "rating": 4.5,
-      "types": [
-        "steak_house",
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJvdF2vot2bIcRGNztOeCkL_w",
-      "keyword": "restaurants food dining",
-      "location": "Dark Side, Thornton",
-      "user_ratings_total": 5825,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 39.8868248,
-          "lng": -104.98900979999999
-        }
-      },
-      "enhanced_description": "Business in Dark Side, Thornton: Texas Roadhouse (Types: steak_house, american_restaurant, restaurant) Located at 231 W 104th Ave, Northglenn, CO 80234, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -624,16 +584,12 @@
           "lng": -104.98468419999999
         }
       },
-      "enhanced_description": "Denver Premium Outlets: A Thriving Shopping Destination with a Chilling History",
+      "enhanced_description": "Business in Dark Side, Thornton: Denver Premium Outlets (Types: shopping_mall, point_of_interest, establishment) Located at 13801 Grant St, Thornton, CO 80023, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Denver Premium Outlets",
-        "Thornton",
-        "shopping mall"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While I have obtained information from reliable sources, some details remain unexplained or lack concrete evidence to support their accuracy."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Chatfield State Park Campground",
@@ -641,15 +597,15 @@
       "rating": 4.5,
       "types": [
         "campground",
-        "lodging",
         "park",
+        "lodging",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJUd7H5Lp9a4cRTSR2xLVnsJI",
       "keyword": "camping rv parks",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 857,
+      "user_ratings_total": 858,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -658,11 +614,42 @@
           "lng": -105.064972
         }
       },
-      "enhanced_description": "Business in Dark Side, Thornton: Chatfield State Park Campground (Types: campground, lodging, park) Located at 11500 Roxborough Park Rd, Littleton, CO 80125, USA",
+      "enhanced_description": "Business in Dark Side, Thornton: Chatfield State Park Campground (Types: campground, park, lodging) Located at 11500 Roxborough Park Rd, Littleton, CO 80125, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
       "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Texas Roadhouse",
+      "address": "231 W 104th Ave, Northglenn, CO 80234, USA",
+      "rating": 4.5,
+      "types": [
+        "steak_house",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJvdF2vot2bIcRGNztOeCkL_w",
+      "keyword": "restaurants",
+      "location": "Dark Side, Thornton",
+      "user_ratings_total": 5824,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.8868248,
+          "lng": -104.98900979999999
+        }
+      },
+      "enhanced_description": "Business in Dark Side, Thornton: Texas Roadhouse (Types: steak_house, american_restaurant, restaurant) Located at 231 W 104th Ave, Northglenn, CO 80234, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -702,13 +689,13 @@
         "hamburger_restaurant",
         "american_restaurant",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJ77jxBZaBtEwRuq1azy5PH1E",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 3881,
+      "user_ratings_total": 3883,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -730,19 +717,19 @@
       "rating": 4.5,
       "types": [
         "hotel",
-        "banquet_hall",
         "wedding_venue",
+        "banquet_hall",
         "spa",
-        "event_venue",
         "lodging",
+        "event_venue",
         "restaurant",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJleMhGjRcs0wRViouvt0-y7U",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1090,
+      "user_ratings_total": 1091,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -751,15 +738,12 @@
           "lng": -71.684066
         }
       },
-      "enhanced_description": "The Common Man Inn & Spa: A Local Business with a Rich History and Enigmatic Atmosphere.",
+      "enhanced_description": "Business in coordinates [43. 5858518]: The Common Man Inn & Spa (Types: hotel, wedding_venue, banquet_hall) Located at 231 Main St, Plymouth, NH 03264, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Plymouth NH",
-        "The Common Man Inn & Spa"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.30000000000000004,
-      "credibility_notes": "Based on the source's neutral tone and lack of sensational language, it appears that this report aims to provide an accurate account of the business."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cheddar's Scratch Kitchen",
@@ -769,14 +753,14 @@
         "meal_takeaway",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJjfIcpIt2bIcRL433L9SeBk8",
       "keyword": "restaurants food dining",
       "location": "Dark Side, Thornton",
-      "user_ratings_total": 6056,
+      "user_ratings_total": 6058,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -801,12 +785,12 @@
         "fine_dining_restaurant",
         "seafood_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJEeOm_uN1bIcRdK84a_oIIhA",
-      "keyword": "restaurants",
+      "keyword": "restaurants food dining",
       "location": "Dark Side, Thornton",
       "user_ratings_total": 1431,
       "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
@@ -960,19 +944,20 @@
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in Dark Side, Thornton. Explore the mysterious world of Dark Side, Thornton, where cutting-edge technology meets otherworldly intrigue. This inn",
+    "meta_description": "Explore ufo mysteries in Dark Side, Thornton. Explore the mysterious world of Dark Side, Thornton, where cutting-edge technology meets extraterrestrial intrigue. Visi",
     "title": "Ufo Mysteries in Dark Side, Thornton - Tours & Services",
-    "description": "Explore the mysterious world of Dark Side, Thornton, where cutting-edge technology meets otherworldly intrigue. This innovative new 'living' building material has been hailed as a game-changer in the field of carbon capture, but what secrets lie beneath its surface?",
+    "description": "Explore the mysterious world of Dark Side, Thornton, where cutting-edge technology meets extraterrestrial intrigue. Visit Noland Arbaugh, a pioneer in neuralink and brain interface technology, to reflect on the intersection of neurotechnology and identity.",
     "keywords": [
       "ufo tours",
       "alien encounters",
-      "space museums"
+      "neuralink",
+      "brain interfaces"
     ],
     "category": "ufo"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-27T20:36:15.236048"
+    "last_updated": "2025-07-29T00:08:18.532688"
   }
 }

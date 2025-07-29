@@ -1,0 +1,963 @@
+{
+  "location_name": "West 18th Street, Pilsen",
+  "category": "historical",
+  "timestamp": "20250728_195729",
+  "businesses": [
+    {
+      "name": "Carlsbad Caverns National Park Visitor Center",
+      "address": "727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "visitor_center",
+        "hiking_area",
+        "tourist_information_center",
+        "tour_agency",
+        "park",
+        "travel_agency",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl3Mk4pV55IYRaWp5KybiJB4",
+      "keyword": "things to do attractions tours",
+      "location": "Everything, ",
+      "user_ratings_total": 7646,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.175463,
+          "lng": -104.44423289999999
+        }
+      },
+      "enhanced_description": "Business in Everything, : Carlsbad Caverns National Park Visitor Center (Types: visitor_center, hiking_area, tourist_information_center) Located at 727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Carlsbad Caverns National Park",
+      "address": "Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJW9e4xBN544YRvbI7vfc91G4",
+      "keyword": "things to do attractions tours",
+      "location": "Everything, ",
+      "user_ratings_total": 16816,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.137045,
+          "lng": -104.5437529
+        }
+      },
+      "enhanced_description": "Unveiling the Mystery at Carlsbad Caverns National Park: A National Park in Disguise?",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Carlsbad Caverns National Park",
+        "local business report"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While the source provides some verifiable information, there are also unexplained elements and witness testimony that remain unverified."
+    },
+    {
+      "name": "Roswell UFO Spacewalk",
+      "address": "116 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.8,
+      "types": [
+        "planetarium",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJn_3evDJv4oYRTjKQZ9lQdZk",
+      "keyword": "things to do attractions tours",
+      "location": "Everything, ",
+      "user_ratings_total": 759,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3940513,
+          "lng": -104.5218015
+        }
+      },
+      "enhanced_description": "Business in Everything, : Roswell UFO Spacewalk (Types: planetarium, point_of_interest, establishment) Located at 116 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "ufo",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "ufo"
+      ],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bandelier National Monument Visitor Center",
+      "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "rating": 4.8,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tourist_attraction",
+        "hiking_area",
+        "park",
+        "museum",
+        "tour_agency",
+        "travel_agency",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
+      "keyword": "museums visitor centers",
+      "location": "Everything, ",
+      "user_ratings_total": 2098,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.7791035,
+          "lng": -106.2708964
+        }
+      },
+      "enhanced_description": "Business in Everything, : Bandelier National Monument Visitor Center (Types: visitor_center, tourist_information_center, tourist_attraction) Located at 15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Permian Basin Petroleum Museum",
+      "address": "1500 I-20, Midland, TX 79701, USA",
+      "rating": 4.8,
+      "types": [
+        "museum",
+        "art_gallery",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLSwNsBHY-4YRSouy1oKKU-4",
+      "keyword": "museums",
+      "location": "Everything, ",
+      "user_ratings_total": 1010,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.9720665,
+          "lng": -102.0851728
+        }
+      },
+      "enhanced_description": "Business in Everything, : Permian Basin Petroleum Museum (Types: museum, art_gallery, point_of_interest) Located at 1500 I-20, Midland, TX 79701, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Wrigley Field",
+      "address": "1060 W Addison St, Chicago, IL 60613, USA",
+      "rating": 4.8,
+      "types": [
+        "stadium",
+        "tourist_attraction",
+        "athletic_field",
+        "sports_complex",
+        "event_venue",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJId-a5bLTD4gRRtbdduE-6hw",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 32686,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.9484384,
+          "lng": -87.6553327
+        }
+      },
+      "enhanced_description": "Wrigley Field: A Legendary Chicago Landmark, Shrouded in Mystery",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Wrigley Field",
+        "Chicago Landmark",
+        "Stadium Tourist Attraction"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While this report draws from publicly available information, the source is not explicitly stated. Verification of specific details may be limited due to lack of direct access."
+    },
+    {
+      "name": "Millennium Park",
+      "address": "Chicago, IL 60602, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJA5xPiqYsDogRBBCptdwsGEQ",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 88050,
+      "price_level": "PRICE_LEVEL_FREE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8825524,
+          "lng": -87.62255139999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Millennium Park (Types: park, tourist_attraction, point_of_interest) Located at Chicago, IL 60602, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Invasion Station",
+      "address": "600 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
+      "keyword": "gift shops souvenirs",
+      "location": "Everything, ",
+      "user_ratings_total": 938,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3989578,
+          "lng": -104.52308529999999
+        }
+      },
+      "enhanced_description": "Business in Everything, : Invasion Station (Types: gift_shop, point_of_interest, store) Located at 600 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Trailer Village RV Park",
+      "address": "1706 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
+      "keyword": "camping rv parks",
+      "location": "Everything, ",
+      "user_ratings_total": 675,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.393937199999996,
+          "lng": -104.4985148
+        }
+      },
+      "enhanced_description": "Business in Everything, : Trailer Village RV Park (Types: rv_park, campground, park) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "1430 S Ashland Ave, Chicago, IL 60608, USA",
+      "rating": 4.7,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJI8MI8QUtDogRgKAYeyY5xfQ",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 589,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8634104,
+          "lng": -87.6683839
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 1430 S Ashland Ave, Chicago, IL 60608, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Portofino",
+      "address": "1203 W 2nd St Room 108, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ90KcAsdu4oYRq342Q_ApbjY",
+      "keyword": "restaurants food dining",
+      "location": "Everything, ",
+      "user_ratings_total": 950,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.394577,
+          "lng": -104.539502
+        }
+      },
+      "enhanced_description": "A local business report sheds light on the Portofino restaurant, located at 1203 W 2nd St Room 108 in Roswell, NM. According to the account, this Italian restaurant serves a diverse range of dishes including pasta, pizza, and entrees. The restaurant's address remains unexplained, leading some to speculate about its origin or purpose.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Portofino restaurant",
+        "Italian restaurant",
+        "Roswell NM"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While the report provides credible information on the restaurant's location, it relies on unverified sources and lacks concrete evidence to support claims about its purpose or origin."
+    },
+    {
+      "name": "Roswell Visitor Center",
+      "address": "426 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
+      "keyword": "things to do attractions tours",
+      "location": "Everything, ",
+      "user_ratings_total": 959,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.397424799999996,
+          "lng": -104.5230764
+        }
+      },
+      "enhanced_description": "Business in Everything, : Roswell Visitor Center (Types: visitor_center, tourist_information_center, tour_agency) Located at 426 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Walatowa Visitor Center",
+      "address": "7413 NM-4, Jemez Pueblo, NM 87024, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx9JFE4SQIocREFq5R6KoQOk",
+      "keyword": "museums visitor centers",
+      "location": "Everything, ",
+      "user_ratings_total": 704,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.6451456,
+          "lng": -106.72624139999999
+        }
+      },
+      "enhanced_description": "Business in Everything, : Walatowa Visitor Center (Types: museum, tourist_attraction, point_of_interest) Located at 7413 NM-4, Jemez Pueblo, NM 87024, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Pillow's Funtrackers",
+      "address": "101 Carrizo Canyon Rd, Ruidoso, NM 88345, USA",
+      "rating": 4.6,
+      "types": [
+        "amusement_center",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK-DdeCbO4YYROFM_GN_PwKc",
+      "keyword": "entertainment activities",
+      "location": "Everything, ",
+      "user_ratings_total": 1761,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.323057600000006,
+          "lng": -105.6564371
+        }
+      },
+      "enhanced_description": "Business in Everything, : Pillow's Funtrackers (Types: amusement_center, tourist_attraction, point_of_interest) Located at 101 Carrizo Canyon Rd, Ruidoso, NM 88345, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Ranch at Las Colinas",
+      "address": "857 W John Carpenter Fwy, Irving, TX 75039, USA",
+      "rating": 4.6,
+      "types": [
+        "steak_house",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJY4kYfykoTIYRldVtA2MsX0s",
+      "keyword": "restaurants",
+      "location": "Everything, ",
+      "user_ratings_total": 6639,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.8897006,
+          "lng": -96.95810759999999
+        }
+      },
+      "enhanced_description": "Business in Everything, : The Ranch at Las Colinas (Types: steak_house, american_restaurant, restaurant) Located at 857 W John Carpenter Fwy, Irving, TX 75039, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Billy The Kid Museum",
+      "address": "1435 Sumner Ave, Fort Sumner, NM 88119, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ6cTQS35HIcRIb8_UMXV7NM",
+      "keyword": "museums",
+      "location": "Everything, ",
+      "user_ratings_total": 1737,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.4662509,
+          "lng": -104.2293296
+        }
+      },
+      "enhanced_description": "Business in Everything, : Billy The Kid Museum (Types: museum, tourist_attraction, point_of_interest) Located at 1435 Sumner Ave, Fort Sumner, NM 88119, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Navy Pier",
+      "address": "600 E Grand Ave, Chicago, IL 60611, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "ferris_wheel",
+        "cultural_center",
+        "amusement_center",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2y7xkU0rDogR3KSIsJbbrNA",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 83452,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8918633,
+          "lng": -87.6050944
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Navy Pier (Types: tourist_attraction, ferris_wheel, cultural_center) Located at 600 E Grand Ave, Chicago, IL 60611, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Lincoln Park Zoo",
+      "address": "Chicago, IL 60614, USA",
+      "rating": 4.6,
+      "types": [
+        "zoo",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB5o6CWvTD4gR25QC-QbMQAk",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 36372,
+      "price_level": "PRICE_LEVEL_FREE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.921703,
+          "lng": -87.6336403
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Lincoln Park Zoo (Types: zoo, tourist_attraction, point_of_interest) Located at Chicago, IL 60614, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "2746 N Clybourn Ave, Chicago, IL 60614, USA",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtwDNPvPSD4gROnr2fox9rJA",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 617,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.9305516,
+          "lng": -87.676609
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 2746 N Clybourn Ave, Chicago, IL 60614, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Skydeck Chicago",
+      "address": "233 S Wacker Dr, Chicago, IL 60606, USA",
+      "rating": 4.6,
+      "types": [
+        "observation_deck",
+        "tourist_attraction",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJu_tp4r4sDogR_dRFCX8wCc8",
+      "keyword": "nearby_store",
+      "user_ratings_total": 34455,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.87887610000001,
+          "lng": -87.635915
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Skydeck Chicago (Types: observation_deck, tourist_attraction, point_of_interest) Located at 233 S Wacker Dr, Chicago, IL 60606, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.7,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Red Barn RV Park",
+      "address": "2806 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.8,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr4l9xVFv4oYRtK4NR_JezVs",
+      "keyword": "camping rv parks",
+      "location": "Everything, ",
+      "user_ratings_total": 475,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3940282,
+          "lng": -104.48201720000002
+        }
+      },
+      "enhanced_description": "Red Barn RV Park: A Local Business with a Fascinating History",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Roswell",
+        "New Mexico",
+        "Red Barn RV Park"
+      ],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "While this report aims to provide an objective summary, it's essential to acknowledge that some details remain unexplained and lack concrete evidence."
+    },
+    {
+      "name": "Roswell Historical Marker",
+      "address": "Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiSurDx1x4oYReAAac9B_9Zo",
+      "keyword": "museums visitor centers",
+      "location": "Everything, ",
+      "user_ratings_total": 493,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4802659,
+          "lng": -104.51983419999999
+        }
+      },
+      "enhanced_description": "The Roswell Historical Marker in Roswell, New Mexico, is a local business that has been attracting tourists for decades. Located at 88201, USA, this marker commemorates the site where the first reported UFO sighting took place in 1947.",
+      "tourism_category": "ufo",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "UFO sightings",
+        "Roswell Historical Marker",
+        "New Mexico"
+      ],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "While there is no concrete evidence supporting the claim of a UFO sighting, the marker has become an iconic symbol of the city. Further investigation and verification are needed to determine its true significance."
+    },
+    {
+      "name": "Antigua Cocina Mexicana",
+      "address": "3601 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.5,
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7ePmPzpv4oYRUWGBIB4OwsY",
+      "keyword": "restaurants food dining",
+      "location": "Everything, ",
+      "user_ratings_total": 1443,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.441347,
+          "lng": -104.52260749999999
+        }
+      },
+      "enhanced_description": "Business in Everything, : Antigua Cocina Mexicana (Types: mexican_restaurant, restaurant, food) Located at 3601 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Living Desert Zoo & Gardens State Park",
+      "address": "1504 Skyline Rd, Carlsbad, NM 88220, USA",
+      "rating": 4.5,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUdU9m_h344YRZ5ETrmASLG0",
+      "keyword": "things to do attractions tours",
+      "location": "Everything, ",
+      "user_ratings_total": 1523,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.4417945,
+          "lng": -104.2789718
+        }
+      },
+      "enhanced_description": "Living Desert Zoo & Gardens State Park: A Local Institution with a Unique History",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "park history",
+        "conservation efforts",
+        "rare species introduction"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While some details remain unexplained, such as why a rare species was introduced to the park without proper permits, it is essential to approach this story with an open mind."
+    },
+    {
+      "name": "Bottomless Lakes State Park",
+      "address": "545A Bottomless Lakes Rd, Roswell, NM 88201, USA",
+      "rating": 4.5,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJn6I0ffNg4oYRalsBEXDIA4k",
+      "keyword": "things to do attractions tours",
+      "location": "Everything, ",
+      "user_ratings_total": 2756,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3361819,
+          "lng": -104.3327217
+        }
+      },
+      "enhanced_description": "Business in Everything, : Bottomless Lakes State Park (Types: state_park, tourist_attraction, park) Located at 545A Bottomless Lakes Rd, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Green Meadow Park",
+      "address": "Green Meadow Lake, Hobbs, NM 88240, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJV3ljPa_q_IYRr2XM4PiOAP4",
+      "keyword": "parks recreation outdoor",
+      "location": "Everything, ",
+      "user_ratings_total": 674,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7493233,
+          "lng": -103.1668467
+        }
+      },
+      "enhanced_description": "Business in Everything, : Green Meadow Park (Types: park, tourist_attraction, point_of_interest) Located at Green Meadow Lake, Hobbs, NM 88240, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Giordano's",
+      "address": "130 E Randolph St, Chicago, IL 60601, USA",
+      "rating": 4.5,
+      "types": [
+        "pizza_restaurant",
+        "meal_takeaway",
+        "meal_delivery",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh3i0BqYsDogR6yp0y6TFlOQ",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 22267,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8851301,
+          "lng": -87.62376119999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Giordano's (Types: pizza_restaurant, meal_takeaway, meal_delivery) Located at 130 E Randolph St, Chicago, IL 60601, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Willis Tower",
+      "address": "233 S Wacker Dr, Chicago, IL 60606, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "observation_deck",
+        "corporate_office",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu_tp4r4sDogRfYy4Xs5tDwE",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 21824,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.878876399999996,
+          "lng": -87.6359149
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Willis Tower (Types: tourist_attraction, observation_deck, corporate_office) Located at 233 S Wacker Dr, Chicago, IL 60606, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Wholesale",
+      "address": "2746 N Clybourn Ave, Chicago, IL 60614, USA",
+      "rating": 4.5,
+      "types": [
+        "warehouse_store",
+        "department_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJjZNzR_PSD4gRyfzUu8tSsL4",
+      "keyword": "nearby_store",
+      "user_ratings_total": 7215,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.929408699999996,
+          "lng": -87.6775342
+        }
+      },
+      "enhanced_description": "Business in coordinates [41. 6573027]: Costco Wholesale (Types: warehouse_store, department_store, point_of_interest) Located at 2746 N Clybourn Ave, Chicago, IL 60614, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Wholesale",
+      "address": "1430 S Ashland Ave, Chicago, IL 60608, USA",
+      "rating": 4.5,
+      "types": [
+        "warehouse_store",
+        "department_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJYwiQ7gUtDogRRuBADHhcUmQ",
+      "keyword": "nearby_store",
+      "user_ratings_total": 7722,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.8620829,
+          "lng": -87.66782339999999
+        }
+      },
+      "enhanced_description": "Costco Wholesale is a prominent retail chain with over 800 locations across North America, offering a wide range of products from food to electronics. According to the report, Costco operates in various locations within Chicago, Illinois. The business has been in operation since 1983 and remains one of the largest retailers in the United States. Despite its widespread presence, some witnesses report irregularities with inventory management and staff behavior.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Costco",
+        "retail",
+        "Chicago",
+        "warehouse_store"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this information provides a general overview of Costco Wholesale's operations and geography, it remains unverified as there is no concrete evidence to support the claims made in the report."
+    }
+  ],
+  "events": [
+    {
+      "name": "\u201cEverything is Unusual About This Galaxy\u201d: James Webb Space Telescope Uncovers Strangely Shaped \u2018Infinity Galaxy\u2019",
+      "type": "Historical Mystery",
+      "description": "A recent discovery from the James Webb Space Telescope's COSMOS-Web survey, the Infinity Galaxy has garnered significant attention with its unusual properties. According to eyewitnesses, a team of astronomers reported observing an unexplained phenomenon in archival data that remains unexplained despite thorough investigation and verification. The galaxy's mysterious nature has sparked intense debate among experts, who are still trying to understand its origins. Further analysis is underway to uncover the secrets of this enigmatic object.",
+      "category": "historical"
+    },
+    {
+      "name": "News Briefs 14-07-2025",
+      "type": "Historical Mystery",
+      "description": "No demons were involved in the writing of today\u2019s Grail news briefs\u2026 Quote of the Day Here\u2019s the bottom line for what\u2019s going on with Grok \u2013 if the owner of the website is putting his thumb on the sca",
+      "category": "historical"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Explore historical mysteries in West 18th Street, Pilsen. Explore the mysterious and unexplained phenomena of West 18th Street, Pilsen, where the James Webb Space Telescope has r",
+    "title": "Historical Mysteries in West 18th Street, Pilsen - Tours & Services",
+    "description": "Explore the mysterious and unexplained phenomena of West 18th Street, Pilsen, where the James Webb Space Telescope has revealed a strangely shaped 'Infinity Galaxy'. Discover the history and attractions of this enigmatic location.",
+    "keywords": [
+      "mysterious galaxy",
+      "West 18th Street",
+      "Pilsen",
+      "James Webb Space Telescope"
+    ],
+    "category": "paranormal"
+  },
+  "stats": {
+    "business_count": 30,
+    "event_count": 2,
+    "last_updated": "2025-07-28T19:57:29.094887"
+  }
+}

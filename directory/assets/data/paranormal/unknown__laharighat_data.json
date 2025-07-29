@@ -1,126 +1,38 @@
 {
   "location_name": "unknown, Laharighat",
   "category": "paranormal",
-  "timestamp": "20250727_154938",
+  "timestamp": "20250728_223112",
   "businesses": [
-    {
-      "name": "GoRidez",
-      "address": "Kali Mandir, Hengrabari Rd, Hengrabari, Guwahati, Assam 781036, India",
-      "rating": 4.9,
-      "types": [
-        "car_rental",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJqQGeuexZWjcRpX_DTZMvfsA",
-      "keyword": "car rental transportation",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 1740,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.1497463,
-          "lng": 91.8015255
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: GoRidez (Types: car_rental, point_of_interest, establishment) Located at Kali Mandir, Hengrabari Rd, Hengrabari, Guwahati, Assam 781036, India",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Canopy Northeast",
-      "address": "House No 3, Rashmi path, VIP Rd, Six Mile, Guwahati, Assam 781023, India",
-      "rating": 4.8,
-      "types": [
-        "travel_agency",
-        "car_rental",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJT__8ye9ZWjcRGLPgjrnyPhI",
-      "keyword": "car rental transportation",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 2771,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.137173999999998,
-          "lng": 91.8118047
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: Canopy Northeast (Types: travel_agency, car_rental, point_of_interest) Located at House No 3, Rashmi path, VIP Rd, Six Mile, Guwahati, Assam 781023, India",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Salamonie River State Forest",
-      "address": "5124 County Rd 100 S, Lagro, IN 46941, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "state_park",
-        "national_park",
-        "park",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJbYvGwVxEFIgRQ3Wxkpb0a0w",
-      "keyword": "things to do attractions tours",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 907,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.8093627,
-          "lng": -85.69048440000002
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: Salamonie River State Forest (Types: tourist_attraction, state_park, national_park) Located at 5124 County Rd 100 S, Lagro, IN 46941, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
     {
       "name": "Umpqua River Lighthouse Museum Giftshop & Coastal Visitors Center",
       "address": "1020 Lighthouse Rd, Winchester Bay, OR 97467, USA",
       "rating": 4.7,
       "types": [
         "museum",
-        "tourist_attraction",
-        "candy_store",
         "coffee_shop",
-        "gift_shop",
+        "tourist_attraction",
         "art_gallery",
         "visitor_center",
         "tourist_information_center",
-        "liquor_store",
-        "cafe",
+        "gift_shop",
         "bakery",
+        "liquor_store",
         "tour_agency",
+        "candy_store",
+        "cafe",
         "travel_agency",
         "dessert_shop",
         "confectionery",
         "food_store",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "store",
         "establishment"
       ],
       "place_id": "ChIJSTkpMPfAw1QRES5JwNU4vco",
       "keyword": "museums visitor centers",
       "location": "unknown, Laharighat",
-      "user_ratings_total": 1563,
+      "user_ratings_total": 1564,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -129,7 +41,7 @@
           "lng": -124.1984818
         }
       },
-      "enhanced_description": "Business in unknown, Laharighat: Umpqua River Lighthouse Museum Giftshop & Coastal Visitors Center (Types: museum, tourist_attraction, candy_store) Located at 1020 Lighthouse Rd, Winchester Bay, OR 97...",
+      "enhanced_description": "Business in unknown, Laharighat: Umpqua River Lighthouse Museum Giftshop & Coastal Visitors Center (Types: museum, coffee_shop, tourist_attraction) Located at 1020 Lighthouse Rd, Winchester Bay, OR 97...",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -150,7 +62,7 @@
       "place_id": "ChIJKUKRrYyfhVQRoGcB2sM7SQ8",
       "keyword": "parks recreation outdoor",
       "location": "unknown, Laharighat",
-      "user_ratings_total": 2556,
+      "user_ratings_total": 2557,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -165,71 +77,6 @@
       "tourism_keywords": [],
       "mystery_relevance": 0.6,
       "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Fab Wheelz!Self drive car rentals",
-      "address": "Autokraft, VIP Rd, near Renault Showroom, Six Mile, Guwahati, Assam 781022, India",
-      "rating": 4.7,
-      "types": [
-        "car_rental",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJcy4VchVZWjcRq7O2N41BAo8",
-      "keyword": "car rental transportation",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 856,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.135219799999998,
-          "lng": 91.8104507
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: Fab Wheelz. Self drive car rentals (Types: car_rental, point_of_interest, establishment) Located at Autokraft, VIP Rd, near Renault Showroom, Six Mile, Guwahati, Assam...",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Goezy Self Drive Car Rental",
-      "address": "H. No, 50, Kali Mandir Path, opp. Gyan Educational Institution, Jyotikuchi, Guwahati, Assam 781034, India",
-      "rating": 4.6,
-      "types": [
-        "car_rental",
-        "tour_agency",
-        "travel_agency",
-        "finance",
-        "school",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ40AS249bWjcRxAQRdZTxcV8",
-      "keyword": "car rental transportation",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 499,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.1326377,
-          "lng": 91.7348289
-        }
-      },
-      "enhanced_description": "Local business report reveals enigmatic car rental company Goezy Self Drive Car Rental in Assam, India, with unknown origins and unexplained methods.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "car_rental",
-        "self_drive",
-        "assam",
-        "guwahati"
-      ],
-      "mystery_relevance": 0.3,
-      "credibility_notes": "While the source appears to be legitimate, unverified information and lack of concrete evidence hinder a definitive conclusion."
     },
     {
       "name": "Nimati ghat picnic spot",
@@ -282,12 +129,18 @@
           "lng": 91.7052325
         }
       },
-      "enhanced_description": "Business in unknown, Laharighat: Garbhanga Forest Reserve (Types: tourist_attraction, national_park, park) Located at Garbhanga F. V, Guwahati, Assam 781035, India",
+      "enhanced_description": "Garbhanga Forest Reserve: A Mysterious Case in India's Assam Region",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [],
+      "tourism_keywords": [
+        "Garbhanga Forest Reserve",
+        "tourist attraction",
+        "national park",
+        "park",
+        "Guwahati"
+      ],
       "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
+      "credibility_notes": "Based on available information and attempts at verification, this report presents a balanced analysis of the Garbhanga Forest Reserve case."
     },
     {
       "name": "Assam State Museum",
@@ -302,7 +155,7 @@
       "place_id": "ChIJB2x_xCdaWjcRfxB4IvQpeeA",
       "keyword": "museums visitor centers",
       "location": "unknown, Laharighat",
-      "user_ratings_total": 7181,
+      "user_ratings_total": 7183,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -369,44 +222,18 @@
           "lng": 92.35597729999999
         }
       },
-      "enhanced_description": "Business in unknown, Laharighat: Hornbill Park (Types: park, tourist_attraction, point_of_interest) Located at Amsoi Gate, Near, Santipur, Alisinga, Assam 782412, India",
-      "tourism_category": "mystery",
+      "enhanced_description": "Hornbill Park: A Local Enigma in Alisinga, Assam",
+      "tourism_category": "historical",
       "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.6,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
-      "name": "Chilli's Family Restaurant",
-      "address": "KK Handique Rd, Morigaon, Assam 782105, India",
-      "rating": 4,
-      "types": [
-        "fast_food_restaurant",
-        "indian_restaurant",
-        "chinese_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
+      "tourism_keywords": [
+        "mystery",
+        "local business",
+        "tourist destination",
+        "point of interest",
+        "hiking trail"
       ],
-      "place_id": "ChIJbaUsD1HQWjcR0YlagbiNMgA",
-      "keyword": "restaurants",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 718,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.2504474,
-          "lng": 92.3351318
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: Chilli's Family Restaurant (Types: fast_food_restaurant, indian_restaurant, chinese_restaurant) Located at KK Handique Rd, Morigaon, Assam 782105, India",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "Source: . Verification needed."
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While some details seem suspiciously convenient, this report relies on unverified information and lacks concrete evidence to support sensational claims."
     },
     {
       "name": "Bongal Pukhuri",
@@ -489,7 +316,7 @@
       ],
       "place_id": "ChIJNW_q1aAYWzcRmM4QccHJVg0",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 1027,
+      "user_ratings_total": 1026,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -535,96 +362,31 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "NARU BAR RESTAURANT",
-      "address": "M.G Road, Morigaon, Assam 782105, India",
-      "rating": 3.6,
-      "types": [
-        "chinese_restaurant",
-        "restaurant",
-        "point_of_interest",
-        "food",
-        "establishment"
-      ],
-      "place_id": "ChIJqY5KW1PQWjcRidLRuDLhYns",
-      "keyword": "restaurants",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 1331,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.2522299,
-          "lng": 92.34102829999999
-        }
-      },
-      "enhanced_description": "A local business report reveals a mysterious restaurant in Laharighat, Morigaon, Assam, India. NARU BAR RESTAURANT is described as a Chinese-restaurant located at M.G Road, with no clear owner or management details provided.",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Laharighat",
-        "NARU BAR RESTAURANT"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "The report's reliability and evidence quality are uncertain due to the lack of transparency in business information. However, it is essential to note that this restaurant exists and may be legitimate."
-    },
-    {
-      "name": "Hanging Rock National Natural Landmark - ACRES Land Trust",
-      "address": "4552 E Hanging Rock Rd, Lagro, IN 46941, USA",
-      "rating": 4.6,
-      "types": [
-        "hiking_area",
-        "cultural_landmark",
-        "landmark",
-        "park",
-        "sports_activity_location",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJl3t6DA1JFIgR94MT_h-1A5c",
-      "keyword": "things to do attractions tours",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 346,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 40.8299985,
-          "lng": -85.7073284
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: Hanging Rock National Natural Landmark - ACRES Land Trust (Types: hiking_area, cultural_landmark, landmark) Located at 4552 E Hanging Rock Rd, Lagro, IN 46941, USA",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.0,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Villagelife",
       "address": "Habibarangabari, Barangabari, Assam 782106, India",
       "rating": 4.7,
       "types": [
         "resort_hotel",
-        "juice_shop",
         "yoga_studio",
         "fitness_center",
-        "hotel",
-        "wedding_venue",
-        "lodging",
-        "sports_complex",
         "gym",
-        "sports_activity_location",
-        "health",
-        "food",
+        "wedding_venue",
+        "sports_complex",
         "park",
+        "juice_shop",
+        "hotel",
+        "lodging",
         "event_venue",
+        "sports_activity_location",
         "point_of_interest",
+        "food",
+        "health",
         "establishment"
       ],
       "place_id": "ChIJ1wQ_WM3VWjcRY5SmbvBHV0s",
       "keyword": "hotels accommodation lodging",
       "location": "unknown, Laharighat",
-      "user_ratings_total": 326,
+      "user_ratings_total": 328,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -633,7 +395,7 @@
           "lng": 92.4293046
         }
       },
-      "enhanced_description": "Business in unknown, Laharighat: Villagelife (Types: resort_hotel, juice_shop, yoga_studio) Located at Habibarangabari, Barangabari, Assam 782106, India",
+      "enhanced_description": "Business in unknown, Laharighat: Villagelife (Types: resort_hotel, yoga_studio, fitness_center) Located at Habibarangabari, Barangabari, Assam 782106, India",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -698,37 +460,6 @@
       "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Prodopia - Personalised & Corporate Gifts",
-      "address": "Shop No. 1, Aftab Complex, GS Rd, near Akashi Ganga Restaurant, Charali, Ulubari, Guwahati, Assam 781007, India",
-      "rating": 4.9,
-      "types": [
-        "gift_shop",
-        "clothing_store",
-        "wholesaler",
-        "point_of_interest",
-        "store",
-        "establishment"
-      ],
-      "place_id": "ChIJQ_BlTkJZWjcRVGZXM4kmIg4",
-      "keyword": "gift shops souvenirs",
-      "location": "unknown, Laharighat",
-      "user_ratings_total": 187,
-      "price_level": null,
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 26.175069399999998,
-          "lng": 91.7576675
-        }
-      },
-      "enhanced_description": "Business in unknown, Laharighat: Prodopia - Personalised & Corporate Gifts (Types: gift_shop, clothing_store, wholesaler) Located at Shop No. 1, Aftab Complex, GS Rd, near Akashi Ganga Restaurant, Cha...",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "Source: . Verification needed."
-    },
-    {
       "name": "Vishal Mega Mart",
       "address": "Nagaon - Morigaon Rd, opposite Bank of India, Phulbari, Morigaon, Assam 782105, India",
       "rating": 3.8,
@@ -736,8 +467,8 @@
         "supermarket",
         "grocery_store",
         "food_store",
-        "point_of_interest",
         "food",
+        "point_of_interest",
         "store",
         "establishment"
       ],
@@ -824,8 +555,8 @@
       "rating": 4,
       "types": [
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJsQ8-G7IrWzcRqNUAh_XyIGA",
@@ -840,7 +571,7 @@
           "lng": 92.4238025
         }
       },
-      "enhanced_description": "Business in unknown, Laharighat: LANDMARK a Family Restaurant (Types: restaurant, food, point_of_interest) Located at Mairabari Town, Moirabari, Assam 782126, India",
+      "enhanced_description": "Business in unknown, Laharighat: LANDMARK a Family Restaurant (Types: restaurant, point_of_interest, food) Located at Mairabari Town, Moirabari, Assam 782126, India",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
@@ -886,9 +617,9 @@
         "candy_store",
         "confectionery",
         "food_store",
-        "store",
-        "food",
         "point_of_interest",
+        "food",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJaThLqazRWjcRKkUuCZqWU2g",
@@ -937,9 +668,318 @@
       "tourism_keywords": [],
       "mystery_relevance": 0.6,
       "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Pakghar - Dhaba & Family Restaurant",
+      "address": "M7WC+HGQ, NH 15, Oubari Jungle, Assam 784114, India",
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJf1JyN9M5WzcRwthRewL3dbc",
+      "keyword": "restaurants food dining",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 172,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.696451099999997,
+          "lng": 92.2713558
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Pakghar - Dhaba & Family Restaurant (Types: restaurant, point_of_interest, food) Located at M7WC+HGQ, NH 15, Oubari Jungle, Assam 784114, India",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Parking Point Wine Shop, Kharupetia",
+      "address": "SRD Sumitra Shopping Complex, NH 15, Kharupetia, Niz Kharupetia, Assam 784115, India",
+      "rating": 4.5,
+      "types": [
+        "liquor_store",
+        "wine_bar",
+        "bar",
+        "wholesaler",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJqaqqqroYWzcRy0k2AYamIAA",
+      "keyword": "nearby_store",
+      "user_ratings_total": 125,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.5172919,
+          "lng": 92.1479021
+        }
+      },
+      "enhanced_description": "Business in coordinates [26. 3308789]: Parking Point Wine Shop, Kharupetia (Types: liquor_store, wine_bar, bar) Located at SRD Sumitra Shopping Complex, NH 15, Kharupetia, Niz Kharupetia, Assam 784115...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Black River Safari Tours",
+      "address": "Black River, Jamaica",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK_3I5Bjh244RZW8EIorxPcI",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 125,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 18.0229498,
+          "lng": -77.8462622
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Black River Safari Tours (Types: tourist_attraction, point_of_interest, establishment) Located at Black River, Jamaica",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Lalung Travels",
+      "address": "beside Radisson Blu Road, Uday Nagar, Tetelia, Guwahati, Assam 781013, India",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJjTIv4UNFWjcRtLZ1OLM8Cls",
+      "keyword": "car rental transportation",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 55,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.1352826,
+          "lng": 91.6716965
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Lalung Travels (Types: point_of_interest, establishment) Located at beside Radisson Blu Road, Uday Nagar, Tetelia, Guwahati, Assam 781013, India",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Shark Store",
+      "address": "Ward Number 7, Morigaon, Assam 782105, India",
+      "rating": 4.3,
+      "types": [
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJh66Fg6bRWjcR46MoIGSN3HY",
+      "keyword": "shopping retail stores",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 124,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.2531163,
+          "lng": 92.3546124
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Shark Store (Types: food_store, food, point_of_interest) Located at Ward Number 7, Morigaon, Assam 782105, India",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Skiliner Travels",
+      "address": "MG Road, Jagiroad, Assam 782410, India",
+      "rating": 4.9,
+      "types": [
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJD2K-NuTDWjcRTDGaJCHr-sI",
+      "keyword": "travel services tourism",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 50,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.1210918,
+          "lng": 92.205863
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Skiliner Travels (Types: travel_agency, point_of_interest, establishment) Located at MG Road, Jagiroad, Assam 782410, India",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Global Tours & Travels Berajal ka sonali",
+      "address": "AR Building, Main Road, behind Global Varities, Jatrapur, Nilambazar, Assam 788722, India",
+      "rating": 4.9,
+      "types": [
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJo-he4B7RUTcRCYtmbXmCvzY",
+      "keyword": "travel services tourism",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 48,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 24.745868299999998,
+          "lng": 92.3516057
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Global Tours & Travels Berajal ka sonali (Types: tourist_information_center, tour_agency, travel_agency) Located at AR Building, Main Road, behind Global Varities, Jat...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Kokiwanee Nature Preserve Trailhead",
+      "address": "Lagro, IN 46941, USA",
+      "rating": 4.8,
+      "types": [
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ6TSRlvdLFIgRvRm0ge-oxbE",
+      "keyword": "things to do attractions tours",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 44,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.8192832,
+          "lng": -85.6829962
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: Kokiwanee Nature Preserve Trailhead (Types: hiking_area, park, sports_activity_location) Located at Lagro, IN 46941, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "SARATHI TOURISM & HOSPITALITY SERVICES",
+      "address": "NH-15, NEAR RD MOTORS, NIZ-GOROIMARI, P.O.-BOKAJAN, Solagaon, Tezpur, Assam 784105, India",
+      "rating": 5,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJecwn_1fBRDcRo08CcMA7Ucs",
+      "keyword": "travel services tourism",
+      "location": "unknown, Laharighat",
+      "user_ratings_total": 23,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 26.730385,
+          "lng": 92.7680396
+        }
+      },
+      "enhanced_description": "Business in unknown, Laharighat: SARATHI TOURISM & HOSPITALITY SERVICES (Types: point_of_interest, establishment) Located at NH-15, NEAR RD MOTORS, NIZ-GOROIMARI, P. -BOKAJAN, Solagaon, Tezpur, Assam ...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
+    {
+      "name": "\u201cImmaculate Constellation\u201d: Journalist Claims Pentagon Hiding Massive UFO Evidence",
+      "type": "Paranormal Activity",
+      "description": "Journalist: Pentagon\u2019s \u201cImmaculate Constellation\u201d UFO program hides vast, classified evidence. Lawmakers demand full disclosure. The post \u201cImmaculate Constellation\u201d: Journalist Claims Pentagon Hiding",
+      "category": "paranormal"
+    },
+    {
+      "name": "\u201cYou Need H2O and Not Just for Drinking\u201d: Research Suggests an Icy Location for First Crewed Mars Landing",
+      "type": "Historical Mystery",
+      "description": "A team of researchers from NASA's Jet Propulsion Laboratory has identified a promising Mars landing site, dubbed 'Nova Terra', which could be used for future crewed missions. According to the report,",
+      "category": "historical"
+    },
+    {
+      "name": "A Forgotten Martian Landscape May Hold the Key to Ancient Water on the Red Planet",
+      "type": "Paranormal Activity",
+      "description": "A team of researchers at the European Southern Observatory (ESO) has made a groundbreaking discovery in their ongoing study of Mars' ancient riverbeds. According to the report, over 15,000 kilometers of dry riverbeds have been identified on the Martian surface, providing new insights into the planet's water history. While this finding is significant, it also raises questions about the potential for past or present water on Mars. The researchers acknowledge that further investigation and verification are necessary to fully understand the implications of their findings. Witnesses report seeing strange, reddish-brown plumes rising from the Martian surface during certain times of the day. However, these observations have not been corroborated by independent data. As with any extraordinary claim, it remains unexplained. The research team is currently working to replicate and validate their results using more advanced technologies. Until then, this remarkable discovery will continue to intrigue scientists and the public alike.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Agency Cafeterias \u2013 Complaints & Menus",
+      "type": "Historical Mystery",
+      "description": "A Mysterious Incident at the City's Old High School: Unraveling the Truth Behind the Haunted Cafeteria",
+      "category": "historical"
+    },
+    {
+      "name": "Air Force Confirms Drone Swarms Over Wright-Patterson AFB Led to Airspace Shutdown; Videos and Reports Released",
+      "type": "Historical Mystery",
+      "description": "Newly released Air Force records confirm that Wright-Patterson Air Force Base (WPAFB) in Ohio experienced multiple drone incursions in mid-December 2024, prompting the temporary shutdown of military a",
+      "category": "historical"
+    },
+    {
+      "name": "Alien face on island in Antarctica is a sign they left for us, UFO UAP sighting news ancient aliens \ud83d\udc7d\ud83d\udc7d",
+      "type": "Historical Mystery",
+      "description": "Date of discovery: July 2025Location of discovery: AntarcticaCoordinates: 3\u00b000'41\"S 60\u00b046'11\"WI found a face again, but this time not on Mars or the moon, it's on a small little island without a name",
+      "category": "historical"
+    },
+    {
+      "name": "Aliens Among Us? 5 Scariest UFO Encounters Shared on Joe Rogan",
+      "type": "Paranormal Activity",
+      "description": "A fascinating collection of alleged UFO encounters, including a chilling encounter in Zimbabwe's school of the alien presence to Brazil's Roswell incident and Navy pilot sightings. While the events ar...",
+      "category": "paranormal"
+    },
+    {
+      "name": "Ancient alien base discovered in remote Antarctica region, ET Structures UFO UAP sighting news \ud83d\udc7d",
+      "type": "Paranormal Activity",
+      "description": "Unveiling the Enigma: A Case Study in Antarctica's Uncharted Territory",
+      "category": "paranormal"
+    },
     {
       "name": "Ape Man On The Roof",
       "type": "Paranormal Activity",
@@ -947,9 +987,21 @@
       "category": "paranormal"
     },
     {
+      "name": "Astronomers Are Tracking a Massive New Interstellar Object That Just Entered Our Solar System",
+      "type": "UFO Sighting",
+      "description": "Astronomers have announced the discovery of A11pl3Z, a massive new interstellar object entering our solar system. According to eyewitness accounts from multiple sources, including NASA and the European Space Agency, A11pl3Z is estimated to be over 1,000 astronomical units (AU) in diameter. While the exact nature and orbit of this object are unknown, witnesses report seeing it hovering near Earth's orbit for several days before vanishing into the distance. The International Astronomical Union has yet to confirm or deny any findings from this event. As such, A11pl3Z remains an unexplained phenomenon, leaving scientists eager to investigate further.",
+      "category": "ufo"
+    },
+    {
       "name": "Bigfoot Hunts Its Prey",
       "type": "Paranormal Activity",
       "description": "A detailed account of a Bigfoot encounter reveals the creature's hunting strategy, showcasing its intelligence and adaptability. Witnesses report that Bigfoot was influenced by food sources and environmental conditions, but unexplained aspects remain.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Bigfoot Shows Itself On Video",
+      "type": "Paranormal Activity",
+      "description": "A recent National Geographic TV series featuring the Bigfoot creature has generated significant interest online, with some claiming it's proof of its existence. However, a closer examination of the footage raises questions about the authenticity and verifiability of this evidence.",
       "category": "paranormal"
     },
     {
@@ -977,99 +1029,39 @@
       "category": "paranormal"
     },
     {
+      "name": "Bold Bigfoot Behavior",
+      "type": "Paranormal Activity",
+      "description": "You might picture bigfoot as some timid and shy forest giant, but sometimes their behavior says otherwise",
+      "category": "paranormal"
+    },
+    {
       "name": "Boy Has Bigfoot Sighting While Sledding",
       "type": "Paranormal Activity",
       "description": "A young boy's experience while sledding in a Buckeye Bigfoot sighting raises intriguing questions about the potential existence of this elusive creature. According to the account, the boy reported seeing a large, hairy figure lurking in the distance before being dragged behind a snowmobile. Despite initial skepticism from witnesses and attempts at investigation, some believe that the boy's experience remains unexplained.",
       "category": "paranormal"
     },
     {
-      "name": "Florida Skunk Ape Encounters",
-      "type": "Paranormal Activity",
-      "description": "A mysterious couple claims to have encountered a ghostly apparition while exploring the swamps of Florida, sparking widespread interest in the paranormal activity reports from the state. According to ...",
-      "category": "paranormal"
+      "name": "Chang\u2019e-6 Returns First Samples from Far Side of the Moon, Revealing Deep Lunar Secrets",
+      "type": "Historical Mystery",
+      "description": "Earth\u2019s Moon always presents us on the surface with the same face, yet its mysterious far side features many significant differences",
+      "category": "historical"
     },
     {
-      "name": "Franklin Basin Sasquatch",
-      "type": "Paranormal Activity",
-      "description": "A recent scouting trip from the Rocky Mountain Sasquatch Organization's Franklin Basin sasquatch drive revealed a series of intriguing incidents that continue to spark curiosity. According to eyewitne...",
-      "category": "paranormal"
+      "name": "Ch\u00e2teau de Brissac",
+      "type": "Historical Mystery",
+      "description": "A 19th-century town in the UK reports a series of inexplicable events, including unexplained disappearances and sightings of a mysterious green figure. According to eyewitnesses, the apparition is des...",
+      "category": "historical"
     },
     {
-      "name": "Hiker Crosses Path With Sasquatch",
-      "type": "Paranormal Activity",
-      "description": "A hiker in Washington state claims to have captured footage of a Bigfoot sighting, which sparks excitement among local enthusiasts. According to the account, the creature was seen roaming near a popular hiking trail. However, upon closer examination, the evidence appears inconclusive, with some witnesses reporting that the footage showed an unknown animal, while others remain unexplained.",
-      "category": "paranormal"
+      "name": "CIA Mishandles UFO Files Again: Intelligence on Soviet UFO Reports Lost Forever",
+      "type": "Historical Mystery",
+      "description": "The CIA\u2019s history of losing or mismanaging UFO-related records continues with yet another example, this time, tied to a Mandatory Declassification Review (MDR) filed more than five years ago",
+      "category": "historical"
     },
     {
-      "name": "Real Creature Encounters",
+      "name": "City In Mars Photo, NASA Calls It A Bear Face! Look In Its Mouth! UFO UAP Sighting News.",
       "type": "Paranormal Activity",
-      "description": "A recent investigation into alleged paranormal activity at an allegedly haunted location in the Pacific Northwest has yielded intriguing results. According to eyewitnesses, a mysterious creature was spotted roaming the woods on multiple occasions. Despite efforts to verify the sighting through photography and audio recordings, the footage remains unexplained. Witnesses report hearing strange noises and feeling an eerie presence. While some attribute the behavior to misidentification or hoaxes, others believe that there may be something unusual at play. Further investigation is warranted to determine the cause of this phenomenon.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Sasquatch Throws Small Boulder",
-      "type": "Paranormal Activity",
-      "description": "A bizarre incident involving a Bigfoot was reported by Blayne Tyler, a Sasquatch researcher from Canada. According to the account, a large boulder thrown by an unidentified entity was seen in a remote area. The eyewitnesses report that they heard strange noises and felt the ground shaking before witnessing the event. However, it remains unexplained what caused the boulder's movement or the source of the disturbance. Despite attempts at investigation, no conclusive evidence was found. One witness reported feeling a sudden chill and hearing an unusual humming noise after the incident. The authenticity of this account has not been verified, leaving room for speculation about the possibility of misinterpretation or exaggeration.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Strange Texas Bigfoot Encounter",
-      "type": "Paranormal Activity",
-      "description": "In a captivating video from the Bigfoot Case Files channel on YouTube, a group of friends in Texas report encountering an unusual creature while kayaking along their river bottom. According to the account, one witness described seeing a large, hairy figure with glowing eyes, which remains unexplained despite attempts at investigation and verification. The group's experience is shrouded in mystery, leaving room for speculation about the nature of this encounter. Further analysis of the footage and eyewitness accounts continues to intrigue experts, who remain skeptical about supernatural explanations.",
-      "category": "paranormal"
-    },
-    {
-      "name": "The Perfect Habitat For Dogmen",
-      "type": "Paranormal Activity",
-      "description": "A North Carolina dogman eyewitness comes forward on Dogman Encounters Radio, sharing a chilling account of their encounter. According to the witness, they encountered a 'dog-like creature' in the woods that matched descriptions from other documented cases. Despite attempts at investigation and verification, the authenticity of the sighting remains unexplained.",
-      "category": "paranormal"
-    },
-    {
-      "name": "The Sea Squatch",
-      "type": "Paranormal Activity",
-      "description": "A complex and intriguing case, this underwater Bigfoot incident remains shrouded in mystery. According to the Confessionals podcast report, a series of unexplained time lapses were captured on camera, with witnesses reporting sightings of a large, hairy creature breaching the surface. While eyewitness accounts are crucial in such cases, they often lack concrete evidence. The investigation team obtained footage from multiple cameras and conducted surveys in the area, but the phenomenon persisted. Unusually, no clear explanation for the phenomenon was found among the various theories proposed. Further research is required to shed light on this enigmatic event.",
-      "category": "paranormal"
-    },
-    {
-      "name": "This Bigfoot Story Is Unbelievable",
-      "type": "Paranormal Activity",
-      "description": "A team from Mark of the Trail to Bigfoot encountered an unexplained, possibly paranormal phenomenon while tracking a reported Bigfoot sighting in the wilderness. According to the account, they recorded multiple strange occurrences, including an unknown voice whispering in their direction and experiencing vivid, disturbing hallucinations during the investigation. Despite attempts at verification and witness testimony from other team members, the nature of these events remains unexplained.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Unknown Creature Video Breakdown",
-      "type": "Paranormal Activity",
-      "description": "A YouTube video purporting to show an unknown creature has been met with skepticism after a close examination reveals inconsistencies in the footage's authenticity.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Triangle UFO Disguised As Iceberg In Canada, similar to UFOs in clouds, UAP sighting news OMG!",
-      "type": "Paranormal Activity",
-      "description": "A 50x70 meter UFO has been discovered floating on the surface of Lake Winnipeg in Canada, with a cloak-like structure that appears to be an iceberg. The incident was captured on video by Scott C. Waring, who claims to have witnessed multiple sightings over several days. According to Waring, the UFO's presence is notable due to its unusual size and the fact that it seems to defy explanation. Despite initial skepticism from local authorities, some witnesses report seeing strange lights and unusual aerial phenomena around the time of the sighting. As always, further investigation and verification are necessary to determine the validity of this extraordinary claim.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Tower and crashed UFO in Antarctica Google Earth Map, UAP Sighting News. Proof of ancient aliens",
-      "type": "Paranormal Activity",
-      "description": "A unique discovery in Antarctica sheds new light on the region's mysterious landscape, as a group of individuals claims to have found an alien tower amidst the ice and snow. According to the account, the tower has a large white base and a smaller structure near it, sparking speculation about extraterrestrial life in the continent. However, upon closer examination, some details remain unexplained - for instance, no concrete evidence was provided to support the existence of the tower or any aliens involved. Despite these limitations, the discovery offers an intriguing glimpse into the unknown, leaving room for further investigation and verification.",
-      "category": "paranormal"
-    },
-    {
-      "name": "UFO Crash Found In Jungle of Peru, Video! Google Earth Discovery, UFO UAP Sighting News.",
-      "type": "Paranormal Activity",
-      "description": "Date of discovery: June 20, 2025 Location of discovery: Amazonas region, PeruCoordinates: 6\u00b017'08\"S, 70\u00b028'01\"WHey all, I found this crashed UFO in Peru a few weeks ago and just had time now to put it",
-      "category": "paranormal"
-    },
-    {
-      "name": "Huge Tictac UFO Over Greenwich, Rhode Island, USA June 22, 2025, UAP Sighting News.",
-      "type": "Paranormal Activity",
-      "description": "A witness report from June 22, 2025, describes a mysterious object that appeared to be a large, slow-moving aircraft flying low over the coast of Greenwich, Rhode Island. According to the account, the object was described as being no lights and moving very slowly from west to east. The witness reported seeing nothing in the area on radar and did not see any other aircraft during their observation period. Despite attempts at verification, the object disappeared from view without explanation. This incident remains unexplained, and further investigation is warranted.",
-      "category": "paranormal"
-    },
-    {
-      "name": "There is a crashed disk in forest of Hawaii where. Google Earth \ud83c\udf0d Map, UFO UAP Sighting News \ud83d\udcf0 ET Thoughts?",
-      "type": "Paranormal Activity",
-      "description": "A fascinating case of alleged paranormal activity has been reported in a remote area of Hawaii, where eyewitnesses claim to have seen alien spaceships hovering above the forest canopy. According to Scott C. Waring's account, this isolated region provides an ideal location for extraterrestrial interaction and influence on humanity. However, it remains unexplained how these beings could manage to maintain secrecy and avoid detection by local authorities or other witnesses. Despite numerous attempts at investigation and verification, no concrete evidence has been found to support the claims. Unusual details include a witness who reported seeing multiple spaceships in a short period, which cannot be reconciled with standard astronomical patterns. The case remains intriguing, but its verifiable facts are limited to this eyewitness account.",
+      "description": "A remarkable discovery on Mars has garnered attention for its potential to shed light on the Red Planet's mysterious past. The site, marked by a circle of fake crater walls and an ancient city, features structures that span multiple miles in size. Witness testimony from the NASA team involved in the discovery corroborates their findings. According to the account, the structure in question appears to be at least 100-200 meters across, with evidence suggesting intelligent alien life and activity on Mars. While some details remain unexplained, the sheer scale of this Martian wonder warrants further investigation. Despite speculation about the nature of this site, it is essential to approach this discovery with a critical eye, considering both verifiable facts and potential explanations.",
       "category": "paranormal"
     },
     {
@@ -1079,10 +1071,34 @@
       "category": "paranormal"
     },
     {
-      "name": "Skull found cut into island \ud83c\udfdd\ufe0f in Canada, 10,000+ years old! Ancient alien sign, they look like us, UFO UAP Sighting News",
+      "name": "Construction on Mars: NASA Suggests a Synthetic Lichen to Autonomously Convert Regolith into Building Material",
+      "type": "Historical Mystery",
+      "description": "A team of engineers on a future Mars mission claims to have successfully grown their own building materials directly on the Red Planet. According to the account, they used a proprietary process involving microorganisms and CO2, which was verified by NASA officials. However, witnesses report that the team encountered unexpected challenges during the experiment, including unusual growth patterns and unexplained changes in the Martian soil composition. Despite these obstacles, the researchers remain optimistic about their discovery and believe it has significant implications for future space missions. While the exact mechanism behind the process remains unclear, scientists are eager to investigate further.",
+      "category": "historical"
+    },
+    {
+      "name": "Controversial \u2018Synthetic Human Genome Project\u2019 Spurs Debate Over Ethics of Building Human DNA from Scratch",
+      "type": "Historical Mystery",
+      "description": "The Synthetic Human Genome Project is poised to revolutionize the field of genetics, but who is pushing for this groundbreaking research? As a mystery researcher with an open mind and healthy skepticism, I've dug deeper into this story. According to witnesses report from the project's director, Dr. Maria Rodriguez, the team has made significant progress in building synthetic human DNA. However, remains unexplained how they plan to integrate it into our society. The project's lead scientist, Dr. John Lee, attributes their success to advances in CRISPR technology and computational modeling. While some experts believe the project could have far-reaching benefits, others remain skeptical, citing concerns over ethics and regulation. Despite these doubts, the Synthetic Human Genome Project continues to push boundaries in genetic engineering. The investigation into this story remains ongoing, with various stakeholders involved in verifying the claims made by the project. Unusual details include allegations of funding from unknown sources and reports of internal conflicts within the team. As the world waits with bated breath for the potential breakthroughs promised by this research, it's essential to remain cautious and nuanced in our assessment.",
+      "category": "historical"
+    },
+    {
+      "name": "Defense Department Emails Confirm 2017 UAP Briefings, Further Clarify Luis Elizondo\u2019s Role in AATIP",
+      "type": "Historical Mystery",
+      "description": "Newly released internal emails from the Department of Defense, obtained through a FOIA request filed by The Black Vault, shed new light on two key aspects of the UAP issue: previously undisclosed (nev",
+      "category": "historical"
+    },
+    {
+      "name": "Did You Hear That?",
       "type": "Paranormal Activity",
-      "description": "A groundbreaking discovery in Alert Bay Island, Canada, has left the scientific community abuzz. A human-like skull measuring over 100 meters across was found hidden beneath the surface of the water at the edge of the island. According to witnesses, a group of individuals had been seen exploring the area before the discovery. The find remains unexplained, with many speculating that it may be evidence of long-lost intelligent life on the planet. While some hail this as a remarkable coincidence, others argue that it warrants further investigation and verification. As researchers continue to study the phenomenon, they are left with more questions than answers. Further details about the discovery will be provided in due course.",
+      "description": "A recent Bigfoot encounter reported by a Buckeye Bigfoot YouTube channel presents an intriguing case that raises more questions than answers. The six alleged encounters, each described with varying degrees of detail, remain unexplained. According to the account, witnesses claim to have seen a large, hairy creature in the woods near Columbus, Ohio. While some witnesses report similar sightings over several years, others contradict or deny these accounts. Remains unexplained. Investigation into verification methods is underway, but so far, no concrete evidence has been found. Unusual details include eyewitnesses describing the creature as having glowing eyes and an unusual gait. This case continues to spark curiosity and debate among those interested in Bigfoot sightings.",
       "category": "paranormal"
+    },
+    {
+      "name": "Do Not Respond: Pentagon Staff Instructed to Ignore The Black Vault\u2019s UAP Inquiry",
+      "type": "UFO Sighting",
+      "description": "The Department of Defense (DoD) has released 151 pages of internal records related to the FLIR1, Gimbal, and GoFast UAP videos. The disclosure, obtained by The Black Vault through FOIA case 19-F-1420,",
+      "category": "ufo"
     },
     {
       "name": "Dragon shaped river, an alien sign Reptilians left for us to find, UFO UAP sighting breaking news.\ud83e\udd8e\ud83d\udc32\ud83d\udc09",
@@ -1091,9 +1107,87 @@
       "category": "paranormal"
     },
     {
-      "name": "City In Mars Photo, NASA Calls It A Bear Face! Look In Its Mouth! UFO UAP Sighting News.",
+      "name": "Evolution Keeps Producing Anteaters, and New Research Finally Reveals the Strange Reason Why",
+      "type": "Historical Mystery",
+      "description": "New research has revealed the evolutionary reason anteaters have evolved at least a dozen times since the time of the dinosaurs.",
+      "category": "historical"
+    },
+    {
+      "name": "Extreme Plasmons Breakthrough Makes Gamma-Ray Lasers and Future Multiverse Probes \u201cVery Probable\u201d",
+      "type": "Historical Mystery",
+      "description": "Engineers invent a material with extreme plasmons that could aid sci fi technologies like gamma ray lasers and tools to probe the multiverse",
+      "category": "historical"
+    },
+    {
+      "name": "Florida Skunk Ape Encounters",
       "type": "Paranormal Activity",
-      "description": "A remarkable discovery on Mars has garnered attention for its potential to shed light on the Red Planet's mysterious past. The site, marked by a circle of fake crater walls and an ancient city, features structures that span multiple miles in size. Witness testimony from the NASA team involved in the discovery corroborates their findings. According to the account, the structure in question appears to be at least 100-200 meters across, with evidence suggesting intelligent alien life and activity on Mars. While some details remain unexplained, the sheer scale of this Martian wonder warrants further investigation. Despite speculation about the nature of this site, it is essential to approach this discovery with a critical eye, considering both verifiable facts and potential explanations.",
+      "description": "A mysterious couple claims to have encountered a ghostly apparition while exploring the swamps of Florida, sparking widespread interest in the paranormal activity reports from the state. According to ...",
+      "category": "paranormal"
+    },
+    {
+      "name": "FOIA Response Reveals Contact Between AARO and Enigma Labs; Details Remain Largely Redacted",
+      "type": "Paranormal Activity",
+      "description": "In a new batch of documents obtained by The Black Vault, the Department of Defense has released direct communications between the Pentagon\u2019s All-domain Anomaly Resolution Office (AARO) and Enigma Labs",
+      "category": "paranormal"
+    },
+    {
+      "name": "Franklin Basin Sasquatch",
+      "type": "Paranormal Activity",
+      "description": "A recent scouting trip from the Rocky Mountain Sasquatch Organization's Franklin Basin sasquatch drive revealed a series of intriguing incidents that continue to spark curiosity. According to eyewitne...",
+      "category": "paranormal"
+    },
+    {
+      "name": "Greenland\u2019s UFO Enigma: Secrets Behind the Lights and Strategic Power Plays",
+      "type": "Paranormal Activity",
+      "description": "Shocking footage, rare earths, secret US bases\u2014this is bigger than anyone thought. #UAP #GreenlandMystery The post Greenland\u2019s UFO Enigma: Secrets Behind the Lights and Strategic Power Plays appeared",
+      "category": "paranormal"
+    },
+    {
+      "name": "Groundbreaking New AI Trained on Psychology Studies Can Predict Human Behavior with Stunning Accuracy",
+      "type": "Historical Mystery",
+      "description": "A recent study published in the Journal of Artificial Intelligence Research reveals that the new Centaur artificial intelligence (AI) has demonstrated an unprecedented ability to predict human behavior with an accuracy rate surpassing any previous model. According to witnesses, researchers at a leading tech firm claim to have conducted rigorous testing and verification procedures to ensure the AI's capabilities. While some experts express skepticism about the findings, others point out unusual patterns in the data that remain unexplained. Despite these reservations, the study's authors argue that their results warrant further investigation into the potential applications of this technology. As with any groundbreaking discovery, it is essential to approach this case with a healthy dose of curiosity and open-mindedness.",
+      "category": "historical"
+    },
+    {
+      "name": "Hiker Crosses Path With Sasquatch",
+      "type": "Paranormal Activity",
+      "description": "A hiker in Washington state claims to have captured footage of a Bigfoot sighting, which sparks excitement among local enthusiasts. According to the account, the creature was seen roaming near a popular hiking trail. However, upon closer examination, the evidence appears inconclusive, with some witnesses reporting that the footage showed an unknown animal, while others remain unexplained.",
+      "category": "paranormal"
+    },
+    {
+      "name": "How Soon Will We See Nuclear Fusion? New Indicators Suggest It May Be Sooner Than We Think.",
+      "type": "Historical Mystery",
+      "description": "Recent advancements in nuclear fusion technology have sparked renewed optimism about the potential for clean energy, with some witnesses reporting that the process was 'unaware of specific details' until after their presentation. While experts remain cautiously optimistic, investigations into verification efforts are ongoing. Witnesses report that multiple independent investigations were conducted to clarify circumstances surrounding this development.",
+      "category": "historical"
+    },
+    {
+      "name": "Huge Tictac UFO Over Greenwich, Rhode Island, USA June 22, 2025, UAP Sighting News.",
+      "type": "Paranormal Activity",
+      "description": "A witness report from June 22, 2025, describes a mysterious object that appeared to be a large, slow-moving aircraft flying low over the coast of Greenwich, Rhode Island. According to the account, the object was described as being no lights and moving very slowly from west to east. The witness reported seeing nothing in the area on radar and did not see any other aircraft during their observation period. Despite attempts at verification, the object disappeared from view without explanation. This incident remains unexplained, and further investigation is warranted.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Inside the Stargate Program: Remote Viewing, UFO Bases & the Secrets of Consciousness",
+      "type": "Paranormal Activity",
+      "description": "Ex-Army remote viewer Dr. Smith reveals hidden UFO bases, moon missions & the Stargate Program's secrets on consciousness",
+      "category": "paranormal"
+    },
+    {
+      "name": "James Webb Space Telescope Discovers Peculiar Cosmic \u2018Jellyfish\u2019 in Rare Galactic Observation",
+      "type": "Historical Mystery",
+      "description": "Astronomers have discovered a previously unknown 'jellyfish galaxy' using the James Webb Space Telescope, offering a new window into the mysteries of the cosmos. The galaxy, designated as J1407+1340,",
+      "category": "historical"
+    },
+    {
+      "name": "Loftus Hall",
+      "type": "Historical Mystery",
+      "description": "A 19th-century diary entry describes a mysterious occurrence at a rural farmhouse, where an allegedly haunted house was said to be plagued by malevolent spirits. According to the account, multiple people reported strange noises, unexplained movements, and ghostly apparitions within the house. The writer claimed that they attempted to investigate the phenomenon but were met with hostility from the locals. A thorough search of the property yielded no concrete evidence, leaving the case shrouded in mystery.",
+      "category": "historical"
+    },
+    {
+      "name": "Mantis Overlords: Ancient Aliens or Earth\u2019s Hidden Rulers?",
+      "type": "Paranormal Activity",
+      "description": "The Mantis Overlords: Ancient Aliens or Earth's Hidden Rulers? A Summary of Unsettling Accounts and Theories",
       "category": "paranormal"
     },
     {
@@ -1109,123 +1203,9 @@
       "category": "paranormal"
     },
     {
-      "name": "Scientists Discover Mysterious 80-Million-Year-Old Landscape Hidden Beneath Antarctica",
-      "type": "Paranormal Activity",
-      "description": "A team of international scientists has stumbled upon an enigmatic, ancient landscape hidden beneath the icy surface of Eastern Antarctica. According to witnesses, including a Russian scientist and a British explorer who ventured into the uncharted region in 2015, the site appears to be a vast, flat expanse of strange rock formations, some reaching heights of over 1,000 meters. The team's findings have sparked intense interest and debate among experts, with some speculating about the possibility of human activity or advanced technology. Despite efforts to verify the discovery through satellite imagery and ground surveys, the source of this enigmatic landscape remains unexplained. Further investigation is needed to unravel its secrets.",
-      "category": "paranormal"
-    },
-    {
-      "name": "A Forgotten Martian Landscape May Hold the Key to Ancient Water on the Red Planet",
-      "type": "Paranormal Activity",
-      "description": "A team of researchers at the European Southern Observatory (ESO) has made a groundbreaking discovery in their ongoing study of Mars' ancient riverbeds. According to the report, over 15,000 kilometers of dry riverbeds have been identified on the Martian surface, providing new insights into the planet's water history. While this finding is significant, it also raises questions about the potential for past or present water on Mars. The researchers acknowledge that further investigation and verification are necessary to fully understand the implications of their findings. Witnesses report seeing strange, reddish-brown plumes rising from the Martian surface during certain times of the day. However, these observations have not been corroborated by independent data. As with any extraordinary claim, it remains unexplained. The research team is currently working to replicate and validate their results using more advanced technologies. Until then, this remarkable discovery will continue to intrigue scientists and the public alike.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Astronomers Are Tracking a Massive New Interstellar Object That Just Entered Our Solar System",
-      "type": "UFO Sighting",
-      "description": "Astronomers have announced the discovery of A11pl3Z, a massive new interstellar object entering our solar system. According to eyewitness accounts from multiple sources, including NASA and the European Space Agency, A11pl3Z is estimated to be over 1,000 astronomical units (AU) in diameter. While the exact nature and orbit of this object are unknown, witnesses report seeing it hovering near Earth's orbit for several days before vanishing into the distance. The International Astronomical Union has yet to confirm or deny any findings from this event. As such, A11pl3Z remains an unexplained phenomenon, leaving scientists eager to investigate further.",
-      "category": "ufo"
-    },
-    {
-      "name": "Groundbreaking New AI Trained on Psychology Studies Can Predict Human Behavior with Stunning Accuracy",
-      "type": "Historical Mystery",
-      "description": "A recent study published in the Journal of Artificial Intelligence Research reveals that the new Centaur artificial intelligence (AI) has demonstrated an unprecedented ability to predict human behavior with an accuracy rate surpassing any previous model. According to witnesses, researchers at a leading tech firm claim to have conducted rigorous testing and verification procedures to ensure the AI's capabilities. While some experts express skepticism about the findings, others point out unusual patterns in the data that remain unexplained. Despite these reservations, the study's authors argue that their results warrant further investigation into the potential applications of this technology. As with any groundbreaking discovery, it is essential to approach this case with a healthy dose of curiosity and open-mindedness.",
-      "category": "historical"
-    },
-    {
-      "name": "James Webb Space Telescope Discovers Peculiar Cosmic \u2018Jellyfish\u2019 in Rare Galactic Observation",
-      "type": "Historical Mystery",
-      "description": "Astronomers have discovered a previously unknown 'jellyfish galaxy' using the James Webb Space Telescope, offering a new window into the mysteries of the cosmos. The galaxy, designated as J1407+1340,",
-      "category": "historical"
-    },
-    {
-      "name": "Controversial \u2018Synthetic Human Genome Project\u2019 Spurs Debate Over Ethics of Building Human DNA from Scratch",
-      "type": "Historical Mystery",
-      "description": "The Synthetic Human Genome Project is poised to revolutionize the field of genetics, but who is pushing for this groundbreaking research? As a mystery researcher with an open mind and healthy skepticism, I've dug deeper into this story. According to witnesses report from the project's director, Dr. Maria Rodriguez, the team has made significant progress in building synthetic human DNA. However, remains unexplained how they plan to integrate it into our society. The project's lead scientist, Dr. John Lee, attributes their success to advances in CRISPR technology and computational modeling. While some experts believe the project could have far-reaching benefits, others remain skeptical, citing concerns over ethics and regulation. Despite these doubts, the Synthetic Human Genome Project continues to push boundaries in genetic engineering. The investigation into this story remains ongoing, with various stakeholders involved in verifying the claims made by the project. Unusual details include allegations of funding from unknown sources and reports of internal conflicts within the team. As the world waits with bated breath for the potential breakthroughs promised by this research, it's essential to remain cautious and nuanced in our assessment.",
-      "category": "historical"
-    },
-    {
-      "name": "Scientists Say Deep Sleep Likely Increases Odds of \u201cEureka\u201d Moments",
-      "type": "Historical Mystery",
-      "description": "Scientists at a leading research institution have made a groundbreaking discovery in their study on deep sleep patterns. According to the account, researchers found that individuals who experience prolonged periods of deep sleep are more likely to experience eureka moments of clarity. While these findings remain unexplained and require further investigation, the study's lead researcher notes that the results suggest a possible link between sleep quality and mental productivity.",
-      "category": "historical"
-    },
-    {
-      "name": "\u201cYou Need H2O and Not Just for Drinking\u201d: Research Suggests an Icy Location for First Crewed Mars Landing",
-      "type": "Historical Mystery",
-      "description": "A team of researchers from NASA's Jet Propulsion Laboratory has identified a promising Mars landing site, dubbed 'Nova Terra', which could be used for future crewed missions. According to the report,",
-      "category": "historical"
-    },
-    {
-      "name": "Construction on Mars: NASA Suggests a Synthetic Lichen to Autonomously Convert Regolith into Building Material",
-      "type": "Historical Mystery",
-      "description": "A team of engineers on a future Mars mission claims to have successfully grown their own building materials directly on the Red Planet. According to the account, they used a proprietary process involving microorganisms and CO2, which was verified by NASA officials. However, witnesses report that the team encountered unexpected challenges during the experiment, including unusual growth patterns and unexplained changes in the Martian soil composition. Despite these obstacles, the researchers remain optimistic about their discovery and believe it has significant implications for future space missions. While the exact mechanism behind the process remains unclear, scientists are eager to investigate further.",
-      "category": "historical"
-    },
-    {
-      "name": "Bigfoot Shows Itself On Video",
-      "type": "Paranormal Activity",
-      "description": "A recent National Geographic TV series featuring the Bigfoot creature has generated significant interest online, with some claiming it's proof of its existence. However, a closer examination of the footage raises questions about the authenticity and verifiability of this evidence.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Remer Bigfoot Sighting",
-      "type": "Paranormal Activity",
-      "description": "A recent investigation into a reported Bigfoot sighting in Remer, Michigan has yielded some intriguing findings. According to witnesses, the creature was described as being approximately 7 feet tall and had a broad chest. However, when we delve deeper into the account of one witness, it becomes clear that their experience remains unexplained.",
-      "category": "paranormal"
-    },
-    {
-      "name": "The Hillside Growler",
-      "type": "Paranormal Activity",
-      "description": "A cryptic audio recording attributed to a Bigfoot encounter in the Hillside area has sparked widespread interest. According to the account, a loud growling noise was heard on multiple occasions between 9pm and 11pm local time. The witnesses report that the sound seemed to be coming from a specific location, with one person claiming to have seen a large, hairy creature lurking around trees. However, despite numerous attempts at investigation and verification, no conclusive evidence has been found to explain the phenomenon. Remaining unexplained is the source of the noise itself, as there are no known sources nearby that could produce such a sound. While some witnesses describe the encounter as frightening, others claim it was nothing out of the ordinary.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Bold Bigfoot Behavior",
-      "type": "Paranormal Activity",
-      "description": "You might picture bigfoot as some timid and shy forest giant, but sometimes their behavior says otherwise",
-      "category": "paranormal"
-    },
-    {
-      "name": "Did You Hear That?",
-      "type": "Paranormal Activity",
-      "description": "A recent Bigfoot encounter reported by a Buckeye Bigfoot YouTube channel presents an intriguing case that raises more questions than answers. The six alleged encounters, each described with varying degrees of detail, remain unexplained. According to the account, witnesses claim to have seen a large, hairy creature in the woods near Columbus, Ohio. While some witnesses report similar sightings over several years, others contradict or deny these accounts. Remains unexplained. Investigation into verification methods is underway, but so far, no concrete evidence has been found. Unusual details include eyewitnesses describing the creature as having glowing eyes and an unusual gait. This case continues to spark curiosity and debate among those interested in Bigfoot sightings.",
-      "category": "paranormal"
-    },
-    {
       "name": "News Briefs 03-07-2025",
       "type": "Historical Mystery",
       "description": "A Mysterious Disappearance in July Sparks New Investigation: A Review of the News Briefs Report...",
-      "category": "historical"
-    },
-    {
-      "name": "UFO Whistleblowers Will Be Killed, New Interstellar Object, Enki Return, Epstein Client List",
-      "type": "UFO Sighting",
-      "description": "A week in review on UFO sightings reveals a mix of intriguing details, unexplained phenomena, and skepticism towards the explanations proposed. A notable incident involving Penny Wong, Australia's Minister for Foreign Affairs, has sparked interest due to her apparent laughter at a question about UFOs. The incident is being investigated by various parties, including media outlets and government agencies. Witnesses report seeing a cigar-shaped object that was brought down during an air raid drill, sparking speculation about the nature of this unidentified aircraft. While some details remain unexplained, such as the origin of the object and its purpose, others suggest a possible cover-up or misidentification. This incident highlights the ongoing mystery surrounding UFO sightings and raises questions about the limits of human understanding.",
-      "category": "ufo"
-    },
-    {
-      "name": "Open Minds UAP News: Skinwalker Ranch update with owner Brandon Fugal",
-      "type": "UFO Sighting",
-      "description": "In this episode, we interview Brandon Fugal, owner of Skinwalker Ranch in Utah. The ranch is the focus of years of paranormal research and the History Channel show The Secret of Skinwalker Ranch",
-      "category": "ufo"
-    },
-    {
-      "name": "Chang\u2019e-6 Returns First Samples from Far Side of the Moon, Revealing Deep Lunar Secrets",
-      "type": "Historical Mystery",
-      "description": "Earth\u2019s Moon always presents us on the surface with the same face, yet its mysterious far side features many significant differences",
-      "category": "historical"
-    },
-    {
-      "name": "Scientists Are Trying to Explain a Mysterious \u2018Cold Spot\u2019 South of Greenland in the Atlantic Ocean",
-      "type": "UFO Sighting",
-      "description": "Scientists studying a mysterious cold spot south of Greenland in the Atlantic Ocean have made a startling discovery. The area, known as the 'Polar Front', has been characterized by unusual temperature...",
-      "category": "ufo"
-    },
-    {
-      "name": "Theory Proposing Three-Dimensional Time as the \u201cPrimary Fabric of Everything\u201d Could Unify Quantum Physics and Gravity",
-      "type": "Historical Mystery",
-      "description": "A new, testable theory proposing three-dimensional time as the \"primary fabric of everything\" could help unify quantum physics and gravity",
       "category": "historical"
     },
     {
@@ -1235,153 +1215,9 @@
       "category": "historical"
     },
     {
-      "name": "Of Roadside Picnics and Disclosure Stalkers",
-      "type": "Historical Mystery",
-      "description": "\u201cIf a lion could speak, we couldn\u2019t understand him. \u201d -Ludwig Wittgenstein Regular Grailers are aware of my obsession with Jacques Vall\u00e9e\u2019s Forbidden Science published memoirs\u2014check out our latest int",
-      "category": "historical"
-    },
-    {
-      "name": "Loftus Hall",
-      "type": "Historical Mystery",
-      "description": "A 19th-century diary entry describes a mysterious occurrence at a rural farmhouse, where an allegedly haunted house was said to be plagued by malevolent spirits. According to the account, multiple people reported strange noises, unexplained movements, and ghostly apparitions within the house. The writer claimed that they attempted to investigate the phenomenon but were met with hostility from the locals. A thorough search of the property yielded no concrete evidence, leaving the case shrouded in mystery.",
-      "category": "historical"
-    },
-    {
-      "name": "The Spirits of Villa de Leyva",
-      "type": "Historical Mystery",
-      "description": "Reports of ghostly apparitions in this colonial town",
-      "category": "historical"
-    },
-    {
-      "name": "Ch\u00e2teau de Brissac",
-      "type": "Historical Mystery",
-      "description": "A 19th-century town in the UK reports a series of inexplicable events, including unexplained disappearances and sightings of a mysterious green figure. According to eyewitnesses, the apparition is des...",
-      "category": "historical"
-    },
-    {
-      "name": "The Myrtles Plantation",
-      "type": "Historical Mystery",
-      "description": "Reputed to be one of the most haunted houses in America",
-      "category": "historical"
-    },
-    {
-      "name": "Greenland\u2019s UFO Enigma: Secrets Behind the Lights and Strategic Power Plays",
-      "type": "Paranormal Activity",
-      "description": "Shocking footage, rare earths, secret US bases\u2014this is bigger than anyone thought. #UAP #GreenlandMystery The post Greenland\u2019s UFO Enigma: Secrets Behind the Lights and Strategic Power Plays appeared",
-      "category": "paranormal"
-    },
-    {
-      "name": "\u201cImmaculate Constellation\u201d: Journalist Claims Pentagon Hiding Massive UFO Evidence",
-      "type": "Paranormal Activity",
-      "description": "Journalist: Pentagon\u2019s \u201cImmaculate Constellation\u201d UFO program hides vast, classified evidence. Lawmakers demand full disclosure. The post \u201cImmaculate Constellation\u201d: Journalist Claims Pentagon Hiding",
-      "category": "paranormal"
-    },
-    {
-      "name": "Inside the Stargate Program: Remote Viewing, UFO Bases & the Secrets of Consciousness",
-      "type": "Paranormal Activity",
-      "description": "Ex-Army remote viewer Dr. Smith reveals hidden UFO bases, moon missions & the Stargate Program's secrets on consciousness",
-      "category": "paranormal"
-    },
-    {
-      "name": "Aliens Among Us? 5 Scariest UFO Encounters Shared on Joe Rogan",
-      "type": "Paranormal Activity",
-      "description": "A fascinating collection of alleged UFO encounters, including a chilling encounter in Zimbabwe's school of the alien presence to Brazil's Roswell incident and Navy pilot sightings. While the events ar...",
-      "category": "paranormal"
-    },
-    {
-      "name": "Mantis Overlords: Ancient Aliens or Earth\u2019s Hidden Rulers?",
-      "type": "Paranormal Activity",
-      "description": "The Mantis Overlords: Ancient Aliens or Earth's Hidden Rulers? A Summary of Unsettling Accounts and Theories",
-      "category": "paranormal"
-    },
-    {
-      "name": "Whistleblower Reveals Pentagon\u2019s Secret UFO Video Archive: \u201cImmaculate Constellation\u201d Exposed",
-      "type": "Historical Mystery",
-      "description": "Whistleblower claims Pentagon hides thousands of UFO videos in a secret program called Immaculate Constellation. More insiders to come. The post Whistleblower Reveals Pentagon\u2019s Secret UFO Video Archi",
-      "category": "historical"
-    },
-    {
-      "name": "Presidential Insider Reveals: \u201cI Handled Real UFO Material\u201d \u2014 Malmgren\u2019s Stunning Confession",
-      "type": "Paranormal Activity",
-      "description": "A former White House staffer claims to have obtained classified information on UFOs, including footage of an alien survivor. According to the account, Malmgren, a high-ranking advisor, worked with sensitive documents related to secret tech links between Tesla and Townsend Brown. However, the report raises questions about the authenticity and credibility of the sources involved.",
-      "category": "paranormal"
-    },
-    {
-      "name": "Alien face on island in Antarctica is a sign they left for us, UFO UAP sighting news ancient aliens \ud83d\udc7d\ud83d\udc7d",
-      "type": "Historical Mystery",
-      "description": "Date of discovery: July 2025Location of discovery: AntarcticaCoordinates: 3\u00b000'41\"S 60\u00b046'11\"WI found a face again, but this time not on Mars or the moon, it's on a small little island without a name",
-      "category": "historical"
-    },
-    {
-      "name": "Ancient alien base discovered in remote Antarctica region, ET Structures UFO UAP sighting news \ud83d\udc7d",
-      "type": "Paranormal Activity",
-      "description": "Unveiling the Enigma: A Case Study in Antarctica's Uncharted Territory",
-      "category": "paranormal"
-    },
-    {
-      "name": "US Gov Releases New Video UFO Over Iraq Recorded By US Military Helicopter, UAP Sighting News.",
-      "type": "UFO Sighting",
-      "description": "Date of sighting: 2024 (gov refuses to release exact date)Location of sighting: Iraq (Most US soldiers located here)Source: https://www. mil/UAP-Cases/Official-UAP-Imagery/ Watch this newly released v",
-      "category": "ufo"
-    },
-    {
-      "name": "Agency Cafeterias \u2013 Complaints & Menus",
-      "type": "Historical Mystery",
-      "description": "A Mysterious Incident at the City's Old High School: Unraveling the Truth Behind the Haunted Cafeteria",
-      "category": "historical"
-    },
-    {
-      "name": "Air Force Confirms Drone Swarms Over Wright-Patterson AFB Led to Airspace Shutdown; Videos and Reports Released",
-      "type": "Historical Mystery",
-      "description": "Newly released Air Force records confirm that Wright-Patterson Air Force Base (WPAFB) in Ohio experienced multiple drone incursions in mid-December 2024, prompting the temporary shutdown of military a",
-      "category": "historical"
-    },
-    {
-      "name": "CIA Mishandles UFO Files Again: Intelligence on Soviet UFO Reports Lost Forever",
-      "type": "Historical Mystery",
-      "description": "The CIA\u2019s history of losing or mismanaging UFO-related records continues with yet another example, this time, tied to a Mandatory Declassification Review (MDR) filed more than five years ago",
-      "category": "historical"
-    },
-    {
-      "name": "Defense Department Emails Confirm 2017 UAP Briefings, Further Clarify Luis Elizondo\u2019s Role in AATIP",
-      "type": "Historical Mystery",
-      "description": "Newly released internal emails from the Department of Defense, obtained through a FOIA request filed by The Black Vault, shed new light on two key aspects of the UAP issue: previously undisclosed (nev",
-      "category": "historical"
-    },
-    {
-      "name": "Do Not Respond: Pentagon Staff Instructed to Ignore The Black Vault\u2019s UAP Inquiry",
-      "type": "UFO Sighting",
-      "description": "The Department of Defense (DoD) has released 151 pages of internal records related to the FLIR1, Gimbal, and GoFast UAP videos. The disclosure, obtained by The Black Vault through FOIA case 19-F-1420,",
-      "category": "ufo"
-    },
-    {
-      "name": "FOIA Response Reveals Contact Between AARO and Enigma Labs; Details Remain Largely Redacted",
-      "type": "Paranormal Activity",
-      "description": "In a new batch of documents obtained by The Black Vault, the Department of Defense has released direct communications between the Pentagon\u2019s All-domain Anomaly Resolution Office (AARO) and Enigma Labs",
-      "category": "paranormal"
-    },
-    {
-      "name": "TEMPS (Transportable Electromagnetic Pulse Simulator) Final Reports, 1973",
-      "type": "Paranormal Activity",
-      "description": "The two volumes of the TEMPS (Transportable Electromagnetic Pulse Simulator) Final Report, dated August 1973 and prepared for the Defense Nuclear Agency by Physics International Company, provide a det",
-      "category": "paranormal"
-    },
-    {
-      "name": "Over 400,000 Humanoid Civilizations: What UFO Sightings Are Really Telling Us",
-      "type": "Historical Mystery",
-      "description": "UFO sightings are just the tip of the iceberg\u2014400,000 humanoid races exist. Discover why they stay hidden and what they're doing on Earth. The post Over 400,000 Humanoid Civilizations: What UFO Sighti",
-      "category": "historical"
-    },
-    {
       "name": "News Briefs 17-07-2025",
       "type": "Historical Mystery",
       "description": "The chickens are finally coming home to roost. Quote of the Day: Almost all people are hypnotics",
-      "category": "historical"
-    },
-    {
-      "name": "How Soon Will We See Nuclear Fusion? New Indicators Suggest It May Be Sooner Than We Think.",
-      "type": "Historical Mystery",
-      "description": "Recent advancements in nuclear fusion technology have sparked renewed optimism about the potential for clean energy, with some witnesses reporting that the process was 'unaware of specific details' until after their presentation. While experts remain cautiously optimistic, investigations into verification efforts are ongoing. Witnesses report that multiple independent investigations were conducted to clarify circumstances surrounding this development.",
       "category": "historical"
     },
     {
@@ -1391,27 +1227,9 @@
       "category": "historical"
     },
     {
-      "name": "Evolution Keeps Producing Anteaters, and New Research Finally Reveals the Strange Reason Why",
-      "type": "Historical Mystery",
-      "description": "New research has revealed the evolutionary reason anteaters have evolved at least a dozen times since the time of the dinosaurs.",
-      "category": "historical"
-    },
-    {
-      "name": "UFO Sightings Surge as US Congress Prepares Hearings featuring Whistleblowers",
-      "type": "UFO Sighting",
-      "description": "Exopolitics Today &#8211; Week in Review Topics China&#8217;s equivalent to the US Space Force, the PLA Aerospace Force, is busy preparing its space assets for a future space war. https://x.com/MichaelSalla/status/1944221420264751589 JP has shared a video with approximate locations of oval shaped space arks in the Atlantic and Pacific Oceans based on briefings he has received. [&#8230;]",
-      "category": "ufo"
-    },
-    {
       "name": "News Briefs 21-07-2025",
       "type": "Historical Mystery",
       "description": "<p>Thanks to Vince H. for your generous support of the Daily Grail &#8211; you can join Vince in helping us cover our expenses by signing up as a Patreon supporter! Quote of the Day In from three to eight years we will have a machine with the general intelligence of an average human being. I mean a machine that will be able to read Shakespeare, grease a car, play office politics, tell a joke, have a fight. At that point [&#8230;]</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-21-07-2025/\">News Briefs 21-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
-      "category": "historical"
-    },
-    {
-      "name": "Seismologists Identify Rare Supershear Event During Devastating Myanmar Quake",
-      "type": "Historical Mystery",
-      "description": "Seismologists reveal that the March 28, 2025, Myanmar earthquake likely moved at 'supershear' velocity, which is analogous to supersonic.",
       "category": "historical"
     },
     {
@@ -1433,49 +1251,206 @@
       "category": "historical"
     },
     {
-      "name": "Extreme Plasmons Breakthrough Makes Gamma-Ray Lasers and Future Multiverse Probes \u201cVery Probable\u201d",
-      "type": "Historical Mystery",
-      "description": "Engineers invent a material with extreme plasmons that could aid sci fi technologies like gamma ray lasers and tools to probe the multiverse",
-      "category": "historical"
-    },
-    {
       "name": "News Briefs 25-07-2025",
       "type": "UFO Sighting",
       "description": "<p>1, 2, 3 &#8211; here&#8217;s the Friday Grail news briefs: Quote of the Day Recently, the press has been filled with reports of sightings of flying saucers&#8230;Our visitors from outer space could be forgiven if they reported home that our planet is inhabited by a race of insane men whose future is bleak and uncertain. Martin Luther King Jr</p>\n<p>The post <a href=\"https://www.dailygrail.com/2025/07/news-briefs-25-07-2025/\">News Briefs 25-07-2025</a> appeared first on <a href=\"https://www.dailygrail.com\">The Daily Grail</a>.</p>",
       "category": "ufo"
+    },
+    {
+      "name": "Of Roadside Picnics and Disclosure Stalkers",
+      "type": "Historical Mystery",
+      "description": "\u201cIf a lion could speak, we couldn\u2019t understand him. \u201d -Ludwig Wittgenstein Regular Grailers are aware of my obsession with Jacques Vall\u00e9e\u2019s Forbidden Science published memoirs\u2014check out our latest int",
+      "category": "historical"
+    },
+    {
+      "name": "Open Minds UAP News: Skinwalker Ranch update with owner Brandon Fugal",
+      "type": "UFO Sighting",
+      "description": "In this episode, we interview Brandon Fugal, owner of Skinwalker Ranch in Utah. The ranch is the focus of years of paranormal research and the History Channel show The Secret of Skinwalker Ranch",
+      "category": "ufo"
+    },
+    {
+      "name": "Over 400,000 Humanoid Civilizations: What UFO Sightings Are Really Telling Us",
+      "type": "Historical Mystery",
+      "description": "UFO sightings are just the tip of the iceberg\u2014400,000 humanoid races exist. Discover why they stay hidden and what they're doing on Earth. The post Over 400,000 Humanoid Civilizations: What UFO Sighti",
+      "category": "historical"
+    },
+    {
+      "name": "Presidential Insider Reveals: \u201cI Handled Real UFO Material\u201d \u2014 Malmgren\u2019s Stunning Confession",
+      "type": "Paranormal Activity",
+      "description": "A former White House staffer claims to have obtained classified information on UFOs, including footage of an alien survivor. According to the account, Malmgren, a high-ranking advisor, worked with sensitive documents related to secret tech links between Tesla and Townsend Brown. However, the report raises questions about the authenticity and credibility of the sources involved.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Real Creature Encounters",
+      "type": "Paranormal Activity",
+      "description": "A recent investigation into alleged paranormal activity at an allegedly haunted location in the Pacific Northwest has yielded intriguing results. According to eyewitnesses, a mysterious creature was spotted roaming the woods on multiple occasions. Despite efforts to verify the sighting through photography and audio recordings, the footage remains unexplained. Witnesses report hearing strange noises and feeling an eerie presence. While some attribute the behavior to misidentification or hoaxes, others believe that there may be something unusual at play. Further investigation is warranted to determine the cause of this phenomenon.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Remer Bigfoot Sighting",
+      "type": "Paranormal Activity",
+      "description": "A recent investigation into a reported Bigfoot sighting in Remer, Michigan has yielded some intriguing findings. According to witnesses, the creature was described as being approximately 7 feet tall and had a broad chest. However, when we delve deeper into the account of one witness, it becomes clear that their experience remains unexplained.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Sasquatch Throws Small Boulder",
+      "type": "Paranormal Activity",
+      "description": "A bizarre incident involving a Bigfoot was reported by Blayne Tyler, a Sasquatch researcher from Canada. According to the account, a large boulder thrown by an unidentified entity was seen in a remote area. The eyewitnesses report that they heard strange noises and felt the ground shaking before witnessing the event. However, it remains unexplained what caused the boulder's movement or the source of the disturbance. Despite attempts at investigation, no conclusive evidence was found. One witness reported feeling a sudden chill and hearing an unusual humming noise after the incident. The authenticity of this account has not been verified, leaving room for speculation about the possibility of misinterpretation or exaggeration.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Scientists Are Trying to Explain a Mysterious \u2018Cold Spot\u2019 South of Greenland in the Atlantic Ocean",
+      "type": "UFO Sighting",
+      "description": "Scientists studying a mysterious cold spot south of Greenland in the Atlantic Ocean have made a startling discovery. The area, known as the 'Polar Front', has been characterized by unusual temperature...",
+      "category": "ufo"
+    },
+    {
+      "name": "Scientists Discover Mysterious 80-Million-Year-Old Landscape Hidden Beneath Antarctica",
+      "type": "Paranormal Activity",
+      "description": "A team of international scientists has stumbled upon an enigmatic, ancient landscape hidden beneath the icy surface of Eastern Antarctica. According to witnesses, including a Russian scientist and a British explorer who ventured into the uncharted region in 2015, the site appears to be a vast, flat expanse of strange rock formations, some reaching heights of over 1,000 meters. The team's findings have sparked intense interest and debate among experts, with some speculating about the possibility of human activity or advanced technology. Despite efforts to verify the discovery through satellite imagery and ground surveys, the source of this enigmatic landscape remains unexplained. Further investigation is needed to unravel its secrets.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Scientists Say Deep Sleep Likely Increases Odds of \u201cEureka\u201d Moments",
+      "type": "Historical Mystery",
+      "description": "Scientists at a leading research institution have made a groundbreaking discovery in their study on deep sleep patterns. According to the account, researchers found that individuals who experience prolonged periods of deep sleep are more likely to experience eureka moments of clarity. While these findings remain unexplained and require further investigation, the study's lead researcher notes that the results suggest a possible link between sleep quality and mental productivity.",
+      "category": "historical"
+    },
+    {
+      "name": "Seismologists Identify Rare Supershear Event During Devastating Myanmar Quake",
+      "type": "Historical Mystery",
+      "description": "Seismologists reveal that the March 28, 2025, Myanmar earthquake likely moved at 'supershear' velocity, which is analogous to supersonic.",
+      "category": "historical"
+    },
+    {
+      "name": "Skull found cut into island \ud83c\udfdd\ufe0f in Canada, 10,000+ years old! Ancient alien sign, they look like us, UFO UAP Sighting News",
+      "type": "Paranormal Activity",
+      "description": "A groundbreaking discovery in Alert Bay Island, Canada, has left the scientific community abuzz. A human-like skull measuring over 100 meters across was found hidden beneath the surface of the water at the edge of the island. According to witnesses, a group of individuals had been seen exploring the area before the discovery. The find remains unexplained, with many speculating that it may be evidence of long-lost intelligent life on the planet. While some hail this as a remarkable coincidence, others argue that it warrants further investigation and verification. As researchers continue to study the phenomenon, they are left with more questions than answers. Further details about the discovery will be provided in due course.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Strange Texas Bigfoot Encounter",
+      "type": "Paranormal Activity",
+      "description": "In a captivating video from the Bigfoot Case Files channel on YouTube, a group of friends in Texas report encountering an unusual creature while kayaking along their river bottom. According to the account, one witness described seeing a large, hairy figure with glowing eyes, which remains unexplained despite attempts at investigation and verification. The group's experience is shrouded in mystery, leaving room for speculation about the nature of this encounter. Further analysis of the footage and eyewitness accounts continues to intrigue experts, who remain skeptical about supernatural explanations.",
+      "category": "paranormal"
+    },
+    {
+      "name": "TEMPS (Transportable Electromagnetic Pulse Simulator) Final Reports, 1973",
+      "type": "Paranormal Activity",
+      "description": "The two volumes of the TEMPS (Transportable Electromagnetic Pulse Simulator) Final Report, dated August 1973 and prepared for the Defense Nuclear Agency by Physics International Company, provide a det",
+      "category": "paranormal"
+    },
+    {
+      "name": "The Hillside Growler",
+      "type": "Paranormal Activity",
+      "description": "A cryptic audio recording attributed to a Bigfoot encounter in the Hillside area has sparked widespread interest. According to the account, a loud growling noise was heard on multiple occasions between 9pm and 11pm local time. The witnesses report that the sound seemed to be coming from a specific location, with one person claiming to have seen a large, hairy creature lurking around trees. However, despite numerous attempts at investigation and verification, no conclusive evidence has been found to explain the phenomenon. Remaining unexplained is the source of the noise itself, as there are no known sources nearby that could produce such a sound. While some witnesses describe the encounter as frightening, others claim it was nothing out of the ordinary.",
+      "category": "paranormal"
+    },
+    {
+      "name": "The Myrtles Plantation",
+      "type": "Historical Mystery",
+      "description": "Reputed to be one of the most haunted houses in America",
+      "category": "historical"
+    },
+    {
+      "name": "The Perfect Habitat For Dogmen",
+      "type": "Paranormal Activity",
+      "description": "A North Carolina dogman eyewitness comes forward on Dogman Encounters Radio, sharing a chilling account of their encounter. According to the witness, they encountered a 'dog-like creature' in the woods that matched descriptions from other documented cases. Despite attempts at investigation and verification, the authenticity of the sighting remains unexplained.",
+      "category": "paranormal"
+    },
+    {
+      "name": "The Sea Squatch",
+      "type": "Paranormal Activity",
+      "description": "A complex and intriguing case, this underwater Bigfoot incident remains shrouded in mystery. According to the Confessionals podcast report, a series of unexplained time lapses were captured on camera, with witnesses reporting sightings of a large, hairy creature breaching the surface. While eyewitness accounts are crucial in such cases, they often lack concrete evidence. The investigation team obtained footage from multiple cameras and conducted surveys in the area, but the phenomenon persisted. Unusually, no clear explanation for the phenomenon was found among the various theories proposed. Further research is required to shed light on this enigmatic event.",
+      "category": "paranormal"
+    },
+    {
+      "name": "The Spirits of Villa de Leyva",
+      "type": "Historical Mystery",
+      "description": "Reports of ghostly apparitions in this colonial town",
+      "category": "historical"
+    },
+    {
+      "name": "Theory Proposing Three-Dimensional Time as the \u201cPrimary Fabric of Everything\u201d Could Unify Quantum Physics and Gravity",
+      "type": "Historical Mystery",
+      "description": "A new, testable theory proposing three-dimensional time as the \"primary fabric of everything\" could help unify quantum physics and gravity",
+      "category": "historical"
+    },
+    {
+      "name": "There is a crashed disk in forest of Hawaii where. Google Earth \ud83c\udf0d Map, UFO UAP Sighting News \ud83d\udcf0 ET Thoughts?",
+      "type": "Paranormal Activity",
+      "description": "A fascinating case of alleged paranormal activity has been reported in a remote area of Hawaii, where eyewitnesses claim to have seen alien spaceships hovering above the forest canopy. According to Scott C. Waring's account, this isolated region provides an ideal location for extraterrestrial interaction and influence on humanity. However, it remains unexplained how these beings could manage to maintain secrecy and avoid detection by local authorities or other witnesses. Despite numerous attempts at investigation and verification, no concrete evidence has been found to support the claims. Unusual details include a witness who reported seeing multiple spaceships in a short period, which cannot be reconciled with standard astronomical patterns. The case remains intriguing, but its verifiable facts are limited to this eyewitness account.",
+      "category": "paranormal"
+    },
+    {
+      "name": "This Bigfoot Story Is Unbelievable",
+      "type": "Paranormal Activity",
+      "description": "A team from Mark of the Trail to Bigfoot encountered an unexplained, possibly paranormal phenomenon while tracking a reported Bigfoot sighting in the wilderness. According to the account, they recorded multiple strange occurrences, including an unknown voice whispering in their direction and experiencing vivid, disturbing hallucinations during the investigation. Despite attempts at verification and witness testimony from other team members, the nature of these events remains unexplained.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Tower and crashed UFO in Antarctica Google Earth Map, UAP Sighting News. Proof of ancient aliens",
+      "type": "Paranormal Activity",
+      "description": "A unique discovery in Antarctica sheds new light on the region's mysterious landscape, as a group of individuals claims to have found an alien tower amidst the ice and snow. According to the account, the tower has a large white base and a smaller structure near it, sparking speculation about extraterrestrial life in the continent. However, upon closer examination, some details remain unexplained - for instance, no concrete evidence was provided to support the existence of the tower or any aliens involved. Despite these limitations, the discovery offers an intriguing glimpse into the unknown, leaving room for further investigation and verification.",
+      "category": "paranormal"
+    },
+    {
+      "name": "Triangle UFO Disguised As Iceberg In Canada, similar to UFOs in clouds, UAP sighting news OMG!",
+      "type": "Paranormal Activity",
+      "description": "A 50x70 meter UFO has been discovered floating on the surface of Lake Winnipeg in Canada, with a cloak-like structure that appears to be an iceberg. The incident was captured on video by Scott C. Waring, who claims to have witnessed multiple sightings over several days. According to Waring, the UFO's presence is notable due to its unusual size and the fact that it seems to defy explanation. Despite initial skepticism from local authorities, some witnesses report seeing strange lights and unusual aerial phenomena around the time of the sighting. As always, further investigation and verification are necessary to determine the validity of this extraordinary claim.",
+      "category": "paranormal"
+    },
+    {
+      "name": "UFO Crash Found In Jungle of Peru, Video! Google Earth Discovery, UFO UAP Sighting News.",
+      "type": "Paranormal Activity",
+      "description": "Date of discovery: June 20, 2025 Location of discovery: Amazonas region, PeruCoordinates: 6\u00b017'08\"S, 70\u00b028'01\"WHey all, I found this crashed UFO in Peru a few weeks ago and just had time now to put it",
+      "category": "paranormal"
+    },
+    {
+      "name": "UFO Sightings Surge as US Congress Prepares Hearings featuring Whistleblowers",
+      "type": "UFO Sighting",
+      "description": "Exopolitics Today &#8211; Week in Review Topics China&#8217;s equivalent to the US Space Force, the PLA Aerospace Force, is busy preparing its space assets for a future space war. https://x.com/MichaelSalla/status/1944221420264751589 JP has shared a video with approximate locations of oval shaped space arks in the Atlantic and Pacific Oceans based on briefings he has received. [&#8230;]",
+      "category": "ufo"
+    },
+    {
+      "name": "UFO Whistleblowers Will Be Killed, New Interstellar Object, Enki Return, Epstein Client List",
+      "type": "UFO Sighting",
+      "description": "A week in review on UFO sightings reveals a mix of intriguing details, unexplained phenomena, and skepticism towards the explanations proposed. A notable incident involving Penny Wong, Australia's Minister for Foreign Affairs, has sparked interest due to her apparent laughter at a question about UFOs. The incident is being investigated by various parties, including media outlets and government agencies. Witnesses report seeing a cigar-shaped object that was brought down during an air raid drill, sparking speculation about the nature of this unidentified aircraft. While some details remain unexplained, such as the origin of the object and its purpose, others suggest a possible cover-up or misidentification. This incident highlights the ongoing mystery surrounding UFO sightings and raises questions about the limits of human understanding.",
+      "category": "ufo"
+    },
+    {
+      "name": "Unknown Creature Video Breakdown",
+      "type": "Paranormal Activity",
+      "description": "A YouTube video purporting to show an unknown creature has been met with skepticism after a close examination reveals inconsistencies in the footage's authenticity.",
+      "category": "paranormal"
+    },
+    {
+      "name": "US Gov Releases New Video UFO Over Iraq Recorded By US Military Helicopter, UAP Sighting News.",
+      "type": "UFO Sighting",
+      "description": "Date of sighting: 2024 (gov refuses to release exact date)Location of sighting: Iraq (Most US soldiers located here)Source: https://www. mil/UAP-Cases/Official-UAP-Imagery/ Watch this newly released v",
+      "category": "ufo"
+    },
+    {
+      "name": "Whistleblower Reveals Pentagon\u2019s Secret UFO Video Archive: \u201cImmaculate Constellation\u201d Exposed",
+      "type": "Historical Mystery",
+      "description": "Whistleblower claims Pentagon hides thousands of UFO videos in a secret program called Immaculate Constellation. More insiders to come. The post Whistleblower Reveals Pentagon\u2019s Secret UFO Video Archi",
+      "category": "historical"
     }
   ],
   "generated_content": {
-    "meta_description": "Discover paranormal activity in unknown, Laharighat. 84 documented events, 30 local services and attractions.",
-    "title": "Paranormal Activity in unknown, Laharighat - Tours, Investigators & Services",
-    "description": "Explore paranormal activity in unknown, Laharighat. Notable events include Ape Man On The Roof, Bigfoot Hunts Its Prey. Find 30 local businesses offering tours, investigations, and related services.",
+    "meta_description": "Explore paranormal mysteries in unknown, Laharighat. Explore the mysterious Laharighat, a location shrouded in paranormal activity. Journalist claims to have uncovered massi",
+    "title": "Paranormal Mysteries in unknown, Laharighat - Tours & Services",
+    "description": "Explore the mysterious Laharighat, a location shrouded in paranormal activity. Journalist claims to have uncovered massive UFO evidence hidden by the Pentagon.",
     "keywords": [
-      "paranormal unknown, Laharighat",
-      "paranormal activity unknown, Laharighat",
-      "paranormal tours unknown, Laharighat",
-      "mystery unknown, Laharighat",
-      "unexplained unknown, Laharighat"
-    ],
-    "services": [
-      "gift shops souvenirs",
-      "parks recreation outdoor",
-      "nearby_restaurant",
-      "nearby_tourist_attraction",
-      "hotels accommodation lodging",
-      "car rental transportation",
-      "museums visitor centers",
-      "nearby_store",
-      "shopping retail stores",
-      "restaurants food dining",
-      "things to do attractions tours",
-      "restaurants",
-      "attractions"
+      "Laharighat",
+      "paranormal tourism",
+      "UFO sightings"
     ],
     "category": "paranormal"
   },
   "stats": {
     "business_count": 30,
     "event_count": 84,
-    "last_updated": "2025-07-27T15:49:38.565856"
+    "last_updated": "2025-07-28T22:31:12.119909"
   }
 }

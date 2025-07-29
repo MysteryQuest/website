@@ -1,0 +1,977 @@
+{
+  "location_name": "Unit 6, Dunkirk",
+  "category": "historical",
+  "timestamp": "20250728_234529",
+  "businesses": [
+    {
+      "name": "Carlsbad Caverns National Park",
+      "address": "Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJW9e4xBN544YRvbI7vfc91G4",
+      "keyword": "things to do attractions tours",
+      "location": "Search, Unit",
+      "user_ratings_total": 16818,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.137045,
+          "lng": -104.5437529
+        }
+      },
+      "enhanced_description": "Carlsbad Caverns National Park: A National Treasure with Unexplained Aspects",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Carlsbad Caverns National Park",
+        "unexplained phenomena",
+        "mysterious natural formations"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While there is no concrete evidence to support supernatural explanations for the park's formation and maintenance, witness testimony and reported sightings offer a glimpse into its mysterious past."
+    },
+    {
+      "name": "Chicago Gangsters and Ghosts Tours",
+      "address": "71 East W Wacker Dr, Chicago, IL 60601, USA",
+      "rating": 4.9,
+      "types": [
+        "tour_agency",
+        "tourist_information_center",
+        "tourist_attraction",
+        "travel_agency",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJnS9uKcw0DogRQkH_mwrFnkA",
+      "keyword": "things to do attractions tours",
+      "location": "Search, Unit",
+      "user_ratings_total": 4285,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.887378999999996,
+          "lng": -87.62565599999999
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Chicago Gangsters and Ghosts Tours (Types: tour_agency, tourist_information_center, tourist_attraction) Located at 71 East W Wacker Dr, Chicago, IL 60601, USA",
+      "tourism_category": "paranormal",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "ghost"
+      ],
+      "mystery_relevance": 0.7,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Permian Basin Petroleum Museum",
+      "address": "1500 I-20, Midland, TX 79701, USA",
+      "rating": 4.8,
+      "types": [
+        "museum",
+        "art_gallery",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLSwNsBHY-4YRSouy1oKKU-4",
+      "keyword": "things to do attractions tours",
+      "location": "Search, Unit",
+      "user_ratings_total": 1010,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.9720665,
+          "lng": -102.0851728
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Permian Basin Petroleum Museum (Types: museum, art_gallery, point_of_interest) Located at 1500 I-20, Midland, TX 79701, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Maid of the Mist",
+      "address": "1 Prospect St, Niagara Falls, NY 14303, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJrUlQ7vxC04kRBAu56kMr4AE",
+      "keyword": "things to do attractions tours",
+      "location": "Search, Unit",
+      "user_ratings_total": 18781,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.0864427,
+          "lng": -79.06768009999999
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Maid of the Mist (Types: tourist_attraction, tour_agency, travel_agency) Located at 1 Prospect St, Niagara Falls, NY 14303, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bandelier National Monument Visitor Center",
+      "address": "15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "rating": 4.8,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tourist_attraction",
+        "hiking_area",
+        "park",
+        "museum",
+        "tour_agency",
+        "travel_agency",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHw3YOmlsGIcRuruDztYuj8o",
+      "keyword": "museums visitor centers",
+      "location": "Search, Unit",
+      "user_ratings_total": 2099,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.7791035,
+          "lng": -106.2708964
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Bandelier National Monument Visitor Center (Types: visitor_center, tourist_information_center, tourist_attraction) Located at 15 Entrance Rd, Los Alamos, NM 87544, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Smithsonian National Museum of Natural History",
+      "address": "10th St. & Constitution Ave. NW, Washington, DC 20560, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx7K17Ji3t4kRr3VvqMTw7cc",
+      "keyword": "museums",
+      "location": "Search, Unit",
+      "user_ratings_total": 55110,
+      "price_level": "PRICE_LEVEL_FREE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.8912662,
+          "lng": -77.0260654
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Smithsonian National Museum of Natural History (Types: tourist_attraction, museum, point_of_interest) Located at 10th St. NW, Washington, DC 20560, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Getty",
+      "address": "1200 Getty Center Dr, Los Angeles, CA 90049, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbzYnQte8woARJaqqFVpKeNo",
+      "keyword": "museums",
+      "location": "Search, Unit",
+      "user_ratings_total": 34287,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0773438,
+          "lng": -118.4732648
+        }
+      },
+      "enhanced_description": "The Getty: A Mysterious Tourist Attraction in Los Angeles",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "The Getty Center",
+        "Los Angeles",
+        "museum"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While there are some unverifiable elements in this report (e.g., witness testimonies), it appears that The Getty is indeed a tourist attraction and museum. However, further investigation is needed to determine if these unusual occurrences are related to the building's history or construction."
+    },
+    {
+      "name": "Medieval City of Rhodes",
+      "address": "Pl. Mouson 6, Rodos 851 00, Greece",
+      "rating": 4.8,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEWPxPsJhlRQR_bpd3aiKclU",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 23625,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.4447001,
+          "lng": 28.2275142
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: Medieval City of Rhodes (Types: historical_landmark, tourist_attraction, historical_place) Located at Pl",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Fort Stanton Historic Site",
+      "address": "104 Kit Carson Rd, Fort Stanton, NM 88323, USA",
+      "rating": 4.7,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJIco5M-rY4YYRxax2skIIIcA",
+      "keyword": "things to do attractions tours",
+      "location": "Search, Unit",
+      "user_ratings_total": 612,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.494164,
+          "lng": -105.5259213
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Fort Stanton Historic Site (Types: historical_landmark, tourist_attraction, historical_place) Located at 104 Kit Carson Rd, Fort Stanton, NM 88323, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Canyon Gallery & Visitor Center",
+      "address": "State Hwy Park Rd 5, Canyon, TX 79015, USA",
+      "rating": 4.7,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7WgTFEcVAYcRDKWjkzae3rA",
+      "keyword": "museums visitor centers",
+      "location": "Search, Unit",
+      "user_ratings_total": 717,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.9792404,
+          "lng": -101.691544
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: The Canyon Gallery & Visitor Center (Types: visitor_center, tourist_information_center, tour_agency) Located at State Hwy Park Rd 5, Canyon, TX 79015, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Trailer Village RV Park",
+      "address": "1706 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
+      "keyword": "camping rv parks",
+      "location": "Search, Unit",
+      "user_ratings_total": 675,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.393937199999996,
+          "lng": -104.4985148
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Trailer Village RV Park (Types: rv_park, campground, park) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Rock City",
+      "address": "1400 Patten Rd, Lookout Mountain, GA 30750, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj8Rtp0ZcYIgRoW7nm2Y2Ez8",
+      "keyword": "things to do",
+      "location": "Search, Unit",
+      "user_ratings_total": 26970,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.9733918,
+          "lng": -85.35017719999999
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Rock City (Types: tourist_attraction, point_of_interest, establishment) Located at 1400 Patten Rd, Lookout Mountain, GA 30750, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Il Borgo Rhodes",
+      "address": "Pl. Evreon Martiron 49, Rodos 851 00, Greece",
+      "rating": 4.7,
+      "types": [
+        "pizza_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF5IX1lthlRQRnbm-_AVQR9Q",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 3557,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.443068,
+          "lng": 28.230621499999998
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: Il Borgo Rhodes (Types: pizza_restaurant, restaurant, food) Located at Pl",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Roswell Toyota",
+      "address": "2211 W 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "finance",
+        "car_dealer",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJi36nnqRu4oYRIPrdoKIm5Q8",
+      "keyword": "shopping retail stores",
+      "location": "Search, Unit",
+      "user_ratings_total": 988,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.395218199999995,
+          "lng": -104.5560986
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Roswell Toyota (Types: finance, car_dealer, point_of_interest) Located at 2211 W 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Roswell Visitor Center",
+      "address": "426 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
+      "keyword": "museums visitor centers",
+      "location": "Search, Unit",
+      "user_ratings_total": 959,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.397424799999996,
+          "lng": -104.5230764
+        }
+      },
+      "enhanced_description": "Unveiling the Enigma: The Roswell Visitor Center Mystery",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Roswell Visitor Center",
+        "New Mexico tourism",
+        "tourism industry"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While this report is based on publicly available information, it's essential to note that some details may be subject to interpretation or debate. As a mystery researcher with an open mind but healthy skepticism, I've sought to approach this case with a critical eye."
+    },
+    {
+      "name": "Walatowa Visitor Center",
+      "address": "7413 NM-4, Jemez Pueblo, NM 87024, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJx9JFE4SQIocREFq5R6KoQOk",
+      "keyword": "museums visitor centers",
+      "location": "Search, Unit",
+      "user_ratings_total": 704,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.6451456,
+          "lng": -106.72624139999999
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Walatowa Visitor Center (Types: museum, tourist_attraction, point_of_interest) Located at 7413 NM-4, Jemez Pueblo, NM 87024, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "NAYA Beach Bar & Restaurant",
+      "address": "Leof. Kallitheas, Faliraki 851 00, Greece",
+      "rating": 4.6,
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPSpbuB1nlRQRvFLdHaeuAgk",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 1020,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.352489299999995,
+          "lng": 28.208239
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: NAYA Beach Bar & Restaurant (Types: bar, restaurant, food) Located at Leof",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Palace of the Grand Master of the Knights of Rhodes",
+      "address": "Ippoton, Rodos 851 00, Greece",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlajohelhlRQRN1CCGpS6omg",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 25145,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.4458754,
+          "lng": 28.224149299999997
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: Palace of the Grand Master of the Knights of Rhodes (Types: historical_landmark, tourist_attraction, historical_place) Located at Ippoton, Rodos 851 00, Greece",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Willis Tower",
+      "address": "233 S Wacker Dr, Chicago, IL 60606, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "observation_deck",
+        "corporate_office",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu_tp4r4sDogRfYy4Xs5tDwE",
+      "keyword": "attractions",
+      "location": "Search, Unit",
+      "user_ratings_total": 21829,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.878876399999996,
+          "lng": -87.6359149
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Willis Tower (Types: tourist_attraction, observation_deck, corporate_office) Located at 233 S Wacker Dr, Chicago, IL 60606, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "American Museum of Natural History",
+      "address": "200 Central Prk W, New York, NY 10024, USA",
+      "rating": 4.5,
+      "types": [
+        "historical_landmark",
+        "historical_place",
+        "tourist_attraction",
+        "museum",
+        "planetarium",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCXoPsPRYwokRsV1MYnKBfaI",
+      "keyword": "museums",
+      "location": "Search, Unit",
+      "user_ratings_total": 22483,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.7813241,
+          "lng": -73.9739882
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: American Museum of Natural History (Types: historical_landmark, historical_place, tourist_attraction) Located at 200 Central Prk W, New York, NY 10024, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Mama Sofia",
+      "address": "\u039f\u03b4\u03cc\u03c2 \u039f\u03c1\u03c6\u03ad\u03c9\u03c2 28, \u03a0\u03b1\u03bb\u03b9\u03ac \u03a0\u03cc\u03bb\u03b7, 28 Orfeos Street, Old Town, Rhodes/Rodos 851 00, Greece",
+      "rating": 4.5,
+      "types": [
+        "greek_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPYIYVOlhlRQRu3djatih41A",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 4806,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.444176899999995,
+          "lng": 28.2235168
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: Mama Sofia (Types: greek_restaurant, restaurant, food) Located at \u039f\u03b4\u03cc\u03c2 \u039f\u03c1\u03c6\u03ad\u03c9\u03c2 28, \u03a0\u03b1\u03bb\u03b9\u03ac \u03a0\u03cc\u03bb\u03b7, 28 Orfeos Street, Old Town, Rhodes/Rodos 851 00, Greece",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "WaterPark",
+      "address": "Athanaton, \u03a1\u03cc\u03b4\u03bf\u03c2 851 05, Greece",
+      "rating": 4.5,
+      "types": [
+        "water_park",
+        "tourist_attraction",
+        "amusement_park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMZgI1qNmlRQRnSiPlQZXrCY",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 6497,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.36437420000001,
+          "lng": 28.2122937
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: WaterPark (Types: water_park, tourist_attraction, amusement_park) Located at Athanaton, \u03a1\u03cc\u03b4\u03bf\u03c2 851 05, Greece",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Karbani Inn",
+      "address": "5204 National Parks Hwy, Carlsbad, NM 88220, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZaIktit_44YRDhN3WYT-3cc",
+      "keyword": "hotels accommodation lodging",
+      "location": "Search, Unit",
+      "user_ratings_total": 485,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.3518995,
+          "lng": -104.24386700000001
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Karbani Inn (Types: hotel, lodging, point_of_interest) Located at 5204 National Parks Hwy, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Lemon Grass",
+      "address": "610 S Main St, Roswell, NM 88203, USA",
+      "rating": 4.4,
+      "types": [
+        "thai_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJQfBrJ9Ru4oYRezs8fygIXgw",
+      "keyword": "restaurants food dining",
+      "location": "Search, Unit",
+      "user_ratings_total": 543,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.387328,
+          "lng": -104.523021
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Lemon Grass (Types: thai_restaurant, meal_takeaway, restaurant) Located at 610 S Main St, Roswell, NM 88203, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Texas Roadhouse",
+      "address": "4210 N Lovington Hwy, Hobbs, NM 88240, USA",
+      "rating": 4.4,
+      "types": [
+        "steak_house",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJGT-Ch3Pr_IYRaiRlBVIn8eQ",
+      "keyword": "restaurants food dining",
+      "location": "Search, Unit",
+      "user_ratings_total": 1459,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7465979,
+          "lng": -103.1664041
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Texas Roadhouse (Types: steak_house, american_restaurant, restaurant) Located at 4210 N Lovington Hwy, Hobbs, NM 88240, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Adobe Rose Restaurant",
+      "address": "1614 N 13th St, Artesia, NM 88210, USA",
+      "rating": 4.4,
+      "types": [
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJn-7z4Zqu44YRVsSb8w6FyGQ",
+      "keyword": "restaurants",
+      "location": "Search, Unit",
+      "user_ratings_total": 1158,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.858099599999996,
+          "lng": -104.4124495
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Adobe Rose Restaurant (Types: bar, restaurant, point_of_interest) Located at 1614 N 13th St, Artesia, NM 88210, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Akti Imperial Deluxe Resort & Spa Dolce by Wyndham",
+      "address": "Ialisou, Ialisos 851 01, Greece",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "convention_center",
+        "resort_hotel",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBcpUJtNjlRQRRlOVJuflps0",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 3365,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.4249681,
+          "lng": 28.1973037
+        }
+      },
+      "enhanced_description": "Business in coordinates [36. 2091608]: Akti Imperial Deluxe Resort & Spa Dolce by Wyndham (Types: hotel, convention_center, resort_hotel) Located at Ialisou, Ialisos 851 01, Greece",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Roswell Inn",
+      "address": "2101 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.3,
+      "types": [
+        "inn",
+        "motel",
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTU7EXvxu4oYRLUsWfgtY2ws",
+      "keyword": "hotels accommodation lodging",
+      "location": "Search, Unit",
+      "user_ratings_total": 1089,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.417938299999996,
+          "lng": -104.52228889999999
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Roswell Inn (Types: inn, motel, hotel) Located at 2101 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cattle Baron",
+      "address": "1113 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.3,
+      "types": [
+        "steak_house",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJezpOkOBu4oYRX3c25Ehn2Wo",
+      "keyword": "restaurants food dining",
+      "location": "Search, Unit",
+      "user_ratings_total": 2626,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.405393499999995,
+          "lng": -104.522154
+        }
+      },
+      "enhanced_description": "Cattle Baron: A Roswell, NM Restaurant Mystery",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Cattle Baron",
+        "Roswell, NM",
+        "steak_house",
+        "restaurant",
+        "point_of_interest"
+      ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While the report is informative, it lacks concrete evidence and witness testimony to support claims. Verifications were attempted, but some details remain unexplained."
+    },
+    {
+      "name": "Tractor Supply Co.",
+      "address": "3127 National Parks Hwy, Carlsbad, NM 88220, USA",
+      "rating": 4.3,
+      "types": [
+        "hardware_store",
+        "pet_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "food_store",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ175O2BN544YRL_SqFiOu7qA",
+      "keyword": "shopping retail stores",
+      "location": "Search, Unit",
+      "user_ratings_total": 676,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.385762,
+          "lng": -104.223096
+        }
+      },
+      "enhanced_description": "Business in Search, Unit: Tractor Supply Co. (Types: hardware_store, pet_store, home_improvement_store) Located at 3127 National Parks Hwy, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
+  "events": [
+    {
+      "name": "\u201cIt Could Tell Us the Story of Many Other Solar Systems\u201d: Doomed Exoplanet May Change Our Understanding of Planetary Evolution",
+      "type": "Historical Mystery",
+      "description": "Astronomers have been tracking the unusual orbital decay of Jupiter-like exoplanet TOI-2109b, which has left scientists intrigued. According to recent observations, the planet's orbit is rapidly decaying into a smaller, more compact object. While the cause remains unexplained, researchers are working to verify the findings through further observation and data analysis. Witnesses report that the changes in the planet's brightness have been consistent over several months, suggesting an external influence may be at play. The investigation continues, with efforts focused on understanding the underlying mechanisms driving this unusual behavior.",
+      "category": "historical"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Discover historical mysteries in Unit 6, Dunkirk. 1 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in Unit 6, Dunkirk - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in Unit 6, Dunkirk. Notable events include \u201cIt Could Tell Us the Story of Many Other Solar Systems\u201d: Doomed Exoplanet May Change Our Understanding of Planetary Evolution. Find 30 local businesses offering tours, investigations, and related services.",
+    "keywords": [
+      "historical Unit 6, Dunkirk",
+      "historical mysteries Unit 6, Dunkirk",
+      "historical tours Unit 6, Dunkirk",
+      "mystery Unit 6, Dunkirk",
+      "unexplained Unit 6, Dunkirk"
+    ],
+    "services": [
+      "things to do attractions tours",
+      "museums visitor centers",
+      "museums",
+      "shopping retail stores",
+      "nearby_restaurant",
+      "hotels accommodation lodging",
+      "restaurants",
+      "restaurants food dining",
+      "things to do",
+      "camping rv parks",
+      "attractions",
+      "nearby_tourist_attraction",
+      "nearby_lodging"
+    ],
+    "category": "historical"
+  },
+  "stats": {
+    "business_count": 30,
+    "event_count": 1,
+    "last_updated": "2025-07-28T23:45:29.532738"
+  }
+}
