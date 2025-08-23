@@ -1,30 +1,936 @@
 {
   "location_name": "All\u00e9e Pierre Marti, Petite Hollande Sud",
   "category": "ufo",
-  "timestamp": "20250716_205621",
-  "businesses": [],
+  "timestamp": "20250729_143015",
+  "businesses": [
+    {
+      "name": "Carlsbad Caverns National Park Visitor Center",
+      "address": "727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "visitor_center",
+        "hiking_area",
+        "tourist_information_center",
+        "park",
+        "tour_agency",
+        "travel_agency",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl3Mk4pV55IYRaWp5KybiJB4",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 7648,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.175463,
+          "lng": -104.44423289999999
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Carlsbad Caverns National Park Visitor Center (Types: visitor_center, hiking_area, tourist_information_center) Located at 727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, ...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Blandford Nature Center",
+      "address": "1715 Hillburn Ave NW, Grand Rapids, MI 49504, USA",
+      "rating": 4.8,
+      "types": [
+        "wildlife_refuge",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ9Qs82RavGYgRsRQM-VMmKU4",
+      "keyword": "parks recreation outdoor",
+      "location": "Share and Move, All",
+      "user_ratings_total": 1096,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.995705,
+          "lng": -85.73942459999999
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Blandford Nature Center (Types: wildlife_refuge, park, point_of_interest) Located at 1715 Hillburn Ave NW, Grand Rapids, MI 49504, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "MY Colorado Store",
+      "address": "130 N Tejon St, Colorado Springs, CO 80903, USA",
+      "rating": 4.8,
+      "types": [
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ6SeBPz1FE4cR8R6aqiclxaE",
+      "keyword": "gift shops souvenirs",
+      "location": "Share and Move, All",
+      "user_ratings_total": 589,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.8363874,
+          "lng": -104.8235897
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: MY Colorado Store (Types: point_of_interest, store, establishment) Located at 130 N Tejon St, Colorado Springs, CO 80903, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cabanes des Grands Reflets",
+      "address": "Etang Verchat, 90100 Joncherey, France",
+      "rating": 4.8,
+      "types": [
+        "hotel",
+        "spa",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJlwr5jI4fkkcRcME8EZpf7eg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 641,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.5435142,
+          "lng": 7.0170865
+        }
+      },
+      "enhanced_description": "Business in coordinates [47. 8057486]: Cabanes des Grands Reflets (Types: hotel, spa, lodging) Located at Etang Verchat, 90100 Joncherey, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Assembly Food Hall",
+      "address": "5055 Broadway, Nashville, TN 37203, USA",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "food_court",
+        "event_venue",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJryDB4Q1nZIgR7ToLmwlalqY",
+      "keyword": "restaurants food dining",
+      "location": "Share and Move, All",
+      "user_ratings_total": 5432,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.160861,
+          "lng": -86.7790533
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Assembly Food Hall (Types: restaurant, food_court, event_venue) Located at 5055 Broadway, Nashville, TN 37203, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Smokey Bear Historical Park",
+      "address": "118 Smokey Bear Blvd, Capitan, NM 88316, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcblupccnHocRNuR_S7Lng8I",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 1009,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.5457405,
+          "lng": -105.5742896
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Smokey Bear Historical Park (Types: park, tourist_attraction, museum) Located at 118 Smokey Bear Blvd, Capitan, NM 88316, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Lincoln Historic Site",
+      "address": "Highway 380 Mm 97, 5, Lincoln, NM 88338, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJa_dGLovg4YYRaokog22Tne0",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 652,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.4920881,
+          "lng": -105.3852729
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Lincoln Historic Site (Types: museum, tourist_attraction, point_of_interest) Located at Highway 380 Mm 97, 5, Lincoln, NM 88338, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Roe Park",
+      "address": "10400 Roe Ave, Overland Park, KS 66207, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHWhkHX_pwIcRKydxpuI7vU8",
+      "keyword": "parks recreation outdoor",
+      "location": "Share and Move, All",
+      "user_ratings_total": 1303,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.939606,
+          "lng": -94.64206689999999
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Roe Park (Types: park, tourist_attraction, point_of_interest) Located at 10400 Roe Ave, Overland Park, KS 66207, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "La Mirada Community Regional Park",
+      "address": "13701 Adelfa Dr, La Mirada, CA 90638, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJbaxDqUQr3YARXPk4J3SZLTc",
+      "keyword": "parks recreation outdoor",
+      "location": "Share and Move, All",
+      "user_ratings_total": 2444,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9066319,
+          "lng": -118.006778
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: La Mirada Community Regional Park (Types: park, tourist_attraction, point_of_interest) Located at 13701 Adelfa Dr, La Mirada, CA 90638, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Trailer Village RV Park",
+      "address": "1706 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJRYy3Czdv4oYR_DLJ72Q1MhQ",
+      "keyword": "camping rv parks",
+      "location": "Share and Move, All",
+      "user_ratings_total": 675,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.393937199999996,
+          "lng": -104.4985148
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Trailer Village RV Park (Types: rv_park, campground, park) Located at 1706 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Meow Wolf Santa Fe's House of Eternal Return",
+      "address": "1352 Rufina Cir, Santa Fe, NM 87507, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "amusement_center",
+        "art_gallery",
+        "event_venue",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkeHU7YBQGIcRcBjlbWoAU4k",
+      "keyword": "museums",
+      "location": "Share and Move, All",
+      "user_ratings_total": 19615,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 35.654719199999995,
+          "lng": -105.9965909
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Meow Wolf Santa Fe's House of Eternal Return (Types: tourist_attraction, amusement_center, art_gallery) Located at 1352 Rufina Cir, Santa Fe, NM 87507, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Witte Museum",
+      "address": "3801 Broadway, San Antonio, TX 78209, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "gift_shop",
+        "cafe",
+        "event_venue",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8SkZWZf1XIYRw1v_mK0j9ss",
+      "keyword": "museums",
+      "location": "Share and Move, All",
+      "user_ratings_total": 6978,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.461977999999995,
+          "lng": -98.46694959999999
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Witte Museum (Types: museum, tourist_attraction, gift_shop) Located at 3801 Broadway, San Antonio, TX 78209, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Roswell Visitor Center",
+      "address": "426 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLXHmFtlu4oYRciA6U3-b07U",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 959,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.397424799999996,
+          "lng": -104.5230764
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Roswell Visitor Center (Types: visitor_center, tourist_information_center, tour_agency) Located at 426 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Billy The Kid Museum",
+      "address": "1435 Sumner Ave, Fort Sumner, NM 88119, USA",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZ6cTQS35HIcRIb8_UMXV7NM",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 1738,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.4662509,
+          "lng": -104.2293296
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Billy The Kid Museum (Types: museum, tourist_attraction, point_of_interest) Located at 1435 Sumner Ave, Fort Sumner, NM 88119, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Space Center Houston",
+      "address": "1601 E NASA Pkwy, Houston, TX 77058, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLZlhwACdQIYRFvnVL8mq8BM",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 49207,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 29.551831999999997,
+          "lng": -95.0981044
+        }
+      },
+      "enhanced_description": "Space Center Houston, a popular tourist attraction in Houston, Texas, has been generating interest among locals and visitors alike. According to the recent Business in Share and Move report, the center is listed as a Type A museum, offering exhibits on space exploration and education.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Space Center Houston",
+        "museum",
+        "point of interest"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While the report provides some factual information, it remains unverified by independent sources or on-site investigations. Witnesses and evidence mentioned in the account remain speculative."
+    },
+    {
+      "name": "Strang Park",
+      "address": "West 88th and, Farley St, Overland Park, KS 66212, USA",
+      "rating": 4.6,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUYsGCWXrwIcRi92er82kVC0",
+      "keyword": "parks recreation outdoor",
+      "location": "Share and Move, All",
+      "user_ratings_total": 533,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.9679845,
+          "lng": -94.699823
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Strang Park (Types: park, tourist_attraction, point_of_interest) Located at West 88th and, Farley St, Overland Park, KS 66212, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Mus\u00e9e de L'Aventure Peugeot",
+      "address": "Carr de l'Europe, 25600 Sochaux, France",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJq3jFrQwXkkcRjbqKkeVLR1c",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 4962,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.516129,
+          "lng": 6.8310677
+        }
+      },
+      "enhanced_description": "Business in coordinates [47. 8057486]: Mus\u00e9e de L'Aventure Peugeot (Types: museum, tourist_attraction, point_of_interest) Located at Carr de l'Europe, 25600 Sochaux, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Belfort Citadel",
+      "address": "Citadelle, 90000 Belfort, France",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "historical_place",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTfQ6jWA7kkcR_uMdLtmeaDI",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 1707,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.6366459,
+          "lng": 6.8648669
+        }
+      },
+      "enhanced_description": "Business in coordinates [47. 8057486]: Belfort Citadel (Types: historical_landmark, historical_place, tourist_attraction) Located at Citadelle, 90000 Belfort, France",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Red Barn RV Park",
+      "address": "2806 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.8,
+      "types": [
+        "rv_park",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr4l9xVFv4oYRtK4NR_JezVs",
+      "keyword": "camping rv parks",
+      "location": "Share and Move, All",
+      "user_ratings_total": 475,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3940282,
+          "lng": -104.48201720000002
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Red Barn RV Park (Types: rv_park, campground, park) Located at 2806 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cowboy Cafe",
+      "address": "1120 E 2nd St, Roswell, NM 88201, USA",
+      "rating": 4.5,
+      "types": [
+        "american_restaurant",
+        "breakfast_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJgeqD-i9v4oYRdSClzLKXWfo",
+      "keyword": "restaurants food dining",
+      "location": "Share and Move, All",
+      "user_ratings_total": 2263,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3940037,
+          "lng": -104.50697720000001
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Cowboy Cafe (Types: american_restaurant, breakfast_restaurant, restaurant) Located at 1120 E 2nd St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "71Above",
+      "address": "633 W 5th St 71st floor, Los Angeles, CA 90071, USA",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJg4Tqa7PHwoARrWA-2kwYfDE",
+      "keyword": "restaurants food dining",
+      "location": "Share and Move, All",
+      "user_ratings_total": 2614,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.051029199999995,
+          "lng": -118.2544174
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: 71Above (Types: restaurant, point_of_interest, food) Located at 633 W 5th St 71st floor, Los Angeles, CA 90071, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Westlake Ace Hardware",
+      "address": "2810 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.5,
+      "types": [
+        "hardware_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJU4DWtVVu4oYR3kNS8tFmAbE",
+      "keyword": "shopping retail stores",
+      "location": "Share and Move, All",
+      "user_ratings_total": 511,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.429489499999995,
+          "lng": -104.52462430000001
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Westlake Ace Hardware (Types: hardware_store, home_improvement_store, home_goods_store) Located at 2810 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Warner Bros. Studio Tour Hollywood",
+      "address": "3400 Warner Blvd, Burbank, CA 91505, USA",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ22OEIQm_woARiMnWpcl--0g",
+      "keyword": "things to do attractions tours",
+      "location": "Share and Move, All",
+      "user_ratings_total": 4195,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.151177499999996,
+          "lng": -118.33580090000001
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Warner Bros. Studio Tour Hollywood (Types: tourist_attraction, point_of_interest, establishment) Located at 3400 Warner Blvd, Burbank, CA 91505, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Rimgrove Park",
+      "address": "747 Rimgrove Dr, La Puente, CA 91744, USA",
+      "rating": 4.5,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJt3AcQPwpw4ARxlIg0tE7_FM",
+      "keyword": "parks recreation outdoor",
+      "location": "Share and Move, All",
+      "user_ratings_total": 557,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.031158999999995,
+          "lng": -117.920677
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Rimgrove Park (Types: park, tourist_attraction, point_of_interest) Located at 747 Rimgrove Dr, La Puente, CA 91744, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Lion of Bartholdi",
+      "address": "All. du Souvenir Fran\u00e7ais, 90000 Belfort, France",
+      "rating": 4.5,
+      "types": [
+        "historical_landmark",
+        "observation_deck",
+        "historical_place",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ60EIS187kkcRUvxWnRnuwOY",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 4409,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.6365942,
+          "lng": 6.8645603
+        }
+      },
+      "enhanced_description": "Business in coordinates [47. 8057486]: The Lion of Bartholdi (Types: historical_landmark, observation_deck, historical_place) Located at All",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Parc du Pr\u00e8s-la-Rose",
+      "address": "25200 Montb\u00e9liard, France",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPw-zJeYWkkcRJmgmpO_DPQo",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 3235,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 47.5057837,
+          "lng": 6.8031292
+        }
+      },
+      "enhanced_description": "Parc du Pr\u00e8s-la-Rose: A Mysterious Local Business Report",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Parc du Pr\u00e8s-la-Rose",
+        "types of local businesses",
+        "park locations in France"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While the report's source is reputable, it remains unverified and lacks concrete evidence."
+    },
+    {
+      "name": "Karbani Inn",
+      "address": "5204 National Parks Hwy, Carlsbad, NM 88220, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJZaIktit_44YRDhN3WYT-3cc",
+      "keyword": "hotels accommodation lodging",
+      "location": "Share and Move, All",
+      "user_ratings_total": 485,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.3518995,
+          "lng": -104.24386700000001
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Karbani Inn (Types: hotel, lodging, point_of_interest) Located at 5204 National Parks Hwy, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Red Oak Kitchen",
+      "address": "7260 TX-191 Frontage #200, Odessa, TX 79765, USA",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJJbFFx6DP-4YRW6H2SdDiAVE",
+      "keyword": "restaurants food dining",
+      "location": "Share and Move, All",
+      "user_ratings_total": 813,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.9101611,
+          "lng": -102.29799369999999
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Red Oak Kitchen (Types: restaurant, point_of_interest, food) Located at 7260 TX-191 Frontage #200, Odessa, TX 79765, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Albertsons Market",
+      "address": "1110 S Main St, Roswell, NM 88203, USA",
+      "rating": 4.4,
+      "types": [
+        "grocery_store",
+        "food_store",
+        "store",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ77okWytp4oYRSlBl9VvGgaU",
+      "keyword": "shopping retail stores",
+      "location": "Share and Move, All",
+      "user_ratings_total": 1452,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3810005,
+          "lng": -104.5239715
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Albertsons Market (Types: grocery_store, food_store, store) Located at 1110 S Main St, Roswell, NM 88203, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Pasta Cafe Italian Bistro",
+      "address": "1208 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.3,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJBVw37-Bu4oYRqZDHOzRyep4",
+      "keyword": "restaurants food dining",
+      "location": "Share and Move, All",
+      "user_ratings_total": 800,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.405975999999995,
+          "lng": -104.52319449999999
+        }
+      },
+      "enhanced_description": "Business in Share and Move, All: Pasta Cafe Italian Bistro (Types: italian_restaurant, restaurant, point_of_interest) Located at 1208 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
   "events": [
     {
       "name": "4.16-Billion-Year-Old Rocks Offer Scientists a Rare Glimpse of Earth\u2019s Earliest Years",
       "type": "UFO Sighting",
-      "description": "Rocks dating back to the Earth\u2019s Hadean Eon have finally had their antiquity confirmed as stretching back at least 4.16 billion years.",
+      "description": "A recent discovery in the Hadean Eon, a period spanning at least 4. 16 billion years ago, has confirmed that rocks dating back to this era have been found. According to witnesses and geologists, these",
       "category": "ufo"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore ufo mysteries in All\u00e9e Pierre Marti, Petite Hollande Sud. Explore the enigmatic All\u00e9e Pierre Marti, a mysterious site in Petite Hollande Sud where scientists have discovered 4.16",
+    "meta_description": "Explore ufo mysteries in All\u00e9e Pierre Marti, Petite Hollande Sud. Explore the mysterious All\u00e9e Pierre Marti, a 4.16-billion-year-old rock formation in Petite Hollande Sud, where scientis",
     "title": "Ufo Mysteries in All\u00e9e Pierre Marti, Petite Hollande Sud - Tours & Services",
-    "description": "Explore the enigmatic All\u00e9e Pierre Marti, a mysterious site in Petite Hollande Sud where scientists have discovered 4.16-Billion-Year-Old Rocks offering a rare glimpse into Earth's earliest years.",
+    "description": "Explore the mysterious All\u00e9e Pierre Marti, a 4.16-billion-year-old rock formation in Petite Hollande Sud, where scientists have discovered rare glimpses of Earth's earliest years.",
     "keywords": [
-      "ufo sightings",
+      "ufo tours",
       "alien encounters",
-      "space exploration"
+      "space museums"
     ],
     "category": "ufo"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:56:21.251533"
+    "last_updated": "2025-07-29T14:30:15.788205"
   }
 }

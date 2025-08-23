@@ -3,10 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mystery Quest - Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.">
-    <meta name="keywords" content="Mystery Quest, MystiQst, ancient myths, modern mysteries, paranormal, unexplained phenomena, debunk myths, explore unknown">
+    <meta name="description" content="Explore the latest unexplained mysteries, UFO sightings, paranormal phenomena, and historical enigmas. Join Mystery Quest's community of truth-seekers investigating ancient myths and modern mysteries with scientific skepticism.">
+    <meta name="keywords" content="Mystery Quest, MystiQst, UFO sightings, paranormal investigation, unexplained phenomena, ancient mysteries, Bigfoot, cryptid sightings, ghost investigations, historical mysteries, conspiracy theories, real or hoax">
     <meta name="author" content="Mystery Quest Team">
-    <title>Mystery Quest - Explore Mysteries and the Unexplained | MystiQst</title>
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Enhanced Title for AI Search -->
+    <title>Mystery Quest - Investigate UFOs, Paranormal & Unexplained Phenomena | Latest Mysteries 2025</title>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mystiqst.com/" />
+    
+    <!-- Enhanced Open Graph Meta Tags -->
+    <meta property="og:title" content="Mystery Quest - Investigate UFOs, Paranormal & Unexplained Phenomena">
+    <meta property="og:description" content="Discover the latest unexplained mysteries, UFO sightings, and paranormal phenomena. Join our community investigating ancient myths and modern enigmas with scientific approach.">
+    <meta property="og:image" content="https://mystiqst.com/splash.webp">
+    <meta property="og:image:alt" content="Mystery Quest - Exploring unexplained phenomena and mysterious events">
+    <meta property="og:url" content="https://mystiqst.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mystery Quest">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Enhanced Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mystery Quest - Investigate UFOs & Unexplained Mysteries">
+    <meta name="twitter:description" content="Explore the latest UFO sightings, paranormal investigations, and unexplained phenomena. Join our community of mystery investigators.">
+    <meta name="twitter:image" content="https://mystiqst.com/splash.webp">
+    <meta name="twitter:image:alt" content="Mystery Quest investigating unexplained mysteries">
+    <meta name="twitter:site" content="@MysteryQuest">
+    <meta name="twitter:creator" content="@MysteryQuest">
+    
+    <!-- AI Search Optimization -->
+    <meta name="AI:investigation" content="UFO sightings, paranormal phenomena, unexplained mysteries">
+    <meta name="AI:content_type" content="mystery investigation, paranormal research, unexplained phenomena">
+    <meta name="AI:expertise" content="UFO investigation, paranormal research, cryptid sightings, historical mysteries">
+    
+    <!-- Schema.org structured data for AI -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Mystery Quest",
+        "alternateName": "MystiQst",
+        "url": "https://mystiqst.com",
+        "description": "Investigating unexplained mysteries, UFO sightings, paranormal phenomena, and historical enigmas with scientific skepticism",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Mystery Quest",
+            "url": "https://mystiqst.com"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://mystiqst.com/directory/?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Latest Mystery Investigations",
+            "description": "Recent unexplained phenomena and mystery investigations",
+            "numberOfItems": 4
+        }
+    }
+    </script>
     
     <!-- Bootstrap and Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,14 +79,6 @@
     <!-- SEO and Verification -->
     <link rel="robots" href="/robots.txt">
     <link rel="ads.txt" href="/ads.txt">
-    <link rel="canonical" href="https://mystiqst.com/" />
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Mystery Quest - Explore Mysteries and the Unexplained">
-    <meta property="og:description" content="Join our community of mystery enthusiasts and skeptics. Explore ancient myths, modern enigmas, and the unexplained with an open mind.">
-    <meta property="og:image" content="https://mystiqst.com/splash.webp">
-    <meta property="og:url" content="https://mystiqst.com/">
-    <meta property="og:type" content="website">
     
     <!-- Modernized Styles -->
     <style>
@@ -621,6 +672,168 @@
             font-size: 0.9rem;
         }
 
+        /* Recent Mystery Cards */
+        .recent-mystery-card {
+            background: linear-gradient(135deg, rgba(25, 25, 35, 0.95) 0%, rgba(35, 35, 45, 0.95) 100%);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .recent-mystery-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(0, 255, 255, 0.2);
+            border-color: rgba(0, 255, 255, 0.4);
+        }
+
+        .recent-mystery-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: linear-gradient(45deg, #0a0a0a, #1a1a2e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #00ffff;
+            font-size: 3rem;
+            border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+        }
+
+        .recent-mystery-content {
+            padding: 20px;
+            height: calc(100% - 200px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .recent-mystery-content h5 {
+            font-family: 'Orbitron', monospace;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.3;
+            min-height: 2.6rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .recent-mystery-content p {
+            color: #b8b8b8;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            margin-bottom: 15px;
+            flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .recent-mystery-meta {
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .recent-mystery-category {
+            display: inline-block;
+            background: linear-gradient(45deg, #00ffff, #0099cc);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .recent-mystery-date {
+            color: #888;
+            font-size: 0.8rem;
+            margin-bottom: 15px;
+        }
+
+        .recent-mystery-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .recent-mystery-btn {
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px solid #00ffff;
+            color: #00ffff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            flex: 1;
+            text-align: center;
+            min-width: fit-content;
+        }
+
+        .recent-mystery-btn:hover {
+            background: #00ffff;
+            color: #000;
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
+
+        .recent-mystery-btn.hoax-btn {
+            border-color: #ff6b6b;
+            color: #ff6b6b;
+            background: rgba(255, 107, 107, 0.1);
+        }
+
+        .recent-mystery-btn.hoax-btn:hover {
+            background: #ff6b6b;
+            color: #fff;
+        }
+
+        /* Mobile responsive for recent mystery cards */
+        @media (max-width: 768px) {
+            .recent-mystery-card {
+                margin-bottom: 20px;
+            }
+            
+            .recent-mystery-image {
+                height: 150px;
+                font-size: 2rem;
+            }
+            
+            .recent-mystery-content {
+                padding: 15px;
+                height: auto;
+            }
+            
+            .recent-mystery-content h5 {
+                font-size: 1rem;
+                min-height: auto;
+            }
+            
+            .recent-mystery-content p {
+                font-size: 0.85rem;
+            }
+            
+            .recent-mystery-actions {
+                flex-direction: column;
+            }
+            
+            .recent-mystery-btn {
+                flex: none;
+                width: 100%;
+            }
+        }
+
         /* Action Buttons */
         .action-buttons {
             text-align: center;
@@ -878,6 +1091,27 @@
 
     <!-- Main Content -->
     <div class="container py-5">
+        <!-- Recent Mysteries Section -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="content-section">
+                    <h2 style="font-family: 'Orbitron', monospace; color: #00ffff; text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);">🆕 Latest Mysteries</h2>
+                    <p class="text-center mb-4" style="color: #b8b8b8;">Discover the most recent unexplained phenomena added to our collection</p>
+                    <div id="recentMysteries" class="row">
+                        <!-- Loading placeholder -->
+                        <div class="col-md-6 col-lg-3 mb-4">
+                            <div class="recent-mystery-card">
+                                <div class="recent-mystery-content">
+                                    <h5>Loading recent mysteries...</h5>
+                                    <p>Fetching the latest unexplained phenomena from our database.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Mystery Lists Section -->
         <div class="row mb-5">
             <div class="col-lg-6 mb-4">
@@ -1147,9 +1381,154 @@
         // Load top mysteries when page loads
         document.addEventListener('DOMContentLoaded', function() {
             fetchTopMysteries();
+            fetchRecentMysteries();
             loadYouTubeWidget();
             loadTikTokWidget();
         });
+
+        // Fetch recent mysteries from Google Sheet
+        async function fetchRecentMysteries() {
+            try {
+                const response = await fetch('https://docs.google.com/spreadsheets/d/1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ/gviz/tq?tqx=out:csv&sheet=Sheet1');
+                if (!response.ok) throw new Error('Failed to fetch data');
+
+                const csvText = await response.text();
+                const mysteries = parseCSV(csvText);
+                
+                // Filter mysteries with actual data and sort by date (most recent first)
+                const validMysteries = mysteries.filter(mystery => 
+                    mystery.name && 
+                    mystery.name.trim() !== '' && 
+                    mystery.date && 
+                    mystery.date !== 'Unknown' &&
+                    mystery.description &&
+                    mystery.description.trim() !== ''
+                ).sort((a, b) => {
+                    // Parse dates and sort descending (newest first)
+                    const dateA = parseDate(a.date);
+                    const dateB = parseDate(b.date);
+                    return dateB - dateA;
+                });
+
+                // Get top 4 most recent
+                const recentMysteries = validMysteries.slice(0, 4);
+                displayRecentMysteries(recentMysteries);
+
+            } catch (error) {
+                console.error('Error fetching recent mysteries:', error);
+                displayRecentMysteriesError();
+            }
+        }
+
+        function displayRecentMysteries(mysteries) {
+            const container = document.getElementById('recentMysteries');
+            container.innerHTML = '';
+
+            mysteries.forEach((mystery, index) => {
+                const col = document.createElement('div');
+                col.className = 'col-md-6 col-lg-3 mb-4';
+                
+                // Determine icon based on event type
+                const getEventIcon = (eventType) => {
+                    if (!eventType) return '❓';
+                    const type = eventType.toLowerCase();
+                    if (type.includes('ufo') || type.includes('alien')) return '🛸';
+                    if (type.includes('paranormal') || type.includes('ghost')) return '👻';
+                    if (type.includes('bigfoot') || type.includes('cryptid')) return '🦣';
+                    if (type.includes('historical')) return '🏛️';
+                    return '🔍';
+                };
+
+                // Format date for display
+                const formatDisplayDate = (dateStr) => {
+                    if (!dateStr || dateStr === 'Unknown') return 'Date Unknown';
+                    try {
+                        const date = parseDate(dateStr);
+                        return date.toLocaleDateString('en-US', { 
+                            year: 'numeric', 
+                            month: 'short', 
+                            day: 'numeric' 
+                        });
+                    } catch {
+                        return dateStr;
+                    }
+                };
+
+                // Check if this mystery is suitable for hoax voting
+                const isHoaxCandidate = mystery.real_or_hoax === 'True' || mystery.real_or_hoax === true;
+                
+                const hoaxButton = isHoaxCandidate ? 
+                    `<a href="hoax.html?highlight=${encodeURIComponent(mystery.name)}" class="recent-mystery-btn hoax-btn">Vote: Real or Hoax?</a>` : '';
+
+                col.innerHTML = `
+                    <div class="recent-mystery-card">
+                        <div class="recent-mystery-image">
+                            ${getEventIcon(mystery.event_type)}
+                        </div>
+                        <div class="recent-mystery-content">
+                            <h5>${mystery.name}</h5>
+                            <p>${mystery.description.substring(0, 120)}${mystery.description.length > 120 ? '...' : ''}</p>
+                            <div class="recent-mystery-meta">
+                                <span class="recent-mystery-category">${mystery.event_type || 'Mystery'}</span>
+                                <div class="recent-mystery-date">${formatDisplayDate(mystery.date)}</div>
+                                <div class="recent-mystery-actions">
+                                    <a href="detail.html?name=${encodeURIComponent(mystery.name)}" class="recent-mystery-btn">View Details</a>
+                                    ${hoaxButton}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(col);
+            });
+        }
+
+        function displayRecentMysteriesError() {
+            const container = document.getElementById('recentMysteries');
+            container.innerHTML = `
+                <div class="col-12">
+                    <div class="recent-mystery-card">
+                        <div class="recent-mystery-content">
+                            <h5>Unable to load recent mysteries</h5>
+                            <p>Please check back later or explore our <a href="/directory/">complete directory</a> of mysteries.</p>
+                            <div class="recent-mystery-meta">
+                                <div class="recent-mystery-actions">
+                                    <a href="/directory/" class="recent-mystery-btn">Browse Directory</a>
+                                    <a href="/map.html" class="recent-mystery-btn">View Map</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function parseDate(dateStr) {
+            if (!dateStr || dateStr === 'Unknown') return new Date(0);
+            
+            // Try different date formats
+            const formats = [
+                // ISO format
+                /^\d{4}-\d{2}-\d{2}$/,
+                // MM/DD/YYYY
+                /^\d{1,2}\/\d{1,2}\/\d{4}$/,
+                // DD/MM/YYYY
+                /^\d{1,2}\/\d{1,2}\/\d{4}$/,
+                // Month Day, Year
+                /^[A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4}$/
+            ];
+
+            try {
+                const date = new Date(dateStr);
+                if (!isNaN(date.getTime())) {
+                    return date;
+                }
+            } catch (e) {
+                console.warn('Could not parse date:', dateStr);
+            }
+            
+            return new Date(0); // Return epoch if unable to parse
+        }
 
         // YouTube Widget Functions
         async function loadYouTubeWidget() {

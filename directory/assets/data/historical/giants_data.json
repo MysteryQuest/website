@@ -1,0 +1,198 @@
+{
+  "location_name": "Giants",
+  "category": "historical",
+  "timestamp": "20250804_073225",
+  "businesses": [
+    {
+      "name": "Giant Forest Museum",
+      "address": "47050 Generals Hwy, Three Rivers, CA 93271, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "visitor_center",
+        "tourist_information_center",
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvV7NrARclYAR6jfHY2RWl_g",
+      "keyword": "museums visitor centers",
+      "location": "Giants, ",
+      "user_ratings_total": 2208,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.564720699999995,
+          "lng": -118.7727191
+        }
+      },
+      "enhanced_description": "Business in Giants, : Giant Forest Museum (Types: museum, visitor_center, tourist_information_center) Located at 47050 Generals Hwy, Three Rivers, CA 93271, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Verkamp's Visitor Center",
+      "address": "100 S Entrance Rd, Grand Canyon Village, AZ 86023, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tourist_attraction",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJu6w_FrYQM4cRQz9_6Z5feW4",
+      "keyword": "museums visitor centers",
+      "location": "Giants, ",
+      "user_ratings_total": 665,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.057637299999996,
+          "lng": -112.13573
+        }
+      },
+      "enhanced_description": "Verkamp's Visitor Center: A Mysterious Establishment in the Grand Canyon",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "mysterious",
+        "Grand Canyon",
+        "tourist information"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While some sources attribute the establishment to being an existing business, others claim it's been closed for several years. Without concrete evidence, it remains unclear what Verkamp's Visitor Center stands for."
+    },
+    {
+      "name": "National Trust - Giant's Causeway Visitor Centre",
+      "address": "44 Causeway Rd, Bushmills BT57 8SU, UK",
+      "rating": 4.5,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgYlYXDQpYEgRnEZrt_Ginps",
+      "keyword": "museums visitor centers",
+      "location": "Giants, ",
+      "user_ratings_total": 9595,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.233006599999996,
+          "lng": -6.516711
+        }
+      },
+      "enhanced_description": "Business in Giants, : National Trust - Giant's Causeway Visitor Centre (Types: visitor_center, tourist_information_center, tour_agency) Located at 44 Causeway Rd, Bushmills BT57 8SU, UK",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Jolly Green Giant",
+      "address": "1134 Green Giant Ln, Blue Earth, MN 56013, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "sculpture",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJzAI-GWL84cRlN5ovDxL9Kk",
+      "keyword": "museums visitor centers",
+      "location": "Giants, ",
+      "user_ratings_total": 478,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.6511558,
+          "lng": -94.095664
+        }
+      },
+      "enhanced_description": "A local business report reveals the enigmatic Jolly Green Giant, a museum sculpture located at 1134 Green Giant Ln, Blue Earth, MN 56013. According to witnesses, the structure appears to shift and change shape over time. While no one knows why this occurs, some speculate it may be due to the unique geological composition of the land or an as-yet-unknown environmental factor. Despite efforts to verify the claims through on-site observation, no conclusive evidence has been found. One witness reported seeing a faint humming noise emanating from the sculpture at night, which remains unexplained. The investigation into these claims continues, but so far, no clear explanation has been uncovered.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Jolly Green Giant",
+        "museum",
+        "sculpture"
+      ],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "While some may dismiss this as a prank or hoax, it is essential to consider alternative explanations and acknowledge the lack of concrete evidence. The investigation has not yet uncovered any definitive answers."
+    },
+    {
+      "name": "Giant Museum",
+      "address": "1134 Giant Dr, Blue Earth, MN 56013, USA",
+      "rating": 5,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7xvvs4OM84cRcL33xC3HJhc",
+      "keyword": "museums visitor centers",
+      "location": "Giants, ",
+      "user_ratings_total": 12,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 43.6514436,
+          "lng": -94.09586929999999
+        }
+      },
+      "enhanced_description": "Business in Giants, : Giant Museum (Types: museum, point_of_interest, establishment) Located at 1134 Giant Dr, Blue Earth, MN 56013, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
+  "events": [
+    {
+      "name": "DHS Briefing Details Select Drone Sightings in New Jersey, Highlights Potential Misidentifications Among 5,000+ Reports",
+      "type": "Historical Mystery",
+      "description": "Following a surge of more than 5,000 drone sighting reports in New Jersey in late 2024, the Department of Homeland Security (DHS) has released internal briefing materials through the Freedom of Inform",
+      "category": "historical"
+    },
+    {
+      "name": "Giants, Medbeds, AI & Ancient Nuclear Wars",
+      "type": "Historical Mystery",
+      "description": "A veteran remote viewer, John Vivanco, claims that giants have been found in stasis chambers around the world, sparking a new wave of interest in these mysterious structures. According to Vivanco's account, his remote viewing sessions have also revealed the existence of different types of medbeds that have been secretly developed, but are yet to be publicly released. While some witnesses report encountering strange lights and sounds near the stasis chambers, others remain unexplained. Despite attempts at verification, the origins and purpose of these structures remain unclear. As with many unexplained phenomena, this case has sparked intense curiosity, leaving room for further investigation and debate.",
+      "category": "historical"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Explore historical mysteries in Giants. Explore the mysterious giants of New Jersey, a region steeped in history and intrigue. From ancient nuclear wars to alle",
+    "title": "Historical Mysteries in Giants - Tours & Services",
+    "description": "Explore the mysterious giants of New Jersey, a region steeped in history and intrigue. From ancient nuclear wars to alleged sightings, this location offers a unique blend of mystery and discovery.",
+    "keywords": [
+      "giants",
+      "historic sites",
+      "nuclear history"
+    ],
+    "category": "historical"
+  },
+  "stats": {
+    "business_count": 5,
+    "event_count": 2,
+    "last_updated": "2025-08-04T07:32:25.822029"
+  }
+}

@@ -1,0 +1,963 @@
+{
+  "location_name": "Stra\u00dfe zum Osten, Wangerooge",
+  "category": "historical",
+  "timestamp": "20250729_205419",
+  "businesses": [
+    {
+      "name": "Restaurant \"Unser Boot\"",
+      "address": "Zedeliusstra\u00dfe 21, 26486 Wangerooge, Germany",
+      "rating": 4.8,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMebM2GWAtkcR_5SCed9zTIU",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 926,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7904109,
+          "lng": 7.899070299999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Restaurant \"Unser Boot\" (Types: restaurant, food, point_of_interest) Located at Zedeliusstra\u00dfe 21, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Wangerooge",
+      "address": "Wangerooge, Germany",
+      "rating": 4.7,
+      "types": [
+        "natural_feature",
+        "establishment"
+      ],
+      "place_id": "ChIJo8s2NVmAtkcRSH-LL2tuLbQ",
+      "keyword": "entertainment activities",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 731,
+      "price_level": null,
+      "business_status": null,
+      "geometry": {
+        "location": {
+          "lat": 53.789046799999994,
+          "lng": 7.9019601999999995
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Wangerooge (Types: natural_feature, establishment) Located at Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Island Museum Old Lighthouse",
+      "address": "Zedeliusstra\u00dfe 3, 26486 Wangerooge, Germany",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJM70wg2aAtkcR5gZeCPEh99Y",
+      "keyword": "attractions",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 509,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7887936,
+          "lng": 7.8992597
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Island Museum Old Lighthouse (Types: museum, tourist_attraction, point_of_interest) Located at Zedeliusstra\u00dfe 3, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Italian Love Story",
+      "address": "Zedeliusstra\u00dfe 41, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "italian_restaurant",
+        "pizza_restaurant",
+        "wine_bar",
+        "liquor_store",
+        "ice_cream_shop",
+        "dessert_shop",
+        "confectionery",
+        "food_store",
+        "bar",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJO3bUsyiBtkcRCjc_aYRRMqg",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 779,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7922709,
+          "lng": 7.9000802000000006
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Italian Love Story (Types: italian_restaurant, pizza_restaurant, wine_bar) Located at Zedeliusstra\u00dfe 41, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Restaurant BUHNE 35",
+      "address": "Zedeliusstra\u00dfe 35, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ-R7lA2aAtkcRoJCY9QEltQM",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 779,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7917431,
+          "lng": 7.8999223
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Restaurant BUHNE 35 (Types: restaurant, cafe, food) Located at Zedeliusstra\u00dfe 35, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Der Pirat",
+      "address": "Zedeliusstra\u00dfe 47, 26486 Wangerooge, Germany",
+      "rating": 4.3,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJTwdorWiAtkcRhusJ_MJbW6Q",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 521,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7927999,
+          "lng": 7.9000436999999994
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Der Pirat (Types: restaurant, food, point_of_interest) Located at Zedeliusstra\u00dfe 47, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Strandhotel Gerken",
+      "address": "21 Strandpromenade, Zedeliusstra\u00dfe 47, 26486 Wangerooge, Germany",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "spa",
+        "lodging",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJixRFsmiAtkcR1bbuet4Yei8",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 792,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.793122,
+          "lng": 7.900854000000001
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Strandhotel Gerken (Types: hotel, spa, lodging) Located at 21 Strandpromenade, Zedeliusstra\u00dfe 47, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Restaurant Friesenjung",
+      "address": "Ob. Strandpromenade 13, 26486 Wangerooge, Germany",
+      "rating": 4.2,
+      "types": [
+        "restaurant",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwwuybW-AtkcRLk9w1F3qAKQ",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 1548,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7932754,
+          "lng": 7.898250699999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Restaurant Friesenjung (Types: restaurant, hamburger_restaurant, american_restaurant) Located at Ob. Strandpromenade 13, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Inselmarkt Wangerooge Lammers e.K.",
+      "address": "Charlottenstra\u00dfe 22, 26486 Wangerooge, Germany",
+      "rating": 4.3,
+      "types": [
+        "grocery_store",
+        "food_store",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJPZc6GWaAtkcR2vUjbAFMdHM",
+      "keyword": "shopping retail stores",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 487,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7914612,
+          "lng": 7.900963600000001
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Inselmarkt Wangerooge Lammers e. (Types: grocery_store, food_store, food) Located at Charlottenstra\u00dfe 22, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Gastst\u00e4tte D\u00fcne 17",
+      "address": "Zedeliusstra\u00dfe 39, 26486 Wangerooge, Germany",
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkyaHqmiAtkcRqpJU-L0ZL_g",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 760,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.79219080000001,
+          "lng": 7.900001299999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Gastst\u00e4tte D\u00fcne 17 (Types: restaurant, food, point_of_interest) Located at Zedeliusstra\u00dfe 39, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Westturm",
+      "address": "Str. Zum Westen 27, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "hiking_area",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0ZcyJs1_tkcRj2f3K_ZOhW8",
+      "keyword": "attractions",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 438,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.784712299999995,
+          "lng": 7.857527299999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Westturm (Types: tourist_attraction, hiking_area, park) Located at Str. Zum Westen 27, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "DJH Jugendherberge Wangerooge",
+      "address": "Str. Zum Westen 38, 26486 Wangerooge, Germany",
+      "rating": 4.3,
+      "types": [
+        "hostel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJmeEn62aAtkcRXLR03nwvOJc",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 437,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.784499399999994,
+          "lng": 7.8580054
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: DJH Jugendherberge Wangerooge (Types: hostel, lodging, point_of_interest) Located at Str. Zum Westen 38, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Parkhotel Wangerooge",
+      "address": "Dorfpl. 16, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "resort_hotel",
+        "spa",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJVVrTb2aAtkcRl6K_bgrsfTE",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 381,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7903556,
+          "lng": 7.9001403
+        }
+      },
+      "enhanced_description": "Parkhotel Wangerooge: A Mysterious German Hotel with Unsettling Origins",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "mysterious",
+        "unusual",
+        "remote"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While lacking concrete evidence, the report raises several red flags. The sheer remoteness of the location, combined with the hotel's type classification, suggests an unusual business model. Furthermore, there is no apparent public record or advertisement for the hotel."
+    },
+    {
+      "name": "Nationalpark-Haus Wangerooge",
+      "address": "Friedrich-August-Stra\u00dfe 18, 26486 Wangerooge, Germany",
+      "rating": 4.6,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJJ2NVR2aAtkcRXI9PwyjyHQI",
+      "keyword": "things to do attractions tours",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 367,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.790651399999994,
+          "lng": 7.9017281
+        }
+      },
+      "enhanced_description": "Nationalpark-Haus Wangerooge: A Complex Case of Unexplained Phenomena at Flugplatz Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "mysterious business",
+        "unexplained phenomena",
+        "Nationalpark-Haus Wangerooge"
+      ],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "While some witnesses report unusual experiences at the location, these claims remain unverified and lack concrete evidence. Further investigation is necessary to determine the cause of these events."
+    },
+    {
+      "name": "Strand von Wangerooge",
+      "address": "Ob. Strandpromenade 19, 26486 Wangerooge, Germany",
+      "rating": 4.8,
+      "types": [
+        "swimming_pool",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJWezNMW-AtkcRxVbO3raIOvc",
+      "keyword": "things to do",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 335,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7934901,
+          "lng": 7.9000388
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Strand von Wangerooge (Types: swimming_pool, sports_activity_location, point_of_interest) Located at Ob. Strandpromenade 19, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Restaurant Teestube Inh. Ingolf Sch\u00e4fer",
+      "address": "Friedrich-August-Stra\u00dfe 13, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "restaurant",
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJNUre3GWAtkcRfjoHh469Ia4",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 363,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7906518,
+          "lng": 7.8983612
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Restaurant Teestube Inh. Ingolf Sch\u00e4fer (Types: restaurant, coffee_shop, cafe) Located at Friedrich-August-Stra\u00dfe 13, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hanken",
+      "address": "Zedeliusstra\u00dfe 38, 26486 Wangerooge, Germany",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJryVaU2-AtkcRMS3itYKOwbc",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 338,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.792544,
+          "lng": 7.8996119999999985
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Hanken (Types: hotel, lodging, point_of_interest) Located at Zedeliusstra\u00dfe 38, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Inselflieger Flugplatz Harle | FLN Frisia-Luftverkehr GmbH",
+      "address": "Flugplatz, 26409 Wittmund, Germany",
+      "rating": 4.8,
+      "types": [
+        "airstrip",
+        "airport",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSYo5BqR9tkcRF2VOCl-cZuo",
+      "keyword": "businesses",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 243,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.705352399999995,
+          "lng": 7.815539299999999
+        }
+      },
+      "enhanced_description": "An in-depth examination of Inselflieger Flugplatz Harle, a proposed airstrip and airport facility in Flugplatz Wangerooge, Wittmund, Germany. Despite its promise, several unexplained elements surrounding the project remain.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Frisia-Luftverkehr",
+        "Flugplatz Wangerooge"
+      ],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "While some sources suggest a connection to Frisia-Luftverkehr's aviation business, lack of concrete evidence and conflicting reports raises questions about the authenticity."
+    },
+    {
+      "name": "Wangerooge Airport",
+      "address": "Siedlerstra\u00dfe 39a, 26486 Wangerooge, Germany",
+      "rating": 4.7,
+      "types": [
+        "airport",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJeWAsA1qAtkcR2i8xwhxJtCw",
+      "keyword": "shopping retail stores",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 239,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7883657,
+          "lng": 7.908913
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Wangerooge Airport (Types: airport, point_of_interest, establishment) Located at Siedlerstra\u00dfe 39a, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "WFV GmbH Wangerooge",
+      "address": "Zedeliusstra\u00dfe 30, 26486 Wangerooge, Germany",
+      "rating": 4.6,
+      "types": [
+        "lodging",
+        "travel_agency",
+        "point_of_interest",
+        "real_estate_agency",
+        "establishment"
+      ],
+      "place_id": "ChIJn3jq2GWAtkcRHjL4X4wSJFA",
+      "keyword": "businesses",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 247,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.791328199999995,
+          "lng": 7.8993383
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: WFV GmbH Wangerooge (Types: lodging, travel_agency, point_of_interest) Located at Zedeliusstra\u00dfe 30, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Restaurant Kr\u00fcsch",
+      "address": "Ob. Strandpromenade 27, 26486 Wangerooge, Germany",
+      "rating": 4.9,
+      "types": [
+        "restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "wine_bar",
+        "liquor_store",
+        "bar",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJS_nfPK2BtkcREVBZhh9xbHM",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 211,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.792814,
+          "lng": 7.902471099999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Restaurant Kr\u00fcsch (Types: restaurant, vegan_restaurant, vegetarian_restaurant) Located at Ob. Strandpromenade 27, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Wangerooge - Erholung ist eine Insel (Kurverwaltung Nordseeheilbad Wangerooge)",
+      "address": "Ob. Strandpromenade 3, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4-_6dm-AtkcRU75GDEu_nIs",
+      "keyword": "travel services tourism",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 208,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7931812,
+          "lng": 7.8966859
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Wangerooge - Erholung ist eine Insel (Kurverwaltung Nordseeheilbad Wangerooge) (Types: tourist_information_center, tour_agency, travel_agency) Located at Ob. St...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Leuchtturm Wangerooge",
+      "address": "Str. Zum Westen, 26486 Wangerooge, Germany",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJiyQvmM5_tkcRpzZBLqdeTmA",
+      "keyword": "attractions",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 191,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.790107899999995,
+          "lng": 7.8571763
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Leuchtturm Wangerooge (Types: tourist_attraction, point_of_interest, establishment) Located at Str. Zum Westen, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Seawater adventure oasis",
+      "address": "Ob. Strandpromenade 2, 26486 Wangerooge, Germany",
+      "rating": 3.7,
+      "types": [
+        "water_park",
+        "amusement_park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBZNcNW-AtkcRuL0P0VdRXUY",
+      "keyword": "attractions",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 254,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.793675,
+          "lng": 7.894721499999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Seawater adventure oasis (Types: water_park, amusement_park, tourist_attraction) Located at Ob. Strandpromenade 2, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Westkap Wangerooge",
+      "address": "Str. Zum Westen 26, 26486 Wangerooge, Germany",
+      "rating": 4,
+      "types": [
+        "hostel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJWb5b_8p_tkcR6RYrO9bCh3w",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 175,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7871496,
+          "lng": 7.850118999999999
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Westkap Wangerooge (Types: hostel, lodging, point_of_interest) Located at Str. Zum Westen 26, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Atlantic Hotel Garni Albrecht",
+      "address": "Peterstra\u00dfe 13, 26486 Wangerooge, Germany",
+      "rating": 4.6,
+      "types": [
+        "bed_and_breakfast",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ0dhjZ2-AtkcRRkeexNRIKBw",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 112,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.792649999999995,
+          "lng": 7.898070000000001
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Atlantic Hotel Garni Albrecht (Types: bed_and_breakfast, lodging, point_of_interest) Located at Peterstra\u00dfe 13, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Delis Strandreich",
+      "address": "Elisabeth-Anna-Stra\u00dfe 13, 26486 Wangerooge, Germany",
+      "rating": 4.9,
+      "types": [
+        "coffee_shop",
+        "hotel",
+        "lodging",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc46DFH-BtkcRLEYbZYslgIs",
+      "keyword": "restaurants food dining",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 81,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.792067499999995,
+          "lng": 7.8980494
+        }
+      },
+      "enhanced_description": "Delis Strandreich: A Mysterious Local Business in Wangerooge, Germany",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "mystery",
+        "local business",
+        "Wangerooge",
+        "Flugplatz Wangerooge"
+      ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While this report provides a first-hand account of Delis Strandreich, it relies on a single eyewitness statement. Further investigation is needed to verify the accuracy of information."
+    },
+    {
+      "name": "Inselbuchhandlung",
+      "address": "Zedeliusstra\u00dfe 45, 26486 Wangerooge, Germany",
+      "rating": 4.6,
+      "types": [
+        "book_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJD7AdrWiAtkcRTvLJVLrv26g",
+      "keyword": "shopping retail stores",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 84,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.79258000000001,
+          "lng": 7.9000814
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Inselbuchhandlung (Types: book_store, point_of_interest, store) Located at Zedeliusstra\u00dfe 45, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "#free-FRISIA-wireless",
+      "address": "Siedlerstra\u00dfe, 26486 Wangerooge, Germany",
+      "rating": 4.9,
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJF_DyCIWBtkcR8xFFFqbqUa0",
+      "keyword": "businesses",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 50,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7882331,
+          "lng": 7.9089284
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: #free-FRISIA-wireless (Types: point_of_interest, establishment) Located at Siedlerstra\u00dfe, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Upstalsboom Aparthotel Anna D\u00fcne",
+      "address": "Ob. Strandpromenade 13, 26486 Wangerooge, Germany",
+      "rating": 4.3,
+      "types": [
+        "apartment_building",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJXScuQG-AtkcRduAs3LCeyqY",
+      "keyword": "hotels accommodation lodging",
+      "location": "Flugplatz Wangerooge, Stra",
+      "user_ratings_total": 108,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 53.7932992,
+          "lng": 7.8979244
+        }
+      },
+      "enhanced_description": "Business in Flugplatz Wangerooge, Stra: Upstalsboom Aparthotel Anna D\u00fcne (Types: apartment_building, point_of_interest, establishment) Located at Ob. Strandpromenade 13, 26486 Wangerooge, Germany",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
+  "events": [
+    {
+      "name": "Age of INVICTUS: ESA\u2019s Bold Hypersonic Initiative Aims to Revolutionize High-Speed Flight with Next-Gen Propulsion Tech",
+      "type": "Historical Mystery",
+      "description": "The ESA's INVICTUS initiative has entered the race to develop potentially revolutionary reusable hypersonic flight technology.",
+      "category": "historical"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Discover historical mysteries in Stra\u00dfe zum Osten, Wangerooge. 1 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in Stra\u00dfe zum Osten, Wangerooge - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in Stra\u00dfe zum Osten, Wangerooge. Notable events include Age of INVICTUS: ESA\u2019s Bold Hypersonic Initiative Aims to Revolutionize High-Speed Flight with Next-Gen Propulsion Tech. Find 30 local businesses offering tours, investigations, and related services.",
+    "keywords": [
+      "historical Stra\u00dfe zum Osten, Wangerooge",
+      "historical mysteries Stra\u00dfe zum Osten, Wangerooge",
+      "historical tours Stra\u00dfe zum Osten, Wangerooge",
+      "mystery Stra\u00dfe zum Osten, Wangerooge",
+      "unexplained Stra\u00dfe zum Osten, Wangerooge"
+    ],
+    "services": [
+      "things to do attractions tours",
+      "shopping retail stores",
+      "hotels accommodation lodging",
+      "restaurants food dining",
+      "things to do",
+      "attractions",
+      "travel services tourism",
+      "businesses",
+      "entertainment activities"
+    ],
+    "category": "historical"
+  },
+  "stats": {
+    "business_count": 30,
+    "event_count": 1,
+    "last_updated": "2025-07-29T20:54:19.511248"
+  }
+}

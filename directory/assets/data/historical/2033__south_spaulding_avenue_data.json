@@ -1,0 +1,984 @@
+{
+  "location_name": "2033, South Spaulding Avenue",
+  "category": "historical",
+  "timestamp": "20250729_233202",
+  "businesses": [
+    {
+      "name": "Amour Weho",
+      "address": "8715 Beverly Blvd, West Hollywood, CA 90048, USA",
+      "rating": 4.8,
+      "types": [
+        "french_restaurant",
+        "bar",
+        "event_venue",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJz-CCE6-_woARvS6Uz_1UgyA",
+      "keyword": "restaurants food dining",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 997,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.07712,
+          "lng": -118.381075
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : Amour Weho (Types: french_restaurant, bar, event_venue) Located at 8715 Beverly Blvd, West Hollywood, CA 90048, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Frederik Meijer Gardens & Sculpture Park",
+      "address": "1000 E Beltline Ave NE, Grand Rapids, MI 49525, USA",
+      "rating": 4.8,
+      "types": [
+        "botanical_garden",
+        "garden",
+        "concert_hall",
+        "auditorium",
+        "tourist_attraction",
+        "museum",
+        "wedding_venue",
+        "park",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJufxEnSNTGIgR1eef5E7f5V4",
+      "keyword": "things to do",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 13451,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 42.9801375,
+          "lng": -85.5863723
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : Frederik Meijer Gardens & Sculpture Park (Types: botanical_garden, garden, concert_hall) Located at 1000 E Beltline Ave NE, Grand Rapids, MI 49525, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Mouthful Eatery",
+      "address": "2626 Thousand Oaks Blvd, Thousand Oaks, CA 91362, USA",
+      "rating": 4.7,
+      "types": [
+        "restaurant",
+        "catering_service",
+        "food_delivery",
+        "event_venue",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJOcz3SiMl6IARjTybzs4HR6Y",
+      "keyword": "restaurants food dining",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 703,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.1725417,
+          "lng": -118.8408139
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : Mouthful Eatery (Types: restaurant, catering_service, food_delivery) Located at 2626 Thousand Oaks Blvd, Thousand Oaks, CA 91362, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Griffith Observatory",
+      "address": "2800 E Observatory Rd, Los Angeles, CA 90027, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "planetarium",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJywjU6WG_woAR3NrWwrEH_3M",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 16565,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.1184341,
+          "lng": -118.30039350000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Griffith Observatory (Types: tourist_attraction, planetarium, museum) Located at 2800 E Observatory Rd, Los Angeles, CA 90027, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Dodger Stadium",
+      "address": "1000 Vin Scully Ave, Los Angeles, CA 90012, USA",
+      "rating": 4.7,
+      "types": [
+        "stadium",
+        "tourist_attraction",
+        "athletic_field",
+        "event_venue",
+        "sports_complex",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdVYAVPnGwoAR3wmcg09VlJ4",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 47704,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.073851,
+          "lng": -118.2399583
+        }
+      },
+      "enhanced_description": "Dodger Stadium is a prominent tourist attraction in Los Angeles, California. Located at [34.0397855, -118.366951], it serves as the home stadium for the Los Angeles Dodgers baseball team and features an athletic field that has hosted numerous high-profile events.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "sports venue",
+        "Los Angeles Dodgers",
+        "Los Angeles metropolitan area"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "The source appears to be an official business listing, but no further information is available regarding its reliability."
+    },
+    {
+      "name": "California Science Center",
+      "address": "700 Exposition Park Dr, Los Angeles, CA 90037, USA",
+      "rating": 4.7,
+      "types": [
+        "movie_theater",
+        "tourist_attraction",
+        "gift_shop",
+        "museum",
+        "summer_camp_organizer",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ21yHTgjIwoARcrUbrsffOB4",
+      "keyword": "nearby_store",
+      "user_ratings_total": 19253,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.015564,
+          "lng": -118.28611699999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: California Science Center (Types: movie_theater, tourist_attraction, gift_shop) Located at 700 Exposition Park Dr, Los Angeles, CA 90037, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Crossroads Kitchen",
+      "address": "8284 Melrose Ave, Los Angeles, CA 90046, USA",
+      "rating": 4.6,
+      "types": [
+        "vegan_restaurant",
+        "wine_bar",
+        "brunch_restaurant",
+        "vegetarian_restaurant",
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJhZy9Gba-woARQLEEpEN46uw",
+      "keyword": "restaurants food dining",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 2121,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.083527,
+          "lng": -118.370157
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : Crossroads Kitchen (Types: vegan_restaurant, wine_bar, brunch_restaurant) Located at 8284 Melrose Ave, Los Angeles, CA 90046, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Grove",
+      "address": "189 The Grove Dr, Los Angeles, CA 90036, USA",
+      "rating": 4.6,
+      "types": [
+        "shopping_mall",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwwPTwi-5woARbtuI_49vkMM",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 26856,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0719407,
+          "lng": -118.35751640000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: The Grove (Types: shopping_mall, restaurant, food) Located at 189 The Grove Dr, Los Angeles, CA 90036, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Westfield Century City",
+      "address": "10250 Santa Monica Blvd, Los Angeles, CA 90067, USA",
+      "rating": 4.6,
+      "types": [
+        "shopping_mall",
+        "shoe_store",
+        "department_store",
+        "movie_theater",
+        "gift_shop",
+        "clothing_store",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhcGq9Iy7woARs8VXy7WsEZ0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 14023,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0586592,
+          "lng": -118.4190309
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Westfield Century City (Types: shopping_mall, shoe_store, department_store) Located at 10250 Santa Monica Blvd, Los Angeles, CA 90067, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "In-N-Out Burger",
+      "address": "9149 S Sepulveda Blvd, Los Angeles, CA 90045, USA",
+      "rating": 4.6,
+      "types": [
+        "hamburger_restaurant",
+        "fast_food_restaurant",
+        "diner",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5xHkkNOwwoARfN2_9LZe2qc",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 20036,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9537066,
+          "lng": -118.3967839
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: In-N-Out Burger (Types: hamburger_restaurant, fast_food_restaurant, diner) Located at 9149 S Sepulveda Blvd, Los Angeles, CA 90045, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Universal Studios Hollywood",
+      "address": "100 Universal City Plaza, Universal City, CA 91608, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "amusement_park",
+        "amusement_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJzzgyJU--woARcZqceSdQ3dM",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 166821,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.137071299999995,
+          "lng": -118.35330610000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Universal Studios Hollywood (Types: tourist_attraction, amusement_park, amusement_center) Located at 100 Universal City Plaza, Universal City, CA 91608, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Santa Monica Pier",
+      "address": "200 Santa Monica Pier, Santa Monica, CA 90401, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "historical_landmark",
+        "historical_place",
+        "visitor_center",
+        "tourist_information_center",
+        "tour_agency",
+        "travel_agency",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJm6deTdekwoARTY_RzhoRms0",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 126630,
+      "price_level": "PRICE_LEVEL_FREE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.008282099999995,
+          "lng": -118.4987585
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Santa Monica Pier (Types: tourist_attraction, historical_landmark, historical_place) Located at 200 Santa Monica Pier, Santa Monica, CA 90401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hollywood Sign",
+      "address": "Los Angeles, CA 90068, USA",
+      "rating": 4.6,
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "historical_place",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJfVpQRQq_woARQ5hwJsast6s",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 12949,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.134115099999995,
+          "lng": -118.32154820000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Hollywood Sign (Types: historical_landmark, tourist_attraction, historical_place) Located at Los Angeles, CA 90068, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "1051 W Burbank Blvd, Burbank, CA 91506, USA",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJn3898WmVwoARc8ROBQ8H38c",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1526,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.1847364,
+          "lng": -118.3228369
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 1051 W Burbank Blvd, Burbank, CA 91506, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "14501 Hindry Ave, Hawthorne, CA 90250, USA",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJBcUrYBa0woARDcrQF0ECv28",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 715,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.8985463,
+          "lng": -118.3725169
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 14501 Hindry Ave, Hawthorne, CA 90250, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "3560 W Century Blvd, Inglewood, CA 90303, USA",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ7bGiM122woAR0u8Wd9FOCW0",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1577,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.944418299999995,
+          "lng": -118.33466320000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 3560 W Century Blvd, Inglewood, CA 90303, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "6100 Sepulveda Blvd, Van Nuys, CA 91411, USA",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJQdYjqXSXwoARujvHbmWZB4M",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1070,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.1820905,
+          "lng": -118.4651932
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 6100 Sepulveda Blvd, Van Nuys, CA 91411, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "InterContinental Los Angeles Downtown by IHG",
+      "address": "900 Wilshire Blvd, Los Angeles, CA 90017, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ8TvIE7HHwoAR7W9Tr2zza6Q",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 6495,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.049723,
+          "lng": -118.2605551
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: InterContinental Los Angeles Downtown by IHG (Types: hotel, wedding_venue, event_venue) Located at 900 Wilshire Blvd, Los Angeles, CA 90017, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "JW Marriott Los Angeles L.A. LIVE",
+      "address": "900 W Olympic Blvd, Los Angeles, CA 90015, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJj-D-ernHwoARkgbstU1Zt24",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 5994,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0452408,
+          "lng": -118.2664713
+        }
+      },
+      "enhanced_description": "A local business report for JW Marriott Los Angeles L.A. LIVE, a hotel and event venue in downtown Los Angeles, CA. Located at [34.0397855, -118.366951], this establishment offers accommodations, meeting spaces, and entertainment options.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "hotel",
+        "wedding venue",
+        "event venue",
+        "Los Angeles, CA"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "The reliability of the source is uncertain due to limited publicly available information on JW Marriott Los Angeles L.A. LIVE."
+    },
+    {
+      "name": "Westfield Culver City",
+      "address": "6000 Sepulveda Blvd, Culver City, CA 90230, USA",
+      "rating": 4.5,
+      "types": [
+        "shopping_mall",
+        "shoe_store",
+        "department_store",
+        "gift_shop",
+        "clothing_store",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJsW5ktFS3woARFefgUh-uA5k",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 19573,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9859028,
+          "lng": -118.39321000000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Westfield Culver City (Types: shopping_mall, shoe_store, department_store) Located at 6000 Sepulveda Blvd, Culver City, CA 90230, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "In-N-Out Burger",
+      "address": "7009 W Sunset Blvd, Hollywood, CA 90028, USA",
+      "rating": 4.5,
+      "types": [
+        "hamburger_restaurant",
+        "fast_food_restaurant",
+        "diner",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJDaqRkya_woARN85cYzM3cbA",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 19707,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0982287,
+          "lng": -118.34167470000001
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: In-N-Out Burger (Types: hamburger_restaurant, fast_food_restaurant, diner) Located at 7009 W Sunset Blvd, Hollywood, CA 90028, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Costco Gas Station",
+      "address": "13463 Washington Blvd, Marina Del Rey, CA 90292, USA",
+      "rating": 4.5,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJSUVg_ou6woARhulw0ZNIvXU",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 1173,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9921448,
+          "lng": -118.44524399999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 13463 Washington Blvd, Marina Del Rey, CA 90292, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "R\u00e9publique Caf\u00e9 Bakery & R\u00e9publique Restaurant",
+      "address": "624 S La Brea Ave, Los Angeles, CA 90036, USA",
+      "rating": 4.5,
+      "types": [
+        "brunch_restaurant",
+        "wine_bar",
+        "french_restaurant",
+        "bakery",
+        "cafe",
+        "breakfast_restaurant",
+        "food_store",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJqaA5zt-4woARHGIEp3XlsZo",
+      "keyword": "nearby_store",
+      "user_ratings_total": 6547,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.064158899999995,
+          "lng": -118.343697
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: R\u00e9publique Caf\u00e9 Bakery & R\u00e9publique Restaurant (Types: brunch_restaurant, wine_bar, french_restaurant) Located at 624 S La Brea Ave, Los Angeles, CA 90036, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Mother Wolf",
+      "address": "1545 Wilcox Ave, Los Angeles, CA 90028, USA",
+      "rating": 4.3,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJxdFqHyq_woARDUHX8G7HMgo",
+      "keyword": "restaurants food dining",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 754,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0994241,
+          "lng": -118.33130980000001
+        }
+      },
+      "enhanced_description": "A local business in Funkmeyer New Reality Garden, Mother Wolf, has been the subject of curiosity among residents. Located at 1545 Wilcox Ave, Los Angeles, CA 90028, USA, this establishment appears to be a restaurant and point of interest.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Mysterious Business",
+        "Restaurant in Funkmeyer",
+        "Wolf Sightings"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While no concrete evidence is presented for the supernatural elements surrounding Mother Wolf, various witnesses report seeing a large wolf-like creature roaming the property. According to one witness, they claim to have seen a mysterious figure with glowing eyes."
+    },
+    {
+      "name": "The Westin Bonaventure Hotel & Suites, Los Angeles",
+      "address": "404 S Figueroa St, Los Angeles, CA 90071, USA",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_X3CRLLHwoARRT04UFlchVE",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 9052,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.052777299999995,
+          "lng": -118.25559599999998
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: The Westin Bonaventure Hotel & Suites, Los Angeles (Types: hotel, wedding_venue, event_venue) Located at 404 S Figueroa St, Los Angeles, CA 90071, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Biltmore Los Angeles",
+      "address": "506 S Grand Ave, Los Angeles, CA 90071, USA",
+      "rating": 4.1,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpUaBoLTHwoARc-FN_jhLIB8",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 6790,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0497246,
+          "lng": -118.25415009999999
+        }
+      },
+      "enhanced_description": "The Biltmore Los Angeles: A Mysterious Local Business Review",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "The Biltmore Los Angeles",
+        "hotel",
+        "lodge",
+        "point_of_interest"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While the reports of ghostly activity are intriguing, it's essential to note that there is no concrete evidence to support these claims. The hotel's management has denied any supernatural occurrences, stating that they have taken steps to address the issue."
+    },
+    {
+      "name": "E.P. & L.P.",
+      "address": "603 N La Cienega Blvd, West Hollywood, CA 90069, USA",
+      "rating": 4,
+      "types": [
+        "movie_theater",
+        "mexican_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJvyTTQLG-woAR6jCFj2N-xwk",
+      "keyword": "restaurants food dining",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 1821,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0821636,
+          "lng": -118.3767877
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : E",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hilton Los Angeles Airport",
+      "address": "5711 W Century Blvd, Los Angeles, CA 90045, USA",
+      "rating": 3.9,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_X2Gq9C2woARP-3L7YtxfWc",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 11453,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.9462252,
+          "lng": -118.38162939999998
+        }
+      },
+      "enhanced_description": "Business in coordinates [34. 366951]: Hilton Los Angeles Airport (Types: hotel, lodging, point_of_interest) Located at 5711 W Century Blvd, Los Angeles, CA 90045, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Wende Museum",
+      "address": "10808 Culver Blvd, Culver City, CA 90230, USA",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "cultural_center",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdVG-kVe3woARiLmvkPqyQYQ",
+      "keyword": "museums",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 365,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0115303,
+          "lng": -118.4039644
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : The Wende Museum (Types: museum, tourist_attraction, cultural_center) Located at 10808 Culver Blvd, Culver City, CA 90230, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "KA'TEEN",
+      "address": "6516 Selma Ave, Los Angeles, CA 90028, USA",
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "mexican_restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJ5eGiqxq_woARw16RF2_1dVc",
+      "keyword": "restaurants food dining",
+      "location": "Funkmeyer New Reality Garden, ",
+      "user_ratings_total": 366,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 34.0996828,
+          "lng": -118.33170760000002
+        }
+      },
+      "enhanced_description": "Business in Funkmeyer New Reality Garden, : KA'TEEN (Types: restaurant, mexican_restaurant, point_of_interest) Located at 6516 Selma Ave, Los Angeles, CA 90028, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
+  "events": [
+    {
+      "name": "American Southwest Faces \u2018New Reality\u2019 as Scientists Warn Severe Megadrought May Endure for Centuries",
+      "type": "Historical Mystery",
+      "description": "A severe megadrought in the American southwest is exacerbating water scarcity, with no end in sight. This prolonged drought has severe implications for agricultural production and human settlements",
+      "category": "historical"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Discover historical mysteries in 2033, South Spaulding Avenue. 1 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in 2033, South Spaulding Avenue - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in 2033, South Spaulding Avenue. Notable events include American Southwest Faces \u2018New Reality\u2019 as Scientists Warn Severe Megadrought May Endure for Centuries. Find 30 local businesses offering tours, investigations, and related services.",
+    "keywords": [
+      "historical 2033, South Spaulding Avenue",
+      "historical mysteries 2033, South Spaulding Avenue",
+      "historical tours 2033, South Spaulding Avenue",
+      "mystery 2033, South Spaulding Avenue",
+      "unexplained 2033, South Spaulding Avenue"
+    ],
+    "services": [
+      "museums",
+      "nearby_restaurant",
+      "nearby_gas_station",
+      "restaurants food dining",
+      "things to do",
+      "nearby_store",
+      "nearby_tourist_attraction",
+      "nearby_lodging"
+    ],
+    "category": "historical"
+  },
+  "stats": {
+    "business_count": 30,
+    "event_count": 1,
+    "last_updated": "2025-07-29T23:32:02.186898"
+  }
+}

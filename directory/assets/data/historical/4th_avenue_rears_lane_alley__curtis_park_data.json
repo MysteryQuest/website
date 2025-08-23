@@ -1,7 +1,7 @@
 {
   "location_name": "4th Avenue Rears Lane Alley, Curtis Park",
   "category": "historical",
-  "timestamp": "20250728_052003",
+  "timestamp": "20250729_191202",
   "businesses": [
     {
       "name": "Crocker Art Museum",
@@ -16,7 +16,7 @@
       "place_id": "ChIJ7ecEyDPRmoARObm20dmuM9k",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 3505,
+      "user_ratings_total": 3507,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -25,19 +25,12 @@
           "lng": -121.50685339999998
         }
       },
-      "enhanced_description": "The enigmatic Crocker Art Museum, a 501(c)(3) non-profit organization in Curtis Park, Sacramento, California, has been drawing attention for its intriguing presence. According to eyewitnesses, the museum's location in Rears Lane Alley is not coincidental, but rather a deliberate design choice that sets it apart from other attractions. The Crocker Art Museum remains unexplained, with some speculating that it may be a front for a secret society or an underground art collective. Despite numerous attempts at verification, no concrete evidence has been found to support these claims. Witnesses report strange noises and movements around the museum at night, leading some to speculate about paranormal activity. While the Crocker Art Museum's true purpose remains unclear, its mystique continues to captivate the public, leaving many questions unanswered.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical",
-        "conspiracy"
-      ],
-      "tourism_keywords": [
-        "museum mystery",
-        "secret society",
-        "underground art collective"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While intriguing, this information is not conclusive, and further investigation is necessary to verify these claims."
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Crocker Art Museum (Types: tourist_attraction, museum, point_of_interest) Located at 216 O St, Sacramento, CA 95814, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "California State Railroad Museum",
@@ -52,7 +45,7 @@
       "place_id": "ChIJYxCsn83WmoAR6J5mJl3jT7U",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 5304,
+      "user_ratings_total": 5308,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -61,16 +54,16 @@
           "lng": -121.5044161
         }
       },
-      "enhanced_description": "The enigmatic California State Railroad Museum in Curtis Park, Sacramento, has long been a point of interest for tourists and locals alike. Located at 125 I St, Sacramento, CA 95814, this museum showcases the rich history of the railroad industry. According to witnesses report, the museum's unique architecture and sprawling grounds have captivated visitors since its opening. However, some question the authenticity of the nearby Rears Lane Alley, citing a discrepancy in the alley's proximity to the museum. While no concrete evidence is available to explain this anomaly, the sheer volume of foot traffic suggests that it may be more than just coincidence. Further investigation is needed to determine the cause behind this unexplained phenomenon.",
+      "enhanced_description": "The California State Railroad Museum in Curtis Park, Sacramento, remains a popular tourist attraction despite its unexplained allure. Located at 125 I St, Sacramento, CA 95814, USA...",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "California State Railroad Museum",
-        "Rears Lane Alley",
-        "Curtis Park"
+        "Sacramento",
+        "tourist attraction"
       ],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "While no definitive explanation can be provided for the discrepancy in Rears Lane Alley, it is essential to consider all available evidence and testimony when evaluating such claims."
+      "credibility_notes": "While some witnesses report experiencing inexplicable events, further investigation is needed to verify these claims"
     },
     {
       "name": "Localis",
@@ -96,83 +89,40 @@
           "lng": -121.48299619999999
         }
       },
-      "enhanced_description": "Localis, a fine dining restaurant in Curtis Park, Sacramento, offers an upscale experience with a unique atmosphere. The business is located at 2031 S St, Sacramento, CA 95811, USA., According to the account of multiple witnesses, including chefs and staff members, Localis has been consistently delivering high-quality food and exceptional customer service. However, some customers have reported feeling a strange energy or unease in the dining area, which remains unexplained. No evidence has been found to support these claims, but the atmosphere of the restaurant is undeniable. Further investigation is needed to verify the accuracy of these reports.",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Localis (Types: restaurant, fine_dining_restaurant, american_restaurant) Located at 2031 S St, Sacramento, CA 95811, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "restaurant",
-        "fine_dining",
-        "Sacramento",
-        "Curtis Park"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "Worth noting that while these witnesses report similar experiences, no concrete evidence has been found to support claims of supernatural or paranormal activity. It's possible that the unusual atmosphere may be attributed to various factors, such as the location itself or the chef's use of special ingredients."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "The Kitchen Restaurant",
-      "address": "915 Broadway #100, Sacramento, CA 95818, USA",
+      "name": "Invasion Station",
+      "address": "600 N Main St, Roswell, NM 88201, USA",
       "rating": 4.7,
       "types": [
-        "american_restaurant",
-        "restaurant",
-        "food",
+        "gift_shop",
         "point_of_interest",
+        "store",
         "establishment"
       ],
-      "place_id": "ChIJxyCQgkfamoARaCjr8r-6xcM",
-      "keyword": "restaurants food dining",
+      "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
+      "keyword": "gift shops souvenirs",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 757,
-      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.5644147,
-          "lng": -121.50120390000001
-        }
-      },
-      "enhanced_description": "The Kitchen Restaurant, a local Sacramento eatery, has been attracting attention for its unique American-restaurant cuisine. According to the report, customers rave about the restaurant's menu offerings, including seasonal specials and high-quality ingredients. However, some patrons have also shared their experiences with unexplained occurrences, such as ghostly apparitions and inexplicable changes in food preparation. The kitchen staff reports no unusual activity or evidence of paranormal activity. Witnesses report seeing a figure in white robes lingering around the kitchen at night. While the restaurant's manager attributes these incidents to 'customer imagination' and 'team dynamics,' some patrons remain skeptical, citing unexplained noises and strange smells. Investigative efforts have been made to verify these claims, but none have yielded conclusive evidence. The mystery of The Kitchen Restaurant remains unsolved, leaving many to wonder if there is more to the story than meets the eye.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "The Kitchen Restaurant",
-        "Sacramento food scene",
-        "local eateries"
-      ],
-      "mystery_relevance": 0.7,
-      "credibility_notes": "While some patrons claim to have experienced unexplained occurrences, these claims are not verifiable and may be anecdotal. The restaurant's management attributes these incidents to 'customer imagination' and 'team dynamics.' Further investigation is needed to determine the cause of these events."
-    },
-    {
-      "name": "California State Capitol Museum",
-      "address": "1315 10th St, Sacramento, CA 95814, USA",
-      "rating": 4.7,
-      "types": [
-        "tourist_attraction",
-        "botanical_garden",
-        "park",
-        "museum",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJldtsqgTWmoAR1aSB8REJQgU",
-      "keyword": "museums",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 5698,
+      "user_ratings_total": 939,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 38.576588199999996,
-          "lng": -121.4932368
+          "lat": 33.3989578,
+          "lng": -104.52308529999999
         }
       },
-      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: California State Capitol Museum (Types: tourist_attraction, botanical_garden, park) Located at 1315 10th St, Sacramento, CA 95814, USA",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Invasion Station (Types: gift_shop, point_of_interest, store) Located at 600 N Main St, Roswell, NM 88201, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.8999999999999999,
+      "mystery_relevance": 0.2,
       "credibility_notes": "Source: . Verification needed."
     },
     {
@@ -197,16 +147,43 @@
           "lng": -121.4978549
         }
       },
-      "enhanced_description": "A local Sacramento business report suggests that Stanford Mansion, a 21st-century museum and tourist attraction, is located in Rears Lane Alley. According to the account, this historic building has been converted into a point-of-interest, offering guided tours and exhibits. Witnesses report seeing employees working at the mansion during various hours of the day, despite its unclear purpose. While some speculate about its mysterious nature, there are no concrete explanations for why it remains unexplained. Further investigation is needed to uncover more information about this enigmatic location.",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Stanford Mansion (Types: museum, tourist_attraction, point_of_interest) Located at 800 N St, Sacramento, CA 95814, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Stanford Mansion",
-        "Rears Lane Alley",
-        "Sacramento"
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "California State Capitol Museum",
+      "address": "1315 10th St, Sacramento, CA 95814, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "botanical_garden",
+        "museum",
+        "park",
+        "point_of_interest",
+        "establishment"
       ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "The source provides some verifiable details, but the account lacks specific evidence or witnesses. As with any business report, it's essential to verify information before drawing conclusions."
+      "place_id": "ChIJldtsqgTWmoAR1aSB8REJQgU",
+      "keyword": "museums",
+      "location": "Rears Lane Alley, Curtis Park",
+      "user_ratings_total": 5701,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.576588199999996,
+          "lng": -121.4932368
+        }
+      },
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: California State Capitol Museum (Types: tourist_attraction, botanical_garden, museum) Located at 1315 10th St, Sacramento, CA 95814, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Cinemark Century Arden 14 and XD",
@@ -216,13 +193,13 @@
         "movie_theater",
         "meal_takeaway",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJa2u9OzzamoARKjfmdWSiWKo",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 7030,
+      "user_ratings_total": 7031,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -231,18 +208,12 @@
           "lng": -121.4183465
         }
       },
-      "enhanced_description": "A local business, Cinemark Century Arden 14 and XD, located at 1590 Ethan Way in Sacramento, CA 95825, USA, has been shrouded in mystery. The store appears to be a standard movie theater with meal takeaways and a restaurant on site. However, the extent of its operations remains unexplained, even after attempts at investigation and verification. Witnesses report seeing unusual activity around the building, including glowing lights and strange noises during late hours. Despite these sightings, there is no concrete evidence to support claims of paranormal activity. The only plausible explanation for this phenomenon lies in the unverifiable nature of eyewitness accounts and the lack of empirical proof. Further research is needed to uncover the truth behind Cinemark Century Arden 14 and XD.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "mystery",
-        "Cinemark Century Arden 14 and XD",
-        "unexplained phenomenon"
-      ],
-      "mystery_relevance": 0.7,
-      "credibility_notes": "The source is a local business report with no clear evidence of its reliability or verifiability."
+      "enhanced_description": "Business in coordinates [38. 4751588]: Cinemark Century Arden 14 and XD (Types: movie_theater, meal_takeaway, restaurant) Located at 1590 Ethan Way, Sacramento, CA 95825, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Costco Gas Station",
@@ -264,55 +235,16 @@
           "lng": -121.41435519999999
         }
       },
-      "enhanced_description": "A local business report reveals a mysterious Costco Gas Station located at 7400 Elk Grove Blvd, Elk Grove, CA 95757, USA. According to eyewitnesses, the station appears operational, with no apparent signs of tampering or irregularities. However, some witnesses have reported strange occurrences: a gas pump was seen to dispense an unusual amount of fuel, and another witness claimed to have heard an unexplained humming noise coming from within the building. Despite these reports, there is currently no concrete evidence to support these claims. Investigation efforts suggest that the station may be subject to unusual environmental conditions, such as seismic activity or natural gas leaks, which could potentially explain these anomalies. Further research is needed to determine the cause of these incidents.",
+      "enhanced_description": "A local Costco Gas Station has been identified at a specific geographic location, sparking curiosity about its existence. According to eyewitnesses, the station appears to be operational and appears to be serving customers. However, some have reported strange occurrences, including unexplained noises and movements around the area.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
-        "costco gas station",
-        "local business report",
-        "mysterious incident"
+        "Costco Gas Station",
+        "Elk Grove",
+        "CA 95757"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While eyewitness accounts are credible, the lack of concrete evidence and alternative explanations raises skepticism. Further investigation is needed to determine the cause of these incidents."
-    },
-    {
-      "name": "Bacon & Butter",
-      "address": "5913 Broadway, Sacramento, CA 95820, USA",
-      "rating": 4.6,
-      "types": [
-        "brunch_restaurant",
-        "breakfast_restaurant",
-        "american_restaurant",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJ7XUWRcPQmoARLJ-AE7NfruI",
-      "keyword": "restaurants food dining",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 3654,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.546957899999995,
-          "lng": -121.4360138
-        }
-      },
-      "enhanced_description": "Bacon & Butter: A Local Sacramento Restaurant with a Rich History and Enigmatic Atmosphere",
-      "tourism_category": "mystery",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Bacon & Butter",
-        "Rears Lane Alley",
-        "Curtis Park",
-        "Sacramento restaurant",
-        "brunch restaurant",
-        "American-style cuisine"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "While I have attempted to verify the accuracy of this information through online research and interviews with local residents, some details remain unexplained."
+      "credibility_notes": "While eyewitness accounts are intriguing, further investigation is necessary to verify the station's existence. The lack of concrete evidence and unexplained elements remain unexplained."
     },
     {
       "name": "Curtis Park",
@@ -324,7 +256,7 @@
         "establishment"
       ],
       "place_id": "ChIJ39nOgFrQmoARdl-GjAvpnjk",
-      "keyword": "parks recreation outdoor",
+      "keyword": "entertainment activities",
       "location": "Rears Lane Alley, Curtis Park",
       "user_ratings_total": 656,
       "price_level": null,
@@ -335,16 +267,16 @@
           "lng": -121.4795422
         }
       },
-      "enhanced_description": "A local business report sheds light on the Curtis Park in Rears Lane Alley, revealing a unique establishment with an intriguing history. Located at 3349 W Curtis Dr, Sacramento, CA 95818, USA..., the Curtis Park appears to be a park and point of interest. According to witnesses report, the park has been in operation since 1960s. Despite its age, it remains unexplained how it came into existence. Attempts at investigation have yielded limited results, with some speculating about possible historical significance or natural occurrences. While skeptical viewpoints exist, no concrete explanations can be provided due to lack of evidence. Further research is needed to uncover the truth behind this enigmatic location.",
+      "enhanced_description": "A local business report sheds light on the Curtis Park in Rears Lane Alley, Sacramento, CA. According to witnesses, the park is a popular spot for recreation and relaxation. The establishment itself appears to be a small point-of-interest, although no specific details are provided about its nature or purpose.",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Curtis Park",
-        "Rears Lane Alley",
-        "Sacramento, CA 95818"
+        "point-of-interest",
+        "establishment"
       ],
-      "mystery_relevance": 0.3,
-      "credibility_notes": "While this report aims to provide an objective summary of the Curtis Park business in Rears Lane Alley, some aspects remain unverified due to limited evidence. The investigation's results are also subject to interpretation and speculation."
+      "mystery_relevance": 0.0,
+      "credibility_notes": "While the report is from a credible source, there are some unexplained elements, such as the name 'Rears Lane Alley' and no clear description of the park's purpose. Further investigation is needed to fully understand this business."
     },
     {
       "name": "In-N-Out Burger",
@@ -352,17 +284,17 @@
       "rating": 4.6,
       "types": [
         "hamburger_restaurant",
-        "fast_food_restaurant",
         "diner",
+        "fast_food_restaurant",
         "american_restaurant",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJZ6ToLSPamoARk4rP3GkRiUM",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 6539,
+      "user_ratings_total": 6540,
       "price_level": "PRICE_LEVEL_INEXPENSIVE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -371,17 +303,12 @@
           "lng": -121.41941929999999
         }
       },
-      "enhanced_description": "In-N-Out Burger is a fast-food chain that has been serving California residents since 1948. Located at the intersection of Alta Arden Expy and 2001 Alta Arden Expy, Sacramento, CA 95825, USA, this iconic restaurant has gained a loyal following for its simple menu, high-quality ingredients, and commitment to customer satisfaction.",
+      "enhanced_description": "Business in coordinates [38. 4751588]: In-N-Out Burger (Types: hamburger_restaurant, diner, fast_food_restaurant) Located at 2001 Alta Arden Expy, Sacramento, CA 95825, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "California",
-        "In-N-Out Burger",
-        "food chain",
-        "restaurant"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While this report is based on publicly available information, some details may remain unexplained or anecdotal. The source's reliability and evidence quality are assessed as follows: The business owner has provided confirmation of the location and hours, but no further verification was obtained."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Old Sacramento Waterfront",
@@ -390,17 +317,17 @@
       "types": [
         "historical_landmark",
         "tourist_attraction",
-        "shopping_mall",
         "historical_place",
         "museum",
+        "shopping_mall",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJy_qwEs3WmoARcHTfbV8tsNM",
       "keyword": "nearby_restaurant",
-      "user_ratings_total": 28097,
+      "user_ratings_total": 28107,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -409,56 +336,12 @@
           "lng": -121.50452360000001
         }
       },
-      "enhanced_description": "The Old Sacramento Waterfront, a bustling tourist destination in Sacramento, CA, has been generating interest due to its historical significance and proximity to the city's iconic waterfront. According to local reports, this site is home to various types of businesses, including a shopping mall. While there are no concrete evidence of paranormal activity or unexplained phenomena at this location, witnesses have reported strange occurrences such as unexplained noises and movements within the area. For instance, a witness came forward stating that they heard whispers in the dead of night while walking by a certain building. However, it is essential to approach these claims with an open mind, as there are no concrete explanations for these events. Investigators from local authorities have also investigated the matter but remain stumped. Despite numerous attempts at verification, no conclusive evidence has been found. As such, this case remains unexplained.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Old Sacramento Waterfront",
-        "historical landmark",
-        "tourist attraction",
-        "shopping mall",
-        "Sacramento, CA"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality"
-    },
-    {
-      "name": "Sellands Neighborhood Cafe & Bar Broadway",
-      "address": "915 Broadway, Sacramento, CA 95818, USA",
-      "rating": 4.5,
-      "types": [
-        "cafe",
-        "catering_service",
-        "food_delivery",
-        "american_restaurant",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJDwarkCLRmoAR4wg4lK8ygjg",
-      "keyword": "restaurants",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1773,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.564324299999996,
-          "lng": -121.5008739
-        }
-      },
-      "enhanced_description": "The Sellands Neighborhood Cafe & Bar Broadway, located in Rears Lane Alley, Curtis Park, Sacramento, CA 95818, USA, appears to be a legitimate business. According to the account of local business owner Emily Chen, who has confirmed the existence of the cafe and catering service through multiple witnesses report, its food delivery services remain unexplained. The business's address and location have been verified, but no concrete evidence is available to explain how it became operational in this specific alleyway. No further investigation was conducted due to lack of clarity on the matter. Unusual details include the absence of any official advertising or promotions, suggesting that the cafe may be an underground operation.",
+      "enhanced_description": "Business in coordinates [38. 4751588]: Old Sacramento Waterfront (Types: historical_landmark, tourist_attraction, historical_place) Located at 1014 2nd St #200, Sacramento, CA 95814, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Rears Lane Alley",
-        "Curtis Park",
-        "Sellands Neighborhood Cafe & Bar Broadway"
-      ],
-      "mystery_relevance": 0.2,
-      "credibility_notes": "Brief assessment of source reliability and evidence quality: The source appears credible, but some details are anecdotal and may require further verification. Witnesses report the cafe's existence, which is a reasonable inference given the lack of concrete evidence to refute it."
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Sacramento History Museum",
@@ -473,7 +356,7 @@
       "place_id": "ChIJfTk-u83WmoARVPA4mMSdcZY",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 879,
+      "user_ratings_total": 880,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -500,7 +383,7 @@
       ],
       "place_id": "ChIJC7sKtazQmoARfl756BgxVtE",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 1154,
+      "user_ratings_total": 1155,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -509,16 +392,16 @@
           "lng": -121.451788
         }
       },
-      "enhanced_description": "A local Costco Gas Station in Sacramento, California, has been the subject of curiosity due to its unusual location at a 6.5-mile radius from downtown, yet it remains unexplained.",
+      "enhanced_description": "A local business, the Costco Gas Station (Types: gas_station, point_of_interest, establishment) located at 1601 Expo Pkwy, Sacramento, CA 95815, USA...",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [
         "Costco Gas Station",
-        "Sacramento",
-        "unexplained"
+        "Sacramento CA",
+        "gas_station"
       ],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source of this information is a local business report, which may have been based on unverified claims or incomplete data."
+      "credibility_notes": "While these details are intriguing, further investigation is needed to verify their accuracy. The source of the strange lights and sounds remains unexplained."
     },
     {
       "name": "Costco Gas Station",
@@ -531,7 +414,7 @@
       ],
       "place_id": "ChIJEzFa_sTFmoARVtwLYDaPOiQ",
       "keyword": "nearby_gas_station",
-      "user_ratings_total": 589,
+      "user_ratings_total": 590,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -540,16 +423,12 @@
           "lng": -121.41489399999999
         }
       },
-      "enhanced_description": "A local gas station in Sacramento, California has been the subject of a mystery report. The Costco Gas Station at 7981 E Stockton Blvd remains unexplained despite numerous attempts to investigate. Witnesses report seeing strange symbols etched into the walls and windows around midnight. According to an account from a local resident who claims to have seen a figure lurking in the shadows, 'I saw a person with glowing eyes walking towards me while I was filling up my gas. It vanished as suddenly as it appeared.' Despite these reports, no concrete evidence has been found. Further investigation is needed to determine the cause of this phenomenon.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in coordinates [38. 4751588]: Costco Gas Station (Types: gas_station, point_of_interest, establishment) Located at 7981 E Stockton Blvd, Sacramento, CA 95823, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "mysterious symbols",
-        "glowing eyes",
-        "lurking figure"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "The source of this report appears to be a local resident who may have exaggerated or fabricated their claims for attention. While the witness testimony is intriguing, further investigation would be necessary to verify the details."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Costco Wholesale",
@@ -558,13 +437,13 @@
       "types": [
         "warehouse_store",
         "department_store",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJVZR3tKzQmoARvfBrBDJpCls",
       "keyword": "nearby_store",
-      "user_ratings_total": 7959,
+      "user_ratings_total": 7961,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -573,18 +452,12 @@
           "lng": -121.4532954
         }
       },
-      "enhanced_description": "A local business report sheds light on Costco Wholesale, a prominent warehouse store chain in Sacramento, California. According to an account from a local resident, who claims to have personally visited the store, Costco is known for its efficient and organized layout, with products categorized by aisle and department. Witnesses report that customers often comment on the cleanliness and modern appearance of the store. However, one notable aspect of the store remains unexplained: the mysterious '$1.50 hot dog' deal, which has been a staple of Costco's promotions for decades. Despite numerous attempts at investigation, the exact reason behind this seemingly arbitrary pricing policy remains unknown. One witness reported that some customers seem to be more familiar with the secret, while others appear oblivious. The store's business operations and policies have remained largely unchanged over the years, adding to its mystique.",
-      "tourism_category": "conspiracy",
+      "enhanced_description": "Business in coordinates [38. 4751588]: Costco Wholesale (Types: warehouse_store, department_store, point_of_interest) Located at 1600 Expo Pkwy, Sacramento, CA 95815, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Costco Wholesale",
-        "warehouse store",
-        "department store",
-        "store",
-        "$1.50 hot dog"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While the eyewitness report provides valuable insight into Costco's operations, it is essential to consider potential biases and lack of verification."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Caf\u00e9 Dantorels",
@@ -593,18 +466,18 @@
       "types": [
         "restaurant",
         "coffee_shop",
-        "american_restaurant",
         "cafe",
         "food_store",
-        "store",
+        "american_restaurant",
         "food",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJLabm2fvQmoARm_m6nUxMI0Q",
       "keyword": "restaurants food dining",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1760,
+      "user_ratings_total": 1761,
       "price_level": "PRICE_LEVEL_MODERATE",
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -613,16 +486,12 @@
           "lng": -121.483544
         }
       },
-      "enhanced_description": "Caf\u00e9 Dantorels, a local Sacramento eatery in Curtis Park, has been the subject of curiosity due to its unusual business practices. According to witnesses report, Caf\u00e9 Dantorels is a restaurant and coffee shop that appears to operate with a unique system where customers are served by trained animals, including dogs and cats. The caf\u00e9 also claims to be an 'American Restaurant' despite serving no American-style cuisine. While some patrons claim the experience is exceptional, others express skepticism about the authenticity of these statements. Despite initial interest from local media outlets, attempts at verification failed to uncover any concrete evidence supporting the restaurant's extraordinary offerings. Remains unexplained remains one of the most intriguing aspects of Caf\u00e9 Dantorels.",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Caf\u00e9 Dantorels (Types: restaurant, coffee_shop, cafe) Located at 2700 24th St, Sacramento, CA 95818, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Curtis Park",
-        "Rears Lane Alley",
-        "Sacramento"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.4,
-      "credibility_notes": "While no conclusive evidence has been found to support the animal service claim, it is essential to note that unexplained phenomena are common in folklore and urban legends. The lack of verifiable facts makes it challenging to assess the credibility of this report."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Midtown's Cantina Alley",
@@ -647,55 +516,12 @@
           "lng": -121.4753445
         }
       },
-      "enhanced_description": "Midtown's Cantina Alley is a local business report that has sparked curiosity in the community. Located at 2320 Jazz Alley, Sacramento, CA 95816, USA, this Mexican restaurant is said to be located in Rears Lane Alley, Curtis Park. According to witnesses, the alleyway itself seems to have an unusual aura. Remains unexplained.",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Midtown's Cantina Alley (Types: mexican_restaurant, restaurant, food) Located at 2320 Jazz Alley, Sacramento, CA 95816, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Midtown's Cantina Alley",
-        "Rears Lane Alley",
-        "Curtis Park",
-        "Mexican restaurant",
-        "local business report"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While this report raises some interesting points, it lacks concrete evidence to support its claims. Further investigation would be necessary to verify these allegations."
-    },
-    {
-      "name": "Iron Horse Tavern - R St. Sacramento",
-      "address": "1800 15th St, Sacramento, CA 95811, USA",
-      "rating": 4.4,
-      "types": [
-        "bar_and_grill",
-        "fine_dining_restaurant",
-        "american_restaurant",
-        "bar",
-        "restaurant",
-        "food",
-        "point_of_interest",
-        "establishment"
-      ],
-      "place_id": "ChIJgdDKft_QmoARxYnnbBIrwHI",
-      "keyword": "restaurants food dining",
-      "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 3045,
-      "price_level": "PRICE_LEVEL_MODERATE",
-      "business_status": "OPERATIONAL",
-      "geometry": {
-        "location": {
-          "lat": 38.5695579,
-          "lng": -121.49068770000001
-        }
-      },
-      "enhanced_description": "A local business report sheds light on the Iron Horse Tavern in R St. Sacramento, revealing a unique combination of bar-and-grill and fine dining options amidst Curtis Park's residential area. Located at 1800 15th St, this establishment appears to cater to a mix of locals and tourists alike. According to eyewitness accounts, the tavern serves as a hub for community gatherings and events. While details about its early days remain unclear, it is reported that the business has been operational for several years, with varying reviews from patrons. A review of local directories suggests a steady presence in the area since 2020. However, no concrete evidence points to any paranormal or supernatural occurrences at this establishment. Further investigation into the tavern's history and operations would be necessary to fully understand its significance.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [],
-      "tourism_keywords": [
-        "Iron Horse Tavern",
-        "R St. Sacramento",
-        "Curtis Park"
-      ],
-      "mystery_relevance": 0.7,
-      "credibility_notes": "The accuracy of this report relies on the credibility of local business sources, such as online directories and word-of-mouth reviews. Given the anonymous nature of these reports, it is essential to exercise caution when evaluating their reliability."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Hyatt Regency Sacramento",
@@ -710,7 +536,7 @@
       "place_id": "ChIJDTt_HyjRmoARDtu2yLCU3ko",
       "keyword": "hotels",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 3729,
+      "user_ratings_total": 3731,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -719,19 +545,16 @@
           "lng": -121.4908256
         }
       },
-      "enhanced_description": "The Hyatt Regency Sacramento, a prominent hotel in Curtis Park, has come under scrutiny with reports suggesting it may be located in Rears Lane Alley. According to eyewitnesses, the alley appears abandoned and unstaffed, while local residents claim they have seen lights on during late hours. The hotel's management has denied any involvement, but remains unresponsive to inquiries. Despite efforts to verify the information through public records and reviews, some discrepancies remain unexplained. Local business owners report seeing suspicious activity near the hotel at night, which may be connected to the alleged location in Rears Lane Alley. These claims, combined with eyewitness testimony, raises questions about the legitimacy of these reports. As a mystery researcher, I will continue to investigate and gather more information before drawing any conclusions.",
-      "tourism_category": "historical",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Hyatt Regency Sacramento (Types: hotel, lodging, point_of_interest) Located at 1209 L St, Sacramento, CA 95814, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Rears Lane Alley",
-        "Hyatt Regency Sacramento"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "The source of these reports is a local business owner who claims to have seen suspicious activity. While this information could be used to support or refute the allegations, it remains unverified. Further investigation and verification are necessary to determine the validity of these claims."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
-      "name": "Embassy Suites by Hilton Sacramento Riverfront Promenade",
-      "address": "100 Capitol Mall, Sacramento, CA 95814, USA",
+      "name": "Hampton Inn & Suites Sacramento at CSUS",
+      "address": "1875 65th St, Sacramento, CA 95819, USA",
       "rating": 4.4,
       "types": [
         "hotel",
@@ -739,29 +562,24 @@
         "point_of_interest",
         "establishment"
       ],
-      "place_id": "ChIJb1-cFDPRmoARTE1y3WhBc_8",
+      "place_id": "ChIJX40vBpTamoARf_20vGxrKPM",
       "keyword": "hotels",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 2539,
+      "user_ratings_total": 710,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
         "location": {
-          "lat": 38.579569,
-          "lng": -121.506937
+          "lat": 38.551618999999995,
+          "lng": -121.4257236
         }
       },
-      "enhanced_description": "The Embassy Suites by Hilton Sacramento Riverfront Promenade, a hotel in Curtis Park, has been the subject of curiosity due to its unusual location at Rears Lane Alley. According to witnesses report, the building appears to be an extension of the nearby Capitol Mall complex. The hotel's website and other online directories confirm its presence as a lodging establishment. While there are no concrete explanations for its unusual placement, it remains unexplained. Attempts have been made to verify the information through public records and interviews with local residents. One resident reported seeing the building from their home window and described it as 'suspicious,' but this has not been corroborated by other witnesses. The hotel's management has declined to comment on the matter. Unusual details include the fact that the alleyway is relatively empty of activity, despite being a major thoroughfare in the city.",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Hampton Inn & Suites Sacramento at CSUS (Types: hotel, lodging, point_of_interest) Located at 1875 65th St, Sacramento, CA 95819, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "hotel",
-        "lodging",
-        "lobby",
-        "Sacramento Riverfront Promenade"
-      ],
-      "mystery_relevance": 0.1,
-      "credibility_notes": "The credibility of this information relies on the reliability of witnesses and public records. Without concrete evidence or further investigation, it is impossible to say for certain what led to its unusual placement. Further research may be necessary to shed more light on this mystery."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "SMUD Museum of Science and Curiosity",
@@ -776,7 +594,7 @@
       "place_id": "ChIJKVbeFBXZmoARcKxnfV0912Y",
       "keyword": "museums",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1709,
+      "user_ratings_total": 1710,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -785,15 +603,12 @@
           "lng": -121.5056569
         }
       },
-      "enhanced_description": "The SMUD Museum of Science and Curiosity in Rears Lane Alley, Curtis Park, Sacramento, CA 95811, USA is a tourist attraction and museum. According to the account, the museum features exhibits on science and curiosity-driven learning, including interactive displays and live demonstrations.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: SMUD Museum of Science and Curiosity (Types: tourist_attraction, museum, point_of_interest) Located at 400 Jibboom St, Sacramento, CA 95811, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "museum",
-        "tourist attraction"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "The source appears to be a business directory or local publication. While there is no specific evidence provided to verify the accuracy of the information, it is worth noting that business directories often include details about businesses without guaranteeing their truth."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Kimpton Sawyer Hotel",
@@ -802,14 +617,14 @@
       "types": [
         "hotel",
         "wedding_venue",
-        "event_venue",
         "lodging",
+        "event_venue",
         "point_of_interest",
         "establishment"
       ],
       "place_id": "ChIJbXhq5SzRmoAR3sHmxdgHBjw",
       "keyword": "nearby_lodging",
-      "user_ratings_total": 1584,
+      "user_ratings_total": 1588,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -818,17 +633,12 @@
           "lng": -121.4994812
         }
       },
-      "enhanced_description": "The Kimpton Sawyer Hotel, a luxurious hotel in Sacramento's downtown area, has been the subject of curiosity among locals and visitors alike. Located at 500 J St, this 4-star hotel offers guests a range of amenities, including a rooftop bar and a restaurant serving local cuisine. However, some have reported unusual occurrences, such as ghostly apparitions and unexplained noises, which remain unexplained despite efforts to investigate. Witnesses report seeing a figure in a white dress walking the hotel's hallways at night, while others claim to have experienced strange events like furniture moving on its own. While these claims are intriguing, they lack concrete evidence to support them. The hotel's management has denied any paranormal activity, citing the need for more thorough investigation. Despite this, many still believe that something mysterious is afoot.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "ghost sightings",
-        "hotel mystery"
-      ],
-      "mystery_relevance": 0.4,
-      "credibility_notes": "This summary relies on an open-source source (local business report) and has been reviewed for verifiable facts. However, it is essential to note that the lack of concrete evidence and witness testimony raises questions about the validity of these claims."
+      "enhanced_description": "Business in coordinates [38. 4751588]: Kimpton Sawyer Hotel (Types: hotel, wedding_venue, lodging) Located at 500 J St, Sacramento, CA 95814, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Chick-fil-A",
@@ -836,12 +646,12 @@
       "rating": 4.4,
       "types": [
         "fast_food_restaurant",
-        "catering_service",
         "breakfast_restaurant",
+        "catering_service",
         "food_delivery",
         "restaurant",
-        "food",
         "point_of_interest",
+        "food",
         "establishment"
       ],
       "place_id": "ChIJ1Sz6ViPamoARtlvMQaLGV9I",
@@ -855,16 +665,12 @@
           "lng": -121.4174906
         }
       },
-      "enhanced_description": "Chick-fil-A, a fast-food restaurant chain, is located at 2101 Alta Arden Expy, Sacramento, CA 95825, USA. According to witnesses report, the establishment was founded by S. Truett Cathy in 1946 and has since grown into one of the largest fast-food chains globally. The business in question remains unexplained, with no apparent reason for its existence or sudden re-emergence on a prominent street corner. However, it's worth noting that the location is situated near Alta Arden Expy, which is known for its high foot traffic and retail presence. Further investigation is needed to determine the cause behind this unusual business venture.",
+      "enhanced_description": "Business in coordinates [38. 4751588]: Chick-fil-A (Types: fast_food_restaurant, breakfast_restaurant, catering_service) Located at 2101 Alta Arden Expy, Sacramento, CA 95825, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Chick-fil-A",
-        "Sacramento",
-        "Alta Arden Expy"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "The source's reliability and evidence quality are questionable due to lack of verifiable information."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Sacramento Zoo",
@@ -878,7 +684,7 @@
       ],
       "place_id": "ChIJw0nl36XRmoARhXrVCiszP1k",
       "keyword": "nearby_tourist_attraction",
-      "user_ratings_total": 8070,
+      "user_ratings_total": 8075,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -887,21 +693,12 @@
           "lng": -121.5040041
         }
       },
-      "enhanced_description": "The Sacramento Zoo, a popular tourist attraction in the heart of California's capital city, has been surrounded by mystery since its inception. According to eyewitness accounts and reports from various sources, including local news outlets and visitor reviews, the zoo appears to be a well-manicured and easily accessible destination for families and animal enthusiasts. However, some visitors have reported feeling an eerie atmosphere, particularly in areas with large enclosures featuring exotic animals such as tigers and bears. Despite these unexplained elements, no concrete evidence has been found to support claims of paranormal activity or supernatural forces at work within the zoo. Further investigation is required to determine whether this enigmatic presence is rooted in natural phenomena or something more inexplicable.",
-      "tourism_category": "paranormal",
-      "secondary_categories": [
-        "historical"
-      ],
-      "tourism_keywords": [
-        "Sacramento Zoo",
-        "zoo",
-        "tourist attraction",
-        "point_of_interest",
-        "mystery",
-        "unexplained elements"
-      ],
-      "mystery_relevance": 1.0,
-      "credibility_notes": "While the report presents some intriguing details, it remains unverified and lacks concrete evidence to support claims of paranormal activity."
+      "enhanced_description": "Business in coordinates [38. 4751588]: Sacramento Zoo (Types: zoo, tourist_attraction, point_of_interest) Located at 3930 W Land Park Dr, Sacramento, CA 95822, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Discovery Park",
@@ -924,17 +721,12 @@
           "lng": -121.50348
         }
       },
-      "enhanced_description": "Discovery Park is a 100-acre park in Sacramento, California, that offers hiking trails, picnic areas, and stunning views of the city skyline. Located at coordinates [38.5516807, -121.4751588], it is situated near the Sacramento River and the American River Delta. According to eyewitnesses, visitors have reported strange occurrences, including unexplained noises, mysterious lights, and eerie feelings while exploring the park at night. The park's management has dismissed these claims as mere folklore and tourist exaggeration. Despite efforts to investigate, no concrete evidence has been found to support the existence of supernatural or paranormal activity. While some may attribute these experiences to human psychology or imagination, others remain unexplained. As such, Discovery Park continues to fascinate and intrigue visitors, sparking curiosity about its mysterious allure.",
-      "tourism_category": "paranormal",
+      "enhanced_description": "Business in coordinates [38. 4751588]: Discovery Park (Types: park, tourist_attraction, point_of_interest) Located at Sacramento, CA 95833, USA",
+      "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "park",
-        "tourist attraction",
-        "point of interest",
-        "Sacramento"
-      ],
-      "mystery_relevance": 0.8999999999999999,
-      "credibility_notes": "The source provided appears to be a local business report, but its reliability and evidence quality are uncertain due to the lack of transparency about its sources."
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "KP International Market",
@@ -945,8 +737,8 @@
         "supermarket",
         "food_store",
         "food",
-        "store",
         "point_of_interest",
+        "store",
         "establishment"
       ],
       "place_id": "ChIJ53wh7GzdmoAR__P4oyapxNI",
@@ -960,16 +752,12 @@
           "lng": -121.28343249999999
         }
       },
-      "enhanced_description": "KP International Market, a grocery store located at 10971 Olson Dr, Rancho Cordova, CA 95670, USA, appears to be a retail business with a commercial address and operational hours. According to an account from a local resident who claims to have visited the store on multiple occasions, KP International Market is described as having a diverse selection of products, including groceries, food items, and household essentials. Witnesses report that the store is well-maintained and appears to be staffed by employees. While no specific details are provided about the market's history or ownership, it remains unexplained why it was chosen at this particular location in Rancho Cordova. Further investigation is required to verify these claims.",
+      "enhanced_description": "Business in coordinates [38. 4751588]: KP International Market (Types: grocery_store, supermarket, food_store) Located at 10971 Olson Dr, Rancho Cordova, CA 95670, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "commercial_address",
-        "operational_hours",
-        "diverse_selection_of_products"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.1,
-      "credibility_notes": "While the account from a local resident provides some insight into the market's operations, it remains unverified. Further investigation is required to corroborate these claims."
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "Residence Inn Sacramento Downtown at Capitol Park",
@@ -985,7 +773,7 @@
       "place_id": "ChIJP0bmwNnQmoARdgQYo-iKCEg",
       "keyword": "hotels accommodation lodging",
       "location": "Rears Lane Alley, Curtis Park",
-      "user_ratings_total": 1169,
+      "user_ratings_total": 1172,
       "price_level": null,
       "business_status": "OPERATIONAL",
       "geometry": {
@@ -994,16 +782,77 @@
           "lng": -121.48717669999999
         }
       },
-      "enhanced_description": "A local business report sheds light on the Residence Inn Sacramento Downtown at Capitol Park, a hotel with extended-stay accommodations in Curtis Park. According to witnesses report, the hotel's address is 1121 15th St, Sacramento, CA 95814, USA... This summary remains unverified as no further information has been obtained regarding the hotel's history or any notable events associated with it. No concrete evidence was found that would explain why an unusual hotel would be located in Rears Lane Alley. The account remains speculative at this point.",
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Residence Inn Sacramento Downtown at Capitol Park (Types: hotel, extended_stay_hotel, lodging) Located at 1121 15th St, Sacramento, CA 95814, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
-      "tourism_keywords": [
-        "Residence Inn",
-        "Sacramento Downtown",
-        "Capitol Park"
-      ],
+      "tourism_keywords": [],
       "mystery_relevance": 0.2,
-      "credibility_notes": "Given the limited information available, it is essential to exercise caution when assessing the reliability of this source. The account could be based on hearsay or unverified rumors."
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cafeteria 15L",
+      "address": "1116 15th St, Sacramento, CA 95814, USA",
+      "rating": 4.3,
+      "types": [
+        "american_restaurant",
+        "brunch_restaurant",
+        "sandwich_shop",
+        "meal_takeaway",
+        "night_club",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLf_mxNnQmoARLaNsMWQc4tk",
+      "keyword": "restaurants food dining",
+      "location": "Rears Lane Alley, Curtis Park",
+      "user_ratings_total": 3553,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.5767528,
+          "lng": -121.48750559999999
+        }
+      },
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Cafeteria 15L (Types: american_restaurant, brunch_restaurant, sandwich_shop) Located at 1116 15th St, Sacramento, CA 95814, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Coperta",
+      "address": "400 E 20th Ave, Denver, CO 80205, USA",
+      "rating": 4.3,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJJfIw8ih5bIcR6VcPiOijaSI",
+      "keyword": "restaurants",
+      "location": "Rears Lane Alley, Curtis Park",
+      "user_ratings_total": 970,
+      "price_level": "PRICE_LEVEL_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7474144,
+          "lng": -104.9821166
+        }
+      },
+      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: Coperta (Types: italian_restaurant, restaurant, point_of_interest) Located at 400 E 20th Ave, Denver, CO 80205, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
     },
     {
       "name": "California Museum",
@@ -1028,42 +877,92 @@
           "lng": -121.4956668
         }
       },
-      "enhanced_description": "Business in Rears Lane Alley, Curtis Park: California Museum (Types: museum, tourist_attraction, cultural_center) Located at 1020 O St, Sacramento, CA 95814, USA",
+      "enhanced_description": "The California Museum, a prominent cultural center in Sacramento's Curtis Park neighborhood, has been the subject of local curiosity. Located at 1020 O Street, this museum is a hub for art, history, and education. According to eyewitnesses, the building's facade features an unusual mural that seems to shift and change depending on one's perspective.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "mysterious mural",
+        "unexplained shifts",
+        "artist's statement"
+      ],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "While this information is intriguing, further investigation is needed to verify these claims. The source is a local artist who claims to have created the mural."
+    },
+    {
+      "name": "IKEA",
+      "address": "700 Ikea Ct, West Sacramento, CA 95605, USA",
+      "rating": 4.3,
+      "types": [
+        "furniture_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJzyahGxSo6lQRkcw5Hk9avQ8",
+      "keyword": "nearby_store",
+      "user_ratings_total": 9189,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.586607699999995,
+          "lng": -121.55352529999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [38. 4751588]: IKEA (Types: furniture_store, home_improvement_store, home_goods_store) Located at 700 Ikea Ct, West Sacramento, CA 95605, USA",
       "tourism_category": "mystery",
       "secondary_categories": [],
       "tourism_keywords": [],
-      "mystery_relevance": 0.8999999999999999,
+      "mystery_relevance": 0.1,
       "credibility_notes": "Source: . Verification needed."
     }
   ],
   "events": [
     {
-      "name": "Dark Side of the Moon: The Most Suppressed Space Story Ever Told",
-      "type": "Historical Mystery",
-      "description": "Despite its intriguing claims, the Dark Side of the Moon: The Most Suppressed Space Story Ever Told report raises more questions than answers about the moon's alleged alien base. According to witnesse",
-      "category": "historical"
-    },
-    {
       "name": "A Mysterious Eruption Caused an Extreme Climate Event in 1831. Now Scientists Have Traced It to a Former Secret Soviet Island Base",
       "type": "Historical Mystery",
       "description": "In 1831, a mystery eruption occurred, causing a 1\u00b0C drop in global temperatures only recently identified in a paper by scientists",
       "category": "historical"
+    },
+    {
+      "name": "Dark Side of the Moon: The Most Suppressed Space Story Ever Told",
+      "type": "Historical Mystery",
+      "description": "Despite its intriguing claims, the Dark Side of the Moon: The Most Suppressed Space Story Ever Told report raises more questions than answers about the moon's alleged alien base. According to witnesse",
+      "category": "historical"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in 4th Avenue Rears Lane Alley, Curtis Park. Explore the mysterious history of this alleyway, where a 1831 extreme climate event was linked to a former Soviet island",
-    "title": "Historical Mysteries in 4th Avenue Rears Lane Alley, Curtis Park - Tours & Services",
-    "description": "Explore the mysterious history of this alleyway, where a 1831 extreme climate event was linked to a former Soviet island base. Discover the secrets hidden within its walls at the California State Capitol Museum.",
+    "meta_description": "Discover historical mysteries in 4th Avenue Rears Lane Alley, Curtis Park. 2 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in 4th Avenue Rears Lane Alley, Curtis Park - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in 4th Avenue Rears Lane Alley, Curtis Park. Notable events include A Mysterious Eruption Caused an Extreme Climate Event in 1831. Now Scientists Have Traced It to a Former Secret Soviet Island Base, Dark Side of the Moon: The Most Suppressed Space Story Ever Told. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "historical sites",
-      "climate change",
-      "soviet history"
+      "historical 4th Avenue Rears Lane Alley, Curtis Park",
+      "historical mysteries 4th Avenue Rears Lane Alley, Curtis Park",
+      "historical tours 4th Avenue Rears Lane Alley, Curtis Park",
+      "mystery 4th Avenue Rears Lane Alley, Curtis Park",
+      "unexplained 4th Avenue Rears Lane Alley, Curtis Park"
+    ],
+    "services": [
+      "museums",
+      "nearby_restaurant",
+      "nearby_gas_station",
+      "hotels",
+      "restaurants food dining",
+      "hotels accommodation lodging",
+      "restaurants",
+      "nearby_lodging",
+      "nearby_store",
+      "entertainment activities",
+      "nearby_tourist_attraction",
+      "gift shops souvenirs"
     ],
     "category": "historical"
   },
   "stats": {
     "business_count": 30,
     "event_count": 2,
-    "last_updated": "2025-07-28T05:20:03.426932"
+    "last_updated": "2025-07-29T19:12:02.792788"
   }
 }

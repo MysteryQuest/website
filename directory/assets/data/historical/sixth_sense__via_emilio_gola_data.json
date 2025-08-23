@@ -1,0 +1,923 @@
+{
+  "location_name": "Sixth Sense, Via Emilio Gola",
+  "category": "historical",
+  "timestamp": "20250729_152800",
+  "businesses": [
+    {
+      "name": "Duomo di Milano",
+      "address": "P.za del Duomo, 20122 Milano MI, Italy",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "church",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJoTZGw67GhkcREy4aECdOf6s",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 181596,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.464097599999995,
+          "lng": 9.1919265
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Duomo di Milano (Types: tourist_attraction, church, place_of_worship) Located at P",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "B&B HOTEL Milano La Spezia",
+      "address": "Via Spezia, 25, 20145 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJqXfT0PTDhkcRWKzvbQ2noIk",
+      "keyword": "hotels accommodation lodging",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 4945,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.440919199999996,
+          "lng": 9.1728309
+        }
+      },
+      "enhanced_description": "B&B HOTEL Milano La Spezia: A Hotel with a Unique History in the Italian Riviera",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "B&B hotel",
+        "Milano La Spezia",
+        "Italian Riviera"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While the source is credible, there are factors to consider when evaluating its reliability."
+    },
+    {
+      "name": "Galleria Vittorio Emanuele II",
+      "address": "20123 Milan, Metropolitan City of Milan, Italy",
+      "rating": 4.7,
+      "types": [
+        "shopping_mall",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJw7aG_QY1eUcRFtQJWKmcCyc",
+      "keyword": "shopping retail stores",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 107525,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4658434,
+          "lng": 9.1899401
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Galleria Vittorio Emanuele II (Types: shopping_mall, tourist_attraction, point_of_interest) Located at 20123 Milan, Metropolitan City of Milan, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.7,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Milan Leo Souvenirs",
+      "address": "Piazza del Cannone, 20121 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJx78M7k7BhkcRc_O7Got_-UQ",
+      "keyword": "gift shops souvenirs",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 607,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4714436,
+          "lng": 9.1783267
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Milan Leo Souvenirs (Types: point_of_interest, store, establishment) Located at Piazza del Cannone, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Nidaba Theatre - Live Music Club Milano Navigli",
+      "address": "Via Emilio Gola, 12, 20143 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "concert_hall",
+        "auditorium",
+        "bar",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJuUIncffDhkcRQUPax-i_PFE",
+      "keyword": "things to do",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 1005,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4489922,
+          "lng": 9.175803700000001
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Nidaba Theatre - Live Music Club Milano Navigli (Types: concert_hall, auditorium, bar) Located at Via Emilio Gola, 12, 20143 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bagatti Valsecchi Museum",
+      "address": "Via Ges\u00f9, 5, 20121 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "cultural_center",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5RQ7V7DGhkcRpDodQbl-mTs",
+      "keyword": "museums",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 1702,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4694469,
+          "lng": 9.195017499999999
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Bagatti Valsecchi Museum (Types: tourist_attraction, cultural_center, museum) Located at Via Ges\u00f9, 5, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Casa museo Boschi di Stefano",
+      "address": "Via Giorgio Jan, 15, 20129 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJaTHK4cHGhkcRvB5AqS1NjkI",
+      "keyword": "museums",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 1915,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4789013,
+          "lng": 9.211463799999999
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Casa museo Boschi di Stefano (Types: museum, point_of_interest, establishment) Located at Via Giorgio Jan, 15, 20129 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan",
+      "address": "Piazza Duca d'Aosta, 9, 20124 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJMfRV4s_GhkcRYLtXZTp4LZU",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2689,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4856769,
+          "lng": 9.2014669
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Excelsior Hotel Gallia, a Luxury Collection Hotel, Milan (Types: hotel, lodging, point_of_interest) Located at Piazza Duca d'Aosta, 9, 20124 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "San Siro Stadium",
+      "address": "Piazzale Angelo Moratti, 20151 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "stadium",
+        "tourist_attraction",
+        "sports_complex",
+        "event_venue",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnfEj-pPBhkcREvPvegzTxwk",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 100807,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4780807,
+          "lng": 9.123996
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: San Siro Stadium (Types: stadium, tourist_attraction, sports_complex) Located at Piazzale Angelo Moratti, 20151 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Sforzesco Castle",
+      "address": "Piazza Castello, 20121 Milano MI, Italy",
+      "rating": 4.7,
+      "types": [
+        "historical_place",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPXupDrb8hkcRm8JyxGbdVmU",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 83840,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4704762,
+          "lng": 9.1793325
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Sforzesco Castle (Types: historical_place, tourist_attraction, point_of_interest) Located at Piazza Castello, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Viaggi nel Gusto",
+      "address": "Via Edmondo de Amicis, 24, 20123 Milano MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJw010r_3DhkcRxSzUjNKOO1I",
+      "keyword": "restaurants food dining",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 738,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4587697,
+          "lng": 9.1782302
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Viaggi nel Gusto (Types: italian_restaurant, restaurant, food) Located at Via Edmondo de Amicis, 24, 20123 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "La Fraschetta d\u00e8 Balestrari (Romeo La Pinseria der Colosseo)",
+      "address": "Via Ascanio Sforza, 17, 20136 Milano MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkaCQF_jDhkcRzGN4OfaukQc",
+      "keyword": "restaurants food dining",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 508,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.450064,
+          "lng": 9.1778006
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: La Fraschetta d\u00e8 Balestrari (Romeo La Pinseria der Colosseo) (Types: italian_restaurant, restaurant, food) Located at Via Ascanio Sforza, 17, 20136 Milano MI,...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Seta by Antonio Guida",
+      "address": "Via Monte di Piet\u00e0, 18, 20121 Milano MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "fine_dining_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4SpfKbLGhkcRelRO_y0t8ZE",
+      "keyword": "restaurants food dining",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 579,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.469828299999996,
+          "lng": 9.191318899999999
+        }
+      },
+      "enhanced_description": "Seta by Antonio Guida: A Fine-Dining Restaurant in Milan, Italy, with a Complex History and Uncertainties Surrounding its Origins.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Italian cuisine",
+        "Fine dining",
+        "Milan Italy restaurants",
+        "Antonio Guida"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While the sources provide valuable information about Seta by Antonio Guida's business and location, some details remain unexplained or disputed."
+    },
+    {
+      "name": "Nero 9",
+      "address": "Via Anfiteatro, 9, 20121 Milano MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "italian_restaurant",
+        "steak_house",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJCfM6uUvBhkcR0zb4MvIpnec",
+      "keyword": "restaurants food dining",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 967,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4742749,
+          "lng": 9.1827823
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Nero 9 (Types: italian_restaurant, steak_house, restaurant) Located at Via Anfiteatro, 9, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Leonardo da Vinci Museum of Science and Technology",
+      "address": "Via San Vittore, 21, 20123 Milano MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJm-5swlnBhkcRkuvlGcqPRXI",
+      "keyword": "museums",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 28126,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4628869,
+          "lng": 9.1706523
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Leonardo da Vinci Museum of Science and Technology (Types: tourist_attraction, museum, point_of_interest) Located at Via San Vittore, 21, 20123 Milano MI, Ita...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Basilica di Santa Maria delle Grazie",
+      "address": "Via Giuseppe Antonio Sassi, 3, 20123 Milano MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "church",
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJgxy_RFrBhkcRWVrH08TNW-0",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 17292,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.465962999999995,
+          "lng": 9.170962099999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Basilica di Santa Maria delle Grazie (Types: tourist_attraction, church, place_of_worship) Located at Via Giuseppe Antonio Sassi, 3, 20123 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Outlet Carburanti",
+      "address": "Via Fratelli Cervi, snc, 20054 Segrate MI, Italy",
+      "rating": 4.6,
+      "types": [
+        "gas_station",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJnbFpqUrGhkcRMEOi0OxsNr8",
+      "keyword": "nearby_gas_station",
+      "user_ratings_total": 728,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.490077899999996,
+          "lng": 9.2615626
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Outlet Carburanti (Types: gas_station, point_of_interest, establishment) Located at Via Fratelli Cervi, snc, 20054 Segrate MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Nerino Dieci Trattoria",
+      "address": "Via Nerino, 10, 20123 Milano MI, Italy",
+      "rating": 4.5,
+      "types": [
+        "italian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJHZh9KKvGhkcRZwJqOFHrOIk",
+      "keyword": "restaurants food dining",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 2646,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4610734,
+          "lng": 9.1832556
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Nerino Dieci Trattoria (Types: italian_restaurant, restaurant, food) Located at Via Nerino, 10, 20123 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Il Luogo di Aimo e Nadia",
+      "address": "Via Privata Raimondo Montecuccoli, 6, 20147 Milano MI, Italy",
+      "rating": 4.5,
+      "types": [
+        "fine_dining_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ9aorjSvChkcRD0Zd5dxZ2s4",
+      "keyword": "restaurants food dining",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 560,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4584762,
+          "lng": 9.131244400000002
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Il Luogo di Aimo e Nadia (Types: fine_dining_restaurant, restaurant, food) Located at Via Privata Raimondo Montecuccoli, 6, 20147 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Seoul",
+      "address": "Corso Cristoforo Colombo, 4, 20144 Milano MI, Italy",
+      "rating": 4.5,
+      "types": [
+        "korean_restaurant",
+        "vegetarian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJc-5JgPzDhkcRvk0oQO1qCa4",
+      "keyword": "restaurants",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 598,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4547667,
+          "lng": 9.171672299999999
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Seoul (Types: korean_restaurant, vegetarian_restaurant, restaurant) Located at Corso Cristoforo Colombo, 4, 20144 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Milan Natural History Museum",
+      "address": "Corso Venezia, 55, 20121 Milano MI, Italy",
+      "rating": 4.5,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJd6wqEbnGhkcRl5BVgRTS-Zc",
+      "keyword": "museums",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 10398,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.472772000000006,
+          "lng": 9.2023776
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Milan Natural History Museum (Types: tourist_attraction, museum, point_of_interest) Located at Corso Venezia, 55, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Museo del Novecento",
+      "address": "P.za del Duomo, 8, 20123 Milano MI, Italy",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJLd2VYRsuVUARNjgLnq9U2dE",
+      "keyword": "museums",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 6150,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.463408,
+          "lng": 9.1901686
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Museo del Novecento (Types: museum, point_of_interest, establishment) Located at P. za del Duomo, 8, 20123 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Panzerotti Luini",
+      "address": "Via Santa Radegonda, 16, 20121 Milano MI, Italy",
+      "rating": 4.5,
+      "types": [
+        "bakery",
+        "fast_food_restaurant",
+        "food_store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJoUEJQq7GhkcRI153LB6-eXY",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 14909,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.465828599999995,
+          "lng": 9.1915578
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Panzerotti Luini (Types: bakery, fast_food_restaurant, food_store) Located at Via Santa Radegonda, 16, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Rinascente Milano",
+      "address": "P.za del Duomo, 20121 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "department_store",
+        "bar",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJC5I0NzXHhkcRqEoVi4VsJaE",
+      "keyword": "shopping retail stores",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 23637,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4649368,
+          "lng": 9.191822799999999
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Rinascente Milano (Types: department_store, bar, point_of_interest) Located at P. za del Duomo, 20121 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bazar del Naviglio Grande",
+      "address": "Ripa di Porta Ticinese, 27, 20143 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "home_goods_store",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ8RQ_mfnDhkcR9i6XWsGtR0c",
+      "keyword": "shopping retail stores",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 4884,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.451608199999995,
+          "lng": 9.1747707
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Bazar del Naviglio Grande (Types: tourist_attraction, home_goods_store, point_of_interest) Located at Ripa di Porta Ticinese, 27, 20143 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.7,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Museum of Senses Milano",
+      "address": "Viale Monte Grappa, 10, 20124 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJI3Hhwn_HhkcR2o26kT4BFmE",
+      "keyword": "things to do attractions tours",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 647,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4810285,
+          "lng": 9.190416299999999
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Museum of Senses Milano (Types: museum, point_of_interest, establishment) Located at Viale Monte Grappa, 10, 20124 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Nano Bleu",
+      "address": "Corso Vittorio Emanuele II, 15, 20122 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "gift_shop",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJpWU5Z6XGhkcREkcMT7qxH6g",
+      "keyword": "gift shops souvenirs",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 771,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.465796600000004,
+          "lng": 9.1960008
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Nano Bleu (Types: gift_shop, point_of_interest, store) Located at Corso Vittorio Emanuele II, 15, 20122 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Mudec",
+      "address": "Via Tortona, 56, 20144 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJwcLyGObDhkcRd4Ay1dlKE3I",
+      "keyword": "museums",
+      "location": "Sixth Sense, Via Emilio Gola",
+      "user_ratings_total": 16271,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4515435,
+          "lng": 9.1615384
+        }
+      },
+      "enhanced_description": "Business in Sixth Sense, Via Emilio Gola: Mudec (Types: tourist_attraction, museum, point_of_interest) Located at Via Tortona, 56, 20144 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Meli\u00e1 Milano",
+      "address": "Via Masaccio, 19, 20149 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJhUNU5HTBhkcRGxpkDPhUzC8",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 4537,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.479183000000006,
+          "lng": 9.146035999999999
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Meli\u00e1 Milano (Types: hotel, lodging, point_of_interest) Located at Via Masaccio, 19, 20149 Milano MI, Italy",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Starbucks Reserve Roastery",
+      "address": "P.za Cordusio, 1, 20123 Milano MI, Italy",
+      "rating": 4.4,
+      "types": [
+        "coffee_shop",
+        "cafe",
+        "food_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJveNf5KzGhkcR5evtDliEbRI",
+      "keyword": "nearby_store",
+      "user_ratings_total": 27171,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.4649459,
+          "lng": 9.1861863
+        }
+      },
+      "enhanced_description": "Business in coordinates [45. 1767525]: Starbucks Reserve Roastery (Types: coffee_shop, cafe, food_store) Located at P",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
+  "events": [
+    {
+      "name": "A \u2018Neurobiotic\u2019 Sixth Sense? Scientists Find Microscopic Organisms Can Directly Communicate with the Human Brain",
+      "type": "Historical Mystery",
+      "description": "Scientists have made a groundbreaking discovery in the field of neuroscience, proposing that microscopic organisms can directly communicate with the human brain. According to the source, researchers claim that certain microorganisms, such as bacteria and yeast, possess an innate ability to transmit sensory information to the brain. This 'neurobiotic' sixth sense is said to be the result of a previously unknown symbiotic relationship between these microorganisms and the human nervous system. While some witnesses report experiencing vivid dreams or enhanced intuition after exposure to certain strains of microorganisms, others remain unexplained. The study's authors emphasize that further investigation is needed to fully understand the mechanisms behind this phenomenon. As with any emerging scientific breakthrough, it remains to be seen how this discovery will be interpreted and addressed by the scientific community.",
+      "category": "historical"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Explore historical mysteries in Sixth Sense, Via Emilio Gola. Explore the mysterious past of Milan, from ancient ruins to hidden passageways. Discover the secrets behind Duomo di Mil",
+    "title": "Historical Mysteries in Sixth Sense, Via Emilio Gola - Tours & Services",
+    "description": "Explore the mysterious past of Milan, from ancient ruins to hidden passageways. Discover the secrets behind Duomo di Milano's stunning architecture and uncover the city's rich history.",
+    "keywords": [
+      "Duomo di Milano",
+      "Milan history",
+      "hidden Milan"
+    ],
+    "category": "historical"
+  },
+  "stats": {
+    "business_count": 30,
+    "event_count": 1,
+    "last_updated": "2025-07-29T15:28:00.367560"
+  }
+}

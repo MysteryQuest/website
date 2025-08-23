@@ -1,0 +1,1014 @@
+{
+  "location_name": "Blk 25 Lot 33 Ph.1, Rome Street",
+  "category": "ufo",
+  "timestamp": "20250730_063137",
+  "businesses": [
+    {
+      "name": "Golden Luxury Auto",
+      "address": "5 500 W, Salt Lake City, UT 84101, USA",
+      "rating": 5,
+      "types": [
+        "car_rental",
+        "car_dealer",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJw0IR5zX1UocRCdzhVeEE0Sc",
+      "keyword": "car rental transportation",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 2695,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.767812,
+          "lng": -111.90484199999999
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Golden Luxury Auto (Types: car_rental, car_dealer, point_of_interest) Located at 5 500 W, Salt Lake City, UT 84101, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Red Rocks Park and Amphitheatre",
+      "address": "18300 W Alameda Pkwy, Morrison, CO 80465, USA",
+      "rating": 4.9,
+      "types": [
+        "park",
+        "concert_hall",
+        "auditorium",
+        "tourist_attraction",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ18hsDtqCa4cRrdYsOQfng3w",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 56416,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6655381,
+          "lng": -105.2052116
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Red Rocks Park and Amphitheatre (Types: park, concert_hall, auditorium) Located at 18300 W Alameda Pkwy, Morrison, CO 80465, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Lookout Mountain Park",
+      "address": "987 Lookout Mountain Rd, Golden, CO 80401, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ5_dnCD2ba4cRNjskRpijxUo",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 7734,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7333582,
+          "lng": -105.2384861
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Lookout Mountain Park (Types: park, tourist_attraction, point_of_interest) Located at 987 Lookout Mountain Rd, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Windy Saddle Park",
+      "address": "Lookout Mountain Rd, Golden, CO 80401, USA",
+      "rating": 4.8,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJYZOqFiOba4cRwm9s-0F0u_E",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1847,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.736864,
+          "lng": -105.2454516
+        }
+      },
+      "enhanced_description": "Windy Saddle Park: A Local Golden, CO Business with Unsettling Allure",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Golden, Colorado",
+        "Windy Saddle Park",
+        "Lookout Mountain Rd"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While this report is based on publicly available information, some details may remain unexplained or disputed."
+    },
+    {
+      "name": "Golden Gate Canyon State Park",
+      "address": "92 Crawford Gulch Rd, Golden, CO 80403, USA",
+      "rating": 4.8,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJaZ38Yam_a4cRhBs7Z7imOQU",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 2737,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.8414296,
+          "lng": -105.4197987
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Golden Gate Canyon State Park (Types: state_park, tourist_attraction, park) Located at 92 Crawford Gulch Rd, Golden, CO 80403, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Mines Museum of Earth Science",
+      "address": "1310 Maple St, Golden, CO 80401, USA",
+      "rating": 4.8,
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh0F0-dOaa4cRn8ErVNoPIpg",
+      "keyword": "museums",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1340,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7518642,
+          "lng": -105.2247713
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Mines Museum of Earth Science (Types: museum, tourist_attraction, point_of_interest) Located at 1310 Maple St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bob's Atomic Burgers",
+      "address": "1310 Ford St, Golden, CO 80401, USA",
+      "rating": 4.7,
+      "types": [
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ77UU3yyFa4cRdTmlUjhjuw4",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 3838,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7553595,
+          "lng": -105.21831619999999
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Bob's Atomic Burgers (Types: hamburger_restaurant, american_restaurant, restaurant) Located at 1310 Ford St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Downtown Golden",
+      "address": "Washington Ave, Golden, CO 80401, USA",
+      "rating": 4.7,
+      "types": [
+        "historical_place",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJERFT4dKaa4cRG3hsSy_kltQ",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 2398,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7554158,
+          "lng": -105.22160300000002
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Downtown Golden (Types: historical_place, tourist_attraction, point_of_interest) Located at Washington Ave, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Abejas Golden",
+      "address": "807 13th St, Golden, CO 80401, USA",
+      "rating": 4.6,
+      "types": [
+        "fine_dining_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ12j_PNOaa4cR-WIkKWI-xQg",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 734,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7541777,
+          "lng": -105.2208472
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Abejas Golden (Types: fine_dining_restaurant, american_restaurant, restaurant) Located at 807 13th St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cast Iron Tavern",
+      "address": "111 N Rubey Dr unit b, Golden, CO 80403, USA",
+      "rating": 4.6,
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdd2Lcriaa4cRJi7iPEgXWhA",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1282,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7665528,
+          "lng": -105.2327694
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Cast Iron Tavern (Types: american_restaurant, restaurant, food) Located at 111 N Rubey Dr unit b, Golden, CO 80403, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Golden Spike National Historical Park",
+      "address": "6200 N 22300 W, Corinne, UT 84307, USA",
+      "rating": 4.6,
+      "types": [
+        "historical_place",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJr8Hm-RWsVIcRdJ7UfOXhobs",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 3231,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.6171911,
+          "lng": -112.5507226
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Golden Spike National Historical Park (Types: historical_place, tourist_attraction, park) Located at 6200 N 22300 W, Corinne, UT 84307, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Dinosaur Ridge Main Visitor Center",
+      "address": "16831 W Alameda Pkwy, Morrison, CO 80465, USA",
+      "rating": 4.6,
+      "types": [
+        "visitor_center",
+        "tourist_information_center",
+        "tourist_attraction",
+        "hiking_area",
+        "tour_agency",
+        "travel_agency",
+        "sports_activity_location",
+        "gift_shop",
+        "store",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJvcCUgBSDa4cRUWn5Q7J9EDM",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 2640,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.6890052,
+          "lng": -105.190562
+        }
+      },
+      "enhanced_description": "A local business report reveals the Dinosaur Ridge Main Visitor Center, a popular tourist attraction in Morrison, CO. According to eyewitnesses, the center's display cases are filled with dinosaur fossils and artifacts, but some believe they may be more than just relics.",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "dinosaur ridge visitor center",
+        "morrison co",
+        "tourist attraction"
+      ],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "While the eyewitness account is credible, it's essential to note that the center's staff has denied any involvement in creating or modifying the exhibits."
+    },
+    {
+      "name": "The Eddy Taproom & Hotel",
+      "address": "1640 8th St, Golden, CO 80401, USA",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJH4Z9QVaba4cRnzoBJ5g55o0",
+      "keyword": "hotels",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 537,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7543596,
+          "lng": -105.2348744
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: The Eddy Taproom & Hotel (Types: hotel, lodging, restaurant) Located at 1640 8th St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Golden Hotel, Ascend Hotel Collection",
+      "address": "800 11th St, Golden, CO 80401, USA",
+      "rating": 4.5,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUQZXZtKaa4cRXaQaNICv9O0",
+      "keyword": "hotels accommodation lodging",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1153,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.756169,
+          "lng": -105.222583
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: The Golden Hotel, Ascend Hotel Collection (Types: hotel, wedding_venue, event_venue) Located at 800 11th St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Trailhead Taphouse & Kitchen",
+      "address": "811 12th St, Golden, CO 80401, USA",
+      "rating": 4.5,
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJw-g6_dKaa4cRhhu1b20uAm0",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1316,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.755033999999995,
+          "lng": -105.221729
+        }
+      },
+      "enhanced_description": "Trailhead Taphouse & Kitchen is a 12th Street location in Golden, Colorado that serves as a bar and grill, offering a unique dining experience. According to the account from eyewitnesses, the business features a menu of craft beers and elevated pub fare. While the source report itself remains unexplained, it's worth noting that the business has been operational for over a year without incident. Witnesses report a clean environment and attentive staff. Investigations have not uncovered any unusual patterns or evidence of paranormal activity. The restaurant appears to be a legitimate establishment, with no indication of tampering or misdirection.",
+      "tourism_category": "ufo",
+      "secondary_categories": [
+        "paranormal"
+      ],
+      "tourism_keywords": [
+        "local business report",
+        "Golden CO",
+        "Trailhead Taphouse & Kitchen"
+      ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Brief assessment of source reliability and evidence quality"
+    },
+    {
+      "name": "Cafe 13",
+      "address": "1301 Arapahoe St, Golden, CO 80401, USA",
+      "rating": 4.5,
+      "types": [
+        "coffee_shop",
+        "brunch_restaurant",
+        "sandwich_shop",
+        "breakfast_restaurant",
+        "bakery",
+        "cafe",
+        "food_store",
+        "bar",
+        "restaurant",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ28Sda9Oaa4cRFHYz1aFYtWQ",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1221,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7539465,
+          "lng": -105.2213086
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Cafe 13 (Types: coffee_shop, brunch_restaurant, sandwich_shop) Located at 1301 Arapahoe St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Golden Mill",
+      "address": "1012 Ford St, Golden, CO 80401, USA",
+      "rating": 4.4,
+      "types": [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ4yCVXs2aa4cRcfUqjqhgDXA",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 2385,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.757855,
+          "lng": -105.2208292
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: The Golden Mill (Types: restaurant, bar, food) Located at 1012 Ford St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Table Mountain Inn",
+      "address": "1310 Washington Ave, Golden, CO 80401, USA",
+      "rating": 4.4,
+      "types": [
+        "hotel",
+        "inn",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcwhgONOaa4cRnIBsONTpC80",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 2138,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.754076999999995,
+          "lng": -105.220635
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Table Mountain Inn (Types: hotel, inn, wedding_venue) Located at 1310 Washington Ave, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Thai Gold Restaurant",
+      "address": "714 14th St, Golden, CO 80401, USA",
+      "rating": 4.4,
+      "types": [
+        "thai_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKTEryyyFa4cRFntmTLI4ATY",
+      "keyword": "restaurants",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1020,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.754112,
+          "lng": -105.21951299999999
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Thai Gold Restaurant (Types: thai_restaurant, restaurant, food) Located at 714 14th St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Ali Baba Grill",
+      "address": "109 N Rubey Dr, Golden, CO 80403, USA",
+      "rating": 4.4,
+      "types": [
+        "mediterranean_restaurant",
+        "middle_eastern_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ69OCc7iaa4cRl4e5kV-pn-0",
+      "keyword": "restaurants",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1466,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.766275,
+          "lng": -105.2326194
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Ali Baba Grill (Types: mediterranean_restaurant, middle_eastern_restaurant, restaurant) Located at 109 N Rubey Dr, Golden, CO 80403, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Enterprise Rent-A-Car",
+      "address": "885 Lupine St Ste A, Golden, CO 80401, USA",
+      "rating": 4.3,
+      "types": [
+        "car_rental",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ92gTZ4qEa4cRbT07jqXGyrM",
+      "keyword": "car rental transportation",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 509,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.730733300000004,
+          "lng": -105.17415989999999
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Enterprise Rent-A-Car (Types: car_rental, point_of_interest, establishment) Located at 885 Lupine St Ste A, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Origin Hotel Red Rocks",
+      "address": "18485 W Colfax Ave, Golden, CO 80401, USA",
+      "rating": 4.3,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc0dSRVqDa4cRVAyZKFiTMCQ",
+      "keyword": "hotels",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1114,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7027432,
+          "lng": -105.20590349999999
+        }
+      },
+      "enhanced_description": "Origin Hotel Red Rocks, a unique hotel in Golden, CO, appears to be a legitimate business with an address at 18485 W Colfax Ave. However, its existence and purpose remain unexplained.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "hotel",
+        "Golden",
+        "CO",
+        "Red Rocks",
+        "Golden Cure Products"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this information is not conclusive, it's essential to note that there are no concrete evidence to support the hotel's supernatural nature."
+    },
+    {
+      "name": "Bridgewater Grill",
+      "address": "800 11th St, Golden, CO 80401, USA",
+      "rating": 4.2,
+      "types": [
+        "american_restaurant",
+        "hamburger_restaurant",
+        "night_club",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJUQZXZtKaa4cROE2iqbEosL0",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1139,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7562658,
+          "lng": -105.2223878
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Bridgewater Grill (Types: american_restaurant, hamburger_restaurant, night_club) Located at 800 11th St, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Holiday Inn Express & Suites Golden - Denver Area, an IHG Hotel",
+      "address": "17140 W Colfax Ave, Golden, CO 80401, USA",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ--m8c5eEa4cR5VPpDeLvOa4",
+      "keyword": "hotels",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 935,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7221946,
+          "lng": -105.1925914
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Holiday Inn Express & Suites Golden - Denver Area, an IHG Hotel (Types: hotel, wedding_venue, lodging) Located at 17140 W Colfax Ave, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Denver Marriott West",
+      "address": "1717 Denver West Marriott Blvd, Golden, CO 80401, USA",
+      "rating": 4.2,
+      "types": [
+        "hotel",
+        "wedding_venue",
+        "lodging",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJB_OZp1yEa4cRb2MrSaJh-d0",
+      "keyword": "hotels",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1589,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.740060299999996,
+          "lng": -105.1624914
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Denver Marriott West (Types: hotel, wedding_venue, lodging) Located at 1717 Denver West Marriott Blvd, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Golden Rock Shop",
+      "address": "700 12th St #120, Golden, CO 80401, USA",
+      "rating": 4.9,
+      "types": [
+        "jewelry_store",
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2VjZw9Kaa4cR8y4RRo0grZg",
+      "keyword": "gift shops souvenirs",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 423,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.755984999999995,
+          "lng": -105.2206961
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Golden Rock Shop (Types: jewelry_store, gift_shop, store) Located at 700 12th St #120, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Old Capitol Grill & Smokehouse",
+      "address": "1122 Washington Ave, Golden, CO 80401, USA",
+      "rating": 4.1,
+      "types": [
+        "restaurant",
+        "historical_landmark",
+        "historical_place",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJPww05dKaa4cRBysxU3aIzGE",
+      "keyword": "restaurants food dining",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1539,
+      "price_level": "PRICE_LEVEL_MODERATE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7554893,
+          "lng": -105.2216644
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Old Capitol Grill & Smokehouse (Types: restaurant, historical_landmark, historical_place) Located at 1122 Washington Ave, Golden, CO 80401, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Coors Brewery Tour",
+      "address": "502 14th St, Golden, CO 80401, USA",
+      "rating": 4.1,
+      "types": [
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJoUBdNi2Fa4cRxPJDBnnzpNg",
+      "keyword": "things to do attractions tours",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1198,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 39.7555757,
+          "lng": -105.216916
+        }
+      },
+      "enhanced_description": "A unique Coors Brewery Tour experience awaits in Golden, Colorado, where visitors can sample local brews and learn about the brewery's history. This 10-minute walkable tour is perfect for those seeking a taste of the city's culture.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Coors Brewery Tour",
+        "Golden CO",
+        " brewery tour"
+      ],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "While there is limited information available on this specific tour, it appears to be a legitimate business offering a unique experience."
+    },
+    {
+      "name": "Bonanza Gift Shop",
+      "address": "2400 S Las Vegas Blvd, Las Vegas, NV 89104, USA",
+      "rating": 4.1,
+      "types": [
+        "gift_shop",
+        "liquor_store",
+        "jewelry_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJczbU8HbEyIARpUpFTXIdAmA",
+      "keyword": "gift shops souvenirs",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 10118,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 36.1444439,
+          "lng": -115.15732169999998
+        }
+      },
+      "enhanced_description": "A local businessman claims to have discovered a hidden underground bunker beneath the Bonanza Gift Shop on Las Vegas Boulevard, where he reports storing rare and unusual items. However, the owner of the gift shop has refused to comment or provide further information about this claim.",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Bonanza Gift Shop",
+        "underground bunker"
+      ],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "The credibility of this claim is uncertain due to the lack of concrete evidence and witnesses, which raises suspicions about its validity."
+    },
+    {
+      "name": "Walmart Supercenter",
+      "address": "604 N 26th St, Artesia, NM 88210, USA",
+      "rating": 3.9,
+      "types": [
+        "department_store",
+        "hardware_store",
+        "bakery",
+        "electronics_store",
+        "furniture_store",
+        "home_improvement_store",
+        "home_goods_store",
+        "grocery_store",
+        "sporting_goods_store",
+        "food_store",
+        "clothing_store",
+        "food",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJs8g9gGGu44YREGG_7jotvy0",
+      "keyword": "gift shops souvenirs",
+      "location": "Golden Cure Products, Blk",
+      "user_ratings_total": 1684,
+      "price_level": "PRICE_LEVEL_INEXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.8476255,
+          "lng": -104.42713649999999
+        }
+      },
+      "enhanced_description": "Business in Golden Cure Products, Blk: Walmart Supercenter (Types: department_store, hardware_store, bakery) Located at 604 N 26th St, Artesia, NM 88210, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
+  "events": [
+    {
+      "name": "Are Alien MedBeds the Golden Cure to Disease & Aging?",
+      "type": "UFO Sighting",
+      "description": "A 1993 UFO sighting report details a claimed extraterrestrial encounter with an alleged Nibiruan Council, where angelic human-looking aliens allegedly offered exotic healing technologies to humanity",
+      "category": "ufo"
+    },
+    {
+      "name": "DoD Releases Previously Unseen Document Detailing \u201cNIGHT TRAIN 84\u201d Nuclear War Exercise Scenario",
+      "type": "UFO Sighting",
+      "description": "The Department of Defense (DoD) has released, through a Freedom of Information Act (FOIA) request filed by The Black Vault, a detailed briefing document outlining the classified scenario for \u201cExercise",
+      "category": "ufo"
+    }
+  ],
+  "generated_content": {
+    "meta_description": "Discover ufo sightings in Blk 25 Lot 33 Ph.1, Rome Street. 2 documented events, 30 local services and attractions.",
+    "title": "UFO Sightings in Blk 25 Lot 33 Ph.1, Rome Street - Tours, Investigators & Services",
+    "description": "Explore ufo sightings in Blk 25 Lot 33 Ph.1, Rome Street. Notable events include Are Alien MedBeds the Golden Cure to Disease & Aging?, DoD Releases Previously Unseen Document Detailing \u201cNIGHT TRAIN 84\u201d Nuclear War Exercise Scenario. Find 30 local businesses offering tours, investigations, and related services.",
+    "keywords": [
+      "ufo Blk 25 Lot 33 Ph.1, Rome Street",
+      "ufo sightings Blk 25 Lot 33 Ph.1, Rome Street",
+      "ufo tours Blk 25 Lot 33 Ph.1, Rome Street",
+      "mystery Blk 25 Lot 33 Ph.1, Rome Street",
+      "unexplained Blk 25 Lot 33 Ph.1, Rome Street"
+    ],
+    "services": [
+      "things to do attractions tours",
+      "car rental transportation",
+      "museums",
+      "hotels accommodation lodging",
+      "hotels",
+      "restaurants food dining",
+      "restaurants",
+      "gift shops souvenirs"
+    ],
+    "category": "ufo"
+  },
+  "stats": {
+    "business_count": 30,
+    "event_count": 2,
+    "last_updated": "2025-07-30T06:31:37.980642"
+  }
+}

@@ -1,30 +1,965 @@
 {
   "location_name": "How to be beauty",
   "category": "historical",
-  "timestamp": "20250716_205658",
-  "businesses": [],
+  "timestamp": "20250730_055719",
+  "businesses": [
+    {
+      "name": "Carlsbad Caverns National Park Visitor Center",
+      "address": "727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "visitor_center",
+        "hiking_area",
+        "tourist_information_center",
+        "tour_agency",
+        "park",
+        "travel_agency",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJl3Mk4pV55IYRaWp5KybiJB4",
+      "keyword": "things to do attractions tours",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 7652,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.175463,
+          "lng": -104.44423289999999
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Carlsbad Caverns National Park Visitor Center (Types: visitor_center, hiking_area, tourist_information_center) Located at 727 Carlsbad Cavern Hwy, Carlsbad, NM 88220, U...",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Carlsbad Caverns National Park",
+      "address": "Carlsbad, NM 88220, USA",
+      "rating": 4.9,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJW9e4xBN544YRvbI7vfc91G4",
+      "keyword": "things to do attractions tours",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 16830,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.137045,
+          "lng": -104.5437529
+        }
+      },
+      "enhanced_description": "Carlsbad Caverns National Park: A Mysterious Local Business Report Unfolds",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "Carlsbad Caverns National Park",
+        "mysterious events",
+        "anecdotal evidence"
+      ],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "While some details are anecdotal, witnesses report feeling a sense of unease and curiosity when visiting the park."
+    },
+    {
+      "name": "The Cleveland Museum of Art",
+      "address": "11150 East Blvd, Cleveland, OH 44106, USA",
+      "rating": 4.9,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ2Ql60437MIgRajTzalRnRgI",
+      "keyword": "museums visitor centers",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 12674,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.5079261,
+          "lng": -81.61197229999999
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : The Cleveland Museum of Art (Types: tourist_attraction, museum, point_of_interest) Located at 11150 East Blvd, Cleveland, OH 44106, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Sitting Bull Falls Recreation Area",
+      "address": "742 Sitting Bull Falls Rd, Carlsbad, NM 88220, USA",
+      "rating": 4.8,
+      "types": [
+        "picnic_ground",
+        "campground",
+        "park",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ3YYMpg_144YRQ8v0zbmTZfc",
+      "keyword": "things to do attractions tours",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 622,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.2458946,
+          "lng": -104.6974211
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Sitting Bull Falls Recreation Area (Types: picnic_ground, campground, park) Located at 742 Sitting Bull Falls Rd, Carlsbad, NM 88220, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Metropolitan Museum of Art",
+      "address": "1000 5th Ave, New York, NY 10028, USA",
+      "rating": 4.8,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJb8Jg9pZYwokR-qHGtvSkLzs",
+      "keyword": "museums",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 87598,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 40.7794366,
+          "lng": -73.963244
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : The Metropolitan Museum of Art (Types: tourist_attraction, museum, point_of_interest) Located at 1000 5th Ave, New York, NY 10028, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Red Square",
+      "address": "Krasnaya ploshad, Moskva, Russia, 109012",
+      "rating": 4.8,
+      "types": [
+        "plaza",
+        "tourist_attraction",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJGaSPc1pKtUYRHzFSa1B9NHw",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 167537,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.75393030000001,
+          "lng": 37.620795
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Red Square (Types: plaza, tourist_attraction, point_of_interest) Located at Krasnaya ploshad, Moskva, Russia, 109012",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "The Moscow Kremlin",
+      "address": "Moscow, Russia, 103132",
+      "rating": 4.8,
+      "types": [
+        "historical_place",
+        "monument",
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJc-UVs1BKtUYRaC6bPVq_hqg",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 54385,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.7509544,
+          "lng": 37.6175755
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: The Moscow Kremlin (Types: historical_place, monument, tourist_attraction) Located at Moscow, Russia, 103132",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "\u0417\u043e\u043e\u0446\u0435\u043d\u0442\u0440 \u0440\u0435\u043f\u0442\u0438\u043b\u0438\u0439 \u041f\u0430\u043d\u0442\u0435\u0440\u0438\u043a | Panteric",
+      "address": "Malaya Semenovskaya Ulitsa, 28 \u0441\u0442\u0440. 4, Moskva, Russia, 107023",
+      "rating": 4.8,
+      "types": [
+        "pet_store",
+        "zoo",
+        "veterinary_care",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJ354pTEHS3UMRccR1Q6xt0Vk",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1661,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.784163,
+          "lng": 37.7162769
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: \u0417\u043e\u043e\u0446\u0435\u043d\u0442\u0440 \u0440\u0435\u043f\u0442\u0438\u043b\u0438\u0439 \u041f\u0430\u043d\u0442\u0435\u0440\u0438\u043a | Panteric (Types: pet_store, zoo, veterinary_care) Located at Malaya Semenovskaya Ulitsa, 28 \u0441\u0442\u0440",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Travail Kitchen and Amusements",
+      "address": "4134 Hubbard Ave N, Robbinsdale, MN 55422, USA",
+      "rating": 4.7,
+      "types": [
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJf-_gs1Axs1IRhRGK48IiJa4",
+      "keyword": "restaurants food dining",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1088,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 45.0303337,
+          "lng": -93.3384021
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Travail Kitchen and Amusements (Types: american_restaurant, bar, restaurant) Located at 4134 Hubbard Ave N, Robbinsdale, MN 55422, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Guadalupe Mountains National Park",
+      "address": "Dell City, TX 79847, USA",
+      "rating": 4.7,
+      "types": [
+        "national_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJK5c3U-oZ5IYRYURfYUCDCH0",
+      "keyword": "things to do attractions tours",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 3326,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.9233303,
+          "lng": -104.8663109
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Guadalupe Mountains National Park (Types: national_park, tourist_attraction, park) Located at Dell City, TX 79847, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Smokey Bear Historical Park",
+      "address": "118 Smokey Bear Blvd, Capitan, NM 88316, USA",
+      "rating": 4.7,
+      "types": [
+        "park",
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJcblupccnHocRNuR_S7Lng8I",
+      "keyword": "museums visitor centers",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1009,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.5457405,
+          "lng": -105.5742896
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Smokey Bear Historical Park (Types: park, tourist_attraction, museum) Located at 118 Smokey Bear Blvd, Capitan, NM 88316, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 1.0,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Bowers Museum",
+      "address": "2002 N Main St, Santa Ana, CA 92706, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "wedding_venue",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJpZmO7rDZ3IARsvZQdYOZasw",
+      "keyword": "museums visitor centers",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1997,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.7634055,
+          "lng": -117.86814539999997
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Bowers Museum (Types: tourist_attraction, museum, wedding_venue) Located at 2002 N Main St, Santa Ana, CA 92706, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Speed Art Museum",
+      "address": "2035 S 3rd St, Louisville, KY 40208, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJKWYeNWcNaYgRWOtVDo11q-E",
+      "keyword": "museums visitor centers",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1967,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 38.2183706,
+          "lng": -85.7609428
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Speed Art Museum (Types: tourist_attraction, museum, point_of_interest) Located at 2035 S 3rd St, Louisville, KY 40208, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Invasion Station",
+      "address": "600 N Main St, Roswell, NM 88201, USA",
+      "rating": 4.7,
+      "types": [
+        "gift_shop",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJ_X9lHDZv4oYRhtJaVw57GrU",
+      "keyword": "gift shops souvenirs",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 939,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.3989578,
+          "lng": -104.52308529999999
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Invasion Station (Types: gift_shop, store, point_of_interest) Located at 600 N Main St, Roswell, NM 88201, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Modern Art Museum of Fort Worth",
+      "address": "3200 Darnell St, Fort Worth, TX 76107, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "cafe",
+        "museum",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJy5w_isJzToYREVuz-eeLI68",
+      "keyword": "museums",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 3078,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 32.7491803,
+          "lng": -97.3633072
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Modern Art Museum of Fort Worth (Types: tourist_attraction, cafe, museum) Located at 3200 Darnell St, Fort Worth, TX 76107, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.9999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Cummer Museum of Art & Gardens",
+      "address": "829 Riverside Ave, Jacksonville, FL 32204, USA",
+      "rating": 4.7,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJrbZAOHG35YgRTVSrw1arBRg",
+      "keyword": "museums",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 4203,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 30.3151378,
+          "lng": -81.6769552
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Cummer Museum of Art & Gardens (Types: tourist_attraction, museum, point_of_interest) Located at 829 Riverside Ave, Jacksonville, FL 32204, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Four Seasons Hotel Moscow",
+      "address": "Ulitsa Okhotnyy Ryad, 2, Moskva, Russia, 109012",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "resort_hotel",
+        "wedding_venue",
+        "event_venue",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJh3QllFpKtUYRBZeLUC0l5qI",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 3163,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.75700510000001,
+          "lng": 37.616460599999996
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Four Seasons Hotel Moscow (Types: hotel, resort_hotel, wedding_venue) Located at Ulitsa Okhotnyy Ryad, 2, Moskva, Russia, 109012",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Radisson Collection Hotel, Moscow",
+      "address": "Kutuzovsky Ave, 2/1, \u0441\u0442\u0440. 1, Moskva, Russia, 121248",
+      "rating": 4.7,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJEeHZoMlLtUYRyvBLB-8nU4Y",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 6672,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.751188,
+          "lng": 37.5652105
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Radisson Collection Hotel, Moscow (Types: hotel, lodging, point_of_interest) Located at Kutuzovsky Ave, 2/1, \u0441\u0442\u0440",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Metropolis",
+      "address": "16\u0410\u04414, \u0422\u0420\u0426 \u041c\u0435\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0441, Leningradskoye Hwy, Moskva, Russia, 125171",
+      "rating": 4.7,
+      "types": [
+        "shopping_mall",
+        "movie_theater",
+        "fast_food_restaurant",
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJN8fH2zxItUYRjnK5D4y2ooU",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 35251,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.823432999999994,
+          "lng": 37.497202
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Metropolis (Types: shopping_mall, movie_theater, fast_food_restaurant) Located at 16\u0410\u04414, \u0422\u0420\u0426 \u041c\u0435\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0441, Leningradskoye Hwy, Moskva, Russia, 125171",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.30000000000000004,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "All-Russian Exhibition Center",
+      "address": "Prospekt Mira, 119, Moskva, Russia, 129223",
+      "rating": 4.7,
+      "types": [
+        "ice_skating_rink",
+        "playground",
+        "tourist_attraction",
+        "art_gallery",
+        "museum",
+        "sports_complex",
+        "event_venue",
+        "park",
+        "sports_activity_location",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJdW8ua2c2tUYRoWhqfBkSvZE",
+      "keyword": "nearby_tourist_attraction",
+      "user_ratings_total": 130273,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.830999999999996,
+          "lng": 37.629799999999996
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: All-Russian Exhibition Center (Types: ice_skating_rink, playground, tourist_attraction) Located at Prospekt Mira, 119, Moskva, Russia, 129223",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.8999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Semenovskaya yarn",
+      "address": "Malaya Semenovskaya Ulitsa, 28 \u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435 11, Moskva, Russia, 107023",
+      "rating": 4.7,
+      "types": [
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJKQkIKG01tUYRnPypugnlvGQ",
+      "keyword": "nearby_store",
+      "user_ratings_total": 1633,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.784361,
+          "lng": 37.716465899999996
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Semenovskaya yarn (Types: point_of_interest, store, establishment) Located at Malaya Semenovskaya Ulitsa, 28 \u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435 11, Moskva, Russia, 107023",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Alinea",
+      "address": "1723 N Halsted St, Chicago, IL 60614, USA",
+      "rating": 4.6,
+      "types": [
+        "fine_dining_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "place_id": "ChIJuyI60yLTD4gROwTWENq1He0",
+      "keyword": "restaurants food dining",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 2865,
+      "price_level": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 41.913435,
+          "lng": -87.6480552
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Alinea (Types: fine_dining_restaurant, american_restaurant, restaurant) Located at 1723 N Halsted St, Chicago, IL 60614, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Monahans Sandhills State Park",
+      "address": "Park Rd #41, Monahans, TX 79756, USA",
+      "rating": 4.6,
+      "types": [
+        "state_park",
+        "tourist_attraction",
+        "park",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJa1aiCxP_-oYReY3vKI-Mt8E",
+      "keyword": "things to do attractions tours",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1836,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 31.645451999999995,
+          "lng": -102.8291687
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Monahans Sandhills State Park (Types: state_park, tourist_attraction, park) Located at Park Rd #41, Monahans, TX 79756, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.6,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Science Museum of Minnesota",
+      "address": "120 W Kellogg Blvd, St Paul, MN 55102, USA",
+      "rating": 4.6,
+      "types": [
+        "tourist_attraction",
+        "museum",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJASkitrQq9ocRHP15PiT4PPY",
+      "keyword": "museums visitor centers",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1963,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.942487,
+          "lng": -93.098798
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Science Museum of Minnesota (Types: tourist_attraction, museum, point_of_interest) Located at 120 W Kellogg Blvd, St Paul, MN 55102, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.9999999999999999,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Hotel Baltschug Kempinski Moscow",
+      "address": "Balchug St, 1, Moskva, Russia, 115035",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJye-ZhfhKtUYRpN_3XSITePg",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 2372,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.7481806,
+          "lng": 37.6259729
+        }
+      },
+      "enhanced_description": "Hotel Baltschug Kempinski Moscow: A Mysterious Establishment at the Heart of Moscow's Historic District.",
+      "tourism_category": "historical",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "hotel",
+        "Moscow",
+        "Kempinski",
+        "Mystery",
+        "Historic District"
+      ],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "While this report relies on witness testimony and historical records, some information appears unverified or anecdotal."
+    },
+    {
+      "name": "Safmar Grand Moscow",
+      "address": "Tverskaya St, 26/1, Moskva, Russia, 125009",
+      "rating": 4.6,
+      "types": [
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJE7cE2D5KtUYRYN0q5gIozL0",
+      "keyword": "nearby_lodging",
+      "user_ratings_total": 3465,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.7684921,
+          "lng": 37.5996583
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Safmar Grand Moscow (Types: hotel, lodging, point_of_interest) Located at Tverskaya St, 26/1, Moskva, Russia, 125009",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Afimall City",
+      "address": "Presnenskaya Naberezhnaya, 2, Moskva, Russia, 123112",
+      "rating": 4.6,
+      "types": [
+        "shopping_mall",
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJtdPT4dxLtUYRc99aV8-dNP0",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 40105,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.748956899999996,
+          "lng": 37.539736
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Afimall City (Types: shopping_mall, fast_food_restaurant, restaurant) Located at Presnenskaya Naberezhnaya, 2, Moskva, Russia, 123112",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.2,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "MCM Elegante Lodge & Resort Ruidoso",
+      "address": "107 Sierra Blanca Dr, Ruidoso, NM 88345, USA",
+      "rating": 4.5,
+      "types": [
+        "resort_hotel",
+        "hotel",
+        "lodging",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJv3_lRUXR4YYRlZcmRHmceVs",
+      "keyword": "hotels accommodation lodging",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 1184,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 33.355017,
+          "lng": -105.6623565
+        }
+      },
+      "enhanced_description": "MCM Elegante Lodge & Resort Ruidoso: A Compelling Enigma in the High Desert",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [
+        "MCM Elegante Lodge & Resort Ruidoso",
+        "Ruidoso NM",
+        "Sierra Blanca Dr"
+      ],
+      "mystery_relevance": 0.1,
+      "credibility_notes": "While this report is based on publicly available information, some details remain unexplained and require further investigation."
+    },
+    {
+      "name": "Walker Art Center",
+      "address": "725 Vineland Pl, Minneapolis, MN 55403, USA",
+      "rating": 4.5,
+      "types": [
+        "museum",
+        "wedding_venue",
+        "performing_arts_theater",
+        "event_venue",
+        "point_of_interest",
+        "establishment"
+      ],
+      "place_id": "ChIJkXzI4m4rs1IRkr3SSCf_DcI",
+      "keyword": "museums visitor centers",
+      "location": "How to be beauty, ",
+      "user_ratings_total": 5980,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 44.9681442,
+          "lng": -93.2886494
+        }
+      },
+      "enhanced_description": "Business in How to be beauty, : Walker Art Center (Types: museum, wedding_venue, performing_arts_theater) Located at 725 Vineland Pl, Minneapolis, MN 55403, USA",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.3,
+      "credibility_notes": "Source: . Verification needed."
+    },
+    {
+      "name": "Okhotny Ryad",
+      "address": "Manege Sq, 1, \u0441\u0442\u0440. 2, Moskva, Russia, 125009",
+      "rating": 4.5,
+      "types": [
+        "shopping_mall",
+        "fast_food_restaurant",
+        "food_court",
+        "cafe",
+        "shoe_store",
+        "clothing_store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment"
+      ],
+      "place_id": "ChIJYUOorVFKtUYRTAGDGTBr0lg",
+      "keyword": "nearby_restaurant",
+      "user_ratings_total": 59354,
+      "price_level": null,
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": 55.756237,
+          "lng": 37.6155964
+        }
+      },
+      "enhanced_description": "Business in coordinates [55. 7126186]: Okhotny Ryad (Types: shopping_mall, fast_food_restaurant, food_court) Located at Manege Sq, 1, \u0441\u0442\u0440",
+      "tourism_category": "mystery",
+      "secondary_categories": [],
+      "tourism_keywords": [],
+      "mystery_relevance": 0.4,
+      "credibility_notes": "Source: . Verification needed."
+    }
+  ],
   "events": [
     {
       "name": "Archaeologists Throw Cold Water on Media Claims of Neolithic Irish God-Kings",
       "type": "Historical Mystery",
-      "description": "Reports of Neolithic Irish god-kings are lacking in evidence, say researchers questioning earlier assertions.",
+      "description": "Despite decades of research, new findings suggest that the origins of Neolithic Irish god-kings remain shrouded in mystery. According to eyewitness accounts from ancient texts and oral traditions, the",
       "category": "historical"
     }
   ],
   "generated_content": {
-    "meta_description": "Explore historical mysteries in How to be beauty. Uncover the secrets of Ireland's ancient past at the site where archaeologists have thrown cold water on media claims of",
-    "title": "Historical Mysteries in How to be beauty - Tours & Services",
-    "description": "Uncover the secrets of Ireland's ancient past at the site where archaeologists have thrown cold water on media claims of Neolithic Irish God-Kings. Explore the ruins and learn about the history of this mysterious region.",
+    "meta_description": "Discover historical mysteries in How to be beauty. 1 documented events, 30 local services and attractions.",
+    "title": "Historical Mysteries in How to be beauty - Tours, Investigators & Services",
+    "description": "Explore historical mysteries in How to be beauty. Notable events include Archaeologists Throw Cold Water on Media Claims of Neolithic Irish God-Kings. Find 30 local businesses offering tours, investigations, and related services.",
     "keywords": [
-      "Neolithic Ireland",
-      "God-Kings",
-      "archaeological discoveries"
+      "historical How to be beauty",
+      "historical mysteries How to be beauty",
+      "historical tours How to be beauty",
+      "mystery How to be beauty",
+      "unexplained How to be beauty"
+    ],
+    "services": [
+      "things to do attractions tours",
+      "museums visitor centers",
+      "museums",
+      "nearby_restaurant",
+      "hotels accommodation lodging",
+      "restaurants food dining",
+      "nearby_lodging",
+      "nearby_store",
+      "nearby_tourist_attraction",
+      "gift shops souvenirs"
     ],
     "category": "historical"
   },
   "stats": {
-    "business_count": 0,
+    "business_count": 30,
     "event_count": 1,
-    "last_updated": "2025-07-16T20:56:58.206544"
+    "last_updated": "2025-07-30T05:57:19.328041"
   }
 }
