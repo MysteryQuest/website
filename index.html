@@ -908,6 +908,164 @@
             margin-left: 5px;
         }
 
+        /* Latest Mysteries Detailed Section Styles */
+        .latest-mysteries-section {
+            background: rgba(30, 30, 30, 0.95);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .latest-mysteries-detailed {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .latest-mystery-card {
+            background: rgba(20, 20, 20, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 12px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            gap: 15px;
+        }
+
+        .latest-mystery-card:hover {
+            background: rgba(40, 40, 40, 0.8);
+            border-color: rgba(0, 255, 255, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+        }
+
+        .latest-mystery-thumbnail {
+            width: 80px;
+            height: 60px;
+            background: rgba(0, 255, 255, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+
+        .latest-mystery-thumbnail img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .latest-mystery-thumbnail i {
+            color: #00ffff;
+            font-size: 1.5rem;
+        }
+
+        .latest-mystery-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .latest-mystery-title {
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .latest-mystery-description {
+            color: #cccccc;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            margin-bottom: 10px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .latest-mystery-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .latest-mystery-category {
+            background: rgba(0, 255, 255, 0.2);
+            color: #00ffff;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .latest-mystery-date {
+            color: #888888;
+            font-size: 0.75rem;
+        }
+
+        .latest-mystery-stats {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 0.75rem;
+        }
+
+        .latest-mystery-votes {
+            color: #ffd700;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .latest-mystery-sources {
+            color: #00ff9f;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .latest-mystery-tiktok-indicator {
+            color: #ff0050;
+            font-size: 0.9rem;
+            margin-left: 8px;
+        }
+
+        /* Mobile responsive for detailed latest mysteries */
+        @media (max-width: 768px) {
+            .latest-mysteries-section {
+                margin-bottom: 20px;
+                padding: 15px;
+            }
+            
+            .latest-mystery-card {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .latest-mystery-thumbnail {
+                width: 100%;
+                height: 120px;
+            }
+            
+            .latest-mysteries-detailed {
+                max-height: 300px;
+            }
+        }
+
         /* Mobile responsive for compact recent mysteries */
         @media (max-width: 768px) {
             .recent-mysteries-widget {
@@ -1150,22 +1308,6 @@
             <!-- Left Column: Social Media Widgets (under logo) -->
             <div class="left-column-widgets">
                 <div class="social-widgets-container">
-                    <!-- Compact Recent Mysteries Widget -->
-                    <div class="recent-mysteries-widget" id="recent-mysteries-widget" style="margin-bottom: 20px;">
-                        <h3 style="font-size: 1.1rem;">🆕 Latest Mysteries</h3>
-                        <div id="recentMysteries" class="recent-mysteries-compact">
-                            <!-- Loading placeholder -->
-                            <div class="recent-mystery-compact-item">
-                                <div class="recent-mystery-compact-content">
-                                    <span class="recent-mystery-compact-title">Loading recent mysteries...</span>
-                                    <div class="recent-mystery-compact-meta">
-                                        <span class="recent-mystery-compact-date">Loading...</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
                     <div class="youtube-widget" id="youtube-widget" style="margin-bottom: 20px;">
                         <h3 style="font-size: 1.1rem;">🎬 Latest YouTube</h3>
                         <div id="popular-videos" class="widget-videos-section">
@@ -1218,6 +1360,20 @@
 
             <!-- Right Column: Hero Section with main content -->
             <div class="right-column-hero">
+                <!-- Latest Mysteries Section (above hero) -->
+                <div class="latest-mysteries-section" style="margin-bottom: 30px;">
+                    <h2 style="font-size: 1.5rem; color: #00ffff; margin-bottom: 20px; text-align: center;">🆕 Latest Mysteries</h2>
+                    <div id="recentMysteriesDetailed" class="latest-mysteries-detailed">
+                        <!-- Loading placeholder -->
+                        <div class="latest-mystery-card">
+                            <div class="latest-mystery-content">
+                                <h4>Loading recent mysteries...</h4>
+                                <p>Fetching the most recent unexplained phenomena...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Hero Section -->
                 <section class="hero">
                     <div class="hero-content">
@@ -1511,6 +1667,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             fetchTopMysteries();
             fetchRecentMysteries();
+            fetchDetailedRecentMysteries();
             loadYouTubeWidget();
             loadTikTokWidget();
         });
@@ -1595,13 +1752,18 @@
                 const csvText = await response.text();
                 const mysteries = parseCSV(csvText);
                 
-                // Filter mysteries with actual data, validate TikTok events, and sort by date
+                // Filter mysteries with actual data, validate TikTok events, exclude historical mysteries, and sort by date
                 const validMysteries = [];
                 for (const mystery of mysteries) {
                     // Basic validation
                     if (!mystery.name || mystery.name.trim() === '' || 
                         !mystery.date || mystery.date === 'Unknown' ||
                         !mystery.description || mystery.description.trim() === '') {
+                        continue;
+                    }
+                    
+                    // Exclude Historical Mysteries from Latest Mysteries since they are by definition old
+                    if (mystery.event_type && mystery.event_type.toLowerCase().includes('historical')) {
                         continue;
                     }
                     
@@ -1714,6 +1876,167 @@
                             <span class="recent-mystery-compact-category">Error</span>
                             <span class="recent-mystery-compact-date">Try again later</span>
                         </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Fetch detailed recent mysteries for middle column
+        async function fetchDetailedRecentMysteries() {
+            try {
+                // Load TikTok mapping first
+                await loadTikTokMapping();
+                
+                const response = await fetch('https://docs.google.com/spreadsheets/d/1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ/gviz/tq?tqx=out:csv&sheet=Sheet1');
+                if (!response.ok) throw new Error('Failed to fetch data');
+
+                const csvText = await response.text();
+                const mysteries = parseCSV(csvText);
+                
+                // Filter mysteries with actual data, exclude historical mysteries, validate TikTok events, and sort by date
+                const validMysteries = [];
+                for (const mystery of mysteries) {
+                    // Basic validation
+                    if (!mystery.name || mystery.name.trim() === '' || 
+                        !mystery.date || mystery.date === 'Unknown' ||
+                        !mystery.description || mystery.description.trim() === '') {
+                        continue;
+                    }
+                    
+                    // Exclude Historical Mysteries from Latest Mysteries since they are by definition old
+                    if (mystery.event_type && mystery.event_type.toLowerCase().includes('historical')) {
+                        continue;
+                    }
+                    
+                    // Validate TikTok events have detail pages
+                    const isValid = await validateTikTokEvent(mystery);
+                    if (!isValid) {
+                        continue;
+                    }
+                    
+                    validMysteries.push(mystery);
+                }
+                
+                // Sort by date (most recent first)
+                validMysteries.sort((a, b) => {
+                    const dateA = parseDate(a.date);
+                    const dateB = parseDate(b.date);
+                    return dateB - dateA;
+                });
+
+                // Get top 4 most recent
+                const recentMysteries = validMysteries.slice(0, 4);
+                displayDetailedRecentMysteries(recentMysteries);
+
+            } catch (error) {
+                console.error('Error fetching detailed recent mysteries:', error);
+                displayDetailedRecentMysteriesError();
+            }
+        }
+
+        function displayDetailedRecentMysteries(mysteries) {
+            const container = document.getElementById('recentMysteriesDetailed');
+            if (!container) return;
+
+            container.innerHTML = '';
+
+            if (!mysteries || mysteries.length === 0) {
+                container.innerHTML = `
+                    <div class="latest-mystery-card">
+                        <div class="latest-mystery-content">
+                            <h4>No recent mysteries found</h4>
+                            <p>Check back later for the latest unexplained phenomena.</p>
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+
+            mysteries.forEach(mystery => {
+                const item = document.createElement('div');
+                item.className = 'latest-mystery-card';
+
+                // Format date for display
+                const formatDisplayDate = (dateStr) => {
+                    if (!dateStr || dateStr === 'Unknown') return 'Unknown';
+                    try {
+                        const date = parseDate(dateStr);
+                        return date.toLocaleDateString('en-US', { 
+                            month: 'short', 
+                            day: 'numeric',
+                            year: 'numeric'
+                        });
+                    } catch {
+                        return dateStr;
+                    }
+                };
+
+                // Check if this is a TikTok event
+                const isTikTokEvent = (mystery.event_type && mystery.event_type.toLowerCase().includes('tiktok')) || 
+                                    (mystery['TikTok URL'] && mystery['TikTok URL'].trim() !== '');
+
+                const tiktokIndicator = isTikTokEvent ? '<i class="fab fa-tiktok latest-mystery-tiktok-indicator"></i>' : '';
+
+                // Get thumbnail or placeholder
+                const thumbnailContent = mystery.image_url && mystery.image_url.trim() !== '' ? 
+                    `<img src="${mystery.image_url}" alt="${mystery.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                     <i class="fas fa-question-circle" style="display: none;"></i>` :
+                    '<i class="fas fa-question-circle"></i>';
+
+                // Get category - truncate if too long
+                const category = mystery.event_type || 'Mystery';
+                const shortCategory = category.length > 15 ? category.substring(0, 15) + '...' : category;
+
+                // Get description preview
+                const description = mystery.description || 'No description available';
+                const shortDescription = description.length > 120 ? description.substring(0, 120) + '...' : description;
+
+                // Get votes and sources count
+                const votes = mystery.votes || 0;
+                const sourcesCount = 0; // Will be populated by source verification system
+
+                item.innerHTML = `
+                    <div class="latest-mystery-thumbnail">
+                        ${thumbnailContent}
+                    </div>
+                    <div class="latest-mystery-content">
+                        <div class="latest-mystery-meta">
+                            <span class="latest-mystery-category">${shortCategory}</span>
+                            <span class="latest-mystery-date">${formatDisplayDate(mystery.date)}${tiktokIndicator}</span>
+                        </div>
+                        <div class="latest-mystery-title">${mystery.name}</div>
+                        <div class="latest-mystery-description">${shortDescription}</div>
+                        <div class="latest-mystery-stats">
+                            <div class="latest-mystery-votes">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span>${votes}</span>
+                            </div>
+                            <div class="latest-mystery-sources">
+                                <i class="fas fa-link"></i>
+                                <span>${sourcesCount}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                // Add click handler to navigate to detail page
+                item.addEventListener('click', () => {
+                    window.location.href = `detail.html?name=${encodeURIComponent(mystery.name)}`;
+                });
+
+                container.appendChild(item);
+            });
+        }
+
+        function displayDetailedRecentMysteriesError() {
+            const container = document.getElementById('recentMysteriesDetailed');
+            if (!container) return;
+            
+            container.innerHTML = `
+                <div class="latest-mystery-card">
+                    <div class="latest-mystery-content">
+                        <h4>Unable to load recent mysteries</h4>
+                        <p>There was an error loading the latest mysteries. Please try again later.</p>
                     </div>
                 </div>
             `;
