@@ -1,0 +1,86 @@
+{
+  "generated_at": "2025-08-23T15:00:22.532206",
+  "total_mysteries": 4,
+  "mysteries": {
+    "121277761cbcac0e": {
+      "total_sources": 2,
+      "credibility_rating": "limited_sources",
+      "confidence_level": 0.4,
+      "weighted_score": 8.0,
+      "sources": [
+        {
+          "url": "https://archive.org/details/NPTG19320816",
+          "title": "Hong Kong Telegraph 1932-08-16",
+          "type": "library",
+          "weight": 4
+        },
+        {
+          "url": "https://www.loc.gov/search/?q=%22%E2%80%98Space+Ice%E2%80%99+Experiments+Pour+Cold+Water+on+Panspermia+Origin+of+Life+Theories%22",
+          "title": "Library of Congress: \"\u2018Space Ice\u2019 Experiments Pour Cold Water on Panspermia Origin of Life Theories\"",
+          "type": "library",
+          "weight": 4
+        }
+      ]
+    },
+    "3a8d0d1edcc44517": {
+      "total_sources": 2,
+      "credibility_rating": "limited_sources",
+      "confidence_level": 0.4,
+      "weighted_score": 8.0,
+      "sources": [
+        {
+          "url": "https://archive.org/details/hy0_hooting_yard_2004-09-30",
+          "title": "Hooting Yard On The Air: A Refutation of Some of the Less Plausible Claims Made by Dennis Cargpan in His Woeful Lecture Delivered From the Balcony of the Civic Hall at Bodger's Spinney on Thursday Las",
+          "type": "library",
+          "weight": 4
+        },
+        {
+          "url": "https://www.loc.gov/search/?q=%22%E2%80%98Interstellar+Contamination%E2%80%99+Could+Change+Which+Exoplanets+Scientists+Search+for+Extraterrestrial+Life%22",
+          "title": "Library of Congress: \"\u2018Interstellar Contamination\u2019 Could Change Which Exoplanets Scientists Search for Extraterrestrial Life\"",
+          "type": "library",
+          "weight": 4
+        }
+      ]
+    },
+    "5bf4d1b06570e7e8": {
+      "total_sources": 2,
+      "credibility_rating": "limited_sources",
+      "confidence_level": 0.4,
+      "weighted_score": 8.0,
+      "sources": [
+        {
+          "url": "https://archive.org/details/cia-readingroom-document-cia-rdp75-00149r000200850001-9",
+          "title": "CIA Reading Room cia-rdp75-00149r000200850001-9: U.S. MAPS LANDINGS ON MOON",
+          "type": "library",
+          "weight": 4
+        },
+        {
+          "url": "https://www.loc.gov/search/?q=%22%E2%80%98CosmoCube%E2%80%99+Spacecraft+Plans+to+Listen+for+Whispers+from+the+Cosmic+Dark+Ages+on+the+Far+Side+of+the+Moon%22",
+          "title": "Library of Congress: \"\u2018CosmoCube\u2019 Spacecraft Plans to Listen for Whispers from the Cosmic Dark Ages on the Far Side of the Moon\"",
+          "type": "library",
+          "weight": 4
+        }
+      ]
+    },
+    "a6fa9034e8bab0f8": {
+      "total_sources": 2,
+      "credibility_rating": "limited_sources",
+      "confidence_level": 0.4,
+      "weighted_score": 8.0,
+      "sources": [
+        {
+          "url": "https://archive.org/details/vh686lyjhkzna3d4ejry4bpw0unexom1u1ts12vq",
+          "title": "140: The Mysterious Roswell UFO Incident Of 1947",
+          "type": "library",
+          "weight": 4
+        },
+        {
+          "url": "https://www.loc.gov/search/?q=%22Roswell+UFO+Incident%22",
+          "title": "Library of Congress: \"Roswell UFO Incident\"",
+          "type": "library",
+          "weight": 4
+        }
+      ]
+    }
+  }
+}

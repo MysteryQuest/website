@@ -530,3 +530,176 @@ image {
         margin-bottom: 0.5rem;
     }
 }
+
+/* Source Verification Styles */
+.source-credibility {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.source-credibility .badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+}
+
+.source-count {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.source-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.source-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+}
+
+.source-item:last-child {
+    border-bottom: none;
+}
+
+.source-item:hover {
+    background-color: #f8f9fa;
+}
+
+.source-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+.source-header a {
+    text-decoration: none;
+    color: #007bff;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.source-header a:hover {
+    text-decoration: underline;
+}
+
+.source-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.source-type {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    padding: 2px 6px;
+}
+
+.source-weight {
+    color: #ffc107;
+    font-size: 0.8rem;
+    cursor: help;
+}
+
+.source-domain {
+    color: #666;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* Badge variations for source types */
+.badge-outline-news { border: 1px solid #17a2b8; color: #17a2b8; }
+.badge-outline-academic { border: 1px solid #28a745; color: #28a745; }
+.badge-outline-government { border: 1px solid #6f42c1; color: #6f42c1; }
+.badge-outline-historical { border: 1px solid #fd7e14; color: #fd7e14; }
+.badge-outline-investigative { border: 1px solid #dc3545; color: #dc3545; }
+.badge-outline-documentary { border: 1px solid #6c757d; color: #6c757d; }
+.badge-outline-unknown { border: 1px solid #adb5bd; color: #adb5bd; }
+
+/* Credibility badge colors */
+.badge-secondary { background-color: #6c757d; }
+.badge-warning { background-color: #ffc107; color: #212529; }
+.badge-info { background-color: #17a2b8; }
+.badge-primary { background-color: #007bff; }
+.badge-success { background-color: #28a745; }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .source-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .source-meta {
+        margin-top: 5px;
+    }
+    
+    .source-list {
+        max-height: 200px;
+    }
+}
+
+
+/* Source Verification Styles */
+#source-verification-section {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.source-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 3px solid #17a2b8;
+}
+
+.source-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.source-card .card-title a {
+    color: #495057;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.source-card .card-title a:hover {
+    color: #17a2b8;
+    text-decoration: underline;
+}
+
+.progress {
+    height: 8px;
+}
+
+.badge-light {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+/* Credibility rating colors */
+.badge.badge-secondary { background-color: #6c757d; }
+.badge.badge-warning { background-color: #ffc107; color: #212529; }
+.badge.badge-info { background-color: #17a2b8; }
+.badge.badge-primary { background-color: #007bff; }
+.badge.badge-success { background-color: #28a745; }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .source-card .card-title {
+        font-size: 0.8rem;
+    }
+    
+    #credibility-info .row {
+        margin-bottom: 0.5rem;
+    }
+}

@@ -13,7 +13,10 @@
     <title>Mystery Quest - Investigate UFOs, Paranormal & Unexplained Phenomena | Latest Mysteries 2025</title>
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://mystiqst.com/" />
+    <link rel="canonical" href="https://mysteryquest.info/" />
+    
+    <!-- TikTok Embed Script -->
+    <script async src="https://www.tiktok.com/embed.js"></script>
     
     <!-- Enhanced Open Graph Meta Tags -->
     <meta property="og:title" content="Mystery Quest - Investigate UFOs, Paranormal & Unexplained Phenomena">
@@ -799,6 +802,137 @@
             color: #fff;
         }
 
+        .recent-mystery-tiktok-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff0050, #00f2ea);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+            box-shadow: 0 2px 4px rgba(255, 0, 80, 0.2);
+        }
+
+        .recent-mystery-tiktok-badge i {
+            margin-right: 4px;
+        }
+
+        /* Compact Recent Mysteries Widget Styles */
+        .recent-mysteries-widget {
+            background: rgba(30, 30, 30, 0.95);
+            border: 1px solid rgba(0, 255, 255, 0.3);
+            border-radius: 15px;
+            padding: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .recent-mysteries-widget:hover {
+            border-color: rgba(0, 255, 255, 0.5);
+            box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+        }
+
+        .recent-mysteries-widget h3 {
+            color: #00ffff;
+            font-family: 'Orbitron', monospace;
+            margin-bottom: 12px;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+
+        .recent-mysteries-compact {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .recent-mystery-compact-item {
+            background: rgba(20, 20, 20, 0.8);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            border-radius: 8px;
+            padding: 8px 10px;
+            margin-bottom: 8px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .recent-mystery-compact-item:hover {
+            background: rgba(40, 40, 40, 0.8);
+            border-color: rgba(0, 255, 255, 0.4);
+            transform: translateX(3px);
+        }
+
+        .recent-mystery-compact-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .recent-mystery-compact-title {
+            color: #ffffff;
+            font-size: 0.85rem;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 4px;
+            line-height: 1.2;
+            text-decoration: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .recent-mystery-compact-title:hover {
+            color: #00ffff;
+        }
+
+        .recent-mystery-compact-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.7rem;
+        }
+
+        .recent-mystery-compact-date {
+            color: #888888;
+        }
+
+        .recent-mystery-compact-category {
+            color: #00ffff;
+            background: rgba(0, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 0.65rem;
+        }
+
+        .recent-mystery-compact-tiktok {
+            color: #ff0050;
+            font-size: 0.65rem;
+            margin-left: 5px;
+        }
+
+        /* Mobile responsive for compact recent mysteries */
+        @media (max-width: 768px) {
+            .recent-mysteries-widget {
+                margin-bottom: 15px;
+                padding: 12px;
+            }
+            
+            .recent-mysteries-compact {
+                max-height: 150px;
+            }
+            
+            .recent-mystery-compact-item {
+                padding: 6px 8px;
+                margin-bottom: 6px;
+            }
+            
+            .recent-mystery-compact-title {
+                font-size: 0.8rem;
+            }
+            
+            .recent-mystery-compact-meta {
+                font-size: 0.65rem;
+            }
+        }
+
         /* Mobile responsive for recent mystery cards */
         @media (max-width: 768px) {
             .recent-mystery-card {
@@ -1016,6 +1150,22 @@
             <!-- Left Column: Social Media Widgets (under logo) -->
             <div class="left-column-widgets">
                 <div class="social-widgets-container">
+                    <!-- Compact Recent Mysteries Widget -->
+                    <div class="recent-mysteries-widget" id="recent-mysteries-widget" style="margin-bottom: 20px;">
+                        <h3 style="font-size: 1.1rem;">🆕 Latest Mysteries</h3>
+                        <div id="recentMysteries" class="recent-mysteries-compact">
+                            <!-- Loading placeholder -->
+                            <div class="recent-mystery-compact-item">
+                                <div class="recent-mystery-compact-content">
+                                    <span class="recent-mystery-compact-title">Loading recent mysteries...</span>
+                                    <div class="recent-mystery-compact-meta">
+                                        <span class="recent-mystery-compact-date">Loading...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="youtube-widget" id="youtube-widget" style="margin-bottom: 20px;">
                         <h3 style="font-size: 1.1rem;">🎬 Latest YouTube</h3>
                         <div id="popular-videos" class="widget-videos-section">
@@ -1091,27 +1241,6 @@
 
     <!-- Main Content -->
     <div class="container py-5">
-        <!-- Recent Mysteries Section -->
-        <div class="row mb-5">
-            <div class="col-12">
-                <div class="content-section">
-                    <h2 style="font-family: 'Orbitron', monospace; color: #00ffff; text-shadow: 0 0 15px rgba(0, 255, 255, 0.5);">🆕 Latest Mysteries</h2>
-                    <p class="text-center mb-4" style="color: #b8b8b8;">Discover the most recent unexplained phenomena added to our collection</p>
-                    <div id="recentMysteries" class="row">
-                        <!-- Loading placeholder -->
-                        <div class="col-md-6 col-lg-3 mb-4">
-                            <div class="recent-mystery-card">
-                                <div class="recent-mystery-content">
-                                    <h5>Loading recent mysteries...</h5>
-                                    <p>Fetching the latest unexplained phenomena from our database.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
         <!-- Mystery Lists Section -->
         <div class="row mb-5">
             <div class="col-lg-6 mb-4">
@@ -1386,25 +1515,64 @@
             loadTikTokWidget();
         });
 
+        // Validate TikTok events have detail pages
+        async function validateTikTokEvent(mystery) {
+            // If it's a TikTok event, ensure it has a detail page
+            const isTikTokEvent = mystery['Event Type'] && mystery['Event Type'].toLowerCase().includes('tiktok');
+            const hasTikTokUrl = mystery['TikTok URL'] && mystery['TikTok URL'].trim() !== '';
+            
+            if (isTikTokEvent || hasTikTokUrl) {
+                // Check if there's a detail URL or if it's in our mapping
+                const hasDetailUrl = mystery['Detail URL'] && mystery['Detail URL'].trim() !== '';
+                const inMapping = tiktokMapping && tiktokMapping[mystery['TikTok URL']];
+                
+                if (!hasDetailUrl && !inMapping) {
+                    console.warn(`⚠️ TikTok event without detail page: ${mystery['Event Name']}`);
+                    return false;
+                }
+                
+                // If in mapping, update the mystery with the detail URL
+                if (inMapping && !hasDetailUrl) {
+                    mystery['Detail URL'] = inMapping;
+                }
+            }
+            
+            return true;
+        }
+
         // Fetch recent mysteries from Google Sheet
         async function fetchRecentMysteries() {
             try {
+                // Load TikTok mapping first
+                await loadTikTokMapping();
+                
                 const response = await fetch('https://docs.google.com/spreadsheets/d/1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ/gviz/tq?tqx=out:csv&sheet=Sheet1');
                 if (!response.ok) throw new Error('Failed to fetch data');
 
                 const csvText = await response.text();
                 const mysteries = parseCSV(csvText);
                 
-                // Filter mysteries with actual data and sort by date (most recent first)
-                const validMysteries = mysteries.filter(mystery => 
-                    mystery.name && 
-                    mystery.name.trim() !== '' && 
-                    mystery.date && 
-                    mystery.date !== 'Unknown' &&
-                    mystery.description &&
-                    mystery.description.trim() !== ''
-                ).sort((a, b) => {
-                    // Parse dates and sort descending (newest first)
+                // Filter mysteries with actual data, validate TikTok events, and sort by date
+                const validMysteries = [];
+                for (const mystery of mysteries) {
+                    // Basic validation
+                    if (!mystery.name || mystery.name.trim() === '' || 
+                        !mystery.date || mystery.date === 'Unknown' ||
+                        !mystery.description || mystery.description.trim() === '') {
+                        continue;
+                    }
+                    
+                    // Validate TikTok events have detail pages
+                    const isValid = await validateTikTokEvent(mystery);
+                    if (!isValid) {
+                        continue;
+                    }
+                    
+                    validMysteries.push(mystery);
+                }
+                
+                // Sort by date (most recent first)
+                validMysteries.sort((a, b) => {
                     const dateA = parseDate(a.date);
                     const dateB = parseDate(b.date);
                     return dateB - dateA;
@@ -1422,81 +1590,86 @@
 
         function displayRecentMysteries(mysteries) {
             const container = document.getElementById('recentMysteries');
+            if (!container) return;
+
             container.innerHTML = '';
 
-            mysteries.forEach((mystery, index) => {
-                const col = document.createElement('div');
-                col.className = 'col-md-6 col-lg-3 mb-4';
-                
-                // Determine icon based on event type
-                const getEventIcon = (eventType) => {
-                    if (!eventType) return '❓';
-                    const type = eventType.toLowerCase();
-                    if (type.includes('ufo') || type.includes('alien')) return '🛸';
-                    if (type.includes('paranormal') || type.includes('ghost')) return '👻';
-                    if (type.includes('bigfoot') || type.includes('cryptid')) return '🦣';
-                    if (type.includes('historical')) return '🏛️';
-                    return '🔍';
-                };
+            if (!mysteries || mysteries.length === 0) {
+                container.innerHTML = `
+                    <div class="recent-mystery-compact-item">
+                        <div class="recent-mystery-compact-content">
+                            <span class="recent-mystery-compact-title">No recent mysteries found</span>
+                            <div class="recent-mystery-compact-meta">
+                                <span class="recent-mystery-compact-date">Check back later</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+
+            // Show only the top 3 most recent mysteries in compact format
+            mysteries.slice(0, 3).forEach(mystery => {
+                const item = document.createElement('div');
+                item.className = 'recent-mystery-compact-item';
 
                 // Format date for display
                 const formatDisplayDate = (dateStr) => {
-                    if (!dateStr || dateStr === 'Unknown') return 'Date Unknown';
+                    if (!dateStr || dateStr === 'Unknown') return 'Unknown';
                     try {
                         const date = parseDate(dateStr);
                         return date.toLocaleDateString('en-US', { 
-                            year: 'numeric', 
                             month: 'short', 
-                            day: 'numeric' 
+                            day: 'numeric'
                         });
                     } catch {
                         return dateStr;
                     }
                 };
 
-                // Check if this mystery is suitable for hoax voting
-                const isHoaxCandidate = mystery.real_or_hoax === 'True' || mystery.real_or_hoax === true;
-                
-                const hoaxButton = isHoaxCandidate ? 
-                    `<a href="hoax.html?highlight=${encodeURIComponent(mystery.name)}" class="recent-mystery-btn hoax-btn">Vote: Real or Hoax?</a>` : '';
+                // Check if this is a TikTok event
+                const isTikTokEvent = (mystery.event_type && mystery.event_type.toLowerCase().includes('tiktok')) || 
+                                    (mystery['TikTok URL'] && mystery['TikTok URL'].trim() !== '');
 
-                col.innerHTML = `
-                    <div class="recent-mystery-card">
-                        <div class="recent-mystery-image">
-                            ${getEventIcon(mystery.event_type)}
-                        </div>
-                        <div class="recent-mystery-content">
-                            <h5>${mystery.name}</h5>
-                            <p>${mystery.description.substring(0, 120)}${mystery.description.length > 120 ? '...' : ''}</p>
-                            <div class="recent-mystery-meta">
-                                <span class="recent-mystery-category">${mystery.event_type || 'Mystery'}</span>
-                                <div class="recent-mystery-date">${formatDisplayDate(mystery.date)}</div>
-                                <div class="recent-mystery-actions">
-                                    <a href="detail.html?name=${encodeURIComponent(mystery.name)}" class="recent-mystery-btn">View Details</a>
-                                    ${hoaxButton}
-                                </div>
-                            </div>
+                const tiktokIndicator = isTikTokEvent ? '<span class="recent-mystery-compact-tiktok"><i class="fab fa-tiktok"></i></span>' : '';
+
+                // Get category - truncate if too long
+                const category = mystery.event_type || 'Mystery';
+                const shortCategory = category.length > 12 ? category.substring(0, 12) + '...' : category;
+
+                item.innerHTML = `
+                    <div class="recent-mystery-compact-content">
+                        <span class="recent-mystery-compact-title" title="${mystery.name}">
+                            ${mystery.name.length > 35 ? mystery.name.substring(0, 35) + '...' : mystery.name}
+                        </span>
+                        <div class="recent-mystery-compact-meta">
+                            <span class="recent-mystery-compact-category">${shortCategory}</span>
+                            <span style="display: flex; align-items: center;">
+                                <span class="recent-mystery-compact-date">${formatDisplayDate(mystery.date)}</span>
+                                ${tiktokIndicator}
+                            </span>
                         </div>
                     </div>
                 `;
-                container.appendChild(col);
+
+                // Add click handler to navigate to detail page
+                item.addEventListener('click', () => {
+                    window.location.href = `detail.html?name=${encodeURIComponent(mystery.name)}`;
+                });
+
+                container.appendChild(item);
             });
         }
 
         function displayRecentMysteriesError() {
             const container = document.getElementById('recentMysteries');
             container.innerHTML = `
-                <div class="col-12">
-                    <div class="recent-mystery-card">
-                        <div class="recent-mystery-content">
-                            <h5>Unable to load recent mysteries</h5>
-                            <p>Please check back later or explore our <a href="/directory/">complete directory</a> of mysteries.</p>
-                            <div class="recent-mystery-meta">
-                                <div class="recent-mystery-actions">
-                                    <a href="/directory/" class="recent-mystery-btn">Browse Directory</a>
-                                    <a href="/map.html" class="recent-mystery-btn">View Map</a>
-                                </div>
-                            </div>
+                <div class="recent-mystery-compact-item">
+                    <div class="recent-mystery-compact-content">
+                        <span class="recent-mystery-compact-title">Unable to load recent mysteries</span>
+                        <div class="recent-mystery-compact-meta">
+                            <span class="recent-mystery-compact-category">Error</span>
+                            <span class="recent-mystery-compact-date">Try again later</span>
                         </div>
                     </div>
                 </div>
@@ -1548,7 +1721,26 @@
         }
 
         // TikTok Widget Functions
+        let tiktokMapping = {};
+        
+        async function loadTikTokMapping() {
+            try {
+                const response = await fetch('/js/tiktok_mapping.json');
+                if (response.ok) {
+                    tiktokMapping = await response.json();
+                    console.log('✅ Loaded TikTok mapping:', Object.keys(tiktokMapping).length, 'videos');
+                } else {
+                    console.warn('⚠️ TikTok mapping file not found');
+                }
+            } catch (error) {
+                console.warn('⚠️ Error loading TikTok mapping:', error);
+            }
+        }
+
         async function loadTikTokWidget() {
+            // Load TikTok mapping first
+            await loadTikTokMapping();
+            
             try {
                 // Try to fetch real TikTok data (placeholder for now)
                 const response = await fetch('/api/tiktok/widget.json');
@@ -1565,35 +1757,39 @@
         }
 
         function loadMockTikTokData() {
-            // Mock TikTok data for testing
+            // Mock TikTok data for testing - only include videos with detail pages
             const mockTikToks = [
                 {
                     video_id: 'tiktok_1',
                     title: '👻 Salem Witch Trials Investigation',
                     url: 'https://www.tiktok.com/@mysteryquest01/video/7123456789',
                     view_count: 89000,
-                    published_at: '2024-01-20T10:00:00Z'
+                    published_at: '2024-01-20T10:00:00Z',
+                    detail_url: '/tiktok_details/salem-witch-trials-investigation.html'
                 },
                 {
                     video_id: 'tiktok_2',
                     title: '🛸 Phoenix Lights UFO Analysis',
                     url: 'https://www.tiktok.com/@mysteryquest01/video/7123456790',
                     view_count: 156000,
-                    published_at: '2024-01-18T15:30:00Z'
+                    published_at: '2024-01-18T15:30:00Z',
+                    detail_url: '/tiktok_details/phoenix-lights-ufo-analysis.html'
                 },
                 {
                     video_id: 'tiktok_3',
                     title: '🔍 Bigfoot Evidence Breakdown',
                     url: 'https://www.tiktok.com/@mysteryquest01/video/7123456791',
                     view_count: 67000,
-                    published_at: '2024-01-15T12:00:00Z'
+                    published_at: '2024-01-15T12:00:00Z',
+                    detail_url: '/tiktok_details/bigfoot-evidence-breakdown.html'
                 },
                 {
                     video_id: 'tiktok_4',
                     title: '🌊 Bermuda Triangle Mysteries',
                     url: 'https://www.tiktok.com/@mysteryquest01/video/7123456792',
                     view_count: 234000,
-                    published_at: '2024-01-12T18:00:00Z'
+                    published_at: '2024-01-12T18:00:00Z',
+                    detail_url: '/tiktok_details/bermuda-triangle-mysteries.html'
                 },
                 {
                     video_id: 'tiktok_5',
@@ -1729,7 +1925,18 @@
 
             container.innerHTML = '';
 
-            videos.slice(0, 3).forEach(video => {
+            // Filter videos to only include those with detail pages
+            const videosWithDetails = videos.filter(video => {
+                const hasDetailUrl = video.detail_url || tiktokMapping[video.url];
+                if (!hasDetailUrl) {
+                    console.warn(`⚠️ Skipping TikTok video without detail page: ${video.title}`);
+                }
+                return hasDetailUrl;
+            });
+
+            console.log(`📱 Displaying ${videosWithDetails.length} TikTok videos with detail pages`);
+
+            videosWithDetails.slice(0, 3).forEach(video => {
                 const videoItem = document.createElement('div');
                 videoItem.className = 'tiktok-video-item';
                 
@@ -1742,13 +1949,17 @@
 
                 const viewCount = formatViewCount(video.view_count);
                 
-                // Use the proper detail page URL if available, otherwise create fallback
-                const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.title)}#videos`;
+                // Use the proper detail page URL from video data or mapping
+                const detailUrl = video.detail_url || tiktokMapping[video.url] || `/detail.html?name=${encodeURIComponent(video.title)}#videos`;
+
+                // Extract TikTok video ID for better thumbnail
+                const videoId = extractTikTokVideoId(video.url);
+                const thumbnailIcon = videoId ? '🎬' : '📱';
 
                 videoItem.innerHTML = `
-                    <div class="tiktok-video-thumbnail">📱</div>
+                    <div class="tiktok-video-thumbnail">${thumbnailIcon}</div>
                     <div class="tiktok-video-content">
-                        <span class="tiktok-video-title" onclick="navigateToDetail('${detailUrl}', '${video.url}')" style="cursor: pointer;">
+                        <span class="tiktok-video-title" onclick="navigateToTikTokDetail('${detailUrl}', '${video.url}')" style="cursor: pointer;">
                             ${truncateTitle(video.title, 45)}
                         </span>
                         <div class="tiktok-video-stats">
@@ -1760,11 +1971,51 @@
 
                 // Add click handler to the entire item
                 videoItem.addEventListener('click', () => {
-                    navigateToDetail(detailUrl, video.url);
+                    navigateToTikTokDetail(detailUrl, video.url);
                 });
 
                 container.appendChild(videoItem);
             });
+        }
+        
+        function extractTikTokVideoId(url) {
+            if (!url) return null;
+            
+            // TikTok URL patterns
+            const patterns = [
+                /tiktok\.com.*video\/(\d+)/,
+                /vm\.tiktok\.com\/([A-Za-z0-9]+)/,
+                /tiktok\.com\/@[^\/]+\/video\/(\d+)/
+            ];
+            
+            for (const pattern of patterns) {
+                const match = url.match(pattern);
+                if (match) {
+                    return match[1];
+                }
+            }
+            
+            return null;
+        }
+        
+        function navigateToTikTokDetail(detailUrl, tiktokUrl) {
+            try {
+                // Navigate to the detail page with TikTok video anchor
+                let finalUrl = detailUrl;
+                if (!detailUrl.includes('#videos')) {
+                    const separator = detailUrl.includes('?') ? '&' : '?';
+                    finalUrl = `${detailUrl}${separator}tiktok=true#videos`;
+                }
+                
+                console.log(`📱 Navigating to TikTok detail: ${finalUrl}`);
+                
+                // Navigate to the detail page
+                window.location.href = finalUrl;
+            } catch (error) {
+                console.error('Error navigating to TikTok detail page:', error);
+                // Fallback to direct TikTok URL
+                window.open(tiktokUrl, '_blank');
+            }
         }
         
         function navigateToDetail(detailUrl, videoUrl) {
