@@ -2569,24 +2569,18 @@
 
         // YouTube Widget Functions
         async function loadYouTubeWidget() {
-            // Check if we're running from file:// protocol
-            if (window.location.protocol === 'file:') {
-                console.log('🔄 Running from file:// protocol, using mock YouTube data');
-                loadMockYouTubeData();
-                return;
-            }
-            
             try {
                 // Try to fetch real YouTube data
                 const response = await fetch('/api/youtube/widget.json');
                 if (response.ok) {
                     const data = await response.json();
                     displayYouTubeVideos(data.popular, data.recent);
+                    console.log('✅ Loaded real YouTube data:', data.popular.length, 'popular,', data.recent.length, 'recent videos');
                 } else {
-                    throw new Error('API not available');
+                    throw new Error('YouTube API not available');
                 }
             } catch (error) {
-                console.warn('Using mock YouTube data:', error);
+                console.warn('⚠️ YouTube API error, using mock data:', error);
                 loadMockYouTubeData();
             }
         }
@@ -2595,19 +2589,13 @@
         let tiktokMapping = {};
         
         async function loadTikTokMapping() {
-            // Check if we're running from file:// protocol
-            if (window.location.protocol === 'file:') {
-                console.log('🔄 Running from file:// protocol, skipping TikTok mapping');
-                return;
-            }
-            
             try {
                 const response = await fetch('/js/tiktok_mapping.json');
                 if (response.ok) {
                     tiktokMapping = await response.json();
                     console.log('✅ Loaded TikTok mapping:', Object.keys(tiktokMapping).length, 'videos');
                 } else {
-                    console.warn('⚠️ TikTok mapping file not found');
+                    console.warn('⚠️ TikTok mapping file not found, continuing without mapping');
                 }
             } catch (error) {
                 console.warn('⚠️ Error loading TikTok mapping:', error);
@@ -2615,13 +2603,6 @@
         }
 
         async function loadTikTokWidget() {
-            // Check if we're running from file:// protocol
-            if (window.location.protocol === 'file:') {
-                console.log('🔄 Running from file:// protocol, using mock mixed video data');
-                loadMockMixedVideoData();
-                return;
-            }
-            
             // Load mixed video content (YouTube Shorts + TikTok)
             try {
                 // Try to fetch discovered video data
@@ -2629,11 +2610,12 @@
                 if (response.ok) {
                     const data = await response.json();
                     displayMixedVideos(data.popular, data.recent);
+                    console.log('✅ Loaded real mixed video data:', data.popular.length, 'popular,', data.recent.length, 'recent videos');
                 } else {
                     throw new Error('Mixed video data not available');
                 }
             } catch (error) {
-                console.warn('Using mock mixed video data:', error);
+                console.warn('⚠️ Mixed video API error, using mock data:', error);
                 loadMockMixedVideoData();
             }
         }
@@ -2914,6 +2896,18 @@
         
         function navigateToDetail(detailUrl, videoUrl) {
             try {
+                // For mock data, check if this is a real detail page or a mock video
+                if (detailUrl && detailUrl.includes('sample_video')) {
+                    // This is mock data - open the video URL directly
+                    if (videoUrl) {
+                        window.open(videoUrl, '_blank');
+                    } else {
+                        alert('This is sample video data. In the live site, this would link to a mystery detail page.');
+                    }
+                    return;
+                }
+                
+                // For real data, proceed with normal navigation
                 // Extract video ID from YouTube URL for highlighting
                 const videoIdMatch = videoUrl ? videoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
                 const videoId = videoIdMatch ? videoIdMatch[1] : null;
