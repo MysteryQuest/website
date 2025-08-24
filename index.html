@@ -2896,37 +2896,13 @@
         
         function navigateToDetail(detailUrl, videoUrl) {
             try {
-                // For mock data, check if this is a real detail page or a mock video
-                if (detailUrl && detailUrl.includes('sample_video')) {
-                    // This is mock data - open the video URL directly
-                    if (videoUrl) {
-                        window.open(videoUrl, '_blank');
-                    } else {
-                        alert('This is sample video data. In the live site, this would link to a mystery detail page.');
-                    }
-                    return;
-                }
-                
-                // For real data, proceed with normal navigation
-                // Extract video ID from YouTube URL for highlighting
-                const videoIdMatch = videoUrl ? videoUrl.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
-                const videoId = videoIdMatch ? videoIdMatch[1] : null;
-                
-                // If we have a proper detail URL, use it directly with video anchor
-                let finalUrl = detailUrl;
-                if (videoId && !detailUrl.includes('#videos')) {
-                    const separator = detailUrl.includes('?') ? '&' : '?';
-                    finalUrl = `${detailUrl}${separator}video=${videoId}#videos`;
-                } else if (!detailUrl.includes('#')) {
-                    finalUrl = `${detailUrl}#videos`;
-                }
-                
-                // Navigate to the detail page
-                window.location.href = finalUrl;
-            } catch (error) {
-                console.error('Error navigating to detail page:', error);
-                // Fallback to direct video URL
+                // For real YouTube videos, open the actual video URL
+                console.log(`🎬 Opening YouTube video: ${videoUrl}`);
                 window.open(videoUrl, '_blank');
+            } catch (error) {
+                console.error('Error opening video:', error);
+                // Fallback alert
+                alert(`Unable to open video. URL: ${videoUrl}`);
             }
         }
 
@@ -2940,8 +2916,8 @@
                 const videoItem = document.createElement('div');
                 videoItem.className = 'bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300 cursor-pointer group';
                 
-                // Format view count
-                const viewCount = formatViewCount(video.views);
+                // Format view count - handle different data structures
+                const viewCount = formatViewCount(video.views || video.view_count || 0);
                 
                 // Platform emoji and styling
                 const platformEmoji = video.platform === 'youtube_shorts' ? '🎬' : '🎵';
@@ -2984,22 +2960,29 @@
 
         function navigateToVideoDetail(detailUrl, videoUrl, platform) {
             try {
-                console.log(`🎬 Navigating to ${platform} detail: ${detailUrl}`);
-                window.location.href = detailUrl;
-            } catch (error) {
-                console.error('Error navigating to detail page:', error);
-                // Fallback to direct video URL
+                // For real videos, open the actual video URL instead of detail pages
+                console.log(`🎬 Opening ${platform} video: ${videoUrl}`);
                 window.open(videoUrl, '_blank');
+            } catch (error) {
+                console.error('Error opening video:', error);
+                // Fallback alert
+                alert(`Unable to open video. URL: ${videoUrl}`);
             }
         }
 
         function formatViewCount(count) {
-            if (count >= 1000000) {
-                return (count / 1000000).toFixed(1) + 'M';
-            } else if (count >= 1000) {
-                return (count / 1000).toFixed(1) + 'K';
+            // Handle undefined, null, or non-numeric values
+            if (!count || isNaN(count)) {
+                return '0';
             }
-            return count.toString();
+            
+            const numCount = parseInt(count);
+            if (numCount >= 1000000) {
+                return (numCount / 1000000).toFixed(1) + 'M';
+            } else if (numCount >= 1000) {
+                return (numCount / 1000).toFixed(1) + 'K';
+            }
+            return numCount.toString();
         }
 
         function truncateTitle(title, maxLength) {
