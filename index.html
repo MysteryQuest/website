@@ -70,14 +70,113 @@
     }
     </script>
     
-    <!-- Bootstrap and Fonts -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-cyan': '#00f5ff',
+                        'neon-purple': '#bf00ff',
+                        'neon-pink': '#ff0080',
+                        'neon-green': '#39ff14',
+                        'dark-bg': '#0a0a0a',
+                        'dark-card': '#1a1a2e',
+                        'dark-purple': '#16213e',
+                        'electric-blue': '#0066ff',
+                        'retro-orange': '#ff6b35',
+                        'cyber-gray': '#2d2d44'
+                    },
+                    fontFamily: {
+                        'cyber': ['Orbitron', 'monospace'],
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    },
+                    animation: {
+                        'glow-pulse': 'glowPulse 2s ease-in-out infinite alternate',
+                        'neon-flicker': 'neonFlicker 0.15s ease-in-out infinite alternate',
+                        'cyber-scan': 'cyberScan 3s linear infinite',
+                        'float': 'float 6s ease-in-out infinite'
+                    },
+                    backgroundImage: {
+                        'cyber-grid': 'linear-gradient(rgba(0,245,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,245,255,0.1) 1px, transparent 1px)',
+                        'neon-gradient': 'linear-gradient(45deg, #00f5ff, #bf00ff, #ff0080)',
+                        'retro-gradient': 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Enhanced Fonts for Retro Cyber Theme -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     
-    <!-- Custom Styles -->
-    <link href="styles.css" rel="stylesheet">
+    <!-- Custom CSS for Enhanced Retro Effects -->
+    <style>
+        @keyframes glowPulse {
+            from { box-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor; }
+            to { box-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor; }
+        }
+        
+        @keyframes neonFlicker {
+            0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+            20%, 24%, 55% { opacity: 0.4; }
+        }
+        
+        @keyframes cyberScan {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100vw); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .neon-text {
+            color: #00f5ff;
+            text-shadow: 0 0 10px #00f5ff, 0 0 20px #00f5ff, 0 0 30px #00f5ff;
+        }
+        
+        .cyber-border {
+            border: 1px solid #00f5ff;
+            box-shadow: 0 0 10px rgba(0, 245, 255, 0.3), inset 0 0 10px rgba(0, 245, 255, 0.1);
+        }
+        
+        .retro-card {
+            background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(22, 33, 62, 0.95) 100%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 245, 255, 0.3);
+        }
+        
+        .cyber-grid {
+            background-image: 
+                linear-gradient(rgba(0,245,255,0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0,245,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+        
+        .scan-line {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .scan-line::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 245, 255, 0.2), transparent);
+            animation: cyberScan 3s linear infinite;
+        }
+    </style>
+    
+    <!-- Enhanced Modern Styles for Retro Cyber Aesthetic -->
+    <link href="modern-styles.css" rel="stylesheet">
     
     <!-- SEO and Verification -->
     <link rel="robots" href="/robots.txt">
@@ -1391,217 +1490,466 @@
             }, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-</head>
-<body>
+<body class="bg-dark-bg text-gray-100 font-sans overflow-x-hidden">
+    <!-- Cyber Grid Background -->
+    <div class="fixed inset-0 cyber-grid opacity-20 pointer-events-none"></div>
+    
+    <!-- Scanning Line Effect -->
+    <div class="fixed top-0 left-0 w-1 h-full bg-neon-cyan opacity-30 scan-line pointer-events-none"></div>
+    
     <!-- Dynamic Header -->
     <div id="dynamic-header"></div>
 
-    <!-- Full-width Hero Background Container -->
-    <div class="hero-background-container">
-        <!-- Main Layout Container -->
-        <div class="main-layout-container">
-            <!-- Left Column: Social Media Widgets (under logo) -->
-            <div class="left-column-widgets">
-                <div class="social-widgets-container">
-                    <div class="youtube-widget" id="youtube-widget" style="margin-bottom: 20px;">
-                        <h3 style="font-size: 1.1rem;">🎬 Latest YouTube</h3>
-                        <div id="popular-videos" class="widget-videos-section">
-                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
-                            <div class="youtube-video-item">
-                                <span class="youtube-video-title">Loading popular videos...</span>
-                                <div class="youtube-video-stats">
-                                    <span class="youtube-video-views">-</span>
-                                    <span class="youtube-video-date">-</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="recent-videos" class="widget-videos-section">
-                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
-                            <div class="youtube-video-item">
-                                <span class="youtube-video-title">Loading recent videos...</span>
-                                <div class="youtube-video-stats">
-                                    <span class="youtube-video-views">-</span>
-                                    <span class="youtube-video-date">-</span>
+    <!-- Modern Hero Section with Cyber Aesthetic -->
+    <div class="relative min-h-screen bg-gradient-to-br from-dark-bg via-dark-purple to-cyber-gray overflow-hidden">
+        <!-- Hero Background with Parallax Effect -->
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40" style="background-image: url('splash.webp')"></div>
+        
+        <!-- Neon Grid Overlay -->
+        <div class="absolute inset-0 bg-cyber-grid opacity-30"></div>
+        
+        <!-- Main Content Grid -->
+        <div class="relative z-10 min-h-screen grid grid-cols-1 lg:grid-cols-12 gap-6 p-4 lg:p-8">
+            
+            <!-- Left Sidebar: Social Media Widgets -->
+            <div class="lg:col-span-3 space-y-6 order-3 lg:order-1">
+                <!-- YouTube Widget -->
+                <div class="retro-card p-6 rounded-xl scan-line">
+                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">🎬 Latest YouTube</h3>
+                    <div id="popular-videos" class="mb-6">
+                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Popular</h4>
+                        <div class="space-y-3">
+                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
+                                <span class="text-gray-200 text-sm block mb-1">Loading popular videos...</span>
+                                <div class="flex justify-between text-xs text-gray-400">
+                                    <span>-</span>
+                                    <span>-</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div id="recent-videos">
+                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Recent</h4>
+                        <div class="space-y-3">
+                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
+                                <span class="text-gray-200 text-sm block mb-1">Loading recent videos...</span>
+                                <div class="flex justify-between text-xs text-gray-400">
+                                    <span>-</span>
+                                    <span>-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- TikTok/Mixed Videos Widget -->
+                <div class="retro-card p-6 rounded-xl scan-line" id="tiktok-widget">
+                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">🎬 Short Videos</h3>
+                    <div id="popular-shorts" class="mb-6">
+                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Popular</h4>
+                        <div class="space-y-3">
+                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
+                                <span class="text-gray-200 text-sm block mb-1">Loading mystery shorts...</span>
+                                <div class="flex justify-between text-xs text-gray-400">
+                                    <span>-</span>
+                                    <span>-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="recent-shorts">
+                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Recent</h4>
+                        <div class="space-y-3">
+                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
+                                <span class="text-gray-200 text-sm block mb-1">Loading recent shorts...</span>
+                                <div class="flex justify-between text-xs text-gray-400">
+                                    <span>-</span>
+                                    <span>-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Center Column: Hero Content & Latest Mysteries -->
+            <div class="lg:col-span-6 flex flex-col justify-center order-1 lg:order-2">
+                <!-- Hero Content -->
+                <div class="text-center py-12 lg:py-20">
+                    <h1 class="font-cyber text-4xl lg:text-7xl font-bold mb-6 neon-text animate-glow-pulse leading-tight">
+                        MYSTERY<br>
+                        <span class="text-neon-purple">QUEST</span>
+                    </h1>
+                    <p class="text-xl lg:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                        Investigate the <span class="text-neon-cyan">unexplained</span>, explore the 
+                        <span class="text-neon-purple">paranormal</span>, and uncover the 
+                        <span class="text-neon-pink">truth</span> behind history's greatest mysteries.
+                    </p>
                     
-                    <div class="tiktok-widget" id="tiktok-widget">
-                        <h3 style="font-size: 1.1rem;">🎬 Short Videos</h3>
-                        <div id="popular-shorts" class="widget-videos-section">
-                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
-                            <div class="video-item">
-                                <span class="video-title">Loading mystery shorts...</span>
-                                <div class="video-stats">
-                                    <span class="video-views">-</span>
-                                    <span class="video-platform">-</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="recent-shorts" class="widget-videos-section">
-                            <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
-                            <div class="video-item">
-                                <span class="video-title">Loading recent shorts...</span>
-                                <div class="video-stats">
-                                    <span class="video-views">-</span>
-                                    <span class="video-platform">-</span>
-                                </div>
-                            </div>
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <a href="directory/" class="bg-neon-gradient hover:scale-105 transform transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold text-dark-bg shadow-lg animate-glow-pulse">
+                            EXPLORE MYSTERIES
+                        </a>
+                        <a href="#latest-mysteries" class="border-2 border-neon-cyan hover:bg-neon-cyan hover:text-dark-bg transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold">
+                            LATEST DISCOVERIES
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Latest Mysteries Section -->
+                <div id="latest-mysteries" class="retro-card p-8 rounded-2xl scan-line">
+                    <h2 class="font-cyber text-2xl lg:text-3xl font-bold neon-text mb-6 text-center">
+                        🔍 Latest Mysteries
+                    </h2>
+                    <div id="recentMysteries" class="space-y-6">
+                        <div class="animate-pulse bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/20">
+                            <div class="h-4 bg-neon-cyan/20 rounded mb-4"></div>
+                            <div class="h-3 bg-gray-600 rounded mb-2"></div>
+                            <div class="h-3 bg-gray-600 rounded w-3/4"></div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Right Column: Hero Section with main content -->
-            <div class="right-column-hero">
-                <!-- Latest Mysteries Section (above hero) -->
-                <div class="latest-mysteries-section" style="margin-bottom: 30px;">
-                    <h2 style="font-size: 1.5rem; color: #00ffff; margin-bottom: 20px; text-align: center;">🆕 Latest Mysteries</h2>
-                    <div id="recentMysteriesDetailed" class="latest-mysteries-detailed">
-                        <!-- Loading placeholder -->
-                        <div class="latest-mystery-card">
-                            <div class="latest-mystery-content">
-                                <h4>Loading recent mysteries...</h4>
-                                <p>Fetching the most recent unexplained phenomena...</p>
-                            </div>
+            
+            <!-- Right Column: Featured Content -->
+            <div class="lg:col-span-3 space-y-6 order-2 lg:order-3">
+                <!-- Featured YouTube Video -->
+                <div class="retro-card p-6 rounded-xl scan-line">
+                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse text-center">
+                        � Featured Investigation
+                    </h3>
+                    <div class="aspect-video rounded-lg overflow-hidden border border-neon-cyan/30">
+                        <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
+                                title="Mystery Quest YouTube Investigations" 
+                                class="w-full h-full"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                
+                <!-- Quick Stats -->
+                <div class="retro-card p-6 rounded-xl scan-line">
+                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">
+                        📊 Investigation Stats
+                    </h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Active Cases</span>
+                            <span class="text-neon-cyan font-cyber">847</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Verified Sources</span>
+                            <span class="text-neon-green font-cyber">1,234</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Community Votes</span>
+                            <span class="text-neon-purple font-cyber">5,678</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-300">Credibility Score</span>
+                            <span class="text-neon-pink font-cyber">92.3%</span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Hero Section -->
-                <section class="hero">
-                    <div class="hero-content">
-                        <h1>Mystery Quest</h1>
-                        <p>Explore ancient myths, modern enigmas, and the unexplained. Join us to uncover the truth with an open mind and skeptical approach.</p>
-                        
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
-                                    title="Mystery Quest YouTube Investigations" 
-                                    frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    referrerpolicy="strict-origin-when-cross-origin" 
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
+                
+                <!-- Quick Actions -->
+                <div class="retro-card p-6 rounded-xl scan-line">
+                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">
+                        ⚡ Quick Actions
+                    </h3>
+                    <div class="space-y-3">
+                        <a href="hoax.html" class="block w-full bg-dark-card/50 hover:bg-neon-cyan/20 border border-neon-cyan/30 hover:border-neon-cyan transition-all duration-300 p-3 rounded-lg text-center font-medium">
+                            🕵️ Is it a Hoax?
+                        </a>
+                        <a href="map.html" class="block w-full bg-dark-card/50 hover:bg-neon-purple/20 border border-neon-purple/30 hover:border-neon-purple transition-all duration-300 p-3 rounded-lg text-center font-medium">
+                            🗺️ Mystery Map
+                        </a>
+                        <a href="directory/" class="block w-full bg-dark-card/50 hover:bg-neon-pink/20 border border-neon-pink/30 hover:border-neon-pink transition-all duration-300 p-3 rounded-lg text-center font-medium">
+                            📚 Browse Directory
+                        </a>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Main Content -->
-    <div class="container py-5">
-        <!-- Mystery Lists Section -->
-        <div class="row mb-5">
-            <div class="col-lg-6 mb-4">
-                <div class="content-section">
-                    <h2>🔮 Top 5 Most Believed Mysteries</h2>
-                    <div id="topMysteries" class="mystery-list">
-                        <!-- Loading placeholder -->
-                        <div class="mystery-item">
-                            <h4>Loading mysteries...</h4>
-                            <p>Fetching the most intriguing cases from our database.</p>
-                        </div>
+    <!-- Main Content Sections -->
+    <div class="relative z-10 px-4 lg:px-8 py-16 space-y-16">
+        <!-- Mystery Categories Section -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Top Believed Mysteries -->
+            <div class="retro-card p-8 rounded-2xl scan-line">
+                <h2 class="font-cyber text-2xl font-bold neon-text mb-6 text-center animate-glow-pulse">
+                    🔮 Most Believed Mysteries
+                </h2>
+                <div id="topMysteries" class="space-y-4">
+                    <div class="animate-pulse bg-dark-card/50 p-4 rounded-lg border border-neon-cyan/20">
+                        <div class="h-4 bg-neon-cyan/20 rounded mb-2"></div>
+                        <div class="h-3 bg-gray-600 rounded"></div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-lg-6 mb-4">
-                <div class="content-section">
-                    <h2>🕵️ Top 5 Most Voted Hoaxes</h2>
-                    <div id="topHoaxes" class="mystery-list">
-                        <!-- Loading placeholder -->
-                        <div class="mystery-item">
-                            <h4>Loading hoax investigations...</h4>
-                            <p>Analyzing cases marked as potential hoaxes by our community.</p>
-                        </div>
+            <!-- Top Voted Hoaxes -->
+            <div class="retro-card p-8 rounded-2xl scan-line">
+                <h2 class="font-cyber text-2xl font-bold neon-text mb-6 text-center animate-glow-pulse">
+                    🕵️ Most Voted Hoaxes
+                </h2>
+                <div id="topHoaxes" class="space-y-4">
+                    <div class="animate-pulse bg-dark-card/50 p-4 rounded-lg border border-neon-cyan/20">
+                        <div class="h-4 bg-neon-cyan/20 rounded mb-2"></div>
+                        <div class="h-3 bg-gray-600 rounded"></div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Call to Action Section -->
-        <div class="content-section text-center">
-            <h2>🔍 Join the Investigation</h2>
-            <p class="mb-4">We investigate the most popular mysteries and hoaxes, providing insights and evidence to help you form your own opinion. Join our community of mystery enthusiasts and skeptics.</p>
+        <!-- Features Section -->
+        <section class="retro-card p-8 lg:p-12 rounded-2xl scan-line text-center">
+            <h2 class="font-cyber text-3xl font-bold neon-text mb-8 animate-glow-pulse">
+                🔍 Join the Investigation
+            </h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                We investigate the most popular mysteries and hoaxes, providing insights and evidence to help you form your own opinion. Join our community of mystery enthusiasts and skeptics.
+            </p>
             
-            <div class="action-buttons">
-                <a class="button" href="hoax.html">Is it a Hoax?</a>
-                <a class="button" href="map.html">Explore Mystery Map</a>
-                <a class="button" href="directory/">Browse Directory</a>
-            </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-4 text-center mb-3">
-                    <div class="feature-box">
-                        <h5>🗺️ Interactive Map</h5>
-                        <p>Explore mysteries around the world with our comprehensive mystery mapping system.</p>
-                    </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/30 hover:border-neon-cyan/60 transition-all duration-300 animate-float">
+                    <div class="text-4xl mb-4">🗺️</div>
+                    <h5 class="font-cyber text-lg font-semibold text-neon-cyan mb-3">Interactive Map</h5>
+                    <p class="text-gray-400">Explore mysteries around the world with our comprehensive mystery mapping system.</p>
                 </div>
-                <div class="col-md-4 text-center mb-3">
-                    <div class="feature-box">
-                        <h5>🎭 Real or Hoax?</h5>
-                        <p>Vote on mysteries and help our community separate fact from fiction.</p>
-                    </div>
+                <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-purple/30 hover:border-neon-purple/60 transition-all duration-300 animate-float" style="animation-delay: 1s;">
+                    <div class="text-4xl mb-4">🔬</div>
+                    <h5 class="font-cyber text-lg font-semibold text-neon-purple mb-3">Evidence Analysis</h5>
+                    <p class="text-gray-400">Detailed investigation reports with source verification and credibility scoring.</p>
                 </div>
-                <div class="col-md-4 text-center mb-3">
-                    <div class="feature-box">
-                        <h5>📁 Comprehensive Directory</h5>
-                        <p>Browse our extensive database of documented mysterious phenomena.</p>
-                    </div>
+                <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-pink/30 hover:border-neon-pink/60 transition-all duration-300 animate-float" style="animation-delay: 2s;">
+                    <div class="text-4xl mb-4">👥</div>
+                    <h5 class="font-cyber text-lg font-semibold text-neon-pink mb-3">Community Voting</h5>
+                    <p class="text-gray-400">Vote on mysteries and hoaxes, sharing your perspective with fellow investigators.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Contact Form Section -->
-        <div class="content-section" id="submit-mystery">
-            <h2>📧 Submit Your Mystery</h2>
-            <p class="text-center mb-4">Have a mystery you want us to investigate? Share it with our team!</p>
+        <!-- Submit Mystery Section -->
+        <section class="retro-card p-8 lg:p-12 rounded-2xl scan-line">
+            <h2 class="font-cyber text-3xl font-bold neon-text mb-8 text-center animate-glow-pulse">
+                📧 Submit Your Mystery
+            </h2>
+            <p class="text-xl text-gray-300 mb-8 text-center max-w-2xl mx-auto">
+                Have a mystery you want us to investigate? Share it with our team of dedicated researchers!
+            </p>
             
-            <div class="form-container">
-                <form id="mysteryForm" class="row g-3">
-                    <div class="col-md-6">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <form id="mysteryForm" class="max-w-2xl mx-auto space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <input type="text" 
+                               id="name" 
+                               name="name" 
+                               placeholder="Your Name" 
+                               required
+                               class="w-full bg-dark-card/50 border border-neon-cyan/30 rounded-lg px-4 py-3 text-gray-200 placeholder-gray-500 focus:border-neon-cyan focus:outline-none focus:ring-2 focus:ring-neon-cyan/20 transition-all duration-300">
                     </div>
-                    <div class="col-md-6">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <div>
+                        <input type="email" 
+                               id="email" 
+                               name="email" 
+                               placeholder="Your Email" 
+                               required
+                               class="w-full bg-dark-card/50 border border-neon-cyan/30 rounded-lg px-4 py-3 text-gray-200 placeholder-gray-500 focus:border-neon-cyan focus:outline-none focus:ring-2 focus:ring-neon-cyan/20 transition-all duration-300">
                     </div>
-                    <div class="col-12">
-                        <textarea id="mystery" name="mystery" rows="5" placeholder="Describe the mystery you want us to investigate..." required></textarea>
-                    </div>
-                    <div class="col-12 text-center">
-                        <div class="captcha-container d-inline-flex align-items-center gap-3">
-                            <input type="text" id="captcha" placeholder="What is 3 + 4?" required style="width: 150px;">
-                            <button type="button" class="btn btn-primary" onclick="validateCaptcha()">Submit Mystery</button>
-                        </div>
-                    </div>
-                </form>
+                </div>
+                <div>
+                    <textarea id="mystery" 
+                              name="mystery" 
+                              rows="5" 
+                              placeholder="Describe the mystery you want us to investigate..." 
+                              required
+                              class="w-full bg-dark-card/50 border border-neon-cyan/30 rounded-lg px-4 py-3 text-gray-200 placeholder-gray-500 focus:border-neon-cyan focus:outline-none focus:ring-2 focus:ring-neon-cyan/20 transition-all duration-300 resize-none"></textarea>
+                </div>
+                <div class="flex items-center justify-center gap-4">
+                    <input type="text" 
+                           id="captcha" 
+                           placeholder="What is 3 + 4?" 
+                           required
+                           class="bg-dark-card/50 border border-neon-cyan/30 rounded-lg px-4 py-3 text-gray-200 placeholder-gray-500 focus:border-neon-cyan focus:outline-none focus:ring-2 focus:ring-neon-cyan/20 transition-all duration-300 w-40">
+                    <button type="button" 
+                            onclick="validateCaptcha()"
+                            class="bg-neon-gradient hover:scale-105 transform transition-all duration-300 px-8 py-3 rounded-lg font-cyber font-semibold text-dark-bg shadow-lg animate-glow-pulse">
+                        SUBMIT MYSTERY
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Social Links Section -->
+        <section class="text-center py-16">
+            <h2 class="font-cyber text-3xl font-bold neon-text mb-8 animate-glow-pulse">
+                🌐 Follow Our Investigations
+            </h2>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" 
+                   target="_blank"
+                   class="flex items-center gap-3 bg-dark-card/50 hover:bg-red-600/20 border border-red-500/30 hover:border-red-500 transition-all duration-300 px-6 py-4 rounded-lg group">
+                    <span class="text-2xl">📺</span>
+                    <span class="font-cyber group-hover:text-red-400 transition-colors">YouTube Channel</span>
+                </a>
+                <a href="https://www.tiktok.com/@mysteryquest01" 
+                   target="_blank"
+                   class="flex items-center gap-3 bg-dark-card/50 hover:bg-pink-600/20 border border-pink-500/30 hover:border-pink-500 transition-all duration-300 px-6 py-4 rounded-lg group">
+                    <span class="text-2xl">🎵</span>
+                    <span class="font-cyber group-hover:text-pink-400 transition-colors">TikTok</span>
+                </a>
+                <a href="#" 
+                   onclick="alert('Livestream coming soon!')"
+                   class="flex items-center gap-3 bg-dark-card/50 hover:bg-purple-600/20 border border-purple-500/30 hover:border-purple-500 transition-all duration-300 px-6 py-4 rounded-lg group cursor-pointer">
+                    <span class="text-2xl">📡</span>
+                    <span class="font-cyber group-hover:text-purple-400 transition-colors">Livestream (Coming Soon!)</span>
+                </a>
             </div>
-        </div>
+        </section>
     </div>
 
-    <!-- Social Links Section -->
-    <div class="social-links">
-        <h2>🌐 Follow Our Investigations</h2>
-        <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">
-            📺 YouTube Channel
-        </a>
-        <a href="https://www.tiktok.com/@mysteryquest01" target="_blank">
-            🎵 TikTok
-        </a>
-        <a href="#" onclick="alert('Livestream coming soon!')">
-            📡 Livestream (Coming Soon!)
-        </a>
-    </div>
+    <!-- Modern Footer -->
+    <footer class="relative border-t border-neon-cyan/30 bg-dark-card/30 backdrop-blur-lg">
+        <div class="absolute inset-0 bg-cyber-grid opacity-10"></div>
+        <div id="dynamic-footer" class="relative z-10"></div>
+        <div class="relative z-10 px-4 lg:px-8 py-8 text-center">
+            <p class="text-gray-400 font-cyber">
+                © 2025 Mystery Quest • Investigating the unexplained with 
+                <span class="text-neon-cyan">scientific curiosity</span> and 
+                <span class="text-neon-purple">open minds</span>
+            </p>
+        </div>
+    </footer>
 
-    <!-- Dynamic Footer -->
-    <div id="dynamic-footer"></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Modern JavaScript with Enhanced UX -->
     <script>
+        // Enhanced Cyber Effects
+        document.addEventListener('DOMContentLoaded', function() {
+            createMatrixRain();
+            createFloatingParticles();
+            initCyberEffects();
+        });
+
+        // Matrix Rain Effect
+        function createMatrixRain() {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+            
+            const container = document.body;
+            const chars = '01ⴷⵙⵛⵏⵓⴰⵎⴰⵔⵉⵣⵉⵖ';
+            
+            function createRainDrop() {
+                const char = document.createElement('div');
+                char.className = 'matrix-char';
+                char.textContent = chars[Math.floor(Math.random() * chars.length)];
+                char.style.left = Math.random() * 100 + '%';
+                char.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                char.style.opacity = Math.random() * 0.5 + 0.1;
+                container.appendChild(char);
+                
+                setTimeout(() => {
+                    if (char.parentNode) {
+                        char.parentNode.removeChild(char);
+                    }
+                }, 5000);
+            }
+            
+            // Create rain drops periodically
+            setInterval(createRainDrop, 200);
+        }
+
+        // Floating Particles Effect
+        function createFloatingParticles() {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+            
+            const particleContainer = document.createElement('div');
+            particleContainer.className = 'fixed inset-0 pointer-events-none z-0';
+            document.body.appendChild(particleContainer);
+            
+            function createParticle() {
+                const particle = document.createElement('div');
+                particle.className = 'absolute w-1 h-1 bg-neon-cyan rounded-full opacity-20';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animation = `float ${Math.random() * 4 + 6}s ease-in-out infinite`;
+                particle.style.animationDelay = Math.random() * 2 + 's';
+                particleContainer.appendChild(particle);
+                
+                setTimeout(() => {
+                    if (particle.parentNode) {
+                        particle.parentNode.removeChild(particle);
+                    }
+                }, 10000);
+            }
+            
+            // Create particles
+            for (let i = 0; i < 20; i++) {
+                setTimeout(createParticle, i * 500);
+            }
+            
+            setInterval(createParticle, 2000);
+        }
+
+        // Initialize Cyber Effects
+        function initCyberEffects() {
+            // Add random glitch effects to neon text
+            const neonElements = document.querySelectorAll('.neon-text');
+            neonElements.forEach(element => {
+                setInterval(() => {
+                    if (Math.random() < 0.1) { // 10% chance
+                        element.style.animation = 'neonFlicker 0.1s ease-in-out 2';
+                        setTimeout(() => {
+                            element.style.animation = '';
+                        }, 200);
+                    }
+                }, 3000);
+            });
+
+            // Add hover sound effect simulation
+            const interactiveElements = document.querySelectorAll('button, a, .cursor-pointer');
+            interactiveElements.forEach(element => {
+                element.addEventListener('mouseenter', () => {
+                    // Visual feedback for hover
+                    if (element.classList.contains('retro-card')) {
+                        element.style.transform = 'translateY(-2px) scale(1.01)';
+                    }
+                });
+                
+                element.addEventListener('mouseleave', () => {
+                    element.style.transform = '';
+                });
+            });
+
+            // Parallax scrolling effect for cyber grid
+            window.addEventListener('scroll', () => {
+                const scrolled = window.pageYOffset;
+                const cyberGrid = document.querySelector('.cyber-grid');
+                if (cyberGrid) {
+                    cyberGrid.style.transform = `translateY(${scrolled * 0.1}px)`;
+                }
+            });
+        }
+
+        // Enhanced smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
         const API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
         const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
         const SHEET_NAME = 'Sheet1';
@@ -1730,13 +2078,19 @@
 
             mysteries.forEach((mystery, index) => {
                 const item = document.createElement('div');
-                item.className = 'mystery-item';
+                item.className = 'bg-dark-card/50 p-4 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300 group';
                 item.innerHTML = `
-                    <h4>${mystery.name}</h4>
-                    <p><strong>Location:</strong> ${mystery.location}</p>
-                    <p><strong>Date:</strong> ${mystery.date}</p>
-                    <p class="vote-count">Real Votes: ${mystery.votes}</p>
-                    <a href="detail.html?name=${encodeURIComponent(mystery.name)}" target="_blank">View Details</a>
+                    <h4 class="font-cyber text-lg text-neon-cyan mb-2 group-hover:text-neon-cyan/80 transition-colors">${mystery.name}</h4>
+                    <p class="text-gray-300 text-sm mb-1"><span class="text-neon-purple">📍</span> ${mystery.location}</p>
+                    <p class="text-gray-300 text-sm mb-2"><span class="text-neon-pink">📅</span> ${mystery.date}</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-neon-green font-cyber text-sm">✅ Real Votes: ${mystery.votes}</span>
+                        <a href="detail.html?name=${encodeURIComponent(mystery.name)}" 
+                           target="_blank"
+                           class="bg-neon-cyan/20 hover:bg-neon-cyan/40 text-neon-cyan px-3 py-1 rounded text-xs font-medium transition-all duration-300">
+                            View Details
+                        </a>
+                    </div>
                 `;
                 container.appendChild(item);
             });
@@ -1748,13 +2102,19 @@
 
             hoaxes.forEach((hoax, index) => {
                 const item = document.createElement('div');
-                item.className = 'mystery-item';
+                item.className = 'bg-dark-card/50 p-4 rounded-lg border border-neon-pink/20 hover:border-neon-pink/50 transition-all duration-300 group';
                 item.innerHTML = `
-                    <h4>${hoax.name}</h4>
-                    <p><strong>Location:</strong> ${hoax.location}</p>
-                    <p><strong>Date:</strong> ${hoax.date}</p>
-                    <p class="hoax-count">Hoax Votes: ${hoax.hoax}</p>
-                    <a href="detail.html?name=${encodeURIComponent(hoax.name)}" target="_blank">View Details</a>
+                    <h4 class="font-cyber text-lg text-neon-pink mb-2 group-hover:text-neon-pink/80 transition-colors">${hoax.name}</h4>
+                    <p class="text-gray-300 text-sm mb-1"><span class="text-neon-purple">📍</span> ${hoax.location}</p>
+                    <p class="text-gray-300 text-sm mb-2"><span class="text-neon-cyan">📅</span> ${hoax.date}</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-red-400 font-cyber text-sm">❌ Hoax Votes: ${hoax.hoax}</span>
+                        <a href="detail.html?name=${encodeURIComponent(hoax.name)}" 
+                           target="_blank"
+                           class="bg-neon-pink/20 hover:bg-neon-pink/40 text-neon-pink px-3 py-1 rounded text-xs font-medium transition-all duration-300">
+                            View Details
+                        </a>
+                    </div>
                 `;
                 container.appendChild(item);
             });
@@ -2032,18 +2392,16 @@
         }
 
         function displayDetailedRecentMysteries(mysteries) {
-            const container = document.getElementById('recentMysteriesDetailed');
+            const container = document.getElementById('recentMysteries');
             if (!container) return;
 
             container.innerHTML = '';
 
             if (!mysteries || mysteries.length === 0) {
                 container.innerHTML = `
-                    <div class="latest-mystery-card">
-                        <div class="latest-mystery-content">
-                            <h4>No recent mysteries found</h4>
-                            <p>Check back later for the latest unexplained phenomena.</p>
-                        </div>
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/20 text-center">
+                        <h4 class="font-cyber text-lg text-neon-cyan mb-2">No recent mysteries found</h4>
+                        <p class="text-gray-400">Check back later for the latest unexplained phenomena.</p>
                     </div>
                 `;
                 return;
@@ -2051,7 +2409,7 @@
 
             mysteries.forEach(mystery => {
                 const item = document.createElement('div');
-                item.className = 'latest-mystery-card';
+                item.className = 'bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300 cursor-pointer group';
 
                 // Format date for display
                 const formatDisplayDate = (dateStr) => {
@@ -2072,13 +2430,7 @@
                 const isTikTokEvent = (mystery.event_type && mystery.event_type.toLowerCase().includes('tiktok')) || 
                                     (mystery['TikTok URL'] && mystery['TikTok URL'].trim() !== '');
 
-                const tiktokIndicator = isTikTokEvent ? '<i class="fab fa-tiktok latest-mystery-tiktok-indicator"></i>' : '';
-
-                // Get thumbnail or placeholder
-                const thumbnailContent = mystery.image_url && mystery.image_url.trim() !== '' ? 
-                    `<img src="${mystery.image_url}" alt="${mystery.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                     <i class="fas fa-question-circle" style="display: none;"></i>` :
-                    '<i class="fas fa-question-circle"></i>';
+                const tiktokIndicator = isTikTokEvent ? '<span class="text-neon-pink text-xs ml-2">🎵 TikTok</span>' : '';
 
                 // Get category - truncate if too long
                 const category = mystery.event_type || 'Mystery';
@@ -2093,24 +2445,36 @@
                 const sourcesCount = 0; // Will be populated by source verification system
 
                 item.innerHTML = `
-                    <div class="latest-mystery-thumbnail">
-                        ${thumbnailContent}
-                    </div>
-                    <div class="latest-mystery-content">
-                        <div class="latest-mystery-meta">
-                            <span class="latest-mystery-category">${shortCategory}</span>
-                            <span class="latest-mystery-date">${formatDisplayDate(mystery.date)}${tiktokIndicator}</span>
-                        </div>
-                        <div class="latest-mystery-title">${mystery.name}</div>
-                        <div class="latest-mystery-description">${shortDescription}</div>
-                        <div class="latest-mystery-stats">
-                            <div class="latest-mystery-votes">
-                                <i class="fas fa-thumbs-up"></i>
-                                <span>${votes}</span>
+                    <div class="flex items-start space-x-4">
+                        ${mystery.image_url && mystery.image_url.trim() !== '' ? 
+                            `<div class="flex-shrink-0 w-16 h-16 bg-cyber-gray rounded-lg overflow-hidden border border-neon-cyan/30">
+                                <img src="${mystery.image_url}" 
+                                     alt="${mystery.name}" 
+                                     class="w-full h-full object-cover"
+                                     onerror="this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center text-neon-cyan\\'>🔍</div>'">
+                             </div>` :
+                            `<div class="flex-shrink-0 w-16 h-16 bg-cyber-gray rounded-lg border border-neon-cyan/30 flex items-center justify-center text-neon-cyan text-xl">
+                                🔍
+                             </div>`
+                        }
+                        <div class="flex-1 min-w-0">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-xs font-cyber text-neon-purple bg-neon-purple/10 px-2 py-1 rounded">${shortCategory}</span>
+                                <span class="text-xs text-gray-400">${formatDisplayDate(mystery.date)}${tiktokIndicator}</span>
                             </div>
-                            <div class="latest-mystery-sources">
-                                <i class="fas fa-link"></i>
-                                <span>${sourcesCount}</span>
+                            <h4 class="font-cyber text-lg text-neon-cyan mb-2 group-hover:text-neon-cyan/80 transition-colors leading-tight">${mystery.name}</h4>
+                            <p class="text-gray-400 text-sm mb-3 leading-relaxed">${shortDescription}</p>
+                            <div class="flex items-center space-x-4 text-xs">
+                                <div class="flex items-center space-x-1 text-neon-green">
+                                    <span>👍</span>
+                                    <span class="font-cyber">${votes}</span>
+                                </div>
+                                <div class="flex items-center space-x-1 text-neon-purple">
+                                    <span>🔗</span>
+                                    <span class="font-cyber">${sourcesCount}</span>
+                                </div>
+                                <div class="flex-1"></div>
+                                <span class="text-neon-cyan hover:text-neon-cyan/80 transition-colors">View Details →</span>
                             </div>
                         </div>
                     </div>
@@ -2126,15 +2490,13 @@
         }
 
         function displayDetailedRecentMysteriesError() {
-            const container = document.getElementById('recentMysteriesDetailed');
+            const container = document.getElementById('recentMysteries');
             if (!container) return;
             
             container.innerHTML = `
-                <div class="latest-mystery-card">
-                    <div class="latest-mystery-content">
-                        <h4>Unable to load recent mysteries</h4>
-                        <p>There was an error loading the latest mysteries. Please try again later.</p>
-                    </div>
+                <div class="bg-dark-card/50 p-6 rounded-xl border border-red-500/30 text-center">
+                    <h4 class="font-cyber text-lg text-red-400 mb-2">Unable to load recent mysteries</h4>
+                    <p class="text-gray-400">There was an error loading the latest mysteries. Please try again later.</p>
                 </div>
             `;
         }
@@ -2366,7 +2728,7 @@
 
             videos.slice(0, 3).forEach(video => {
                 const videoItem = document.createElement('div');
-                videoItem.className = 'youtube-video-item';
+                videoItem.className = 'bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300 cursor-pointer group';
                 
                 const publishedDate = new Date(video.published_at);
                 const formattedDate = publishedDate.toLocaleDateString('en-US', { 
@@ -2381,14 +2743,21 @@
                 const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.title)}#videos`;
 
                 videoItem.innerHTML = `
-                    <img src="${video.thumbnail_url}" alt="${video.title}" class="youtube-video-thumbnail" onerror="this.style.display='none'">
-                    <div class="youtube-video-content">
-                        <span class="youtube-video-title" onclick="navigateToDetail('${detailUrl}', '${video.url}')" style="cursor: pointer;">
-                            ${truncateTitle(video.title, 45)}
-                        </span>
-                        <div class="youtube-video-stats">
-                            <span class="youtube-video-views">${viewCount} views</span>
-                            <span class="youtube-video-date">${formattedDate}</span>
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0 w-16 h-12 bg-cyber-gray rounded-lg overflow-hidden border border-neon-cyan/30">
+                            <img src="${video.thumbnail_url}" 
+                                 alt="${video.title}" 
+                                 class="w-full h-full object-cover"
+                                 onerror="this.parentElement.innerHTML='<div class=\\'w-full h-full flex items-center justify-center text-red-400\\'>🎬</div>'">
+                        </div>
+                        <div class="flex-1 min-w-0">
+                            <div class="text-gray-200 text-sm mb-1 group-hover:text-neon-cyan transition-colors leading-tight">
+                                ${truncateTitle(video.title, 45)}
+                            </div>
+                            <div class="flex items-center justify-between text-xs">
+                                <span class="text-gray-400">${viewCount} views</span>
+                                <span class="text-gray-500">${formattedDate}</span>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -2533,7 +2902,7 @@
 
             videos.slice(0, 3).forEach(video => {
                 const videoItem = document.createElement('div');
-                videoItem.className = 'video-item';
+                videoItem.className = 'bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300 cursor-pointer group';
                 
                 // Format view count
                 const viewCount = formatViewCount(video.views);
@@ -2541,23 +2910,30 @@
                 // Platform emoji and styling
                 const platformEmoji = video.platform === 'youtube_shorts' ? '🎬' : '🎵';
                 const platformName = video.platform === 'youtube_shorts' ? 'Shorts' : 'TikTok';
+                const platformColor = video.platform === 'youtube_shorts' ? 'text-red-400' : 'text-pink-400';
                 
                 // Create detail URL or use video URL
                 const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.mystery_match || video.title)}#videos`;
 
                 videoItem.innerHTML = `
-                    <div class="video-thumbnail">
-                        <span class="platform-indicator">${platformEmoji}</span>
-                    </div>
-                    <div class="video-content">
-                        <span class="video-title" onclick="navigateToVideoDetail('${detailUrl}', '${video.url}', '${video.platform}')" style="cursor: pointer;">
-                            ${truncateTitle(video.title, 45)}
-                        </span>
-                        <div class="video-stats">
-                            <span class="video-views">${viewCount} views</span>
-                            <span class="video-platform">${platformName}</span>
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0 w-12 h-12 bg-cyber-gray rounded-lg flex items-center justify-center text-lg border border-neon-cyan/30">
+                            ${platformEmoji}
                         </div>
-                        ${video.mystery_match ? `<div class="video-mystery-match">🔍 ${video.mystery_match}</div>` : ''}
+                        <div class="flex-1 min-w-0">
+                            <div class="text-gray-200 text-sm mb-1 group-hover:text-neon-cyan transition-colors leading-tight">
+                                ${truncateTitle(video.title, 45)}
+                            </div>
+                            <div class="flex items-center justify-between text-xs">
+                                <span class="text-gray-400">${viewCount} views</span>
+                                <span class="font-cyber ${platformColor}">${platformName}</span>
+                            </div>
+                            ${video.mystery_match ? 
+                                `<div class="text-xs text-neon-purple mt-1 bg-neon-purple/10 px-2 py-1 rounded">
+                                    🔍 ${video.mystery_match}
+                                 </div>` : ''
+                            }
+                        </div>
                     </div>
                 `;
 
