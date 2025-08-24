@@ -1577,10 +1577,7 @@
                 <!-- Hero Content -->
                 <div class="text-center py-12 lg:py-20">
                     <div class="logo-container mb-6">
-                        <h1 class="font-cyber text-lg lg:text-xl font-bold neon-text animate-glow-pulse leading-tight">
-                            MYSTERY<br>
-                            <span class="text-neon-purple">QUEST</span>
-                        </h1>
+                        <img src="logo.png" alt="Mystery Quest" class="mx-auto max-w-full h-auto neon-glow" style="max-width: 150px;">
                     </div>
                     <p class="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
                         Investigate the <span class="text-neon-cyan">unexplained</span>, explore the 
@@ -2636,32 +2633,6 @@
             };
             
             displayMixedVideos(mockVideos.popular, mockVideos.recent);
-        }
-                },
-                {
-                    video_id: 'tiktok_4',
-                    title: '🌊 Bermuda Triangle Mysteries',
-                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456792',
-                    view_count: 234000,
-                    published_at: '2024-01-12T18:00:00Z',
-                    detail_url: '/tiktok_details/bermuda-triangle-mysteries.html'
-                },
-                {
-                    video_id: 'tiktok_5',
-                    title: '👁️ Area 51 Secrets Revealed',
-                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456793',
-                    view_count: 345000,
-                    published_at: '2024-01-10T14:30:00Z'
-                }
-            ];
-
-            // Sort by view count for popular
-            const popular = [...mockTikToks].sort((a, b) => b.view_count - a.view_count).slice(0, 3);
-            
-            // Sort by date for recent
-            const recent = [...mockTikToks].sort((a, b) => new Date(b.published_at) - new Date(a.published_at)).slice(0, 3);
-
-            displayTikTokVideos(popular, recent);
         }
 
         function loadMockYouTubeData() {
