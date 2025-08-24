@@ -54,6 +54,33 @@
     animation: neonFlicker 0.1s ease-in-out 3;
 }
 
+/* Logo Container Constraints */
+.logo-container {
+    max-width: 150px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo-container h1 {
+    font-size: clamp(0.875rem, 2vw, 1.25rem) !important;
+    line-height: 1.2;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .logo-container h1 {
+        font-size: 0.875rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container h1 {
+        font-size: 0.75rem !important;
+    }
+}
+
 /* Cyber Border Effects */
 .cyber-border {
     position: relative;
