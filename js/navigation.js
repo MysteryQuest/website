@@ -19,9 +19,10 @@ class NavigationManager {
     }
 
     getHeaderHTML() {
-        // Detect if we're in a subdirectory to adjust paths
-        const isSubdirectory = window.location.pathname.includes('/directory/') || 
-                              window.location.pathname.split('/').length > 2;
+        // For file:// protocol, always use relative path
+        const isFileProtocol = window.location.protocol === 'file:';
+        const isSubdirectory = !isFileProtocol && (window.location.pathname.includes('/directory/') || 
+                              window.location.pathname.split('/').length > 2);
         const logoPath = isSubdirectory ? '/logo.png' : 'logo.png';
         
         return `

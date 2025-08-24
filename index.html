@@ -1497,11 +1497,16 @@
     <!-- Scanning Line Effect -->
     <div class="fixed top-0 left-0 w-1 h-full bg-neon-cyan opacity-30 scan-line pointer-events-none"></div>
     
-    <!-- Dynamic Header -->
-    <div id="dynamic-header"></div>
+    <!-- Dynamic Header (disabled for main page - integrated design) -->
+    <!-- <div id="dynamic-header"></div> -->
 
     <!-- Modern Hero Section with Cyber Aesthetic -->
     <div class="relative min-h-screen bg-gradient-to-br from-dark-bg via-dark-purple to-cyber-gray overflow-hidden">
+        <!-- Google Translate - Positioned in top-right -->
+        <div class="absolute top-4 right-4 z-20">
+            <div id="google_translate_element" class="bg-dark-card/80 backdrop-blur-sm rounded-lg p-2 border border-neon-cyan/20"></div>
+        </div>
+        
         <!-- Hero Background with Parallax Effect -->
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40" style="background-image: url('splash.webp')"></div>
         
@@ -2564,6 +2569,13 @@
 
         // YouTube Widget Functions
         async function loadYouTubeWidget() {
+            // Check if we're running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.log('🔄 Running from file:// protocol, using mock YouTube data');
+                loadMockYouTubeData();
+                return;
+            }
+            
             try {
                 // Try to fetch real YouTube data
                 const response = await fetch('/api/youtube/widget.json');
@@ -2583,6 +2595,12 @@
         let tiktokMapping = {};
         
         async function loadTikTokMapping() {
+            // Check if we're running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.log('🔄 Running from file:// protocol, skipping TikTok mapping');
+                return;
+            }
+            
             try {
                 const response = await fetch('/js/tiktok_mapping.json');
                 if (response.ok) {
@@ -2597,6 +2615,13 @@
         }
 
         async function loadTikTokWidget() {
+            // Check if we're running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.log('🔄 Running from file:// protocol, using mock mixed video data');
+                loadMockMixedVideoData();
+                return;
+            }
+            
             // Load mixed video content (YouTube Shorts + TikTok)
             try {
                 // Try to fetch discovered video data
@@ -2665,42 +2690,48 @@
                     title: 'Ancient Mysteries and Lost Civilizations',
                     url: 'https://www.youtube.com/watch?v=sample_video_5',
                     view_count: 298000,
-                    published_at: '2023-12-20T14:30:00Z'
+                    published_at: '2023-12-20T14:30:00Z',
+                    thumbnail_url: 'https://img.youtube.com/vi/sample_video_5/mqdefault.jpg'
                 },
                 {
                     video_id: 'sample_video_1',
                     title: 'UFO Sighting Analysis - Phoenix Lights Investigation',
                     url: 'https://www.youtube.com/watch?v=sample_video_1',
                     view_count: 245000,
-                    published_at: '2024-01-15T10:00:00Z'
+                    published_at: '2024-01-15T10:00:00Z',
+                    thumbnail_url: 'https://img.youtube.com/vi/sample_video_1/mqdefault.jpg'
                 },
                 {
                     video_id: 'sample_video_2',
                     title: 'Roswell Incident - What Really Happened?',
                     url: 'https://www.youtube.com/watch?v=sample_video_2',
                     view_count: 189000,
-                    published_at: '2024-01-10T15:30:00Z'
+                    published_at: '2024-01-10T15:30:00Z',
+                    thumbnail_url: 'https://img.youtube.com/vi/sample_video_2/mqdefault.jpg'
                 },
                 {
                     video_id: 'sample_video_3',
                     title: 'Area 51 Mysteries and UFO Secrets',
                     url: 'https://www.youtube.com/watch?v=sample_video_3',
                     view_count: 156000,
-                    published_at: '2024-01-05T12:00:00Z'
+                    published_at: '2024-01-05T12:00:00Z',
+                    thumbnail_url: 'https://img.youtube.com/vi/sample_video_3/mqdefault.jpg'
                 },
                 {
                     video_id: 'sample_video_4',
                     title: 'Paranormal Activity in Salem Massachusetts',
                     url: 'https://www.youtube.com/watch?v=sample_video_4',
                     view_count: 134000,
-                    published_at: '2024-01-01T18:00:00Z'
+                    published_at: '2024-01-01T18:00:00Z',
+                    thumbnail_url: 'https://img.youtube.com/vi/sample_video_4/mqdefault.jpg'
                 },
                 {
                     video_id: 'sample_video_6',
                     title: 'Bigfoot Encounters in Washington State',
                     url: 'https://www.youtube.com/watch?v=sample_video_6',
                     view_count: 87000,
-                    published_at: '2023-12-15T16:45:00Z'
+                    published_at: '2023-12-15T16:45:00Z',
+                    thumbnail_url: 'https://img.youtube.com/vi/sample_video_6/mqdefault.jpg'
                 }
             ];
 
@@ -2749,14 +2780,17 @@
                 
                 // Use the proper detail page URL if available, otherwise create fallback
                 const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.title)}#videos`;
+                
+                // Ensure thumbnail_url exists, provide fallback
+                const thumbnailUrl = video.thumbnail_url || 'https://img.youtube.com/vi/default/mqdefault.jpg';
 
                 videoItem.innerHTML = `
                     <div class="flex items-start space-x-3">
                         <div class="flex-shrink-0 w-16 h-12 bg-cyber-gray rounded-lg overflow-hidden border border-neon-cyan/30">
-                            <img src="${video.thumbnail_url}" 
+                            <img src="${thumbnailUrl}" 
                                  alt="${video.title}" 
                                  class="w-full h-full object-cover"
-                                 onerror="this.parentElement.innerHTML='<div class=&quot;w-full h-full flex items-center justify-center text-red-400&quot;>🎬</div>'">
+                                 onerror="this.parentElement.innerHTML='<div class=&quot;w-full h-full flex items-center justify-center text-red-400&quot;>🎬</div>'">>
                         </div>
                         <div class="flex-1 min-w-0">
                             <div class="text-gray-200 text-sm mb-1 group-hover:text-neon-cyan transition-colors leading-tight">
@@ -3011,13 +3045,19 @@ Submitted via Mystery Quest website.
         }
     </script>
     
-    <!-- Navigation Management -->
-    <script src="js/navigation.js"></script>
+    <!-- Navigation Management (disabled for main page - uses integrated design) -->
+    <!-- <script src="js/navigation.js"></script> -->
     
     <!-- Google Translate -->
     <script type="text/javascript">
         function googleTranslateElementInit() {
-            // Will be handled by navigation.js
+            // Inline implementation for main page
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'es,en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
         }
     </script>
 </body>
