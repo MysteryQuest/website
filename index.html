@@ -1576,11 +1576,11 @@
             <div class="lg:col-span-6 flex flex-col justify-center order-1 lg:order-2">
                 <!-- Hero Content -->
                 <div class="text-center py-12 lg:py-20">
-                    <h1 class="font-cyber text-4xl lg:text-7xl font-bold mb-6 neon-text animate-glow-pulse leading-tight">
+                    <h1 class="font-cyber text-3xl lg:text-5xl font-bold mb-6 neon-text animate-glow-pulse leading-tight">
                         MYSTERY<br>
                         <span class="text-neon-purple">QUEST</span>
                     </h1>
-                    <p class="text-xl lg:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+                    <p class="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
                         Investigate the <span class="text-neon-cyan">unexplained</span>, explore the 
                         <span class="text-neon-purple">paranormal</span>, and uncover the 
                         <span class="text-neon-pink">truth</span> behind history's greatest mysteries.
@@ -1955,15 +1955,18 @@
         const SHEET_NAME = 'Sheet1';
 
         async function fetchTopMysteries() {
+            console.log('📊 Fetching top mysteries...');
             try {
                 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+                console.log('🔗 API URL:', url);
                 const response = await fetch(url);
                 
                 if (!response.ok) {
-                    throw new Error(`Google Sheets API error: ${response.status}`);
+                    throw new Error(`Google Sheets API error: ${response.status} - ${response.statusText}`);
                 }
                 
                 const data = await response.json();
+                console.log('✅ Received data from Google Sheets:', data);
 
                 if (data.values && data.values.length > 1) {
                     const headers = data.values[0];
@@ -1991,16 +1994,19 @@
 
                     displayTopMysteries(topByVotes);
                     displayTopHoaxes(topByHoax);
+                    console.log('✅ Displayed top mysteries and hoaxes');
                 } else {
+                    console.warn('⚠️ No data received from Google Sheets, showing fallback');
                     showFallbackContent();
                 }
             } catch (error) {
-                console.warn('Unable to load live mystery data:', error);
+                console.error('❌ Error loading mystery data:', error);
                 showFallbackContent();
             }
         }
 
         function showFallbackContent() {
+            console.log('📋 Loading fallback mystery content...');
             // Show sample content when API is unavailable
             const sampleMysteries = [
                 {
@@ -2018,58 +2024,59 @@
                 {
                     name: "Loch Ness Monster Sightings",
                     location: "Scotland, UK",
-                    date: "Various dates",
-                    votes: 98
+                    date: "565 AD - Present",
+                    votes: 128
                 },
                 {
-                    name: "Phoenix Lights",
-                    location: "Phoenix, Arizona, USA",
-                    date: "March 1997",
-                    votes: 87
+                    name: "Area 51 & UFO Cover-ups",
+                    location: "Nevada, USA",
+                    date: "1955 - Present",
+                    votes: 142
                 },
                 {
-                    name: "Stonehenge Purpose",
-                    location: "Wiltshire, England",
-                    date: "3100-1600 BC",
-                    votes: 76
+                    name: "Bigfoot Encounters",
+                    location: "Pacific Northwest, USA",
+                    date: "1958 - Present",
+                    votes: 119
                 }
             ];
 
             const sampleHoaxes = [
                 {
                     name: "War of the Worlds Broadcast",
-                    location: "New Jersey, USA",
+                    location: "United States",
                     date: "October 1938",
-                    hoax: 45
-                },
-                {
-                    name: "Crop Circle Formations",
-                    location: "Various locations",
-                    date: "1970s-present",
-                    hoax: 38
-                },
-                {
-                    name: "Bigfoot Footprint Casts",
-                    location: "Pacific Northwest, USA",
-                    date: "1958",
-                    hoax: 32
-                },
-                {
-                    name: "Alien Autopsy Film",
-                    location: "Roswell, New Mexico",
-                    date: "1995",
-                    hoax: 29
+                    hoax: 89
                 },
                 {
                     name: "Piltdown Man Discovery",
                     location: "England",
-                    date: "1912",
-                    hoax: 24
+                    date: "1912-1953",
+                    hoax: 76
+                },
+                {
+                    name: "Cardiff Giant",
+                    location: "New York, USA",
+                    date: "1869",
+                    hoax: 67
+                },
+                {
+                    name: "Crop Circle Formations",
+                    location: "Various Locations",
+                    date: "1970s - Present",
+                    hoax: 82
+                },
+                {
+                    name: "Crystal Skull Artifacts",
+                    location: "Central America (alleged)",
+                    date: "19th Century",
+                    hoax: 74
                 }
             ];
 
             displayTopMysteries(sampleMysteries);
             displayTopHoaxes(sampleHoaxes);
+            console.log('✅ Fallback content loaded successfully');
         }
 
         function displayTopMysteries(mysteries) {
@@ -2122,6 +2129,7 @@
 
         // Load top mysteries when page loads
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 Starting Mystery Quest data loading...');
             fetchTopMysteries();
             fetchRecentMysteries();
             fetchDetailedRecentMysteries();
@@ -2340,6 +2348,7 @@
 
         // Fetch detailed recent mysteries for middle column
         async function fetchDetailedRecentMysteries() {
+            console.log('📅 Fetching detailed recent mysteries...');
             try {
                 // Load TikTok mapping first
                 await loadTikTokMapping();
@@ -2349,6 +2358,7 @@
 
                 const csvText = await response.text();
                 const mysteries = parseCSV(csvText);
+                console.log('📊 Parsed mysteries:', mysteries.length);
                 
                 // Filter mysteries with actual data, exclude historical mysteries, validate TikTok events, and sort by date
                 const validMysteries = [];
