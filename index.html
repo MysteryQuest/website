@@ -1957,13 +1957,22 @@
         const SHEET_NAME = 'Sheet1';
 
         async function fetchTopMysteries() {
-            console.log('📊 Fetching top mysteries...');
+            console.log('📊 Attempting to fetch top mysteries...');
+            
+            // Check if we're running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.log('🔄 Running from file:// protocol, using fallback content due to CORS restrictions');
+                showFallbackContent();
+                return;
+            }
+            
             try {
                 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
                 console.log('🔗 API URL:', url);
                 const response = await fetch(url);
                 
                 if (!response.ok) {
+                    console.warn(`⚠️ Google Sheets API error: ${response.status} - ${response.statusText}`);
                     throw new Error(`Google Sheets API error: ${response.status} - ${response.statusText}`);
                 }
                 
@@ -2209,6 +2218,12 @@
 
         // Fetch recent mysteries from Google Sheet
         async function fetchRecentMysteries() {
+            // Check if we're running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.log('🔄 Running from file:// protocol, skipping recent mysteries fetch due to CORS restrictions');
+                return;
+            }
+            
             try {
                 // Load TikTok mapping first
                 await loadTikTokMapping();
@@ -2351,6 +2366,13 @@
         // Fetch detailed recent mysteries for middle column
         async function fetchDetailedRecentMysteries() {
             console.log('📅 Fetching detailed recent mysteries...');
+            
+            // Check if we're running from file:// protocol
+            if (window.location.protocol === 'file:') {
+                console.log('🔄 Running from file:// protocol, skipping detailed recent mysteries fetch due to CORS restrictions');
+                return;
+            }
+            
             try {
                 // Load TikTok mapping first
                 await loadTikTokMapping();
