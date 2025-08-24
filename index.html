@@ -440,6 +440,103 @@
             color: #888888;
         }
 
+        /* Mixed Video Widget Styles */
+        .video-item {
+            background: rgba(35, 35, 45, 0.8);
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 8px;
+            border-left: 3px solid #00ffff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .video-item:hover {
+            background: rgba(45, 45, 55, 0.9);
+            border-left-color: #ff1493;
+            transform: translateX(5px);
+        }
+
+        .video-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .video-thumbnail {
+            width: 60px;
+            height: 45px;
+            border-radius: 4px;
+            flex-shrink: 0;
+            background: linear-gradient(45deg, #00ffff, #ff1493);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            position: relative;
+        }
+
+        .platform-indicator {
+            font-size: 1.5rem;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .video-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .video-title {
+            color: #ffffff;
+            font-size: 0.8rem;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 4px;
+            line-height: 1.2;
+            text-decoration: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .video-title:hover {
+            color: #00ffff;
+        }
+
+        .video-stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.7rem;
+            margin-bottom: 2px;
+        }
+
+        .video-views {
+            color: #888;
+        }
+
+        .video-platform {
+            color: #00ffff;
+            background: rgba(0, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 0.65rem;
+        }
+
+        .video-mystery-match {
+            font-size: 0.65rem;
+            color: #ff69b4;
+            background: rgba(255, 105, 180, 0.1);
+            padding: 2px 6px;
+            border-radius: 8px;
+            margin-top: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
         /* Hero background container - full width */
         .hero-background-container {
             background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('splash.webp');
@@ -1333,24 +1430,24 @@
                     </div>
                     
                     <div class="tiktok-widget" id="tiktok-widget">
-                        <h3 style="font-size: 1.1rem;">📱 Latest TikTok</h3>
-                        <div id="popular-tiktoks" class="widget-videos-section">
+                        <h3 style="font-size: 1.1rem;">🎬 Short Videos</h3>
+                        <div id="popular-shorts" class="widget-videos-section">
                             <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Popular</h4>
-                            <div class="tiktok-video-item">
-                                <span class="tiktok-video-title">Loading popular TikToks...</span>
-                                <div class="tiktok-video-stats">
-                                    <span class="tiktok-video-views">-</span>
-                                    <span class="tiktok-video-date">-</span>
+                            <div class="video-item">
+                                <span class="video-title">Loading mystery shorts...</span>
+                                <div class="video-stats">
+                                    <span class="video-views">-</span>
+                                    <span class="video-platform">-</span>
                                 </div>
                             </div>
                         </div>
-                        <div id="recent-tiktoks" class="widget-videos-section">
+                        <div id="recent-shorts" class="widget-videos-section">
                             <h4 style="font-size: 0.9rem; color: #00ffff; margin-bottom: 10px;">Most Recent</h4>
-                            <div class="tiktok-video-item">
-                                <span class="tiktok-video-title">Loading recent TikToks...</span>
-                                <div class="tiktok-video-stats">
-                                    <span class="tiktok-video-views">-</span>
-                                    <span class="tiktok-video-date">-</span>
+                            <div class="video-item">
+                                <span class="video-title">Loading recent shorts...</span>
+                                <div class="video-stats">
+                                    <span class="video-views">-</span>
+                                    <span class="video-platform">-</span>
                                 </div>
                             </div>
                         </div>
@@ -2104,50 +2201,65 @@
         }
 
         async function loadTikTokWidget() {
-            // Load TikTok mapping first
-            await loadTikTokMapping();
-            
+            // Load mixed video content (YouTube Shorts + TikTok)
             try {
-                // Try to fetch real TikTok data (placeholder for now)
-                const response = await fetch('/api/tiktok/widget.json');
+                // Try to fetch discovered video data
+                const response = await fetch('js/mixed_videos.json');
                 if (response.ok) {
                     const data = await response.json();
-                    displayTikTokVideos(data.popular, data.recent);
+                    displayMixedVideos(data.popular, data.recent);
                 } else {
-                    throw new Error('TikTok API not available');
+                    throw new Error('Mixed video data not available');
                 }
             } catch (error) {
-                console.warn('Using mock TikTok data:', error);
-                loadMockTikTokData();
+                console.warn('Using mock mixed video data:', error);
+                loadMockMixedVideoData();
             }
         }
 
-        function loadMockTikTokData() {
-            // Mock TikTok data for testing - only include videos with detail pages
-            const mockTikToks = [
-                {
-                    video_id: 'tiktok_1',
-                    title: '👻 Salem Witch Trials Investigation',
-                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456789',
-                    view_count: 89000,
-                    published_at: '2024-01-20T10:00:00Z',
-                    detail_url: '/tiktok_details/salem-witch-trials-investigation.html'
-                },
-                {
-                    video_id: 'tiktok_2',
-                    title: '🛸 Phoenix Lights UFO Analysis',
-                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456790',
-                    view_count: 156000,
-                    published_at: '2024-01-18T15:30:00Z',
-                    detail_url: '/tiktok_details/phoenix-lights-ufo-analysis.html'
-                },
-                {
-                    video_id: 'tiktok_3',
-                    title: '🔍 Bigfoot Evidence Breakdown',
-                    url: 'https://www.tiktok.com/@mysteryquest01/video/7123456791',
-                    view_count: 67000,
-                    published_at: '2024-01-15T12:00:00Z',
-                    detail_url: '/tiktok_details/bigfoot-evidence-breakdown.html'
+        function loadMockMixedVideoData() {
+            // Mock mixed video data combining YouTube Shorts and TikTok
+            const mockVideos = {
+                popular: [
+                    {
+                        title: '🛸 UFO Sighting Investigation',
+                        url: 'https://youtube.com/shorts/abc123',
+                        platform: 'youtube_shorts',
+                        channel: 'Mystery Investigator',
+                        views: 156000,
+                        mystery_match: 'Phoenix Lights UFO'
+                    },
+                    {
+                        title: '👻 Salem Witch Trials Deep Dive',
+                        url: 'https://www.tiktok.com/@mysteryquest01/video/7123456789',
+                        platform: 'tiktok',
+                        channel: '@mysteryquest01',
+                        views: 89000,
+                        mystery_match: 'Salem Witch Trials'
+                    }
+                ],
+                recent: [
+                    {
+                        title: '� Bigfoot Evidence Analysis',
+                        url: 'https://youtube.com/shorts/def456',
+                        platform: 'youtube_shorts',
+                        channel: 'Crypto Researcher',
+                        views: 34000,
+                        mystery_match: 'Bigfoot Sightings'
+                    },
+                    {
+                        title: '🌟 Ancient Mysteries Explained',
+                        url: 'https://www.tiktok.com/@ancientmysteries/video/7123456792',
+                        platform: 'tiktok',
+                        channel: '@ancientmysteries',
+                        views: 22000,
+                        mystery_match: 'Historical Mysteries'
+                    }
+                ]
+            };
+            
+            displayMixedVideos(mockVideos.popular, mockVideos.recent);
+        }
                 },
                 {
                     video_id: 'tiktok_4',
@@ -2239,6 +2351,11 @@
         function displayTikTokVideos(popularTikToks, recentTikToks) {
             displayTikTokSection('popular-tiktoks', popularTikToks);
             displayTikTokSection('recent-tiktoks', recentTikToks);
+        }
+
+        function displayMixedVideos(popularVideos, recentVideos) {
+            displayMixedVideoSection('popular-shorts', popularVideos);
+            displayMixedVideoSection('recent-shorts', recentVideos);
         }
 
         function displayVideoSection(containerId, videos) {
@@ -2401,6 +2518,62 @@
                 
                 // Navigate to the detail page
                 window.location.href = finalUrl;
+            } catch (error) {
+                console.error('Error navigating to detail page:', error);
+                // Fallback to direct video URL
+                window.open(videoUrl, '_blank');
+            }
+        }
+
+        function displayMixedVideoSection(containerId, videos) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+
+            container.innerHTML = '';
+
+            videos.slice(0, 3).forEach(video => {
+                const videoItem = document.createElement('div');
+                videoItem.className = 'video-item';
+                
+                // Format view count
+                const viewCount = formatViewCount(video.views);
+                
+                // Platform emoji and styling
+                const platformEmoji = video.platform === 'youtube_shorts' ? '🎬' : '🎵';
+                const platformName = video.platform === 'youtube_shorts' ? 'Shorts' : 'TikTok';
+                
+                // Create detail URL or use video URL
+                const detailUrl = video.detail_url || `/detail.html?name=${encodeURIComponent(video.mystery_match || video.title)}#videos`;
+
+                videoItem.innerHTML = `
+                    <div class="video-thumbnail">
+                        <span class="platform-indicator">${platformEmoji}</span>
+                    </div>
+                    <div class="video-content">
+                        <span class="video-title" onclick="navigateToVideoDetail('${detailUrl}', '${video.url}', '${video.platform}')" style="cursor: pointer;">
+                            ${truncateTitle(video.title, 45)}
+                        </span>
+                        <div class="video-stats">
+                            <span class="video-views">${viewCount} views</span>
+                            <span class="video-platform">${platformName}</span>
+                        </div>
+                        ${video.mystery_match ? `<div class="video-mystery-match">🔍 ${video.mystery_match}</div>` : ''}
+                    </div>
+                `;
+
+                // Add click handler to the entire item
+                videoItem.addEventListener('click', () => {
+                    navigateToVideoDetail(detailUrl, video.url, video.platform);
+                });
+
+                container.appendChild(videoItem);
+            });
+        }
+
+        function navigateToVideoDetail(detailUrl, videoUrl, platform) {
+            try {
+                console.log(`🎬 Navigating to ${platform} detail: ${detailUrl}`);
+                window.location.href = detailUrl;
             } catch (error) {
                 console.error('Error navigating to detail page:', error);
                 // Fallback to direct video URL
