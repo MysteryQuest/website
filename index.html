@@ -2778,6 +2778,11 @@
                             <div class="text-gray-200 text-sm mb-1 group-hover:text-neon-cyan transition-colors leading-tight">
                                 ${truncateTitle(video.title, 45)}
                             </div>
+                            ${video.description ? 
+                                `<div class="text-gray-400 text-xs mb-1 leading-tight">
+                                    ${truncateTitle(video.description, 60)}
+                                 </div>` : ''
+                            }
                             <div class="flex items-center justify-between text-xs">
                                 <span class="text-gray-400">${viewCount} views</span>
                                 <span class="text-gray-500">${formattedDate}</span>
@@ -2936,13 +2941,18 @@
                             <div class="text-gray-200 text-sm mb-1 group-hover:text-neon-cyan transition-colors leading-tight">
                                 ${truncateTitle(video.title, 45)}
                             </div>
+                            ${video.description ? 
+                                `<div class="text-gray-400 text-xs mb-1 leading-tight">
+                                    ${truncateTitle(video.description, 60)}
+                                 </div>` : ''
+                            }
                             <div class="flex items-center justify-between text-xs">
                                 <span class="text-gray-400">${viewCount} views</span>
                                 <span class="font-cyber ${platformColor}">${platformName}</span>
                             </div>
-                            ${video.mystery_match ? 
+                            ${video.mystery ? 
                                 `<div class="text-xs text-neon-purple mt-1 bg-neon-purple/10 px-2 py-1 rounded">
-                                    🔍 ${video.mystery_match}
+                                    🔍 ${video.mystery}
                                  </div>` : ''
                             }
                         </div>
