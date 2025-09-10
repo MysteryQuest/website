@@ -93,10 +93,11 @@
                         'sans': ['Inter', 'system-ui', 'sans-serif']
                     },
                     animation: {
-                        'glow-pulse': 'glowPulse 2s ease-in-out infinite alternate',
-                        'neon-flicker': 'neonFlicker 0.15s ease-in-out infinite alternate',
-                        'cyber-scan': 'cyberScan 3s linear infinite',
-                        'float': 'float 6s ease-in-out infinite'
+                        'glow-pulse': 'glowPulse 4s ease-in-out infinite alternate',
+                        'neon-flicker': 'neonFlicker 2s ease-in-out infinite alternate',
+                        'cyber-scan': 'cyberScan 8s linear infinite',
+                        'float': 'float 8s ease-in-out infinite',
+                        'subtle-glow': 'subtleGlow 3s ease-in-out infinite alternate'
                     },
                     backgroundImage: {
                         'cyber-grid': 'linear-gradient(rgba(0,245,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,245,255,0.1) 1px, transparent 1px)',
@@ -116,13 +117,18 @@
     <!-- Custom CSS for Enhanced Retro Effects -->
     <style>
         @keyframes glowPulse {
-            from { box-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor; }
-            to { box-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor; }
+            from { box-shadow: 0 0 3px currentColor, 0 0 6px currentColor, 0 0 9px currentColor; }
+            to { box-shadow: 0 0 6px currentColor, 0 0 12px currentColor, 0 0 18px currentColor; }
+        }
+        
+        @keyframes subtleGlow {
+            from { box-shadow: 0 0 2px currentColor, 0 0 4px currentColor; }
+            to { box-shadow: 0 0 4px currentColor, 0 0 8px currentColor; }
         }
         
         @keyframes neonFlicker {
-            0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
-            20%, 24%, 55% { opacity: 0.4; }
+            0%, 90%, 100% { opacity: 1; }
+            95% { opacity: 0.8; }
         }
         
         @keyframes cyberScan {
@@ -137,7 +143,12 @@
         
         .neon-text {
             color: #00f5ff;
-            text-shadow: 0 0 10px #00f5ff, 0 0 20px #00f5ff, 0 0 30px #00f5ff;
+            text-shadow: 0 0 5px #00f5ff, 0 0 10px #00f5ff, 0 0 15px rgba(0, 245, 255, 0.5);
+        }
+        
+        .subtle-neon {
+            color: #00bcd4;
+            text-shadow: 0 0 3px #00bcd4, 0 0 6px rgba(0, 188, 212, 0.3);
         }
         
         .cyber-border {
@@ -170,8 +181,8 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(0, 245, 255, 0.2), transparent);
-            animation: cyberScan 3s linear infinite;
+            background: linear-gradient(90deg, transparent, rgba(0, 245, 255, 0.1), transparent);
+            animation: cyberScan 8s linear infinite;
         }
     </style>
     
@@ -187,11 +198,21 @@
         /* Main Layout & Typography */
         body {
             font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-            color: #e8e8e8;
+            color: #f0f0f0;
             margin: 0;
             padding: 0;
+        }
+
+        /* Improved readability for text */
+        p, div, span {
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Reduce excessive glow on headings */
+        h1, h2, h3, h4, h5, h6 {
+            line-height: 1.3;
         }
 
         /* Hero Section - Modernized */
@@ -1492,10 +1513,10 @@
     </script>
 <body class="bg-dark-bg text-gray-100 font-sans overflow-x-hidden">
     <!-- Cyber Grid Background -->
-    <div class="fixed inset-0 cyber-grid opacity-20 pointer-events-none"></div>
+    <div class="fixed inset-0 cyber-grid opacity-10 pointer-events-none"></div>
     
     <!-- Scanning Line Effect -->
-    <div class="fixed top-0 left-0 w-1 h-full bg-neon-cyan opacity-30 scan-line pointer-events-none"></div>
+    <div class="fixed top-0 left-0 w-1 h-full bg-neon-cyan opacity-15 scan-line pointer-events-none"></div>
     
     <!-- Dynamic Header (disabled for main page - integrated design) -->
     <!-- <div id="dynamic-header"></div> -->
@@ -1511,7 +1532,7 @@
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40" style="background-image: url('splash.webp')"></div>
         
         <!-- Neon Grid Overlay -->
-        <div class="absolute inset-0 bg-cyber-grid opacity-30"></div>
+        <div class="absolute inset-0 bg-cyber-grid opacity-15"></div>
         
         <!-- Main Content Grid -->
         <div class="relative z-10 min-h-screen grid grid-cols-1 lg:grid-cols-12 gap-6 p-4 lg:p-8">
@@ -1520,7 +1541,7 @@
             <div class="lg:col-span-3 space-y-6 order-3 lg:order-1">
                 <!-- YouTube Widget -->
                 <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">🎬 Latest YouTube</h3>
+                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">🎬 Latest YouTube</h3>
                     <div id="popular-videos" class="mb-6">
                         <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Popular</h4>
                         <div class="space-y-3">
@@ -1549,7 +1570,7 @@
                 
                 <!-- TikTok/Mixed Videos Widget -->
                 <div class="retro-card p-6 rounded-xl scan-line" id="tiktok-widget">
-                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">🎬 Short Videos</h3>
+                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">🎬 Short Videos</h3>
                     <div id="popular-shorts" class="mb-6">
                         <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Popular</h4>
                         <div class="space-y-3">
@@ -1582,7 +1603,7 @@
                 <!-- Hero Content -->
                 <div class="text-center py-12 lg:py-20">
                     <div class="logo-container mb-6">
-                        <img src="logo.png" alt="Mystery Quest" class="mx-auto max-w-full h-auto neon-glow" style="max-width: 150px;">
+                        <img src="logo.png" alt="Mystery Quest" class="mx-auto max-w-full h-auto filter drop-shadow-lg" style="max-width: 150px;">
                     </div>
                     <p class="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
                         Investigate the <span class="text-neon-cyan">unexplained</span>, explore the 
@@ -1592,7 +1613,7 @@
                     
                     <!-- Action Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <a href="directory/" class="bg-neon-gradient hover:scale-105 transform transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold text-dark-bg shadow-lg animate-glow-pulse">
+                        <a href="directory/" class="bg-neon-gradient hover:scale-102 transform transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold text-dark-bg shadow-lg animate-subtle-glow">
                             EXPLORE MYSTERIES
                         </a>
                         <a href="#latest-mysteries" class="border-2 border-neon-cyan hover:bg-neon-cyan hover:text-dark-bg transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold">
@@ -1620,7 +1641,7 @@
             <div class="lg:col-span-3 space-y-6 order-2 lg:order-3">
                 <!-- Featured YouTube Video -->
                 <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse text-center">
+                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow text-center">
                         � Featured Investigation
                     </h3>
                     <div class="aspect-video rounded-lg overflow-hidden border border-neon-cyan/30">
@@ -1637,7 +1658,7 @@
                 
                 <!-- Quick Stats -->
                 <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">
+                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">
                         📊 Investigation Stats
                     </h3>
                     <div class="space-y-4">
@@ -1662,7 +1683,7 @@
                 
                 <!-- Quick Actions -->
                 <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg neon-text mb-4 animate-glow-pulse">
+                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">
                         ⚡ Quick Actions
                     </h3>
                     <div class="space-y-3">
@@ -1687,7 +1708,7 @@
         <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <!-- Top Believed Mysteries -->
             <div class="retro-card p-8 rounded-2xl scan-line">
-                <h2 class="font-cyber text-2xl font-bold neon-text mb-6 text-center animate-glow-pulse">
+                <h2 class="font-cyber text-2xl font-bold neon-text mb-6 text-center">
                     🔮 Most Believed Mysteries
                 </h2>
                 <div id="topMysteries" class="space-y-4">
