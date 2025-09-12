@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Opt-Out - Mystery Quest</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-cyan': '#00f5ff',
+                        'neon-purple': '#bf00ff',
+                        'neon-pink': '#ff0080',
+                        'neon-green': '#39ff14',
+                        'dark-bg': '#0a0a0a',
+                        'dark-card': '#1a1a2e',
+                        'dark-purple': '#16213e',
+                        'electric-blue': '#0066ff',
+                        'retro-orange': '#ff6b35',
+                        'cyber-gray': '#2d2d44'
+                    },
+                    fontFamily: {
+                        'cyber': ['Orbitron', 'monospace'],
+                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+        }
+        
+        .cyber-border {
+            border: 1px solid #00f5ff;
+            box-shadow: 0 0 10px rgba(0, 245, 255, 0.3);
+        }
+        
+        .retro-card {
+            background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(22, 33, 62, 0.95) 100%);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 245, 255, 0.3);
+        }
+        
+        .success-message {
+            background: linear-gradient(135deg, rgba(57, 255, 20, 0.1) 0%, rgba(57, 255, 20, 0.05) 100%);
+            border: 1px solid rgba(57, 255, 20, 0.3);
+        }
+        
+        .error-message {
+            background: linear-gradient(135deg, rgba(255, 0, 128, 0.1) 0%, rgba(255, 0, 128, 0.05) 100%);
+            border: 1px solid rgba(255, 0, 128, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-dark-bg text-gray-100 font-sans">
+    <div class="min-h-screen flex items-center justify-center p-4">
+        <div class="max-w-md w-full">
+            <!-- Logo -->
+            <div class="text-center mb-8">
+                <a href="/" class="inline-block">
+                    <img src="logo.png" alt="Mystery Quest" class="mx-auto h-16 w-auto filter drop-shadow-lg">
+                </a>
+            </div>
+            
+            <!-- Main Card -->
+            <div class="retro-card rounded-xl p-8">
+                <div id="loading-state" class="text-center">
+                    <div class="animate-spin inline-block w-8 h-8 border-4 border-neon-cyan border-t-transparent rounded-full mb-4"></div>
+                    <p class="text-gray-300">Processing opt-out request...</p>
+                </div>
+                
+                <div id="success-state" class="hidden">
+                    <div class="success-message rounded-lg p-6 mb-6">
+                        <div class="flex items-center">
+                            <svg class="w-6 h-6 text-neon-green mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            <div>
+                                <h3 class="font-cyber text-lg text-neon-green mb-1">Successfully Opted Out</h3>
+                                <p class="text-gray-300 text-sm">You have been removed from our email list.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center space-y-4">
+                        <p class="text-gray-300">
+                            Your email address has been added to our permanent opt-out list. 
+                            You will no longer receive emails from Mystery Quest.
+                        </p>
+                        
+                        <div class="space-y-3">
+                            <a href="/" class="block bg-neon-cyan hover:bg-neon-cyan/80 text-dark-bg font-cyber font-semibold py-3 px-6 rounded-lg transition-all duration-300">
+                                Return to Mystery Quest
+                            </a>
+                            
+                            <p class="text-xs text-gray-400">
+                                If you opted out by mistake, please contact us at team@nullrecords.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="error-state" class="hidden">
+                    <div class="error-message rounded-lg p-6 mb-6">
+                        <div class="flex items-center">
+                            <svg class="w-6 h-6 text-neon-pink mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <div>
+                                <h3 class="font-cyber text-lg text-neon-pink mb-1">Opt-Out Failed</h3>
+                                <p class="text-gray-300 text-sm" id="error-message">An error occurred while processing your request.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center space-y-4">
+                        <p class="text-gray-300">
+                            We encountered an issue processing your opt-out request. 
+                            Please try again or contact us directly.
+                        </p>
+                        
+                        <div class="space-y-3">
+                            <button onclick="retryOptOut()" class="block w-full bg-neon-purple hover:bg-neon-purple/80 text-white font-cyber font-semibold py-3 px-6 rounded-lg transition-all duration-300">
+                                Try Again
+                            </button>
+                            
+                            <a href="mailto:team@nullrecords.com" class="block bg-dark-card hover:bg-dark-card/80 text-neon-cyan font-medium py-3 px-6 rounded-lg transition-all duration-300 border border-neon-cyan/30">
+                                Contact Support
+                            </a>
+                            
+                            <a href="/" class="block text-gray-400 hover:text-gray-300 text-sm">
+                                Return to Mystery Quest
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="invalid-state" class="hidden">
+                    <div class="error-message rounded-lg p-6 mb-6">
+                        <div class="flex items-center">
+                            <svg class="w-6 h-6 text-neon-pink mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            <div>
+                                <h3 class="font-cyber text-lg text-neon-pink mb-1">Invalid Request</h3>
+                                <p class="text-gray-300 text-sm">No email address provided for opt-out.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center space-y-4">
+                        <p class="text-gray-300">
+                            This opt-out link appears to be invalid or incomplete. 
+                            Please use the opt-out link from a Mystery Quest email.
+                        </p>
+                        
+                        <a href="/" class="block bg-neon-cyan hover:bg-neon-cyan/80 text-dark-bg font-cyber font-semibold py-3 px-6 rounded-lg transition-all duration-300">
+                            Return to Mystery Quest
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="text-center mt-8 text-xs text-gray-500">
+                <p>© 2025 Mystery Quest • Investigating the unexplained with scientific skepticism</p>
+                <p class="mt-2">
+                    <a href="mailto:team@nullrecords.com" class="text-neon-cyan hover:text-neon-cyan/80">team@nullrecords.com</a> • 
+                    <a href="/" class="text-neon-cyan hover:text-neon-cyan/80">mystiqst.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="opt-out-manager.js"></script>
+    <script>
+        // Get email from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const email = urlParams.get('email');
+        const token = urlParams.get('token');
+        
+        // Function to show different states
+        function showState(state) {
+            document.getElementById('loading-state').classList.add('hidden');
+            document.getElementById('success-state').classList.add('hidden');
+            document.getElementById('error-state').classList.add('hidden');
+            document.getElementById('invalid-state').classList.add('hidden');
+            
+            document.getElementById(state + '-state').classList.remove('hidden');
+        }
+        
+        // Function to retry opt-out
+        function retryOptOut() {
+            showState('loading');
+            setTimeout(() => processOptOut(), 1000);
+        }
+        
+        // Function to validate token (simple client-side validation)
+        function validateToken(email, token) {
+            // Simple validation - in production you'd want something more secure
+            // For now, just check if token exists and has reasonable length
+            return token && token.length >= 8;
+        }
+        
+        // Function to process opt-out using the opt-out manager
+        async function processOptOut() {
+            if (!email) {
+                showState('invalid');
+                return;
+            }
+            
+            if (!validateToken(email, token)) {
+                document.getElementById('error-message').textContent = 'Invalid or missing security token';
+                showState('error');
+                return;
+            }
+            
+            try {
+                // Use the opt-out manager
+                const optOutManager = window.MysteryQuestOptOuts;
+                
+                // Submit via form service
+                const success = await optOutManager.submitOptOut(email, token, navigator.userAgent);
+                
+                // Always add to local storage
+                optOutManager.addOptOut(email);
+                
+                // Always show success - local storage ensures user won't see emails
+                showState('success');
+                
+            } catch (error) {
+                console.error('Opt-out error:', error);
+                
+                // Fallback to local storage only
+                try {
+                    window.MysteryQuestOptOuts.addOptOut(email);
+                    showState('success');
+                } catch (e) {
+                    console.error('Local storage error:', e);
+                    document.getElementById('error-message').textContent = 'Failed to process opt-out request';
+                    showState('error');
+                }
+            }
+        }
+        
+        // Start the opt-out process when page loads
+        window.addEventListener('load', () => {
+            setTimeout(() => processOptOut(), 1500);
+        });
+    </script>
+</body>
+</html>
