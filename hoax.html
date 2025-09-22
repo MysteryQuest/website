@@ -338,6 +338,16 @@
                 const mystery = {};
                 headers.forEach((header, i) => {
                     mystery[header] = row[i] || '';
+                    
+                    // Clean display fields to prevent JSON leakage
+                    if (['name', 'description', 'location', 'event_type'].includes(header)) {
+                        const value = mystery[header];
+                        // Check if this looks like JSON and filter it out
+                        if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
+                            console.warn(`⚠️ Filtered JSON content from ${header}:`, value.substring(0, 50));
+                            mystery[header] = '';
+                        }
+                    }
                 });
                 mystery.id = index;
                 // Store the actual spreadsheet row index (offset by 2 for header and 1-based index)
