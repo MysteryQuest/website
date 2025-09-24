@@ -25,59 +25,120 @@ class NavigationManager {
                               window.location.pathname.split('/').length > 2);
         const logoPath = isSubdirectory ? '/logo.png' : 'logo.png';
         
-        return `
-        <!-- Shared Navigation Header -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container-fluid position-relative">
-                <!-- Large Badge-Style Logo -->
-                <a class="navbar-brand logo-badge" href="/">
-                    <div class="logo-container">
-                        <img src="${logoPath}" alt="Mystery Quest Logo" class="logo-image">
-                        <span class="brand-text">Mystery Quest</span>
-                    </div>
-                </a>
-                
-                <!-- Google Translate Element -->
-                <div id="google_translate_element" class="d-none d-lg-block me-3"></div>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/" data-page="home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/map.html#submitAMystery">Submit a Mystery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/map.html" data-page="map">Mystery Map</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/directory/" data-page="directory">Directory</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/hoax.html" data-page="hoax">Is it a Hoax?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link youtube-btn" href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style="vertical-align:middle;margin-right:6px;" viewBox="0 0 24 24">
-                                    <path fill="#fff" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                                </svg>
-                                YouTube Investigations
+        // Check if we're on the homepage (Tailwind) or other pages (Bootstrap)
+        const isHomepage = this.currentPage === 'home';
+        
+        if (isHomepage) {
+            // Tailwind version for homepage
+            return `
+            <nav class="fixed top-0 left-0 right-0 z-50 bg-dark-bg/95 backdrop-blur-sm border-b border-neon-cyan/20">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex justify-between items-center h-16">
+                        <!-- Logo -->
+                        <div class="flex items-center">
+                            <a href="/" class="flex items-center space-x-3">
+                                <img src="${logoPath}" alt="Mystery Quest Logo" class="h-10 w-10">
+                                <span class="text-neon-cyan text-xl font-orbitron font-bold">Mystery Quest</span>
                             </a>
-                        </li>
-                        <!-- Mobile Google Translate -->
-                        <li class="nav-item d-lg-none">
-                            <div id="google_translate_element_mobile" class="mt-2"></div>
-                        </li>
-                    </ul>
+                        </div>
+                        
+                        <!-- Desktop Navigation -->
+                        <div class="hidden md:flex items-center space-x-8">
+                            <a href="/" class="text-white hover:text-neon-cyan transition-colors duration-300">Home</a>
+                            <a href="/map.html#submitAMystery" class="text-white hover:text-neon-cyan transition-colors duration-300">Submit Mystery</a>
+                            <a href="/map.html" class="text-white hover:text-neon-cyan transition-colors duration-300">Mystery Map</a>
+                            <a href="/directory/" class="text-white hover:text-neon-cyan transition-colors duration-300">Directory</a>
+                            <a href="/hoax.html" class="text-white hover:text-neon-cyan transition-colors duration-300">Real or Hoax?</a>
+                            <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" 
+                               class="flex items-center space-x-2 bg-neon-cyan/10 hover:bg-neon-cyan/20 px-3 py-2 rounded-lg border border-neon-cyan/30 transition-all duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                                <span class="text-white">YouTube</span>
+                            </a>
+                        </div>
+                        
+                        <!-- Mobile menu button -->
+                        <div class="md:hidden">
+                            <button id="mobile-menu-button" class="text-white hover:text-neon-cyan">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Mobile Navigation -->
+                    <div id="mobile-menu" class="md:hidden hidden">
+                        <div class="px-2 pt-2 pb-3 space-y-1 bg-dark-bg/95 backdrop-blur-sm border-t border-neon-cyan/20">
+                            <a href="/" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Home</a>
+                            <a href="/map.html#submitAMystery" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Submit Mystery</a>
+                            <a href="/map.html" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Mystery Map</a>
+                            <a href="/directory/" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Directory</a>
+                            <a href="/hoax.html" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Real or Hoax?</a>
+                            <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" 
+                               class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">YouTube Investigations</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        `;
+            </nav>
+            `;
+        } else {
+            // Bootstrap version for other pages
+            return `
+            <!-- Shared Navigation Header -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid position-relative">
+                    <!-- Large Badge-Style Logo -->
+                    <a class="navbar-brand logo-badge" href="/">
+                        <div class="logo-container">
+                            <img src="${logoPath}" alt="Mystery Quest Logo" class="logo-image">
+                            <span class="brand-text">Mystery Quest</span>
+                        </div>
+                    </a>
+                    
+                    <!-- Google Translate Element -->
+                    <div id="google_translate_element" class="d-none d-lg-block me-3"></div>
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/" data-page="home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/map.html#submitAMystery">Submit a Mystery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/map.html" data-page="map">Mystery Map</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/directory/" data-page="directory">Directory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/hoax.html" data-page="hoax">Is it a Hoax?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link youtube-btn" href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style="vertical-align:middle;margin-right:6px;" viewBox="0 0 24 24">
+                                        <path fill="#fff" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0-9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                    </svg>
+                                    YouTube Investigations
+                                </a>
+                            </li>
+                            <!-- Mobile Google Translate -->
+                            <li class="nav-item d-lg-none">
+                                <div id="google_translate_element_mobile" class="mt-2"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            `;
+        }
     }
 
     getFooterHTML() {
@@ -157,6 +218,7 @@ class NavigationManager {
         this.initializeGoogleTranslate();
         this.adjustBodyPadding();
         this.addComponentStyles();
+        this.setupMobileMenu();
     }
 
     loadInlineComponents() {
@@ -489,6 +551,11 @@ class NavigationManager {
     }
 
     initializeGoogleTranslate() {
+        // Skip Google Translate for homepage (Tailwind version)
+        if (this.currentPage === 'home') {
+            return;
+        }
+        
         // Initialize Google Translate if not already loaded
         if (typeof google === 'undefined' || !google.translate) {
             this.loadGoogleTranslateScript();
@@ -536,6 +603,20 @@ class NavigationManager {
                 }
             }
         }, 500);
+    }
+
+    setupMobileMenu() {
+        // Add mobile menu functionality for Tailwind version
+        setTimeout(() => {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        }, 100);
     }
 
     // Utility method for pages to call when they need to refresh navigation

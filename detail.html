@@ -257,7 +257,7 @@
                             <p><strong>Verdict:</strong> <span class="badge ${event.verdict === 'Real' ? 'bg-success' : event.verdict === 'Hoax' ? 'bg-danger' : 'bg-secondary'}">${event.verdict || "Unknown"}</span></p>
                             <p><strong>Credibility Score:</strong> ${event.credibility_score ? event.credibility_score + '/10' : 'N/A'}</p>
                             <p><strong>Source Credibility:</strong> ${(enhancedData.source_credibility && typeof enhancedData.source_credibility === 'string' && !enhancedData.source_credibility.includes('{')) ? enhancedData.source_credibility : 'Unknown'}</p>
-                            <p><strong>Votes:</strong> ${event.votes || 0} 👍</p>
+                            <p><strong>Votes:</strong> ${(event.votes && typeof event.votes === 'string' && !event.votes.includes('{')) ? event.votes : (typeof event.votes === 'number' ? event.votes : 0)} 👍</p>
                         </div>
 
                         <div class="description-section mt-4">
