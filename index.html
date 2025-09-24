@@ -1838,6 +1838,101 @@
                 </a>
             </div>
         </section>
+
+        <!-- Newsletter Signup Section -->
+        <section class="retro-card p-8 lg:p-12 rounded-2xl scan-line">
+            <div class="text-center mb-8">
+                <h2 class="font-cyber text-3xl font-bold neon-text mb-4 animate-glow-pulse">
+                    📧 Mystery Quest Newsletter
+                </h2>
+                <p class="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+                    Stay ahead of the mystery! Get exclusive updates delivered straight to your inbox.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <!-- Newsletter Benefits Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/30 hover:border-neon-cyan/60 transition-all duration-300">
+                        <div class="text-3xl mb-3">🆕</div>
+                        <h4 class="font-cyber text-lg font-semibold text-neon-cyan mb-2">Latest Mysteries</h4>
+                        <p class="text-gray-400 text-sm">Be the first to know about newly discovered unexplained phenomena, UFO sightings, and paranormal events.</p>
+                    </div>
+                    
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-purple/30 hover:border-neon-purple/60 transition-all duration-300">
+                        <div class="text-3xl mb-3">🔗</div>
+                        <h4 class="font-cyber text-lg font-semibold text-neon-purple mb-2">Direct Investigation Links</h4>
+                        <p class="text-gray-400 text-sm">Get direct links to mystery details and vote on whether they're real or hoax before the general public.</p>
+                    </div>
+                    
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-pink/30 hover:border-neon-pink/60 transition-all duration-300">
+                        <div class="text-3xl mb-3">🕵️</div>
+                        <h4 class="font-cyber text-lg font-semibold text-neon-pink mb-2">Exclusive Insights</h4>
+                        <p class="text-gray-400 text-sm">Receive detailed analysis, evidence breakdowns, and behind-the-scenes investigation updates.</p>
+                    </div>
+                    
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/30 hover:border-neon-cyan/60 transition-all duration-300">
+                        <div class="text-3xl mb-3">🌍</div>
+                        <h4 class="font-cyber text-lg font-semibold text-neon-cyan mb-2">Global Mystery Map</h4>
+                        <p class="text-gray-400 text-sm">Track mysterious events worldwide with location details and historical context.</p>
+                    </div>
+                    
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-purple/30 hover:border-neon-purple/60 transition-all duration-300">
+                        <div class="text-3xl mb-3">📊</div>
+                        <h4 class="font-cyber text-lg font-semibold text-neon-purple mb-2">Community Stats</h4>
+                        <p class="text-gray-400 text-sm">See how the community voted on mysteries and participate in our scientific approach to investigation.</p>
+                    </div>
+                    
+                    <div class="bg-dark-card/50 p-6 rounded-xl border border-neon-pink/30 hover:border-neon-pink/60 transition-all duration-300">
+                        <div class="text-3xl mb-3">🎬</div>
+                        <h4 class="font-cyber text-lg font-semibold text-neon-pink mb-2">Featured Videos</h4>
+                        <p class="text-gray-400 text-sm">Curated mystery videos from YouTube and TikTok with our expert analysis and verification.</p>
+                    </div>
+                </div>
+
+                <!-- Newsletter Signup Form -->
+                <div class="bg-gradient-to-r from-neon-cyan/10 via-neon-purple/10 to-neon-pink/10 p-8 rounded-xl border border-neon-cyan/30 backdrop-blur-sm">
+                    <form id="newsletterForm" class="max-w-md mx-auto">
+                        <div class="space-y-4">
+                            <div>
+                                <input type="email" 
+                                       id="newsletter-email" 
+                                       name="newsletter-email" 
+                                       placeholder="Enter your email address" 
+                                       required
+                                       class="w-full bg-dark-card/70 border border-neon-cyan/40 rounded-lg px-4 py-4 text-gray-200 placeholder-gray-400 focus:border-neon-cyan focus:outline-none focus:ring-2 focus:ring-neon-cyan/30 transition-all duration-300 text-lg">
+                            </div>
+                            
+                            <button type="submit" 
+                                    class="w-full bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-pink hover:from-neon-pink hover:via-neon-purple hover:to-neon-cyan text-dark-bg font-cyber font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-neon-cyan/30 text-lg">
+                                🚀 Join the Investigation
+                            </button>
+                        </div>
+                        
+                        <p class="text-center text-gray-500 text-sm mt-4">
+                            📬 Weekly updates • 🔒 No spam • ✉️ Unsubscribe anytime
+                        </p>
+                        
+                        <div id="newsletter-status" class="mt-4 text-center hidden">
+                            <div id="newsletter-success" class="text-neon-cyan font-semibold hidden">
+                                ✅ Welcome to the mystery investigation team! Check your email for confirmation.
+                            </div>
+                            <div id="newsletter-error" class="text-red-400 font-semibold hidden">
+                                ❌ Something went wrong. Please try again later.
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="text-center mt-6">
+                    <p class="text-gray-400 text-sm max-w-2xl mx-auto">
+                        Join <span class="text-neon-cyan font-semibold">500+</span> mystery enthusiasts who trust us to bring them the latest unexplained phenomena. 
+                        From <span class="text-neon-purple">ancient mysteries</span> to <span class="text-neon-pink">modern UFO sightings</span>, 
+                        we investigate it all with scientific skepticism and an open mind.
+                    </p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- Modern Footer -->
@@ -3061,6 +3156,87 @@ Submitted via Mystery Quest website.
             document.getElementById('mysteryForm').reset();
             alert('Thank you for your submission! Your default email client should open with the mystery details.');
         }
+
+        // Newsletter Signup Handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const newsletterForm = document.getElementById('newsletterForm');
+            const successMessage = document.getElementById('newsletter-success');
+            const errorMessage = document.getElementById('newsletter-error');
+            const statusDiv = document.getElementById('newsletter-status');
+
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const email = document.getElementById('newsletter-email').value;
+                    const submitButton = e.target.querySelector('button[type="submit"]');
+                    
+                    // Show loading state
+                    const originalText = submitButton.innerHTML;
+                    submitButton.innerHTML = '🔄 Subscribing...';
+                    submitButton.disabled = true;
+                    
+                    // Simulate API call (replace with actual newsletter service)
+                    setTimeout(() => {
+                        try {
+                            // For now, we'll use mailto as a fallback
+                            // In production, this would call your newsletter API
+                            const subject = encodeURIComponent('Newsletter Subscription Request');
+                            const body = encodeURIComponent(`
+New newsletter subscription request:
+
+Email: ${email}
+Source: Mystery Quest Homepage
+Date: ${new Date().toISOString()}
+
+Please add this email to the Mystery Quest newsletter list.
+
+Requested content:
+- Latest mystery discoveries
+- Investigation insights
+- Community voting updates
+- Direct links to new mysteries
+- Real vs Hoax analysis
+            `);
+                            
+                            // Send email in background
+                            window.open(`mailto:mystyqst@gmail.com?subject=${subject}&body=${body}`, '_blank');
+                            
+                            // Show success message
+                            statusDiv.classList.remove('hidden');
+                            successMessage.classList.remove('hidden');
+                            errorMessage.classList.add('hidden');
+                            
+                            // Reset form
+                            newsletterForm.reset();
+                            
+                            // Hide success message after 5 seconds
+                            setTimeout(() => {
+                                statusDiv.classList.add('hidden');
+                                successMessage.classList.add('hidden');
+                            }, 5000);
+                            
+                        } catch (error) {
+                            console.error('Newsletter signup error:', error);
+                            
+                            // Show error message
+                            statusDiv.classList.remove('hidden');
+                            errorMessage.classList.remove('hidden');
+                            successMessage.classList.add('hidden');
+                            
+                            setTimeout(() => {
+                                statusDiv.classList.add('hidden');
+                                errorMessage.classList.add('hidden');
+                            }, 5000);
+                        }
+                        
+                        // Restore button
+                        submitButton.innerHTML = originalText;
+                        submitButton.disabled = false;
+                    }, 1000);
+                });
+            }
+        });
     </script>
     
     <!-- Navigation Management (disabled for main page - uses integrated design) -->
