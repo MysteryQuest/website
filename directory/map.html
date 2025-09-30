@@ -418,6 +418,9 @@
         const SHEET_NAME = 'Sheet1';
         let map;
 
+        // Parse CSV data into array of objects
+
+
         async function fetchEvents(filters = {}) {
             const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
             const response = await fetch(url);
@@ -435,19 +438,19 @@
                     return event;
                 });
 
-                // Apply filters
-                if (filters.eventType) {
-                    events = events.filter(event => event.event_type === filters.eventType);
-                }
-                if (filters.startDate) {
-                    events = events.filter(event => new Date(event.date) >= new Date(filters.startDate));
-                }
-                if (filters.endDate) {
-                    events = events.filter(event => new Date(event.date) <= new Date(filters.endDate));
-                }
+            // Apply filters
+            if (filters.eventType) {
+                events = events.filter(event => event.event_type === filters.eventType);
+            }
+            if (filters.startDate) {
+                events = events.filter(event => new Date(event.date) >= new Date(filters.startDate));
+            }
+            if (filters.endDate) {
+                events = events.filter(event => new Date(event.date) <= new Date(filters.endDate));
+            }
 
-                populateFilters(events);
-                updateMap(events);
+            populateFilters(events);
+            updateMap(events);
                 updateTable(events);
             }
         }

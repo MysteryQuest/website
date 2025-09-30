@@ -534,32 +534,38 @@
         let pageSize = 20;
         let markers = [];
 
+
+
         async function fetchEvents(filters = {}) {
             try {
                 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
                 const response = await fetch(url);
+                if (!response.ok) throw new Error('Failed to fetch data');
+                
                 const data = await response.json();
 
                 if (data.values && data.values.length > 1) {
                     const headers = data.values[0];
                     const rows = data.values.slice(1);
 
-                    allEvents = rows.map((row, index) => {
+                    let events = rows.map((row, index) => {
                         const event = { id: index };
                         headers.forEach((header, i) => {
                             event[header] = row[i] || '';
-                            
-                            // Clean display fields to prevent JSON leakage
-                            if (['name', 'description', 'location', 'event_type'].includes(header)) {
-                                const value = event[header];
+                        });
+                        
+                        // Clean display fields to prevent JSON leakage
+                        Object.keys(cleanEvent).forEach(key => {
+                            if (['name', 'description', 'location', 'event_type'].includes(key.toLowerCase())) {
+                                const value = cleanEvent[key];
                                 // Check if this looks like JSON and filter it out
                                 if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
-                                    console.warn(`⚠️ Filtered JSON content from ${header}:`, value.substring(0, 50));
-                                    event[header] = '';
+                                    console.warn(`⚠️ Filtered JSON content from ${key}:`, value.substring(0, 50));
+                                    cleanEvent[key] = '';
                                 }
                             }
                         });
-                        return event;
+                        return cleanEvent;
                     });
 
                     // Apply filters

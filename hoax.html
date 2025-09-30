@@ -323,33 +323,40 @@
         let mysteries = [];
         let mysteryMaps = [];
 
+
+
         async function fetchMysteries() {
-            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+            try {
+            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${GOOGLE_SHEETS_API_KEY}`;
             const response = await fetch(url);
+            if (!response.ok) throw new Error('Failed to fetch data');
+            
             const data = await response.json();
 
             if (data.values && data.values.length > 1) {
-            const headers = data.values[0];
-            const rows = data.values.slice(1);
-
-            // First map rows with their original spreadsheet indices
-            mysteries = rows
-                .map((row, index) => {
-                const mystery = {};
-                headers.forEach((header, i) => {
-                    mystery[header] = row[i] || '';
-                    
-                    // Clean display fields to prevent JSON leakage
-                    if (['name', 'description', 'location', 'event_type'].includes(header)) {
-                        const value = mystery[header];
-                        // Check if this looks like JSON and filter it out
-                        if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
-                            console.warn(`⚠️ Filtered JSON content from ${header}:`, value.substring(0, 50));
-                            mystery[header] = '';
-                        }
-                    }
-                });
-                mystery.id = index;
+                const headers = data.values[0];
+                const rows = data.values.slice(1);
+                
+                // First map rows with their original spreadsheet indices
+                mysteries = rows
+                    .map((row, index) => {
+                        const mystery = {};
+                        headers.forEach((header, i) => {
+                            mystery[header] = row[i] || '';
+                        });
+                        
+                        // Clean display fields to prevent JSON leakage
+                        Object.keys(mystery).forEach(key => {
+                            if (['name', 'description', 'location', 'event_type'].includes(key.toLowerCase())) {
+                                const value = mystery[key];
+                                // Check if this looks like JSON and filter it out
+                                if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
+                                    console.warn(`⚠️ Filtered JSON content from ${key}:`, value.substring(0, 50));
+                                    mystery[key] = '';
+                                }
+                            }
+                        });
+                        mystery.id = index;
                 // Store the actual spreadsheet row index (offset by 2 for header and 1-based index)
                 mystery.spreadsheetRowIndex = index + 2;
                 // Map spreadsheet columns to JS property names

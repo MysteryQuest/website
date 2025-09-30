@@ -80,40 +80,31 @@
         const SHEET_NAME = 'Sheet1';
         let map;
 
+
+
         async function fetchEventDetails(eventName) {
             try {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${GOOGLE_SHEETS_API_KEY}`;
                 const response = await fetch(url);
                 const data = await response.json();
-
+                
                 if (data.values && data.values.length > 1) {
                     const headers = data.values[0];
                     const rows = data.values.slice(1);
-
-                    const event = rows.find(row => row[headers.indexOf('name')] === eventName);
-                    if (event) {
-                        const eventDetails = {};
-                        headers.forEach((header, i) => {
-                            eventDetails[header] = event[i] || '';
-                        });
-
-                        displayEventDetails(eventDetails);
-                        updateMap(eventDetails);
-                        return eventDetails;
-                    } else {
-                        alert('Event not found.');
-                        return null;
+                    
+                    const eventData = rows.find(row => {
+                        const nameIndex = headers.indexOf('name');
+                        return nameIndex !== -1 && row[nameIndex] && row[nameIndex].toLowerCase() === eventName.toLowerCase();
+                    });
+                    
+                    if (!eventData) {
+                        throw new Error('Event not found');
                     }
-                } else {
-                    alert('No data found.');
-                    return null;
-                }
-            } catch (error) {
-                console.error('Error fetching event details:', error);
-                alert('Error loading event details.');
-                return null;
-            }
-        }
+                    
+                    const event = {};
+                    headers.forEach((header, i) => {
+                        event[header] = eventData[i] || '';
+                    });
 
         function displayEventDetails(event) {
             // Parse enhanced metadata if available
