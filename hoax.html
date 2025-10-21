@@ -327,7 +327,7 @@
 
         async function fetchMysteries() {
             try {
-            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${GOOGLE_SHEETS_API_KEY}`;
+            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
             const response = await fetch(url);
             if (!response.ok) throw new Error('Failed to fetch data');
             
