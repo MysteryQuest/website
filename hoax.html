@@ -347,7 +347,7 @@
                         
                         // Clean display fields to prevent JSON leakage
                         Object.keys(mystery).forEach(key => {
-                            if (['name', 'description', 'location', 'event_type'].includes(key.toLowerCase())) {
+                            if (['name', 'description', 'location', 'event_type', 'votes'].includes(key.toLowerCase())) {
                                 const value = mystery[key];
                                 // Check if this looks like JSON and filter it out
                                 if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
@@ -364,7 +364,18 @@
                 mystery.hoaxVotes = parseInt(mystery.hoax || '0');
                 return mystery;
                 })
-                .filter(mystery => mystery.image_url && mystery.image_url.trim() !== '' && mystery.real_or_hoax == 'True');
+                .filter(mystery => {
+                    // Filter for hoax entries (real_or_hoax == 'False' or hoax field indicates hoax)
+                    const isHoax = mystery.real_or_hoax === 'False' || 
+                                  mystery.hoax === 'true' || 
+                                  mystery.hoax === '1' ||
+                                  (mystery.verdict && mystery.verdict.toLowerCase().includes('hoax'));
+                    
+                    // Also require valid image
+                    const hasImage = mystery.image_url && mystery.image_url.trim() !== '';
+                    
+                    return hasImage && isHoax;
+                });
 
             // Shuffle the mysteries array after mapping
             for (let i = mysteries.length - 1; i > 0; i--) {

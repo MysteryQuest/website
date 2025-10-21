@@ -555,18 +555,21 @@
                         });
                         
                         // Clean display fields to prevent JSON leakage
-                        Object.keys(cleanEvent).forEach(key => {
-                            if (['name', 'description', 'location', 'event_type'].includes(key.toLowerCase())) {
-                                const value = cleanEvent[key];
+                        Object.keys(event).forEach(key => {
+                            if (['name', 'description', 'location', 'event_type', 'votes'].includes(key.toLowerCase())) {
+                                const value = event[key];
                                 // Check if this looks like JSON and filter it out
                                 if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
                                     console.warn(`⚠️ Filtered JSON content from ${key}:`, value.substring(0, 50));
-                                    cleanEvent[key] = '';
+                                    event[key] = '';
                                 }
                             }
                         });
-                        return cleanEvent;
+                        return event;
                     });
+
+                    // Store all events for filtering
+                    allEvents = events;
 
                     // Apply filters
                     filteredEvents = [...allEvents];
