@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the latest unexplained mysteries, UFO sightings, paranormal phenomena, and historical enigmas. Join Mystery Quest's community of truth-seekers investigating ancient myths and modern mysteries with scientific skepticism.">
-    <meta name="keywords" content="Mystery Quest, MystiQst, UFO sightings, paranormal investigation, unexplained phenomena, ancient mysteries, Bigfoot, cryptid sightings, ghost investigations, historical mysteries, conspiracy theories, real or hoax">
+    <meta name="description" content="Scientific investigation of unexplained phenomena using evidence-based research methods. Academic analysis of UFO reports, paranormal claims, and historical mysteries with AI-assisted research collaboration.">
+    <meta name="keywords" content="Mystery Quest, scientific investigation, evidence-based research, UFO analysis, paranormal research, unexplained phenomena, academic study, AI research collaboration, mystery analysis, fact-checking, scientific skepticism">
     <meta name="author" content="Mystery Quest Team">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
     
     <!-- Enhanced Title for AI Search -->
-    <title>Mystery Quest - Investigate UFOs, Paranormal & Unexplained Phenomena | Latest Mysteries 2025</title>
+    <title>Mystery Quest - Scientific Investigation of Unexplained Phenomena | Evidence-Based Research 2025</title>
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://mysteryquest.info/" />
@@ -77,32 +77,29 @@
             theme: {
                 extend: {
                     colors: {
-                        'neon-cyan': '#00f5ff',
-                        'neon-purple': '#bf00ff',
-                        'neon-pink': '#ff0080',
-                        'neon-green': '#39ff14',
-                        'dark-bg': '#0a0a0a',
-                        'dark-card': '#1a1a2e',
-                        'dark-purple': '#16213e',
-                        'electric-blue': '#0066ff',
-                        'retro-orange': '#ff6b35',
-                        'cyber-gray': '#2d2d44'
+                        'primary-blue': '#1e40af',
+                        'primary-navy': '#1e3a8a',
+                        'accent-teal': '#0d9488',
+                        'science-gray': '#374151',
+                        'research-blue': '#3730a3',
+                        'dark-bg': '#111827',
+                        'card-bg': '#f9fafb',
+                        'card-border': '#e5e7eb',
+                        'text-primary': '#1f2937',
+                        'text-secondary': '#6b7280'
                     },
                     fontFamily: {
-                        'cyber': ['Orbitron', 'monospace'],
-                        'sans': ['Inter', 'system-ui', 'sans-serif']
+                        'academic': ['Georgia', 'Times New Roman', 'serif'],
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'mono': ['JetBrains Mono', 'Consolas', 'monospace']
                     },
                     animation: {
-                        'glow-pulse': 'glowPulse 4s ease-in-out infinite alternate',
-                        'neon-flicker': 'neonFlicker 2s ease-in-out infinite alternate',
-                        'cyber-scan': 'cyberScan 8s linear infinite',
-                        'float': 'float 8s ease-in-out infinite',
-                        'subtle-glow': 'subtleGlow 3s ease-in-out infinite alternate'
+                        'fade-in': 'fadeIn 0.6s ease-out',
+                        'slide-up': 'slideUp 0.8s ease-out'
                     },
                     backgroundImage: {
-                        'cyber-grid': 'linear-gradient(rgba(0,245,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,245,255,0.1) 1px, transparent 1px)',
-                        'neon-gradient': 'linear-gradient(45deg, #00f5ff, #bf00ff, #ff0080)',
-                        'retro-gradient': 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)'
+                        'subtle-grid': 'linear-gradient(rgba(31,41,55,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(31,41,55,0.05) 1px, transparent 1px)',
+                        'professional-gradient': 'linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%)'
                     }
                 }
             }
@@ -114,40 +111,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     
-    <!-- Custom CSS for Enhanced Retro Effects -->
+    <!-- Professional Academic Styling -->
     <style>
-        @keyframes glowPulse {
-            from { box-shadow: 0 0 3px currentColor, 0 0 6px currentColor, 0 0 9px currentColor; }
-            to { box-shadow: 0 0 6px currentColor, 0 0 12px currentColor, 0 0 18px currentColor; }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         
-        @keyframes subtleGlow {
-            from { box-shadow: 0 0 2px currentColor, 0 0 4px currentColor; }
-            to { box-shadow: 0 0 4px currentColor, 0 0 8px currentColor; }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
         
-        @keyframes neonFlicker {
-            0%, 90%, 100% { opacity: 1; }
-            95% { opacity: 0.8; }
+        .academic-text {
+            color: #1f2937;
+            font-weight: 500;
         }
         
-        @keyframes cyberScan {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100vw); }
-        }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-        }
-        
-        .neon-text {
-            color: #00f5ff;
-            text-shadow: 0 0 5px #00f5ff, 0 0 10px #00f5ff, 0 0 15px rgba(0, 245, 255, 0.5);
-        }
-        
-        .subtle-neon {
-            color: #00bcd4;
+        .research-highlight {
+            color: #1e40af;
             text-shadow: 0 0 3px #00bcd4, 0 0 6px rgba(0, 188, 212, 0.3);
         }
         
@@ -157,32 +139,21 @@
         }
         
         .retro-card {
-            background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(22, 33, 62, 0.95) 100%);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(0, 245, 255, 0.3);
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
         }
         
-        .cyber-grid {
+        .subtle-grid {
             background-image: 
-                linear-gradient(rgba(0,245,255,0.1) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0,245,255,0.1) 1px, transparent 1px);
+                linear-gradient(rgba(31,41,55,0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(31,41,55,0.05) 1px, transparent 1px);
             background-size: 50px 50px;
         }
         
         .scan-line {
             position: relative;
-            overflow: hidden;
-        }
-        
-        .scan-line::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(0, 245, 255, 0.1), transparent);
-            animation: cyberScan 8s linear infinite;
+            /* Removed flashy scanning animation */
         }
     </style>
     
@@ -892,22 +863,22 @@
             font-size: 0.9rem;
         }
 
-        /* Recent Mystery Cards */
+        /* Professional Research Cards */
         .recent-mystery-card {
-            background: linear-gradient(135deg, rgba(25, 25, 35, 0.95) 0%, rgba(35, 35, 45, 0.95) 100%);
-            border: 1px solid rgba(0, 255, 255, 0.2);
-            border-radius: 15px;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
             padding: 0;
             height: 100%;
             overflow: hidden;
-            transition: all 0.4s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .recent-mystery-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 8px 30px rgba(0, 255, 255, 0.2);
-            border-color: rgba(0, 255, 255, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(30, 64, 175, 0.15);
+            border-color: #3b82f6;
         }
 
         .recent-mystery-image {
@@ -1144,9 +1115,9 @@
         }
 
         .latest-mystery-card {
-            background: rgba(20, 20, 20, 0.8);
-            border: 1px solid rgba(0, 255, 255, 0.2);
-            border-radius: 12px;
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
             padding: 15px;
             transition: all 0.3s ease;
             cursor: pointer;
@@ -1155,10 +1126,10 @@
         }
 
         .latest-mystery-card:hover {
-            background: rgba(40, 40, 40, 0.8);
-            border-color: rgba(0, 255, 255, 0.4);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+            background: #f9fafb;
+            border-color: #3b82f6;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(30, 64, 175, 0.1);
         }
 
         .latest-mystery-thumbnail {
@@ -1511,21 +1482,18 @@
             }, 'google_translate_element');
         }
     </script>
-<body class="bg-dark-bg text-gray-100 font-sans overflow-x-hidden">
-    <!-- Cyber Grid Background -->
-    <div class="fixed inset-0 cyber-grid opacity-10 pointer-events-none"></div>
-    
-    <!-- Scanning Line Effect -->
-    <div class="fixed top-0 left-0 w-1 h-full bg-neon-cyan opacity-15 scan-line pointer-events-none"></div>
+<body class="bg-white text-text-primary font-sans overflow-x-hidden">
+    <!-- Professional Grid Background -->
+    <div class="fixed inset-0 subtle-grid opacity-30 pointer-events-none"></div>
     
     <!-- Dynamic Header -->
     <div id="dynamic-header"></div>
 
-    <!-- Modern Hero Section with Cyber Aesthetic -->
-    <div class="relative min-h-screen bg-gradient-to-br from-dark-bg via-dark-purple to-cyber-gray overflow-hidden">
+    <!-- Professional Hero Section -->
+    <div class="relative min-h-screen bg-professional-gradient overflow-hidden">
         <!-- Google Translate - Positioned in top-right -->
         <div class="absolute top-4 right-4 z-20">
-            <div id="google_translate_element" class="bg-dark-card/80 backdrop-blur-sm rounded-lg p-2 border border-neon-cyan/20"></div>
+            <div id="google_translate_element" class="bg-white/90 backdrop-blur-sm rounded-lg p-2 border border-card-border shadow-sm"></div>
         </div>
         
         <!-- Hero Background with Parallax Effect -->
@@ -1539,15 +1507,15 @@
             
             <!-- Left Sidebar: Social Media Widgets -->
             <div class="lg:col-span-3 space-y-6 order-3 lg:order-1 lg:pt-10">
-                <!-- YouTube Widget -->
-                <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">🎬 Latest YouTube</h3>
+                <!-- Research Videos Widget -->
+                <div class="bg-card-bg p-6 rounded-lg border border-card-border shadow-sm">
+                    <h3 class="text-lg font-semibold text-text-primary mb-4">📊 Research Videos</h3>
                     <div id="popular-videos" class="mb-6">
-                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Popular</h4>
+                        <h4 class="text-sm text-primary-blue mb-3 font-medium">Most Analyzed</h4>
                         <div class="space-y-3">
-                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
-                                <span class="text-gray-200 text-sm block mb-1">Loading popular videos...</span>
-                                <div class="flex justify-between text-xs text-gray-400">
+                            <div class="bg-white p-3 rounded border border-gray-200 hover:border-primary-blue transition-all duration-300">
+                                <span class="text-text-primary text-sm block mb-1">Loading research videos...</span>
+                                <div class="flex justify-between text-xs text-text-secondary">
                                     <span>-</span>
                                     <span>-</span>
                                 </div>
@@ -1555,10 +1523,10 @@
                         </div>
                     </div>
                     <div id="recent-videos">
-                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Recent</h4>
+                        <h4 class="text-sm text-primary-blue mb-3 font-medium">Latest Studies</h4>
                         <div class="space-y-3">
-                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
-                                <span class="text-gray-200 text-sm block mb-1">Loading recent videos...</span>
+                            <div class="bg-white p-3 rounded border border-gray-200 hover:border-primary-blue transition-all duration-300">
+                                <span class="text-text-primary text-sm block mb-1">Loading recent studies...</span>
                                 <div class="flex justify-between text-xs text-gray-400">
                                     <span>-</span>
                                     <span>-</span>
@@ -1568,15 +1536,15 @@
                     </div>
                 </div>
                 
-                <!-- TikTok/Mixed Videos Widget -->
-                <div class="retro-card p-6 rounded-xl scan-line" id="tiktok-widget">
-                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">🎬 Short Videos</h3>
+                <!-- Research Summaries Widget -->
+                <div class="bg-card-bg p-6 rounded-lg border border-card-border shadow-sm" id="tiktok-widget">
+                    <h3 class="text-lg font-semibold text-text-primary mb-4">📋 Quick Analysis</h3>
                     <div id="popular-shorts" class="mb-6">
-                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Popular</h4>
+                        <h4 class="text-sm text-primary-blue mb-3 font-medium">Trending Analysis</h4>
                         <div class="space-y-3">
-                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
-                                <span class="text-gray-200 text-sm block mb-1">Loading mystery shorts...</span>
-                                <div class="flex justify-between text-xs text-gray-400">
+                            <div class="bg-white p-3 rounded border border-gray-200 hover:border-primary-blue transition-all duration-300">
+                                <span class="text-text-primary text-sm block mb-1">Loading analysis summaries...</span>
+                                <div class="flex justify-between text-xs text-text-secondary">
                                     <span>-</span>
                                     <span>-</span>
                                 </div>
@@ -1584,11 +1552,11 @@
                         </div>
                     </div>
                     <div id="recent-shorts">
-                        <h4 class="text-sm text-neon-cyan mb-3 font-medium">Most Recent</h4>
+                        <h4 class="text-sm text-primary-blue mb-3 font-medium">Recent Reports</h4>
                         <div class="space-y-3">
-                            <div class="bg-dark-card/50 p-3 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300">
-                                <span class="text-gray-200 text-sm block mb-1">Loading recent shorts...</span>
-                                <div class="flex justify-between text-xs text-gray-400">
+                            <div class="bg-white p-3 rounded border border-gray-200 hover:border-primary-blue transition-all duration-300">
+                                <span class="text-text-primary text-sm block mb-1">Loading recent reports...</span>
+                                <div class="flex justify-between text-xs text-text-secondary">
                                     <span>-</span>
                                     <span>-</span>
                                 </div>
@@ -1605,33 +1573,33 @@
                     <div class="logo-container mb-6">
                         <img src="logo.png" alt="Mystery Quest" class="mx-auto max-w-full h-auto filter drop-shadow-lg" style="max-width: 150px;">
                     </div>
-                    <p class="text-lg lg:text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-                        Investigate the <span class="text-neon-cyan">unexplained</span>, explore the 
-                        <span class="text-neon-purple">paranormal</span>, and uncover the 
-                        <span class="text-neon-pink">truth</span> behind history's greatest mysteries.
+                    <p class="text-lg lg:text-xl text-text-secondary mb-8 max-w-2xl mx-auto leading-relaxed font-academic">
+                        A scientific approach to investigating <span class="text-primary-blue font-semibold">unexplained phenomena</span>, 
+                        analyzing <span class="text-research-blue font-semibold">paranormal claims</span>, and applying 
+                        <span class="text-accent-teal font-semibold">evidence-based research</span> to history's greatest mysteries.
                     </p>
                     
                     <!-- Action Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <a href="directory/" class="bg-neon-gradient hover:scale-102 transform transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold text-dark-bg shadow-lg animate-subtle-glow">
-                            EXPLORE MYSTERIES
+                        <a href="directory/" class="bg-primary-blue hover:bg-primary-navy transition-all duration-300 px-8 py-4 rounded-lg font-semibold text-white shadow-lg">
+                            EXPLORE RESEARCH DATABASE
                         </a>
-                        <a href="#latest-mysteries" class="border-2 border-neon-cyan hover:bg-neon-cyan hover:text-dark-bg transition-all duration-300 px-8 py-4 rounded-full font-cyber font-semibold">
-                            LATEST DISCOVERIES
+                        <a href="#latest-mysteries" class="border-2 border-accent-teal hover:bg-accent-teal hover:text-white transition-all duration-300 px-8 py-4 rounded-lg font-semibold text-accent-teal">
+                            LATEST INVESTIGATIONS
                         </a>
                     </div>
                 </div>
                 
-                <!-- Latest Mysteries Section -->
-                <div id="latest-mysteries" class="retro-card p-8 rounded-2xl scan-line">
-                    <h2 class="font-cyber text-2xl lg:text-3xl font-bold neon-text mb-6 text-center">
-                        🔍 Latest Mysteries
+                <!-- Latest Research Section -->
+                <div id="latest-mysteries" class="bg-card-bg p-8 rounded-lg border border-card-border shadow-sm">
+                    <h2 class="text-2xl lg:text-3xl font-bold text-text-primary mb-6 text-center font-academic">
+                        � Recent Investigations
                     </h2>
                     <div id="recentMysteries" class="space-y-6">
-                        <div class="animate-pulse bg-dark-card/50 p-6 rounded-xl border border-neon-cyan/20">
-                            <div class="h-4 bg-neon-cyan/20 rounded mb-4"></div>
-                            <div class="h-3 bg-gray-600 rounded mb-2"></div>
-                            <div class="h-3 bg-gray-600 rounded w-3/4"></div>
+                        <div class="animate-pulse bg-white p-6 rounded border border-gray-200">
+                            <div class="h-4 bg-gray-200 rounded mb-4"></div>
+                            <div class="h-3 bg-gray-200 rounded mb-2"></div>
+                            <div class="h-3 bg-gray-200 rounded w-3/4"></div>
                         </div>
                     </div>
                 </div>
@@ -1639,12 +1607,12 @@
             
             <!-- Right Column: Featured Content -->
             <div class="lg:col-span-3 space-y-6 order-2 lg:order-3 lg:pt-10">
-                <!-- Featured YouTube Video -->
-                <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow text-center">
-                        � Featured Investigation
+                <!-- Featured Research Video -->
+                <div class="bg-white/5 p-6 rounded-xl border border-blue-200/20 shadow-lg backdrop-blur-sm">
+                    <h3 class="font-serif text-lg text-blue-100 mb-4 text-center">
+                        🎬 Featured Investigation
                     </h3>
-                    <div class="aspect-video rounded-lg overflow-hidden border border-neon-cyan/30">
+                    <div class="aspect-video rounded-lg overflow-hidden border border-blue-300/30">
                         <iframe src="https://www.youtube.com/embed/videoseries?si=AXHdwVfOhHKgSK6s&amp;list=PLayy6eIpKwRXL235_ArLkEbLgeg_aJGMy" 
                                 title="Mystery Quest YouTube Investigations" 
                                 class="w-full h-full"
@@ -1656,45 +1624,45 @@
                     </div>
                 </div>
                 
-                <!-- Quick Stats -->
-                <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">
-                        📊 Investigation Stats
+                <!-- Research Statistics -->
+                <div class="bg-white/5 p-6 rounded-xl border border-blue-200/20 shadow-lg backdrop-blur-sm">
+                    <h3 class="font-serif text-lg text-blue-100 mb-4 flex items-center">
+                        📊 Research Overview
                     </h3>
                     <div class="space-y-4">
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-300">Active Cases</span>
-                            <span class="text-neon-cyan font-cyber">847</span>
+                            <span class="text-blue-200/80">Active Investigations</span>
+                            <span class="text-blue-300 font-semibold">847</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-300">Verified Sources</span>
-                            <span class="text-neon-green font-cyber">1,234</span>
+                            <span class="text-blue-200/80">Verified Sources</span>
+                            <span class="text-emerald-400 font-semibold">1,234</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-300">Community Votes</span>
-                            <span class="text-neon-purple font-cyber">5,678</span>
+                            <span class="text-blue-200/80">Community Assessments</span>
+                            <span class="text-teal-400 font-semibold">5,678</span>
                         </div>
                         <div class="flex justify-between items-center">
-                            <span class="text-gray-300">Credibility Score</span>
-                            <span class="text-neon-pink font-cyber">92.3%</span>
+                            <span class="text-blue-200/80">Average Credibility</span>
+                            <span class="text-yellow-400 font-semibold">92.3%</span>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Quick Actions -->
-                <div class="retro-card p-6 rounded-xl scan-line">
-                    <h3 class="font-cyber text-lg subtle-neon mb-4 animate-subtle-glow">
-                        ⚡ Quick Actions
+                <!-- Research Tools -->
+                <div class="bg-white/5 p-6 rounded-xl border border-blue-200/20 shadow-lg backdrop-blur-sm">
+                    <h3 class="font-serif text-lg text-blue-100 mb-4 flex items-center">
+                        🔬 Research Tools
                     </h3>
                     <div class="space-y-3">
-                        <a href="hoax.html" class="block w-full bg-dark-card/50 hover:bg-neon-cyan/20 border border-neon-cyan/30 hover:border-neon-cyan transition-all duration-300 p-3 rounded-lg text-center font-medium">
-                            🕵️ Is it a Hoax?
+                        <a href="hoax.html" class="block w-full bg-blue-600/20 hover:bg-blue-600/40 border border-blue-400/30 hover:border-blue-400/60 transition-all duration-300 p-3 rounded-lg text-center font-medium text-blue-100">
+                            � Authenticity Analysis
                         </a>
-                        <a href="map.html" class="block w-full bg-dark-card/50 hover:bg-neon-purple/20 border border-neon-purple/30 hover:border-neon-purple transition-all duration-300 p-3 rounded-lg text-center font-medium">
-                            🗺️ Mystery Map
+                        <a href="map.html" class="block w-full bg-teal-600/20 hover:bg-teal-600/40 border border-teal-400/30 hover:border-teal-400/60 transition-all duration-300 p-3 rounded-lg text-center font-medium text-teal-100">
+                            🗺️ Geographic Mapping
                         </a>
-                        <a href="directory/" class="block w-full bg-dark-card/50 hover:bg-neon-pink/20 border border-neon-pink/30 hover:border-neon-pink transition-all duration-300 p-3 rounded-lg text-center font-medium">
-                            📚 Browse Directory
+                        <a href="directory/" class="block w-full bg-indigo-600/20 hover:bg-indigo-600/40 border border-indigo-400/30 hover:border-indigo-400/60 transition-all duration-300 p-3 rounded-lg text-center font-medium text-indigo-100">
+                            📚 Case Directory
                         </a>
                     </div>
                 </div>
@@ -2227,20 +2195,39 @@
 
             mysteries.forEach((mystery, index) => {
                 const item = document.createElement('div');
-                item.className = 'bg-dark-card/50 p-4 rounded-lg border border-neon-cyan/20 hover:border-neon-cyan/50 transition-all duration-300 group';
+                item.className = 'bg-white/5 p-6 rounded-lg border border-blue-200/20 hover:border-blue-300/40 transition-all duration-300 shadow-lg backdrop-blur-sm';
+                
+                // Create credibility info container
+                const credibilityContainer = document.createElement('div');
+                credibilityContainer.className = 'credibility-info mb-4';
+                
                 item.innerHTML = `
-                    <h4 class="font-cyber text-lg text-neon-cyan mb-2 group-hover:text-neon-cyan/80 transition-colors">${mystery.name}</h4>
-                    <p class="text-gray-300 text-sm mb-1"><span class="text-neon-purple">📍</span> ${mystery.location}</p>
-                    <p class="text-gray-300 text-sm mb-2"><span class="text-neon-pink">📅</span> ${mystery.date}</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-neon-green font-cyber text-sm">✅ Real Votes: ${mystery.votes}</span>
+                    <div class="flex justify-between items-start mb-3">
+                        <h4 class="font-serif text-lg text-blue-100 mb-2 leading-tight">${mystery.name}</h4>
+                        <div class="text-xs text-gray-400">Rank #${index + 1}</div>
+                    </div>
+                    <p class="text-blue-200/80 text-sm mb-1 flex items-center"><span class="text-blue-300 mr-1">📍</span> ${mystery.location}</p>
+                    <p class="text-blue-200/80 text-sm mb-3 flex items-center"><span class="text-blue-300 mr-1">📅</span> ${mystery.date}</p>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="text-emerald-400 font-medium text-sm flex items-center">
+                            <span class="mr-1">✓</span> Community Votes: ${mystery.votes}
+                        </span>
                         <a href="detail.html?name=${encodeURIComponent(mystery.name)}" 
                            target="_blank"
-                           class="bg-neon-cyan/20 hover:bg-neon-cyan/40 text-neon-cyan px-3 py-1 rounded text-xs font-medium transition-all duration-300">
-                            View Details
+                           class="bg-blue-600/80 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 shadow-md">
+                            Investigate →
                         </a>
                     </div>
                 `;
+                
+                // Add credibility container at the beginning
+                item.insertBefore(credibilityContainer, item.firstChild);
+                
+                // Initialize credibility display for this mystery
+                if (typeof displayCredibilityInfo === 'function') {
+                    displayCredibilityInfo(mystery.name, credibilityContainer);
+                }
+                
                 container.appendChild(item);
             });
         }
@@ -2251,20 +2238,39 @@
 
             hoaxes.forEach((hoax, index) => {
                 const item = document.createElement('div');
-                item.className = 'bg-dark-card/50 p-4 rounded-lg border border-neon-pink/20 hover:border-neon-pink/50 transition-all duration-300 group';
+                item.className = 'bg-white/5 p-6 rounded-lg border border-red-200/20 hover:border-red-300/40 transition-all duration-300 shadow-lg backdrop-blur-sm';
+                
+                // Create credibility info container
+                const credibilityContainer = document.createElement('div');
+                credibilityContainer.className = 'credibility-info mb-4';
+                
                 item.innerHTML = `
-                    <h4 class="font-cyber text-lg text-neon-pink mb-2 group-hover:text-neon-pink/80 transition-colors">${hoax.name}</h4>
-                    <p class="text-gray-300 text-sm mb-1"><span class="text-neon-purple">📍</span> ${hoax.location}</p>
-                    <p class="text-gray-300 text-sm mb-2"><span class="text-neon-cyan">📅</span> ${hoax.date}</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-red-400 font-cyber text-sm">❌ Hoax Votes: ${hoax.hoax}</span>
+                    <div class="flex justify-between items-start mb-3">
+                        <h4 class="font-serif text-lg text-red-100 mb-2 leading-tight">${hoax.name}</h4>
+                        <div class="text-xs text-gray-400">Rank #${index + 1}</div>
+                    </div>
+                    <p class="text-red-200/80 text-sm mb-1 flex items-center"><span class="text-red-300 mr-1">📍</span> ${hoax.location}</p>
+                    <p class="text-red-200/80 text-sm mb-3 flex items-center"><span class="text-red-300 mr-1">📅</span> ${hoax.date}</p>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="text-red-400 font-medium text-sm flex items-center">
+                            <span class="mr-1">⚠</span> Debunked Votes: ${hoax.hoax}
+                        </span>
                         <a href="detail.html?name=${encodeURIComponent(hoax.name)}" 
                            target="_blank"
-                           class="bg-neon-pink/20 hover:bg-neon-pink/40 text-neon-pink px-3 py-1 rounded text-xs font-medium transition-all duration-300">
-                            View Details
+                           class="bg-red-600/80 hover:bg-red-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-300 shadow-md">
+                            Analyze →
                         </a>
                     </div>
                 `;
+                
+                // Add credibility container at the beginning
+                item.insertBefore(credibilityContainer, item.firstChild);
+                
+                // Initialize credibility display for this hoax
+                if (typeof displayCredibilityInfo === 'function') {
+                    displayCredibilityInfo(hoax.name, credibilityContainer);
+                }
+                
                 container.appendChild(item);
             });
         }
@@ -3238,5 +3244,8 @@ Requested content:
             }, 'google_translate_element');
         }
     </script>
+    
+    <!-- Credibility System -->
+    <script src="js/credibility-system.js"></script>
 </body>
 </html>
