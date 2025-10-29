@@ -29,38 +29,38 @@ class NavigationManager {
         const isHomepage = this.currentPage === 'home';
         
         if (isHomepage) {
-            // Tailwind version for homepage
+            // Professional Tailwind version for homepage
             return `
-            <nav class="fixed top-0 left-0 right-0 z-50 bg-dark-bg/95 backdrop-blur-sm border-b border-neon-cyan/20">
+            <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-sm border-b border-white/20">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="flex justify-between items-center h-16">
                         <!-- Logo -->
                         <div class="flex items-center">
                             <a href="/" class="flex items-center space-x-3">
                                 <img src="${logoPath}" alt="Mystery Quest Logo" class="h-10 w-10">
-                                <span class="text-neon-cyan text-xl font-orbitron font-bold">Mystery Quest</span>
+                                <span class="text-white text-xl font-serif font-bold">Mystery Quest</span>
                             </a>
                         </div>
                         
                         <!-- Desktop Navigation -->
                         <div class="hidden md:flex items-center space-x-8">
-                            <a href="/" class="text-white hover:text-neon-cyan transition-colors duration-300">Home</a>
-                            <a href="/map.html#submitAMystery" class="text-white hover:text-neon-cyan transition-colors duration-300">Submit Mystery</a>
-                            <a href="/map.html" class="text-white hover:text-neon-cyan transition-colors duration-300">Mystery Map</a>
-                            <a href="/directory/" class="text-white hover:text-neon-cyan transition-colors duration-300">Directory</a>
-                            <a href="/hoax.html" class="text-white hover:text-neon-cyan transition-colors duration-300">Real or Hoax?</a>
+                            <a href="/" class="text-white hover:text-blue-300 transition-colors duration-300">Research Hub</a>
+                            <a href="/map.html#submitAMystery" class="text-white hover:text-blue-300 transition-colors duration-300">Submit Case</a>
+                            <a href="/map.html" class="text-white hover:text-blue-300 transition-colors duration-300">Global Map</a>
+                            <a href="/directory/" class="text-white hover:text-blue-300 transition-colors duration-300">Case Files</a>
+                            <a href="/hoax.html" class="text-white hover:text-blue-300 transition-colors duration-300">Analysis Tool</a>
                             <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" 
-                               class="flex items-center space-x-2 bg-neon-cyan/10 hover:bg-neon-cyan/20 px-3 py-2 rounded-lg border border-neon-cyan/30 transition-all duration-300">
+                               class="flex items-center space-x-2 bg-blue-600/20 hover:bg-blue-600/30 px-3 py-2 rounded-lg border border-blue-400/30 transition-all duration-300">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
                                 </svg>
-                                <span class="text-white">YouTube</span>
+                                <span class="text-white">Research Videos</span>
                             </a>
                         </div>
                         
                         <!-- Mobile menu button -->
                         <div class="md:hidden">
-                            <button id="mobile-menu-button" class="text-white hover:text-neon-cyan">
+                            <button id="mobile-menu-button" class="text-white hover:text-blue-300">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                                 </svg>
@@ -70,14 +70,14 @@ class NavigationManager {
                     
                     <!-- Mobile Navigation -->
                     <div id="mobile-menu" class="md:hidden hidden">
-                        <div class="px-2 pt-2 pb-3 space-y-1 bg-dark-bg/95 backdrop-blur-sm border-t border-neon-cyan/20">
-                            <a href="/" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Home</a>
-                            <a href="/map.html#submitAMystery" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Submit Mystery</a>
-                            <a href="/map.html" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Mystery Map</a>
-                            <a href="/directory/" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Directory</a>
-                            <a href="/hoax.html" class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">Real or Hoax?</a>
+                        <div class="px-2 pt-2 pb-3 space-y-1 bg-slate-900/95 backdrop-blur-sm border-t border-white/20">
+                            <a href="/" class="block px-3 py-2 text-white hover:text-blue-300 transition-colors duration-300">Research Hub</a>
+                            <a href="/map.html#submitAMystery" class="block px-3 py-2 text-white hover:text-blue-300 transition-colors duration-300">Submit Case</a>
+                            <a href="/map.html" class="block px-3 py-2 text-white hover:text-blue-300 transition-colors duration-300">Global Map</a>
+                            <a href="/directory/" class="block px-3 py-2 text-white hover:text-blue-300 transition-colors duration-300">Case Files</a>
+                            <a href="/hoax.html" class="block px-3 py-2 text-white hover:text-blue-300 transition-colors duration-300">Analysis Tool</a>
                             <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" 
-                               class="block px-3 py-2 text-white hover:text-neon-cyan transition-colors duration-300">YouTube Investigations</a>
+                               class="block px-3 py-2 text-white hover:text-blue-300 transition-colors duration-300">Research Videos</a>
                         </div>
                     </div>
                 </div>
@@ -143,64 +143,69 @@ class NavigationManager {
 
     getFooterHTML() {
         return `
-        <!-- Shared Footer -->
-        <footer class="bg-dark text-light py-5 mt-5">
+        <!-- Professional Footer -->
+        <footer class="py-5 mt-5" style="background: linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(51, 65, 85, 0.95) 100%); backdrop-filter: blur(10px); border-top: 1px solid rgba(255, 255, 255, 0.2);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <h5 class="footer-title">Mystery Quest</h5>
-                        <p class="footer-text">Investigating the unexplained, one mystery at a time. Join our community of truth-seekers and explore the world's most fascinating enigmas.</p>
+                        <h5 class="text-white mb-3" style="font-family: 'Times New Roman', serif;">Mystery Quest</h5>
+                        <p class="text-white" style="opacity: 0.9; line-height: 1.6;">Advancing scientific understanding of unexplained phenomena through rigorous research, community collaboration, and evidence-based analysis.</p>
                         <div class="social-links">
-                            <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" class="social-link">
+                            <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" class="text-white me-3" style="opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill="currentColor" d="M23.498 6.186a2.994 2.994 0 0 0-2.107-2.117C19.237 3.5 12 3.5 12 3.5s-7.237 0-9.391.569A2.994 2.994 0 0 0 .502 6.186C0 8.342 0 12 0 12s0 3.658.502 5.814a2.994 2.994 0 0 0 2.107 2.117C4.763 20.5 12 20.5 12 20.5s7.237 0 9.391-.569a2.994 2.994 0 0 0 2.107-2.117C24 15.658 24 12 24 12s0-3.658-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.tiktok.com/@mysteryquest01" target="_blank" class="text-white" style="opacity: 0.8; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
                                 </svg>
                             </a>
                         </div>
                     </div>
                     
                     <div class="col-lg-2 col-md-6 mb-4">
-                        <h6 class="footer-section-title">Explore</h6>
-                        <ul class="footer-links">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/map.html">Mystery Map</a></li>
-                            <li><a href="/directory/">Directory</a></li>
-                            <li><a href="/hoax.html">Is it a Hoax?</a></li>
+                        <h6 class="text-white mb-3" style="color: #93c5fd !important;">Research</h6>
+                        <ul style="list-style: none; padding: 0;">
+                            <li class="mb-2"><a href="/" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Database</a></li>
+                            <li class="mb-2"><a href="/map.html" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Global Map</a></li>
+                            <li class="mb-2"><a href="/directory/" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Case Files</a></li>
+                            <li class="mb-2"><a href="/hoax.html" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Analysis</a></li>
                         </ul>
                     </div>
                     
                     <div class="col-lg-3 col-md-6 mb-4">
-                        <h6 class="footer-section-title">Get Involved</h6>
-                        <ul class="footer-links">
-                            <li><a href="/map.html#submitAMystery">Submit a Mystery</a></li>
-                            <li><a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank">YouTube Channel</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
+                        <h6 class="text-white mb-3" style="color: #5eead4 !important;">Contribute</h6>
+                        <ul style="list-style: none; padding: 0;">
+                            <li class="mb-2"><a href="/map.html#submitAMystery" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Submit Case</a></li>
+                            <li class="mb-2"><a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Research Videos</a></li>
+                            <li class="mb-2"><a href="#contact" class="text-white" style="opacity: 0.8; text-decoration: none; transition: opacity 0.3s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Contact Team</a></li>
                         </ul>
                     </div>
                     
                     <div class="col-lg-3 col-md-6 mb-4">
-                        <h6 class="footer-section-title">Latest Updates</h6>
-                        <p class="footer-text small">Stay tuned for new mystery investigations and community discoveries. Check our YouTube channel for the latest video content.</p>
+                        <h6 class="text-white mb-3" style="color: #86efac !important;">Methodology</h6>
+                        <p class="text-white small" style="opacity: 0.9; line-height: 1.5;">Evidence-based investigation using scientific methodology, multi-source verification, and community peer review.</p>
                         <div class="mt-3">
-                            <small class="text-muted">
-                                © 2025 Mystery Quest. All rights reserved.<br>
-                                Exploring the unexplained since 2024.
+                            <small class="text-white" style="opacity: 0.7;">
+                                © 2025 Mystery Quest Research Initiative<br>
+                                Dedicated to scientific inquiry since 2024
                             </small>
                         </div>
                     </div>
                 </div>
                 
-                <hr class="footer-divider">
+                <hr style="border-color: rgba(255, 255, 255, 0.2); margin: 2rem 0;">
                 
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <p class="footer-copyright mb-0">
-                            &copy; 2025 Mystery Quest. All rights reserved.
+                        <p class="text-white mb-0" style="opacity: 0.8;">
+                            &copy; 2025 Mystery Quest Research Initiative. All rights reserved.
                         </p>
                     </div>
                     <div class="col-md-6 text-end">
-                        <small class="text-muted">
-                            Made with 🔍 for mystery enthusiasts worldwide
+                        <small class="text-white" style="opacity: 0.7;">
+                            Advancing scientific understanding through collaborative research
                         </small>
                     </div>
                 </div>
