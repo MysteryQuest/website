@@ -16,17 +16,17 @@
     <!-- Open Graph / Facebook - Will be dynamically updated -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://mysteryquest.info/detail.html">
-    <meta property="og:title" content="Mystery Quest Event Details">
-    <meta property="og:description" content="Detailed information about mysterious events, UFO sightings, and unexplained phenomena with comprehensive analysis.">
-    <meta property="og:image" content="https://mysteryquest.info/logo.png">
-    <meta property="og:site_name" content="Mystery Quest">
+    <meta property="og:title" content="The Unverified File - Investigation Details">
+    <meta property="og:description" content="Evidence-based investigation of unexplained phenomena. Separating conspiracy theory from reality with AI-driven analysis.">
+    <meta property="og:image" content="https://unverifiedfile.com/logo.png">
+    <meta property="og:site_name" content="The Unverified File">
     
     <!-- Twitter - Will be dynamically updated -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://mysteryquest.info/detail.html">
-    <meta property="twitter:title" content="Mystery Quest Event Details">
-    <meta property="twitter:description" content="Detailed information about mysterious events and unexplained phenomena.">
-    <meta property="twitter:image" content="https://mysteryquest.info/logo.png">
+    <meta property="twitter:title" content="The Unverified File - Investigation Details">
+    <meta property="twitter:description" content="Evidence-based investigation separating conspiracy theory from reality.">
+    <meta property="twitter:image" content="https://unverifiedfile.com/logo.png">
     
     <!-- Schema.org Structured Data - Will be dynamically updated -->
     <script type="application/ld+json" id="event-schema">
@@ -54,7 +54,33 @@
     <meta name="topic-category" content="mystery investigation, event analysis, detailed reporting">
     
     <link rel="canonical" href="https://mysteryquest.info/detail.html">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'matrix-green': '#00cc66',
+                        'terminal-green': '#0a9461',
+                        'cyber-red': '#ff0055',
+                        'charcoal': '#1a1a1a',
+                        'dark-charcoal': '#0f0f0f',
+                        'cyber-yellow': '#ffd700'
+                    },
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -76,8 +102,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/credibility-system.js"></script>
     <script>
-        const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
-        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
+        const GOOGLE_SHEETS_API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
+        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
         const SHEET_NAME = 'Sheet1';
         let map;
 
@@ -106,6 +132,25 @@
                     headers.forEach((header, i) => {
                         event[header] = eventData[i] || '';
                     });
+                    
+                    // Display the event details
+                    displayEventDetails(event);
+                    
+                    // Initialize map with event location
+                    if (event.latitude && event.longitude) {
+                        initMap(parseFloat(event.latitude), parseFloat(event.longitude), event);
+                    }
+                }
+            } catch (error) {
+                console.error('Error fetching event details:', error);
+                document.getElementById('eventDetails').innerHTML = `
+                    <div class="bg-cyber-red/20 border border-cyber-red rounded-lg p-6">
+                        <h4 class="text-2xl font-orbitron font-bold text-cyber-red mb-3">Error Loading Event</h4>
+                        <p class="text-white">Unable to load event details. Please try again later.</p>
+                    </div>
+                `;
+            }
+        }
 
         function displayEventDetails(event) {
             // Parse enhanced metadata if available
@@ -199,11 +244,12 @@
                     const isHighlighted = highlightVideoId === videoId;
                     
                     youtubeSection += `
-                        <div class="col-md-12 mb-4" id="video-${videoId}" ${isHighlighted ? 'style="border: 2px solid #00ffff; border-radius: 8px; padding: 15px;"' : ''}>
-                            <div class="card h-100">
+                        <div class="mb-6" id="video-${videoId}" ${isHighlighted ? 'style="border: 2px solid #00ffff; border-radius: 8px; padding: 15px;"' : ''}>
+                            <div class="bg-charcoal/60 rounded-lg overflow-hidden h-full">
                                 ${videoIdMatch ? `
-                                    <div class="ratio ratio-16x9">
+                                    <div class="relative pb-[56.25%] h-0">
                                         <iframe 
+                                            class="absolute top-0 left-0 w-full h-full"
                                             src="https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1" 
                                             title="${video.title}"
                                             frameborder="0" 
@@ -213,13 +259,13 @@
                                         </iframe>
                                     </div>
                                 ` : `
-                                    <img src="${video.thumbnail}" class="card-img-top" alt="${video.title}" loading="lazy">
+                                    <img src="${video.thumbnail}" class="w-full" alt="${video.title}" loading="lazy">
                                 `}
-                                <div class="card-body">
-                                    <h6 class="card-title">${video.title}</h6>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <small class="text-muted">Published: ${publishedDate}</small>
-                                        <a href="${video.url}" target="_blank" class="btn btn-sm btn-outline-primary">
+                                <div class="p-4">
+                                    <h6 class="text-lg font-semibold text-white mb-3">${video.title}</h6>
+                                    <div class="flex justify-between items-center">
+                                        <small class="text-gray-400">Published: ${publishedDate}</small>
+                                        <a href="${video.url}" target="_blank" class="px-4 py-2 bg-terminal-green hover:bg-matrix-green text-white rounded-lg transition-colors text-sm">
                                             <i class="fab fa-youtube"></i> Open in YouTube
                                         </a>
                                     </div>
@@ -236,8 +282,8 @@
             }
 
             document.getElementById('eventDetails').innerHTML = `
-                <div class="row">
-                    <div class="col-md-8">
+                <div class="grid md:grid-cols-12 gap-8">
+                    <div class="md:col-span-8">
                         <h2>${event.name}</h2>
                         <div class="mb-3">${categoriesHtml}</div>
                         
@@ -267,22 +313,22 @@
             </div>
             <div class="card-body">
                 <div id="credibility-info" class="mb-3">
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
                             <strong>Credibility Rating:</strong> 
                             <span id="credibility-rating" class="badge badge-secondary"></span>
                         </div>
-                        <div class="col-md-6">
+                        <div>
                             <strong>Confidence Level:</strong> 
                             <span id="confidence-level"></span>
                         </div>
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-6">
+                    <div class="grid md:grid-cols-2 gap-4 mt-4">
+                        <div>
                             <strong>Total Sources:</strong> 
                             <span id="total-sources"></span>
                         </div>
-                        <div class="col-md-6">
+                        <div>
                             <strong>Weighted Score:</strong> 
                             <span id="weighted-score"></span>
                         </div>
@@ -290,7 +336,7 @@
                 </div>
                 
                 <h6>Sources Found:</h6>
-                <div id="sources-list" class="row">
+                <div id="sources-list" class="grid gap-4">
                     <!-- Sources will be populated by JavaScript -->
                 </div>
                 
@@ -318,20 +364,20 @@
                             <p><strong>Source Domain:</strong> ${enhancedData.source_domain || 'Unknown'}</p>
                         </div>
 
-                        <div class="voting-section mt-4">
-                            <button class="btn btn-primary" onclick="voteForEvent(${event.id})">👍 Vote for this Event</button>
+                        <div class="voting-section mt-6">
+                            <button class="px-8 py-3 bg-terminal-green hover:bg-matrix-green text-white rounded-lg font-semibold transition-colors" onclick="voteForEvent(${event.id})">👍 Vote for this Event</button>
                         </div>
                     </div>
                     
-                    <div class="col-md-4">
-                        <div class="event-image mb-3">
+                    <div class="md:col-span-4">
+                        <div class="event-image mb-6">
                             <img src="${event.img_url ? event.img_url : 'images/' + event.event_type + '.png'}" 
-                                 class="img-fluid rounded" 
+                                 class="w-full rounded-lg" 
                                  alt="${event.name}"
-                                 style="width: 100%; max-height: 300px; object-fit: cover;">
+                                 style="max-height: 300px; object-fit: cover;">
                         </div>
                         
-                        <div class="quick-facts bg-dark p-3 rounded">
+                        <div class="quick-facts bg-charcoal/60 p-4 rounded-lg">
                             <h5>Quick Facts</h5>
                             <ul class="list-unstyled">
                                 <li><strong>Category:</strong> ${event.event_type}</li>
@@ -417,9 +463,40 @@
                     }
                 });
             } else {
-                alert('No event name provided.');
+                // Show browse investigations view
+                showBrowseView();
             }
         });
+
+        function showBrowseView() {
+            const container = document.getElementById('eventDetails');
+            container.innerHTML = `
+                <div class="text-center py-12">
+                    <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-matrix-green mb-6">Browse Active Investigations</h2>
+                    <p class="text-gray-400 mb-8">Select an investigation from the map or visit our investigation database.</p>
+                    <div class="grid md:grid-cols-2 gap-8 mt-8">
+                        <div class="bg-charcoal/80 backdrop-blur-sm border border-matrix-green/30 rounded-lg p-8 hover:border-matrix-green/60 transition-all">
+                            <i class="fas fa-map-marked-alt text-5xl text-matrix-green mb-4"></i>
+                            <h5 class="text-2xl font-orbitron font-bold text-white mb-3">Evidence Map</h5>
+                            <p class="text-gray-300 mb-6">Explore mysterious events worldwide on our interactive map.</p>
+                            <a href="map.html" class="inline-block px-6 py-3 bg-transparent border-2 border-matrix-green text-matrix-green rounded-lg hover:bg-matrix-green hover:text-charcoal transition-all">View Map</a>
+                        </div>
+                        <div class="bg-charcoal/80 backdrop-blur-sm border border-matrix-green/30 rounded-lg p-8 hover:border-matrix-green/60 transition-all">
+                            <i class="fas fa-balance-scale text-5xl text-matrix-green mb-4"></i>
+                            <h5 class="text-2xl font-orbitron font-bold text-white mb-3">Real or Hoax?</h5>
+                            <p class="text-gray-300 mb-6">Vote on mysterious events and help determine their authenticity.</p>
+                            <a href="hoax.html" class="inline-block px-6 py-3 bg-transparent border-2 border-matrix-green text-matrix-green rounded-lg hover:bg-matrix-green hover:text-charcoal transition-all">Start Voting</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Hide map when showing browse view
+            const mapElement = document.getElementById('map');
+            if (mapElement) {
+                mapElement.style.display = 'none';
+            }
+        }
     </script>
     <style>
         #map {
@@ -655,24 +732,51 @@
         }
     </style>
 </head>
-<body>
-    <!-- Dynamic Header -->
-    <div id="dynamic-header"></div>
+<body class="text-gray-100">
+    <!-- Background Image -->
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+        <img src="splash.webp" alt="Background" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(26, 26, 26, 0.2), rgba(15, 15, 15, 0.3), rgba(26, 26, 26, 0.4));"></div>
+    </div>
 
-    <div class="container mt-4">
-        <h1 class="display-4 text-cyan mb-4">Mystery Quest Event Details</h1>
+    <!-- Navigation (loaded dynamically) -->
+    <div id="header-container"></div>
+
+    <div class="container mx-auto px-4 py-12 mt-20">
+        <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-8">The Unverified File - Investigation Details</h1>
         <div id="map"></div>
         <div id="eventDetails" class="details-container">
             <!-- Event details will be dynamically loaded here -->
         </div>
+        
+        <!-- YouTube Video Showcase Section -->
+        <div class="mt-16 mb-12">
+            <div class="terminal-box rounded-lg p-8">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-3xl font-orbitron font-bold text-matrix-green">
+                        <i class="fab fa-youtube text-cyber-red"></i> Latest Investigations
+                    </h2>
+                    <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="px-6 py-2 bg-cyber-red hover:bg-cyber-red/80 text-white rounded-lg font-semibold transition-colors">
+                        <i class="fab fa-youtube mr-2"></i>Subscribe
+                    </a>
+                </div>
+                <div id="youtube-videos-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Videos will be loaded here -->
+                    <div class="col-span-full flex justify-center py-8">
+                        <i class="fas fa-spinner fa-spin text-4xl text-matrix-green"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- Dynamic Footer -->
-    <div id="dynamic-footer"></div>
+    <!-- Footer (loaded dynamically) -->
+    <div id="footer-container"></div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Navigation Management -->
+    <!-- Header & Footer Includes -->
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <!-- Navigation Management (legacy compatibility) -->
     <script src="js/navigation.js"></script>
     <!-- Cache Buster for Fresh Images -->
     <script src="js/cache-buster.js"></script>
@@ -763,9 +867,88 @@
             if (mysteryName) {
                 loadSourceVerification(mysteryName);
             }
+            
+            // Load YouTube videos
+            loadYouTubeVideos();
         });
+    </script>
+    
+    <!-- YouTube Videos Loader -->
+    <script>
+        async function loadYouTubeVideos() {
+            const container = document.getElementById('youtube-videos-grid');
+            const channelId = 'UCL37JaB7QLNubrW4s3xRzJQ';
+            const apiKey = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
+            
+            try {
+                const response = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=6&type=video`);
+                
+                if (!response.ok) {
+                    throw new Error('Failed to fetch YouTube data');
+                }
+                
+                const data = await response.json();
+                
+                if (data.items && data.items.length > 0) {
+                    let videosHTML = '';
+                    
+                    data.items.forEach(item => {
+                        const videoId = item.id.videoId;
+                        const title = item.snippet.title;
+                        const thumbnail = item.snippet.thumbnails.medium.url;
+                        const publishedAt = new Date(item.snippet.publishedAt).toLocaleDateString('en-US', { 
+                            year: 'numeric', 
+                            month: 'short', 
+                            day: 'numeric' 
+                        });
+                        
+                        videosHTML += `
+                            <div class="bg-charcoal/60 rounded-lg overflow-hidden hover:border-matrix-green border border-matrix-green/30 transition-all group">
+                                <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank" rel="noopener noreferrer" class="block relative">
+                                    <img src="${thumbnail}" alt="${title}" class="w-full aspect-video object-cover">
+                                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all flex items-center justify-center">
+                                        <i class="fab fa-youtube text-5xl text-cyber-red opacity-80 group-hover:scale-110 transition-transform"></i>
+                                    </div>
+                                </a>
+                                <div class="p-4">
+                                    <h3 class="text-white font-semibold mb-2 line-clamp-2 group-hover:text-matrix-green transition-colors">
+                                        ${title}
+                                    </h3>
+                                    <p class="text-gray-400 text-sm">
+                                        <i class="far fa-calendar mr-1"></i>${publishedAt}
+                                    </p>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    
+                    container.innerHTML = videosHTML;
+                } else {
+                    container.innerHTML = `
+                        <div class="col-span-full text-center py-8">
+                            <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                <i class="fab fa-youtube text-6xl text-cyber-red mb-3"></i>
+                                <p class="text-white font-semibold">Visit our YouTube channel</p>
+                            </a>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('Error loading YouTube videos:', error);
+                container.innerHTML = `
+                    <div class="col-span-full text-center py-8">
+                        <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" rel="noopener noreferrer" class="inline-block hover:scale-105 transition-transform">
+                            <i class="fab fa-youtube text-6xl text-cyber-red mb-3"></i>
+                            <p class="text-white font-semibold mb-2">Visit Our YouTube Channel</p>
+                            <p class="text-gray-400 text-sm">Latest investigations and analysis</p>
+                        </a>
+                    </div>
+                `;
+            }
+        }
     </script>
                 
     <script src="./js/source_verification_display.js"></script>
 </body>
 </html>
+

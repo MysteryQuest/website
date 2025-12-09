@@ -56,12 +56,32 @@
     
     <link rel="canonical" href="https://mysteryquest.info/map.html">
     
-    <!-- Modern CSS Framework -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'matrix-green': '#00cc66',
+                        'terminal-green': '#0a9461',
+                        'cyber-red': '#ff0055',
+                        'charcoal': '#1a1a1a',
+                        'dark-charcoal': '#0f0f0f',
+                        'cyber-yellow': '#ffd700'
+                    },
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Fonts and Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
     
     <!-- Analytics -->
@@ -405,14 +425,20 @@
         }
     </style>
 </head>
-<body>
-    <!-- Dynamic Header -->
-    <div id="dynamic-header"></div>
+<body class="text-gray-100">
+    <!-- Background Image -->
+    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+        <img src="splash.webp" alt="Background" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(26, 26, 26, 0.2), rgba(15, 15, 15, 0.3), rgba(26, 26, 26, 0.4));"></div>
+    </div>
 
-    <div class="container py-4 mt-4">
-        <div class="text-center mb-4">
-            <h1 class="display-4 text-cyan mb-3">Mystery Quest Map</h1>
-            <p class="lead">Explore mysterious events, historical oddities, and UAP sightings worldwide</p>
+    <!-- Navigation (loaded dynamically) -->
+    <div id="header-container"></div>
+
+    <div class="container mx-auto px-4 py-12 mt-20">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-4">The Unverified File - Evidence Map</h1>
+            <p class="text-xl md:text-2xl text-gray-300">Explore mysterious events, historical oddities, and UAP sightings worldwide</p>
         </div>
         
         <div class="filters">
@@ -517,14 +543,18 @@
         </div>
     </div>
 
-    <!-- Dynamic Footer -->
-    <div id="dynamic-footer"></div>
+    <!-- Footer (loaded dynamically) -->
+    <div id="footer-container"></div>
     
-    <!-- Navigation Management -->
+    <!-- Header & Footer Includes -->
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <!-- Navigation Management (legacy compatibility) -->
     <script src="js/navigation.js"></script>
     
     <script>
-        const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
+        const GOOGLE_SHEETS_API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
+        const BLANKETY = GOOGLE_SHEETS_API_KEY; // Backward compatibility
         const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
         const SHEET_NAME = 'Sheet1';
         let map;
@@ -540,7 +570,11 @@
             try {
                 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
                 const response = await fetch(url);
-                if (!response.ok) throw new Error('Failed to fetch data');
+                if (!response.ok) {
+                    console.warn('Google Sheets API failed (status ' + response.status + '), using sample data');
+                    loadFallbackData();
+                    return;
+                }
                 
                 const data = await response.json();
 

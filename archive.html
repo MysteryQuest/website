@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>D-LOG Archive - The Unverified File</title>
+    <meta name="description" content="Complete archive of Project D-LOG investigation reports and evidence-based analysis.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'matrix-green': '#00cc66',
+                        'terminal-green': '#0a9461',
+                        'cyber-red': '#ff0055',
+                        'charcoal': '#1a1a1a',
+                        'dark-charcoal': '#0f0f0f',
+                        'cyber-yellow': '#ffd700'
+                    },
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="text-gray-100">
+    
+    <div id="header-container"></div>
+
+    <section class="relative min-h-[40vh] flex items-center justify-center">
+        <div class="absolute inset-0 z-0">
+            <img src="splash.webp" alt="Background" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-charcoal/20 via-dark-charcoal/30 to-charcoal/40"></div>
+        </div>
+        
+        <div class="relative z-10 container mx-auto px-4 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-4">
+                <i class="fas fa-archive"></i> D-LOG Archive
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300">Complete Database of Investigation Reports</p>
+        </div>
+    </section>
+
+    <section class="bg-charcoal/80 py-16">
+        <div class="container mx-auto px-4 max-w-6xl">
+            
+            <div class="bg-dark-charcoal/60 rounded-lg p-8 mb-12">
+                <h2 class="text-3xl font-orbitron font-bold text-matrix-green mb-4">Project D-LOG</h2>
+                <p class="text-gray-300 mb-4">
+                    <strong>D-LOG</strong> (Data-driven Logical Observation Gathering) represents our systematic approach to investigating mysterious phenomena using AI-powered analysis and open-source intelligence.
+                </p>
+                <p class="text-gray-300">
+                    Each report undergoes rigorous verification, source credibility assessment, and community review before publication.
+                </p>
+            </div>
+
+            <!-- Archive Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- D-LOG 001 -->
+                <a href="article.html?slug=uap-data-leak-analysis" class="bg-dark-charcoal/60 rounded-lg p-6 border border-matrix-green/30 hover:border-matrix-green hover:shadow-lg hover:shadow-matrix-green/20 transition-all group">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-sm font-mono text-matrix-green">D-LOG 001</span>
+                        <span class="text-xs px-3 py-1 bg-terminal-green/20 text-terminal-green rounded-full">UAP Investigation</span>
+                    </div>
+                    <h3 class="text-xl font-orbitron font-bold text-white mb-2 group-hover:text-matrix-green transition-colors">
+                        UAP Data Leak Analysis
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Analysis of recently leaked UAP data from military sources. Evidence suggests coordinated observation events.
+                    </p>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span><i class="far fa-calendar"></i> 2025-12-01</span>
+                        <span><i class="far fa-clock"></i> 8 min read</span>
+                    </div>
+                </a>
+
+                <!-- D-LOG 002 -->
+                <a href="article.html?slug=havana-syndrome-update" class="bg-dark-charcoal/60 rounded-lg p-6 border border-matrix-green/30 hover:border-matrix-green hover:shadow-lg hover:shadow-matrix-green/20 transition-all group">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-sm font-mono text-matrix-green">D-LOG 002</span>
+                        <span class="text-xs px-3 py-1 bg-cyber-red/20 text-cyber-red rounded-full">Medical Mystery</span>
+                    </div>
+                    <h3 class="text-xl font-orbitron font-bold text-white mb-2 group-hover:text-matrix-green transition-colors">
+                        Havana Syndrome Update
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        New evidence in Havana Syndrome investigation. Analyzing electromagnetic frequency patterns.
+                    </p>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span><i class="far fa-calendar"></i> 2025-11-28</span>
+                        <span><i class="far fa-clock"></i> 12 min read</span>
+                    </div>
+                </a>
+
+                <!-- D-LOG 003 -->
+                <a href="article.html?slug=antarctic-anomaly" class="bg-dark-charcoal/60 rounded-lg p-6 border border-matrix-green/30 hover:border-matrix-green hover:shadow-lg hover:shadow-matrix-green/20 transition-all group">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-sm font-mono text-matrix-green">D-LOG 003</span>
+                        <span class="text-xs px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full">Satellite Analysis</span>
+                    </div>
+                    <h3 class="text-xl font-orbitron font-bold text-white mb-2 group-hover:text-matrix-green transition-colors">
+                        Antarctic Anomaly
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Satellite imagery reveals unusual thermal signatures in Antarctica. Investigation ongoing.
+                    </p>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span><i class="far fa-calendar"></i> 2025-11-15</span>
+                        <span><i class="far fa-clock"></i> 10 min read</span>
+                    </div>
+                </a>
+
+                <!-- D-LOG 004 -->
+                <a href="article.html?slug=phoenix-lights-reassessment" class="bg-dark-charcoal/60 rounded-lg p-6 border border-matrix-green/30 hover:border-matrix-green hover:shadow-lg hover:shadow-matrix-green/20 transition-all group">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-sm font-mono text-matrix-green">D-LOG 004</span>
+                        <span class="text-xs px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full">Historical Review</span>
+                    </div>
+                    <h3 class="text-xl font-orbitron font-bold text-white mb-2 group-hover:text-matrix-green transition-colors">
+                        Phoenix Lights Reassessment
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Re-examining 1997 Phoenix Lights with AI analysis and newly declassified radar data.
+                    </p>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span><i class="far fa-calendar"></i> 2025-11-10</span>
+                        <span><i class="far fa-clock"></i> 15 min read</span>
+                    </div>
+                </a>
+
+                <!-- D-LOG 005 -->
+                <a href="article.html?slug=deep-sea-acoustics" class="bg-dark-charcoal/60 rounded-lg p-6 border border-matrix-green/30 hover:border-matrix-green hover:shadow-lg hover:shadow-matrix-green/20 transition-all group">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-sm font-mono text-matrix-green">D-LOG 005</span>
+                        <span class="text-xs px-3 py-1 bg-cyan-500/20 text-cyan-400 rounded-full">Underwater Mystery</span>
+                    </div>
+                    <h3 class="text-xl font-orbitron font-bold text-white mb-2 group-hover:text-matrix-green transition-colors">
+                        Deep Sea Acoustics
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Unexplained underwater sound patterns detected. Analysis of NOAA hydrophone data.
+                    </p>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span><i class="far fa-calendar"></i> 2025-11-05</span>
+                        <span><i class="far fa-clock"></i> 9 min read</span>
+                    </div>
+                </a>
+
+                <!-- D-LOG 006 -->
+                <a href="article.html?slug=skinwalker-ranch-data" class="bg-dark-charcoal/60 rounded-lg p-6 border border-matrix-green/30 hover:border-matrix-green hover:shadow-lg hover:shadow-matrix-green/20 transition-all group">
+                    <div class="flex items-start justify-between mb-4">
+                        <span class="text-sm font-mono text-matrix-green">D-LOG 006</span>
+                        <span class="text-xs px-3 py-1 bg-cyber-yellow/20 text-cyber-yellow rounded-full">Paranormal Investigation</span>
+                    </div>
+                    <h3 class="text-xl font-orbitron font-bold text-white mb-2 group-hover:text-matrix-green transition-colors">
+                        Skinwalker Ranch Data
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">
+                        Comprehensive analysis of electromagnetic anomalies and witness reports from the ranch.
+                    </p>
+                    <div class="flex items-center justify-between text-xs text-gray-500">
+                        <span><i class="far fa-calendar"></i> 2025-10-28</span>
+                        <span><i class="far fa-clock"></i> 14 min read</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+                <div class="bg-dark-charcoal/60 rounded-lg p-6 text-center border border-matrix-green/30">
+                    <div class="text-4xl font-orbitron font-bold text-matrix-green mb-2">6</div>
+                    <div class="text-sm text-gray-400">Published Reports</div>
+                </div>
+                <div class="bg-dark-charcoal/60 rounded-lg p-6 text-center border border-matrix-green/30">
+                    <div class="text-4xl font-orbitron font-bold text-matrix-green mb-2">247</div>
+                    <div class="text-sm text-gray-400">Sources Verified</div>
+                </div>
+                <div class="bg-dark-charcoal/60 rounded-lg p-6 text-center border border-matrix-green/30">
+                    <div class="text-4xl font-orbitron font-bold text-matrix-green mb-2">89%</div>
+                    <div class="text-sm text-gray-400">Accuracy Rate</div>
+                </div>
+                <div class="bg-dark-charcoal/60 rounded-lg p-6 text-center border border-matrix-green/30">
+                    <div class="text-4xl font-orbitron font-bold text-matrix-green mb-2">12K+</div>
+                    <div class="text-sm text-gray-400">Community Votes</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/cache-buster.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>OSINT Toolkit - The Unverified File</title>
+    <meta name="description" content="Open Source Intelligence tools and methodology for investigating mysterious phenomena and verifying claims.">
+    <meta name="keywords" content="OSINT, Open Source Intelligence, investigation tools, verification, fact-checking">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'matrix-green': '#00cc66',
+                        'terminal-green': '#0a9461',
+                        'cyber-red': '#ff0055',
+                        'charcoal': '#1a1a1a',
+                        'dark-charcoal': '#0f0f0f',
+                        'cyber-yellow': '#ffd700'
+                    },
+                    fontFamily: {
+                        'orbitron': ['Orbitron', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="text-gray-100">
+    
+    <!-- Navigation -->
+    <div id="header-container"></div>
+
+    <!-- Hero -->
+    <section class="relative min-h-[40vh] flex items-center justify-center">
+        <div class="absolute inset-0 z-0">
+            <img src="splash.webp" alt="Background" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-charcoal/20 via-dark-charcoal/30 to-charcoal/40"></div>
+        </div>
+        
+        <div class="relative z-10 container mx-auto px-4 py-20 text-center">
+            <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-4">
+                <i class="fas fa-search"></i> OSINT Toolkit
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300">Open Source Intelligence for Evidence-Based Investigation</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="bg-charcoal/80 py-16">
+        <div class="container mx-auto px-4 max-w-6xl">
+            
+            <!-- Introduction -->
+            <div class="bg-dark-charcoal/60 rounded-lg p-8 mb-12">
+                <h2 class="text-3xl font-orbitron font-bold text-matrix-green mb-4">What is OSINT?</h2>
+                <p class="text-gray-300 mb-4">
+                    Open Source Intelligence (OSINT) refers to the collection and analysis of information from publicly available sources. At The Unverified File, we use OSINT techniques to verify claims, investigate mysterious phenomena, and separate fact from fiction.
+                </p>
+                <p class="text-gray-300">
+                    Our methodology combines automated AI analysis with human verification, ensuring rigorous standards for evidence evaluation.
+                </p>
+            </div>
+
+            <!-- Tools Categories -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                
+                <!-- Geospatial Intelligence -->
+                <div class="bg-dark-charcoal/60 rounded-lg p-8 border border-matrix-green/30 hover:border-matrix-green/60 transition-all">
+                    <h3 class="text-2xl font-orbitron font-bold text-matrix-green mb-4">
+                        <i class="fas fa-globe"></i> Geospatial Intelligence
+                    </h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li><strong class="text-terminal-green">Google Earth Pro:</strong> Historical satellite imagery analysis</li>
+                        <li><strong class="text-terminal-green">Sentinel Hub:</strong> Real-time satellite data (ESA Copernicus)</li>
+                        <li><strong class="text-terminal-green">OpenStreetMap:</strong> Crowdsourced geographic data</li>
+                        <li><strong class="text-terminal-green">SunCalc:</strong> Sun position, shadows, and timing verification</li>
+                        <li><strong class="text-terminal-green">MarineTraffic:</strong> Vessel tracking and maritime data</li>
+                    </ul>
+                </div>
+
+                <!-- Image & Video Analysis -->
+                <div class="bg-dark-charcoal/60 rounded-lg p-8 border border-matrix-green/30 hover:border-matrix-green/60 transition-all">
+                    <h3 class="text-2xl font-orbitron font-bold text-matrix-green mb-4">
+                        <i class="fas fa-image"></i> Image & Video Analysis
+                    </h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li><strong class="text-terminal-green">InVID:</strong> Reverse video search and forensic analysis</li>
+                        <li><strong class="text-terminal-green">FotoForensics:</strong> Error Level Analysis (ELA) for image manipulation</li>
+                        <li><strong class="text-terminal-green">TinEye:</strong> Reverse image search</li>
+                        <li><strong class="text-terminal-green">Jeffrey's Exif Viewer:</strong> Metadata extraction</li>
+                        <li><strong class="text-terminal-green">FFmpeg:</strong> Video frame extraction and analysis</li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Intelligence -->
+                <div class="bg-dark-charcoal/60 rounded-lg p-8 border border-matrix-green/30 hover:border-matrix-green/60 transition-all">
+                    <h3 class="text-2xl font-orbitron font-bold text-matrix-green mb-4">
+                        <i class="fas fa-users"></i> Social Media Intelligence
+                    </h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li><strong class="text-terminal-green">Social Searcher:</strong> Real-time social media monitoring</li>
+                        <li><strong class="text-terminal-green">Wayback Machine:</strong> Historical website archives</li>
+                        <li><strong class="text-terminal-green">Reddit Search:</strong> Advanced Reddit post analysis</li>
+                        <li><strong class="text-terminal-green">Twitter Advanced Search:</strong> Timeline and keyword filtering</li>
+                        <li><strong class="text-terminal-green">YouTube DataViewer:</strong> Video upload verification</li>
+                    </ul>
+                </div>
+
+                <!-- Data Analysis -->
+                <div class="bg-dark-charcoal/60 rounded-lg p-8 border border-matrix-green/30 hover:border-matrix-green/60 transition-all">
+                    <h3 class="text-2xl font-orbitron font-bold text-matrix-green mb-4">
+                        <i class="fas fa-chart-line"></i> Data Analysis & AI
+                    </h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li><strong class="text-terminal-green">OpenAI GPT:</strong> Text analysis and pattern recognition</li>
+                        <li><strong class="text-terminal-green">Claude (Anthropic):</strong> Document analysis and summarization</li>
+                        <li><strong class="text-terminal-green">Python OSINT Libraries:</strong> Automated data collection</li>
+                        <li><strong class="text-terminal-green">Jupyter Notebooks:</strong> Reproducible analysis workflows</li>
+                        <li><strong class="text-terminal-green">Maltego:</strong> Link analysis and data visualization</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Our Methodology -->
+            <div class="bg-dark-charcoal/60 rounded-lg p-8 mb-12">
+                <h2 class="text-3xl font-orbitron font-bold text-matrix-green mb-6">Our Investigation Process</h2>
+                
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-matrix-green/20 rounded-lg flex items-center justify-center text-matrix-green font-bold text-xl">1</div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-terminal-green mb-2">Initial Assessment</h4>
+                            <p class="text-gray-300">Evaluate source credibility, gather initial evidence, and establish investigation parameters.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-matrix-green/20 rounded-lg flex items-center justify-center text-matrix-green font-bold text-xl">2</div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-terminal-green mb-2">Data Collection</h4>
+                            <p class="text-gray-300">Use OSINT tools to gather publicly available information from multiple independent sources.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-matrix-green/20 rounded-lg flex items-center justify-center text-matrix-green font-bold text-xl">3</div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-terminal-green mb-2">AI-Powered Analysis</h4>
+                            <p class="text-gray-300">Apply machine learning and pattern recognition to identify anomalies, correlations, and inconsistencies.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-matrix-green/20 rounded-lg flex items-center justify-center text-matrix-green font-bold text-xl">4</div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-terminal-green mb-2">Human Verification</h4>
+                            <p class="text-gray-300">Expert review and community validation to ensure accuracy and prevent AI hallucination.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-matrix-green/20 rounded-lg flex items-center justify-center text-matrix-green font-bold text-xl">5</div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-terminal-green mb-2">Report & Publication</h4>
+                            <p class="text-gray-300">Publish findings with full transparency, including source links and confidence levels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ethics -->
+            <div class="bg-cyber-yellow/10 border border-cyber-yellow/30 rounded-lg p-8">
+                <h2 class="text-3xl font-orbitron font-bold text-cyber-yellow mb-4">
+                    <i class="fas fa-balance-scale"></i> Ethical Guidelines
+                </h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><i class="fas fa-check-circle text-terminal-green"></i> We only use publicly available information</li>
+                    <li><i class="fas fa-check-circle text-terminal-green"></i> We respect privacy and do not dox individuals</li>
+                    <li><i class="fas fa-check-circle text-terminal-green"></i> We cite all sources and provide verification links</li>
+                    <li><i class="fas fa-check-circle text-terminal-green"></i> We acknowledge uncertainty and avoid speculation</li>
+                    <li><i class="fas fa-check-circle text-terminal-green"></i> We correct errors promptly and transparently</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/cache-buster.js"></script>
+</body>
+</html>
