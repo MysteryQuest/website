@@ -36,31 +36,4 @@
         localStorage.setItem('lastDataRefresh', now.toString());
         window.refreshMysteryData();
     }
-    
-    // Add refresh button to pages
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', addRefreshButton);
-    } else {
-        addRefreshButton();
-    }
-    
-    function addRefreshButton() {
-        const refreshBtn = document.createElement('button');
-        refreshBtn.innerHTML = '🔄 Refresh Images';
-        refreshBtn.style.cssText = `
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            z-index: 9999;
-            background: #007bff;
-            color: white;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 12px;
-        `;
-        refreshBtn.onclick = window.refreshMysteryData;
-        document.body.appendChild(refreshBtn);
-    }
 })();
