@@ -102,53 +102,22 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/credibility-system.js"></script>
     <script>
-        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
-        const SHEET_NAME = 'Sheet1';
         let map;
-
-        function parseCSV(text) {
-            const rows = [];
-            let row = [], cell = '', inQ = false;
-            for (let i = 0; i < text.length; i++) {
-                const c = text[i];
-                if (inQ) {
-                    if (c === '"' && text[i+1] === '"') { cell += '"'; i++; }
-                    else if (c === '"') inQ = false;
-                    else cell += c;
-                } else {
-                    if (c === '"') inQ = true;
-                    else if (c === ',') { row.push(cell); cell = ''; }
-                    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
-                    else if (c !== '\r') cell += c;
-                }
-            }
-            if (cell || row.length) { row.push(cell); rows.push(row); }
-            return rows;
-        }
 
         async function fetchEventDetails(eventName) {
             try {
-                const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
-                const response = await fetch(url);
-                const values = parseCSV(await response.text());
+                const rows = await fetch('./js/mysteries.json').then(r => r.json());
                 
-                if (values && values.length > 1) {
-                    const headers = values[0];
-                    const rows = values.slice(1);
-                    
-                    const eventData = rows.find(row => {
-                        const nameIndex = headers.indexOf('name');
-                        return nameIndex !== -1 && row[nameIndex] && row[nameIndex].toLowerCase() === eventName.toLowerCase();
-                    });
+                if (rows && rows.length > 0) {
+                    const eventData = rows.find(row =>
+                        row['name'] && row['name'].toLowerCase() === eventName.toLowerCase()
+                    );
                     
                     if (!eventData) {
                         throw new Error('Event not found');
                     }
                     
-                    const event = {};
-                    headers.forEach((header, i) => {
-                        event[header] = eventData[i] || '';
-                    });
+                    const event = Object.assign({}, eventData);
                     
                     // Display the event details
                     displayEventDetails(event);

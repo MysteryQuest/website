@@ -527,43 +527,14 @@
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
 
-    <!-- Google Sheets API Script (Your existing mystery loading code) -->
+    <!-- Mystery data loaded from local JSON -->
     <script>
-        // Google Sheets configuration (keyless via gviz CSV)
-        const SHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
-        const SHEET_NAME = 'Sheet1';
-        const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
-
-        function parseCSV(text) {
-            const rows = [];
-            let row = [], cell = '', inQ = false;
-            for (let i = 0; i < text.length; i++) {
-                const c = text[i];
-                if (inQ) {
-                    if (c === '"' && text[i+1] === '"') { cell += '"'; i++; }
-                    else if (c === '"') inQ = false;
-                    else cell += c;
-                } else {
-                    if (c === '"') inQ = true;
-                    else if (c === ',') { row.push(cell); cell = ''; }
-                    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
-                    else if (c !== '\r') cell += c;
-                }
-            }
-            if (cell || row.length) { row.push(cell); rows.push(row); }
-            return rows;
-        }
-
-        // Load mysteries from Google Sheets
+        // Load mysteries from local JSON (downloaded from Google Sheets)
         async function loadMysteries() {
             try {
-                const response = await fetch(SHEET_URL);
-                const values = parseCSV(await response.text());
+                const rows = await fetch('./js/mysteries.json').then(r => r.json());
                 
-                if (values && values.length > 0) {
-                    const headers = values[0];
-                    const rows = values.slice(1);
-                    
+                if (rows && rows.length > 0) {
                     // Get the latest 6 mysteries
                     const latestMysteries = rows.slice(0, 6);
                     
@@ -571,11 +542,11 @@
                     mysteriesContainer.innerHTML = '';
                     
                     latestMysteries.forEach(row => {
-                        const title = row[headers.indexOf('name')] || 'Unknown';
-                        const category = row[headers.indexOf('category')] || 'Mystery';
-                        const description = row[headers.indexOf('description')] || '';
-                        const imageUrl = row[headers.indexOf('image_url')] || 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=400';
-                        const credibility = row[headers.indexOf('credibility_score')] || '';
+                        const title = row['name'] || 'Unknown';
+                        const category = row['event_type'] || row['category'] || 'Mystery';
+                        const description = row['description'] || '';
+                        const imageUrl = row['image_url'] || 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=400';
+                        const credibility = row['credibility_score'] || '';
                         
                         // Determine status badge
                         let statusClass = 'text-cyber-yellow';
