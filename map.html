@@ -553,10 +553,28 @@
     <script src="js/navigation.js"></script>
     
     <script>
-        const GOOGLE_SHEETS_API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
-        const BLANKETY = GOOGLE_SHEETS_API_KEY; // Backward compatibility
         const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
         const SHEET_NAME = 'Sheet1';
+
+        function parseCSV(text) {
+            const rows = [];
+            let row = [], cell = '', inQ = false;
+            for (let i = 0; i < text.length; i++) {
+                const c = text[i];
+                if (inQ) {
+                    if (c === '"' && text[i+1] === '"') { cell += '"'; i++; }
+                    else if (c === '"') inQ = false;
+                    else cell += c;
+                } else {
+                    if (c === '"') inQ = true;
+                    else if (c === ',') { row.push(cell); cell = ''; }
+                    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+                    else if (c !== '\r') cell += c;
+                }
+            }
+            if (cell || row.length) { row.push(cell); rows.push(row); }
+            return rows;
+        }
         let map;
         let allEvents = [];
         let filteredEvents = [];
@@ -568,19 +586,19 @@
 
         async function fetchEvents(filters = {}) {
             try {
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
+                const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
                 const response = await fetch(url);
                 if (!response.ok) {
-                    console.warn('Google Sheets API failed (status ' + response.status + '), using sample data');
+                    console.warn('Google Sheets fetch failed (status ' + response.status + '), using sample data');
                     loadFallbackData();
                     return;
                 }
                 
-                const data = await response.json();
+                const values = parseCSV(await response.text());
 
-                if (data.values && data.values.length > 1) {
-                    const headers = data.values[0];
-                    const rows = data.values.slice(1);
+                if (values && values.length > 1) {
+                    const headers = values[0];
+                    const rows = values.slice(1);
 
                     let events = rows.map((row, index) => {
                         const event = { id: index };
@@ -869,17 +887,16 @@
                     ]]
                 };
 
-                const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}:append?valueInputOption=RAW&key=${BLANKETY}`;
-                const response = await fetch(url, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(body)
-                });
+                // Write submissions require OAuth — send via email instead
+                const subject = encodeURIComponent(`New Event Submission: ${newEvent.name}`);
+                const bodyText = encodeURIComponent(
+                    `Name: ${newEvent.name}\nType: ${newEvent.event_type}\nLocation: ${newEvent.location}\nLat/Lon: ${newEvent.latitude}, ${newEvent.longitude}\nDate: ${newEvent.date}\nDescription: ${newEvent.description}\nURL: ${newEvent.url}\nImage: ${newEvent.image_url}`
+                );
+                window.open(`mailto:hello@unverifiedfile.com?subject=${subject}&body=${bodyText}`, '_blank');
+                const response = { ok: true };
 
                 if (response.ok) {
-                    alert("Event submitted successfully!");
+                    alert("Your submission has been prepared as an email. Send it to complete your report!");
                     document.getElementById("eventForm").reset();
                     fetchEvents();
                 } else {

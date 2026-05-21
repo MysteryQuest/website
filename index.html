@@ -529,21 +529,40 @@
 
     <!-- Google Sheets API Script (Your existing mystery loading code) -->
     <script>
-        // Google Sheets configuration
+        // Google Sheets configuration (keyless via gviz CSV)
         const SHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
-        const API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
         const SHEET_NAME = 'Sheet1';
-        const SHEET_URL = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+        const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
+
+        function parseCSV(text) {
+            const rows = [];
+            let row = [], cell = '', inQ = false;
+            for (let i = 0; i < text.length; i++) {
+                const c = text[i];
+                if (inQ) {
+                    if (c === '"' && text[i+1] === '"') { cell += '"'; i++; }
+                    else if (c === '"') inQ = false;
+                    else cell += c;
+                } else {
+                    if (c === '"') inQ = true;
+                    else if (c === ',') { row.push(cell); cell = ''; }
+                    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+                    else if (c !== '\r') cell += c;
+                }
+            }
+            if (cell || row.length) { row.push(cell); rows.push(row); }
+            return rows;
+        }
 
         // Load mysteries from Google Sheets
         async function loadMysteries() {
             try {
                 const response = await fetch(SHEET_URL);
-                const data = await response.json();
+                const values = parseCSV(await response.text());
                 
-                if (data.values && data.values.length > 0) {
-                    const headers = data.values[0];
-                    const rows = data.values.slice(1);
+                if (values && values.length > 0) {
+                    const headers = values[0];
+                    const rows = values.slice(1);
                     
                     // Get the latest 6 mysteries
                     const latestMysteries = rows.slice(0, 6);
@@ -616,62 +635,29 @@
 
     <!-- YouTube Latest Video Loader -->
     <script>
-        // Embed latest YouTube video from channel
-        async function loadLatestYouTubeVideo() {
+        // Embed latest video from channel uploads playlist — no API key needed
+        function loadLatestYouTubeVideo() {
             const container = document.getElementById('latest-youtube-video');
             const channelId = 'UCL37JaB7QLNubrW4s3xRzJQ';
-            const apiKey = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Your existing API key
-            
-            try {
-                const response = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=1&type=video`);
-                
-                if (!response.ok) {
-                    throw new Error('Failed to fetch YouTube data');
-                }
-                
-                const data = await response.json();
-                
-                if (data.items && data.items.length > 0) {
-                    const videoId = data.items[0].id.videoId;
-                    const videoTitle = data.items[0].snippet.title;
-                    
-                    container.innerHTML = `
-                        <iframe 
-                            class="w-full h-full"
-                            src="https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1" 
-                            title="${videoTitle}"
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen
-                            loading="lazy">
-                        </iframe>
-                    `;
-                } else {
-                    // Fallback: Embed channel
-                    container.innerHTML = `
-                        <iframe 
-                            class="w-full h-full"
-                            src="https://www.youtube.com/embed?listType=user_uploads&list=${channelId}" 
-                            title="Mystery Quest YouTube Channel"
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen>
-                        </iframe>
-                    `;
-                }
-            } catch (error) {
-                console.error('Error loading YouTube video:', error);
-                // Fallback to channel link
-                container.innerHTML = `
-                    <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ" target="_blank" rel="noopener noreferrer" class="w-full h-full flex items-center justify-center bg-charcoal hover:bg-charcoal/80 transition-all group">
-                        <div class="text-center">
-                            <i class="fab fa-youtube text-6xl text-cyber-red mb-3 group-hover:scale-110 transition-transform"></i>
-                            <p class="text-white font-orbitron font-bold mb-2">Visit Our YouTube Channel</p>
-                            <p class="text-gray-400 text-sm">Latest investigations and analysis</p>
-                        </div>
-                    </a>
-                `;
-            }
+            // Uploads playlist = channel ID with UC→UU
+            const playlistId = 'UU' + channelId.slice(2);
+            container.innerHTML = `
+                <iframe
+                    class="w-full h-full"
+                    src="https://www.youtube.com/embed?listType=playlist&list=${playlistId}&index=1&rel=0&modestbranding=1"
+                    title="The Unverified File — Latest Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                    loading="lazy">
+                </iframe>
+            `;
+        }
+
+        // REMOVED: Old YouTube API fetch (key was restricted) — replaced with playlist embed above
+        function _old_loadLatestYouTubeVideo_unused() {
+            const channelId = 'UCL37JaB7QLNubrW4s3xRzJQ';
+            const apiKey = 'REMOVED';
         }
 
         // Load video on page ready

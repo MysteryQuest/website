@@ -146,9 +146,28 @@
     </div>
 
     <script>
-        const API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
         const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
         const SHEET_NAME = 'Sheet1';
+
+        function parseCSV(text) {
+            const rows = [];
+            let row = [], cell = '', inQ = false;
+            for (let i = 0; i < text.length; i++) {
+                const c = text[i];
+                if (inQ) {
+                    if (c === '"' && text[i+1] === '"') { cell += '"'; i++; }
+                    else if (c === '"') inQ = false;
+                    else cell += c;
+                } else {
+                    if (c === '"') inQ = true;
+                    else if (c === ',') { row.push(cell); cell = ''; }
+                    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+                    else if (c !== '\r') cell += c;
+                }
+            }
+            if (cell || row.length) { row.push(cell); rows.push(row); }
+            return rows;
+        }
 
         let mysteries = [];
         let mysteryMaps = [];
@@ -181,20 +200,20 @@
 
         async function fetchMysteries() {
             try {
-            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${API_KEY}`;
+            const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
             const response = await fetch(url);
             if (!response.ok) {
-                console.warn('Google Sheets API failed, using sample data');
+                console.warn('Google Sheets fetch failed, using sample data');
                 mysteries = SAMPLE_MYSTERIES;
                 renderCarousel();
                 return;
             }
             
-            const data = await response.json();
+            const values = parseCSV(await response.text());
 
-            if (data.values && data.values.length > 1) {
-                const headers = data.values[0];
-                const rows = data.values.slice(1);
+            if (values && values.length > 1) {
+                const headers = values[0];
+                const rows = values.slice(1);
                 
                 // First map rows with their original spreadsheet indices
                 mysteries = rows
