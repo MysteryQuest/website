@@ -553,23 +553,6 @@
     <script src="js/navigation.js"></script>
     
     <script>
-            let row = [], cell = '', inQ = false;
-            for (let i = 0; i < text.length; i++) {
-                const c = text[i];
-                if (inQ) {
-                    if (c === '"' && text[i+1] === '"') { cell += '"'; i++; }
-                    else if (c === '"') inQ = false;
-                    else cell += c;
-                } else {
-                    if (c === '"') inQ = true;
-                    else if (c === ',') { row.push(cell); cell = ''; }
-                    else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
-                    else if (c !== '\r') cell += c;
-                }
-            }
-            if (cell || row.length) { row.push(cell); rows.push(row); }
-            return rows;
-        }
         let map;
         let allEvents = [];
         let filteredEvents = [];
