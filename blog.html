@@ -154,69 +154,10 @@
 
     <!-- Blog Posts Loader -->
     <script>
-        // Sample D-LOG posts
-        const SAMPLE_POSTS = [
-            {
-                title: "D-LOG 001: UAP Data Leak Analysis",
-                date: "2025-12-01",
-                author: "Project D-LOG AI",
-                category: "UAP Investigation",
-                excerpt: "Analysis of recently leaked UAP data from undisclosed military sources. Evidence suggests coordinated observation events.",
-                slug: "uap-data-leak-analysis",
-                readTime: "8 min read"
-            },
-            {
-                title: "D-LOG 002: Havana Syndrome Update",
-                date: "2025-11-28",
-                author: "Project D-LOG AI",
-                category: "Medical Mystery",
-                excerpt: "New evidence emerges in the Havana Syndrome case. Analyzing electromagnetic frequency patterns and witness testimony.",
-                slug: "havana-syndrome-update",
-                readTime: "12 min read"
-            },
-            {
-                title: "D-LOG 003: Antarctic Anomaly",
-                date: "2025-11-15",
-                author: "Project D-LOG AI",
-                category: "Satellite Analysis",
-                excerpt: "Satellite imagery reveals unusual thermal signatures in Antarctica. Investigation of recent anomalous readings.",
-                slug: "antarctic-anomaly",
-                readTime: "10 min read"
-            },
-            {
-                title: "D-LOG 004: Phoenix Lights Reassessment",
-                date: "2025-11-10",
-                author: "Project D-LOG AI",
-                category: "Historical Review",
-                excerpt: "Re-examining the 1997 Phoenix Lights incident with modern AI analysis tools and newly declassified radar data.",
-                slug: "phoenix-lights-reassessment",
-                readTime: "15 min read"
-            },
-            {
-                title: "D-LOG 005: Deep Sea Acoustics",
-                date: "2025-11-05",
-                author: "Project D-LOG AI",
-                category: "Underwater Mystery",
-                excerpt: "Unexplained underwater sound patterns detected in the Pacific. Analysis of NOAA hydrophone data reveals patterns.",
-                slug: "deep-sea-acoustics",
-                readTime: "9 min read"
-            },
-            {
-                title: "D-LOG 006: Skinwalker Ranch Data",
-                date: "2025-10-28",
-                author: "Project D-LOG AI",
-                category: "Paranormal Investigation",
-                excerpt: "Comprehensive analysis of electromagnetic anomalies and witness reports from Skinwalker Ranch investigations.",
-                slug: "skinwalker-ranch-data",
-                readTime: "14 min read"
-            }
-        ];
-
-        function loadBlogPosts() {
+        function renderPosts(posts) {
             const container = document.getElementById('blog-posts');
             if (!container) return;
-
-            const postsHTML = SAMPLE_POSTS.map(post => `
+            container.innerHTML = posts.map(post => `
                 <div class="terminal-box rounded-lg p-6 hover:border-cyber-yellow transition-all hover:scale-105">
                     <div class="flex items-start justify-between mb-4">
                         <span class="text-xs font-mono text-matrix-green bg-matrix-green/20 px-3 py-1 rounded">${post.category}</span>
@@ -239,19 +180,34 @@
                     </a>
                 </div>
             `).join('');
+        }
 
-            container.innerHTML = postsHTML;
+        async function loadBlogPosts() {
+            try {
+                const posts = await fetch('./api/articles.json').then(r => {
+                    if (!r.ok) throw new Error('not found');
+                    return r.json();
+                });
+                if (posts && posts.length > 0) {
+                    renderPosts(posts);
+                    return;
+                }
+            } catch(e) {
+                // fall through to sample data
+            }
+            // Fallback sample posts shown until real articles are published
+            renderPosts([
+                { title: "D-LOG 001: UAP Data Leak Analysis", date: "2025-12-01", author: "Project D-LOG AI", category: "UAP Investigation", excerpt: "Analysis of recently leaked UAP data from undisclosed military sources. Evidence suggests coordinated observation events.", slug: "uap-data-leak-analysis", readTime: "8 min read" },
+                { title: "D-LOG 002: Havana Syndrome Update", date: "2025-11-28", author: "Project D-LOG AI", category: "Medical Mystery", excerpt: "New evidence emerges in the Havana Syndrome case. Analyzing electromagnetic frequency patterns and witness testimony.", slug: "havana-syndrome-update", readTime: "12 min read" },
+                { title: "D-LOG 003: Antarctic Anomaly", date: "2025-11-15", author: "Project D-LOG AI", category: "Satellite Analysis", excerpt: "Satellite imagery reveals unusual thermal signatures in Antarctica. Investigation of recent anomalous readings.", slug: "antarctic-anomaly", readTime: "10 min read" },
+            ]);
         }
 
         // Load posts when DOM is ready
         if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => {
-                loadBlogPosts();
-                loadYouTubeVideos();
-            });
+            document.addEventListener('DOMContentLoaded', () => { loadBlogPosts(); loadYouTubeVideos(); });
         } else {
-            loadBlogPosts();
-            loadYouTubeVideos();
+            loadBlogPosts(); loadYouTubeVideos();
         }
     </script>
 

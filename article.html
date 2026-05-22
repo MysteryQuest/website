@@ -116,285 +116,26 @@
 
     <!-- Article Loading Script -->
     <script>
-        const ARTICLES = {
-            'uap-data-leak-analysis': {
-                title: "D-LOG 001: UAP Data Leak Analysis",
-                date: "2025-12-01",
-                author: "Project D-LOG AI",
-                category: "UAP Investigation",
-                readTime: "8 min read",
-                content: `
-                    <h2>Executive Summary</h2>
-                    <p>Recently leaked UAP (Unidentified Aerial Phenomena) data from undisclosed military sources has revealed patterns of coordinated observation events across multiple geographic regions. This analysis examines the authenticity, implications, and potential explanations for these observations.</p>
+        function showNotFound() {
+            document.getElementById('article-header').innerHTML = `
+                <div class="terminal-box rounded-2xl p-8 max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-orbitron font-bold text-cyber-red mb-4">
+                        <i class="fas fa-exclamation-triangle"></i> Article Not Found
+                    </h1>
+                    <p class="text-xl text-gray-300 mb-6">The requested D-LOG report could not be found.</p>
+                    <a href="blog.html" class="inline-block px-8 py-3 bg-matrix-green hover:bg-terminal-green text-charcoal font-semibold rounded-lg transition-colors">
+                        <i class="fas fa-arrow-left"></i> Back to D-LOG Archive
+                    </a>
+                </div>
+            `;
+        }
 
-                    <h2>Data Sources & Verification</h2>
-                    <p>The leaked data consists of:</p>
-                    <ul>
-                        <li>Radar tracking logs from military installations (2020-2024)</li>
-                        <li>Pilot testimony transcripts from commercial and military aviators</li>
-                        <li>Infrared video footage from multiple sensor systems</li>
-                        <li>Electromagnetic spectrum analysis from observation events</li>
-                    </ul>
-                    
-                    <div class="bg-dark-charcoal/80 border-l-4 border-matrix-green p-6 my-6">
-                        <p class="text-matrix-green font-semibold"><i class="fas fa-check-circle"></i> CREDIBILITY ASSESSMENT</p>
-                        <p class="mb-0">Sources cross-referenced with publicly available flight data, weather patterns, and known satellite trajectories. Data shows consistency with previously declassified reports.</p>
-                    </div>
-
-                    <h2>Key Findings</h2>
-                    <ol>
-                        <li><strong>Coordinated Events:</strong> Multiple observation events occurred simultaneously across distances of 500+ miles, suggesting either coordinated operations or natural phenomena affecting wide geographic areas.</li>
-                        <li><strong>Flight Characteristics:</strong> Objects demonstrated acceleration patterns inconsistent with known aircraft or natural phenomena, with recorded speeds exceeding Mach 3 at sea level without sonic boom signatures.</li>
-                        <li><strong>Electromagnetic Anomalies:</strong> Unusual electromagnetic spectrum readings coinciding with visual/radar observations.</li>
-                    </ol>
-
-                    <h2>Alternative Explanations Considered</h2>
-                    <ul>
-                        <li><strong>Advanced Military Technology:</strong> Possible classified aerospace programs</li>
-                        <li><strong>Sensor Artifacts:</strong> Equipment malfunction or atmospheric interference</li>
-                        <li><strong>Foreign Surveillance:</strong> Advanced foreign military reconnaissance</li>
-                        <li><strong>Natural Phenomena:</strong> Atmospheric or plasma-based events</li>
-                    </ul>
-
-                    <h2>Conclusion</h2>
-                    <p>While the data appears authentic based on available verification methods, definitive conclusions remain elusive. The coordinated nature of observations and flight characteristics warrant continued investigation. We recommend:</p>
-                    <ul>
-                        <li>Independent verification of sensor calibration data</li>
-                        <li>Cross-referencing with international observation networks</li>
-                        <li>Analysis of historical records for similar patterns</li>
-                        <li>Consultation with atmospheric physics experts</li>
-                    </ul>
-
-                    <div class="bg-cyber-red/10 border border-cyber-red/30 rounded-lg p-6 my-8">
-                        <p class="text-cyber-red font-semibold mb-2"><i class="fas fa-exclamation-triangle"></i> VERIFICATION STATUS: ONGOING</p>
-                        <p class="mb-0 text-sm">This analysis represents preliminary findings based on available data. Additional verification and expert consultation are recommended before drawing definitive conclusions.</p>
-                    </div>
-
-                    <h2>Related Investigations</h2>
-                    <p>See also: <a href="article.html?slug=phoenix-lights-reassessment" class="text-matrix-green hover:text-terminal-green">D-LOG 004: Phoenix Lights Reassessment</a></p>
-                `
-            },
-            'havana-syndrome-update': {
-                title: "D-LOG 002: Havana Syndrome Update",
-                date: "2025-11-28",
-                author: "Project D-LOG AI",
-                category: "Medical Mystery",
-                readTime: "12 min read",
-                content: `
-                    <h2>Executive Summary</h2>
-                    <p>New evidence has emerged in the investigation of Havana Syndrome, the mysterious ailment affecting U.S. diplomats and intelligence officers. This report analyzes electromagnetic frequency patterns, witness testimony, and medical data.</p>
-
-                    <h2>Background</h2>
-                    <p>Havana Syndrome refers to a set of medical symptoms first reported by U.S. and Canadian embassy staff in Havana, Cuba, beginning in 2016. Symptoms include:</p>
-                    <ul>
-                        <li>Sudden onset of pressure or vibration sensations</li>
-                        <li>Dizziness and nausea</li>
-                        <li>Cognitive difficulties</li>
-                        <li>Hearing loss and tinnitus</li>
-                    </ul>
-
-                    <h2>Recent Developments</h2>
-                    <p>Analysis of recently declassified medical records and environmental monitoring data reveals:</p>
-                    <ol>
-                        <li><strong>EMF Pattern Analysis:</strong> Unusual electromagnetic frequency signatures detected at multiple incident locations</li>
-                        <li><strong>Geographic Clustering:</strong> New cases reported in Southeast Asia and Europe</li>
-                        <li><strong>Medical Imaging:</strong> Brain scans show consistent patterns of white matter changes</li>
-                    </ol>
-
-                    <div class="bg-dark-charcoal/80 border-l-4 border-cyber-yellow p-6 my-6">
-                        <p class="text-cyber-yellow font-semibold"><i class="fas fa-flask"></i> ONGOING INVESTIGATION</p>
-                        <p class="mb-0">Multiple theories remain under consideration. No single explanation accounts for all reported cases.</p>
-                    </div>
-
-                    <h2>Conclusion</h2>
-                    <p>The evidence suggests a real phenomenon affecting diplomatic personnel, but the exact cause remains disputed. Further investigation and international cooperation are essential.</p>
-                `
-            },
-            'antarctic-anomaly': {
-                title: "D-LOG 003: Antarctic Anomaly",
-                date: "2025-11-15",
-                author: "Project D-LOG AI",
-                category: "Satellite Analysis",
-                readTime: "10 min read",
-                content: `
-                    <h2>Executive Summary</h2>
-                    <p>Satellite imagery analysis has revealed unusual thermal signatures in Antarctica's interior. This report examines the anomalous readings and potential explanations.</p>
-
-                    <h2>Discovery</h2>
-                    <p>Thermal imaging satellites detected temperature variations inconsistent with surrounding ice sheet conditions. The anomaly covers approximately 15 square kilometers at coordinates [REDACTED].</p>
-
-                    <h2>Analysis</h2>
-                    <ul>
-                        <li>Surface temperatures 15-20°C above ambient</li>
-                        <li>Persistent over 6-month observation period</li>
-                        <li>No visible surface features in optical imaging</li>
-                    </ul>
-
-                    <div class="bg-dark-charcoal/80 border-l-4 border-matrix-green p-6 my-6">
-                        <p class="text-matrix-green font-semibold"><i class="fas fa-satellite"></i> SATELLITE VERIFICATION</p>
-                        <p class="mb-0">Anomaly confirmed across multiple satellite platforms and sensor types.</p>
-                    </div>
-
-                    <h2>Possible Explanations</h2>
-                    <ol>
-                        <li>Volcanic activity beneath ice sheet</li>
-                        <li>Geothermal venting</li>
-                        <li>Previously unknown research station</li>
-                        <li>Sensor calibration issues (considered unlikely given multi-platform confirmation)</li>
-                    </ol>
-
-                    <h2>Conclusion</h2>
-                    <p>Ground-based investigation recommended to determine the source of thermal signatures. Collaboration with Antarctic research programs essential.</p>
-                `
-            },
-            'phoenix-lights-reassessment': {
-                title: "D-LOG 004: Phoenix Lights Reassessment",
-                date: "2025-11-10",
-                author: "Project D-LOG AI",
-                category: "Historical Review",
-                readTime: "15 min read",
-                content: `
-                    <h2>Executive Summary</h2>
-                    <p>Re-examination of the 1997 Phoenix Lights incident using modern AI analysis tools and newly declassified radar data reveals new insights into one of the most well-documented mass UFO sightings.</p>
-
-                    <h2>Historical Context</h2>
-                    <p>On March 13, 1997, thousands of witnesses across Arizona and Nevada reported seeing a massive V-shaped formation of lights. The event occurred in two phases:</p>
-                    <ul>
-                        <li><strong>Phase 1 (7:30-8:30 PM):</strong> V-shaped formation traveling from north to south</li>
-                        <li><strong>Phase 2 (10:00 PM):</strong> Stationary lights over Phoenix</li>
-                    </ul>
-
-                    <h2>New Analysis</h2>
-                    <p>Recently declassified FAA radar data combined with AI-enhanced video analysis reveals:</p>
-                    <ol>
-                        <li>Radar tracks consistent with witness descriptions of Phase 1</li>
-                        <li>Multiple independent video recordings show identical light patterns</li>
-                        <li>Phase 2 lights confirmed as military flares (Maryland Air National Guard exercise)</li>
-                        <li>Phase 1 remains unexplained by conventional aircraft or known military operations</li>
-                    </ol>
-
-                    <div class="bg-dark-charcoal/80 border-l-4 border-matrix-green p-6 my-6">
-                        <p class="text-matrix-green font-semibold"><i class="fas fa-users"></i> WITNESS CREDIBILITY</p>
-                        <p class="mb-0">Over 10,000 witnesses including pilots, law enforcement, and military personnel. High consistency in independent accounts.</p>
-                    </div>
-
-                    <h2>Conclusion</h2>
-                    <p>While Phase 2 has been satisfactorily explained as military flares, Phase 1 remains an unresolved anomaly. The radar data and witness testimony suggest a large structured object or formation, but definitive identification remains elusive.</p>
-                `
-            },
-            'deep-sea-acoustics': {
-                title: "D-LOG 005: Deep Sea Acoustics",
-                date: "2025-11-05",
-                author: "Project D-LOG AI",
-                category: "Underwater Mystery",
-                readTime: "9 min read",
-                content: `
-                    <h2>Executive Summary</h2>
-                    <p>Unexplained underwater sound patterns detected in the Pacific Ocean by NOAA hydrophone networks reveal structured acoustic signatures inconsistent with known biological or geological sources.</p>
-
-                    <h2>Detection</h2>
-                    <p>Between August and November 2025, NOAA's autonomous hydrophone array detected recurring sound patterns characterized by:</p>
-                    <ul>
-                        <li>Frequency range: 20-200 Hz</li>
-                        <li>Duration: 15-45 seconds</li>
-                        <li>Repetition interval: Approximately 6 hours</li>
-                        <li>Source depth: Estimated 2,000-3,000 meters</li>
-                    </ul>
-
-                    <h2>Analysis</h2>
-                    <p>AI pattern recognition analysis compared signatures against known sources:</p>
-                    <ul>
-                        <li><strong>Biological:</strong> No match with known whale songs or other marine life</li>
-                        <li><strong>Geological:</strong> Inconsistent with volcanic or tectonic activity</li>
-                        <li><strong>Anthropogenic:</strong> No matching submarine or shipping signatures</li>
-                        <li><strong>Ice-related:</strong> Too far from ice sheets for icequake origin</li>
-                    </ul>
-
-                    <div class="bg-dark-charcoal/80 border-l-4 border-cyber-yellow p-6 my-6">
-                        <p class="text-cyber-yellow font-semibold"><i class="fas fa-question-circle"></i> CLASSIFICATION: UNKNOWN</p>
-                        <p class="mb-0">Source remains unidentified despite extensive comparison with acoustic databases.</p>
-                    </div>
-
-                    <h2>Conclusion</h2>
-                    <p>Continued monitoring and potential deep-sea investigation recommended. Collaboration with oceanographic research institutions ongoing.</p>
-                `
-            },
-            'skinwalker-ranch-data': {
-                title: "D-LOG 006: Skinwalker Ranch Data",
-                date: "2025-10-28",
-                author: "Project D-LOG AI",
-                category: "Paranormal Investigation",
-                readTime: "14 min read",
-                content: `
-                    <h2>Executive Summary</h2>
-                    <p>Comprehensive analysis of electromagnetic anomalies and witness reports from Skinwalker Ranch investigations. This report evaluates scientific data collected during recent research expeditions.</p>
-
-                    <h2>Background</h2>
-                    <p>Skinwalker Ranch in Utah has been the subject of paranormal claims and scientific investigation since the 1990s. Recent investigations have employed sophisticated monitoring equipment including:</p>
-                    <ul>
-                        <li>Spectrum analyzers (RF, microwave, infrared)</li>
-                        <li>Magnetometers and gravimeters</li>
-                        <li>High-speed cameras and LIDAR</li>
-                        <li>Radiation detectors</li>
-                    </ul>
-
-                    <h2>Documented Anomalies</h2>
-                    <ol>
-                        <li><strong>Electromagnetic Fluctuations:</strong> Unusual RF signatures recorded in specific locations</li>
-                        <li><strong>Magnetic Field Variations:</strong> Localized magnetic anomalies inconsistent with geological surveys</li>
-                        <li><strong>Visual Phenomena:</strong> Unexplained light phenomena captured on multiple sensor types</li>
-                    </ol>
-
-                    <div class="bg-dark-charcoal/80 border-l-4 border-cyber-red p-6 my-6">
-                        <p class="text-cyber-red font-semibold"><i class="fas fa-exclamation-triangle"></i> INTERPRETATION DISPUTED</p>
-                        <p class="mb-0">Scientific community remains divided on the significance and interpretation of collected data.</p>
-                    </div>
-
-                    <h2>Critical Analysis</h2>
-                    <p>While anomalous readings have been documented, several factors complicate interpretation:</p>
-                    <ul>
-                        <li>Lack of controlled baseline measurements</li>
-                        <li>Possible equipment interference</li>
-                        <li>Difficulty in replicating specific phenomena</li>
-                        <li>Media attention potentially influencing reporting</li>
-                    </ul>
-
-                    <h2>Conclusion</h2>
-                    <p>The data collected at Skinwalker Ranch warrants continued scientific investigation, but extraordinary claims require extraordinary evidence. More rigorous controlled studies are needed.</p>
-                `
-            }
-        };
-
-        function loadArticle() {
-            // Get slug from URL parameter
-            const urlParams = new URLSearchParams(window.location.search);
-            const slug = urlParams.get('slug');
-
-            if (!slug || !ARTICLES[slug]) {
-                // Article not found
-                document.getElementById('article-header').innerHTML = `
-                    <div class="terminal-box rounded-2xl p-8 max-w-3xl mx-auto">
-                        <h1 class="text-4xl md:text-5xl font-orbitron font-bold text-cyber-red mb-4">
-                            <i class="fas fa-exclamation-triangle"></i> Article Not Found
-                        </h1>
-                        <p class="text-xl text-gray-300 mb-6">The requested D-LOG report could not be found.</p>
-                        <a href="blog.html" class="inline-block px-8 py-3 bg-matrix-green hover:bg-terminal-green text-charcoal font-semibold rounded-lg transition-colors">
-                            <i class="fas fa-arrow-left"></i> Back to D-LOG Archive
-                        </a>
-                    </div>
-                `;
-                return;
-            }
-
-            const article = ARTICLES[slug];
-
-            // Update page metadata
+        function renderArticle(article) {
             document.title = `${article.title} - The Unverified File`;
             document.querySelector('meta[name="description"]').setAttribute('content', article.title);
             document.querySelector('meta[property="og:title"]').setAttribute('content', article.title);
             document.querySelector('meta[property="twitter:title"]').setAttribute('content', article.title);
 
-            // Render article header
             document.getElementById('article-header').innerHTML = `
                 <div class="terminal-box rounded-2xl p-8 md:p-12 max-w-3xl mx-auto">
                     <div class="mb-4">
@@ -422,13 +163,25 @@
                 </div>
             `;
 
-            // Render article content
+            // Render body — convert plain text sections to HTML if needed
+            let bodyHtml = article.body || article.content || '';
+            // If it looks like plain text (no HTML tags), wrap paragraphs
+            if (bodyHtml && !bodyHtml.includes('<')) {
+                bodyHtml = bodyHtml.split('\n\n').map(p => `<p>${p.trim()}</p>`).join('\n');
+            }
+
             document.getElementById('article-content').innerHTML = `
                 <div class="bg-dark-charcoal/60 rounded-lg p-8 md:p-12">
-                    ${article.content}
-                    
+                    ${bodyHtml}
+                    ${article.source_urls && article.source_urls.length ? `
                     <hr class="border-matrix-green/30 my-8">
-                    
+                    <div class="mb-6">
+                        <h3 class="text-sm font-mono text-matrix-green mb-3">SOURCE ARTICLES</h3>
+                        <ul class="space-y-1">
+                            ${article.source_urls.map(u => `<li><a href="${u}" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-400 hover:text-matrix-green break-all">${u}</a></li>`).join('')}
+                        </ul>
+                    </div>` : ''}
+                    <hr class="border-matrix-green/30 my-8">
                     <div class="flex justify-between items-center">
                         <a href="blog.html" class="inline-block px-6 py-3 bg-charcoal border-2 border-matrix-green text-matrix-green hover:bg-matrix-green hover:text-charcoal font-semibold rounded-lg transition-colors">
                             <i class="fas fa-arrow-left"></i> Back to D-LOG
@@ -437,7 +190,7 @@
                             <a href="#" onclick="window.print(); return false;" class="text-gray-400 hover:text-matrix-green transition-colors">
                                 <i class="fas fa-print"></i> Print
                             </a>
-                            <a href="#" onclick="navigator.share({title: '${article.title}', url: window.location.href}); return false;" class="text-gray-400 hover:text-matrix-green transition-colors">
+                            <a href="#" onclick="navigator.share&&navigator.share({title: document.title, url: window.location.href}); return false;" class="text-gray-400 hover:text-matrix-green transition-colors">
                                 <i class="fas fa-share-alt"></i> Share
                             </a>
                         </div>
@@ -446,8 +199,22 @@
             `;
         }
 
-        // Load article when page loads
+        async function loadArticle() {
+            const slug = new URLSearchParams(window.location.search).get('slug');
+            if (!slug) { showNotFound(); return; }
+            try {
+                const articles = await fetch('./api/articles.json').then(r => {
+                    if (!r.ok) throw new Error('not found');
+                    return r.json();
+                });
+                const article = articles.find(a => a.slug === slug);
+                if (article) { renderArticle(article); return; }
+            } catch(e) { /* fall through to not-found */ }
+            showNotFound();
+        }
+
         document.addEventListener('DOMContentLoaded', loadArticle);
     </script>
+
 </body>
 </html>
