@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence Network - The Unverified File</title>
+  <meta name="description" content="Interactive evidence graph showing attributable links between cases, sources, locations, and topics.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{'matrix-green':'#00cc66','terminal-green':'#0a9461','charcoal':'#1a1a1a','dark-charcoal':'#0f0f0f','cyber-yellow':'#ffd700'}}}};</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    body{font-family:Inter,system-ui,sans-serif;background:#090b0a}.serif{font-family:"Source Serif 4",Georgia,serif}.kicker{font-family:Orbitron,monospace;letter-spacing:.12em;text-transform:uppercase}
+    #network{height:620px;background:radial-gradient(circle at 50% 45%,#17251e,#090b0a 70%);border:1px solid #294236;border-radius:1rem}
+    .panel{background:rgba(15,20,17,.9);border:1px solid rgba(148,163,184,.18)}.evidence-row:hover{background:rgba(0,204,102,.06)}
+    .dot{width:.7rem;height:.7rem;border-radius:999px;display:inline-block}.vis-tooltip{max-width:320px!important;white-space:normal!important;background:#101713!important;color:#eee!important;border:1px solid #00cc66!important;padding:.7rem!important;border-radius:.5rem!important}
+  </style>
+</head>
+<body class="text-gray-100">
+  <div id="header-container"></div>
+  <main class="container mx-auto max-w-7xl px-4 py-10">
+    <a href="archive.html" class="text-sm text-matrix-green hover:underline">← Back to evidence archive</a>
+    <header class="my-7 max-w-4xl">
+      <p class="kicker text-xs text-matrix-green mb-3">Interactive evidence graph</p>
+      <h1 id="case-title" class="serif text-4xl md:text-6xl font-bold leading-tight">Loading network…</h1>
+      <p class="text-gray-400 leading-7 mt-4">Every line represents a recorded relationship. Select a node or evidence row to inspect why the link exists and whether it is observed or inferred.</p>
+    </header>
+
+    <section class="grid xl:grid-cols-[minmax(0,1fr)_340px] gap-5 mb-8">
+      <div id="network" role="img" aria-label="Interactive graph of evidence connections"></div>
+      <aside class="panel rounded-2xl p-6">
+        <h2 class="serif text-2xl font-bold mb-5">Selected connection</h2>
+        <div id="selection" class="text-sm text-gray-400 leading-6">Select a connected node to see its evidence trail.</div>
+        <hr class="border-gray-700 my-6">
+        <h3 class="font-semibold mb-3">Node key</h3>
+        <div class="space-y-3 text-sm text-gray-300">
+          <div><span class="dot bg-matrix-green mr-2"></span>Current case</div>
+          <div><span class="dot bg-cyan-400 mr-2"></span>Attributable source</div>
+          <div><span class="dot bg-yellow-300 mr-2"></span>Location</div>
+          <div><span class="dot bg-purple-400 mr-2"></span>Topic or classification</div>
+          <div><span class="dot bg-orange-400 mr-2"></span>Related case</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="panel rounded-2xl overflow-hidden">
+      <div class="p-6 border-b border-gray-700">
+        <h2 class="serif text-3xl font-bold">Connection ledger</h2>
+        <p id="connection-count" class="text-sm text-gray-400 mt-2">Loading connections…</p>
+      </div>
+      <div id="ledger" class="divide-y divide-gray-800"></div>
+    </section>
+    <p class="text-xs text-gray-500 leading-5 mt-5">A graph link is not proof that a claim is true. Inferred links require review; duplicated or syndicated reports should not count as independent corroboration.</p>
+  </main>
+  <div id="footer-container"></div>
+  <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="js/header.js"></script><script src="js/footer.js"></script><script src="js/navigation.js"></script>
+  <script>
+    const API='https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1';
+    const eventId=new URLSearchParams(location.search).get('id');
+    const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+    const colors={event:'#ff8a3d',source:'#22d3ee',location:'#fde047',topic:'#c084fc',person:'#fb7185',organization:'#60a5fa',document:'#a3e635',social_post:'#f472b6',claim:'#fbbf24'};
+    const relation=v=>String(v||'connected to').replaceAll('_',' ');
+    let connections=[];
+    function showConnection(index){
+      const item=connections[index]; if(!item)return;
+      const link=item.evidence_url||item.url;
+      document.getElementById('selection').innerHTML=`<p class="kicker text-[.65rem] text-matrix-green mb-2">${esc(relation(item.relationship))}</p><h3 class="serif text-2xl text-white font-bold mb-3">${esc(item.label)}</h3><p>${esc(item.reason||'A structured relationship recorded in the evidence graph.')}</p><div class="mt-4 flex gap-3 text-xs"><span class="border border-gray-600 rounded px-2 py-1">${esc(item.status)}</span><span class="border border-gray-600 rounded px-2 py-1">Weight ${Number(item.weight).toFixed(2)}</span></div>${link?`<a class="inline-block mt-5 text-matrix-green hover:underline" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Open supporting record ↗</a>`:''}`;
+    }
+    async function init(){
+      if(!eventId)throw new Error('No case was selected. Return to the archive and choose “View evidence graph.”');
+      const response=await fetch(`${API}/graph/${encodeURIComponent(eventId)}`); if(!response.ok)throw new Error(`Evidence graph unavailable (${response.status})`);
+      const data=await response.json(); connections=data.connections||[];
+      document.title=`${data.node.label} Evidence Network - The Unverified File`; document.getElementById('case-title').textContent=data.node.label;
+      document.getElementById('connection-count').textContent=`${connections.length} recorded ${connections.length===1?'relationship':'relationships'}, ordered by evidence weight.`;
+      const root={id:'root',label:data.node.label,shape:'dot',size:34,color:'#00cc66',font:{color:'#fff',size:18,face:'Inter',strokeWidth:4,strokeColor:'#09100c'},borderWidth:3,title:'Current case'};
+      const nodes=[root,...connections.map((c,i)=>({id:`n${i}`,label:c.label,shape:'dot',size:18,color:colors[c.node_type]||'#94a3b8',font:{color:'#e5e7eb',size:13,face:'Inter'},title:`${relation(c.relationship)} · ${c.status}`}))];
+      const edges=connections.map((c,i)=>({id:`e${i}`,from:'root',to:`n${i}`,label:relation(c.relationship),color:{color:c.status==='inferred'?'#8b5cf6':'#4b7a63'},width:1+Number(c.weight)*2,dashes:c.status==='inferred'}));
+      const graph=new vis.Network(document.getElementById('network'),{nodes:new vis.DataSet(nodes),edges:new vis.DataSet(edges)},{interaction:{hover:true,navigationButtons:true},physics:{barnesHut:{gravitationalConstant:-6500,springLength:180},stabilization:{iterations:180}},edges:{font:{color:'#9ca3af',size:10,background:'#090b0a'},smooth:{type:'continuous'}},nodes:{borderWidth:2}});
+      graph.on('selectNode',p=>{if(p.nodes[0]!=='root')showConnection(Number(p.nodes[0].slice(1)));});
+      const ledger=document.getElementById('ledger');
+      ledger.innerHTML=connections.length?connections.map((c,i)=>`<button class="evidence-row text-left w-full grid md:grid-cols-[1fr_150px_100px] gap-3 p-5" data-index="${i}"><span><strong class="serif text-lg text-white">${esc(c.label)}</strong><small class="block text-gray-500 mt-1">${esc(c.node_type)}</small></span><span class="text-sm text-matrix-green">${esc(relation(c.relationship))}</span><span class="text-xs text-gray-400 md:text-right">${esc(c.status)} · ${Number(c.weight).toFixed(2)}</span></button>`).join(''):'<p class="p-6 text-gray-400">No connections have been recorded for this case yet.</p>';
+      ledger.addEventListener('click',e=>{const row=e.target.closest('[data-index]');if(row){const i=Number(row.dataset.index);showConnection(i);graph.selectNodes([`n${i}`]);graph.focus(`n${i}`,{scale:1.2,animation:true});}});
+      if(connections.length)showConnection(0);
+    }
+    init().catch(error=>{document.getElementById('case-title').textContent='Network unavailable';document.getElementById('network').innerHTML=`<p class="p-8 text-red-400">${esc(error.message)}</p>`;});
+  </script>
+</body>
+</html>
