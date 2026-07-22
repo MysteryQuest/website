@@ -106,7 +106,7 @@
 
         async function fetchEventDetails(eventName) {
             try {
-                const rows = await fetch('./js/mysteries.json').then(r => r.json());
+                const rows = await window.UnverifiedData.loadEvents();
                 
                 if (rows && rows.length > 0) {
                     const eventData = rows.find(row =>
@@ -393,26 +393,7 @@
         }
 
         async function voteForEvent(eventId) {
-            const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
-            const payload = JSON.stringify({ rowIndex: eventId + 2 });
-
-            try {
-                const response = await fetch(url, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "text/plain", // Avoid preflight
-                    },
-                    body: payload,
-                    mode: "no-cors", // Bypass CORS restrictions
-                });
-
-                // With no-cors mode, the response is opaque and cannot be processed.
-                console.log("Request sent. Response cannot be inspected due to no-cors mode.");
-                alert("Vote submitted successfully!");
-            } catch (error) {
-                console.error("Error submitting vote:", error);
-                alert("An error occurred while submitting your vote.");
-            }
+            alert("Voting is temporarily paused while the privacy-safe API is brought online.");
         }
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -717,6 +698,7 @@
             }
         }
     </style>
+    <script src="./js/data-api.js"></script>
 </head>
 <body class="text-gray-100">
     <!-- Background Image -->
@@ -885,4 +867,3 @@
     <script src="./js/source_verification_display.js"></script>
 </body>
 </html>
-

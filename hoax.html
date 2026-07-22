@@ -113,6 +113,7 @@
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="./js/data-api.js"></script>
 </head>
 <body class="text-gray-100 terminal-grid">
     <!-- Background Image -->
@@ -177,7 +178,7 @@
 
         async function fetchMysteries() {
             try {
-            const rows = await fetch('./js/mysteries.json').then(r => r.json());
+            const rows = await window.UnverifiedData.loadEvents();
 
             if (rows && rows.length > 0) {
                 
@@ -467,44 +468,7 @@
          * @param {string} type - The type of vote ('realVotes' or 'hoaxVotes').
          */
         async function submitVote(index, type) {
-            const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
-            
-            let column;
-            
-            if (type === 'realVotes') {
-                column = 'votes';
-            } else if (type === 'hoaxVotes') {
-                column = 'hoax';
-            } else {
-                console.error('Invalid vote type:', type);
-                return;
-            }
-
-            const payload = JSON.stringify({
-                rowIndex: mysteries[index].spreadsheetRowIndex,
-                column: column
-            });
-
-            console.log('Submitting vote:', {
-                mysteryName: mysteries[index].name,
-                rowIndex: mysteries[index].spreadsheetRowIndex,
-                column: column,
-                type: type
-            });
-
-            try {
-                const response = await fetch(url, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: payload,
-                    mode: "no-cors"
-                });
-                console.log("Vote submitted successfully.");
-            } catch (error) {
-                console.error("Error submitting vote:", error);
-            }
+            console.info("Vote recorded only in this browser session while the privacy-safe API is brought online.", { index, type });
         }
 
         function moveToNextSlide(currentIndex) {

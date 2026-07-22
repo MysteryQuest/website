@@ -159,6 +159,7 @@
             scrollbar-width: none;
         }
     </style>
+    <script src="./js/data-api.js"></script>
 </head>
 
 <body class="text-gray-100 terminal-grid">
@@ -532,7 +533,7 @@
         // Load mysteries from local JSON (downloaded from Google Sheets)
         async function loadMysteries() {
             try {
-                const rows = await fetch('./js/mysteries.json').then(r => r.json());
+                const rows = await window.UnverifiedData.loadEvents();
                 
                 if (rows && rows.length > 0) {
                     // Get the latest 6 mysteries

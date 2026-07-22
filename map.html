@@ -424,6 +424,7 @@
             }
         }
     </style>
+    <script src="./js/data-api.js"></script>
 </head>
 <body class="text-gray-100">
     <!-- Background Image -->
@@ -564,7 +565,7 @@
 
         async function fetchEvents(filters = {}) {
             try {
-                const rows = await fetch('./js/mysteries.json').then(r => r.json());
+                const rows = await window.UnverifiedData.loadEvents();
 
                 if (rows && rows.length > 0) {
 
@@ -798,26 +799,7 @@
         }
 
         async function voteForEvent(eventId) {
-            try {
-                const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
-                const payload = JSON.stringify({ rowIndex: eventId + 2 });
-
-                await fetch(url, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "text/plain",
-                    },
-                    body: payload,
-                    mode: "no-cors",
-                });
-
-                alert("Vote submitted successfully!");
-                // Optionally refresh the data
-                fetchEvents();
-            } catch (error) {
-                console.error("Error submitting vote:", error);
-                alert("An error occurred while submitting your vote.");
-            }
+            alert("Voting is temporarily paused while the privacy-safe API is brought online.");
         }
 
         async function submitEvent() {

@@ -1,22 +1,16 @@
 #!/usr/bin/env python3
-"""
-Refresh mysteries.json from Google Sheets.
-Run this whenever the sheet is updated:
-    python3 website/refresh-data.py
-"""
-import csv, json, io, urllib.request, os
+"""Create an offline JSON snapshot from the public D1-backed API."""
+import json, urllib.request, os
 
-SHEET_ID  = "1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ"
-SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet1"
+EVENTS_URL = "https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1/events"
 OUT_PATH  = os.path.join(os.path.dirname(__file__), "js", "mysteries.json")
 
-print(f"Downloading from Google Sheets...")
-with urllib.request.urlopen(SHEET_URL) as r:
-    text = r.read().decode("utf-8")
-
-reader = csv.DictReader(io.StringIO(text))
-rows = [row for row in reader]
-print(f"  {len(rows)} rows, {len(rows[0])} columns")
+print("Downloading from the public events API...")
+request = urllib.request.Request(EVENTS_URL, headers={"Accept": "application/json"})
+with urllib.request.urlopen(request) as response:
+    payload = json.load(response)
+rows = payload["events"]
+print(f"  {len(rows)} rows")
 
 with open(OUT_PATH, "w") as f:
     json.dump(rows, f, indent=2)

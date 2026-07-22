@@ -399,7 +399,7 @@
                 <input type="date" id="newDate" name="date" required>
 
                 <label for="description">Description:</label>
-                <textarea id="newDescription" name="description"></textarea>
+                <textarea id="newDescription" name="description" required></textarea>
 
                 <label for="url">Source URL:</label>
                 <input type="url" id="newUrl" name="url" required>
@@ -407,36 +407,47 @@
                 <label for="imageUrl">Image URL:</label>
                 <input type="url" id="newImageUrl" name="imageUrl">
 
-                <button type="button" onclick="submitEvent()">Submit Event</button>
+                <label for="contactEmail">Email (optional):</label>
+                <input type="email" id="contactEmail" name="contactEmail" autocomplete="email">
+
+                <label>
+                    <input type="checkbox" id="publishConsent" required>
+                    I consent to editorial review and publication of a sanitized version of this report.
+                    Contact details and precise location will not be published automatically.
+                </label>
+
+                <label>
+                    <input type="checkbox" id="contactConsent">
+                    You may contact me about this report.
+                </label>
+
+                <div style="position:absolute;left:-10000px" aria-hidden="true">
+                    <label for="website">Website</label>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+
+                <button type="submit">Submit Event</button>
+                <p id="submissionStatus" role="status" aria-live="polite"></p>
             </form>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        const BLANKETY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ'; // Replace with your Google Sheets API Key
-        const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ'; // Replace with your Google Spreadsheet ID
-        const SHEET_NAME = 'Sheet1';
+        const PUBLIC_EVENTS_API = 'https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1/events';
+        const SUBMISSIONS_API = 'https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1/submissions';
         let map;
 
         // Parse CSV data into array of objects
 
 
         async function fetchEvents(filters = {}) {
-            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${BLANKETY}`;
-            const response = await fetch(url);
-            const data = await response.json();
+            const response = await fetch(PUBLIC_EVENTS_API, { headers: { Accept: 'application/json' } });
+            if (!response.ok) throw new Error(`Public events API failed (${response.status})`);
+            const payload = await response.json();
+            let events = payload.events || [];
 
-            if (data.values && data.values.length > 1) {
-                const headers = data.values[0];
-                const rows = data.values.slice(1);
-
-                let events = rows.map((row, index) => {
-                    const event = { id: index };
-                    headers.forEach((header, i) => {
-                        event[header] = row[i] || '';
-                    });
-                    return event;
-                });
+            if (Array.isArray(events)) {
+                events = events.map((event, index) => ({ ...event, id: event.id || index }));
 
             // Apply filters
             if (filters.eventType) {
@@ -527,30 +538,13 @@
         }
 
         async function voteForEvent(eventId) {
-            const url = "https://script.google.com/macros/s/AKfycbwj1I4MNz7m3YvpACN3lrQudoSVsHo6GJ_vR--RGV5ZR0G7culcVppGv1Ujn0daTKLe8g/exec";
-            const payload = JSON.stringify({ rowIndex: eventId + 2 });
-
-            try {
-                const response = await fetch(url, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "text/plain", // Avoid preflight
-                    },
-                    body: payload,
-                    mode: "no-cors", // Bypass CORS restrictions
-                });
-
-                // With no-cors mode, the response is opaque and cannot be processed.
-                console.log("Request sent. Response cannot be inspected due to no-cors mode.");
-                alert("Vote submitted successfully!");
-            } catch (error) {
-                console.error("Error submitting vote:", error);
-                alert("An error occurred while submitting your vote.");
-            }
+            alert("Voting is temporarily paused while the privacy-safe API is brought online.");
         }
 
         async function submitEvent() {
-
+            const status = document.getElementById("submissionStatus");
+            const submitButton = document.querySelector('#eventForm button[type="submit"]');
+            const contactEmail = document.getElementById("contactEmail").value.trim();
             const newEvent = {
                 event_type: document.getElementById("newEventType").value,
                 name: document.getElementById("newName").value,
@@ -561,47 +555,41 @@
                 description: document.getElementById("newDescription").value,
                 url: document.getElementById("newUrl").value,
                 image_url: document.getElementById("newImageUrl").value,
-                votes: 0,
-                new: "User Submitted",
-                investigation_status: "Open",
-                verdict: "Unknown",
-                research_link: "detail.html?name=" + encodeURIComponent(document.getElementById("newName").value)
+                contact_email: contactEmail || null,
+                publish_consent: document.getElementById("publishConsent").checked,
+                contact_consent: document.getElementById("contactConsent").checked,
+                website: document.getElementById("website").value
             };
 
-            const body = {
-                values: [[
-                    newEvent.event_type,
-                    newEvent.name,
-                    newEvent.location,
-                    newEvent.latitude,
-                    newEvent.longitude,
-                    newEvent.date,
-                    newEvent.description,
-                    newEvent.url,
-                    newEvent.image_url,
-                    newEvent.votes,
-                    newEvent.investigation_status,
-                    newEvent.verdict,
-                    newEvent.research_link
-                ]]
-            };
+            if (contactEmail && !newEvent.contact_consent) {
+                status.textContent = "Please consent to contact or remove your email address.";
+                return;
+            }
 
-            const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}:append?valueInputOption=RAW&key=${BLANKETY}`;
-            const response = await fetch(url, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(body)
-            });
-
-            if (response.ok) {
-                alert("Event submitted successfully!");
-                fetchEvents();
-            } else {
-                alert("Failed to submit event.");
+            submitButton.disabled = true;
+            status.textContent = "Submitting securely…";
+            try {
+                const response = await fetch(SUBMISSIONS_API, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(newEvent)
+                });
+                if (!response.ok) throw new Error(`Submission failed (${response.status})`);
+                const result = await response.json();
+                document.getElementById("eventForm").reset();
+                status.textContent = `Report received for private review. Reference: ${result.submission_id}`;
+            } catch (error) {
+                console.error("Submission error", error);
+                status.textContent = "We could not receive the report. Please try again later.";
+            } finally {
+                submitButton.disabled = false;
             }
         }
+
+        document.getElementById("eventForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            submitEvent();
+        });
 
         document.getElementById("filtersForm").addEventListener("submit", function(event) {
             event.preventDefault();

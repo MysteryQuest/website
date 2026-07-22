@@ -1,7 +1,5 @@
 // directory/directory-main.js
-const GOOGLE_SHEETS_API_KEY = 'AIzaSyDWYze9-dP4ptq-4vxZVBOCW-Uo9wC7KhQ';
-const SPREADSHEET_ID = '1fJIP4P3Gbm71OKgG_EnIDZ-7nBRoMJOuxvkc2tnC_LQ';
-const SHEET_NAME = 'Sheet1';
+const PUBLIC_EVENTS_API = 'https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1/events';
 
 // UFO-specific location data with businesses and services
 const UFO_LOCATIONS = {
@@ -104,21 +102,13 @@ let filteredData = [];
 
 async function loadUFOData() {
     try {
-        const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}?key=${GOOGLE_SHEETS_API_KEY}`;
-        const response = await fetch(url);
-        const data = await response.json();
+        const response = await fetch(PUBLIC_EVENTS_API, { headers: { Accept: 'application/json' } });
+        if (!response.ok) throw new Error(`Public events API failed (${response.status})`);
+        const payload = await response.json();
+        const data = payload.events || [];
 
-        if (data.values && data.values.length > 1) {
-            const headers = data.values[0];
-            const rows = data.values.slice(1);
-
-            allUFOData = rows.map((row, index) => {
-                const entry = {};
-                headers.forEach((header, i) => {
-                    entry[header] = row[i] || '';
-                });
-                return entry;
-            }).filter(entry => 
+        if (Array.isArray(data)) {
+            allUFOData = data.filter(entry =>
                 entry.event_type && 
                 entry.event_type.toLowerCase().includes('ufo') ||
                 entry.name && (
