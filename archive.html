@@ -21,7 +21,7 @@
         body { font-family: Inter, system-ui, sans-serif; background: #0b0d0c; }
         .archive-title, .case-title { font-family: "Source Serif 4", Georgia, serif; }
         .archive-kicker { font-family: Orbitron, monospace; letter-spacing: .12em; text-transform: uppercase; }
-        .case-card { background: rgba(15, 15, 15, .82); border: 1px solid rgba(148, 163, 184, .18); transition: transform .18s ease, border-color .18s ease; }
+        .case-card { background: rgba(15, 15, 15, .82); border: 1px solid rgba(148, 163, 184, .18); transition: transform .18s ease, border-color .18s ease; content-visibility: auto; contain-intrinsic-size: 0 560px; }
         .case-card:hover { border-color: rgba(0, 204, 102, .7); transform: translateY(-2px); }
         .case-image { aspect-ratio: 16 / 9; object-fit: cover; background: #111; }
         .rank-meter { height: .3rem; background: #23302a; border-radius: 999px; overflow: hidden; }
@@ -61,12 +61,13 @@
             <div class="grid lg:grid-cols-[1fr_auto] gap-8 items-end mb-8">
                 <div>
                     <p class="archive-kicker text-xs text-matrix-green mb-2">Ranked corpus</p>
-                    <h2 id="cases-heading" class="archive-title text-3xl md:text-4xl font-bold mb-3">Sightings, cases, and source records</h2>
+                    <h2 id="cases-heading" class="archive-title text-3xl md:text-4xl font-bold mb-3">All map sightings and case records</h2>
+                    <p class="text-gray-300 mb-2">This is the complete searchable D1 corpus used by the evidence map, including records without publishable coordinates.</p>
                     <p id="ranking-note" class="text-gray-400 max-w-3xl">Loading ranking methodology…</p>
                 </div>
                 <div class="flex gap-6 text-center">
                     <div><div id="case-total" class="stat-value text-2xl text-matrix-green">—</div><div class="text-xs text-gray-500">Cases</div></div>
-                    <div><div id="visible-total" class="stat-value text-2xl text-white">—</div><div class="text-xs text-gray-500">Shown</div></div>
+                    <div><div id="visible-total" class="stat-value text-2xl text-white">—</div><div class="text-xs text-gray-500">Loaded</div></div>
                 </div>
             </div>
 
@@ -91,7 +92,7 @@
     <script src="js/navigation.js"></script>
     <script>
         const API = 'https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1';
-        const PAGE_SIZE = 30;
+        const PAGE_SIZE = 100;
         let offset = 0;
         let total = 0;
         let loaded = 0;
@@ -194,9 +195,14 @@
             }
         }
 
-        document.getElementById('archive-filters').addEventListener('submit', event => { event.preventDefault(); loadCases(true); });
+        async function loadAllCases() {
+            await loadCases(true);
+            while (loaded < total) await loadCases(false);
+        }
+
+        document.getElementById('archive-filters').addEventListener('submit', event => { event.preventDefault(); loadAllCases(); });
         document.getElementById('load-more').addEventListener('click', () => loadCases(false));
-        Promise.all([loadInvestigations(), loadCases(true)]);
+        Promise.all([loadInvestigations(), loadAllCases()]);
     </script>
 </body>
 </html>
