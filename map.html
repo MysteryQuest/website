@@ -577,7 +577,7 @@
                             if (['name', 'description', 'location', 'event_type', 'votes'].includes(key.toLowerCase())) {
                                 const value = event[key];
                                 // Check if this looks like JSON and filter it out
-                                if (value && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
+                                if (typeof value === 'string' && (value.includes('{"') || value.includes('"source_credibility"') || value.includes('"primary_category"'))) {
                                     console.warn(`⚠️ Filtered JSON content from ${key}:`, value.substring(0, 50));
                                     event[key] = '';
                                 }

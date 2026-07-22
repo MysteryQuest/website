@@ -10,7 +10,13 @@
         if (!Array.isArray(payload.events)) {
             throw new Error('Public events API returned an invalid payload');
         }
-        return payload.events;
+        // Preserve the stable D1 identifier without breaking legacy views that
+        // expect `id` to be a numeric array index for map/table interactions.
+        return payload.events.map((event, index) => ({
+            ...event,
+            d1_id: event.id,
+            id: index
+        }));
     }
 
     window.UnverifiedData = Object.freeze({ loadEvents, eventsUrl: EVENTS_URL });

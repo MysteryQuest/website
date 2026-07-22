@@ -105,7 +105,11 @@ async function loadUFOData() {
         const response = await fetch(PUBLIC_EVENTS_API, { headers: { Accept: 'application/json' } });
         if (!response.ok) throw new Error(`Public events API failed (${response.status})`);
         const payload = await response.json();
-        const data = payload.events || [];
+        const data = (payload.events || []).map((event, index) => ({
+            ...event,
+            d1_id: event.id,
+            id: index
+        }));
 
         if (Array.isArray(data)) {
             allUFOData = data.filter(entry =>

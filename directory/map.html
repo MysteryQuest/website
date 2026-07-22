@@ -447,7 +447,7 @@
             let events = payload.events || [];
 
             if (Array.isArray(events)) {
-                events = events.map((event, index) => ({ ...event, id: event.id || index }));
+                events = events.map((event, index) => ({ ...event, d1_id: event.id, id: index }));
 
             // Apply filters
             if (filters.eventType) {
