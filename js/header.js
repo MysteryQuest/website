@@ -24,6 +24,7 @@ function renderSiteHeader() {
                     <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Vote: Real or Hoax?</a>
                     <a href="detail.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="detail">Investigations</a>
                     <a href="archive.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="archive">Archive</a>
+                    <a href="uap-alignments.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="uap-alignments">UAP Lab</a>
                     <a href="map.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="map">Evidence Map</a>
                     <a href="blog.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="blog">Project D-LOG</a>
                 </div>
@@ -41,6 +42,7 @@ function renderSiteHeader() {
                     <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Vote: Real or Hoax?</a>
                     <a href="detail.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="detail">Investigations</a>
                     <a href="archive.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="archive">Archive</a>
+                    <a href="uap-alignments.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="uap-alignments">UAP Lab</a>
                     <a href="map.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="map">Evidence Map</a>
                     <a href="blog.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="blog">Project D-LOG</a>
                 </div>

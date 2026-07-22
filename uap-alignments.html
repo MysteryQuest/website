@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UAP Alignment Explorer - The Unverified File</title>
+  <meta name="description" content="Explore candidate alignments between official government UAP records and public sighting, article, and social records.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{'matrix-green':'#00cc66','terminal-green':'#0a9461','charcoal':'#1a1a1a','dark-charcoal':'#0f0f0f','cyber-yellow':'#ffd700'},fontFamily:{orbitron:['Orbitron','monospace']}}}};</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet"><link href="styles.css" rel="stylesheet">
+  <style>
+    body{font-family:Inter,system-ui,sans-serif;background:#090b0a}.serif{font-family:"Source Serif 4",Georgia,serif}.kicker{font-family:Orbitron,monospace;letter-spacing:.12em;text-transform:uppercase}
+    .panel{background:rgba(14,20,17,.92);border:1px solid rgba(148,163,184,.2)}#alignment-map,#alignment-graph{height:590px;background:#0b100d}.cluster{border-left:3px solid transparent}.cluster[aria-selected="true"]{border-left-color:#00cc66;background:rgba(0,204,102,.08)}
+    .score-ring{display:grid;place-items:center;border-radius:999px;background:conic-gradient(#00cc66 var(--score),#24322b 0);position:relative}.score-ring:after{content:"";position:absolute;inset:4px;border-radius:inherit;background:#111713}.score-ring span{z-index:1}.leaflet-container{font-family:Inter,sans-serif}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#111713;color:#eee}.tab[aria-selected="true"]{background:#00cc66;color:#061009}
+    @media(max-width:1023px){#alignment-map,#alignment-graph{height:500px}}@media(max-width:640px){#alignment-map,#alignment-graph{height:420px}}
+  </style>
+</head>
+<body class="text-gray-100">
+  <div id="header-container"></div>
+  <header class="border-b border-matrix-green/20 bg-[radial-gradient(circle_at_75%_20%,rgba(0,204,102,.15),transparent_40%)]">
+    <div class="container mx-auto max-w-7xl px-4 py-14 md:py-20">
+      <p class="kicker text-xs text-matrix-green mb-4">Government ↔ public record research</p>
+      <h1 class="serif text-5xl md:text-7xl font-bold max-w-5xl leading-[.98]">UAP Alignment Explorer</h1>
+      <p class="text-lg text-gray-300 leading-8 max-w-3xl mt-6">Official UAP cases become anchor nodes. Nearby or descriptively similar sightings, articles, and media records form reviewable candidate clusters.</p>
+      <div class="flex flex-wrap gap-3 mt-7 text-xs"><span class="border border-matrix-green/50 rounded-full px-3 py-1 text-matrix-green">Explainable scoring</span><span class="border border-purple-400/50 rounded-full px-3 py-1 text-purple-200">Human review required</span><span class="border border-cyan-400/50 rounded-full px-3 py-1 text-cyan-200">Official sources anchored</span></div>
+    </div>
+  </header>
+  <main class="container mx-auto max-w-7xl px-4 py-10">
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-8" aria-label="Dataset summary">
+      <div class="panel rounded-xl p-4"><div id="gov-count" class="kicker text-2xl text-matrix-green">—</div><div class="text-xs text-gray-500 mt-1">Government anchors</div></div>
+      <div class="panel rounded-xl p-4"><div id="match-count" class="kicker text-2xl">—</div><div class="text-xs text-gray-500 mt-1">Match candidates</div></div>
+      <div class="panel rounded-xl p-4"><div id="article-count" class="kicker text-2xl text-cyan-300">—</div><div class="text-xs text-gray-500 mt-1">Linked articles</div></div>
+      <div class="panel rounded-xl p-4"><div id="social-count" class="kicker text-2xl text-pink-300">—</div><div class="text-xs text-gray-500 mt-1">Linked media records</div></div>
+    </section>
+
+    <section class="grid lg:grid-cols-[330px_minmax(0,1fr)] gap-5">
+      <aside class="panel rounded-2xl overflow-hidden lg:max-h-[650px] lg:overflow-y-auto">
+        <div class="p-5 border-b border-gray-800"><p class="kicker text-[.65rem] text-matrix-green mb-2">Ranked by connected activity</p><h2 class="serif text-2xl font-bold">Case clusters</h2></div>
+        <div id="clusters" role="listbox" aria-label="Government UAP case clusters"></div>
+      </aside>
+      <div>
+        <div class="flex gap-2 mb-3" role="tablist"><button id="map-tab" class="tab rounded-lg px-5 py-2 text-sm border border-gray-700" aria-selected="true">Map alignment</button><button id="graph-tab" class="tab rounded-lg px-5 py-2 text-sm border border-gray-700" aria-selected="false">Node graph</button></div>
+        <div class="panel rounded-2xl overflow-hidden"><div id="alignment-map" aria-label="Map of government UAP reports and candidate public alignments"></div><div id="alignment-graph" class="hidden" aria-label="Network graph of the selected government report and candidate alignments"></div></div>
+      </div>
+    </section>
+
+    <section id="case-detail" class="panel rounded-2xl p-6 md:p-8 mt-5" aria-live="polite"><p class="text-gray-400">Loading selected case…</p></section>
+    <section class="mt-10 max-w-4xl"><h2 class="serif text-3xl font-bold mb-4">How to read this</h2><p id="methodology" class="text-gray-300 leading-7"></p><p class="text-sm text-yellow-200/80 leading-6 mt-3">A high score means records deserve comparison. It does not mean they describe the same object, establish independent corroboration, or contradict an official resolution.</p></section>
+  </main>
+  <div id="footer-container"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script><script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="js/header.js?v=20260722-3"></script><script src="js/footer.js"></script><script src="js/navigation.js"></script>
+  <script>
+    const API='https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1/uap-alignments';
+    const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+    let reports=[],selected=0,map,graph,layer;
+    const valid=(a,b)=>Number.isFinite(Number(a))&&Number.isFinite(Number(b));
+    function rankLabel(score){return score>=25?'High activity':score>=15?'Developing cluster':'Early signal'}
+    function renderClusters(){document.getElementById('clusters').innerHTML=reports.map((r,i)=>`<button class="cluster w-full text-left p-5 border-b border-gray-800" role="option" aria-selected="${i===selected}" data-index="${i}"><span class="flex items-start gap-3"><span class="score-ring shrink-0 w-12 h-12 text-xs font-bold" style="--score:${Math.min(100,r.cluster_score*2)}%"><span>${Math.round(r.cluster_score)}</span></span><span><strong class="serif text-lg leading-tight block">${esc(r.title)}</strong><small class="text-gray-500 block mt-2">${esc(r.location)}</small><small class="text-matrix-green block mt-2">${r.alignment_count} candidates · ${rankLabel(r.cluster_score)}</small></span></span></button>`).join('')}
+    function markerSize(item){return 7+Math.min(12,(item.article_count+item.social_count)*4+item.alignment_score*12)}
+    function drawMap(){if(!map){map=L.map('alignment-map',{worldCopyJump:true}).setView([27,-40],2);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map)}if(layer)layer.remove();layer=L.layerGroup().addTo(map);const r=reports[selected],bounds=[];
+      if(valid(r.latitude,r.longitude)){const p=[r.latitude,r.longitude];bounds.push(p);L.circleMarker(p,{radius:13,color:'#00cc66',weight:3,fillColor:'#07110b',fillOpacity:.95}).bindPopup(`<strong>${esc(r.title)}</strong><br>${esc(r.agency)}<br>${esc(r.location_precision)}`).addTo(layer)}
+      r.alignments.forEach(a=>{if(!valid(a.latitude,a.longitude))return;const p=[a.latitude,a.longitude];bounds.push(p);L.polyline([[r.latitude,r.longitude],p],{color:'#7c3aed',weight:1,opacity:.45,dashArray:'5 6'}).addTo(layer);L.circleMarker(p,{radius:markerSize(a),color:'#22d3ee',weight:2,fillColor:'#0b1b21',fillOpacity:.85}).bindPopup(`<strong>${esc(a.name)}</strong><br>Alignment ${Math.round(a.alignment_score*100)}%<br>${esc(a.location||'Location unavailable')}`).addTo(layer)});if(bounds.length>1)map.fitBounds(bounds,{padding:[45,45],maxZoom:7});else if(bounds.length)map.setView(bounds[0],6);setTimeout(()=>map.invalidateSize(),20)}
+    function drawGraph(){const r=reports[selected],nodes=[{id:'gov',label:r.title,shape:'dot',size:34,color:'#00cc66',font:{color:'#fff',size:17,strokeWidth:4,strokeColor:'#09100c'}}],edges=[];r.alignments.forEach((a,i)=>{nodes.push({id:`m${i}`,label:a.name,shape:'dot',size:markerSize(a)+8,color:a.social_count?'#f472b6':'#22d3ee',font:{color:'#e5e7eb',size:12},title:a.explanation});edges.push({from:'gov',to:`m${i}`,width:1+a.alignment_score*7,color:{color:'#7c3aed',opacity:.65},label:`${Math.round(a.alignment_score*100)}%`})});if(graph)graph.destroy();graph=new vis.Network(document.getElementById('alignment-graph'),{nodes:new vis.DataSet(nodes),edges:new vis.DataSet(edges)},{physics:{barnesHut:{gravitationalConstant:-6000,springLength:190}},interaction:{hover:true,navigationButtons:true},edges:{font:{color:'#aaa',background:'#090b0a',size:10},smooth:{type:'continuous'}}})}
+    function detail(){const r=reports[selected];document.getElementById('case-detail').innerHTML=`<div class="grid lg:grid-cols-[1fr_1.2fr] gap-8"><div><p class="kicker text-[.65rem] text-matrix-green mb-2">${esc(r.agency)} · ${esc(r.resolution_status)}</p><h2 class="serif text-3xl md:text-4xl font-bold">${esc(r.title)}</h2><p class="text-sm text-gray-500 mt-3">${esc(r.event_date||'Date withheld')} · ${esc(r.location)} · ${esc(r.location_precision)}</p><p class="text-gray-300 leading-7 mt-5">${esc(r.description)}</p><div class="mt-5 p-4 bg-black/20 border-l-2 border-matrix-green text-sm leading-6"><strong class="text-white">Official assessment:</strong> ${esc(r.official_assessment)}</div><a class="inline-block mt-5 text-matrix-green hover:underline" href="${esc(r.source_url)}" target="_blank" rel="noopener noreferrer">Open official record ↗</a></div><div><h3 class="serif text-2xl font-bold mb-4">Top candidate alignments</h3><div class="space-y-3">${r.alignments.slice(0,6).map(a=>`<article class="border border-gray-800 rounded-xl p-4"><div class="flex justify-between gap-3"><strong>${esc(a.name)}</strong><span class="text-matrix-green text-sm">${Math.round(a.alignment_score*100)}%</span></div><p class="text-xs text-gray-500 mt-2">${esc(a.location||'Location unavailable')} · ${esc(a.date||'Date unavailable')}</p><p class="text-sm text-gray-400 leading-6 mt-3">${esc(a.explanation)}</p><div class="flex gap-4 mt-3 text-xs text-gray-500"><span>${a.article_count} article link</span><span>${a.social_count} media record</span><a class="text-cyan-300 hover:underline ml-auto" href="network.html?id=${encodeURIComponent(a.public_event_id)}">Evidence graph →</a></div></article>`).join('')}</div></div></div>`}
+    function select(index){selected=index;renderClusters();drawMap();drawGraph();detail()}
+    function tab(showMap){document.getElementById('map-tab').setAttribute('aria-selected',showMap);document.getElementById('graph-tab').setAttribute('aria-selected',!showMap);document.getElementById('alignment-map').classList.toggle('hidden',!showMap);document.getElementById('alignment-graph').classList.toggle('hidden',showMap);if(showMap)setTimeout(()=>map.invalidateSize(),20);else drawGraph()}
+    async function init(){const response=await fetch(API);if(!response.ok)throw new Error(`Alignment data unavailable (${response.status})`);const data=await response.json();reports=data.reports;document.getElementById('methodology').textContent=data.methodology;document.getElementById('gov-count').textContent=reports.length;document.getElementById('match-count').textContent=reports.reduce((s,r)=>s+r.alignment_count,0);document.getElementById('article-count').textContent=reports.reduce((s,r)=>s+r.article_count,0);document.getElementById('social-count').textContent=reports.reduce((s,r)=>s+r.social_count,0);document.getElementById('clusters').addEventListener('click',e=>{const b=e.target.closest('[data-index]');if(b)select(Number(b.dataset.index))});document.getElementById('map-tab').addEventListener('click',()=>tab(true));document.getElementById('graph-tab').addEventListener('click',()=>tab(false));select(0)}
+    init().catch(e=>document.getElementById('case-detail').innerHTML=`<p class="text-red-400">${esc(e.message)}</p>`);
+  </script>
+</body></html>
