@@ -56,13 +56,46 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Custom Styles -->
     <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <style>
+        .article-title { font-family: "Source Serif 4", Georgia, serif; text-wrap: balance; }
+        .article-deck { font-family: Inter, system-ui, sans-serif; }
+        .article-reading-column { max-width: 780px; margin-inline: auto; }
+        .editorial-body { color: #e5e7eb; font-family: "Source Serif 4", Georgia, serif; font-size: clamp(1.08rem, 1rem + .28vw, 1.25rem); line-height: 1.82; letter-spacing: .005em; }
+        .editorial-body p { margin: 0 0 1.45em; }
+        .editorial-body h2 { color: #f8fafc; font-family: Inter, system-ui, sans-serif; font-size: clamp(1.45rem, 1.2rem + .8vw, 2rem); font-weight: 700; line-height: 1.25; margin: 2.2em 0 .7em; }
+        .editorial-body h3 { color: #b7f7d3; font-family: Inter, system-ui, sans-serif; font-size: 1.18rem; font-weight: 700; margin: 1.8em 0 .55em; }
+        .editorial-body strong { color: #fff; font-weight: 700; }
+        .editorial-body em { color: #d1fae5; }
+        .editorial-body ul, .editorial-body ol { margin: 0 0 1.5em 1.4em; }
+        .editorial-body li { margin-bottom: .55em; padding-left: .25em; }
+        .article-kicker { font-family: "JetBrains Mono", monospace; letter-spacing: .12em; text-transform: uppercase; }
+        .summary-panel { background: linear-gradient(135deg, rgba(0, 204, 102, .12), rgba(15, 15, 15, .92)); border: 1px solid rgba(0, 204, 102, .38); }
+        .summary-panel p, .summary-panel li, .connection-card p { font-family: Inter, system-ui, sans-serif; }
+        .summary-panel li { position: relative; padding-left: 1.25rem; }
+        .summary-panel li::before { content: ""; position: absolute; left: 0; top: .62em; width: .42rem; height: .42rem; border-radius: 999px; background: #00cc66; }
+        .article-media { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1rem; }
+        .article-media figure { background: #0b0f0d; border: 1px solid rgba(0, 204, 102, .22); border-radius: .75rem; overflow: hidden; }
+        .article-media img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #111; }
+        .article-media figcaption { padding: .85rem 1rem 1rem; color: #cbd5e1; font: .84rem/1.55 Inter, sans-serif; }
+        .connection-card { background: rgba(15, 15, 15, .78); border: 1px solid rgba(148, 163, 184, .2); border-left: 3px solid #00cc66; }
+        .connection-strength-low { color: #fbbf24; }
+        .connection-strength-moderate { color: #67e8f9; }
+        .connection-strength-high { color: #86efac; }
+        #connection-map { height: 360px; border: 1px solid rgba(0, 204, 102, .28); border-radius: .75rem; background: #111; }
+        .source-list a { overflow-wrap: anywhere; }
+        @media (max-width: 640px) {
+            .article-card { padding: 1.35rem; }
+            #connection-map { height: 300px; }
+        }
+    </style>
     
     <!-- Analytics -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942" crossorigin="anonymous"></script>
@@ -84,8 +117,8 @@
     <section class="relative min-h-[40vh] flex items-center justify-center overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="splash.webp" alt="The Unverified File" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-gradient-to-b from-charcoal/20 via-dark-charcoal/30 to-charcoal/40"></div>
+            <img id="article-hero-image" src="splash.webp" alt="The Unverified File" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-dark-charcoal/75 to-charcoal/95"></div>
         </div>
         
         <!-- Hero Content -->
@@ -113,6 +146,8 @@
     <script src="js/footer.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/cache-buster.js"></script>
+    <script src="js/data-api.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 
     <!-- Article Loading Script -->
     <script>
@@ -130,56 +165,236 @@
             `;
         }
 
-        function renderArticle(article) {
+        function escapeHtml(value) {
+            return String(value ?? '')
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#039;');
+        }
+
+        function safeUrl(value) {
+            try {
+                const url = new URL(value, window.location.origin);
+                return ['http:', 'https:'].includes(url.protocol) ? url.href : '#';
+            } catch (_) { return '#'; }
+        }
+
+        function renderInlineMarkdown(value) {
+            return escapeHtml(value)
+                .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+                .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+                .replace(/`([^`]+)`/g, '<code>$1</code>');
+        }
+
+        function markdownToHtml(markdown) {
+            const lines = String(markdown || '').replace(/\r/g, '').split('\n');
+            const html = [];
+            let listType = null;
+
+            const closeList = () => {
+                if (listType) html.push(`</${listType}>`);
+                listType = null;
+            };
+
+            for (const rawLine of lines) {
+                const line = rawLine.trim();
+                if (!line) { closeList(); continue; }
+                if (/^HEADLINE:/i.test(line) || /^BODY:$/i.test(line)) continue;
+
+                const lede = line.match(/^LEDE:\s*(.+)$/i);
+                if (lede) {
+                    closeList();
+                    html.push(`<p class="article-deck text-xl text-gray-200 border-l-4 border-matrix-green pl-5 py-1">${renderInlineMarkdown(lede[1])}</p>`);
+                    continue;
+                }
+
+                const labeled = line.match(/^(EVIDENCE QUALITY|INVESTIGATION GAPS|SOURCES):\s*(.*)$/i);
+                if (labeled) {
+                    closeList();
+                    html.push(`<h2>${escapeHtml(labeled[1].replace(/\b\w/g, c => c.toUpperCase()))}</h2>`);
+                    if (labeled[2]) html.push(`<p>${renderInlineMarkdown(labeled[2])}</p>`);
+                    continue;
+                }
+
+                const boldHeading = line.match(/^\*\*([^*]+)\*\*$/);
+                if (boldHeading) {
+                    closeList();
+                    html.push(`<h2>${escapeHtml(boldHeading[1])}</h2>`);
+                    continue;
+                }
+
+                const heading = line.match(/^(#{1,3})\s+(.+)$/);
+                if (heading) {
+                    closeList();
+                    const level = Math.min(3, heading[1].length + 1);
+                    html.push(`<h${level}>${renderInlineMarkdown(heading[2])}</h${level}>`);
+                    continue;
+                }
+
+                const unordered = line.match(/^[-*]\s+(.+)$/);
+                const ordered = line.match(/^\d+[.)]\s+(.+)$/);
+                if (unordered || ordered) {
+                    const wanted = unordered ? 'ul' : 'ol';
+                    if (listType !== wanted) { closeList(); listType = wanted; html.push(`<${wanted}>`); }
+                    html.push(`<li>${renderInlineMarkdown((unordered || ordered)[1])}</li>`);
+                    continue;
+                }
+
+                closeList();
+                html.push(`<p>${renderInlineMarkdown(line)}</p>`);
+            }
+            closeList();
+            return html.join('\n');
+        }
+
+        function renderMedia(images) {
+            if (!Array.isArray(images) || !images.length) return '';
+            return `
+                <section class="article-media my-10" aria-label="Related source imagery">
+                    ${images.map(image => `
+                        <figure>
+                            <a href="${safeUrl(image.source_url)}" target="_blank" rel="noopener noreferrer">
+                                <img src="${safeUrl(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy" referrerpolicy="no-referrer">
+                            </a>
+                            <figcaption>${escapeHtml(image.caption)} <a href="${safeUrl(image.source_url)}" target="_blank" rel="noopener noreferrer" class="text-matrix-green hover:underline">Credit: ${escapeHtml(image.credit)}</a></figcaption>
+                        </figure>
+                    `).join('')}
+                </section>`;
+        }
+
+        function renderSummary(article) {
+            const findings = Array.isArray(article.ai_key_findings) ? article.ai_key_findings : [];
+            return `
+                <aside class="summary-panel rounded-xl p-6 md:p-8 mb-10" aria-labelledby="ai-summary-title">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+                        <h2 id="ai-summary-title" class="text-2xl font-bold text-white article-deck">AI Briefing</h2>
+                        <span class="article-kicker text-xs text-matrix-green border border-matrix-green/40 rounded-full px-3 py-1">${escapeHtml(article.ai_confidence || 'Preliminary')} confidence</span>
+                    </div>
+                    <p class="text-lg leading-8 text-gray-100 mb-5">${escapeHtml(article.ai_summary || article.excerpt || '')}</p>
+                    ${findings.length ? `<ul class="space-y-3 text-gray-200">${findings.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}
+                    <p class="text-xs text-gray-400 mt-5 article-deck"><i class="fas fa-circle-info mr-1"></i> Machine-generated research aid. Claims still require source review and editorial verification.</p>
+                </aside>`;
+        }
+
+        async function renderConnections(article) {
+            const container = document.getElementById('article-connections');
+            const configured = Array.isArray(article.connections) ? article.connections : [];
+            if (!configured.length) { container.remove(); return; }
+
+            try {
+                const events = await window.UnverifiedData.loadEvents();
+                const seen = new Set();
+                const matches = configured.map(connection => {
+                    const event = events.find(item => item.name === connection.match_name && !seen.has(item.name));
+                    if (event) seen.add(event.name);
+                    return { ...connection, event };
+                });
+
+                container.innerHTML = `
+                    <div class="max-w-5xl mx-auto">
+                        <p class="article-kicker text-xs text-matrix-green mb-3">Relationship scan</p>
+                        <h2 class="article-title text-3xl md:text-4xl font-bold text-white mb-4">Preliminary connections</h2>
+                        <p class="article-deck text-gray-300 text-lg leading-8 max-w-3xl mb-8">${escapeHtml(article.connection_overview || '')}</p>
+                        <div class="grid md:grid-cols-2 gap-4 mb-8">
+                            ${matches.map(({ event, ...connection }) => `
+                                <article class="connection-card rounded-lg p-5">
+                                    <div class="flex items-start justify-between gap-3 mb-3">
+                                        <h3 class="text-lg font-semibold text-white article-deck">${escapeHtml(connection.match_name)}</h3>
+                                        <span class="article-kicker text-[.68rem] connection-strength-${escapeHtml(String(connection.strength || 'low').toLowerCase())}">${escapeHtml(connection.strength || 'Low')}</span>
+                                    </div>
+                                    <p class="text-gray-300 leading-7 mb-4">${escapeHtml(connection.reason)}</p>
+                                    ${event ? `<a href="detail.html?name=${encodeURIComponent(event.name)}" class="text-sm text-matrix-green hover:underline">Open related record <i class="fas fa-arrow-right ml-1"></i></a>` : '<span class="text-xs text-gray-500">Related archive record is not currently public.</span>'}
+                                </article>`).join('')}
+                        </div>
+                        <div id="connection-map" aria-label="Map of geographically located related sightings"></div>
+                        <p id="connection-map-note" class="article-deck text-xs text-gray-400 mt-3"></p>
+                    </div>`;
+
+                const mapped = matches.filter(match => match.event && Number.isFinite(Number(match.event.latitude)) && Number.isFinite(Number(match.event.longitude)));
+                const note = document.getElementById('connection-map-note');
+                if (!mapped.length || typeof L === 'undefined') {
+                    document.getElementById('connection-map').innerHTML = '<div class="h-full grid place-items-center text-gray-400 article-deck">No precise coordinates are available for these preliminary connections.</div>';
+                    note.textContent = `${matches.length} archive connections reviewed; none include publishable coordinates.`;
+                    return;
+                }
+
+                const map = L.map('connection-map', { scrollWheelZoom: false });
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; OpenStreetMap contributors'
+                }).addTo(map);
+                const bounds = [];
+                mapped.forEach(match => {
+                    const point = [Number(match.event.latitude), Number(match.event.longitude)];
+                    bounds.push(point);
+                    L.marker(point).addTo(map).bindPopup(`<strong>${escapeHtml(match.event.name)}</strong><br>${escapeHtml(match.event.location || 'Location unavailable')}<br><a href="detail.html?name=${encodeURIComponent(match.event.name)}">Open record</a>`);
+                });
+                if (bounds.length === 1) map.setView(bounds[0], 7);
+                else map.fitBounds(bounds, { padding: [30, 30], maxZoom: 8 });
+                note.textContent = `${mapped.length} of ${matches.length} preliminary connections include publishable coordinates.`;
+            } catch (error) {
+                console.error('Connection scan failed', error);
+                container.innerHTML = '<div class="max-w-4xl mx-auto text-gray-400 article-deck">Connections are temporarily unavailable.</div>';
+            }
+        }
+
+        async function renderArticle(article) {
             document.title = `${article.title} - The Unverified File`;
-            document.querySelector('meta[name="description"]').setAttribute('content', article.title);
+            document.querySelector('meta[name="description"]').setAttribute('content', article.ai_summary || article.excerpt || article.title);
             document.querySelector('meta[property="og:title"]').setAttribute('content', article.title);
             document.querySelector('meta[property="twitter:title"]').setAttribute('content', article.title);
+            const primaryImage = Array.isArray(article.images) ? article.images[0] : null;
+            if (primaryImage) {
+                document.getElementById('article-hero-image').src = safeUrl(primaryImage.src);
+                document.getElementById('article-hero-image').alt = primaryImage.alt || article.title;
+                document.querySelector('meta[property="og:image"]').setAttribute('content', safeUrl(primaryImage.src));
+                document.querySelector('meta[property="twitter:image"]').setAttribute('content', safeUrl(primaryImage.src));
+            }
 
             document.getElementById('article-header').innerHTML = `
-                <div class="terminal-box rounded-2xl p-8 md:p-12 max-w-3xl mx-auto">
+                <div class="terminal-box rounded-2xl p-7 md:p-12 max-w-4xl mx-auto">
                     <div class="mb-4">
-                        <span class="inline-block px-4 py-2 bg-matrix-green/20 border border-matrix-green text-matrix-green rounded-full text-sm font-semibold mb-4">
-                            ${article.category}
+                        <span class="article-kicker inline-block px-4 py-2 bg-matrix-green/20 border border-matrix-green text-matrix-green rounded-full text-xs font-semibold mb-4">
+                            ${escapeHtml(article.category)}
                         </span>
                     </div>
-                    <h1 class="text-4xl md:text-5xl font-orbitron font-bold text-matrix-green mb-6">
-                        ${article.title}
+                    <h1 class="article-title text-4xl md:text-6xl font-bold text-white leading-[1.08] mb-7">
+                        ${escapeHtml(article.title)}
                     </h1>
-                    <div class="flex flex-wrap items-center gap-6 text-gray-400 text-sm">
+                    <div class="article-deck flex flex-wrap items-center justify-center gap-6 text-gray-300 text-sm">
                         <div class="flex items-center gap-2">
                             <i class="fas fa-calendar"></i>
                             <span>${new Date(article.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fas fa-user-robot"></i>
-                            <span>${article.author}</span>
+                            <span>${escapeHtml(article.author)}</span>
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fas fa-clock"></i>
-                            <span>${article.readTime}</span>
+                            <span>${escapeHtml(article.readTime)}</span>
                         </div>
                     </div>
                 </div>
             `;
 
-            // Render body — convert plain text sections to HTML if needed
-            let bodyHtml = article.body || article.content || '';
-            // If it looks like plain text (no HTML tags), wrap paragraphs
-            if (bodyHtml && !bodyHtml.includes('<')) {
-                bodyHtml = bodyHtml.split('\n\n').map(p => `<p>${p.trim()}</p>`).join('\n');
-            }
+            const bodyHtml = markdownToHtml(article.body || article.content || '');
 
             document.getElementById('article-content').innerHTML = `
-                <div class="bg-dark-charcoal/60 rounded-lg p-8 md:p-12">
-                    ${bodyHtml}
+                <div class="article-card bg-dark-charcoal/70 rounded-xl p-6 md:p-12 border border-white/5 shadow-2xl">
+                    <div class="article-reading-column">
+                        ${renderSummary(article)}
+                        ${renderMedia(article.images)}
+                        <div class="editorial-body">${bodyHtml}</div>
+                    </div>
                     ${article.source_urls && article.source_urls.length ? `
                     <hr class="border-matrix-green/30 my-8">
-                    <div class="mb-6">
-                        <h3 class="text-sm font-mono text-matrix-green mb-3">SOURCE ARTICLES</h3>
-                        <ul class="space-y-1">
-                            ${article.source_urls.map(u => `<li><a href="${u}" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-400 hover:text-matrix-green break-all">${u}</a></li>`).join('')}
-                        </ul>
+                    <div class="article-reading-column source-list mb-6">
+                        <h3 class="article-kicker text-xs text-matrix-green mb-4">Source articles</h3>
+                        <ol class="space-y-3 list-decimal ml-5">
+                            ${article.source_urls.map((u, index) => `<li class="pl-2 text-gray-500"><a href="${safeUrl(u)}" target="_blank" rel="noopener noreferrer" class="article-deck text-sm text-gray-300 hover:text-matrix-green">[${index + 1}] ${escapeHtml(new URL(u).hostname.replace(/^www\./, ''))}</a></li>`).join('')}
+                        </ol>
                     </div>` : ''}
                     <hr class="border-matrix-green/30 my-8">
                     <div class="flex justify-between items-center">
@@ -196,19 +411,23 @@
                         </div>
                     </div>
                 </div>
+                <section id="article-connections" class="mt-14 bg-black/25 border-y border-matrix-green/20 py-10 px-4" aria-live="polite">
+                    <div class="max-w-4xl mx-auto text-gray-400 article-deck"><i class="fas fa-circle-notch fa-spin mr-2"></i>Scanning the public archive for preliminary connections…</div>
+                </section>
             `;
+            await renderConnections(article);
         }
 
         async function loadArticle() {
             const slug = new URLSearchParams(window.location.search).get('slug');
             if (!slug) { showNotFound(); return; }
             try {
-                const articles = await fetch('./api/articles.json').then(r => {
+                const articles = await fetch('./api/articles.json', { cache: 'no-store' }).then(r => {
                     if (!r.ok) throw new Error('not found');
                     return r.json();
                 });
                 const article = articles.find(a => a.slug === slug);
-                if (article) { renderArticle(article); return; }
+                if (article) { await renderArticle(article); return; }
             } catch(e) { /* fall through to not-found */ }
             showNotFound();
         }
