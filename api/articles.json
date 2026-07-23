@@ -36,6 +36,29 @@
         "strength": "Moderate"
       }
     ],
+    "points_of_interest": [
+      {
+        "name": "Rendlesham Forest",
+        "role": "Historical incident discussed in the report",
+        "description": "The article compares continuing Rendlesham testimony with the present disclosure debate without treating them as the same event.",
+        "latitude": 52.0837,
+        "longitude": 1.4349
+      },
+      {
+        "name": "The Pentagon",
+        "role": "Department of Defense record-release context",
+        "description": "Defense Department release activity is a central documented thread in the report.",
+        "latitude": 38.8719,
+        "longitude": -77.0563
+      },
+      {
+        "name": "United States Capitol",
+        "role": "Congressional oversight and disclosure advocacy",
+        "description": "Congressional pressure for agency disclosure is evaluated as an institutional connection.",
+        "latitude": 38.8899,
+        "longitude": -77.0091
+      }
+    ],
     "images": [
       {
         "src": "https://science.nasa.gov/wp-content/uploads/2022/06/uap-meeting-2023-e1692299097471.jpeg?resize=1200,513",

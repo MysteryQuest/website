@@ -282,10 +282,21 @@
         async function renderConnections(article) {
             const container = document.getElementById('article-connections');
             const configured = Array.isArray(article.connections) ? article.connections : [];
-            if (!configured.length) { container.remove(); return; }
+            const points = (Array.isArray(article.points_of_interest) ? article.points_of_interest : []).filter(point =>
+                Number.isFinite(Number(point.latitude)) && Number.isFinite(Number(point.longitude))
+            );
+            if (!points.length && Number.isFinite(Number(article.latitude)) && Number.isFinite(Number(article.longitude))) {
+                points.push({name: article.location || article.title, latitude: article.latitude, longitude: article.longitude, role: 'Primary reported location'});
+            }
+            if (!configured.length && !points.length) { container.remove(); return; }
 
             try {
-                const events = await window.UnverifiedData.loadEvents();
+                let events = [];
+                try {
+                    events = await window.UnverifiedData.loadEvents();
+                } catch (error) {
+                    console.warn('Archive connections unavailable; rendering article points only.', error);
+                }
                 const seen = new Set();
                 const matches = configured.map(connection => {
                     const event = events.find(item => item.name === connection.match_name && !seen.has(item.name));
@@ -296,9 +307,9 @@
                 container.innerHTML = `
                     <div class="max-w-5xl mx-auto">
                         <p class="article-kicker text-xs text-matrix-green mb-3">Relationship scan</p>
-                        <h2 class="article-title text-3xl md:text-4xl font-bold text-white mb-4">Preliminary connections</h2>
+                        <h2 class="article-title text-3xl md:text-4xl font-bold text-white mb-4">Connections and points of interest</h2>
                         <p class="article-deck text-gray-300 text-lg leading-8 max-w-3xl mb-8">${escapeHtml(article.connection_overview || '')}</p>
-                        <div class="grid md:grid-cols-2 gap-4 mb-8">
+                        ${matches.length ? `<div class="grid md:grid-cols-2 gap-4 mb-8">
                             ${matches.map(({ event, ...connection }) => `
                                 <article class="connection-card rounded-lg p-5">
                                     <div class="flex items-start justify-between gap-3 mb-3">
@@ -308,14 +319,15 @@
                                     <p class="text-gray-300 leading-7 mb-4">${escapeHtml(connection.reason)}</p>
                                     ${event ? `<a href="detail.html?name=${encodeURIComponent(event.name)}" class="text-sm text-matrix-green hover:underline">Open related record <i class="fas fa-arrow-right ml-1"></i></a>` : '<span class="text-xs text-gray-500">Related archive record is not currently public.</span>'}
                                 </article>`).join('')}
-                        </div>
-                        <div id="connection-map" aria-label="Map of geographically located related sightings"></div>
+                        </div>` : ''}
+                        ${points.length ? `<div class="meta mb-4">${points.map(point=>`<span>${escapeHtml(point.name)} · ${escapeHtml(point.role||'Point of interest')}</span>`).join('')}</div>` : ''}
+                        <div id="connection-map" aria-label="Map of article points of interest and related sightings"></div>
                         <p id="connection-map-note" class="article-deck text-xs text-gray-400 mt-3"></p>
                     </div>`;
 
                 const mapped = matches.filter(match => match.event && Number.isFinite(Number(match.event.latitude)) && Number.isFinite(Number(match.event.longitude)));
                 const note = document.getElementById('connection-map-note');
-                if (!mapped.length || typeof L === 'undefined') {
+                if ((!mapped.length && !points.length) || typeof L === 'undefined') {
                     document.getElementById('connection-map').innerHTML = '<div class="h-full grid place-items-center text-gray-400 article-deck">No precise coordinates are available for these preliminary connections.</div>';
                     note.textContent = `${matches.length} archive connections reviewed; none include publishable coordinates.`;
                     return;
@@ -331,9 +343,15 @@
                     bounds.push(point);
                     L.marker(point).addTo(map).bindPopup(`<strong>${escapeHtml(match.event.name)}</strong><br>${escapeHtml(match.event.location || 'Location unavailable')}<br><a href="detail.html?name=${encodeURIComponent(match.event.name)}">Open record</a>`);
                 });
+                points.forEach(item => {
+                    const point = [Number(item.latitude), Number(item.longitude)];
+                    bounds.push(point);
+                    L.circleMarker(point, {radius: 9, color: '#f1c75b', weight: 2, fillColor: '#33280b', fillOpacity: .92})
+                        .addTo(map).bindPopup(`<strong>${escapeHtml(item.name)}</strong><br>${escapeHtml(item.role || 'Article point of interest')}<br>${escapeHtml(item.description || '')}`);
+                });
                 if (bounds.length === 1) map.setView(bounds[0], 7);
                 else map.fitBounds(bounds, { padding: [30, 30], maxZoom: 8 });
-                note.textContent = `${mapped.length} of ${matches.length} preliminary connections include publishable coordinates.`;
+                note.textContent = `${points.length} article point${points.length===1?'':'s'} and ${mapped.length} geographically located archive connection${mapped.length===1?'':'s'} shown.`;
             } catch (error) {
                 console.error('Connection scan failed', error);
                 container.innerHTML = '<div class="max-w-4xl mx-auto text-gray-400 article-deck">Connections are temporarily unavailable.</div>';

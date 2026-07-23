@@ -129,7 +129,26 @@
         <div class="text-center mb-12">
             <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-4">Community Evidence Queue</h1>
             <p class="text-xl text-gray-300 max-w-3xl mx-auto">Review the available record and register a first-pass signal. A vote helps prioritize reporting; it is not an editorial verdict or proof.</p>
+            <div class="mt-7"><a href="#report-incident" class="inline-flex items-center gap-2 rounded-lg bg-matrix-green px-5 py-3 font-bold text-black"><i class="fas fa-location-dot"></i> Report an incident</a></div>
         </div>
+
+        <section id="report-incident" class="max-w-4xl mx-auto mb-14 rounded-2xl border border-matrix-green/30 bg-black/55 p-6 md:p-8 scroll-mt-24">
+            <p class="text-xs font-orbitron uppercase tracking-widest text-matrix-green">Community intake</p>
+            <h2 class="mt-3 text-3xl font-bold text-white">Report an incident or sighting</h2>
+            <p class="mt-3 max-w-2xl leading-7 text-gray-300">Submit a firsthand incident or a public-source lead for editorial review. It will not appear publicly until reviewed. Avoid private addresses, names, or contact details in the narrative.</p>
+            <form id="incidentForm" class="mt-7 grid gap-4 md:grid-cols-2">
+                <label class="text-sm text-gray-300">Incident type<input id="incidentType" required maxlength="80" placeholder="UAP sighting, paranormal report, historical lead…" class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></label>
+                <label class="text-sm text-gray-300">Title<input id="incidentTitle" required maxlength="180" placeholder="Short descriptive title" class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></label>
+                <label class="text-sm text-gray-300">Location<input id="incidentLocation" required maxlength="250" placeholder="City, region, country or approximate area" class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></label>
+                <label class="text-sm text-gray-300">Date<input id="incidentDate" type="date" class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></label>
+                <label class="text-sm text-gray-300 md:col-span-2">What happened?<textarea id="incidentDescription" required maxlength="10000" rows="6" placeholder="Describe what was observed, how it was documented, and what remains uncertain." class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></textarea></label>
+                <label class="text-sm text-gray-300">Evidence/source URL<input id="incidentUrl" type="url" placeholder="https://…" class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></label>
+                <label class="text-sm text-gray-300">Photo/video URL<input id="incidentImage" type="url" placeholder="https://…" class="mt-2 w-full rounded-lg border border-gray-700 bg-charcoal p-3 text-white"></label>
+                <label class="hidden" aria-hidden="true">Website<input id="incidentWebsite" tabindex="-1" autocomplete="off"></label>
+                <label class="md:col-span-2 flex items-start gap-3 text-sm leading-6 text-gray-300"><input id="incidentConsent" type="checkbox" required class="mt-1"> <span>I consent to editorial review and possible publication of these incident details. I understand submissions are retained temporarily under the site privacy policy.</span></label>
+                <div class="md:col-span-2 flex flex-wrap items-center gap-4"><button id="incidentSubmit" type="submit" class="rounded-lg bg-matrix-green px-5 py-3 font-bold text-black">Send for review</button><span id="incidentStatus" class="text-sm text-gray-400" role="status" aria-live="polite"></span></div>
+            </form>
+        </section>
         
         <div id="mysteryCarousel" class="relative max-w-4xl mx-auto">
             <div id="carouselItems" class="relative overflow-hidden rounded-lg">
@@ -147,6 +166,34 @@
     </div>
 
     <script>
+        document.getElementById('incidentForm').addEventListener('submit', async event => {
+            event.preventDefault();
+            const button = document.getElementById('incidentSubmit');
+            const status = document.getElementById('incidentStatus');
+            button.disabled = true;
+            status.textContent = 'Sending securely…';
+            try {
+                const result = await window.UnverifiedData.submitIncident({
+                    event_type: document.getElementById('incidentType').value,
+                    name: document.getElementById('incidentTitle').value,
+                    location: document.getElementById('incidentLocation').value,
+                    date: document.getElementById('incidentDate').value || null,
+                    description: document.getElementById('incidentDescription').value,
+                    url: document.getElementById('incidentUrl').value || null,
+                    image_url: document.getElementById('incidentImage').value || null,
+                    website: document.getElementById('incidentWebsite').value,
+                    publish_consent: document.getElementById('incidentConsent').checked,
+                    contact_consent: false
+                });
+                event.target.reset();
+                status.textContent = `Received. Review reference: ${result.submission_id}`;
+            } catch (error) {
+                status.textContent = error.message || 'Submission failed. Please try again.';
+            } finally {
+                button.disabled = false;
+            }
+        });
+
         let mysteries = [];
         let mysteryMaps = [];
 

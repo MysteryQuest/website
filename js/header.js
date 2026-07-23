@@ -56,7 +56,7 @@ function renderSiteHeader() {
         <a href="index.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="home"><i class="fas fa-newspaper text-base"></i><span>Briefing</span></a>
         <a href="case-files.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="case-files"><i class="fas fa-folder-open text-base"></i><span>Cases</span></a>
         <a href="hoax.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="hoax"><i class="fas fa-inbox text-base"></i><span>Queue</span></a>
-        <a href="map.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="map"><i class="fas fa-map-location-dot text-base"></i><span>Map</span></a>
+        <a href="blog.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="blog"><i class="fas fa-map-location-dot text-base"></i><span>Evidence</span></a>
       </div>
     </nav>
     `;
@@ -72,7 +72,9 @@ function renderSiteHeader() {
         
         navLinks.forEach(link => {
             const page = link.getAttribute('data-page');
-            if (currentPath.includes(page + '.html') || (page === 'home' && (currentPath === '/' || currentPath.includes('index.html')))) {
+            const evidenceChild = page === 'blog' && /(?:map|network|uap-alignments|uap-sightings)\.html/.test(currentPath);
+            const caseChild = page === 'case-files' && /archive\.html/.test(currentPath);
+            if (currentPath.includes(page + '.html') || evidenceChild || caseChild || (page === 'home' && (currentPath === '/' || currentPath.includes('index.html')))) {
                 link.classList.remove('text-gray-300');
                 link.classList.add('text-matrix-green', 'font-semibold');
             }

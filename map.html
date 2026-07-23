@@ -407,6 +407,13 @@
                 max-width: 200px;
             }
         }
+        html.embed-mode body { background: #090c0b; }
+        html.embed-mode #header-container, html.embed-mode #map-hero,
+        html.embed-mode #map-pagination, html.embed-mode #map-table,
+        html.embed-mode #submitAMystery, html.embed-mode #map-submission,
+        html.embed-mode #footer-container { display: none !important; }
+        html.embed-mode #map-workspace { margin-top: 0 !important; padding: 0 !important; max-width: none !important; }
+        html.embed-mode #map { height: min(72vh, 760px); min-height: 520px; border: 0; border-radius: 0; }
         
         @media (max-width: 480px) {
             #map {
@@ -429,8 +436,10 @@
             .event-description {
                 max-width: 150px;
             }
+            html.embed-mode #map { height: 520px; }
         }
     </style>
+    <script>if(new URLSearchParams(location.search).get('embed')==='1')document.documentElement.classList.add('embed-mode');</script>
     <script src="./js/data-api.js"></script>
 </head>
 <body class="text-gray-100">
@@ -443,8 +452,8 @@
     <!-- Navigation (loaded dynamically) -->
     <div id="header-container"></div>
 
-    <div class="container mx-auto px-4 py-12 mt-20">
-        <div class="text-center mb-12">
+    <div id="map-workspace" class="container mx-auto px-4 py-12 mt-20">
+        <div id="map-hero" class="text-center mb-12">
             <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-4">The Unverified File - Evidence Map</h1>
             <p class="text-xl md:text-2xl text-gray-300">Explore mysterious events, historical oddities, and UAP sightings worldwide</p>
         </div>
@@ -474,7 +483,7 @@
 
         <div id="map"></div>
 
-        <div class="pagination-container">
+        <div id="map-pagination" class="pagination-container">
             <div class="pagination-controls">
                 <label for="pageSize">Show:</label>
                 <select id="pageSize">
@@ -493,7 +502,7 @@
             </div>
         </div>
 
-        <div class="table-container">
+        <div id="map-table" class="table-container">
             <table id="eventsTable">
                 <thead>
                     <tr>
@@ -516,7 +525,7 @@
             &nbsp;
         </div>
         
-        <div class="form-container">
+        <div id="map-submission" class="form-container">
             <h2>Submit a New Event</h2>
             <form id="eventForm">
                 <label for="newEventType">Event Type:</label>
@@ -545,6 +554,8 @@
 
                 <label for="newImageUrl">Image URL:</label>
                 <input type="url" id="newImageUrl" name="imageUrl">
+
+                <label><input type="checkbox" id="newPublishConsent" required> I consent to editorial review and publication of the submitted incident details. Do not include private information in the description.</label>
 
                 <button type="button" onclick="submitEvent()">Submit Event</button>
             </form>
@@ -852,36 +863,17 @@
                     image_url: document.getElementById("newImageUrl").value
                 };
 
-                const body = {
-                    values: [[
-                        newEvent.event_type,
-                        newEvent.name,
-                        newEvent.location,
-                        newEvent.latitude,
-                        newEvent.longitude,
-                        newEvent.date,
-                        newEvent.description,
-                        newEvent.url,
-                        newEvent.image_url,
-                        0, // votes
-                        "Open", // investigation_status
-                        "Unknown", // verdict
-                        `detail.html?name=${encodeURIComponent(newEvent.name)}` // research_link
-                    ]]
-                };
-
-                // Write submissions require OAuth — send via email instead
-                const subject = encodeURIComponent(`New Event Submission: ${newEvent.name}`);
-                const bodyText = encodeURIComponent(
-                    `Name: ${newEvent.name}\nType: ${newEvent.event_type}\nLocation: ${newEvent.location}\nLat/Lon: ${newEvent.latitude}, ${newEvent.longitude}\nDate: ${newEvent.date}\nDescription: ${newEvent.description}\nURL: ${newEvent.url}\nImage: ${newEvent.image_url}`
-                );
-                window.open(`mailto:hello@unverifiedfile.com?subject=${subject}&body=${bodyText}`, '_blank');
-                const response = { ok: true };
+                if (!document.getElementById('newPublishConsent').checked) throw new Error('Publication consent is required.');
+                const response = await window.UnverifiedData.submitIncident({
+                    ...newEvent,
+                    publish_consent: true,
+                    contact_consent: false,
+                    website: ''
+                });
 
                 if (response.ok) {
-                    alert("Your submission has been prepared as an email. Send it to complete your report!");
+                    alert(`Report received for editorial review. Reference: ${response.submission_id}`);
                     document.getElementById("eventForm").reset();
-                    fetchEvents();
                 } else {
                     alert("Failed to submit event. Please try again.");
                 }

@@ -1,9 +1,9 @@
-const CACHE = 'unverified-file-shell-v3';
+const CACHE = 'unverified-file-shell-v4';
 const SHELL = [
-  '/', '/index.html', '/case-files.html', '/case.html', '/broadcasts.html', '/methodology.html', '/about.html',
-  '/archive.html', '/map.html', '/labs.html', '/investigations.html', '/uap-alignments.html', '/hoax.html',
+  '/', '/index.html', '/case-files.html', '/case.html', '/blog.html', '/broadcasts.html', '/methodology.html', '/about.html',
+  '/archive.html', '/map.html', '/labs.html', '/investigations.html', '/uap-alignments.html', '/uap-sightings.html', '/network.html', '/hoax.html',
   '/article.html', '/detail.html', '/offline.html', '/styles.css', '/evidence-platform.css',
-  '/js/header.js', '/js/footer.js', '/logo.png', '/icon-192.png', '/icon-512.png'
+  '/js/header.js', '/js/footer.js', '/js/data-api.js', '/logo.png', '/icon-192.png', '/icon-512.png'
 ];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim())));
