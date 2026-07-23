@@ -568,6 +568,27 @@
         let pageSize = 20;
         let markers = [];
 
+        const CATEGORY_ORDER = [
+            "UFO / UAP Sighting",
+            "Paranormal Activity",
+            "Historical Mystery",
+            "Other / Unclassified"
+        ];
+
+        function canonicalEventType(value) {
+            const type = String(value || '').trim().toLowerCase();
+            if (/\b(ufo|uap)\b|unidentified (?:aerial|anomalous)/.test(type)) {
+                return "UFO / UAP Sighting";
+            }
+            if (/paranormal|ghost|spirit|supernatural|cryptid|haunt/.test(type)) {
+                return "Paranormal Activity";
+            }
+            if (/historical|history|cold case|archaeolog|ancient/.test(type)) {
+                return "Historical Mystery";
+            }
+            return "Other / Unclassified";
+        }
+
 
 
         async function fetchEvents(filters = {}) {
@@ -590,6 +611,8 @@
                                 }
                             }
                         });
+                        event.original_event_type = event.event_type;
+                        event.event_type = canonicalEventType(event.event_type);
                         return event;
                     });
 
@@ -616,7 +639,7 @@
                     });
 
                     currentPage = 1;
-                    populateFilters(allEvents);
+                    populateFilters(allEvents, filters.eventType || '');
                     updateMap(filteredEvents);
                     updateTable();
                     updatePaginationInfo();
@@ -633,7 +656,7 @@
             allEvents = [
                 {
                     id: 0,
-                    event_type: "UFO",
+                    event_type: "UFO / UAP Sighting",
                     name: "Roswell Incident",
                     location: "Roswell, New Mexico",
                     latitude: 33.3943,
@@ -647,7 +670,7 @@
                 },
                 {
                     id: 1,
-                    event_type: "Paranormal",
+                    event_type: "Paranormal Activity",
                     name: "Bell Witch Haunting",
                     location: "Adams, Tennessee",
                     latitude: 36.5442,
@@ -668,21 +691,27 @@
             updatePaginationInfo();
         }
 
-        function populateFilters(events) {
-            const eventTypes = new Set();
+        function populateFilters(events, selectedType = '') {
+            const eventTypes = new Map();
             events.forEach(event => {
-                eventTypes.add(event.event_type);
+                const type = canonicalEventType(event.event_type);
+                eventTypes.set(type, (eventTypes.get(type) || 0) + 1);
             });
 
             const eventTypeSelect = document.getElementById("eventType");
-            eventTypeSelect.innerHTML = '<option value="">All</option>';
+            eventTypeSelect.innerHTML = `<option value="">All categories (${events.length})</option>`;
 
-            eventTypes.forEach(type => {
+            [...eventTypes.entries()]
+              .sort(([a], [b]) => CATEGORY_ORDER.indexOf(a) - CATEGORY_ORDER.indexOf(b))
+              .forEach(([type, count]) => {
                 const option = document.createElement("option");
                 option.value = type;
-                option.textContent = type;
+                option.textContent = `${type} (${count})`;
                 eventTypeSelect.appendChild(option);
-            });
+              });
+            if ([...eventTypeSelect.options].some(option => option.value === selectedType)) {
+                eventTypeSelect.value = selectedType;
+            }
         }
 
         function updateMap(events) {
