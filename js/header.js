@@ -6,20 +6,20 @@
 function renderSiteHeader() {
     const headerHTML = `
     <!-- Navigation -->
-    <nav class="sticky top-0 z-50 bg-charcoal/95 backdrop-blur-md border-b border-matrix-green/30">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex items-center justify-between">
+    <nav class="sticky top-0 z-50 bg-charcoal/95 backdrop-blur-md border-b border-matrix-green/30" aria-label="Primary navigation">
+        <div class="container mx-auto px-3 sm:px-4 py-2 md:py-3">
+            <div class="flex items-center justify-between gap-2 min-w-0">
                 <!-- Logo -->
-                <a href="index.html" class="flex items-center space-x-4 group">
-                    <img src="logo.png" alt="The Unverified File Logo" class="h-32 md:h-40 w-auto transition-transform group-hover:scale-110">
-                    <div>
-                        <h1 class="text-3xl md:text-4xl font-orbitron font-bold text-matrix-green matrix-glow">THE UNVERIFIED FILE</h1>
-                        <p class="text-sm text-terminal-green/70 font-mono">Classification: Evidence Required</p>
+                <a href="index.html" class="flex items-center gap-2 md:gap-4 group min-w-0 flex-1 xl:flex-none">
+                    <img src="logo.png" alt="The Unverified File" class="h-14 sm:h-16 md:h-24 xl:h-28 w-auto shrink-0 object-contain transition-transform group-hover:scale-105">
+                    <div class="min-w-0">
+                        <h1 class="text-base sm:text-xl md:text-2xl xl:text-3xl font-orbitron font-bold text-matrix-green matrix-glow leading-tight truncate">THE UNVERIFIED FILE</h1>
+                        <p class="hidden sm:block text-[.68rem] md:text-xs text-terminal-green/70 font-mono truncate">Classification: Evidence Required</p>
                     </div>
                 </a>
                 
                 <!-- Desktop Navigation Links -->
-                <div class="hidden md:flex items-center space-x-6">
+                <div class="hidden xl:flex items-center gap-4 text-sm">
                     <a href="index.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="home">Home</a>
                     <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Vote: Real or Hoax?</a>
                     <a href="detail.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="detail">Investigations</a>
@@ -30,24 +30,32 @@ function renderSiteHeader() {
                 </div>
                 
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-toggle" class="md:hidden text-matrix-green text-2xl">
+                <button id="mobile-menu-toggle" class="xl:hidden shrink-0 grid place-items-center w-12 h-12 rounded-lg border border-matrix-green/40 text-matrix-green text-xl" type="button" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
             
             <!-- Mobile Menu -->
-            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-matrix-green/30 pt-4">
-                <div class="flex flex-col space-y-3">
-                    <a href="index.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="home">Home</a>
-                    <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Vote: Real or Hoax?</a>
-                    <a href="detail.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="detail">Investigations</a>
-                    <a href="archive.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="archive">Archive</a>
-                    <a href="uap-alignments.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="uap-alignments">UAP Lab</a>
-                    <a href="map.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="map">Evidence Map</a>
-                    <a href="blog.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="blog">Project D-LOG</a>
+            <div id="mobile-menu" class="hidden xl:hidden mt-2 pb-3 border-t border-matrix-green/30 pt-3">
+                <div class="grid grid-cols-2 gap-2">
+                    <a href="index.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="home">Home</a>
+                    <a href="archive.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="archive">Archive</a>
+                    <a href="map.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="map">Evidence Map</a>
+                    <a href="uap-alignments.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="uap-alignments">UAP Lab</a>
+                    <a href="detail.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="detail">Investigations</a>
+                    <a href="blog.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="blog">Project D-LOG</a>
+                    <a href="hoax.html" class="nav-link col-span-2 rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="hoax">Vote: Real or Hoax?</a>
                 </div>
             </div>
         </div>
+    </nav>
+    <nav class="xl:hidden fixed bottom-0 inset-x-0 z-[1000] bg-dark-charcoal/95 backdrop-blur-lg border-t border-matrix-green/30 pb-[env(safe-area-inset-bottom)]" aria-label="Mobile app navigation">
+      <div class="grid grid-cols-4">
+        <a href="index.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="home"><i class="fas fa-house text-base"></i><span>Home</span></a>
+        <a href="archive.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="archive"><i class="fas fa-box-archive text-base"></i><span>Archive</span></a>
+        <a href="map.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="map"><i class="fas fa-map-location-dot text-base"></i><span>Map</span></a>
+        <a href="uap-alignments.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="uap-alignments"><i class="fas fa-diagram-project text-base"></i><span>UAP Lab</span></a>
+      </div>
     </nav>
     `;
     
@@ -75,9 +83,28 @@ function renderSiteHeader() {
         if (mobileMenuToggle && mobileMenu) {
             mobileMenuToggle.addEventListener('click', function() {
                 mobileMenu.classList.toggle('hidden');
+                const open = !mobileMenu.classList.contains('hidden');
+                mobileMenuToggle.setAttribute('aria-expanded', String(open));
+                mobileMenuToggle.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+                mobileMenuToggle.querySelector('i').className = open ? 'fas fa-xmark' : 'fas fa-bars';
             });
         }
     }
+}
+
+function enablePwaShell() {
+    const head = document.head;
+    if (!document.querySelector('link[rel="manifest"]')) {
+        const manifest = document.createElement('link'); manifest.rel = 'manifest'; manifest.href = 'manifest.webmanifest'; head.appendChild(manifest);
+    }
+    const metas = [
+        ['theme-color', '#0f0f0f'], ['mobile-web-app-capable', 'yes'],
+        ['apple-mobile-web-app-capable', 'yes'], ['apple-mobile-web-app-status-bar-style', 'black-translucent'],
+        ['apple-mobile-web-app-title', 'Unverified File']
+    ];
+    metas.forEach(([name, content]) => { if (!document.querySelector(`meta[name="${name}"]`)) { const meta=document.createElement('meta'); meta.name=name; meta.content=content; head.appendChild(meta); } });
+    if (!document.querySelector('link[rel="apple-touch-icon"]')) { const icon=document.createElement('link'); icon.rel='apple-touch-icon'; icon.href='icon-180.png'; head.appendChild(icon); }
+    if ('serviceWorker' in navigator && location.protocol === 'https:') window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}), { once: true });
 }
 
 // Scripts normally load before DOMContentLoaded, but cached/deferred article
@@ -87,3 +114,4 @@ if (document.readyState === 'loading') {
 } else {
     renderSiteHeader();
 }
+enablePwaShell();

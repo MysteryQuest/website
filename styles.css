@@ -137,22 +137,17 @@ body {
     font-weight: 400;
 }
 
-/* Adjust body padding for navbar with overlapping badge */
-body {
-    padding-top: 90px !important; /* Account for navbar + spacer + badge overlap */
+/* The current shared header participates in normal document flow. */
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-/* Adjust for mobile */
-@media (max-width: 768px) {
-    body {
-        padding-top: 80px !important;
-    }
-}
-
-@media (max-width: 576px) {
-    body {
-        padding-top: 110px !important; /* Extra space for stacked layout */
-    }
+body { padding-top: 0 !important; }
+@media (max-width: 1279px) {
+    body { padding-bottom: calc(4rem + env(safe-area-inset-bottom)) !important; }
+    img, video, iframe, canvas { max-width: 100%; }
 }
 
 /* Footer Styles */

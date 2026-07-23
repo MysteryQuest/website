@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     
     <!-- Primary Meta Tags -->
     <title>Mystery Quest Interactive Map - Explore Mysterious Events Worldwide</title>
@@ -390,6 +390,12 @@
             
             .table-container {
                 font-size: 0.85em;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            table {
+                min-width: 640px;
             }
             
             th, td {
@@ -548,7 +554,7 @@
     <div id="footer-container"></div>
     
     <!-- Header & Footer Includes -->
-    <script src="js/header.js"></script>
+    <script src="js/header.js?v=20260723-mobile1"></script>
     <script src="js/footer.js"></script>
     <!-- Navigation Management (legacy compatibility) -->
     <script src="js/navigation.js"></script>

@@ -87,12 +87,12 @@
     </main>
 
     <div id="footer-container"></div>
-    <script src="js/header.js"></script>
+    <script src="js/header.js?v=20260723-mobile1"></script>
     <script src="js/footer.js"></script>
     <script src="js/navigation.js"></script>
     <script>
         const API = 'https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1';
-        const PAGE_SIZE = 100;
+        const PAGE_SIZE = window.matchMedia('(max-width: 767px)').matches ? 24 : 100;
         let offset = 0;
         let total = 0;
         let loaded = 0;
@@ -200,9 +200,9 @@
             while (loaded < total) await loadCases(false);
         }
 
-        document.getElementById('archive-filters').addEventListener('submit', event => { event.preventDefault(); loadAllCases(); });
+        document.getElementById('archive-filters').addEventListener('submit', event => { event.preventDefault(); loadCases(true); });
         document.getElementById('load-more').addEventListener('click', () => loadCases(false));
-        Promise.all([loadInvestigations(), loadAllCases()]);
+        Promise.all([loadInvestigations(), loadCases(true)]);
     </script>
 </body>
 </html>
