@@ -1,7 +1,8 @@
-const CACHE = 'unverified-file-shell-v2';
+const CACHE = 'unverified-file-shell-v3';
 const SHELL = [
-  '/', '/index.html', '/archive.html', '/map.html', '/labs.html', '/investigations.html', '/uap-alignments.html',
-  '/article.html', '/detail.html', '/offline.html', '/styles.css',
+  '/', '/index.html', '/case-files.html', '/case.html', '/broadcasts.html', '/methodology.html', '/about.html',
+  '/archive.html', '/map.html', '/labs.html', '/investigations.html', '/uap-alignments.html', '/hoax.html',
+  '/article.html', '/detail.html', '/offline.html', '/styles.css', '/evidence-platform.css',
   '/js/header.js', '/js/footer.js', '/logo.png', '/icon-192.png', '/icon-512.png'
 ];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)).then(() => self.skipWaiting())));

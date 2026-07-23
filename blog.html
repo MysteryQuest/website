@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Project D-LOG - The Unverified File</title>
+    <title>Evidence Desk - The Unverified File</title>
     <meta name="title" content="Project D-LOG - AI-Driven Investigation Reports">
     <meta name="description" content="Evidence-based investigation reports, AI analysis, and expert debunking. The Machine Gathers the Evidence. We Serve the Verdict.">
     <meta name="keywords" content="Project D-LOG, conspiracy theory debunking, AI investigation, evidence-based analysis, OSINT">
@@ -194,14 +194,9 @@
                     return;
                 }
             } catch(e) {
-                // fall through to sample data
+                // Keep failure visible; never replace missing reporting with fictional examples.
             }
-            // Fallback sample posts shown until real articles are published
-            renderPosts([
-                { title: "D-LOG 001: UAP Data Leak Analysis", date: "2025-12-01", author: "Project D-LOG AI", category: "UAP Investigation", excerpt: "Analysis of recently leaked UAP data from undisclosed military sources. Evidence suggests coordinated observation events.", slug: "uap-data-leak-analysis", readTime: "8 min read" },
-                { title: "D-LOG 002: Havana Syndrome Update", date: "2025-11-28", author: "Project D-LOG AI", category: "Medical Mystery", excerpt: "New evidence emerges in the Havana Syndrome case. Analyzing electromagnetic frequency patterns and witness testimony.", slug: "havana-syndrome-update", readTime: "12 min read" },
-                { title: "D-LOG 003: Antarctic Anomaly", date: "2025-11-15", author: "Project D-LOG AI", category: "Satellite Analysis", excerpt: "Satellite imagery reveals unusual thermal signatures in Antarctica. Investigation of recent anomalous readings.", slug: "antarctic-anomaly", readTime: "10 min read" },
-            ]);
+            document.getElementById('blog-posts').innerHTML = '<div class="col-span-full rounded-lg border border-matrix-green/30 bg-charcoal/60 p-6 text-gray-300">No reviewed Evidence Desk reports are available right now. Browse the <a class="text-matrix-green underline" href="case-files.html">versioned case files</a> instead.</div>';
         }
 
         // Load posts when DOM is ready

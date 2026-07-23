@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div>
                     <h3 class="font-orbitron font-bold text-matrix-green mb-3">The Unverified File</h3>
                     <p class="text-sm text-gray-400">
-                        Evidence-based investigation of unexplained phenomena, conspiracy theories, and mysterious events.
+                        An evidence-first newsroom for uncertain and unexplained events. We document claims, sources, limitations, and revisions.
                     </p>
                 </div>
 
@@ -20,12 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div>
                     <h4 class="font-orbitron font-bold text-white mb-3">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="index.html" class="text-gray-400 hover:text-matrix-green transition-colors">Home</a></li>
-                        <li><a href="hoax.html" class="text-gray-400 hover:text-matrix-green transition-colors">Vote: Real or Hoax?</a></li>
-                        <li><a href="investigations.html" class="text-gray-400 hover:text-matrix-green transition-colors">Investigations</a></li>
-                        <li><a href="labs.html" class="text-gray-400 hover:text-matrix-green transition-colors">Labs</a></li>
-                        <li><a href="map.html" class="text-gray-400 hover:text-matrix-green transition-colors">Evidence Map</a></li>
-                        <li><a href="blog.html" class="text-gray-400 hover:text-matrix-green transition-colors">Project D-LOG</a></li>
+                        <li><a href="index.html" class="text-gray-400 hover:text-matrix-green transition-colors">Briefing</a></li>
+                        <li><a href="case-files.html" class="text-gray-400 hover:text-matrix-green transition-colors">Case Files</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-matrix-green transition-colors">Evidence Desk</a></li>
+                        <li><a href="hoax.html" class="text-gray-400 hover:text-matrix-green transition-colors">Community Queue</a></li>
+                        <li><a href="broadcasts.html" class="text-gray-400 hover:text-matrix-green transition-colors">Broadcasts</a></li>
                     </ul>
                 </div>
 
@@ -36,6 +35,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         <li><a href="osint.html" class="text-gray-400 hover:text-matrix-green transition-colors">OSINT Toolkit</a></li>
                         <li><a href="archive.html" class="text-gray-400 hover:text-matrix-green transition-colors">D-LOG Archive</a></li>
                         <li><a href="methodology.html" class="text-gray-400 hover:text-matrix-green transition-colors">Methodology</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-matrix-green transition-colors">About & trust</a></li>
+                        <li><a href="labs.html" class="text-gray-400 hover:text-matrix-green transition-colors">Labs</a></li>
+                        <li><a href="map.html" class="text-gray-400 hover:text-matrix-green transition-colors">Evidence Map</a></li>
                         <li><a href="privacy.html" class="text-gray-400 hover:text-matrix-green transition-colors">Privacy Policy</a></li>
                     </ul>
                 </div>
@@ -68,10 +70,10 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Copyright -->
             <div class="border-t border-matrix-green/30 pt-6 text-center">
                 <p class="text-sm text-gray-500 font-mono">
-                    © ${new Date().getFullYear()} The Unverified File. All rights reserved. | Classification: Public Domain
+                    © ${new Date().getFullYear()} The Unverified File. All rights reserved. | Corrections and revisions are part of the record.
                 </p>
                 <p class="text-xs text-gray-600 mt-2">
-                    Separating Conspiracy Theory from Evidence-Based Reality
+                    Evidence first. Conclusions provisional. Sources visible.
                 </p>
             </div>
         </div>

@@ -1,7 +1,7 @@
 {
   "name": "The Unverified File",
   "short_name": "Unverified",
-  "description": "Evidence-based investigation of UAP reports, sightings, and connected sources.",
+  "description": "Evidence-first reporting with visible claims, sources, limitations, and revisions.",
   "id": "/",
   "start_url": "/index.html?source=pwa",
   "scope": "/",
@@ -15,8 +15,8 @@
     {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ],
   "shortcuts": [
-    {"name":"Evidence Map","url":"/map.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
-    {"name":"Labs","url":"/labs.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
-    {"name":"Archive","url":"/archive.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]}
+    {"name":"Case Files","url":"/case-files.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
+    {"name":"Community Queue","url":"/hoax.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
+    {"name":"Evidence Map","url":"/map.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]}
   ]
 }

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Primary Sitemap
-Sitemap: https://mystiqst.com/sitemap.xml
+Sitemap: https://unverifiedfile.com/sitemap.xml
 
 # Crawl delay for respectful crawling
 Crawl-delay: 1
@@ -17,8 +17,6 @@ Allow: /map.html
 Disallow: /admin/
 Disallow: /tmp/
 Disallow: /logs/
-Disallow: /*.json$
-Disallow: /*?*
 
 # Allow social media crawlers
 User-agent: facebookexternalhit

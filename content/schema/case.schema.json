@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unverifiedfile.com/schema/case.schema.json",
+  "title": "The Unverified File case manifest",
+  "type": "object",
+  "required": ["id", "slug", "title", "dek", "topic", "status", "review", "published_at", "updated_at", "summary", "ai_disclosure"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^case-[a-z0-9-]+$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 8},
+    "dek": {"type": "string", "minLength": 20},
+    "topic": {"type": "string"},
+    "status": {"enum": ["draft", "demonstration", "active", "published", "archived"]},
+    "review": {
+      "type": "object",
+      "required": ["human_reviewed", "reviewer"],
+      "properties": {
+        "human_reviewed": {"type": "boolean"},
+        "reviewer": {"type": "string"}
+      }
+    },
+    "published_at": {"type": ["string", "null"], "format": "date"},
+    "updated_at": {"type": "string", "format": "date"},
+    "summary": {"type": "string", "minLength": 40},
+    "ai_disclosure": {"type": "string", "minLength": 20},
+    "hero": {"type": "object"},
+    "related_event_ids": {"type": "array", "items": {"type": "string"}},
+    "featured": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}

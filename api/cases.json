@@ -1,0 +1,298 @@
+[
+  {
+    "id": "case-uap-disclosure-convergence",
+    "slug": "uap-disclosure-convergence",
+    "title": "UAP disclosure: records, advocacy, and testimony",
+    "dek": "What public reporting establishes about the disclosure process—and where extraordinary claims still outrun the record.",
+    "topic": "UAP",
+    "status": "published",
+    "review": {
+      "human_reviewed": true,
+      "reviewer": "The Unverified File editorial review"
+    },
+    "published_at": "2026-05-22",
+    "updated_at": "2026-07-23",
+    "summary": "Government records, institutional reporting, and congressional activity establish an active UAP disclosure debate. They do not independently establish claims of non-human technology, which remain unverified in the sources reviewed here.",
+    "ai_disclosure": "Local AI assisted with source grouping, summarization, and connection suggestions. A human reviewed the public record, wording, citations, and publication state. AI output is not treated as evidence.",
+    "hero": {
+      "src": "https://science.nasa.gov/wp-content/uploads/2022/06/uap-meeting-2023-e1692299097471.jpeg?resize=1200,513",
+      "alt": "Members of NASA's UAP independent study team at a public meeting",
+      "credit": "NASA",
+      "source_url": "https://science.nasa.gov/uap/"
+    },
+    "related_event_ids": [],
+    "featured": true,
+    "claims": [
+      {
+        "id": "claim-uap-001",
+        "text": "Public institutions are maintaining formal UAP reporting and disclosure activity.",
+        "state": "supported",
+        "evidence_ids": [
+          "evidence-uap-001",
+          "evidence-uap-002"
+        ]
+      },
+      {
+        "id": "claim-uap-002",
+        "text": "Congressional pressure is part of the current disclosure process.",
+        "state": "supported",
+        "evidence_ids": [
+          "evidence-uap-002"
+        ]
+      },
+      {
+        "id": "claim-uap-003",
+        "text": "The reviewed public sources independently establish non-human technology.",
+        "state": "unsupported",
+        "evidence_ids": [
+          "evidence-uap-003"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "evidence-uap-001",
+        "type": "official-record",
+        "title": "NASA UAP independent study materials",
+        "description": "NASA documents its independent study and public meeting, establishing institutional study of UAP without endorsing an extraterrestrial explanation.",
+        "source_ids": [
+          "source-uap-nasa"
+        ],
+        "supports": [
+          "claim-uap-001"
+        ],
+        "limitations": "Institutional study confirms inquiry, not the origin of any specific observation."
+      },
+      {
+        "id": "evidence-uap-002",
+        "type": "reported-record",
+        "title": "Reporting on anticipated Pentagon releases",
+        "description": "Independent reporting describes continuing Defense Department release activity and policy attention.",
+        "source_ids": [
+          "source-uap-debrief",
+          "source-uap-space"
+        ],
+        "supports": [
+          "claim-uap-001",
+          "claim-uap-002"
+        ],
+        "limitations": "Reporting about anticipated releases must be revisited when the underlying records become available."
+      },
+      {
+        "id": "evidence-uap-003",
+        "type": "testimony",
+        "title": "Extraordinary public testimony and social claims",
+        "description": "Witness and commentator claims extend beyond what the reviewed institutional records independently verify.",
+        "source_ids": [
+          "source-uap-reddit"
+        ],
+        "supports": [],
+        "challenges": [
+          "claim-uap-003"
+        ],
+        "limitations": "User-generated discussion is useful for tracing claims, but is not independent corroboration."
+      }
+    ],
+    "sources": [
+      {
+        "id": "source-uap-nasa",
+        "title": "NASA Unidentified Anomalous Phenomena Independent Study",
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/uap/",
+        "kind": "primary",
+        "accessed_at": "2026-07-23"
+      },
+      {
+        "id": "source-uap-debrief",
+        "title": "A New Batch of Pentagon UAP Videos Will Soon Be Released",
+        "publisher": "The Debrief",
+        "url": "https://thedebrief.org/a-new-batch-of-pentagon-uap-videos-will-soon-be-released-heres-what-to-expect/",
+        "kind": "secondary",
+        "accessed_at": "2026-07-23"
+      },
+      {
+        "id": "source-uap-space",
+        "title": "The UFO files: what did we learn from the Pentagon's first big release?",
+        "publisher": "Space.com",
+        "url": "https://www.space.com/space-exploration/search-for-life/the-ufo-files-what-did-we-learn-from-the-pentagons-1st-big-release",
+        "kind": "secondary",
+        "accessed_at": "2026-07-23"
+      },
+      {
+        "id": "source-uap-reddit",
+        "title": "Public UAP discussion threads used to trace circulating claims",
+        "publisher": "Reddit r/UFOs",
+        "url": "https://www.reddit.com/r/UFOs/",
+        "kind": "user-generated",
+        "accessed_at": "2026-07-23"
+      }
+    ],
+    "hypotheses": [
+      {
+        "id": "hyp-uap-001",
+        "title": "The present convergence is primarily institutional transparency activity",
+        "status": "plausible",
+        "description": "The strongest common thread is policy, reporting, and record release—not a demonstrated common physical cause.",
+        "would_change": "New primary records with independently verifiable sensor data tied to specific incidents."
+      },
+      {
+        "id": "hyp-uap-002",
+        "title": "The sources describe one coordinated non-human disclosure event",
+        "status": "not-established",
+        "description": "The reviewed materials do not establish that historical incidents, modern testimony, and current releases share one cause.",
+        "would_change": "Authenticated records that explicitly connect the incidents and survive independent technical review."
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2023-05-31",
+        "label": "NASA public meeting",
+        "description": "NASA's independent study team held a public meeting on its UAP work.",
+        "source_ids": [
+          "source-uap-nasa"
+        ]
+      },
+      {
+        "date": "2026-05-22",
+        "label": "Initial report published",
+        "description": "The Unverified File published an AI-assisted synthesis for editorial review.",
+        "source_ids": []
+      },
+      {
+        "date": "2026-07-23",
+        "label": "Evidence-first migration",
+        "description": "Claims, evidence, sources, hypotheses, and limitations were separated into a versioned case file.",
+        "source_ids": []
+      }
+    ],
+    "connections": [
+      {
+        "id": "connection-uap-rendlesham",
+        "title": "Rendlesham Forest reports",
+        "kind": "named-incident",
+        "strength": "preliminary",
+        "description": "The incident appears in disclosure discussions, but no reviewed source establishes a direct causal link to current releases.",
+        "href": "map.html"
+      },
+      {
+        "id": "connection-uap-government-media",
+        "title": "Government UAP media index",
+        "kind": "dataset",
+        "strength": "direct",
+        "description": "The evidence map and UAP alignment lab index official media and candidate related sightings.",
+        "href": "uap-alignments.html"
+      }
+    ],
+    "revisions": [
+      {
+        "date": "2026-07-23",
+        "summary": "Migrated the prior article into the evidence-first format; reduced unsupported connective language; added explicit claim states, source types, limitations, and AI disclosure.",
+        "editor": "The Unverified File editorial review"
+      }
+    ],
+    "narrative_html": "<h2>What is established</h2>\n<p>The public record supports a narrower conclusion than the broadest online discussion: UAP are a continuing subject of institutional study, reporting, and political scrutiny. NASA has published material from its independent study, while reporting has tracked additional Defense Department releases and congressional demands for transparency.</p>\n<p>That activity matters. It shows a durable public-policy and records question. It does not, by itself, identify the cause of a particular observation.</p>\n<h2>Where the record becomes uncertain</h2>\n<p>Historical incidents, personal testimony, whistleblower accounts, and claims about non-human technology are often presented together. The reviewed sources do not demonstrate that these reports share a cause or that the most extraordinary interpretations are independently corroborated.</p>\n<p>User-generated discussions are included to show how claims circulate and which connections warrant follow-up. They are leads, not confirmation.</p>\n<h2>Next reporting steps</h2>\n<p>The most useful next step is document-level work: obtain each released record, preserve its provenance, connect it to a specific incident, and compare its sensor and witness data with plausible conventional explanations. This case remains open and will change as primary records become available.</p>",
+    "url": "case.html?slug=uap-disclosure-convergence"
+  },
+  {
+    "id": "case-uap-data-leak-analysis",
+    "slug": "uap-data-leak-analysis",
+    "title": "UAP data leak analysis",
+    "dek": "A demonstration case shell retained from the former homepage while source-level research is commissioned.",
+    "topic": "UAP",
+    "status": "demonstration",
+    "review": {
+      "human_reviewed": false,
+      "reviewer": ""
+    },
+    "published_at": null,
+    "updated_at": "2026-07-23",
+    "summary": "This title previously appeared as a homepage feature without a supporting case record. It is now explicitly quarantined as a demonstration and must not be read as a completed investigation.",
+    "ai_disclosure": "No substantive AI research is published in this demonstration record. Future AI assistance must be disclosed and human reviewed.",
+    "hero": {},
+    "related_event_ids": [],
+    "featured": false,
+    "claims": [],
+    "evidence": [],
+    "sources": [],
+    "hypotheses": [],
+    "timeline": [],
+    "connections": [],
+    "revisions": [
+      {
+        "date": "2026-07-23",
+        "summary": "Converted an unsupported homepage placeholder into a clearly labeled demonstration record.",
+        "editor": "Codex migration"
+      }
+    ],
+    "narrative_html": "<h2>Demonstration record</h2>\n<p>This page tests the case-file structure only. Research, evidence, and sources have not yet been assembled. It is not a published finding.</p>",
+    "url": "case.html?slug=uap-data-leak-analysis"
+  },
+  {
+    "id": "case-fema-weather-weaponry-claims",
+    "slug": "fema-weather-weaponry-claims",
+    "title": "FEMA and weather-weaponry claims",
+    "dek": "A demonstration case shell for evaluating a recurring online claim without amplifying it as established fact.",
+    "topic": "Misinformation",
+    "status": "demonstration",
+    "review": {
+      "human_reviewed": false,
+      "reviewer": ""
+    },
+    "published_at": null,
+    "updated_at": "2026-07-23",
+    "summary": "This concept previously appeared as a homepage feature without citations. It is retained only as a visible demonstration record pending a scoped claim, primary sources, and editorial review.",
+    "ai_disclosure": "No substantive AI research is published in this demonstration record. Future AI assistance must be disclosed and human reviewed.",
+    "hero": {},
+    "related_event_ids": [],
+    "featured": false,
+    "claims": [],
+    "evidence": [],
+    "sources": [],
+    "hypotheses": [],
+    "timeline": [],
+    "connections": [],
+    "revisions": [
+      {
+        "date": "2026-07-23",
+        "summary": "Converted an unsupported homepage placeholder into a clearly labeled demonstration record.",
+        "editor": "Codex migration"
+      }
+    ],
+    "narrative_html": "<h2>Demonstration record</h2>\n<p>This page tests the case-file structure only. It makes no finding about FEMA or weather modification. Research must begin by defining the exact claim and collecting primary sources.</p>",
+    "url": "case.html?slug=fema-weather-weaponry-claims"
+  },
+  {
+    "id": "case-ancient-tech-artifacts",
+    "slug": "ancient-tech-artifacts",
+    "title": "Ancient technology artifact claims",
+    "dek": "A demonstration case shell for comparing archaeological context with extraordinary interpretations.",
+    "topic": "Archaeology",
+    "status": "demonstration",
+    "review": {
+      "human_reviewed": false,
+      "reviewer": ""
+    },
+    "published_at": null,
+    "updated_at": "2026-07-23",
+    "summary": "This broad concept previously appeared as a homepage feature without a defined artifact or source set. It remains a demonstration until it is divided into specific, researchable claims.",
+    "ai_disclosure": "No substantive AI research is published in this demonstration record. Future AI assistance must be disclosed and human reviewed.",
+    "hero": {},
+    "related_event_ids": [],
+    "featured": false,
+    "claims": [],
+    "evidence": [],
+    "sources": [],
+    "hypotheses": [],
+    "timeline": [],
+    "connections": [],
+    "revisions": [
+      {
+        "date": "2026-07-23",
+        "summary": "Converted an unsupported homepage placeholder into a clearly labeled demonstration record.",
+        "editor": "Codex migration"
+      }
+    ],
+    "narrative_html": "<h2>Demonstration record</h2>\n<p>This page tests the case-file structure only. A publishable investigation must identify a specific artifact, preserve archaeological context, and cite primary excavation or collections records.</p>",
+    "url": "case.html?slug=ancient-tech-artifacts"
+  }
+]

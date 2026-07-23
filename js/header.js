@@ -14,19 +14,19 @@ function renderSiteHeader() {
                     <img src="logo.png" alt="The Unverified File" class="h-14 sm:h-16 md:h-24 xl:h-28 w-auto shrink-0 object-contain transition-transform group-hover:scale-105">
                     <div class="min-w-0">
                         <h1 class="text-base sm:text-xl md:text-2xl xl:text-3xl font-orbitron font-bold text-matrix-green matrix-glow leading-tight truncate">THE UNVERIFIED FILE</h1>
-                        <p class="hidden sm:block text-[.68rem] md:text-xs text-terminal-green/70 font-mono truncate">Classification: Evidence Required</p>
+                        <p class="hidden sm:block text-[.68rem] md:text-xs text-terminal-green/70 font-mono truncate">Claims documented. Evidence linked. Unknowns visible.</p>
                     </div>
                 </a>
                 
                 <!-- Desktop Navigation Links -->
                 <div class="hidden xl:flex items-center gap-4 text-sm">
-                    <a href="index.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="home">Home</a>
-                    <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Vote: Real or Hoax?</a>
-                    <a href="investigations.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="investigations">Investigations</a>
-                    <a href="archive.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="archive">Archive</a>
-                    <a href="labs.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="labs">Labs</a>
-                    <a href="map.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="map">Evidence Map</a>
-                    <a href="blog.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="blog">Project D-LOG</a>
+                    <a href="index.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="home">Briefing</a>
+                    <a href="case-files.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="case-files">Case Files</a>
+                    <a href="blog.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="blog">Evidence Desk</a>
+                    <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Community Queue</a>
+                    <a href="broadcasts.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="broadcasts">Broadcasts</a>
+                    <a href="methodology.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="methodology">Methodology</a>
+                    <a href="about.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="about">About</a>
                 </div>
                 
                 <!-- Mobile Menu Button -->
@@ -38,23 +38,25 @@ function renderSiteHeader() {
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden xl:hidden mt-2 pb-3 border-t border-matrix-green/30 pt-3">
                 <div class="grid grid-cols-2 gap-2">
-                    <a href="index.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="home">Home</a>
-                    <a href="archive.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="archive">Archive</a>
+                    <a href="index.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="home">Briefing</a>
+                    <a href="case-files.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="case-files">Case Files</a>
+                    <a href="blog.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="blog">Evidence Desk</a>
+                    <a href="hoax.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="hoax">Community Queue</a>
+                    <a href="broadcasts.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="broadcasts">Broadcasts</a>
+                    <a href="methodology.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="methodology">Methodology</a>
+                    <a href="about.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="about">About</a>
                     <a href="map.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="map">Evidence Map</a>
                     <a href="labs.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="labs">Labs</a>
-                    <a href="investigations.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="investigations">Investigations</a>
-                    <a href="blog.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="blog">Project D-LOG</a>
-                    <a href="hoax.html" class="nav-link col-span-2 rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="hoax">Vote: Real or Hoax?</a>
                 </div>
             </div>
         </div>
     </nav>
     <nav class="xl:hidden fixed bottom-0 inset-x-0 z-[1000] bg-dark-charcoal/95 backdrop-blur-lg border-t border-matrix-green/30 pb-[env(safe-area-inset-bottom)]" aria-label="Mobile app navigation">
       <div class="grid grid-cols-4">
-        <a href="index.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="home"><i class="fas fa-house text-base"></i><span>Home</span></a>
-        <a href="archive.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="archive"><i class="fas fa-box-archive text-base"></i><span>Archive</span></a>
+        <a href="index.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="home"><i class="fas fa-newspaper text-base"></i><span>Briefing</span></a>
+        <a href="case-files.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="case-files"><i class="fas fa-folder-open text-base"></i><span>Cases</span></a>
+        <a href="hoax.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="hoax"><i class="fas fa-inbox text-base"></i><span>Queue</span></a>
         <a href="map.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="map"><i class="fas fa-map-location-dot text-base"></i><span>Map</span></a>
-        <a href="labs.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="labs"><i class="fas fa-flask text-base"></i><span>Labs</span></a>
       </div>
     </nav>
     `;
