@@ -1,4 +1,4 @@
-const CACHE = 'unverified-file-shell-v4';
+const CACHE = 'unverified-file-shell-v5';
 const SHELL = [
   '/', '/index.html', '/case-files.html', '/case.html', '/blog.html', '/broadcasts.html', '/methodology.html', '/about.html',
   '/archive.html', '/map.html', '/labs.html', '/investigations.html', '/uap-alignments.html', '/uap-sightings.html', '/network.html', '/hoax.html',

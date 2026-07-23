@@ -4,6 +4,7 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>UAP Alignment Explorer - The Unverified File</title>
   <meta name="description" content="Explore candidate alignments between official government UAP records and public sighting, article, and social records.">
+  <script>if(new URLSearchParams(location.search).get('embed')==='1')document.documentElement.classList.add('embed')</script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config={theme:{extend:{colors:{'matrix-green':'#00cc66','terminal-green':'#0a9461','charcoal':'#1a1a1a','dark-charcoal':'#0f0f0f','cyber-yellow':'#ffd700'},fontFamily:{orbitron:['Orbitron','monospace']}}}};</script>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,8 @@
     .panel{background:rgba(14,20,17,.92);border:1px solid rgba(148,163,184,.2)}#alignment-map,#alignment-graph{height:590px;background:#0b100d}.cluster{border-left:3px solid transparent}.cluster[aria-selected="true"]{border-left-color:#00cc66;background:rgba(0,204,102,.08)}
     .score-ring{display:grid;place-items:center;border-radius:999px;background:conic-gradient(#00cc66 var(--score),#24322b 0);position:relative}.score-ring:after{content:"";position:absolute;inset:4px;border-radius:inherit;background:#111713}.score-ring span{z-index:1}.leaflet-container{font-family:Inter,sans-serif}.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#111713;color:#eee}.tab[aria-selected="true"]{background:#00cc66;color:#061009}
     @media(max-width:1023px){#alignment-map,#alignment-graph{height:500px}}@media(max-width:640px){#alignment-map,#alignment-graph{height:420px}}
+    html.embed body{background:#090b0a}html.embed #header-container,html.embed body>header,html.embed #footer-container{display:none!important}html.embed main{max-width:none!important;padding:1rem!important}html.embed main>section:last-child{margin-bottom:1rem}html.embed .cluster:nth-child(n+13){display:none}html.embed aside{max-height:650px;overflow-y:auto}
+    @media(max-width:1023px){html.embed .cluster:nth-child(n+7){display:none}html.embed aside{max-height:390px}}
   </style>
 </head>
 <body class="text-gray-100">
