@@ -257,7 +257,7 @@
                     ${images.map(image => `
                         <figure>
                             <a href="${safeUrl(image.source_url)}" target="_blank" rel="noopener noreferrer">
-                                <img src="${safeUrl(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy" referrerpolicy="no-referrer">
+                                <img src="${safeUrl(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='splash.webp'">
                             </a>
                             <figcaption>${escapeHtml(image.caption)} <a href="${safeUrl(image.source_url)}" target="_blank" rel="noopener noreferrer" class="text-matrix-green hover:underline">Credit: ${escapeHtml(image.credit)}</a></figcaption>
                         </figure>
@@ -348,6 +348,7 @@
             const primaryImage = Array.isArray(article.images) ? article.images[0] : null;
             if (primaryImage) {
                 document.getElementById('article-hero-image').src = safeUrl(primaryImage.src);
+                document.getElementById('article-hero-image').onerror = function () { this.onerror = null; this.src = 'splash.webp'; };
                 document.getElementById('article-hero-image').alt = primaryImage.alt || article.title;
                 document.querySelector('meta[property="og:image"]').setAttribute('content', safeUrl(primaryImage.src));
                 document.querySelector('meta[property="twitter:image"]').setAttribute('content', safeUrl(primaryImage.src));

@@ -471,15 +471,6 @@
             console.info("Vote recorded only in this browser session while the privacy-safe API is brought online.", { index, type });
         }
 
-        function moveToNextSlide(currentIndex) {
-            const carousel = document.getElementById('mysteryCarousel');
-            const bsCarousel = bootstrap.Carousel.getOrCreateInstance(carousel);
-            // Only move to next if not last slide
-            if (currentIndex < mysteries.length - 1) {
-            bsCarousel.next();
-            }
-        }
-
         // Initialize on load
         document.addEventListener('DOMContentLoaded', () => {
             fetchMysteries();

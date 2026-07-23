@@ -101,8 +101,13 @@
             .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
             .replaceAll('"', '&quot;').replaceAll("'", '&#039;');
 
-        function safeImage(url) {
-            if (!url) return 'splash.webp';
+        function fallbackImage(eventType) {
+            const supported = new Set(['UFO Sighting', 'Paranormal Activity', 'Historical Mystery']);
+            return supported.has(eventType) ? `images/${eventType}.png` : 'splash.webp';
+        }
+
+        function safeImage(url, eventType = '') {
+            if (!url) return fallbackImage(eventType);
             try {
                 const parsed = new URL(url, window.location.origin);
                 return ['http:', 'https:'].includes(parsed.protocol) ? parsed.href : 'splash.webp';
@@ -123,7 +128,7 @@
                 document.getElementById('report-count').textContent = `${articles.length} published ${articles.length === 1 ? 'report' : 'reports'}`;
                 grid.innerHTML = articles.map((article, index) => `
                     <a href="article.html?slug=${encodeURIComponent(article.slug)}" class="case-card rounded-xl overflow-hidden group">
-                        <img class="case-image w-full" src="${safeImage(article.images?.[0]?.src)}" alt="${escapeHtml(article.images?.[0]?.alt || article.title)}" loading="lazy" referrerpolicy="no-referrer">
+                        <img class="case-image w-full" src="${safeImage(article.images?.[0]?.src)}" alt="${escapeHtml(article.images?.[0]?.alt || article.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='splash.webp'">
                         <div class="p-6">
                             <div class="flex justify-between gap-4 mb-3 text-xs"><span class="archive-kicker text-matrix-green">D-LOG ${String(index + 1).padStart(3, '0')}</span><span class="text-gray-500">${escapeHtml(article.readTime)}</span></div>
                             <h3 class="case-title text-2xl font-bold leading-tight text-white group-hover:text-matrix-green mb-3">${escapeHtml(article.title)}</h3>
@@ -141,7 +146,10 @@
             return `
                 <article class="case-card rounded-xl overflow-hidden">
                     <a href="detail.html?name=${encodeURIComponent(item.name)}" class="block">
-                        <img class="case-image w-full" src="${safeImage(item.image_url)}" alt="" loading="lazy">
+                        <div class="relative">
+                            <img class="case-image w-full" src="${safeImage(item.image_url, item.event_type)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${fallbackImage(item.event_type)}'">
+                            ${item.image_status === 'fallback_required' ? '<span class="absolute bottom-2 left-2 rounded bg-black/80 px-2 py-1 text-[.65rem] text-gray-300">Source image unavailable · category artwork</span>' : ''}
+                        </div>
                     </a>
                     <div class="p-5">
                         <div class="flex items-start justify-between gap-3 mb-3">
