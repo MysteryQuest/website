@@ -1,6 +1,6 @@
-const CACHE = 'unverified-file-shell-v1';
+const CACHE = 'unverified-file-shell-v2';
 const SHELL = [
-  '/', '/index.html', '/archive.html', '/map.html', '/uap-alignments.html',
+  '/', '/index.html', '/archive.html', '/map.html', '/labs.html', '/investigations.html', '/uap-alignments.html',
   '/article.html', '/detail.html', '/offline.html', '/styles.css',
   '/js/header.js', '/js/footer.js', '/logo.png', '/icon-192.png', '/icon-512.png'
 ];

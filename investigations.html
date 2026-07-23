@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Investigations — The Unverified File</title>
+  <meta name="description" content="Community real-or-hoax rankings, recent evidence events, deep-dive research requests, and the complete video investigation archive.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{'matrix-green':'#00cc66','terminal-green':'#0a9461','cyber-red':'#ff0055','charcoal':'#1a1a1a','dark-charcoal':'#0f0f0f','cyber-yellow':'#ffd700'},fontFamily:{orbitron:['Orbitron','monospace']}}}};</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><link href="styles.css" rel="stylesheet">
+  <style>
+    body{font-family:Inter,system-ui,sans-serif;background:#090b0a}.serif{font-family:"Source Serif 4",Georgia,serif}.kicker{font-family:Orbitron,monospace;letter-spacing:.12em;text-transform:uppercase}.panel{background:rgba(14,20,17,.94);border:1px solid rgba(148,163,184,.19)}.case-card{transition:transform .18s ease,border-color .18s ease}.case-card:hover{transform:translateY(-2px);border-color:rgba(0,204,102,.55)}.meter{height:.4rem;background:#26312b;border-radius:999px;overflow:hidden}.meter span{display:block;height:100%}.video-summary{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  </style>
+</head>
+<body class="text-gray-100 pb-16 xl:pb-0">
+  <div id="header-container"></div>
+  <header class="border-b border-matrix-green/20 bg-[radial-gradient(circle_at_20%_15%,rgba(0,204,102,.16),transparent_44%)]">
+    <div class="container mx-auto max-w-7xl px-4 py-14 md:py-20">
+      <p class="kicker text-xs text-matrix-green mb-4">Community signal / editorial queue</p>
+      <h1 class="serif text-5xl md:text-7xl font-bold leading-none">Investigations</h1>
+      <p class="text-lg text-gray-300 leading-8 max-w-3xl mt-6">See which cases readers judge most likely real or most likely a hoax, then help choose the next event for a deeper AI-assisted evidence report.</p>
+      <div class="flex flex-wrap gap-3 mt-7"><a class="rounded-lg bg-matrix-green text-black font-bold px-5 py-3" href="hoax.html">Cast a Real or Hoax vote</a><a class="rounded-lg border border-gray-600 px-5 py-3 hover:border-matrix-green" href="labs.html">Explore Labs</a></div>
+    </div>
+  </header>
+  <main class="container mx-auto max-w-7xl px-4 py-12">
+    <p id="ranking-note" class="text-sm text-yellow-100/70 border-l-2 border-cyber-yellow pl-4 mb-8">Loading community rankings…</p>
+    <section class="grid xl:grid-cols-2 gap-8 mb-16" aria-label="Real or hoax community rankings">
+      <div><div class="flex items-end justify-between mb-5"><div><p class="kicker text-[.65rem] text-matrix-green mb-2">Community ranking</p><h2 class="serif text-3xl md:text-4xl font-bold">Most likely real</h2></div><i class="fas fa-shield-halved text-2xl text-matrix-green"></i></div><div id="likely-real" class="space-y-3" aria-live="polite"></div></div>
+      <div><div class="flex items-end justify-between mb-5"><div><p class="kicker text-[.65rem] text-cyber-red mb-2">Community ranking</p><h2 class="serif text-3xl md:text-4xl font-bold">Most likely a hoax</h2></div><i class="fas fa-triangle-exclamation text-2xl text-cyber-red"></i></div><div id="likely-hoax" class="space-y-3" aria-live="polite"></div></div>
+    </section>
+    <section class="mb-16" aria-labelledby="recent-heading">
+      <div class="grid lg:grid-cols-[1fr_auto] gap-5 items-end mb-7"><div><p class="kicker text-[.65rem] text-cyber-yellow mb-2">Vote for the next report</p><h2 id="recent-heading" class="serif text-3xl md:text-4xl font-bold">Recent events</h2><p class="text-gray-400 leading-7 max-w-3xl mt-3">Request an AI-assisted deep dive. Votes place cases higher in the research queue; publication still depends on usable evidence and editorial review.</p></div><span id="event-count" class="text-sm text-gray-500"></span></div>
+      <div id="recent-events" class="grid md:grid-cols-2 xl:grid-cols-3 gap-5" aria-live="polite"></div>
+    </section>
+    <section aria-labelledby="video-heading">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-7"><div><p class="kicker text-[.65rem] text-red-400 mb-2">Watch the case files</p><h2 id="video-heading" class="serif text-3xl md:text-4xl font-bold">Every video investigation</h2></div><span id="video-count" class="text-sm text-gray-500">Loading videos…</span></div>
+      <div id="video-grid" class="grid md:grid-cols-2 xl:grid-cols-3 gap-5" aria-live="polite"></div>
+    </section>
+  </main>
+  <div id="footer-container"></div>
+  <script src="js/header.js?v=20260723-labs1"></script><script src="js/footer.js?v=20260723-labs1"></script><script src="js/navigation.js"></script>
+  <script>
+    const API='https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1';
+    const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+    const safeUrl=(value,fallback='splash.webp')=>{try{const u=new URL(value,location.origin);return ['http:','https:'].includes(u.protocol)?u.href:fallback}catch{return fallback}};
+    const summary=(v,n=180)=>{const t=String(v||'').replace(/\s+/g,' ').trim();return t.length>n?`${t.slice(0,n-1)}…`:t};
+    const image=e=>safeUrl(e.image_url||e.image_source_url,'splash.webp');
+    const total=e=>Number(e.real_votes||0)+Number(e.hoax_votes||0);
+    function rankingCard(e,kind){const pct=Number(e.confidence_percent||0),color=kind==='real'?'#00cc66':'#ff0055';return `<article class="panel case-card rounded-xl p-4"><div class="flex gap-4 items-start"><img class="w-24 h-20 object-cover rounded-lg bg-black shrink-0" src="${esc(image(e))}" alt="" loading="lazy" onerror="this.src='splash.webp'"><div class="min-w-0 flex-1"><div class="flex justify-between gap-3"><h3 class="serif text-xl font-bold leading-tight"><a class="hover:text-matrix-green" href="detail.html?name=${encodeURIComponent(e.name)}">${esc(e.name)}</a></h3><strong style="color:${color}">${pct.toFixed(1)}%</strong></div><p class="text-xs text-gray-500 mt-2">${esc(e.location||'Location unavailable')} · ${total(e).toLocaleString()} votes</p><div class="meter mt-3"><span style="width:${Math.min(100,pct)}%;background:${color}"></span></div></div></div></article>`}
+    function recentCard(e){const voted=localStorage.getItem(`deep-dive:${e.id}`)==='1';return `<article class="panel case-card rounded-xl overflow-hidden flex flex-col"><img class="w-full aspect-video object-cover bg-black" src="${esc(image(e))}" alt="Evidence image for ${esc(e.name)}" loading="lazy" onerror="this.src='splash.webp'"><div class="p-5 flex flex-col flex-1"><p class="kicker text-[.6rem] text-matrix-green">${esc(e.event_type||'Event')}</p><h3 class="serif text-2xl font-bold leading-tight mt-2">${esc(e.name)}</h3><p class="text-xs text-gray-500 mt-2">${esc(e.date||'Date unavailable')} · ${esc(e.location||'Location unavailable')}</p><p class="text-sm text-gray-300 leading-6 mt-4 flex-1">${esc(summary(e.description))}</p><div class="flex items-center justify-between gap-3 mt-5"><a class="text-sm text-gray-300 hover:text-matrix-green" href="detail.html?name=${encodeURIComponent(e.name)}">View evidence →</a><button class="deep-vote rounded-lg px-4 py-2 text-sm font-bold ${voted?'bg-gray-700 text-gray-300':'bg-cyber-yellow text-black'}" data-id="${esc(e.id)}" ${voted?'disabled':''}>${voted?'Requested':'Request deep dive'} · <span>${Number(e.deep_dive_count||0)}</span></button></div></div></article>`}
+    function videoCard(v){const url=safeUrl(v.url,`https://www.youtube.com/watch?v=${encodeURIComponent(v.video_id||'')}`),thumb=safeUrl(v.thumbnail_url,`https://i.ytimg.com/vi/${encodeURIComponent(v.video_id||'')}/hqdefault.jpg`);return `<article class="panel case-card rounded-xl overflow-hidden flex flex-col"><a href="${esc(url)}" target="_blank" rel="noopener noreferrer" class="relative"><img class="w-full aspect-video object-cover bg-black" src="${esc(thumb)}" alt="Thumbnail for ${esc(v.title)}" loading="lazy" onerror="this.src='splash.webp'"><span class="absolute inset-0 grid place-items-center"><i class="fab fa-youtube text-5xl text-red-500 drop-shadow-xl"></i></span></a><div class="p-5 flex flex-col flex-1"><h3 class="serif text-xl font-bold leading-tight"><a class="hover:text-matrix-green" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(v.title)}</a></h3><p class="text-xs text-gray-500 mt-2">${esc(String(v.published_at||'').slice(0,10)||'Date unavailable')} · ${Number(v.view_count||0).toLocaleString()} views</p><p class="video-summary text-sm text-gray-400 leading-6 mt-3">${esc(summary(v.description,260))}</p><a class="text-sm text-red-400 hover:text-red-300 mt-4" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div></article>`}
+    async function loadInvestigations(){const r=await fetch(`${API}/investigations`);if(!r.ok)throw new Error(`Investigation data unavailable (${r.status})`);const d=await r.json();document.getElementById('ranking-note').textContent=d.note;document.getElementById('likely-real').innerHTML=d.likely_real.length?d.likely_real.map(e=>rankingCard(e,'real')).join(''):'<p class="panel rounded-xl p-5 text-gray-400">No community votes yet.</p>';document.getElementById('likely-hoax').innerHTML=d.likely_hoax.length?d.likely_hoax.map(e=>rankingCard(e,'hoax')).join(''):'<p class="panel rounded-xl p-5 text-gray-400">No community votes yet.</p>';document.getElementById('recent-events').innerHTML=d.recent_events.map(recentCard).join('');document.getElementById('event-count').textContent=`${d.recent_events.length} recent records`;document.querySelectorAll('.deep-vote').forEach(b=>b.addEventListener('click',requestDeepDive))}
+    async function requestDeepDive(event){const b=event.currentTarget,id=b.dataset.id;b.disabled=true;b.textContent='Saving request…';try{const r=await fetch(`${API}/events/${encodeURIComponent(id)}/deep-dive-vote`,{method:'POST',headers:{'content-type':'application/json'},body:'{}'});if(!r.ok)throw new Error();const d=await r.json();localStorage.setItem(`deep-dive:${id}`,'1');b.className='deep-vote rounded-lg px-4 py-2 text-sm font-bold bg-gray-700 text-gray-300';b.innerHTML=`Requested · <span>${Number(d.deep_dive_count||0)}</span>`}catch{b.disabled=false;b.textContent='Try request again'}}
+    async function loadVideos(){const r=await fetch('api/youtube/widget.json?v=20260723-all1');if(!r.ok)throw new Error();const d=await r.json();const videos=Array.isArray(d.all)&&d.all.length?d.all:[...(d.recent||[]),...(d.popular||[])].filter((v,i,a)=>a.findIndex(x=>x.video_id===v.video_id)===i);document.getElementById('video-grid').innerHTML=videos.map(videoCard).join('');document.getElementById('video-count').textContent=`${videos.length} videos`}
+    Promise.allSettled([loadInvestigations(),loadVideos()]).then(results=>{if(results[0].status==='rejected')document.getElementById('ranking-note').textContent=results[0].reason.message;if(results[1].status==='rejected')document.getElementById('video-count').textContent='Video archive temporarily unavailable'});
+  </script>
+</body></html>

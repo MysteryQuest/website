@@ -22,9 +22,9 @@ function renderSiteHeader() {
                 <div class="hidden xl:flex items-center gap-4 text-sm">
                     <a href="index.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="home">Home</a>
                     <a href="hoax.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="hoax">Vote: Real or Hoax?</a>
-                    <a href="detail.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="detail">Investigations</a>
+                    <a href="investigations.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="investigations">Investigations</a>
                     <a href="archive.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="archive">Archive</a>
-                    <a href="uap-alignments.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="uap-alignments">UAP Lab</a>
+                    <a href="labs.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="labs">Labs</a>
                     <a href="map.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="map">Evidence Map</a>
                     <a href="blog.html" class="nav-link text-gray-300 hover:text-matrix-green transition-colors" data-page="blog">Project D-LOG</a>
                 </div>
@@ -41,8 +41,8 @@ function renderSiteHeader() {
                     <a href="index.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="home">Home</a>
                     <a href="archive.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="archive">Archive</a>
                     <a href="map.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="map">Evidence Map</a>
-                    <a href="uap-alignments.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="uap-alignments">UAP Lab</a>
-                    <a href="detail.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="detail">Investigations</a>
+                    <a href="labs.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="labs">Labs</a>
+                    <a href="investigations.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="investigations">Investigations</a>
                     <a href="blog.html" class="nav-link rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="blog">Project D-LOG</a>
                     <a href="hoax.html" class="nav-link col-span-2 rounded-lg px-3 py-3 text-gray-200 bg-white/5" data-page="hoax">Vote: Real or Hoax?</a>
                 </div>
@@ -54,7 +54,7 @@ function renderSiteHeader() {
         <a href="index.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="home"><i class="fas fa-house text-base"></i><span>Home</span></a>
         <a href="archive.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="archive"><i class="fas fa-box-archive text-base"></i><span>Archive</span></a>
         <a href="map.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="map"><i class="fas fa-map-location-dot text-base"></i><span>Map</span></a>
-        <a href="uap-alignments.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="uap-alignments"><i class="fas fa-diagram-project text-base"></i><span>UAP Lab</span></a>
+        <a href="labs.html" class="nav-link flex flex-col items-center justify-center min-h-16 gap-1 text-[.68rem] text-gray-300" data-page="labs"><i class="fas fa-flask text-base"></i><span>Labs</span></a>
       </div>
     </nav>
     `;

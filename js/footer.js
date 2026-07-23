@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <ul class="space-y-2 text-sm">
                         <li><a href="index.html" class="text-gray-400 hover:text-matrix-green transition-colors">Home</a></li>
                         <li><a href="hoax.html" class="text-gray-400 hover:text-matrix-green transition-colors">Vote: Real or Hoax?</a></li>
-                        <li><a href="detail.html" class="text-gray-400 hover:text-matrix-green transition-colors">Investigations</a></li>
+                        <li><a href="investigations.html" class="text-gray-400 hover:text-matrix-green transition-colors">Investigations</a></li>
+                        <li><a href="labs.html" class="text-gray-400 hover:text-matrix-green transition-colors">Labs</a></li>
                         <li><a href="map.html" class="text-gray-400 hover:text-matrix-green transition-colors">Evidence Map</a></li>
                         <li><a href="blog.html" class="text-gray-400 hover:text-matrix-green transition-colors">Project D-LOG</a></li>
                     </ul>

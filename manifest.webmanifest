@@ -16,7 +16,7 @@
   ],
   "shortcuts": [
     {"name":"Evidence Map","url":"/map.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
-    {"name":"UAP Lab","url":"/uap-alignments.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
+    {"name":"Labs","url":"/labs.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]},
     {"name":"Archive","url":"/archive.html","icons":[{"src":"icon-192.png","sizes":"192x192"}]}
   ]
 }
