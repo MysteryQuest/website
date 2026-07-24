@@ -38,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         <li><a href="about.html" class="text-gray-400 hover:text-matrix-green transition-colors">About & trust</a></li>
                         <li><a href="labs.html" class="text-gray-400 hover:text-matrix-green transition-colors">Labs</a></li>
                         <li><a href="map.html" class="text-gray-400 hover:text-matrix-green transition-colors">Evidence Map</a></li>
-                        <li><a href="privacy.html" class="text-gray-400 hover:text-matrix-green transition-colors">Privacy Policy</a></li>
+                        <li><a href="/terms" class="text-gray-400 hover:text-matrix-green transition-colors">Terms of Service</a></li>
+                        <li><a href="/privacy" class="text-gray-400 hover:text-matrix-green transition-colors">Privacy Policy</a></li>
                     </ul>
                 </div>
 
@@ -70,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Copyright -->
             <div class="border-t border-matrix-green/30 pt-6 text-center">
                 <p class="text-sm text-gray-500 font-mono">
-                    © ${new Date().getFullYear()} The Unverified File. All rights reserved. | Corrections and revisions are part of the record.
+                    © ${new Date().getFullYear()} The Unverified File. All rights reserved. | <a href="/terms" class="hover:text-matrix-green">Terms</a> | <a href="/privacy" class="hover:text-matrix-green">Privacy</a>
                 </p>
                 <p class="text-xs text-gray-600 mt-2">
                     Evidence first. Conclusions provisional. Sources visible.
