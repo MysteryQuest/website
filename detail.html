@@ -104,14 +104,16 @@
     <script>
         let map;
 
-        async function fetchEventDetails(eventName) {
+        async function fetchEventDetails(eventId, eventName) {
             try {
                 const rows = await window.UnverifiedData.loadEvents();
                 
                 if (rows && rows.length > 0) {
-                    const eventData = rows.find(row =>
-                        row['name'] && row['name'].toLowerCase() === eventName.toLowerCase()
-                    );
+                    const eventData = eventId
+                        ? rows.find(row => String(row.d1_id) === String(eventId))
+                        : rows.find(row =>
+                            row['name'] && eventName && row['name'].toLowerCase() === eventName.toLowerCase()
+                        );
                     
                     if (!eventData) {
                         throw new Error('Event not found');
@@ -124,7 +126,7 @@
                     
                     // Initialize map with event location
                     if (event.latitude && event.longitude) {
-                        initMap(parseFloat(event.latitude), parseFloat(event.longitude), event);
+                        updateMap(event);
                     }
                 }
             } catch (error) {
@@ -398,12 +400,13 @@
 
         document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
+            const eventId = urlParams.get('id');
             const eventName = urlParams.get('name');
             const videoId = urlParams.get('video');
             const anchor = window.location.hash;
             
-            if (eventName) {
-                fetchEventDetails(eventName).then(() => {
+            if (eventId || eventName) {
+                fetchEventDetails(eventId, eventName).then(() => {
                     // Handle video-specific navigation
                     if (videoId || anchor) {
                         setTimeout(() => {

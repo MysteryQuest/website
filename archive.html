@@ -145,7 +145,7 @@
             const score = Math.max(0, Math.min(100, Number(item.rank_score) || 0));
             return `
                 <article class="case-card rounded-xl overflow-hidden">
-                    <a href="detail.html?name=${encodeURIComponent(item.name)}" class="block">
+                    <a href="detail.html?id=${encodeURIComponent(item.id)}" class="block">
                         <div class="relative">
                             <img class="case-image w-full" src="${safeImage(item.image_url, item.event_type)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${fallbackImage(item.event_type)}'">
                             ${item.image_status === 'fallback_required' ? '<span class="absolute bottom-2 left-2 rounded bg-black/80 px-2 py-1 text-[.65rem] text-gray-300">Source image unavailable · category artwork</span>' : ''}
@@ -156,7 +156,7 @@
                             <span class="text-[.68rem] uppercase tracking-wider text-matrix-green">${escapeHtml(item.event_type || 'Unclassified')}</span>
                             <span class="text-xs text-gray-500">Rank ${Math.round(Number(item.rank_score) || 0)}</span>
                         </div>
-                        <h3 class="case-title text-2xl font-bold leading-tight text-white mb-2"><a class="hover:text-matrix-green" href="detail.html?name=${encodeURIComponent(item.name)}">${escapeHtml(item.name)}</a></h3>
+                        <h3 class="case-title text-2xl font-bold leading-tight text-white mb-2"><a class="hover:text-matrix-green" href="detail.html?id=${encodeURIComponent(item.id)}">${escapeHtml(item.name)}</a></h3>
                         <p class="text-xs text-gray-500 mb-3"><i class="fas fa-location-dot mr-1"></i>${escapeHtml(item.location || 'Location unavailable')} ${item.date ? `· ${escapeHtml(item.date)}` : ''}</p>
                         <p class="text-sm text-gray-300 leading-6 mb-5">${escapeHtml(summary(item.description))}</p>
                         <div class="rank-meter mb-3"><span style="width:${score}%"></span></div>
@@ -166,7 +166,7 @@
                         </div>
                         <div class="flex items-center justify-between gap-3">
                             <a class="text-sm text-matrix-green hover:underline" href="network.html?id=${encodeURIComponent(item.id)}">View evidence graph</a>
-                            <a class="text-sm text-gray-300 hover:text-white" href="detail.html?name=${encodeURIComponent(item.name)}">Case record →</a>
+                            <a class="text-sm text-gray-300 hover:text-white" href="detail.html?id=${encodeURIComponent(item.id)}">Case record →</a>
                         </div>
                     </div>
                 </article>`;
