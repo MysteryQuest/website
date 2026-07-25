@@ -49,7 +49,7 @@
     <script src="js/community.js?v=20260725-event1"></script>
     <script>
       const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
-      const safeUrl=value=>{try{const url=new URL(value,location.origin);return ["http:","https:"].includes(url.protocol)?url.href:""}catch{return""}};
+      const safeUrl=value=>{if(!value)return"";try{const url=new URL(value,location.origin);return ["http:","https:"].includes(url.protocol)?url.href:""}catch{return""}};
       const parseJson=(value,fallback={})=>{if(!value)return fallback;if(typeof value==="object")return value;try{return JSON.parse(value)}catch{return fallback}};
       const videoId=value=>{const match=String(value||"").match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([^&?#/]+)/);return match?match[1]:""};
       const hasCoordinates=event=>Number.isFinite(Number(event.latitude))&&Number.isFinite(Number(event.longitude))&&Number(event.latitude)>=-90&&Number(event.latitude)<=90&&Number(event.longitude)>=-180&&Number(event.longitude)<=180;
