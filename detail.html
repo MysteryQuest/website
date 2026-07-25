@@ -1,872 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Primary Meta Tags - These will be dynamically updated by JavaScript -->
-    <title>Mystery Quest Event Details</title>
-    <meta name="title" content="Mystery Quest Event Details">
-    <meta name="description" content="Detailed information about mysterious events, UFO sightings, historical oddities, and unexplained phenomena. Explore comprehensive data, witness accounts, and analysis.">
-    <meta name="keywords" content="Mystery Quest details, UFO event details, paranormal investigation, historical mystery analysis, unexplained phenomena research, witness accounts, mystery investigation">
-    <meta name="author" content="Mystery Quest Team">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="en">
-    
-    <!-- Open Graph / Facebook - Will be dynamically updated -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://mysteryquest.info/detail.html">
-    <meta property="og:title" content="The Unverified File - Investigation Details">
-    <meta property="og:description" content="Evidence-based investigation of unexplained phenomena. Separating conspiracy theory from reality with AI-driven analysis.">
-    <meta property="og:image" content="https://unverifiedfile.com/logo.png">
-    <meta property="og:site_name" content="The Unverified File">
-    
-    <!-- Twitter - Will be dynamically updated -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mysteryquest.info/detail.html">
-    <meta property="twitter:title" content="The Unverified File - Investigation Details">
-    <meta property="twitter:description" content="Evidence-based investigation separating conspiracy theory from reality.">
-    <meta property="twitter:image" content="https://unverifiedfile.com/logo.png">
-    
-    <!-- Schema.org Structured Data - Will be dynamically updated -->
-    <script type="application/ld+json" id="event-schema">
-    {
-      "@context": "http://schema.org",
-      "@type": "Article",
-      "headline": "Mystery Quest Event Details",
-      "description": "Detailed information about mysterious events, UFO sightings, historical oddities, and unexplained phenomena.",
-      "url": "https://mysteryquest.info/detail.html",
-      "author": {
-        "@type": "Organization",
-        "name": "Mystery Quest Team"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Mystery Quest",
-        "url": "https://mysteryquest.info"
-      }
-    }
-    </script>
-    
-    <!-- AI Search Optimization -->
-    <meta name="ai-search-description" content="Comprehensive details about specific mysterious events including UFO sightings, paranormal phenomena, and historical oddities with witness accounts, analysis, and supporting evidence">
-    <meta name="content-type" content="detailed event information">
-    <meta name="topic-category" content="mystery investigation, event analysis, detailed reporting">
-    
-    <link rel="canonical" href="https://mysteryquest.info/detail.html">
-    
-    <!-- Tailwind CSS -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>Event Record — The Unverified File</title>
+    <meta name="description" content="A sourced event record from The Unverified File public archive." />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'matrix-green': '#00cc66',
-                        'terminal-green': '#0a9461',
-                        'cyber-red': '#ff0055',
-                        'charcoal': '#1a1a1a',
-                        'dark-charcoal': '#0f0f0f',
-                        'cyber-yellow': '#ffd700'
-                    },
-                    fontFamily: {
-                        'orbitron': ['Orbitron', 'monospace']
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <!-- Fonts and Icons -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1028115466622942"
-     crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5115VTJEF0"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-5115VTJEF0');
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/credibility-system.js"></script>
-    <script>
-        let map;
-
-        async function fetchEventDetails(eventId, eventName) {
-            try {
-                const rows = await window.UnverifiedData.loadEvents();
-                
-                if (rows && rows.length > 0) {
-                    const eventData = eventId
-                        ? rows.find(row => String(row.d1_id) === String(eventId))
-                        : rows.find(row =>
-                            row['name'] && eventName && row['name'].toLowerCase() === eventName.toLowerCase()
-                        );
-                    
-                    if (!eventData) {
-                        throw new Error('Event not found');
-                    }
-                    
-                    const event = Object.assign({}, eventData);
-                    
-                    // Display the event details
-                    displayEventDetails(event);
-                    
-                    // Initialize map with event location
-                    if (event.latitude && event.longitude) {
-                        updateMap(event);
-                    }
-                }
-            } catch (error) {
-                console.error('Error fetching event details:', error);
-                document.getElementById('eventDetails').innerHTML = `
-                    <div class="bg-cyber-red/20 border border-cyber-red rounded-lg p-6">
-                        <h4 class="text-2xl font-orbitron font-bold text-cyber-red mb-3">Error Loading Event</h4>
-                        <p class="text-white">Unable to load event details. Please try again later.</p>
-                    </div>
-                `;
-            }
-        }
-
-        function displayEventDetails(event) {
-            // Parse enhanced metadata if available
-            let enhancedData = {};
-            let youtubeVideos = [];
-            try {
-                if (event.enhanced_metadata) {
-                    enhancedData = JSON.parse(event.enhanced_metadata);
-                }
-                if (event.youtube_videos) {
-                    const videoData = JSON.parse(event.youtube_videos);
-                    youtubeVideos = videoData.videos || [];
-                }
-            } catch (e) {
-                console.log('Error parsing metadata:', e);
-            }
-
-            // Prepare categories display
-            let categoriesHtml = '';
-            if (enhancedData.primary_category) {
-                categoriesHtml += `<span class="badge bg-primary me-1">${enhancedData.primary_category}</span>`;
-            }
-            if (enhancedData.secondary_categories && enhancedData.secondary_categories.length > 0) {
-                enhancedData.secondary_categories.forEach(cat => {
-                    categoriesHtml += `<span class="badge bg-secondary me-1">${cat}</span>`;
-                });
-            }
-            if (event.tags && event.tags !== 'None') {
-                categoriesHtml += `<span class="badge bg-info me-1">${event.tags}</span>`;
-            }
-            if (!categoriesHtml) {
-                categoriesHtml = `<span class="badge bg-light text-dark">${event.event_type}</span>`;
-            }
-
-            // Prepare related articles/content
-            let relatedContentHtml = '';
-            if (enhancedData.related_content && enhancedData.related_content.length > 0) {
-                relatedContentHtml = '<div class="mt-3"><h5>Related Articles:</h5><ul class="list-unstyled">';
-                enhancedData.related_content.forEach(related => {
-                    if (related.title && related.url) {
-                        relatedContentHtml += `<li><a href="${related.url}" target="_blank" class="text-info">${related.title}</a></li>`;
-                    }
-                });
-                relatedContentHtml += '</ul></div>';
-            }
-
-            // Prepare key details
-            let keyDetailsHtml = '';
-            if (enhancedData.key_details && enhancedData.key_details.length > 0) {
-                keyDetailsHtml = '<div class="mt-3"><h5>Key Details:</h5><ul>';
-                enhancedData.key_details.forEach(detail => {
-                    keyDetailsHtml += `<li>${detail}</li>`;
-                });
-                keyDetailsHtml += '</ul></div>';
-            }
-
-            // Prepare keywords
-            let keywordsHtml = '';
-            if (enhancedData.related_keywords && enhancedData.related_keywords.length > 0) {
-                keywordsHtml = '<div class="mt-3"><strong>Related Keywords:</strong> ';
-                enhancedData.related_keywords.forEach(keyword => {
-                    keywordsHtml += `<span class="badge bg-outline-secondary me-1">${keyword}</span>`;
-                });
-                keywordsHtml += '</div>';
-            }
-
-            // Display credibility assessment
-            let credibilityHtml = '';
-            if (enhancedData.credibility_assessment) {
-                credibilityHtml = `<div class="mt-3 p-3 bg-dark rounded"><h5>Credibility Assessment:</h5><p>${enhancedData.credibility_assessment}</p></div>`;
-            }
-
-            // YouTube Videos Section
-            let youtubeSection = '';
-            if (youtubeVideos && youtubeVideos.length > 0) {
-                youtubeSection = `
-                    <div class="youtube-section mt-4" id="videos">
-                        <h5><i class="fab fa-youtube text-danger"></i> Related Videos</h5>
-                        <div class="row">
-                `;
-                
-                youtubeVideos.forEach((video, index) => {
-                    const publishedDate = new Date(video.published_at || Date.now()).toLocaleDateString();
-                    // Extract video ID from URL for embedding
-                    const videoIdMatch = video.url ? video.url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/) : null;
-                    const videoId = videoIdMatch ? videoIdMatch[1] : `video-${index}`;
-                    
-                    // Check if this is the highlighted video from URL parameter
-                    const urlParams = new URLSearchParams(window.location.search);
-                    const highlightVideoId = urlParams.get('video');
-                    const isHighlighted = highlightVideoId === videoId;
-                    
-                    youtubeSection += `
-                        <div class="mb-6" id="video-${videoId}" ${isHighlighted ? 'style="border: 2px solid #00ffff; border-radius: 8px; padding: 15px;"' : ''}>
-                            <div class="bg-charcoal/60 rounded-lg overflow-hidden h-full">
-                                ${videoIdMatch ? `
-                                    <div class="relative pb-[56.25%] h-0">
-                                        <iframe 
-                                            class="absolute top-0 left-0 w-full h-full"
-                                            src="https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1" 
-                                            title="${video.title}"
-                                            frameborder="0" 
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                            allowfullscreen
-                                            loading="lazy">
-                                        </iframe>
-                                    </div>
-                                ` : `
-                                    <img src="${video.thumbnail}" class="w-full" alt="${video.title}" loading="lazy">
-                                `}
-                                <div class="p-4">
-                                    <h6 class="text-lg font-semibold text-white mb-3">${video.title}</h6>
-                                    <div class="flex justify-between items-center">
-                                        <small class="text-gray-400">Published: ${publishedDate}</small>
-                                        <a href="${video.url}" target="_blank" class="px-4 py-2 bg-terminal-green hover:bg-matrix-green text-white rounded-lg transition-colors text-sm">
-                                            <i class="fab fa-youtube"></i> Open in YouTube
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                });
-                
-                youtubeSection += `
-                        </div>
-                    </div>
-                `;
-            }
-
-            document.getElementById('eventDetails').innerHTML = `
-                <div class="grid md:grid-cols-12 gap-8">
-                    <div class="md:col-span-8">
-                        <h2>${event.name}</h2>
-                        <div class="mb-3">${categoriesHtml}</div>
-                        
-                        <div class="event-info">
-                            <p><strong>Type:</strong> ${event.event_type}</p>
-                            <p><strong>Date:</strong> ${event.date}</p>
-                            <p><strong>Location:</strong> ${event.location}</p>
-                            <p><strong>Investigation Status:</strong> <span class="badge ${event.investigation_status === 'Closed' ? 'bg-success' : 'bg-warning'}">${event.investigation_status || "Open"}</span></p>
-                            <p><strong>Verdict:</strong> <span class="badge ${event.verdict === 'Real' ? 'bg-success' : event.verdict === 'Hoax' ? 'bg-danger' : 'bg-secondary'}">${event.verdict || "Unknown"}</span></p>
-                            <p><strong>Credibility Score:</strong> ${event.credibility_score ? event.credibility_score + '/10' : 'N/A'}</p>
-                            <p><strong>Source Credibility:</strong> ${(enhancedData.source_credibility && typeof enhancedData.source_credibility === 'string' && !enhancedData.source_credibility.includes('{')) ? enhancedData.source_credibility : 'Unknown'}</p>
-                            <p><strong>Votes:</strong> ${(event.votes && typeof event.votes === 'string' && !event.votes.includes('{')) ? event.votes : (typeof event.votes === 'number' ? event.votes : 0)} 👍</p>
-                        </div>
-
-                        <div class="description-section mt-4">
-                            <h4>Description</h4>
-                            <p class="description-text">${event.description}</p>
-                        </div>
-    <!-- Source Verification Section -->
-    <div id="source-verification-section" class="mt-4" style="display: none;">
-        <div class="card border-info">
-            <div class="card-header bg-info text-white">
-                <h5 class="mb-0">
-                    <i class="fas fa-shield-alt me-2"></i>Source Verification
-                    <span id="credibility-badge" class="badge ms-2"></span>
-                </h5>
-            </div>
-            <div class="card-body">
-                <div id="credibility-info" class="mb-3">
-                    <div class="grid md:grid-cols-2 gap-4">
-                        <div>
-                            <strong>Credibility Rating:</strong> 
-                            <span id="credibility-rating" class="badge badge-secondary"></span>
-                        </div>
-                        <div>
-                            <strong>Confidence Level:</strong> 
-                            <span id="confidence-level"></span>
-                        </div>
-                    </div>
-                    <div class="grid md:grid-cols-2 gap-4 mt-4">
-                        <div>
-                            <strong>Total Sources:</strong> 
-                            <span id="total-sources"></span>
-                        </div>
-                        <div>
-                            <strong>Weighted Score:</strong> 
-                            <span id="weighted-score"></span>
-                        </div>
-                    </div>
-                </div>
-                
-                <h6>Sources Found:</h6>
-                <div id="sources-list" class="grid gap-4">
-                    <!-- Sources will be populated by JavaScript -->
-                </div>
-                
-                <div class="mt-3">
-                    <small class="text-muted">
-                        <i class="fas fa-info-circle"></i>
-                        Sources are automatically verified and weighted based on credibility. 
-                        Higher weights indicate more authoritative sources.
-                    </small>
-                </div>
-            </div>
-        </div>
-    </div>
-
-                        ${keyDetailsHtml}
-                        ${credibilityHtml}
-                        ${youtubeSection}
-                        ${keywordsHtml}
-                        ${relatedContentHtml}
-
-                        <div class="sources-section mt-4">
-                            <h5>Sources & Links</h5>
-                            <p><strong>Original Source:</strong> <a href='${event.url}' target='_blank' class="text-info">View Article</a></p>
-                            ${event.research_link ? `<p><strong>Research Link:</strong> <a href='${event.research_link}' target='_blank' class="text-info">Additional Details</a></p>` : ''}
-                            <p><strong>Source Domain:</strong> ${enhancedData.source_domain || 'Unknown'}</p>
-                        </div>
-
-                        <div class="voting-section mt-6">
-                            <button class="px-8 py-3 bg-terminal-green hover:bg-matrix-green text-white rounded-lg font-semibold transition-colors" onclick="voteForEvent(${event.id})">👍 Vote for this Event</button>
-                        </div>
-                    </div>
-                    
-                    <div class="md:col-span-4">
-                        <div class="event-image mb-6">
-                            <img src="${event.img_url ? event.img_url : 'images/' + event.event_type + '.png'}" 
-                                 class="w-full rounded-lg" 
-                                 alt="${event.name}"
-                                 style="max-height: 300px; object-fit: cover;">
-                        </div>
-                        
-                        <div class="quick-facts bg-charcoal/60 p-4 rounded-lg">
-                            <h5>Quick Facts</h5>
-                            <ul class="list-unstyled">
-                                <li><strong>Category:</strong> ${event.event_type}</li>
-                                <li><strong>Date:</strong> ${event.date}</li>
-                                <li><strong>Location:</strong> ${event.location}</li>
-                                <li><strong>Status:</strong> ${event.investigation_status || "Open"}</li>
-                                <li><strong>Verdict:</strong> ${event.verdict || "Unknown"}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            `;
-        }
-
-        function updateMap(event) {
-            if (!map) {
-                map = L.map("map").setView([parseFloat(event.latitude), parseFloat(event.longitude)], 10);
-                L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-                    attribution: "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors",
-                }).addTo(map);
-            } else {
-                map.setView([parseFloat(event.latitude), parseFloat(event.longitude)], 10);
-            }
-
-            const marker = L.marker([parseFloat(event.latitude), parseFloat(event.longitude)]).addTo(map);
-            marker.bindPopup(`<strong>${event.event_type}</strong><br>${event.date}<br>${event.name}<br><a href='${event.url}' target='_blank'>Source</a>`);
-        }
-
-        async function voteForEvent(eventId) {
-            alert("Voting is temporarily paused while the privacy-safe API is brought online.");
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const eventId = urlParams.get('id');
-            const eventName = urlParams.get('name');
-            const videoId = urlParams.get('video');
-            const anchor = window.location.hash;
-            
-            if (eventId || eventName) {
-                fetchEventDetails(eventId, eventName).then(() => {
-                    // Handle video-specific navigation
-                    if (videoId || anchor) {
-                        setTimeout(() => {
-                            if (anchor === '#videos' || videoId) {
-                                const videoSection = document.querySelector('.youtube-section');
-                                if (videoSection) {
-                                    videoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                                    
-                                    // Highlight specific video if videoId provided
-                                    if (videoId) {
-                                        const videoCards = document.querySelectorAll('.youtube-section .card');
-                                        videoCards.forEach(card => {
-                                            const youtubeLink = card.querySelector('a[href*="youtube.com"]');
-                                            if (youtubeLink && youtubeLink.href.includes(videoId)) {
-                                                card.style.border = '2px solid #007bff';
-                                                card.style.boxShadow = '0 0 15px rgba(0, 123, 255, 0.5)';
-                                                card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                            }
-                                        });
-                                    }
-                                }
-                            }
-                        }, 500);
-                    }
-                });
-            } else {
-                // Show browse investigations view
-                showBrowseView();
-            }
-        });
-
-        function showBrowseView() {
-            const container = document.getElementById('eventDetails');
-            container.innerHTML = `
-                <div class="text-center py-12">
-                    <h2 class="text-3xl md:text-4xl font-orbitron font-bold text-matrix-green mb-6">Browse Active Investigations</h2>
-                    <p class="text-gray-400 mb-8">Select an investigation from the map or visit our investigation database.</p>
-                    <div class="grid md:grid-cols-2 gap-8 mt-8">
-                        <div class="bg-charcoal/80 backdrop-blur-sm border border-matrix-green/30 rounded-lg p-8 hover:border-matrix-green/60 transition-all">
-                            <i class="fas fa-map-marked-alt text-5xl text-matrix-green mb-4"></i>
-                            <h5 class="text-2xl font-orbitron font-bold text-white mb-3">Evidence Map</h5>
-                            <p class="text-gray-300 mb-6">Explore mysterious events worldwide on our interactive map.</p>
-                            <a href="map.html" class="inline-block px-6 py-3 bg-transparent border-2 border-matrix-green text-matrix-green rounded-lg hover:bg-matrix-green hover:text-charcoal transition-all">View Map</a>
-                        </div>
-                        <div class="bg-charcoal/80 backdrop-blur-sm border border-matrix-green/30 rounded-lg p-8 hover:border-matrix-green/60 transition-all">
-                            <i class="fas fa-balance-scale text-5xl text-matrix-green mb-4"></i>
-                            <h5 class="text-2xl font-orbitron font-bold text-white mb-3">Real or Hoax?</h5>
-                            <p class="text-gray-300 mb-6">Vote on mysterious events and help determine their authenticity.</p>
-                            <a href="hoax.html" class="inline-block px-6 py-3 bg-transparent border-2 border-matrix-green text-matrix-green rounded-lg hover:bg-matrix-green hover:text-charcoal transition-all">Start Voting</a>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            // Hide map when showing browse view
-            const mapElement = document.getElementById('map');
-            if (mapElement) {
-                mapElement.style.display = 'none';
-            }
-        }
-    </script>
+    <script>tailwind.config={theme:{extend:{colors:{'matrix-green':'#43e08f','terminal-green':'#0a9461','cyber-red':'#ff6b7f','charcoal':'#101613','dark-charcoal':'#090c0b','cyber-yellow':'#f1c75b'},fontFamily:{orbitron:['Orbitron','monospace']}}}};</script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="evidence-platform.css" />
+    <link rel="stylesheet" href="community.css" />
     <style>
-        #map {
-            height: 600px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-        .details-container {
-            margin: 20px 0;
-            background: #1f1f1f;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-            color: #ffffff;
-        }
-        .event-info p {
-            margin-bottom: 0.5rem;
-        }
-        .description-section {
-            background: #2a2a2a;
-            padding: 15px;
-            border-radius: 6px;
-            margin: 15px 0;
-        }
-        .description-text {
-            line-height: 1.6;
-            font-size: 1.1em;
-        }
-        .quick-facts {
-            background: #2a2a2a !important;
-            border: 1px solid #444;
-        }
-        .quick-facts ul li {
-            padding: 5px 0;
-            border-bottom: 1px solid #444;
-        }
-        .quick-facts ul li:last-child {
-            border-bottom: none;
-        }
-        .sources-section {
-            background: #2a2a2a;
-            padding: 15px;
-            border-radius: 6px;
-            margin: 15px 0;
-        }
-        .voting-section {
-            text-align: center;
-            padding: 15px 0;
-        }
-        .badge {
-            font-size: 0.9em;
-            padding: 5px 8px;
-        }
-        .event-image img {
-            border: 2px solid #444;
-        }
-        
-        /* Google Translate Widget Styling */
-        #google_translate_element {
-            margin-right: 15px;
-        }
-        
-        .goog-te-gadget {
-            font-family: inherit !important;
-            font-size: 12px !important;
-        }
-        
-        .goog-te-gadget-simple {
-            background-color: #333 !important;
-            border: 1px solid #555 !important;
-            padding: 5px 8px !important;
-            border-radius: 4px !important;
-            color: #fff !important;
-        }
-        
-        .goog-te-gadget-simple .goog-te-menu-value {
-            color: #fff !important;
-        }
-        
-        .goog-te-gadget-simple .goog-te-menu-value:hover {
-            text-decoration: none !important;
-        }
-        
-        .goog-te-gadget-icon {
-            display: none !important;
-        }
-        
-        .goog-te-gadget-simple .goog-te-menu-value span {
-            color: #fff !important;
-        }
-        
-        /* Hide the Google Translate banner */
-        .goog-te-banner-frame {
-            display: none !important;
-        }
-        
-        body {
-            top: 0 !important;
-        }
-        
-        /* Mobile responsive styles for detail page */
-        @media (max-width: 768px) {
-            /* Header responsive */
-            header .container {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            header img {
-                margin-bottom: 15px;
-                height: 70px !important;
-            }
-            
-            .nav-tabs {
-                justify-content: center;
-                margin: 0;
-                flex-wrap: wrap;
-            }
-            
-            .nav-tabs .nav-item {
-                margin-bottom: 5px;
-            }
-            
-            .nav-tabs .nav-link {
-                padding: 8px 12px;
-                font-size: 0.9em;
-            }
-            
-            /* Google Translate element mobile positioning */
-            #google_translate_element {
-                margin-right: 0;
-                margin-top: 5px !important;
-            }
-            
-            /* Map responsive */
-            #map {
-                height: 400px !important;
-                margin: 15px 0;
-            }
-            
-            /* Details container responsive */
-            .details-container {
-                margin: 15px 0;
-                padding: 12px;
-            }
-            
-            .details-container h2 {
-                font-size: 1.4em;
-                margin-bottom: 15px;
-            }
-            
-            .details-container p {
-                font-size: 0.9em;
-                margin-bottom: 10px;
-                line-height: 1.4;
-            }
-            
-            .details-container img {
-                max-width: 100%;
-                height: auto;
-                max-height: 200px;
-                object-fit: cover;
-                border-radius: 5px;
-            }
-            
-            .details-container button {
-                width: 100%;
-                padding: 12px;
-                background: #007bff;
-                color: #fff;
-                border: none;
-                border-radius: 4px;
-                font-size: 1em;
-                margin-top: 15px;
-                cursor: pointer;
-            }
-            
-            .details-container button:hover {
-                background: #0056b3;
-            }
-            
-            .details-container a {
-                color: #007bff;
-                word-break: break-word;
-            }
-            
-            /* Container adjustments */
-            .container {
-                padding-left: 10px;
-                padding-right: 10px;
-            }
-            
-            h1 {
-                font-size: 1.6em;
-                text-align: center;
-                margin: 20px 0;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            header img {
-                height: 60px !important;
-            }
-            
-            .nav-tabs .nav-link {
-                padding: 6px 8px;
-                font-size: 0.8em;
-            }
-            
-            #map {
-                height: 300px !important;
-            }
-            
-            .details-container {
-                padding: 10px;
-            }
-            
-            .details-container h2 {
-                font-size: 1.2em;
-            }
-            
-            .details-container p {
-                font-size: 0.85em;
-            }
-            
-            .details-container img {
-                max-height: 150px;
-            }
-            
-            h1 {
-                font-size: 1.4em;
-            }
-        }
+      .event-map-frame{position:relative;overflow:hidden;border:1px solid rgba(67,224,143,.3);border-radius:var(--radius);background:#0b100d;box-shadow:var(--shadow)}
+      #event-map{height:clamp(28rem,62vh,43rem);min-height:28rem}
+      .event-map-label{position:absolute;z-index:500;top:1rem;left:1rem;max-width:min(30rem,calc(100% - 2rem));padding:.75rem 1rem;border:1px solid rgba(67,224,143,.28);border-radius:.55rem;background:rgba(9,12,11,.9);backdrop-filter:blur(8px);pointer-events:none}
+      .event-map-label strong{display:block;font-family:"Source Serif 4",serif;font-size:1.15rem}
+      .event-map-label span{color:var(--muted);font:.72rem "JetBrains Mono",monospace}
+      .event-facts{display:grid;gap:.85rem;margin-top:1rem}
+      .event-fact{padding-top:.8rem;border-top:1px solid var(--line)}
+      .event-fact span{display:block;color:var(--faint);font:.68rem "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase}
+      .event-fact strong{display:block;margin-top:.15rem;color:var(--ink);font-weight:600}
+      .event-media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+      .event-video{overflow:hidden;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+      .event-video iframe,.event-video img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:#050706}
+      .event-video div{padding:1rem}.event-video h3{margin:0 0 .65rem;font-family:"Source Serif 4",serif;font-size:1.2rem}
+      .event-source-actions{display:flex;flex-wrap:wrap;gap:.75rem}
+      .event-image{width:100%;max-height:32rem;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line)}
+      .leaflet-container{font-family:Inter,system-ui,sans-serif;background:#0b100d}.leaflet-control-attribution{background:rgba(9,12,11,.82)!important;color:#aeb9b3}.leaflet-control-attribution a{color:#43e08f!important}
+      @media(max-width:820px){.event-media-grid{grid-template-columns:1fr}#event-map{height:32rem;min-height:32rem}.event-map-label{top:.65rem;left:.65rem;max-width:calc(100% - 1.3rem)}}
     </style>
-    <script src="./js/data-api.js"></script>
-</head>
-<body class="text-gray-100">
-    <!-- Background Image -->
-    <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
-        <img src="splash.webp" alt="Background" style="width: 100%; height: 100%; object-fit: cover;">
-        <div style="position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(26, 26, 26, 0.2), rgba(15, 15, 15, 0.3), rgba(26, 26, 26, 0.4));"></div>
-    </div>
-
-    <!-- Navigation (loaded dynamically) -->
+  </head>
+  <body class="evidence-page pb-16 xl:pb-0">
+    <a class="skip-link" href="#event-main">Skip to event record</a>
     <div id="header-container"></div>
-
-    <div class="container mx-auto px-4 py-12 mt-20">
-        <h1 class="text-5xl md:text-6xl font-orbitron font-bold text-matrix-green mb-8">The Unverified File - Investigation Details</h1>
-        <div id="map"></div>
-        <div id="eventDetails" class="details-container">
-            <!-- Event details will be dynamically loaded here -->
-        </div>
-        
-        <!-- YouTube Video Showcase Section -->
-        <div class="mt-16 mb-12">
-            <div class="terminal-box rounded-lg p-8">
-                <div class="flex items-center justify-between mb-6">
-                    <h2 class="text-3xl font-orbitron font-bold text-matrix-green">
-                        <i class="fab fa-youtube text-cyber-red"></i> Latest Investigations
-                    </h2>
-                    <a href="https://www.youtube.com/channel/UCL37JaB7QLNubrW4s3xRzJQ?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="px-6 py-2 bg-cyber-red hover:bg-cyber-red/80 text-white rounded-lg font-semibold transition-colors">
-                        <i class="fab fa-youtube mr-2"></i>Subscribe
-                    </a>
-                </div>
-                <div id="youtube-videos-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Videos will be loaded here -->
-                    <div class="col-span-full flex justify-center py-8">
-                        <i class="fas fa-spinner fa-spin text-4xl text-matrix-green"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer (loaded dynamically) -->
+    <main id="event-main">
+      <header class="page-hero"><div class="shell" id="event-header"><p class="empty">Loading event record…</p></div></header>
+      <div id="event-content"></div>
+    </main>
     <div id="footer-container"></div>
-
-    <!-- Header & Footer Includes -->
-    <script src="js/header.js?v=20260723-labs1"></script>
-    <script src="js/footer.js?v=20260723-labs1"></script>
-    <!-- Navigation Management (legacy compatibility) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="js/header.js?v=20260725-event1"></script>
+    <script src="js/footer.js?v=20260725-event1"></script>
     <script src="js/navigation.js"></script>
-    <!-- Cache Buster for Fresh Images -->
-    <script src="js/cache-buster.js"></script>
+    <script src="js/data-api.js?v=20260725-event1"></script>
+    <script src="js/community.js?v=20260725-event1"></script>
+    <script>
+      const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
+      const safeUrl=value=>{try{const url=new URL(value,location.origin);return ["http:","https:"].includes(url.protocol)?url.href:""}catch{return""}};
+      const parseJson=(value,fallback={})=>{if(!value)return fallback;if(typeof value==="object")return value;try{return JSON.parse(value)}catch{return fallback}};
+      const videoId=value=>{const match=String(value||"").match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([^&?#/]+)/);return match?match[1]:""};
+      const hasCoordinates=event=>Number.isFinite(Number(event.latitude))&&Number.isFinite(Number(event.longitude))&&Number(event.latitude)>=-90&&Number(event.latitude)<=90&&Number(event.longitude)>=-180&&Number(event.longitude)<=180;
+      const fact=(label,value)=>value!==null&&value!==undefined&&String(value).trim()!==""?`<div class="event-fact"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`:"";
 
-    <!-- Source Verification Script -->
-    <script>
-        // Load source verification data
-        async function loadSourceVerification(mysteryName) {
-            try {
-                const response = await fetch('/js/source_verification.json');
-                if (!response.ok) return;
-                
-                const data = await response.json();
-                const mysteryId = generateMysteryId(mysteryName);
-                const sourceData = data.mysteries[mysteryId];
-                
-                if (sourceData) {
-                    displaySourceVerification(sourceData);
-                }
-            } catch (error) {
-                console.warn('Could not load source verification:', error);
-            }
+      function renderVideos(videos){
+        if(!videos.length)return"";
+        return `<section class="section" id="media"><div class="shell"><p class="eyebrow">Related media</p><h2 class="section-title">Video records</h2><p class="notice reading">Related videos are leads and context. Their presence does not independently verify this event.</p><div class="event-media-grid" style="margin-top:1.5rem">${videos.map(video=>{const url=safeUrl(video.url);const id=videoId(url);const thumb=safeUrl(video.thumbnail);return `<article class="event-video">${id?`<iframe src="https://www.youtube-nocookie.com/embed/${esc(id)}?rel=0" title="${esc(video.title||"Related video")}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`:thumb?`<img src="${esc(thumb)}" alt="${esc(video.title||"")}" loading="lazy">`:""}<div><h3>${esc(video.title||"Related video")}</h3>${url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">Open original video ↗</a>`:""}</div></article>`}).join("")}</div></div></section>`;
+      }
+
+      function renderEvent(event){
+        const id=event.d1_id||event.id;
+        const coordinates=hasCoordinates(event);
+        const source=safeUrl(event.url);
+        const research=safeUrl(event.research_link);
+        const image=safeUrl(event.image_url);
+        const analysis=parseJson(event.ai_analysis,{});
+        const videoData=parseJson(event.youtube_videos,{});
+        const videos=Array.isArray(videoData)?videoData:Array.isArray(videoData.videos)?videoData.videos:[];
+        const score=Number(event.credibility_score);
+        const sourceCount=Number(analysis.external_sources||analysis.total_sources||0);
+        const nav=[coordinates?'<a href="#map">Map</a>':"",'<a href="#record">Record</a>',videos.length?'<a href="#media">Media</a>':"",'<a href="#sources">Sources</a>','<a href="#community-review">Community review</a>'].filter(Boolean).join("");
+
+        document.title=`${event.name} — The Unverified File`;
+        document.querySelector('meta[name="description"]').content=String(event.description||"Public event record").slice(0,155);
+        document.getElementById("event-header").innerHTML=`<p class="eyebrow">Archive event · ${esc(event.event_type||"Unclassified")}</p><h1 class="display">${esc(event.name)}</h1><p class="lede">${esc(event.description||"No public description is currently available for this record.")}</p><div class="meta"><span class="badge badge-published">public record</span>${event.date?`<span>${esc(event.date)}</span>`:""}${event.location?`<span>${esc(event.location)}</span>`:""}<span>${esc(event.investigation_status||"Open")} investigation</span></div><div class="actions"><a class="action" href="#community-review">Vote on this record</a>${coordinates?'<a class="action action-secondary" href="#map">Explore location</a>':""}<a class="action action-secondary" href="archive.html">Back to archive</a></div>`;
+
+        const mapSection=coordinates?`<section class="section" id="map"><div class="shell"><p class="eyebrow">Mapped event</p><h2 class="section-title">Location record</h2><div class="event-map-frame"><div class="event-map-label"><strong>${esc(event.location||event.name)}</strong><span>${Number(event.latitude).toFixed(4)}, ${Number(event.longitude).toFixed(4)} · reported coordinates</span></div><div id="event-map" role="region" aria-label="Map showing ${esc(event.name)}"></div></div><p class="hero-caption">Coordinates indicate the location attached to the source record. Precision and attribution may require further review.</p></div></section>`:"";
+        const imageMarkup=image?`<figure><img class="event-image" src="${esc(image)}" alt="Evidence media associated with ${esc(event.name)}" loading="lazy" referrerpolicy="no-referrer"><figcaption class="hero-caption">Associated media · ${event.image_status?esc(event.image_status.replaceAll("_"," ")):"provenance under review"}${safeUrl(event.image_source_url)?` · <a href="${esc(safeUrl(event.image_source_url))}" target="_blank" rel="noopener noreferrer">Image source ↗</a>`:""}</figcaption></figure>`:"";
+        const analysisMarkup=Object.keys(analysis).length?`<div class="card" style="margin-top:1.5rem"><p class="eyebrow">Automated research context</p><h3>Pipeline assessment</h3><div class="event-facts">${fact("Credibility score",Number.isFinite(score)?`${score}/100`:"")}${fact("Sources detected",analysis.total_sources)}${fact("External sources",analysis.external_sources)}${fact("Last analyzed",analysis.last_updated)}</div><p class="notice" style="margin-top:1rem">Automated scores and source counts are research leads, not editorial findings.</p></div>`:"";
+        const sourceItems=[source?{label:"Original source",url:source}:null,research?{label:"Research notes",url:research}:null].filter(Boolean);
+
+        document.getElementById("event-content").innerHTML=`${mapSection}<section class="section" id="record"><div class="shell"><div class="case-layout"><article>${imageMarkup}<div class="card" style="margin-top:${imageMarkup?"1.5rem":"0"}"><p class="eyebrow">Current record</p><h2>What the archive says</h2><p class="lede">${esc(event.description||"No description has been published for this record.")}</p>${event.details?`<div class="prose"><p>${esc(event.details)}</p></div>`:""}</div>${analysisMarkup}</article><aside class="case-aside card" aria-label="Event record contents"><p class="eyebrow">On this page</p>${nav}<div class="event-facts">${fact("Classification",event.event_type||"Unclassified")}${fact("Date",event.date||"Not reported")}${fact("Location",event.location||"Not reported")}${fact("Status",event.investigation_status||"Open")}${fact("Verdict",event.verdict||event.real_or_hoax||"Unknown")}${fact("Credibility",Number.isFinite(score)?`${score}/100`:"Not scored")}${fact("Sources detected",sourceCount||"Not counted")}</div><div class="community-list-totals" data-community-totals data-target-type="event" data-target-id="${esc(id)}">Loading previous votes…</div><div class="community-quick-votes" data-community-vote-group data-target-type="event" data-target-id="${esc(id)}"><button type="button" data-community-vote="real">↑ Likely real</button><button type="button" data-community-vote="hoax">↓ Likely hoax</button><span data-community-vote-status role="status"></span></div></aside></div></div></section>${renderVideos(videos)}<section class="section" id="sources"><div class="shell"><p class="eyebrow">Source ledger</p><h2 class="section-title">Open the record</h2>${sourceItems.length?`<ol class="source-list">${sourceItems.map((item,index)=>`<li><span class="source-number">${String(index+1).padStart(2,"0")}</span><div><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(item.label)} ↗</strong></a><div class="meta"><span>External record</span><span>Verify provenance before reuse</span></div></div></li>`).join("")}</ol>`:'<p class="empty">No external source URL is attached to this imported record yet.</p>'}<div class="event-source-actions"><a class="action" href="network.html?id=${encodeURIComponent(id)}">View evidence graph</a><a class="action action-secondary" href="map.html">Open full evidence map</a></div></div></section><section class="section" id="community-review"><div class="shell"><div id="event-community"></div></div></section>`;
+
+        if(coordinates){
+          const map=L.map("event-map",{scrollWheelZoom:false}).setView([Number(event.latitude),Number(event.longitude)],10);
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',maxZoom:19}).addTo(map);
+          L.marker([Number(event.latitude),Number(event.longitude)]).addTo(map).bindPopup(`<strong>${esc(event.name)}</strong><br>${esc(event.location||"")}`).openPopup();
+          L.control.scale({imperial:true,metric:true}).addTo(map);
         }
-        
-        function generateMysteryId(name) {
-            // Simple hash function to match Python implementation
-            const content = name.toLowerCase().replace(/[^a-z0-9]/g, '');
-            let hash = 0;
-            for (let i = 0; i < content.length; i++) {
-                const char = content.charCodeAt(i);
-                hash = ((hash << 5) - hash) + char;
-                hash = hash & hash; // Convert to 32-bit integer
-            }
-            return Math.abs(hash).toString(16).substring(0, 16);
+        if(window.UnverifiedCommunity){
+          UnverifiedCommunity.fillTotals(document);
+          UnverifiedCommunity.wireVoteButtons(document);
+          UnverifiedCommunity.mount({host:"#event-community",type:"event",id});
         }
-        
-        function displaySourceVerification(sourceData) {
-            const container = document.getElementById('source-verification');
-            if (!container) return;
-            
-            const badge = sourceData.credibility_badge;
-            const sources = sourceData.sources || [];
-            
-            let sourcesHtml = '';
-            
-            if (sources.length > 0) {
-                sourcesHtml = `
-                    <h4><i class="fas fa-link"></i> Sources & Verification</h4>
-                    <div class="source-credibility">
-                        <span class="badge ${badge.class}">
-                            ${badge.icon} ${badge.text}
-                        </span>
-                        <span class="source-count">${sources.length} source(s) found</span>
-                    </div>
-                    <div class="source-list">
-                `;
-                
-                sources.forEach((source, index) => {
-                    const isOriginal = source.is_original ? ' (Original)' : '';
-                    const weight = '★'.repeat(Math.min(source.weight, 5));
-                    
-                    sourcesHtml += `
-                        <div class="source-item">
-                            <div class="source-header">
-                                <a href="${source.url}" target="_blank" rel="noopener">
-                                    <strong>${source.title || source.domain}</strong>
-                                </a>
-                                <span class="source-meta">
-                                    <span class="source-type badge badge-sm badge-outline-${source.type}">${source.type}</span>
-                                    <span class="source-weight" title="Credibility: ${source.weight}/5">${weight}</span>
-                                </span>
-                            </div>
-                            <div class="source-domain">${source.domain}${isOriginal}</div>
-                        </div>
-                    `;
-                });
-                
-                sourcesHtml += '</div>';
-            }
-            
-            container.innerHTML = sourcesHtml;
-        }
-        
-        // Load sources when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const mysteryName = urlParams.get('name');
-            if (mysteryName) {
-                loadSourceVerification(mysteryName);
-            }
-            
-            // Load YouTube videos
-            loadYouTubeVideos();
-        });
+      }
+
+      async function loadEvent(){
+        const params=new URLSearchParams(location.search);
+        const eventId=params.get("id");
+        const eventName=params.get("name");
+        if(!eventId&&!eventName)throw new Error("No event was selected");
+        const rows=await UnverifiedData.loadEvents();
+        const event=eventId?rows.find(row=>String(row.d1_id)===String(eventId)):rows.find(row=>row.name&&eventName&&row.name.toLowerCase()===eventName.toLowerCase());
+        if(!event)throw new Error("Event record not found");
+        renderEvent(event);
+      }
+      loadEvent().catch(error=>{document.getElementById("event-header").innerHTML=`<p class="empty">${esc(error.message)}. <a href="archive.html">Browse the archive</a>.</p>`;document.getElementById("event-content").innerHTML=""});
     </script>
-    
-    <!-- YouTube Videos Loader -->
-    <script>
-        function loadYouTubeVideos() {
-            const container = document.getElementById('youtube-videos-grid');
-            const channelId = 'UCL37JaB7QLNubrW4s3xRzJQ';
-            // Uploads playlist = channel ID with UC→UU — no API key needed
-            const playlistId = 'UU' + channelId.slice(2);
-            container.innerHTML = `
-                <div class="col-span-full" style="aspect-ratio:16/6">
-                    <iframe
-                        class="w-full h-full rounded-lg"
-                        src="https://www.youtube.com/embed?listType=playlist&list=${playlistId}&index=1&rel=0&modestbranding=1"
-                        title="The Unverified File — Latest Investigations"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        loading="lazy">
-                    </iframe>
-                </div>
-            `;
-        }
-    </script>
-                
-    <script src="./js/source_verification_display.js"></script>
-</body>
+  </body>
 </html>
