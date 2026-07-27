@@ -1,0 +1,42 @@
+[
+  {
+    "id": "evidence-quantum-consciousness-001",
+    "type": "peer-reviewed experiment",
+    "title": "Epothilone B and isoflurane in rats",
+    "description": "The 2024 eNeuro study reports that male rats receiving the microtubule-stabilizing drug epothilone B took an average of 69 seconds longer to reach loss of righting reflex during 4% isoflurane exposure.",
+    "source_ids": ["source-quantum-consciousness-eneuro"],
+    "supports": ["claim-quantum-consciousness-001"],
+    "challenges": ["claim-quantum-consciousness-002", "claim-quantum-consciousness-003"],
+    "limitations": "The experiment used eight male rats, a behavioral proxy for anesthetic-induced unconsciousness, one anesthetic, and one drug. It did not directly measure quantum coherence or conscious experience."
+  },
+  {
+    "id": "evidence-quantum-consciousness-002",
+    "type": "methods review",
+    "title": "Loss of righting reflex is a limited proxy",
+    "description": "An anesthesia review explains that loss of righting reflex is a practical animal proxy but cannot, on its own, establish consciousness or the content of experience.",
+    "source_ids": ["source-quantum-consciousness-anesthesia-review", "source-quantum-consciousness-lorr-review"],
+    "supports": [],
+    "challenges": ["claim-quantum-consciousness-002"],
+    "limitations": "These reviews assess the measure in general; they do not negate the reported behavioral effect in the eNeuro experiment."
+  },
+  {
+    "id": "evidence-quantum-consciousness-003",
+    "type": "critical review",
+    "title": "Quantum-consciousness proposals remain unconfirmed",
+    "description": "Recent critical reviews describe microtubule quantum-processing claims as contested and note that the needed stability, reproducibility, and in-vivo evidence have not been independently established.",
+    "source_ids": ["source-quantum-consciousness-critical-review"],
+    "supports": [],
+    "challenges": ["claim-quantum-consciousness-002", "claim-quantum-consciousness-003"],
+    "limitations": "A review maps outstanding problems; it is not a direct replication of the 2024 rat experiment."
+  },
+  {
+    "id": "evidence-quantum-consciousness-004",
+    "type": "media interpretation",
+    "title": "Popular Mechanics' interpretation",
+    "description": "The article accurately identifies the rat study as its central source, then extends its implications to quantum consciousness and universe-wide entanglement.",
+    "source_ids": ["source-quantum-consciousness-popular-mechanics"],
+    "supports": [],
+    "challenges": ["claim-quantum-consciousness-003"],
+    "limitations": "This is science journalism, not independent experimental evidence; its broader interpretation is not tested by the rat experiment."
+  }
+]
