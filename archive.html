@@ -1,216 +1,427 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case Files: Public Event Archive - The Unverified File</title>
-    <meta name="description" content="The searchable public-event archive within The Unverified File case-file system.">
+    <meta
+      name="description"
+      content="The searchable public-event archive within The Unverified File case-file system."
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = { theme: { extend: { colors: {
-            'matrix-green': '#00cc66', 'terminal-green': '#0a9461', 'cyber-red': '#ff0055',
-            'charcoal': '#1a1a1a', 'dark-charcoal': '#0f0f0f', 'cyber-yellow': '#ffd700'
-        }}}};
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "matrix-green": "#00cc66",
+              "terminal-green": "#0a9461",
+              "cyber-red": "#ff0055",
+              charcoal: "#1a1a1a",
+              "dark-charcoal": "#0f0f0f",
+              "cyber-yellow": "#ffd700",
+            },
+          },
+        },
+      };
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="community.css" rel="stylesheet" />
     <style>
-        body { font-family: Inter, system-ui, sans-serif; background: #0b0d0c; }
-        .archive-title, .case-title { font-family: "Source Serif 4", Georgia, serif; }
-        .archive-kicker { font-family: Orbitron, monospace; letter-spacing: .12em; text-transform: uppercase; }
-        .case-card { background: rgba(15, 15, 15, .82); border: 1px solid rgba(148, 163, 184, .18); transition: transform .18s ease, border-color .18s ease; content-visibility: auto; contain-intrinsic-size: 0 560px; }
-        .case-card:hover { border-color: rgba(0, 204, 102, .7); transform: translateY(-2px); }
-        .case-image { aspect-ratio: 16 / 9; object-fit: cover; background: #111; }
-        .rank-meter { height: .3rem; background: #23302a; border-radius: 999px; overflow: hidden; }
-        .rank-meter span { display: block; height: 100%; background: linear-gradient(90deg, #0a9461, #00cc66); }
-        .filter-input { background: #101412; border: 1px solid #334139; color: #f8fafc; }
-        .filter-input:focus { outline: 2px solid rgba(0, 204, 102, .55); outline-offset: 1px; }
-        .stat-value { font-family: Orbitron, monospace; }
-        .skeleton { background: linear-gradient(90deg, #111 25%, #1c2420 50%, #111 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
-        @keyframes shimmer { to { background-position: -200% 0; } }
+      body {
+        font-family: Inter, system-ui, sans-serif;
+        background: #0b0d0c;
+      }
+      .archive-title,
+      .case-title {
+        font-family: "Source Serif 4", Georgia, serif;
+      }
+      .archive-kicker {
+        font-family: Orbitron, monospace;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .case-card {
+        background: rgba(15, 15, 15, 0.82);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        transition:
+          transform 0.18s ease,
+          border-color 0.18s ease;
+        content-visibility: auto;
+        contain-intrinsic-size: 0 560px;
+      }
+      .case-card:hover {
+        border-color: rgba(0, 204, 102, 0.7);
+        transform: translateY(-2px);
+      }
+      .case-image {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        background: #111;
+      }
+      .rank-meter {
+        height: 0.3rem;
+        background: #23302a;
+        border-radius: 999px;
+        overflow: hidden;
+      }
+      .rank-meter span {
+        display: block;
+        height: 100%;
+        background: linear-gradient(90deg, #0a9461, #00cc66);
+      }
+      .filter-input {
+        background: #101412;
+        border: 1px solid #334139;
+        color: #f8fafc;
+      }
+      .filter-input:focus {
+        outline: 2px solid rgba(0, 204, 102, 0.55);
+        outline-offset: 1px;
+      }
+      .stat-value {
+        font-family: Orbitron, monospace;
+      }
+      .skeleton {
+        background: linear-gradient(90deg, #111 25%, #1c2420 50%, #111 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.4s infinite;
+      }
+      @keyframes shimmer {
+        to {
+          background-position: -200% 0;
+        }
+      }
     </style>
-</head>
-<body class="text-gray-100">
+  </head>
+  <body class="text-gray-100">
     <div id="header-container"></div>
 
     <header class="relative overflow-hidden border-b border-matrix-green/20">
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,204,102,.16),transparent_42%),linear-gradient(180deg,#111814,#080a09)]"></div>
-        <div class="relative container mx-auto max-w-6xl px-4 py-16 md:py-24">
-            <p class="archive-kicker text-xs text-matrix-green mb-4"><a href="case-files.html" class="hover:underline">Case Files</a> / public source records</p>
-            <h1 class="archive-title text-5xl md:text-7xl font-bold text-white leading-none mb-6">Public Event Archive</h1>
-            <p class="text-lg md:text-xl text-gray-300 leading-8 max-w-3xl">Investigations and public case records ranked by attributable sources, shared locations, classifications, named-case matches, and evidence quality. More supported connections raise a case—repetition alone does not.</p>
-        </div>
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,204,102,.16),transparent_42%),linear-gradient(180deg,#111814,#080a09)]"
+      ></div>
+      <div class="relative container mx-auto max-w-6xl px-4 py-16 md:py-24">
+        <p class="archive-kicker text-xs text-matrix-green mb-4">
+          <a href="case-files.html" class="hover:underline">Case Files</a> /
+          public source records
+        </p>
+        <h1
+          class="archive-title text-5xl md:text-7xl font-bold text-white leading-none mb-6"
+        >
+          Public Event Archive
+        </h1>
+        <p class="text-lg md:text-xl text-gray-300 leading-8 max-w-3xl">
+          Investigations and public case records ranked by attributable sources,
+          shared locations, classifications, named-case matches, and evidence
+          quality. More supported connections raise a case—repetition alone does
+          not.
+        </p>
+      </div>
     </header>
 
     <main class="container mx-auto max-w-7xl px-4 py-12">
-        <section aria-labelledby="investigations-heading" class="mb-16">
-            <div class="flex flex-wrap items-end justify-between gap-4 mb-7">
-                <div>
-                    <p class="archive-kicker text-xs text-matrix-green mb-2">Editorial reports</p>
-                    <h2 id="investigations-heading" class="archive-title text-3xl md:text-4xl font-bold">Published investigations</h2>
-                </div>
-                <span id="report-count" class="text-sm text-gray-400">Loading…</span>
-            </div>
-            <div id="investigation-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
-        </section>
+      <section aria-labelledby="investigations-heading" class="mb-16">
+        <div class="flex flex-wrap items-end justify-between gap-4 mb-7">
+          <div>
+            <p class="archive-kicker text-xs text-matrix-green mb-2">
+              Editorial reports
+            </p>
+            <h2
+              id="investigations-heading"
+              class="archive-title text-3xl md:text-4xl font-bold"
+            >
+              Published investigations
+            </h2>
+          </div>
+          <span id="report-count" class="text-sm text-gray-400">Loading…</span>
+        </div>
+        <div
+          id="investigation-grid"
+          class="grid md:grid-cols-2 lg:grid-cols-3 gap-5"
+        ></div>
+      </section>
 
-        <section aria-labelledby="cases-heading">
-            <div class="grid lg:grid-cols-[1fr_auto] gap-8 items-end mb-8">
-                <div>
-                    <p class="archive-kicker text-xs text-matrix-green mb-2">Ranked corpus</p>
-                    <h2 id="cases-heading" class="archive-title text-3xl md:text-4xl font-bold mb-3">All map sightings and case records</h2>
-                    <p class="text-gray-300 mb-2">This is the complete searchable D1 corpus used by the evidence map, including records without publishable coordinates.</p>
-                    <p id="ranking-note" class="text-gray-400 max-w-3xl">Loading ranking methodology…</p>
-                </div>
-                <div class="flex gap-6 text-center">
-                    <div><div id="case-total" class="stat-value text-2xl text-matrix-green">—</div><div class="text-xs text-gray-500">Cases</div></div>
-                    <div><div id="visible-total" class="stat-value text-2xl text-white">—</div><div class="text-xs text-gray-500">Loaded</div></div>
-                </div>
+      <section aria-labelledby="cases-heading">
+        <div class="grid lg:grid-cols-[1fr_auto] gap-8 items-end mb-8">
+          <div>
+            <p class="archive-kicker text-xs text-matrix-green mb-2">
+              Ranked corpus
+            </p>
+            <h2
+              id="cases-heading"
+              class="archive-title text-3xl md:text-4xl font-bold mb-3"
+            >
+              All map sightings and case records
+            </h2>
+            <p class="text-gray-300 mb-2">
+              This is the complete searchable D1 corpus used by the evidence
+              map, including records without publishable coordinates.
+            </p>
+            <p id="ranking-note" class="text-gray-400 max-w-3xl">
+              Loading ranking methodology…
+            </p>
+          </div>
+          <div class="flex gap-6 text-center">
+            <div>
+              <div
+                id="case-total"
+                class="stat-value text-2xl text-matrix-green"
+              >
+                —
+              </div>
+              <div class="text-xs text-gray-500">Cases</div>
             </div>
-
-            <form id="archive-filters" class="grid md:grid-cols-[1fr_280px_auto] gap-3 mb-8" role="search">
-                <label class="sr-only" for="archive-search">Search the evidence archive</label>
-                <input id="archive-search" class="filter-input rounded-lg px-4 py-3" type="search" placeholder="Search names, descriptions, or locations…">
-                <label class="sr-only" for="archive-type">Filter by case type</label>
-                <select id="archive-type" class="filter-input rounded-lg px-4 py-3"><option value="">All case types</option></select>
-                <button class="rounded-lg bg-matrix-green text-black font-bold px-6 py-3 hover:bg-green-300" type="submit">Search</button>
-            </form>
-
-            <div id="case-grid" class="grid md:grid-cols-2 xl:grid-cols-3 gap-5" aria-live="polite"></div>
-            <div class="text-center mt-10">
-                <button id="load-more" class="hidden border border-matrix-green text-matrix-green hover:bg-matrix-green hover:text-black rounded-lg px-8 py-3 font-semibold">Load more connected cases</button>
+            <div>
+              <div id="visible-total" class="stat-value text-2xl text-white">
+                —
+              </div>
+              <div class="text-xs text-gray-500">Loaded</div>
             </div>
-        </section>
+          </div>
+        </div>
+
+        <form
+          id="archive-filters"
+          class="grid md:grid-cols-[1fr_280px_auto] gap-3 mb-8"
+          role="search"
+        >
+          <label class="sr-only" for="archive-search"
+            >Search the evidence archive</label
+          >
+          <input
+            id="archive-search"
+            class="filter-input rounded-lg px-4 py-3"
+            type="search"
+            placeholder="Search names, descriptions, or locations…"
+          />
+          <label class="sr-only" for="archive-type">Filter by case type</label>
+          <select id="archive-type" class="filter-input rounded-lg px-4 py-3">
+            <option value="">All case types</option>
+          </select>
+          <button
+            class="rounded-lg bg-matrix-green text-black font-bold px-6 py-3 hover:bg-green-300"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+
+        <div
+          id="case-grid"
+          class="grid md:grid-cols-2 xl:grid-cols-3 gap-5"
+          aria-live="polite"
+        ></div>
+        <div class="text-center mt-10">
+          <button
+            id="load-more"
+            class="hidden border border-matrix-green text-matrix-green hover:bg-matrix-green hover:text-black rounded-lg px-8 py-3 font-semibold"
+          >
+            Load more connected cases
+          </button>
+        </div>
+      </section>
     </main>
 
     <div id="footer-container"></div>
     <script src="js/header.js?v=20260723-labs1"></script>
     <script src="js/footer.js?v=20260723-labs1"></script>
     <script src="js/navigation.js"></script>
+    <script src="js/community.js?v=20260724-community1"></script>
     <script>
-        const API = 'https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1';
-        const PAGE_SIZE = window.matchMedia('(max-width: 767px)').matches ? 24 : 100;
-        let offset = 0;
-        let total = 0;
-        let loaded = 0;
+      const API =
+        "https://unverified-file-privacy-api.nullrecords.workers.dev/api/v1";
+      const PAGE_SIZE = window.matchMedia("(max-width: 767px)").matches
+        ? 24
+        : 100;
+      let offset = 0;
+      let total = 0;
+      let loaded = 0;
 
-        const escapeHtml = value => String(value ?? '')
-            .replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
-            .replaceAll('"', '&quot;').replaceAll("'", '&#039;');
+      const escapeHtml = (value) =>
+        String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
 
-        function fallbackImage(eventType) {
-            const supported = new Set(['UFO Sighting', 'Paranormal Activity', 'Historical Mystery']);
-            return supported.has(eventType) ? `images/${eventType}.png` : 'splash.webp';
+      function fallbackImage(eventType) {
+        const supported = new Set([
+          "UFO Sighting",
+          "Paranormal Activity",
+          "Historical Mystery",
+        ]);
+        return supported.has(eventType)
+          ? `images/${eventType}.png`
+          : "splash.webp";
+      }
+
+      function safeImage(url, eventType = "") {
+        if (!url) return fallbackImage(eventType);
+        try {
+          const parsed = new URL(url, window.location.origin);
+          return ["http:", "https:"].includes(parsed.protocol)
+            ? parsed.href
+            : "splash.webp";
+        } catch (_) {
+          return "splash.webp";
         }
+      }
 
-        function safeImage(url, eventType = '') {
-            if (!url) return fallbackImage(eventType);
-            try {
-                const parsed = new URL(url, window.location.origin);
-                return ['http:', 'https:'].includes(parsed.protocol) ? parsed.href : 'splash.webp';
-            } catch (_) { return 'splash.webp'; }
-        }
+      function summary(value, length = 230) {
+        const text = String(value || "")
+          .replace(/\s+/g, " ")
+          .trim();
+        return text.length > length ? `${text.slice(0, length - 1)}…` : text;
+      }
 
-        function summary(value, length = 230) {
-            const text = String(value || '').replace(/\s+/g, ' ').trim();
-            return text.length > length ? `${text.slice(0, length - 1)}…` : text;
-        }
-
-        async function loadInvestigations() {
-            const grid = document.getElementById('investigation-grid');
-            try {
-                const response = await fetch('./api/articles.json', { cache: 'no-store' });
-                if (!response.ok) throw new Error('Reports unavailable');
-                const articles = await response.json();
-                document.getElementById('report-count').textContent = `${articles.length} published ${articles.length === 1 ? 'report' : 'reports'}`;
-                grid.innerHTML = articles.map((article, index) => `
+      async function loadInvestigations() {
+        const grid = document.getElementById("investigation-grid");
+        try {
+          const response = await fetch("./api/articles.json", {
+            cache: "no-store",
+          });
+          if (!response.ok) throw new Error("Reports unavailable");
+          const articles = await response.json();
+          document.getElementById("report-count").textContent =
+            `${articles.length} published ${articles.length === 1 ? "report" : "reports"}`;
+          grid.innerHTML = articles
+            .map(
+              (article, index) => `
                     <a href="article.html?slug=${encodeURIComponent(article.slug)}" class="case-card rounded-xl overflow-hidden group">
                         <img class="case-image w-full" src="${safeImage(article.images?.[0]?.src)}" alt="${escapeHtml(article.images?.[0]?.alt || article.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='splash.webp'">
                         <div class="p-6">
-                            <div class="flex justify-between gap-4 mb-3 text-xs"><span class="archive-kicker text-matrix-green">D-LOG ${String(index + 1).padStart(3, '0')}</span><span class="text-gray-500">${escapeHtml(article.readTime)}</span></div>
+                            <div class="flex justify-between gap-4 mb-3 text-xs"><span class="archive-kicker text-matrix-green">D-LOG ${String(index + 1).padStart(3, "0")}</span><span class="text-gray-500">${escapeHtml(article.readTime)}</span></div>
                             <h3 class="case-title text-2xl font-bold leading-tight text-white group-hover:text-matrix-green mb-3">${escapeHtml(article.title)}</h3>
                             <p class="text-sm text-gray-300 leading-6">${escapeHtml(summary(article.ai_summary || article.excerpt))}</p>
                             <div class="mt-5 text-xs text-gray-500">${article.connections?.length || 0} preliminary connections · ${article.source_urls?.length || 0} cited sources</div>
+                            <div class="community-list-totals mt-3" data-community-totals data-target-type="case" data-target-id="article-${escapeHtml(article.slug)}">Loading votes and comments…</div>
                         </div>
-                    </a>`).join('');
-            } catch (error) {
-                grid.innerHTML = `<p class="text-gray-400">${escapeHtml(error.message)}</p>`;
-            }
+                    </a>`,
+            )
+            .join("");
+          UnverifiedCommunity.fillTotals(grid);
+        } catch (error) {
+          grid.innerHTML = `<p class="text-gray-400">${escapeHtml(error.message)}</p>`;
         }
+      }
 
-        function renderCase(item) {
-            const score = Math.max(0, Math.min(100, Number(item.rank_score) || 0));
-            return `
+      function renderCase(item) {
+        const score = Math.max(0, Math.min(100, Number(item.rank_score) || 0));
+        return `
                 <article class="case-card rounded-xl overflow-hidden">
                     <a href="detail.html?id=${encodeURIComponent(item.id)}" class="block">
                         <div class="relative">
                             <img class="case-image w-full" src="${safeImage(item.image_url, item.event_type)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${fallbackImage(item.event_type)}'">
-                            ${item.image_status === 'fallback_required' ? '<span class="absolute bottom-2 left-2 rounded bg-black/80 px-2 py-1 text-[.65rem] text-gray-300">Source image unavailable · category artwork</span>' : ''}
+                            ${item.image_status === "fallback_required" ? '<span class="absolute bottom-2 left-2 rounded bg-black/80 px-2 py-1 text-[.65rem] text-gray-300">Source image unavailable · category artwork</span>' : ""}
                         </div>
                     </a>
                     <div class="p-5">
                         <div class="flex items-start justify-between gap-3 mb-3">
-                            <span class="text-[.68rem] uppercase tracking-wider text-matrix-green">${escapeHtml(item.event_type || 'Unclassified')}</span>
+                            <span class="text-[.68rem] uppercase tracking-wider text-matrix-green">${escapeHtml(item.event_type || "Unclassified")}</span>
                             <span class="text-xs text-gray-500">Rank ${Math.round(Number(item.rank_score) || 0)}</span>
                         </div>
                         <h3 class="case-title text-2xl font-bold leading-tight text-white mb-2"><a class="hover:text-matrix-green" href="detail.html?id=${encodeURIComponent(item.id)}">${escapeHtml(item.name)}</a></h3>
-                        <p class="text-xs text-gray-500 mb-3"><i class="fas fa-location-dot mr-1"></i>${escapeHtml(item.location || 'Location unavailable')} ${item.date ? `· ${escapeHtml(item.date)}` : ''}</p>
+                        <p class="text-xs text-gray-500 mb-3"><i class="fas fa-location-dot mr-1"></i>${escapeHtml(item.location || "Location unavailable")} ${item.date ? `· ${escapeHtml(item.date)}` : ""}</p>
                         <p class="text-sm text-gray-300 leading-6 mb-5">${escapeHtml(summary(item.description))}</p>
                         <div class="rank-meter mb-3"><span style="width:${score}%"></span></div>
                         <div class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-400 mb-5">
                             <span><i class="fas fa-diagram-project text-matrix-green mr-1"></i>${item.connection_count || 0} connections</span>
                             <span><i class="fas fa-link text-cyan-300 mr-1"></i>${item.source_count || 0} sources</span>
                         </div>
+                        <div class="community-list-totals mb-5" data-community-totals data-target-type="event" data-target-id="${escapeHtml(item.id)}"><span>✓ ${Number(item.real_votes || 0).toLocaleString()} real</span><span>? ${Number(item.hoax_votes || 0).toLocaleString()} hoax</span><span>◌ ${Number(item.comment_count || 0).toLocaleString()} comments</span></div>
                         <div class="flex items-center justify-between gap-3">
                             <a class="text-sm text-matrix-green hover:underline" href="network.html?id=${encodeURIComponent(item.id)}">View evidence graph</a>
                             <a class="text-sm text-gray-300 hover:text-white" href="detail.html?id=${encodeURIComponent(item.id)}">Case record →</a>
                         </div>
                     </div>
                 </article>`;
+      }
+
+      async function loadCases(reset = false) {
+        const grid = document.getElementById("case-grid");
+        if (reset) {
+          offset = 0;
+          loaded = 0;
+          grid.innerHTML = "";
         }
+        if (!grid.children.length)
+          grid.innerHTML = Array.from(
+            { length: 6 },
+            () => '<div class="skeleton rounded-xl h-96"></div>',
+          ).join("");
+        const q = document.getElementById("archive-search").value.trim();
+        const type = document.getElementById("archive-type").value;
+        const params = new URLSearchParams({ limit: PAGE_SIZE, offset });
+        if (q) params.set("q", q);
+        if (type) params.set("type", type);
 
-        async function loadCases(reset = false) {
-            const grid = document.getElementById('case-grid');
-            if (reset) { offset = 0; loaded = 0; grid.innerHTML = ''; }
-            if (!grid.children.length) grid.innerHTML = Array.from({ length: 6 }, () => '<div class="skeleton rounded-xl h-96"></div>').join('');
-            const q = document.getElementById('archive-search').value.trim();
-            const type = document.getElementById('archive-type').value;
-            const params = new URLSearchParams({ limit: PAGE_SIZE, offset });
-            if (q) params.set('q', q);
-            if (type) params.set('type', type);
-
-            try {
-                const response = await fetch(`${API}/archive?${params}`);
-                if (!response.ok) throw new Error(`Archive request failed (${response.status})`);
-                const data = await response.json();
-                if (reset || offset === 0) grid.innerHTML = '';
-                grid.insertAdjacentHTML('beforeend', data.items.map(renderCase).join(''));
-                total = data.total;
-                loaded += data.items.length;
-                offset += data.items.length;
-                document.getElementById('case-total').textContent = total.toLocaleString();
-                document.getElementById('visible-total').textContent = loaded.toLocaleString();
-                document.getElementById('ranking-note').textContent = data.ranking;
-                const select = document.getElementById('archive-type');
-                if (select.options.length === 1) data.types.forEach(row => select.add(new Option(`${row.event_type} (${row.count})`, row.event_type)));
-                document.getElementById('load-more').classList.toggle('hidden', loaded >= total || data.items.length === 0);
-                if (!data.items.length && !loaded) grid.innerHTML = '<p class="text-gray-400">No cases match these filters.</p>';
-            } catch (error) {
-                grid.innerHTML = `<p class="text-cyber-red">${escapeHtml(error.message)}</p>`;
-            }
+        try {
+          const response = await fetch(`${API}/archive?${params}`);
+          if (!response.ok)
+            throw new Error(`Archive request failed (${response.status})`);
+          const data = await response.json();
+          if (reset || offset === 0) grid.innerHTML = "";
+          grid.insertAdjacentHTML(
+            "beforeend",
+            data.items.map(renderCase).join(""),
+          );
+          UnverifiedCommunity.fillTotals(grid);
+          total = data.total;
+          loaded += data.items.length;
+          offset += data.items.length;
+          document.getElementById("case-total").textContent =
+            total.toLocaleString();
+          document.getElementById("visible-total").textContent =
+            loaded.toLocaleString();
+          document.getElementById("ranking-note").textContent = data.ranking;
+          const select = document.getElementById("archive-type");
+          if (select.options.length === 1)
+            data.types.forEach((row) =>
+              select.add(
+                new Option(`${row.event_type} (${row.count})`, row.event_type),
+              ),
+            );
+          document
+            .getElementById("load-more")
+            .classList.toggle(
+              "hidden",
+              loaded >= total || data.items.length === 0,
+            );
+          if (!data.items.length && !loaded)
+            grid.innerHTML =
+              '<p class="text-gray-400">No cases match these filters.</p>';
+        } catch (error) {
+          grid.innerHTML = `<p class="text-cyber-red">${escapeHtml(error.message)}</p>`;
         }
+      }
 
-        async function loadAllCases() {
-            await loadCases(true);
-            while (loaded < total) await loadCases(false);
-        }
+      async function loadAllCases() {
+        await loadCases(true);
+        while (loaded < total) await loadCases(false);
+      }
 
-        document.getElementById('archive-filters').addEventListener('submit', event => { event.preventDefault(); loadCases(true); });
-        document.getElementById('load-more').addEventListener('click', () => loadCases(false));
-        Promise.all([loadInvestigations(), loadCases(true)]);
+      document
+        .getElementById("archive-filters")
+        .addEventListener("submit", (event) => {
+          event.preventDefault();
+          loadCases(true);
+        });
+      document
+        .getElementById("load-more")
+        .addEventListener("click", () => loadCases(false));
+      Promise.all([loadInvestigations(), loadCases(true)]);
     </script>
-</body>
+  </body>
 </html>

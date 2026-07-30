@@ -1,142 +1,296 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Primary Meta Tags - Will be dynamically updated -->
     <title>D-LOG Article - The Unverified File</title>
-    <meta name="title" content="D-LOG Article - The Unverified File">
-    <meta name="description" content="Evidence-based investigation report with AI analysis and expert verification.">
-    <meta name="keywords" content="Project D-LOG, AI investigation, evidence-based analysis, OSINT">
-    <meta name="author" content="The Unverified File Team">
-    <meta name="robots" content="index, follow">
-    
+    <meta name="title" content="D-LOG Article - The Unverified File" />
+    <meta
+      name="description"
+      content="Evidence-based investigation report with AI analysis and expert verification."
+    />
+    <meta
+      name="keywords"
+      content="Project D-LOG, AI investigation, evidence-based analysis, OSINT"
+    />
+    <meta name="author" content="The Unverified File Team" />
+    <meta name="robots" content="index, follow" />
+
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://unverifiedfile.com/article.html">
-    <meta property="og:title" content="D-LOG Article - The Unverified File">
-    <meta property="og:description" content="Evidence-based investigation report">
-    <meta property="og:image" content="https://unverifiedfile.com/logo.png">
-    <meta property="og:site_name" content="The Unverified File">
-    
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://unverifiedfile.com/article.html" />
+    <meta property="og:title" content="D-LOG Article - The Unverified File" />
+    <meta
+      property="og:description"
+      content="Evidence-based investigation report"
+    />
+    <meta property="og:image" content="https://unverifiedfile.com/logo.png" />
+    <meta property="og:site_name" content="The Unverified File" />
+
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://unverifiedfile.com/article.html">
-    <meta property="twitter:title" content="D-LOG Article">
-    <meta property="twitter:description" content="Evidence-based investigation report">
-    <meta property="twitter:image" content="https://unverifiedfile.com/logo.png">
-    
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://unverifiedfile.com/article.html"
+    />
+    <meta property="twitter:title" content="D-LOG Article" />
+    <meta
+      property="twitter:description"
+      content="Evidence-based investigation report"
+    />
+    <meta
+      property="twitter:image"
+      content="https://unverifiedfile.com/logo.png"
+    />
+
     <!-- Canonical URL -->
     <link rel="canonical" href="https://unverifiedfile.com/article.html" />
-    
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'matrix-green': '#00cc66',
-                        'terminal-green': '#0a9461',
-                        'cyber-red': '#ff0055',
-                        'charcoal': '#1a1a1a',
-                        'dark-charcoal': '#0f0f0f',
-                        'cyber-yellow': '#ffd700'
-                    },
-                    fontFamily: {
-                        'orbitron': ['Orbitron', 'monospace'],
-                        'mono': ['JetBrains Mono', 'Courier New', 'monospace']
-                    }
-                }
-            }
-        }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "matrix-green": "#00cc66",
+              "terminal-green": "#0a9461",
+              "cyber-red": "#ff0055",
+              charcoal: "#1a1a1a",
+              "dark-charcoal": "#0f0f0f",
+              "cyber-yellow": "#ffd700",
+            },
+            fontFamily: {
+              orbitron: ["Orbitron", "monospace"],
+              mono: ["JetBrains Mono", "Courier New", "monospace"],
+            },
+          },
+        },
+      };
     </script>
-    
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;700&family=JetBrains+Mono:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
     <!-- Custom Styles -->
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="community.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+      rel="stylesheet"
+    />
     <style>
-        html body { padding-top: 0 !important; }
-        .article-title { font-family: "Source Serif 4", Georgia, serif; text-wrap: balance; }
-        .article-deck { font-family: Inter, system-ui, sans-serif; }
-        .article-reading-column { max-width: 780px; margin-inline: auto; }
-        .editorial-body { color: #e5e7eb; font-family: "Source Serif 4", Georgia, serif; font-size: clamp(1.08rem, 1rem + .28vw, 1.25rem); line-height: 1.82; letter-spacing: .005em; }
-        .editorial-body p { margin: 0 0 1.45em; }
-        .editorial-body h2 { color: #f8fafc; font-family: Inter, system-ui, sans-serif; font-size: clamp(1.45rem, 1.2rem + .8vw, 2rem); font-weight: 700; line-height: 1.25; margin: 2.2em 0 .7em; }
-        .editorial-body h3 { color: #b7f7d3; font-family: Inter, system-ui, sans-serif; font-size: 1.18rem; font-weight: 700; margin: 1.8em 0 .55em; }
-        .editorial-body strong { color: #fff; font-weight: 700; }
-        .editorial-body em { color: #d1fae5; }
-        .editorial-body ul, .editorial-body ol { margin: 0 0 1.5em 1.4em; }
-        .editorial-body li { margin-bottom: .55em; padding-left: .25em; }
-        .article-kicker { font-family: "JetBrains Mono", monospace; letter-spacing: .12em; text-transform: uppercase; }
-        .summary-panel { background: linear-gradient(135deg, rgba(0, 204, 102, .12), rgba(15, 15, 15, .92)); border: 1px solid rgba(0, 204, 102, .38); }
-        .summary-panel p, .summary-panel li, .connection-card p { font-family: Inter, system-ui, sans-serif; }
-        .summary-panel li { position: relative; padding-left: 1.25rem; }
-        .summary-panel li::before { content: ""; position: absolute; left: 0; top: .62em; width: .42rem; height: .42rem; border-radius: 999px; background: #00cc66; }
-        .article-media { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1rem; }
-        .article-media figure { background: #0b0f0d; border: 1px solid rgba(0, 204, 102, .22); border-radius: .75rem; overflow: hidden; }
-        .article-media img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #111; }
-        .article-media figcaption { padding: .85rem 1rem 1rem; color: #cbd5e1; font: .84rem/1.55 Inter, sans-serif; }
-        .connection-card { background: rgba(15, 15, 15, .78); border: 1px solid rgba(148, 163, 184, .2); border-left: 3px solid #00cc66; }
-        .connection-strength-low { color: #fbbf24; }
-        .connection-strength-moderate { color: #67e8f9; }
-        .connection-strength-high { color: #86efac; }
-        #connection-map { height: 360px; border: 1px solid rgba(0, 204, 102, .28); border-radius: .75rem; background: #111; }
-        .source-list a { overflow-wrap: anywhere; }
-        @media (max-width: 640px) {
-            .article-card { padding: 1.35rem; }
-            #connection-map { height: 300px; }
+      html body {
+        padding-top: 0 !important;
+      }
+      .article-title {
+        font-family: "Source Serif 4", Georgia, serif;
+        text-wrap: balance;
+      }
+      .article-deck {
+        font-family: Inter, system-ui, sans-serif;
+      }
+      .article-reading-column {
+        max-width: 780px;
+        margin-inline: auto;
+      }
+      .editorial-body {
+        color: #e5e7eb;
+        font-family: "Source Serif 4", Georgia, serif;
+        font-size: clamp(1.08rem, 1rem + 0.28vw, 1.25rem);
+        line-height: 1.82;
+        letter-spacing: 0.005em;
+      }
+      .editorial-body p {
+        margin: 0 0 1.45em;
+      }
+      .editorial-body h2 {
+        color: #f8fafc;
+        font-family: Inter, system-ui, sans-serif;
+        font-size: clamp(1.45rem, 1.2rem + 0.8vw, 2rem);
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 2.2em 0 0.7em;
+      }
+      .editorial-body h3 {
+        color: #b7f7d3;
+        font-family: Inter, system-ui, sans-serif;
+        font-size: 1.18rem;
+        font-weight: 700;
+        margin: 1.8em 0 0.55em;
+      }
+      .editorial-body strong {
+        color: #fff;
+        font-weight: 700;
+      }
+      .editorial-body em {
+        color: #d1fae5;
+      }
+      .editorial-body ul,
+      .editorial-body ol {
+        margin: 0 0 1.5em 1.4em;
+      }
+      .editorial-body li {
+        margin-bottom: 0.55em;
+        padding-left: 0.25em;
+      }
+      .article-kicker {
+        font-family: "JetBrains Mono", monospace;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .summary-panel {
+        background: linear-gradient(
+          135deg,
+          rgba(0, 204, 102, 0.12),
+          rgba(15, 15, 15, 0.92)
+        );
+        border: 1px solid rgba(0, 204, 102, 0.38);
+      }
+      .summary-panel p,
+      .summary-panel li,
+      .connection-card p {
+        font-family: Inter, system-ui, sans-serif;
+      }
+      .summary-panel li {
+        position: relative;
+        padding-left: 1.25rem;
+      }
+      .summary-panel li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.62em;
+        width: 0.42rem;
+        height: 0.42rem;
+        border-radius: 999px;
+        background: #00cc66;
+      }
+      .article-media {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+        gap: 1rem;
+      }
+      .article-media figure {
+        background: #0b0f0d;
+        border: 1px solid rgba(0, 204, 102, 0.22);
+        border-radius: 0.75rem;
+        overflow: hidden;
+      }
+      .article-media img {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        background: #111;
+      }
+      .article-media figcaption {
+        padding: 0.85rem 1rem 1rem;
+        color: #cbd5e1;
+        font:
+          0.84rem/1.55 Inter,
+          sans-serif;
+      }
+      .connection-card {
+        background: rgba(15, 15, 15, 0.78);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-left: 3px solid #00cc66;
+      }
+      .connection-strength-low {
+        color: #fbbf24;
+      }
+      .connection-strength-moderate {
+        color: #67e8f9;
+      }
+      .connection-strength-high {
+        color: #86efac;
+      }
+      #connection-map {
+        height: 360px;
+        border: 1px solid rgba(0, 204, 102, 0.28);
+        border-radius: 0.75rem;
+        background: #111;
+      }
+      .source-list a {
+        overflow-wrap: anywhere;
+      }
+      @media (max-width: 640px) {
+        .article-card {
+          padding: 1.35rem;
         }
+        #connection-map {
+          height: 300px;
+        }
+      }
     </style>
-    
+
     <!-- Analytics. Auto Ads is intentionally omitted here because its top-anchor
          treatment adds body padding ahead of the shared site navigation. -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5115VTJEF0"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5115VTJEF0"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5115VTJEF0');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-5115VTJEF0");
     </script>
-</head>
+  </head>
 
-<body class="text-gray-100">
-    
+  <body class="text-gray-100">
     <!-- Navigation (loaded dynamically) -->
     <div id="header-container"></div>
 
     <!-- Hero Section -->
-    <section class="relative min-h-[40vh] flex items-center justify-center overflow-hidden">
-        <!-- Background Image with Overlay -->
-        <div class="absolute inset-0 z-0">
-            <img id="article-hero-image" src="splash.webp" alt="The Unverified File" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-dark-charcoal/75 to-charcoal/95"></div>
+    <section
+      class="relative min-h-[40vh] flex items-center justify-center overflow-hidden"
+    >
+      <!-- Background Image with Overlay -->
+      <div class="absolute inset-0 z-0">
+        <img
+          id="article-hero-image"
+          src="splash.webp"
+          alt="The Unverified File"
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-black/80 via-dark-charcoal/75 to-charcoal/95"
+        ></div>
+      </div>
+
+      <!-- Hero Content -->
+      <div class="relative z-10 container mx-auto px-4 py-20 text-center">
+        <div id="article-header">
+          <!-- Loaded dynamically -->
         </div>
-        
-        <!-- Hero Content -->
-        <div class="relative z-10 container mx-auto px-4 py-20 text-center">
-            <div id="article-header">
-                <!-- Loaded dynamically -->
-            </div>
-        </div>
+      </div>
     </section>
 
     <!-- Article Content -->
     <section class="bg-charcoal/80 py-16">
-        <div class="container mx-auto px-4 max-w-4xl">
-            <article id="article-content" class="prose prose-invert prose-lg max-w-none">
-                <!-- Loaded dynamically -->
-            </article>
-        </div>
+      <div class="container mx-auto px-4 max-w-4xl">
+        <article
+          id="article-content"
+          class="prose prose-invert prose-lg max-w-none"
+        >
+          <!-- Loaded dynamically -->
+        </article>
+      </div>
     </section>
 
     <!-- Footer (loaded dynamically) -->
@@ -148,12 +302,13 @@
     <script src="js/navigation.js"></script>
     <script src="js/cache-buster.js"></script>
     <script src="js/data-api.js"></script>
+    <script src="js/community.js?v=20260724-community1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 
     <!-- Article Loading Script -->
     <script>
-        function showNotFound() {
-            document.getElementById('article-header').innerHTML = `
+      function showNotFound() {
+        document.getElementById("article-header").innerHTML = `
                 <div class="terminal-box rounded-2xl p-8 max-w-3xl mx-auto">
                     <h1 class="text-4xl md:text-5xl font-orbitron font-bold text-cyber-red mb-4">
                         <i class="fas fa-exclamation-triangle"></i> Article Not Found
@@ -164,215 +319,321 @@
                     </a>
                 </div>
             `;
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function safeUrl(value) {
+        try {
+          const url = new URL(value, window.location.origin);
+          return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
+        } catch (_) {
+          return "#";
         }
+      }
 
-        function escapeHtml(value) {
-            return String(value ?? '')
-                .replaceAll('&', '&amp;')
-                .replaceAll('<', '&lt;')
-                .replaceAll('>', '&gt;')
-                .replaceAll('"', '&quot;')
-                .replaceAll("'", '&#039;');
-        }
+      function renderInlineMarkdown(value) {
+        return escapeHtml(value)
+          .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+          .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+          .replace(/`([^`]+)`/g, "<code>$1</code>");
+      }
 
-        function safeUrl(value) {
-            try {
-                const url = new URL(value, window.location.origin);
-                return ['http:', 'https:'].includes(url.protocol) ? url.href : '#';
-            } catch (_) { return '#'; }
-        }
+      function markdownToHtml(markdown) {
+        const lines = String(markdown || "")
+          .replace(/\r/g, "")
+          .split("\n");
+        const html = [];
+        let listType = null;
 
-        function renderInlineMarkdown(value) {
-            return escapeHtml(value)
-                .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-                .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-                .replace(/`([^`]+)`/g, '<code>$1</code>');
-        }
+        const closeList = () => {
+          if (listType) html.push(`</${listType}>`);
+          listType = null;
+        };
 
-        function markdownToHtml(markdown) {
-            const lines = String(markdown || '').replace(/\r/g, '').split('\n');
-            const html = [];
-            let listType = null;
-
-            const closeList = () => {
-                if (listType) html.push(`</${listType}>`);
-                listType = null;
-            };
-
-            for (const rawLine of lines) {
-                const line = rawLine.trim();
-                if (!line) { closeList(); continue; }
-                if (/^HEADLINE:/i.test(line) || /^BODY:$/i.test(line)) continue;
-
-                const lede = line.match(/^LEDE:\s*(.+)$/i);
-                if (lede) {
-                    closeList();
-                    html.push(`<p class="article-deck text-xl text-gray-200 border-l-4 border-matrix-green pl-5 py-1">${renderInlineMarkdown(lede[1])}</p>`);
-                    continue;
-                }
-
-                const labeled = line.match(/^(EVIDENCE QUALITY|INVESTIGATION GAPS|SOURCES):\s*(.*)$/i);
-                if (labeled) {
-                    closeList();
-                    html.push(`<h2>${escapeHtml(labeled[1].replace(/\b\w/g, c => c.toUpperCase()))}</h2>`);
-                    if (labeled[2]) html.push(`<p>${renderInlineMarkdown(labeled[2])}</p>`);
-                    continue;
-                }
-
-                const boldHeading = line.match(/^\*\*([^*]+)\*\*$/);
-                if (boldHeading) {
-                    closeList();
-                    html.push(`<h2>${escapeHtml(boldHeading[1])}</h2>`);
-                    continue;
-                }
-
-                const heading = line.match(/^(#{1,3})\s+(.+)$/);
-                if (heading) {
-                    closeList();
-                    const level = Math.min(3, heading[1].length + 1);
-                    html.push(`<h${level}>${renderInlineMarkdown(heading[2])}</h${level}>`);
-                    continue;
-                }
-
-                const unordered = line.match(/^[-*]\s+(.+)$/);
-                const ordered = line.match(/^\d+[.)]\s+(.+)$/);
-                if (unordered || ordered) {
-                    const wanted = unordered ? 'ul' : 'ol';
-                    if (listType !== wanted) { closeList(); listType = wanted; html.push(`<${wanted}>`); }
-                    html.push(`<li>${renderInlineMarkdown((unordered || ordered)[1])}</li>`);
-                    continue;
-                }
-
-                closeList();
-                html.push(`<p>${renderInlineMarkdown(line)}</p>`);
-            }
+        for (const rawLine of lines) {
+          const line = rawLine.trim();
+          if (!line) {
             closeList();
-            return html.join('\n');
-        }
+            continue;
+          }
+          if (/^HEADLINE:/i.test(line) || /^BODY:$/i.test(line)) continue;
 
-        function renderMedia(images) {
-            if (!Array.isArray(images) || !images.length) return '';
-            return `
+          const lede = line.match(/^LEDE:\s*(.+)$/i);
+          if (lede) {
+            closeList();
+            html.push(
+              `<p class="article-deck text-xl text-gray-200 border-l-4 border-matrix-green pl-5 py-1">${renderInlineMarkdown(lede[1])}</p>`,
+            );
+            continue;
+          }
+
+          const labeled = line.match(
+            /^(EVIDENCE QUALITY|INVESTIGATION GAPS|SOURCES):\s*(.*)$/i,
+          );
+          if (labeled) {
+            closeList();
+            html.push(
+              `<h2>${escapeHtml(labeled[1].replace(/\b\w/g, (c) => c.toUpperCase()))}</h2>`,
+            );
+            if (labeled[2])
+              html.push(`<p>${renderInlineMarkdown(labeled[2])}</p>`);
+            continue;
+          }
+
+          const boldHeading = line.match(/^\*\*([^*]+)\*\*$/);
+          if (boldHeading) {
+            closeList();
+            html.push(`<h2>${escapeHtml(boldHeading[1])}</h2>`);
+            continue;
+          }
+
+          const heading = line.match(/^(#{1,3})\s+(.+)$/);
+          if (heading) {
+            closeList();
+            const level = Math.min(3, heading[1].length + 1);
+            html.push(
+              `<h${level}>${renderInlineMarkdown(heading[2])}</h${level}>`,
+            );
+            continue;
+          }
+
+          const unordered = line.match(/^[-*]\s+(.+)$/);
+          const ordered = line.match(/^\d+[.)]\s+(.+)$/);
+          if (unordered || ordered) {
+            const wanted = unordered ? "ul" : "ol";
+            if (listType !== wanted) {
+              closeList();
+              listType = wanted;
+              html.push(`<${wanted}>`);
+            }
+            html.push(
+              `<li>${renderInlineMarkdown((unordered || ordered)[1])}</li>`,
+            );
+            continue;
+          }
+
+          closeList();
+          html.push(`<p>${renderInlineMarkdown(line)}</p>`);
+        }
+        closeList();
+        return html.join("\n");
+      }
+
+      function renderMedia(images) {
+        if (!Array.isArray(images) || !images.length) return "";
+        return `
                 <section class="article-media my-10" aria-label="Related source imagery">
-                    ${images.map(image => `
+                    ${images
+                      .map(
+                        (image) => `
                         <figure>
                             <a href="${safeUrl(image.source_url)}" target="_blank" rel="noopener noreferrer">
                                 <img src="${safeUrl(image.src)}" alt="${escapeHtml(image.alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='splash.webp'">
                             </a>
                             <figcaption>${escapeHtml(image.caption)} <a href="${safeUrl(image.source_url)}" target="_blank" rel="noopener noreferrer" class="text-matrix-green hover:underline">Credit: ${escapeHtml(image.credit)}</a></figcaption>
                         </figure>
-                    `).join('')}
+                    `,
+                      )
+                      .join("")}
                 </section>`;
-        }
+      }
 
-        function renderSummary(article) {
-            const findings = Array.isArray(article.ai_key_findings) ? article.ai_key_findings : [];
-            return `
+      function renderSummary(article) {
+        const findings = Array.isArray(article.ai_key_findings)
+          ? article.ai_key_findings
+          : [];
+        return `
                 <aside class="summary-panel rounded-xl p-6 md:p-8 mb-10" aria-labelledby="ai-summary-title">
                     <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
                         <h2 id="ai-summary-title" class="text-2xl font-bold text-white article-deck">AI Briefing</h2>
-                        <span class="article-kicker text-xs text-matrix-green border border-matrix-green/40 rounded-full px-3 py-1">${escapeHtml(article.ai_confidence || 'Preliminary')} confidence</span>
+                        <span class="article-kicker text-xs text-matrix-green border border-matrix-green/40 rounded-full px-3 py-1">${escapeHtml(article.ai_confidence || "Preliminary")} confidence</span>
                     </div>
-                    <p class="text-lg leading-8 text-gray-100 mb-5">${escapeHtml(article.ai_summary || article.excerpt || '')}</p>
-                    ${findings.length ? `<ul class="space-y-3 text-gray-200">${findings.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : ''}
+                    <p class="text-lg leading-8 text-gray-100 mb-5">${escapeHtml(article.ai_summary || article.excerpt || "")}</p>
+                    ${findings.length ? `<ul class="space-y-3 text-gray-200">${findings.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
                     <p class="text-xs text-gray-400 mt-5 article-deck"><i class="fas fa-circle-info mr-1"></i> Machine-generated research aid. Claims still require source review and editorial verification.</p>
                 </aside>`;
+      }
+
+      async function renderConnections(article) {
+        const container = document.getElementById("article-connections");
+        const configured = Array.isArray(article.connections)
+          ? article.connections
+          : [];
+        const points = (
+          Array.isArray(article.points_of_interest)
+            ? article.points_of_interest
+            : []
+        ).filter(
+          (point) =>
+            Number.isFinite(Number(point.latitude)) &&
+            Number.isFinite(Number(point.longitude)),
+        );
+        if (
+          !points.length &&
+          Number.isFinite(Number(article.latitude)) &&
+          Number.isFinite(Number(article.longitude))
+        ) {
+          points.push({
+            name: article.location || article.title,
+            latitude: article.latitude,
+            longitude: article.longitude,
+            role: "Primary reported location",
+          });
+        }
+        if (!configured.length && !points.length) {
+          container.remove();
+          return;
         }
 
-        async function renderConnections(article) {
-            const container = document.getElementById('article-connections');
-            const configured = Array.isArray(article.connections) ? article.connections : [];
-            const points = (Array.isArray(article.points_of_interest) ? article.points_of_interest : []).filter(point =>
-                Number.isFinite(Number(point.latitude)) && Number.isFinite(Number(point.longitude))
+        try {
+          let events = [];
+          try {
+            events = await window.UnverifiedData.loadEvents();
+          } catch (error) {
+            console.warn(
+              "Archive connections unavailable; rendering article points only.",
+              error,
             );
-            if (!points.length && Number.isFinite(Number(article.latitude)) && Number.isFinite(Number(article.longitude))) {
-                points.push({name: article.location || article.title, latitude: article.latitude, longitude: article.longitude, role: 'Primary reported location'});
-            }
-            if (!configured.length && !points.length) { container.remove(); return; }
+          }
+          const seen = new Set();
+          const matches = configured.map((connection) => {
+            const event = events.find(
+              (item) =>
+                item.name === connection.match_name && !seen.has(item.name),
+            );
+            if (event) seen.add(event.name);
+            return { ...connection, event };
+          });
 
-            try {
-                let events = [];
-                try {
-                    events = await window.UnverifiedData.loadEvents();
-                } catch (error) {
-                    console.warn('Archive connections unavailable; rendering article points only.', error);
-                }
-                const seen = new Set();
-                const matches = configured.map(connection => {
-                    const event = events.find(item => item.name === connection.match_name && !seen.has(item.name));
-                    if (event) seen.add(event.name);
-                    return { ...connection, event };
-                });
-
-                container.innerHTML = `
+          container.innerHTML = `
                     <div class="max-w-5xl mx-auto">
                         <p class="article-kicker text-xs text-matrix-green mb-3">Relationship scan</p>
                         <h2 class="article-title text-3xl md:text-4xl font-bold text-white mb-4">Connections and points of interest</h2>
-                        <p class="article-deck text-gray-300 text-lg leading-8 max-w-3xl mb-8">${escapeHtml(article.connection_overview || '')}</p>
-                        ${matches.length ? `<div class="grid md:grid-cols-2 gap-4 mb-8">
-                            ${matches.map(({ event, ...connection }) => `
+                        <p class="article-deck text-gray-300 text-lg leading-8 max-w-3xl mb-8">${escapeHtml(article.connection_overview || "")}</p>
+                        ${
+                          matches.length
+                            ? `<div class="grid md:grid-cols-2 gap-4 mb-8">
+                            ${matches
+                              .map(
+                                ({ event, ...connection }) => `
                                 <article class="connection-card rounded-lg p-5">
                                     <div class="flex items-start justify-between gap-3 mb-3">
                                         <h3 class="text-lg font-semibold text-white article-deck">${escapeHtml(connection.match_name)}</h3>
-                                        <span class="article-kicker text-[.68rem] connection-strength-${escapeHtml(String(connection.strength || 'low').toLowerCase())}">${escapeHtml(connection.strength || 'Low')}</span>
+                                        <span class="article-kicker text-[.68rem] connection-strength-${escapeHtml(String(connection.strength || "low").toLowerCase())}">${escapeHtml(connection.strength || "Low")}</span>
                                     </div>
                                     <p class="text-gray-300 leading-7 mb-4">${escapeHtml(connection.reason)}</p>
                                     ${event ? `<a href="detail.html?name=${encodeURIComponent(event.name)}" class="text-sm text-matrix-green hover:underline">Open related record <i class="fas fa-arrow-right ml-1"></i></a>` : '<span class="text-xs text-gray-500">Related archive record is not currently public.</span>'}
-                                </article>`).join('')}
-                        </div>` : ''}
-                        ${points.length ? `<div class="meta mb-4">${points.map(point=>`<span>${escapeHtml(point.name)} · ${escapeHtml(point.role||'Point of interest')}</span>`).join('')}</div>` : ''}
+                                </article>`,
+                              )
+                              .join("")}
+                        </div>`
+                            : ""
+                        }
+                        ${points.length ? `<div class="meta mb-4">${points.map((point) => `<span>${escapeHtml(point.name)} · ${escapeHtml(point.role || "Point of interest")}</span>`).join("")}</div>` : ""}
                         <div id="connection-map" aria-label="Map of article points of interest and related sightings"></div>
                         <p id="connection-map-note" class="article-deck text-xs text-gray-400 mt-3"></p>
                     </div>`;
 
-                const mapped = matches.filter(match => match.event && Number.isFinite(Number(match.event.latitude)) && Number.isFinite(Number(match.event.longitude)));
-                const note = document.getElementById('connection-map-note');
-                if ((!mapped.length && !points.length) || typeof L === 'undefined') {
-                    document.getElementById('connection-map').innerHTML = '<div class="h-full grid place-items-center text-gray-400 article-deck">No precise coordinates are available for these preliminary connections.</div>';
-                    note.textContent = `${matches.length} archive connections reviewed; none include publishable coordinates.`;
-                    return;
-                }
+          const mapped = matches.filter(
+            (match) =>
+              match.event &&
+              Number.isFinite(Number(match.event.latitude)) &&
+              Number.isFinite(Number(match.event.longitude)),
+          );
+          const note = document.getElementById("connection-map-note");
+          if ((!mapped.length && !points.length) || typeof L === "undefined") {
+            document.getElementById("connection-map").innerHTML =
+              '<div class="h-full grid place-items-center text-gray-400 article-deck">No precise coordinates are available for these preliminary connections.</div>';
+            note.textContent = `${matches.length} archive connections reviewed; none include publishable coordinates.`;
+            return;
+          }
 
-                const map = L.map('connection-map', { scrollWheelZoom: false });
-                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; OpenStreetMap contributors'
-                }).addTo(map);
-                const bounds = [];
-                mapped.forEach(match => {
-                    const point = [Number(match.event.latitude), Number(match.event.longitude)];
-                    bounds.push(point);
-                    L.marker(point).addTo(map).bindPopup(`<strong>${escapeHtml(match.event.name)}</strong><br>${escapeHtml(match.event.location || 'Location unavailable')}<br><a href="detail.html?name=${encodeURIComponent(match.event.name)}">Open record</a>`);
-                });
-                points.forEach(item => {
-                    const point = [Number(item.latitude), Number(item.longitude)];
-                    bounds.push(point);
-                    L.circleMarker(point, {radius: 9, color: '#f1c75b', weight: 2, fillColor: '#33280b', fillOpacity: .92})
-                        .addTo(map).bindPopup(`<strong>${escapeHtml(item.name)}</strong><br>${escapeHtml(item.role || 'Article point of interest')}<br>${escapeHtml(item.description || '')}`);
-                });
-                if (bounds.length === 1) map.setView(bounds[0], 7);
-                else map.fitBounds(bounds, { padding: [30, 30], maxZoom: 8 });
-                note.textContent = `${points.length} article point${points.length===1?'':'s'} and ${mapped.length} geographically located archive connection${mapped.length===1?'':'s'} shown.`;
-            } catch (error) {
-                console.error('Connection scan failed', error);
-                container.innerHTML = '<div class="max-w-4xl mx-auto text-gray-400 article-deck">Connections are temporarily unavailable.</div>';
-            }
+          const map = L.map("connection-map", { scrollWheelZoom: false });
+          L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: "&copy; OpenStreetMap contributors",
+          }).addTo(map);
+          const bounds = [];
+          mapped.forEach((match) => {
+            const point = [
+              Number(match.event.latitude),
+              Number(match.event.longitude),
+            ];
+            bounds.push(point);
+            L.marker(point)
+              .addTo(map)
+              .bindPopup(
+                `<strong>${escapeHtml(match.event.name)}</strong><br>${escapeHtml(match.event.location || "Location unavailable")}<br><a href="detail.html?name=${encodeURIComponent(match.event.name)}">Open record</a>`,
+              );
+          });
+          points.forEach((item) => {
+            const point = [Number(item.latitude), Number(item.longitude)];
+            bounds.push(point);
+            L.circleMarker(point, {
+              radius: 9,
+              color: "#f1c75b",
+              weight: 2,
+              fillColor: "#33280b",
+              fillOpacity: 0.92,
+            })
+              .addTo(map)
+              .bindPopup(
+                `<strong>${escapeHtml(item.name)}</strong><br>${escapeHtml(item.role || "Article point of interest")}<br>${escapeHtml(item.description || "")}`,
+              );
+          });
+          if (bounds.length === 1) map.setView(bounds[0], 7);
+          else map.fitBounds(bounds, { padding: [30, 30], maxZoom: 8 });
+          note.textContent = `${points.length} article point${points.length === 1 ? "" : "s"} and ${mapped.length} geographically located archive connection${mapped.length === 1 ? "" : "s"} shown.`;
+        } catch (error) {
+          console.error("Connection scan failed", error);
+          container.innerHTML =
+            '<div class="max-w-4xl mx-auto text-gray-400 article-deck">Connections are temporarily unavailable.</div>';
+        }
+      }
+
+      async function renderArticle(article) {
+        document.title = `${article.title} - The Unverified File`;
+        document
+          .querySelector('meta[name="description"]')
+          .setAttribute(
+            "content",
+            article.ai_summary || article.excerpt || article.title,
+          );
+        document
+          .querySelector('meta[property="og:title"]')
+          .setAttribute("content", article.title);
+        document
+          .querySelector('meta[property="twitter:title"]')
+          .setAttribute("content", article.title);
+        const primaryImage = Array.isArray(article.images)
+          ? article.images[0]
+          : null;
+        if (primaryImage) {
+          document.getElementById("article-hero-image").src = safeUrl(
+            primaryImage.src,
+          );
+          document.getElementById("article-hero-image").onerror = function () {
+            this.onerror = null;
+            this.src = "splash.webp";
+          };
+          document.getElementById("article-hero-image").alt =
+            primaryImage.alt || article.title;
+          document
+            .querySelector('meta[property="og:image"]')
+            .setAttribute("content", safeUrl(primaryImage.src));
+          document
+            .querySelector('meta[property="twitter:image"]')
+            .setAttribute("content", safeUrl(primaryImage.src));
         }
 
-        async function renderArticle(article) {
-            document.title = `${article.title} - The Unverified File`;
-            document.querySelector('meta[name="description"]').setAttribute('content', article.ai_summary || article.excerpt || article.title);
-            document.querySelector('meta[property="og:title"]').setAttribute('content', article.title);
-            document.querySelector('meta[property="twitter:title"]').setAttribute('content', article.title);
-            const primaryImage = Array.isArray(article.images) ? article.images[0] : null;
-            if (primaryImage) {
-                document.getElementById('article-hero-image').src = safeUrl(primaryImage.src);
-                document.getElementById('article-hero-image').onerror = function () { this.onerror = null; this.src = 'splash.webp'; };
-                document.getElementById('article-hero-image').alt = primaryImage.alt || article.title;
-                document.querySelector('meta[property="og:image"]').setAttribute('content', safeUrl(primaryImage.src));
-                document.querySelector('meta[property="twitter:image"]').setAttribute('content', safeUrl(primaryImage.src));
-            }
-
-            document.getElementById('article-header').innerHTML = `
+        document.getElementById("article-header").innerHTML = `
                 <div class="terminal-box rounded-2xl p-7 md:p-12 max-w-4xl mx-auto">
                     <div class="mb-4">
                         <span class="article-kicker inline-block px-4 py-2 bg-matrix-green/20 border border-matrix-green text-matrix-green rounded-full text-xs font-semibold mb-4">
@@ -385,7 +646,7 @@
                     <div class="article-deck flex flex-wrap items-center justify-center gap-6 text-gray-300 text-sm">
                         <div class="flex items-center gap-2">
                             <i class="fas fa-calendar"></i>
-                            <span>${new Date(article.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                            <span>${new Date(article.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</span>
                         </div>
                         <div class="flex items-center gap-2">
                             <i class="fas fa-user-robot"></i>
@@ -399,23 +660,27 @@
                 </div>
             `;
 
-            const bodyHtml = markdownToHtml(article.body || article.content || '');
+        const bodyHtml = markdownToHtml(article.body || article.content || "");
 
-            document.getElementById('article-content').innerHTML = `
+        document.getElementById("article-content").innerHTML = `
                 <div class="article-card bg-dark-charcoal/70 rounded-xl p-6 md:p-12 border border-white/5 shadow-2xl">
                     <div class="article-reading-column">
                         ${renderSummary(article)}
                         ${renderMedia(article.images)}
                         <div class="editorial-body">${bodyHtml}</div>
                     </div>
-                    ${article.source_urls && article.source_urls.length ? `
+                    ${
+                      article.source_urls && article.source_urls.length
+                        ? `
                     <hr class="border-matrix-green/30 my-8">
                     <div class="article-reading-column source-list mb-6">
                         <h3 class="article-kicker text-xs text-matrix-green mb-4">Source articles</h3>
                         <ol class="space-y-3 list-decimal ml-5">
-                            ${article.source_urls.map((u, index) => `<li class="pl-2 text-gray-500"><a href="${safeUrl(u)}" target="_blank" rel="noopener noreferrer" class="article-deck text-sm text-gray-300 hover:text-matrix-green">[${index + 1}] ${escapeHtml(new URL(u).hostname.replace(/^www\./, ''))}</a></li>`).join('')}
+                            ${article.source_urls.map((u, index) => `<li class="pl-2 text-gray-500"><a href="${safeUrl(u)}" target="_blank" rel="noopener noreferrer" class="article-deck text-sm text-gray-300 hover:text-matrix-green">[${index + 1}] ${escapeHtml(new URL(u).hostname.replace(/^www\./, ""))}</a></li>`).join("")}
                         </ol>
-                    </div>` : ''}
+                    </div>`
+                        : ""
+                    }
                     <hr class="border-matrix-green/30 my-8">
                     <div class="flex justify-between items-center">
                         <a href="blog.html" class="inline-block px-6 py-3 bg-charcoal border-2 border-matrix-green text-matrix-green hover:bg-matrix-green hover:text-charcoal font-semibold rounded-lg transition-colors">
@@ -434,26 +699,41 @@
                 <section id="article-connections" class="mt-14 bg-black/25 border-y border-matrix-green/20 py-10 px-4" aria-live="polite">
                     <div class="max-w-4xl mx-auto text-gray-400 article-deck"><i class="fas fa-circle-notch fa-spin mr-2"></i>Scanning the public archive for preliminary connections…</div>
                 </section>
+                <div id="article-community"></div>
             `;
-            await renderConnections(article);
-        }
+        await renderConnections(article);
+        UnverifiedCommunity.mount({
+          host: "#article-community",
+          type: "case",
+          id: `article-${article.slug}`,
+        });
+      }
 
-        async function loadArticle() {
-            const slug = new URLSearchParams(window.location.search).get('slug');
-            if (!slug) { showNotFound(); return; }
-            try {
-                const articles = await fetch('./api/articles.json', { cache: 'no-store' }).then(r => {
-                    if (!r.ok) throw new Error('not found');
-                    return r.json();
-                });
-                const article = articles.find(a => a.slug === slug);
-                if (article) { await renderArticle(article); return; }
-            } catch(e) { /* fall through to not-found */ }
-            showNotFound();
+      async function loadArticle() {
+        const slug = new URLSearchParams(window.location.search).get("slug");
+        if (!slug) {
+          showNotFound();
+          return;
         }
+        try {
+          const articles = await fetch("./api/articles.json", {
+            cache: "no-store",
+          }).then((r) => {
+            if (!r.ok) throw new Error("not found");
+            return r.json();
+          });
+          const article = articles.find((a) => a.slug === slug);
+          if (article) {
+            await renderArticle(article);
+            return;
+          }
+        } catch (e) {
+          /* fall through to not-found */
+        }
+        showNotFound();
+      }
 
-        document.addEventListener('DOMContentLoaded', loadArticle);
+      document.addEventListener("DOMContentLoaded", loadArticle);
     </script>
-
-</body>
+  </body>
 </html>

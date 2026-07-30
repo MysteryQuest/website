@@ -1,27 +1,230 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>The Unverified File — Evidence-first briefing</title>
-  <meta name="description" content="An evidence-first briefing on unexplained events: claims, sources, limitations, connections, and revisions.">
-  <link rel="canonical" href="https://unverifiedfile.com/">
-  <meta property="og:title" content="The Unverified File — Evidence-first briefing"><meta property="og:description" content="Claims documented. Evidence linked. Unknowns visible."><meta property="og:image" content="https://unverifiedfile.com/splash.webp">
-  <script src="https://cdn.tailwindcss.com"></script><script>tailwind.config={theme:{extend:{colors:{'matrix-green':'#43e08f','terminal-green':'#0a9461','cyber-red':'#ff6b7f','charcoal':'#101613','dark-charcoal':'#090c0b','cyber-yellow':'#f1c75b'},fontFamily:{orbitron:['Orbitron','monospace']}}}};</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="evidence-platform.css">
-</head>
-<body class="evidence-page pb-16 xl:pb-0"><a class="skip-link" href="#main">Skip to briefing</a><div id="header-container"></div>
-<main id="main">
-  <header class="page-hero"><div class="shell"><p class="eyebrow">The daily briefing · evidence first</p><h1 class="display">Uncertainty deserves better reporting.</h1><p class="lede">We document unusual claims without forcing a verdict. Every case separates the claim, the evidence, the source, plausible explanations, and what remains unknown.</p><div class="actions"><a class="action" href="case-files.html">Open case files</a><a class="action action-secondary" href="methodology.html">How the reporting works</a></div></div></header>
-  <section class="section"><div class="shell"><div class="meta"><span id="brief-date">LATEST REVIEWED CASE</span><span id="case-count">Loading publication record…</span></div><div id="lead-case" class="reading" aria-live="polite"><p class="empty">Loading the lead case…</p></div></div></section>
-  <section class="section"><div class="shell"><p class="eyebrow">Publication record</p><h2 class="section-title">What we can stand behind</h2><div id="published-grid" class="grid grid-3" aria-live="polite"></div></div></section>
-  <section class="section"><div class="shell"><div class="grid grid-2"><div><p class="eyebrow">Live evidence systems</p><h2 class="section-title">Explore the underlying records</h2><p class="lede">Case files are the reviewed narrative layer. The map, public archive, and UAP correlation lab expose the broader data and candidate connections.</p><div class="actions"><a class="action action-secondary" href="map.html">Evidence map</a><a class="action action-secondary" href="archive.html">Event archive</a><a class="action action-secondary" href="uap-alignments.html">UAP correlation lab</a></div></div><div class="card"><span class="badge">Important distinction</span><h3>Connections are leads, not proof.</h3><p>A shared location, date, phrase, or entity can justify review. It does not establish that two records describe the same event or cause.</p></div></div></div></section>
-  <section class="section"><div class="shell"><p class="eyebrow">In development</p><h2 class="section-title">Demonstration records</h2><p class="notice reading">These records preserve concepts from the former homepage. They are visibly labeled demonstrations because no source-level investigation has been published.</p><div id="demo-grid" class="grid grid-3" style="margin-top:1rem"></div></div></section>
-  <section class="section"><div class="shell grid grid-2"><div><p class="eyebrow">Community signal</p><h2 class="section-title">Help set the reporting queue</h2><p class="lede">Reader votes tell us what deserves attention. They do not decide what is true.</p><div class="actions"><a class="action" href="hoax.html">Review the community queue</a><a class="action action-secondary" href="investigations.html">See current rankings</a></div></div><div><p class="eyebrow">Broadcasts</p><h2 class="section-title">Watch with the sources open</h2><p class="lede">Video investigations remain available while we connect each episode to evidence and correction records.</p><div class="actions"><a class="action action-secondary" href="broadcasts.html">Browse broadcasts</a></div></div></div></section>
-</main><div id="footer-container"></div>
-<script src="js/header.js?v=20260723-evidence1"></script><script src="js/footer.js?v=20260723-evidence1"></script><script src="js/navigation.js"></script>
-<script>
-const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const card=c=>`<a class="card" href="${esc(c.url)}"><div class="meta"><span class="badge badge-${esc(c.status)}">${esc(c.status)}</span><span>${esc(c.topic)}</span><span>Updated ${esc(c.updated_at)}</span></div><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p></a>`;
-fetch('api/briefing.json?v=20260723-evidence1').then(r=>{if(!r.ok)throw Error('Briefing unavailable');return r.json()}).then(d=>{const lead=d.lead;document.getElementById('case-count').textContent=`${d.counts.published_cases} reviewed case · ${d.counts.demonstrations} demonstrations`;document.getElementById('brief-date').textContent=`UPDATED ${d.generated_at}`;document.getElementById('lead-case').innerHTML=lead?`<article><div class="meta"><span class="badge badge-published">Reviewed case</span><span>${esc(lead.topic)}</span><span>Updated ${esc(lead.updated_at)}</span></div><h2 class="section-title">${esc(lead.title)}</h2><p class="lede">${esc(lead.summary)}</p><div class="actions"><a class="action" href="${esc(lead.url)}">Read the evidence file</a></div></article>`:'<p class="empty">No reviewed case has been published.</p>';document.getElementById('published-grid').innerHTML=d.published.map(card).join('')||'<p class="empty">No reviewed cases yet.</p>';document.getElementById('demo-grid').innerHTML=d.demonstrations.map(card).join('')}).catch(e=>document.getElementById('lead-case').innerHTML=`<p class="empty">${esc(e.message)}</p>`);
-</script></body></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>The Unverified File — Evidence-first briefing</title>
+    <meta
+      name="description"
+      content="An evidence-first briefing on unexplained events: claims, sources, limitations, connections, and revisions."
+    />
+    <link rel="canonical" href="https://unverifiedfile.com/" />
+    <meta
+      property="og:title"
+      content="The Unverified File — Evidence-first briefing"
+    />
+    <meta
+      property="og:description"
+      content="Claims documented. Evidence linked. Unknowns visible."
+    />
+    <meta
+      property="og:image"
+      content="https://unverifiedfile.com/splash.webp"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "matrix-green": "#43e08f",
+              "terminal-green": "#0a9461",
+              "cyber-red": "#ff6b7f",
+              charcoal: "#101613",
+              "dark-charcoal": "#090c0b",
+              "cyber-yellow": "#f1c75b",
+            },
+            fontFamily: { orbitron: ["Orbitron", "monospace"] },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Orbitron:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="evidence-platform.css" />
+    <link rel="stylesheet" href="community.css" />
+  </head>
+  <body class="evidence-page pb-16 xl:pb-0">
+    <a class="skip-link" href="#main">Skip to briefing</a>
+    <div id="header-container"></div>
+    <main id="main">
+      <header class="page-hero">
+        <div class="shell">
+          <p class="eyebrow">The daily briefing · evidence first</p>
+          <h1 class="display">Uncertainty deserves better reporting.</h1>
+          <p class="lede">
+            We document unusual claims without forcing a verdict. Every case
+            separates the claim, the evidence, the source, plausible
+            explanations, and what remains unknown.
+          </p>
+          <div class="actions">
+            <a class="action" href="case-files.html">Open case files</a
+            ><a class="action action-secondary" href="methodology.html"
+              >How the reporting works</a
+            >
+          </div>
+        </div>
+      </header>
+      <section class="section">
+        <div class="shell">
+          <div class="meta">
+            <span id="brief-date">LATEST REVIEWED CASE</span
+            ><span id="case-count">Loading publication record…</span>
+          </div>
+          <div id="lead-case" class="reading" aria-live="polite">
+            <p class="empty">Loading the lead case…</p>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="shell">
+          <p class="eyebrow">Publication record</p>
+          <h2 class="section-title">What we can stand behind</h2>
+          <div id="published-grid" class="grid grid-3" aria-live="polite"></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="shell">
+          <div class="grid grid-2">
+            <div>
+              <p class="eyebrow">Live evidence systems</p>
+              <h2 class="section-title">Explore the underlying records</h2>
+              <p class="lede">
+                Case files are the reviewed narrative layer. The map, public
+                archive, and UAP correlation lab expose the broader data and
+                candidate connections.
+              </p>
+              <div class="actions">
+                <a class="action action-secondary" href="map.html"
+                  >Evidence map</a
+                ><a class="action action-secondary" href="archive.html"
+                  >Event archive</a
+                ><a class="action action-secondary" href="uap-alignments.html"
+                  >UAP correlation lab</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <span class="badge">Important distinction</span>
+              <h3>Connections are leads, not proof.</h3>
+              <p>
+                A shared location, date, phrase, or entity can justify review.
+                It does not establish that two records describe the same event
+                or cause.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="shell">
+          <p class="eyebrow">In development</p>
+          <h2 class="section-title">Demonstration records</h2>
+          <p class="notice reading">
+            These records preserve concepts from the former homepage. They are
+            visibly labeled demonstrations because no source-level investigation
+            has been published.
+          </p>
+          <div
+            id="demo-grid"
+            class="grid grid-3"
+            style="margin-top: 1rem"
+          ></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="shell grid grid-2">
+          <div>
+            <p class="eyebrow">Community signal</p>
+            <h2 class="section-title">Help set the reporting queue</h2>
+            <p class="lede">
+              Reader votes tell us what deserves attention. They do not decide
+              what is true.
+            </p>
+            <div class="actions">
+              <a class="action" href="hoax.html">Review the community queue</a
+              ><a class="action action-secondary" href="investigations.html"
+                >See current rankings</a
+              >
+            </div>
+          </div>
+          <div>
+            <p class="eyebrow">Broadcasts</p>
+            <h2 class="section-title">Watch with the sources open</h2>
+            <p class="lede">
+              Video investigations remain available while we connect each
+              episode to evidence and correction records.
+            </p>
+            <div class="actions">
+              <a class="action action-secondary" href="broadcasts.html"
+                >Browse broadcasts</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="footer-container"></div>
+    <script src="js/header.js?v=20260723-evidence1"></script>
+    <script src="js/footer.js?v=20260723-evidence1"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/community.js?v=20260724-community1"></script>
+    <script>
+      const esc = (v) =>
+        String(v ?? "").replace(
+          /[&<>"']/g,
+          (c) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            })[c],
+        );
+      const totals = (c) =>
+        `<div class="community-list-totals" data-community-totals data-target-type="case" data-target-id="${esc(c.id)}">Loading votes and comments…</div>`;
+      const card = (c) =>
+        `<a class="card" href="${esc(c.url)}"><div class="meta"><span class="badge badge-${esc(c.status)}">${esc(c.status)}</span><span>${esc(c.topic)}</span><span>Updated ${esc(c.updated_at)}</span></div><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p>${totals(c)}</a>`;
+      fetch("api/briefing.json?v=20260723-evidence1")
+        .then((r) => {
+          if (!r.ok) throw Error("Briefing unavailable");
+          return r.json();
+        })
+        .then((d) => {
+          const lead = d.lead;
+          document.getElementById("case-count").textContent =
+            `${d.counts.published_cases} reviewed case · ${d.counts.demonstrations} demonstrations`;
+          document.getElementById("brief-date").textContent =
+            `UPDATED ${d.generated_at}`;
+          document.getElementById("lead-case").innerHTML = lead
+            ? `<article><div class="meta"><span class="badge badge-published">Reviewed case</span><span>${esc(lead.topic)}</span><span>Updated ${esc(lead.updated_at)}</span></div><h2 class="section-title">${esc(lead.title)}</h2><p class="lede">${esc(lead.summary)}</p>${totals(lead)}<div class="actions"><a class="action" href="${esc(lead.url)}">Read the evidence file</a></div></article>`
+            : '<p class="empty">No reviewed case has been published.</p>';
+          document.getElementById("published-grid").innerHTML =
+            d.published.map(card).join("") ||
+            '<p class="empty">No reviewed cases yet.</p>';
+          document.getElementById("demo-grid").innerHTML = d.demonstrations
+            .map(card)
+            .join("");
+          UnverifiedCommunity.fillTotals();
+        })
+        .catch(
+          (e) =>
+            (document.getElementById("lead-case").innerHTML =
+              `<p class="empty">${esc(e.message)}</p>`),
+        );
+    </script>
+  </body>
+</html>
